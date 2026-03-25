@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Generatore Schede Preposizioni',
     tagline: 'Crea schede sulle preposizioni spaziali con due modalità di esercizio in 11 lingue',
-    description: 'Insegna le parole di posizione attraverso esercizi basati su immagini che gli studenti apprezzano davvero. Questo strumento genera schede sulle preposizioni dove gli alunni identificano le relazioni spaziali — su, sotto, sopra, accanto, tra, dentro, fuori — osservando scene illustrate e completando o selezionando la preposizione corretta. Scegli tra due modalità di esercizio: Riempimento Spazi Vuoti, dove gli studenti scrivono la preposizione corretta autonomamente, o Scelta Multipla, dove scelgono tra un gruppo di opzioni con una riga di istruzioni personalizzabile. Imposta da 1 a 8 esercizi per scheda e seleziona esattamente quali preposizioni includere usando la griglia con caselle di controllo. La funzione distintiva dello strumento è la Sostituzione Forme — un livello di immagini separato ti permette di sostituire le forme della scena in modo indipendente, creando molte più combinazioni visive di quanto un singolo set di immagini potrebbe offrire. La sensibilità linguistica è integrata: passa dall\'italiano a una qualsiasi delle 11 lingue supportate e ogni parola di preposizione si aggiorna al suo equivalente nativo. Il tedesco usa „auf, unter, über, neben, zwischen, drinnen, draußen"; il francese usa «sur, sous, au-dessus, à côté, entre, dedans, dehors». Un design di scheda diventa 11 prodotti linguistici unici. Sfoglia oltre 3.100 immagini in 104 temi, carica le tue PNG o JPEG per design personalizzati e scegli tra diversi modelli e 7 famiglie di font. Esporta in PDF pronto per la stampa o JPEG ad alta risoluzione. La prova gratuita include una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Insegna le parole di posizione attraverso esercizi basati su immagini che gli utenti apprezzano davvero. Questo strumento genera schede sulle preposizioni dove gli utenti identificano le relazioni spaziali — su, sotto, sopra, accanto, tra, dentro, fuori — osservando scene illustrate e completando o selezionando la preposizione corretta. Scegli tra due modalità di esercizio: Riempimento Spazi Vuoti, dove gli utenti scrivono la preposizione corretta autonomamente, o Scelta Multipla, dove scelgono tra un gruppo di opzioni con una riga di istruzioni personalizzabile. Imposta da 1 a 8 esercizi per scheda e seleziona esattamente quali preposizioni includere usando la griglia con caselle di controllo. La funzione distintiva dello strumento è la Sostituzione Forme — un livello di immagini separato ti permette di sostituire le forme della scena in modo indipendente, creando molte più combinazioni visive di quanto un singolo set di immagini potrebbe offrire. La sensibilità linguistica è integrata: passa dall\'italiano a una qualsiasi delle 11 lingue supportate e ogni parola di preposizione si aggiorna al suo equivalente nativo. Il tedesco usa „auf, unter, über, neben, zwischen, drinnen, draußen"; il francese usa «sur, sous, au-dessus, à côté, entre, dedans, dehors». Un design di scheda diventa 11 prodotti linguistici unici. Sfoglia oltre 3.100 immagini in 104 temi, carica le tue PNG o JPEG per design personalizzati e scegli tra diversi modelli e 7 famiglie di font. Esporta in PDF pronto per la stampa o JPEG ad alta risoluzione. La prova gratuita include una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
   },
 
   tutorial: {
@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: 'Scegli la modalità di esercizio',
-        description: 'Seleziona Riempimento Spazi Vuoti o Scelta Multipla. La modalità Riempimento Spazi Vuoti presenta una scena illustrata con una riga vuota dove gli studenti scrivono la preposizione corretta. La modalità Scelta Multipla mostra opzioni tra cui gli studenti scelgono, con una riga di descrizione personalizzabile che puoi modificare secondo il tuo stile didattico. Riempimento Spazi Vuoti è ideale per studenti più grandi; Scelta Multipla funziona meglio per i principianti.',
+        description: 'Seleziona Riempimento Spazi Vuoti o Scelta Multipla. La modalità Riempimento Spazi Vuoti presenta una scena illustrata con una riga vuota dove gli utenti scrivono la preposizione corretta. La modalità Scelta Multipla mostra opzioni tra cui gli utenti scelgono, con una riga di descrizione personalizzabile che puoi modificare secondo il tuo stile didattico. Riempimento Spazi Vuoti è ideale per utenti più grandi; Scelta Multipla funziona meglio per i principianti.',
       },
       {
         title: 'Seleziona le preposizioni',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Pacchetti preposizioni a tema',
-      description: 'Crea set di 10–15 schede sulle preposizioni usando collezioni di immagini tematiche — animali, veicoli, oggetti domestici, scene naturali. Ogni scheda utilizza immagini e combinazioni di forme diverse a un livello di difficoltà costante. Raggruppa per tema e vendi su Etsy o Teachers Pay Teachers. Il formato scena-immagine rende le miniature delle tue inserzioni visivamente accattivanti rispetto alle classiche schede grammaticali con solo testo. I pacchetti tematici incoraggiano anche acquisti ripetuti: un acquirente che apprezza il tuo pacchetto preposizioni con animali tornerà probabilmente per veicoli o festività, costruendo fedeltà a lungo termine per il tuo negozio.',
+      description: 'Crea set di 10–15 schede sulle preposizioni usando collezioni di immagini tematiche — animali, veicoli, oggetti domestici, scene naturali. Ogni scheda utilizza immagini e combinazioni di forme diverse a un livello di difficoltà costante. Raggruppa per tema e vendi su Etsy o Gumroad. Il formato scena-immagine rende le miniature delle tue inserzioni visivamente accattivanti rispetto ai negoziche schede grammaticali con solo testo. I pacchetti tematici incoraggiano anche acquisti ripetuti: un acquirente che apprezza il tuo pacchetto preposizioni con animali tornerà probabilmente per veicoli o festività, costruendo fedeltà a lungo termine per il tuo negozio.',
     },
     {
       title: 'Libri di attività spaziali per KDP',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Set con modalità differenziata',
-      description: 'Genera due versioni di ogni scheda a tema: Scelta Multipla per alunni più piccoli o in difficoltà, e Riempimento Spazi Vuoti per studenti pronti al richiamo autonomo. Gli insegnanti possono consegnare la versione giusta a ogni studente in base al suo livello. Vendi come pacchetto differenziato a un prezzo premium su TpT o Etsy.',
+      description: 'Genera due versioni di ogni scheda a tema: Scelta Multipla per utenti più piccoli o in difficoltà, e Riempimento Spazi Vuoti per utenti pronti al richiamo autonomo. i venditori possono consegnare la versione giusta a ogni utente in base al suo livello. Vendi come pacchetto scalato per livello a un prezzo premium su Gumroad o Etsy.',
     },
     {
       title: 'Prodotti preposizioni multilingue',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Pacchetti preposizioni stagionali',
-      description: 'Usa temi di immagini festivi e stagionali per creare pacchetti a tempo limitato. Un pacchetto "Preposizioni di Natale" con scene festive — regali sotto l\'albero, stelle sopra la casa, caramelle dentro la calza — vende molto bene a novembre-dicembre. Rientro a scuola, Halloween e temi primaverili hanno ciascuno le proprie finestre di picco vendite su Etsy e TpT.',
+      description: 'Usa temi di immagini festivi e stagionali per creare pacchetti a tempo limitato. Un pacchetto "Preposizioni di Natale" con scene festive — regali sotto l\'albero, stelle sopra la casa, caramelle dentro la calza — vende molto bene a novembre-dicembre. Rientro a scuola, Halloween e temi primaverili hanno ciascuno le proprie finestre di picco vendite su Etsy e Gumroad.',
     },
   ],
 
@@ -101,35 +101,35 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Pacchetti grammaticali su Teachers Pay Teachers',
-      description: 'Carica pacchetti di schede sulle preposizioni su TpT organizzati per difficoltà e modalità di esercizio. Includi set Riempimento Spazi Vuoti, set Scelta Multipla e pacchetti modalità mista con fogli risposte per ogni pagina. Gli insegnanti cercano frequentemente "schede preposizioni" e "attività linguaggio spaziale". Il formato scena-immagine aggiunge valore percepito perché gli studenti interagiscono con contesto visivo anziché frasi astratte da completare.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Pacchetti grammaticali su Gumroad',
+      description: 'Carica pacchetti di schede sulle preposizioni su Gumroad organizzati per difficoltà e modalità di esercizio. Includi set Riempimento Spazi Vuoti, set Scelta Multipla e pacchetti modalità mista con fogli risposte per ogni pagina. i venditori cercano frequentemente "schede preposizioni" e "attività linguaggio spaziale". Il formato scena-immagine aggiunge valore percepito perché gli utenti interagiscono con contesto visivo anziché frasi astratte da completare.',
+      platform: 'Gumroad',
     },
     {
       title: 'Kit preposizioni doppia modalità su Gumroad',
-      description: 'Crea kit premium sulle preposizioni su Gumroad che includono sia la versione Riempimento Spazi Vuoti che Scelta Multipla di ogni scheda, più fogli risposte e una guida all\'uso. Raggruppa 5–11 versioni linguistiche in un singolo prodotto multilingue. Rivolgiti a insegnanti ESL, famiglie bilingui e scuole internazionali che necessitano di materiali sul linguaggio spaziale in più lingue.',
+      description: 'Crea kit premium sulle preposizioni su Gumroad che includono sia la versione Riempimento Spazi Vuoti che Scelta Multipla di ogni scheda, più fogli risposte e una guida all\'uso. Raggruppa 5–11 versioni linguistiche in un singolo prodotto multilingue. Rivolgiti a venditori ESL, famiglie bilingui e scuole internazionali che necessitano di materiali sul linguaggio spaziale in più lingue.',
       platform: 'Gumroad',
     },
     {
       title: 'Funnel Pinterest con scene preposizioni',
-      description: 'Il formato colorato scena-immagine crea pin accattivanti — un gatto seduto SU una scatola o una palla SOTTO un tavolo è immediatamente riconoscibile e cattura l\'attenzione nello scorrimento. Pinna un campione di prova gratuita con filigrana di 3 pagine con entrambe le modalità di esercizio, raccogli indirizzi email, poi proponi i tuoi pacchetti completi tematici e multilingue. Le immagini di preposizioni basate su scene ricevono significativamente più salvataggi rispetto alle classiche schede grammaticali di solo testo.',
+      description: 'Il formato colorato scena-immagine crea pin accattivanti — un gatto seduto SU una scatola o una palla SOTTO un tavolo è immediatamente riconoscibile e cattura l\'attenzione nello scorrimento. Pinna un campione di prova gratuita con filigrana di 3 pagine con entrambe le modalità di esercizio, raccogli indirizzi email, poi proponi i tuoi pacchetti completi tematici e multilingue. Le immagini di preposizioni basate su scene ricevono significativamente più salvataggi rispetto ai negoziche schede grammaticali di solo testo.',
       platform: 'Pinterest',
     },
     {
       title: 'Mega pacchetti con Sostituzione Forme su Etsy',
-      description: 'Sfrutta la funzione Sostituzione Forme per creare pacchetti varietà enormi. Combina 10 immagini principali con 10 forme diverse per produrre 100 scene di esercizio uniche da soli 20 file sorgente. Vendi questi come "Mega Pacchetto Preposizioni da 100 Pagine" su Etsy — il volume giustifica un prezzo premium, e la varietà visiva mantiene gli studenti coinvolti per tutto il quaderno.',
+      description: 'Sfrutta la funzione Sostituzione Forme per creare pacchetti varietà enormi. Combina 10 immagini principali con 10 forme diverse per produrre 100 scene di esercizio uniche da soli 20 file sorgente. Vendi questi come "Mega Pacchetto Preposizioni da 100 Pagine" su Etsy — il volume giustifica un prezzo premium, e la varietà visiva mantiene gli utenti coinvolti per tutto il quaderno.',
       platform: 'Etsy',
     },
   ],
 
   proTips: [
     {
-      title: 'Usa Riempimento Spazi Vuoti per studenti più grandi',
-      description: 'La modalità Riempimento Spazi Vuoti richiede richiamo attivo — gli studenti devono produrre la preposizione corretta dalla memoria, non semplicemente riconoscerla. Questo è ideale per la seconda classe in su e per studenti ESL che già conoscono le parole di posizione ma necessitano pratica di scrittura. Rende anche le schede più difficili da indovinare, aumentando il valore educativo. Su Etsy e TpT, le inserzioni che enfatizzano l\'apprendimento basato sul richiamo attirano costantemente insegnanti alla ricerca di pratica rigorosa sul linguaggio spaziale piuttosto che semplici esercizi di riconoscimento, quindi evidenziare questa modalità nelle descrizioni dei prodotti può aumentare le conversioni.',
+      title: 'Usa Riempimento Spazi Vuoti per utenti più grandi',
+      description: 'La modalità Riempimento Spazi Vuoti richiede richiamo attivo — gli utenti devono produrre la preposizione corretta dalla memoria, non semplicemente riconoscerla. Questo è ideale per la seconda classe in su e per utenti ESL che già conoscono le parole di posizione ma necessitano pratica di scrittura. Rende anche le schede più difficili da indovinare, aumentando il valore educativo. Su Etsy e Gumroad, le inserzioni che enfatizzano l\'apprendimento basato sul richiamo attirano costantemente venditori alla ricerca di pratica rigorosa sul linguaggio spaziale piuttosto che semplici esercizi di riconoscimento, quindi evidenziare questa modalità nelle descrizioni dei prodotti può aumentare le conversioni.',
     },
     {
       title: 'Usa Scelta Multipla per principianti',
-      description: 'La modalità Scelta Multipla offre agli alunni più piccoli o agli studenti ESL iniziali un\'esperienza guidata. Vedono la risposta corretta tra le opzioni, riducendo la frustrazione. Personalizza il testo delle istruzioni per adattarlo al tuo stile didattico. Inizia con 3–4 esercizi per pagina per evitare di sopraffare i nuovi studenti. Questo formato guidato è particolarmente popolare tra i genitori che acquistano stampabili per l\'uso domestico, rendendolo un forte venditore su Etsy dove i materiali educativi adatti alle famiglie si posizionano costantemente bene nei risultati di ricerca.',
+      description: 'La modalità Scelta Multipla offre agli utenti più piccoli o agli utenti ESL iniziali un\'esperienza guidata. Vedono la risposta corretta tra le opzioni, riducendo la frustrazione. Personalizza il testo delle istruzioni per adattarlo al tuo stile didattico. Inizia con 3–4 esercizi per pagina per evitare di sopraffare i nuovi utenti. Questo formato guidato è particolarmente popolare tra i genitori che acquistano stampabili per l\'uso domestico, rendendolo un forte venditore su Etsy dove i materiali educativi adatti alle famiglie si posizionano costantemente bene nei risultati di ricerca.',
     },
     {
       title: 'Vai multilingue per 11 volte i prodotti',
@@ -137,11 +137,11 @@ const content: ToolContent = {
     },
     {
       title: 'Raggruppa entrambe le modalità in un prodotto',
-      description: 'Combina schede Riempimento Spazi Vuoti e Scelta Multipla in un unico pacchetto. Gli insegnanti adorano pacchetti differenziati che possono distribuire a studenti a livelli diversi. Un "Pacchetto Preposizioni Completo" con entrambe le modalità, fogli risposte e una guida per l\'insegnante ha un prezzo più alto rispetto a ciascuna modalità venduta separatamente. I pacchetti doppia modalità riducono anche le richieste di rimborso perché gli acquirenti sentono di avere una copertura completa, e i fogli risposte inclusi risparmiano tempo di preparazione agli insegnanti — un punto di vendita da evidenziare nel testo dell\'inserzione.',
+      description: 'Combina schede Riempimento Spazi Vuoti e Scelta Multipla in un unico pacchetto. i venditori adorano pacchetti scalati per livello che possono distribuire a utenti a livelli diversi. Un "Pacchetto Preposizioni Completo" con entrambe le modalità, fogli risposte e una guida per l\'venditore ha un prezzo più alto rispetto a ciascuna modalità venduta separatamente. I pacchetti doppia modalità riducono anche le richieste di rimborso perché gli acquirenti sentono di avere una copertura completa, e i fogli risposte inclusi risparmiano tempo di preparazione ai venditori — un punto di vendita da evidenziare nel testo dell\'inserzione.',
     },
     {
       title: 'Usa Scala di Grigi per KDP e stampa in blocco',
-      description: 'Attiva l\'opzione scala di grigi per schede destinate agli interni Amazon KDP o alla stampa in blocco in classe. Le scene in bianco e nero costano significativamente meno da stampare. Riserva la modalità colore per le anteprime delle inserzioni Etsy e i download digitali dove immagini vivaci attirano i clic. Molti venditori KDP esperti pubblicano sia un\'edizione digitale a colori che un\'edizione stampata in scala di grigi dello stesso quaderno, raddoppiando effettivamente il loro catalogo da una singola sessione di design senza creare nuovi contenuti.',
+      description: 'Attiva l\'opzione scala di grigi per schede destinate agli interni Amazon KDP o alla stampa in blocco online. Le scene in bianco e nero costano significativamente meno da stampare. Riserva la modalità colore per le anteprime delle inserzioni Etsy e i download digitali dove immagini vivaci attirano i clic. Molti venditori KDP esperti pubblicano sia un\'edizione digitale a colori che un\'edizione stampata in scala di grigi dello stesso quaderno, raddoppiando effettivamente il loro catalogo da una singola sessione di design senza creare nuovi contenuti.',
     },
     {
       title: 'Carica immagini personalizzate per il branding',
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Come funzionano le due modalità di esercizio?',
-      answer: 'La modalità Riempimento Spazi Vuoti mostra una scena illustrata con una riga vuota dove gli studenti scrivono la preposizione corretta (su, sotto, sopra, ecc.). La modalità Scelta Multipla presenta la stessa scena ma con opzioni selezionabili tra cui gli studenti scelgono la risposta giusta. Puoi personalizzare il testo delle istruzioni nella modalità Scelta Multipla per adattarlo al tuo stile didattico.',
+      answer: 'La modalità Riempimento Spazi Vuoti mostra una scena illustrata con una riga vuota dove gli utenti scrivono la preposizione corretta (su, sotto, sopra, ecc.). La modalità Scelta Multipla presenta la stessa scena ma con opzioni selezionabili tra cui gli utenti scelgono la risposta giusta. Puoi personalizzare il testo delle istruzioni nella modalità Scelta Multipla per adattarlo al tuo stile didattico.',
     },
     {
       question: 'Come funziona la selezione delle preposizioni?',
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'Quanti esercizi posso mettere su una pagina?',
-      answer: 'Puoi impostare da 1 a 8 esercizi per scheda. Meno esercizi per pagina danno a ogni scena più spazio visivo, il che funziona bene per studenti più piccoli. Più esercizi per pagina creano schede più dense adatte a studenti più grandi o pratica a tempo. Il layout si adatta automaticamente al numero di esercizi e alla dimensione della pagina. I venditori spesso creano due versioni dello stesso pacchetto — un layout spazioso con 3 esercizi per le classi più piccole e un layout compatto con 6 esercizi per gli studenti più grandi — poi raggruppano entrambe le versioni insieme a un prezzo premium.',
+      answer: 'Puoi impostare da 1 a 8 esercizi per scheda. Meno esercizi per pagina danno a ogni scena più spazio visivo, il che funziona bene per utenti più piccoli. Più esercizi per pagina creano schede più dense adatte a utenti più grandi o pratica a tempo. Il layout si adatta automaticamente al numero di esercizi e alla dimensione della pagina. I venditori spesso creano due versioni dello stesso pacchetto — un layout spazioso con 3 esercizi per i negozi più piccole e un layout compatto con 6 esercizi per gli utenti più grandi — poi raggruppano entrambe le versioni insieme a un prezzo premium.',
     },
     {
       question: 'Posso caricare le mie immagini?',
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: 'Posso usare le schede per scopi commerciali?',
-      answer: 'La prova gratuita con filigrana è solo per uso personale e didattico. Per vendere le schede su Etsy, Teachers Pay Teachers, Amazon KDP o qualsiasi altro marketplace, è necessaria una licenza commerciale. La licenza commerciale rimuove la filigrana e concede pieni diritti di rivendita per le schede che crei.',
+      answer: 'La prova gratuita con filigrana è solo per uso personale e didattico. Per vendere le schede su Etsy, Gumroad, Amazon KDP o qualsiasi altro marketplace, è necessaria una licenza commerciale. La licenza commerciale rimuove la filigrana e concede pieni diritti di rivendita per le schede che crei.',
     },
     {
       question: 'Quali formati di file posso scaricare?',

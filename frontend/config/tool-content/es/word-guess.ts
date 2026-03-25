@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Generador de Fichas de Adivinar Palabras',
     tagline: 'Crea fichas de ortografía con imágenes, 4 niveles de pista y 11 idiomas',
-    description: 'Convierte la práctica de vocabulario en un puzzle visual que los alumnos disfrutan resolver. Esta herramienta genera fichas de adivinar palabras donde una pista con imagen se combina con una cuadrícula de letras con espacios en blanco — los alumnos observan la imagen y completan las letras que faltan para deletrear la palabra que representa. La función estrella es un sistema progresivo de 4 niveles de pista: Sin Pistas no revela ninguna letra para recuerdo puro, Fácil revela la mitad de las letras para aprendices principiantes, Normal revela un cuarto para un desafío equilibrado, y Difícil revela solo un sexto para alumnos seguros de su ortografía. Elige entre dos modos de entrada: el modo Pista con Imagen extrae vocabulario de más de 3.100 imágenes en 104 colecciones temáticas con generación automática de cuadrículas de letras, o el modo Lista de Palabras Personalizada te permite escribir cualquier palabra directamente para práctica de vocabulario específica sin imágenes. La función Excluir Letras elimina letras específicas de las cuadrículas — excluye vocales para ejercicios centrados en fonética o excluye letras comunes para un desafío mayor. La sensibilidad lingüística está integrada: cambia del español a cualquiera de los 11 idiomas disponibles y la misma imagen produce una ortografía correcta diferente. Una imagen de perro genera «PERRO» en español, «DOG» en inglés, «HUND» en alemán, «CHIEN» en francés. Un solo diseño de ficha se convierte en 11 productos lingüísticos únicos con respuestas genuinamente diferentes. Configura la salida en mayúsculas o minúsculas, activa la numeración de ejercicios, añade superposiciones de texto personalizadas y elige entre 7 familias tipográficas. Exporta como PDF listo para imprimir o JPEG de alta resolución con generación opcional de clave de respuestas. La prueba gratuita incluye una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
+    description: 'Convierte la práctica de vocabulario en un puzzle visual que los usuarios disfrutan resolver. Esta herramienta genera fichas de adivinar palabras donde una pista con imagen se combina con una cuadrícula de letras con espacios en blanco — los usuarios observan la imagen y completan las letras que faltan para deletrear la palabra que representa. La función estrella es un sistema progresivo de 4 niveles de pista: Sin Pistas no revela ninguna letra para recuerdo puro, Fácil revela la mitad de las letras para aprendices principiantes, Normal revela un cuarto para un desafío equilibrado, y Difícil revela solo un sexto para usuarios seguros de su ortografía. Elige entre dos modos de entrada: el modo Pista con Imagen extrae vocabulario de más de 3.100 imágenes en 104 colecciones temáticas con generación automática de cuadrículas de letras, o el modo Lista de Palabras Personalizada te permite escribir cualquier palabra directamente para práctica de vocabulario específica sin imágenes. La función Excluir Letras elimina letras específicas de las cuadrículas — excluye vocales para ejercicios centrados en fonética o excluye letras comunes para un desafío mayor. La sensibilidad lingüística está integrada: cambia del español a cualquiera de los 11 idiomas disponibles y la misma imagen produce una ortografía correcta diferente. Una imagen de perro genera «PERRO» en español, «DOG» en inglés, «HUND» en alemán, «CHIEN» en francés. Un solo diseño de ficha se convierte en 11 productos lingüísticos únicos con respuestas genuinamente diferentes. Configura la salida en mayúsculas o minúsculas, activa la numeración de ejercicios, añade superposiciones de texto personalizadas y elige entre 7 familias tipográficas. Exporta como PDF listo para imprimir o JPEG de alta resolución con generación opcional de clave de respuestas. La prueba gratuita incluye una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
   },
 
   tutorial: {
@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Configurar el Nivel de Dificultad de Pistas',
-        description: 'Elige entre cuatro niveles de dificultad progresivos. Sin Pistas deja toda la cuadrícula en blanco para recuerdo puro — ideal para alumnos avanzados. Fácil revela la mitad de las letras, proporcionando andamiaje para aprendices que recién empiezan a deletrear. Normal revela un cuarto de las letras para un desafío equilibrado. Difícil revela solo un sexto de las letras para alumnos seguros que necesitan pistas mínimas. Mezcla niveles de dificultad entre páginas para crear packs de fichas diferenciadas.',
+        description: 'Elige entre cuatro niveles de dificultad progresivos. Sin Pistas deja toda la cuadrícula en blanco para recuerdo puro — ideal para usuarios avanzados. Fácil revela la mitad de las letras, proporcionando andamiaje para aprendices que recién empiezan a deletrear. Normal revela un cuarto de las letras para un desafío equilibrado. Difícil revela solo un sexto de las letras para usuarios seguros que necesitan pistas mínimas. Mezcla niveles de dificultad entre páginas para crear packs de fichas diferenciadas.',
       },
       {
         title: 'Seleccionar Imágenes y Tema',
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Configurar Excluir Letras, Mayúsculas y Numeración',
-        description: 'Usa la función Excluir Letras para eliminar letras específicas de las cuadrículas — por ejemplo, excluye todas las vocales para que los alumnos deban completarlas, creando un ejercicio centrado en fonética. Configura las letras en mayúsculas o minúsculas. Activa o desactiva la numeración de ejercicios. Añade una superposición de texto personalizada con instrucciones como «¡Completa las letras que faltan!» para guiar claramente a los alumnos.',
+        description: 'Usa la función Excluir Letras para eliminar letras específicas de las cuadrículas — por ejemplo, excluye todas las vocales para que los usuarios deban completarlas, creando un ejercicio centrado en fonética. Configura las letras en mayúsculas o minúsculas. Activa o desactiva la numeración de ejercicios. Añade una superposición de texto personalizada con instrucciones como «¡Completa las letras que faltan!» para guiar claramente a los usuarios.',
       },
       {
         title: 'Personalizar Fuentes, Texto y Lienzo',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Packs Temáticos de Adivinar Palabras',
-      description: 'Crea conjuntos de 10 a 15 fichas de adivinar palabras usando colecciones temáticas de imágenes — animales, comida, vehículos, escenas de la naturaleza. Cada ficha combina imágenes con cuadrículas de letras en un nivel de dificultad uniforme. Agrúpalos por tema y véndelos en Etsy o Teachers Pay Teachers. El formato de imagen más puzzle hace que las miniaturas de tus listings destaquen instantáneamente frente a fichas de ortografía simples.',
+      description: 'Crea conjuntos de 10 a 15 fichas de adivinar palabras usando colecciones temáticas de imágenes — animales, comida, vehículos, escenas de la naturaleza. Cada ficha combina imágenes con cuadrículas de letras en un nivel de dificultad uniforme. Agrúpalos por tema y véndelos en Etsy o Gumroad. El formato de imagen más puzzle hace que las miniaturas de tus listings destaquen instantáneamente frente a fichas de ortografía simples.',
     },
     {
       title: 'Cuadernos de Adivinar Palabras para KDP',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Conjuntos Diferenciados por Nivel de Pista',
-      description: 'Genera cuatro versiones de la misma ficha temática — una en cada nivel de pista: Sin Pistas, Fácil, Normal y Difícil. Los profesores pueden entregar la versión adecuada a cada alumno según su nivel. Véndelos como un pack diferenciado a un precio premium en TpT o Etsy. Cuatro niveles de dificultad desde una sola sesión de diseño, con claves de respuestas incluidas para cada versión.',
+      description: 'Genera cuatro versiones de la misma ficha temática — una en cada nivel de pista: Sin Pistas, Fácil, Normal y Difícil. Los vendedores pueden entregar la versión adecuada a cada usuario según su nivel. Véndelos como un pack diferenciado a un precio premium en Gumroad o Etsy. Cuatro niveles de dificultad desde una sola sesión de diseño, con claves de respuestas incluidas para cada versión.',
     },
     {
       title: 'Productos de Ortografía Multilingüe',
@@ -81,11 +81,11 @@ const content: ToolContent = {
     },
     {
       title: 'Fichas de Vocabulario con Lista Personalizada',
-      description: 'Usa el modo Lista de Palabras Personalizada para escribir vocabulario específico directamente: términos de ciencias, palabras de alta frecuencia, listas de dictado o vocabulario de idiomas extranjeros. No se necesitan imágenes — la herramienta genera cuadrículas de letras a partir de las palabras escritas. Crea práctica de ortografía adaptada a cualquier currículo, nivel escolar o tema de nicho que la biblioteca de imágenes no cubra.',
+      description: 'Usa el modo Lista de Palabras Personalizada para escribir vocabulario específico directamente: términos de ciencias, palabras de alta frecuencia, listas de dictado o vocabulario de idiomas extranjeros. No se necesitan imágenes — la herramienta genera cuadrículas de letras a partir de las palabras escritas. Crea práctica de ortografía adaptada a cualquier catálogo de productos, nivel escolar o tema de nicho que la biblioteca de imágenes no cubra.',
     },
     {
       title: 'Packs Estacionales de Ortografía',
-      description: 'Usa temas de imágenes festivas y estacionales para crear packs de edición limitada. Un pack de «Adivinar Palabras de Navidad» con vocabulario festivo — RENO, NIEVE, REGALO — se vende muy bien en noviembre y diciembre. Vuelta al cole, Halloween y primavera tienen sus propias ventanas de ventas pico en Etsy y TpT. El formato de puzzle visual hace que los productos estacionales se sientan frescos y atractivos.',
+      description: 'Usa temas de imágenes festivas y estacionales para crear packs de edición limitada. Un pack de «Adivinar Palabras de Navidad» con vocabulario festivo — RENO, NIEVE, REGALO — se vende muy bien en noviembre y diciembre. Vuelta al cole, Halloween y primavera tienen sus propias ventanas de ventas pico en Etsy y Gumroad. El formato de puzzle visual hace que los productos estacionales se sientan frescos y atractivos.',
     },
   ],
 
@@ -97,17 +97,17 @@ const content: ToolContent = {
     },
     {
       title: 'Cuadernos Progresivos de Deletreo en Amazon KDP',
-      description: 'Compila más de 80 páginas de adivinar palabras en un cuaderno de actividades físico para Amazon KDP. Estructura los capítulos por dificultad: nivel Fácil primero para calentamiento, Normal para la sección principal, Difícil para el capítulo de desafío y Sin Pistas para la sección bonus de expertos. Incluye claves de respuestas al final. Publica ediciones separadas por idioma para multiplicar tu catálogo. El sistema de 4 niveles da a tu libro una progresión clara que padres y profesores valoran.',
+      description: 'Compila más de 80 páginas de adivinar palabras en un cuaderno de actividades físico para Amazon KDP. Estructura los capítulos por dificultad: nivel Fácil primero para calentamiento, Normal para la sección principal, Difícil para el capítulo de desafío y Sin Pistas para la sección bonus de expertos. Incluye claves de respuestas al final. Publica ediciones separadas por idioma para multiplicar tu catálogo. El sistema de 4 niveles da a tu libro una progresión clara que padres y vendedores valoran.',
       platform: 'Amazon KDP',
     },
     {
-      title: 'Packs Diferenciados en Teachers Pay Teachers',
-      description: 'Sube packs de fichas de adivinar palabras a TpT organizados por tema y nivel de dificultad. Incluye los cuatro niveles de pista para cada tema, más claves de respuestas para cada página. Los profesores buscan frecuentemente «fichas de ortografía» y «actividades de deletreo». La diferenciación de 4 niveles significa que un solo producto sirve para toda un aula de habilidades mixtas, algo que los profesores valoran mucho en las reseñas.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Packs Diferenciados en Gumroad',
+      description: 'Sube packs de fichas de adivinar palabras a Gumroad organizados por tema y nivel de dificultad. Incluye los cuatro niveles de pista para cada tema, más claves de respuestas para cada página. Los vendedores buscan frecuentemente «fichas de ortografía» y «actividades de deletreo». La diferenciación de 4 niveles significa que un solo producto sirve para toda un tienda de habilidades mixtas, algo que los vendedores valoran mucho en las reseñas.',
+      platform: 'Gumroad',
     },
     {
       title: 'Kits de Fonética en Gumroad',
-      description: 'Crea kits premium de fonética en Gumroad que usen la función Excluir Letras estratégicamente — excluye vocales para ejercicios centrados en vocales, excluye combinaciones de consonantes para práctica de mezclas. Combina con fichas de Lista de Palabras Personalizada dirigidas a patrones fonéticos específicos. Incluye una guía docente explicando cómo cada patrón de exclusión trabaja una habilidad fonética diferente. Véndelos a padres que educan en casa y profesores de español como segunda lengua.',
+      description: 'Crea kits premium de fonética en Gumroad que usen la función Excluir Letras estratégicamente — excluye vocales para ejercicios centrados en vocales, excluye combinaciones de consonantes para práctica de mezclas. Combina con fichas de Lista de Palabras Personalizada dirigidas a patrones fonéticos específicos. Incluye una guía vendedor explicando cómo cada patrón de exclusión trabaja una habilidad fonética diferente. Véndelos a emprendedores y vendedores de español como segunda lengua.',
       platform: 'Gumroad',
     },
     {
@@ -117,15 +117,15 @@ const content: ToolContent = {
     },
     {
       title: 'Packs de Vocabulario de Doble Modo en Etsy',
-      description: 'Aprovecha ambos modos de entrada para crear packs de vocabulario completos. Usa el modo Pista con Imagen para construcción visual de vocabulario y el modo Lista de Palabras Personalizada para palabras de ortografía alineadas con el currículo. Combina ambos en un solo producto: «Kit Completo de Práctica de Ortografía — Visual + Escrita». El enfoque de doble modo justifica un precio premium y sirve tanto a alumnos visuales como a los tradicionales.',
+      description: 'Aprovecha ambos modos de entrada para crear packs de vocabulario completos. Usa el modo Pista con Imagen para construcción visual de vocabulario y el modo Lista de Palabras Personalizada para palabras de ortografía alineadas con el catálogo de productos. Combina ambos en un solo producto: «Kit Completo de Práctica de Ortografía — Visual + Escrita». El enfoque de doble modo justifica un precio premium y sirve tanto a usuarios visuales como a los tradicionales.',
       platform: 'Etsy',
     },
   ],
 
   proTips: [
     {
-      title: 'Usa Sin Pistas para Alumnos Avanzados',
-      description: 'El modo Sin Pistas deja toda la cuadrícula de letras en blanco — los alumnos deben recordar la ortografía completa solo a partir de la imagen. Es una evaluación genuina de ortografía, no reconocimiento. Úsalo para alumnos mayores, exámenes de dictado o la sección final de «desafío» de un cuaderno progresivo.',
+      title: 'Usa Sin Pistas para Usuarios Avanzados',
+      description: 'El modo Sin Pistas deja toda la cuadrícula de letras en blanco — los usuarios deben recordar la ortografía completa solo a partir de la imagen. Es una evaluación genuina de ortografía, no reconocimiento. Úsalo para usuarios mayores, exámenes de dictado o la sección final de «desafío» de un cuaderno progresivo.',
     },
     {
       title: 'Usa el Modo Fácil para Principiantes',
@@ -141,15 +141,15 @@ const content: ToolContent = {
     },
     {
       title: 'Usa Escala de Grises para KDP e Impresión Masiva',
-      description: 'Activa el interruptor de escala de grises para fichas destinadas a interiores de Amazon KDP o impresión masiva en el aula. La salida en blanco y negro cuesta significativamente menos de imprimir. Reserva el modo a color para vistas previas de listings en Etsy y descargas digitales donde las imágenes vibrantes atraen clics.',
+      description: 'Activa el interruptor de escala de grises para fichas destinadas a interiores de Amazon KDP o impresión masiva en línea. La salida en blanco y negro cuesta significativamente menos de imprimir. Reserva el modo a color para vistas previas de listings en Etsy y descargas digitales donde las imágenes vibrantes atraen clics.',
     },
     {
       title: 'Excluye Vocales para Práctica de Fonética',
-      description: 'Usa la función Excluir Letras para eliminar todas las vocales de la cuadrícula de letras. Los alumnos deben completar cada vocal por sí mismos, convirtiendo un ejercicio de ortografía en práctica de fonética dirigida. También puedes excluir consonantes específicas o combinaciones de letras para centrarte en habilidades fonéticas particulares.',
+      description: 'Usa la función Excluir Letras para eliminar todas las vocales de la cuadrícula de letras. Los usuarios deben completar cada vocal por sí mismos, convirtiendo un ejercicio de ortografía en práctica de fonética dirigida. También puedes excluir consonantes específicas o combinaciones de letras para centrarte en habilidades fonéticas particulares.',
     },
     {
       title: 'Combina con Otras Herramientas de Lectoescritura',
-      description: 'Combina fichas de adivinar palabras con generadores de palabras desordenadas, sopas de letras, fichas de escritura a mano y fichas de asociación para crear packs de ortografía completos. Un pack «Práctica Completa de Ortografía» con múltiples tipos de actividad se vende por más que cualquier formato individual y da a los alumnos práctica variada con el mismo vocabulario. Reutilizar las mismas imágenes temáticas en diferentes tipos de actividad también mantiene tu marca visual coherente, lo que refuerza el reconocimiento del comprador cuando navega por tu tienda.',
+      description: 'Combina fichas de adivinar palabras con generadores de palabras desordenadas, sopas de letras, fichas de escritura a mano y fichas de asociación para crear packs de ortografía completos. Un pack «Práctica Completa de Ortografía» con múltiples tipos de actividad se vende por más que cualquier formato individual y da a los usuarios práctica variada con el mismo vocabulario. Reutilizar las mismas imágenes temáticas en diferentes tipos de actividad también mantiene tu marca visual coherente, lo que refuerza el reconocimiento del comprador cuando navega por tu tienda.',
     },
   ],
 
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Cómo funcionan los cuatro niveles de dificultad de pistas?',
-      answer: 'Cada nivel controla cuántas letras se rellenan previamente en la cuadrícula. Sin Pistas deja la cuadrícula completamente en blanco para recuerdo puro. Fácil revela la mitad de las letras para principiantes con andamiaje. Normal revela un cuarto de las letras para un desafío equilibrado. Difícil revela solo un sexto de las letras para alumnos seguros de su ortografía. Puedes mezclar niveles entre páginas para crear packs diferenciados.',
+      answer: 'Cada nivel controla cuántas letras se rellenan previamente en la cuadrícula. Sin Pistas deja la cuadrícula completamente en blanco para recuerdo puro. Fácil revela la mitad de las letras para principiantes con andamiaje. Normal revela un cuarto de las letras para un desafío equilibrado. Difícil revela solo un sexto de las letras para usuarios seguros de su ortografía. Puedes mezclar niveles entre páginas para crear packs diferenciados.',
     },
     {
       question: '¿Cuáles son los dos modos de entrada?',
@@ -168,7 +168,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Qué hace la función Excluir Letras?',
-      answer: 'Excluir Letras elimina letras específicas de las posiciones prerrellenadas en la cuadrícula. Por ejemplo, excluye todas las vocales para que los alumnos deban completarlas, convirtiendo el ejercicio en práctica centrada en fonética. Puedes excluir cualquier combinación de letras para trabajar habilidades de ortografía específicas o aumentar la dificultad más allá de los cuatro niveles de pista estándar.',
+      answer: 'Excluir Letras elimina letras específicas de las posiciones prerrellenadas en la cuadrícula. Por ejemplo, excluye todas las vocales para que los usuarios deban completarlas, convirtiendo el ejercicio en práctica centrada en fonética. Puedes excluir cualquier combinación de letras para trabajar habilidades de ortografía específicas o aumentar la dificultad más allá de los cuatro niveles de pista estándar.',
     },
     {
       question: '¿Cómo funciona la sensibilidad lingüística?',
@@ -184,11 +184,11 @@ const content: ToolContent = {
     },
     {
       question: '¿La herramienta genera claves de respuestas?',
-      answer: 'Sí. La herramienta genera una hoja de clave de respuestas separada que muestra la ortografía correcta de cada ejercicio. Las claves de respuestas están disponibles en formatos PDF y JPEG. Cada nivel de dificultad tiene su propia clave de respuestas para que los profesores puedan verificar rápidamente el trabajo de los alumnos independientemente del nivel de pista asignado.',
+      answer: 'Sí. La herramienta genera una hoja de clave de respuestas separada que muestra la ortografía correcta de cada ejercicio. Las claves de respuestas están disponibles en formatos PDF y JPEG. Cada nivel de dificultad tiene su propia clave de respuestas para que los vendedores puedan verificar rápidamente el trabajo de los usuarios independientemente del nivel de pista asignado.',
     },
     {
       question: '¿Puedo usar las fichas con fines comerciales?',
-      answer: 'La prueba gratuita con marca de agua es solo para uso personal y educativo. Para vender fichas en Etsy, Teachers Pay Teachers, Amazon KDP o cualquier otro marketplace, necesitas una licencia comercial. La licencia comercial elimina la marca de agua y otorga derechos completos de reventa para las fichas que crees.',
+      answer: 'La prueba gratuita con marca de agua es solo para uso personal y educativo. Para vender fichas en Etsy, Gumroad, Amazon KDP o cualquier otro marketplace, necesitas una licencia comercial. La licencia comercial elimina la marca de agua y otorga derechos completos de reventa para las fichas que crees.',
     },
     {
       question: '¿En qué formatos de archivo puedo descargar?',

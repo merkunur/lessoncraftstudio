@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Generatore Schede Indovina Parole',
     tagline: 'Crea schede di spelling basate su immagini con 4 livelli di indizi in 11 lingue',
-    description: 'Trasforma la pratica del vocabolario in un puzzle visivo che gli studenti adorano risolvere. Questo strumento genera schede indovina parole dove un indizio immagine è abbinato a una griglia di lettere con spazi vuoti — gli studenti osservano l\'immagine e inseriscono le lettere mancanti per comporre la parola rappresentata. La caratteristica distintiva è un sistema progressivo a 4 livelli di indizi: Nessun Indizio non rivela alcuna lettera per un richiamo puro, Facile rivela metà delle lettere per guidare i principianti, Normale rivela un quarto per una sfida equilibrata, e Difficile rivela solo un sesto per speller sicuri. Scegli tra due modalità di input: la modalità Indizio Immagine attinge il vocabolario da oltre 3.100 immagini in 104 collezioni tematiche con generazione automatica della griglia di lettere, oppure la modalità Lista Parole Personalizzata ti permette di digitare qualsiasi parola direttamente per pratica mirata del vocabolario senza immagini. La funzione Escludi Lettere rimuove lettere specifiche dalle griglie — escludi le vocali per esercizi focalizzati sulla fonetica o escludi lettere comuni per una sfida più impegnativa. La sensibilità linguistica è integrata: passa dall\'italiano a una qualsiasi delle 11 lingue supportate e la stessa immagine produce una scrittura corretta diversa. Un\'immagine di cane genera "CANE" in italiano, "DOG" in inglese, "HUND" in tedesco, "CHIEN" in francese, "PERRO" in spagnolo. Un design di scheda diventa 11 prodotti linguistici unici con risposte genuinamente diverse. Imposta output in maiuscolo o minuscolo, attiva la numerazione degli esercizi, aggiungi sovrapposizioni di testo personalizzate e scegli tra 7 famiglie di font. Esporta in PDF pronto per la stampa o JPEG ad alta risoluzione con generazione opzionale del foglio risposte. La prova gratuita include una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Trasforma la pratica del vocabolario in un puzzle visivo che gli utenti adorano risolvere. Questo strumento genera schede indovina parole dove un indizio immagine è abbinato a una griglia di lettere con spazi vuoti — gli utenti osservano l\'immagine e inseriscono le lettere mancanti per comporre la parola rappresentata. La caratteristica distintiva è un sistema progressivo a 4 livelli di indizi: Nessun Indizio non rivela alcuna lettera per un richiamo puro, Facile rivela metà delle lettere per guidare i principianti, Normale rivela un quarto per una sfida equilibrata, e Difficile rivela solo un sesto per speller sicuri. Scegli tra due modalità di input: la modalità Indizio Immagine attinge il vocabolario da oltre 3.100 immagini in 104 collezioni tematiche con generazione automatica della griglia di lettere, oppure la modalità Lista Parole Personalizzata ti permette di digitare qualsiasi parola direttamente per pratica mirata del vocabolario senza immagini. La funzione Escludi Lettere rimuove lettere specifiche dalle griglie — escludi le vocali per esercizi focalizzati sulla fonetica o escludi lettere comuni per una sfida più impegnativa. La sensibilità linguistica è integrata: passa dall\'italiano a una qualsiasi delle 11 lingue supportate e la stessa immagine produce una scrittura corretta diversa. Un\'immagine di cane genera "CANE" in italiano, "DOG" in inglese, "HUND" in tedesco, "CHIEN" in francese, "PERRO" in spagnolo. Un design di scheda diventa 11 prodotti linguistici unici con risposte genuinamente diverse. Imposta output in maiuscolo o minuscolo, attiva la numerazione degli esercizi, aggiungi sovrapposizioni di testo personalizzate e scegli tra 7 famiglie di font. Esporta in PDF pronto per la stampa o JPEG ad alta risoluzione con generazione opzionale del foglio risposte. La prova gratuita include una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
   },
 
   tutorial: {
@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Imposta il livello di difficoltà degli indizi',
-        description: 'Scegli tra quattro livelli di difficoltà progressivi. Nessun Indizio lascia l\'intera griglia vuota per un richiamo puro — ideale per speller avanzati. Facile rivela metà delle lettere, fornendo supporto per i giovani studenti che iniziano a scrivere. Normale rivela un quarto delle lettere per una sfida equilibrata. Difficile rivela solo un sesto delle lettere per studenti sicuri che necessitano di indizi minimi. Mescola i livelli di difficoltà tra le pagine per creare pacchetti di schede differenziati.',
+        description: 'Scegli tra quattro livelli di difficoltà progressivi. Nessun Indizio lascia l\'intera griglia vuota per un richiamo puro — ideale per speller avanzati. Facile rivela metà delle lettere, fornendo supporto per i giovani utenti che iniziano a scrivere. Normale rivela un quarto delle lettere per una sfida equilibrata. Difficile rivela solo un sesto delle lettere per utenti sicuri che necessitano di indizi minimi. Mescola i livelli di difficoltà tra le pagine per creare pacchetti di schede differenziati.',
       },
       {
         title: 'Seleziona immagini e tema',
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Configura Escludi Lettere, maiuscole e numerazione',
-        description: 'Usa la funzione Escludi Lettere per rimuovere lettere specifiche dalle griglie — ad esempio, escludi tutte le vocali così gli studenti devono fornirle, creando un esercizio focalizzato sulla fonetica. Imposta le lettere in maiuscolo o minuscolo. Attiva o disattiva la numerazione degli esercizi. Aggiungi una sovrapposizione di testo personalizzata con istruzioni come "Inserisci le lettere mancanti!" per guidare chiaramente gli studenti.',
+        description: 'Usa la funzione Escludi Lettere per rimuovere lettere specifiche dalle griglie — ad esempio, escludi tutte le vocali così gli utenti devono fornirle, creando un esercizio focalizzato sulla fonetica. Imposta le lettere in maiuscolo o minuscolo. Attiva o disattiva la numerazione degli esercizi. Aggiungi una sovrapposizione di testo personalizzata con istruzioni come "Inserisci le lettere mancanti!" per guidare chiaramente gli utenti.',
       },
       {
         title: 'Personalizza font, testo e canvas',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Pacchetti indovina parole a tema',
-      description: 'Crea set di 10–15 schede indovina parole usando collezioni di immagini tematiche — animali, cibo, veicoli, scene naturali. Ogni scheda abbina immagini a griglie di lettere a un livello di difficoltà costante. Raggruppa per tema e vendi su Etsy o Teachers Pay Teachers. Il formato immagine-più-puzzle rende le miniature delle tue inserzioni immediatamente accattivanti rispetto alle classiche schede di spelling con solo testo.',
+      description: 'Crea set di 10–15 schede indovina parole usando collezioni di immagini tematiche — animali, cibo, veicoli, scene naturali. Ogni scheda abbina immagini a griglie di lettere a un livello di difficoltà costante. Raggruppa per tema e vendi su Etsy o Gumroad. Il formato immagine-più-puzzle rende le miniature delle tue inserzioni immediatamente accattivanti rispetto ai negoziche schede di spelling con solo testo.',
     },
     {
       title: 'Libri di attività indovina parole per KDP',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Set con livelli di indizi differenziati',
-      description: 'Genera quattro versioni della stessa scheda a tema — una per ogni livello di indizi: Nessun Indizio, Facile, Normale e Difficile. Gli insegnanti possono consegnare la versione giusta a ogni studente in base alle capacità. Vendi come pacchetto differenziato a un prezzo premium su TpT o Etsy. Quattro livelli di difficoltà da una singola sessione di design, con fogli risposte inclusi per ogni versione.',
+      description: 'Genera quattro versioni della stessa scheda a tema — una per ogni livello di indizi: Nessun Indizio, Facile, Normale e Difficile. i venditori possono consegnare la versione giusta a ogni utente in base alle capacità. Vendi come pacchetto scalato per livello a un prezzo premium su Gumroad o Etsy. Quattro livelli di difficoltà da una singola sessione di design, con fogli risposte inclusi per ogni versione.',
     },
     {
       title: 'Prodotti spelling multilingue',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Pacchetti spelling stagionali',
-      description: 'Usa temi di immagini festivi e stagionali per creare pacchetti a tempo limitato. Un pacchetto "Indovina Parole di Natale" con vocabolario festivo — RENNA, FIOCCO DI NEVE, REGALO — vende molto bene a novembre-dicembre. Rientro a scuola, Halloween e temi primaverili hanno ciascuno le proprie finestre di picco vendite su Etsy e TpT. Il formato puzzle visivo rende i prodotti stagionali freschi e coinvolgenti.',
+      description: 'Usa temi di immagini festivi e stagionali per creare pacchetti a tempo limitato. Un pacchetto "Indovina Parole di Natale" con vocabolario festivo — RENNA, FIOCCO DI NEVE, REGALO — vende molto bene a novembre-dicembre. Rientro a scuola, Halloween e temi primaverili hanno ciascuno le proprie finestre di picco vendite su Etsy e Gumroad. Il formato puzzle visivo rende i prodotti stagionali freschi e coinvolgenti.',
     },
   ],
 
@@ -97,17 +97,17 @@ const content: ToolContent = {
     },
     {
       title: 'Libri spelling progressivi per Amazon KDP',
-      description: 'Compila oltre 80 pagine indovina parole in un libro di attività fisico per Amazon KDP. Struttura i capitoli per difficoltà: livello Facile per il riscaldamento iniziale, Normale per la sezione centrale, Difficile per il capitolo di sfida e Nessun Indizio per la sezione bonus esperti. Includi fogli risposte in fondo. Pubblica edizioni separate per ogni lingua per moltiplicare il catalogo. Il sistema a 4 livelli dà al tuo libro una progressione chiara che genitori e insegnanti apprezzano.',
+      description: 'Compila oltre 80 pagine indovina parole in un libro di attività fisico per Amazon KDP. Struttura i capitoli per difficoltà: livello Facile per il riscaldamento iniziale, Normale per la sezione centrale, Difficile per il capitolo di sfida e Nessun Indizio per la sezione bonus esperti. Includi fogli risposte in fondo. Pubblica edizioni separate per ogni lingua per moltiplicare il catalogo. Il sistema a 4 livelli dà al tuo libro una progressione chiara che genitori e venditori apprezzano.',
       platform: 'Amazon KDP',
     },
     {
-      title: 'Pacchetti differenziati su Teachers Pay Teachers',
-      description: 'Carica pacchetti di schede indovina parole su TpT organizzati per tema e livello di difficoltà. Includi tutti e quattro i livelli di indizi per ogni tema, più fogli risposte per ogni pagina. Gli insegnanti cercano frequentemente "schede spelling" e "attività costruzione parole". La differenziazione a 4 livelli significa che un prodotto serve un\'intera classe di capacità miste, cosa che gli insegnanti apprezzano molto nelle recensioni.',
-      platform: 'Teachers Pay Teachers',
+      title: 'pacchetti scalati per livello su Gumroad',
+      description: 'Carica pacchetti di schede indovina parole su Gumroad organizzati per tema e livello di difficoltà. Includi tutti e quattro i livelli di indizi per ogni tema, più fogli risposte per ogni pagina. i venditori cercano frequentemente "schede spelling" e "attività costruzione parole". La differenziazione a 4 livelli significa che un prodotto serve un\'intero catalogo di capacità miste, cosa che i venditori apprezzano molto nelle recensioni.',
+      platform: 'Gumroad',
     },
     {
       title: 'Kit fonetica su Gumroad',
-      description: 'Crea kit premium di fonetica su Gumroad che usano la funzione Escludi Lettere strategicamente — escludi le vocali per esercizi focalizzati sulle vocali, escludi le consonanti doppie per pratica specifica. Abbina con schede Lista Parole Personalizzata che mirano a pattern fonetici specifici. Includi una guida per l\'insegnante che spiega come ogni pattern di esclusione mira a una competenza fonetica diversa. Vendi a genitori homeschooler e insegnanti di italiano come lingua straniera.',
+      description: 'Crea kit premium di fonetica su Gumroad che usano la funzione Escludi Lettere strategicamente — escludi le vocali per esercizi focalizzati sulle vocali, escludi le consonanti doppie per pratica specifica. Abbina con schede Lista Parole Personalizzata che mirano a pattern fonetici specifici. Includi una guida per l\'venditore che spiega come ogni pattern di esclusione mira a una competenza fonetica diversa. Vendi a genitori homeschooler e venditori di italiano come lingua straniera.',
       platform: 'Gumroad',
     },
     {
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Pacchetti vocabolario doppia modalità su Etsy',
-      description: 'Sfrutta entrambe le modalità di input per creare pacchetti vocabolario completi. Usa la modalità Indizio Immagine per la costruzione visiva del vocabolario e la modalità Lista Parole Personalizzata per parole di spelling allineate al curricolo. Raggruppa entrambe in un singolo prodotto: "Kit Pratica Spelling Completo — Visivo + Scritto." L\'approccio doppia modalità giustifica un prezzo premium e serve sia studenti visivi che tradizionali.',
+      description: 'Sfrutta entrambe le modalità di input per creare pacchetti vocabolario completi. Usa la modalità Indizio Immagine per la costruzione visiva del vocabolario e la modalità Lista Parole Personalizzata per parole di spelling allineate al curricolo. Raggruppa entrambe in un singolo prodotto: "Kit Pratica Spelling Completo — Visivo + Scritto." L\'approccio doppia modalità giustifica un prezzo premium e serve sia utenti visivi che tradizionali.',
       platform: 'Etsy',
     },
   ],
@@ -125,11 +125,11 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Usa Nessun Indizio per speller avanzati',
-      description: 'La modalità Nessun Indizio lascia l\'intera griglia di lettere vuota — gli studenti devono ricordare la scrittura completa solo dall\'immagine. Questa è una vera valutazione dello spelling, non semplice riconoscimento. Usala per studenti più grandi, test di spelling o la sezione "sfida" finale di un quaderno progressivo.',
+      description: 'La modalità Nessun Indizio lascia l\'intera griglia di lettere vuota — gli utenti devono ricordare la scrittura completa solo dall\'immagine. Questa è una vera valutazione dello spelling, non semplice riconoscimento. Usala per utenti più grandi, test di spelling o la sezione "sfida" finale di un quaderno progressivo.',
     },
     {
       title: 'Usa la modalità Facile per i principianti',
-      description: 'La modalità Facile rivela metà delle lettere, riducendo il carico cognitivo così i giovani studenti possono costruire fiducia. Vedono abbastanza della parola per riconoscere i pattern di spelling pur avendo spazi vuoti da completare. Inizia con bambini della scuola dell\'infanzia e studenti di italiano come lingua straniera prima di passare a Normale e Difficile.',
+      description: 'La modalità Facile rivela metà delle lettere, riducendo il carico cognitivo così i giovani utenti possono costruire fiducia. Vedono abbastanza della parola per riconoscere i pattern di spelling pur avendo spazi vuoti da completare. Inizia con bambini della scuola dell\'infanzia e utenti di italiano come lingua straniera prima di passare a Normale e Difficile.',
     },
     {
       title: 'Vai multilingue per 11 volte i prodotti',
@@ -141,15 +141,15 @@ const content: ToolContent = {
     },
     {
       title: 'Usa Scala di Grigi per KDP e stampa in blocco',
-      description: 'Attiva l\'opzione scala di grigi per schede destinate agli interni Amazon KDP o alla stampa in blocco in classe. L\'output in bianco e nero costa significativamente meno da stampare. Riserva la modalità colore per le anteprime delle inserzioni Etsy e i download digitali dove immagini vivaci attirano i clic.',
+      description: 'Attiva l\'opzione scala di grigi per schede destinate agli interni Amazon KDP o alla stampa in blocco online. L\'output in bianco e nero costa significativamente meno da stampare. Riserva la modalità colore per le anteprime delle inserzioni Etsy e i download digitali dove immagini vivaci attirano i clic.',
     },
     {
       title: 'Escludi le vocali per fonetica mirata',
-      description: 'Usa la funzione Escludi Lettere per rimuovere tutte le vocali dalla griglia di lettere. Gli studenti devono fornire ogni vocale autonomamente, trasformando un esercizio di spelling in pratica fonetica mirata. Puoi anche escludere consonanti specifiche o combinazioni di lettere per concentrarti su competenze fonetiche particolari.',
+      description: 'Usa la funzione Escludi Lettere per rimuovere tutte le vocali dalla griglia di lettere. gli utenti devono fornire ogni vocale autonomamente, trasformando un esercizio di spelling in pratica fonetica mirata. Puoi anche escludere consonanti specifiche o combinazioni di lettere per concentrarti su competenze fonetiche particolari.',
     },
     {
       title: 'Abbina con altri strumenti di alfabetizzazione',
-      description: 'Combina le schede indovina parole con parole mescolate, cerca parole, pratica di scrittura a mano e schede di abbinamento per creare pacchetti spelling completi. Un pacchetto "Pratica Spelling Completa" con più tipi di attività vende a un prezzo superiore rispetto a qualsiasi singolo formato di scheda e offre agli studenti pratica variegata con lo stesso vocabolario. Riutilizzare le stesse immagini a tema tra diversi tipi di attività mantiene anche il branding visivo coerente, rafforzando il riconoscimento dell\'acquirente quando sfoglia il tuo negozio.',
+      description: 'Combina le schede indovina parole con parole mescolate, cerca parole, pratica di scrittura a mano e schede di abbinamento per creare pacchetti spelling completi. Un pacchetto "Pratica Spelling Completa" con più tipi di attività vende a un prezzo superiore rispetto a qualsiasi singolo formato di scheda e offre agli utenti pratica variegata con lo stesso vocabolario. Riutilizzare le stesse immagini a tema tra diversi tipi di attività mantiene anche il branding visivo coerente, rafforzando il riconoscimento dell\'acquirente quando sfoglia il tuo negozio.',
     },
   ],
 
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Come funzionano i quattro livelli di difficoltà degli indizi?',
-      answer: 'Ogni livello controlla quante lettere sono pre-compilate nella griglia. Nessun Indizio lascia la griglia completamente vuota per un richiamo puro. Facile rivela metà delle lettere per guidare i principianti. Normale rivela un quarto delle lettere per una sfida equilibrata. Difficile rivela solo un sesto delle lettere per speller sicuri. Puoi mescolare i livelli tra le pagine per creare pacchetti differenziati.',
+      answer: 'Ogni livello controlla quante lettere sono pre-compilate nella griglia. Nessun Indizio lascia la griglia completamente vuota per un richiamo puro. Facile rivela metà delle lettere per guidare i principianti. Normale rivela un quarto delle lettere per una sfida equilibrata. Difficile rivela solo un sesto delle lettere per speller sicuri. Puoi mescolare i livelli tra le pagine per creare pacchetti scalati per livello.',
     },
     {
       question: 'Quali sono le due modalità di input?',
@@ -168,7 +168,7 @@ const content: ToolContent = {
     },
     {
       question: 'Cosa fa la funzione Escludi Lettere?',
-      answer: 'Escludi Lettere rimuove lettere specifiche dalle posizioni pre-compilate nella griglia. Ad esempio, escludi tutte le vocali così gli studenti devono fornirle, trasformando l\'esercizio in pratica fonetica mirata. Puoi escludere qualsiasi combinazione di lettere per mirare a competenze di spelling specifiche o aumentare la difficoltà oltre i quattro livelli standard di indizi.',
+      answer: 'Escludi Lettere rimuove lettere specifiche dalle posizioni pre-compilate nella griglia. Ad esempio, escludi tutte le vocali così gli utenti devono fornirle, trasformando l\'esercizio in pratica fonetica mirata. Puoi escludere qualsiasi combinazione di lettere per mirare a competenze di spelling specifiche o aumentare la difficoltà oltre i quattro livelli standard di indizi.',
     },
     {
       question: 'Come funziona la sensibilità linguistica?',
@@ -184,11 +184,11 @@ const content: ToolContent = {
     },
     {
       question: 'Lo strumento genera fogli risposte?',
-      answer: 'Sì. Lo strumento genera un foglio risposte separato che mostra la scrittura corretta per ogni esercizio. I fogli risposte sono disponibili sia in formato PDF che JPEG. Ogni livello di difficoltà ha il proprio foglio risposte così gli insegnanti possono verificare rapidamente il lavoro degli studenti indipendentemente dal livello di indizi assegnato.',
+      answer: 'Sì. Lo strumento genera un foglio risposte separato che mostra la scrittura corretta per ogni esercizio. I fogli risposte sono disponibili sia in formato PDF che JPEG. Ogni livello di difficoltà ha il proprio foglio risposte così i venditori possono verificare rapidamente il lavoro degli utenti indipendentemente dal livello di indizi assegnato.',
     },
     {
       question: 'Posso usare le schede per scopi commerciali?',
-      answer: 'La prova gratuita con filigrana è solo per uso personale e didattico. Per vendere le schede su Etsy, Teachers Pay Teachers, Amazon KDP o qualsiasi altro marketplace, è necessaria una licenza commerciale. La licenza commerciale rimuove la filigrana e concede pieni diritti di rivendita per le schede che crei.',
+      answer: 'La prova gratuita con filigrana è solo per uso personale e didattico. Per vendere le schede su Etsy, Gumroad, Amazon KDP o qualsiasi altro marketplace, è necessaria una licenza commerciale. La licenza commerciale rimuove la filigrana e concede pieni diritti di rivendita per le schede che crei.',
     },
     {
       question: 'Quali formati di file posso scaricare?',

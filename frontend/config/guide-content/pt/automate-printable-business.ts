@@ -74,8 +74,8 @@ const content: GuideContent = {
       content: 'A Amazon KDP exige requisitos de formatação específicos: tamanhos de página padronizados, margens específicas e formatos de ficheiro definidos. Incorpore estas especificações nos seus modelos para que cada produto esteja automaticamente em conformidade. Crie um modelo de descrição compatível com KDP que inclua campos de palavras-chave de back-end (7 campos de palavras-chave, cada um com até 50 caracteres) separados da descrição voltada para o cliente. A nomenclatura de ficheiros para carregamentos KDP deve incluir o ISBN ou ASIN para rastreamento. Os modelos de manuscrito KDP devem incluir as páginas frontal e traseira requeridas pela Amazon, para que estas não precisem de ser recriadas para cada publicação.',
     },
     {
-      heading: 'Dicas de automatização específicas para Teachers Pay Teachers',
-      content: 'O Teachers Pay Teachers requer pré-visualizações e miniaturas que mostrem o conteúdo real do produto. Os modelos de pré-visualização devem incluir slides padrão: página de capa, exemplo de conteúdo, instruções de utilização e informação de licenciamento. Crie estes slides de modelo uma vez e atualize o conteúdo para cada novo produto. O TPT também permite pré-visualizações descarregáveis — crie um modelo de pré-visualização com marca d\'água para que esta etapa esteja automatizada. Os modelos de descrição do TPT devem incluir as categorias de padrão e campos de alinhamento com o currículo que são específicos desta plataforma.',
+      heading: 'Dicas de automatização específicas para Gumroad',
+      content: 'O Gumroad requer pré-visualizações e miniaturas que mostrem o conteúdo real do produto. Os modelos de pré-visualização devem incluir slides padrão: página de capa, exemplo de conteúdo, instruções de utilização e informação de licenciamento. Crie estes slides de modelo uma vez e atualize o conteúdo para cada novo produto. O Gumroad também permite pré-visualizações descarregáveis — crie um modelo de pré-visualização com marca d\'água para que esta etapa esteja automatizada. Os modelos de descrição do Gumroad devem incluir as categorias de padrão e campos de alinhamento com o catálogo de produtos que são específicos desta plataforma.',
     },
   ],
 
@@ -90,7 +90,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Escalar para múltiplas plataformas com esforço mínimo',
-      content: 'Os sistemas de automatização tornam a expansão multiplataforma prática. Sem sistemas, publicar o mesmo produto no Etsy, Amazon KDP e Teachers Pay Teachers requer reescrever descrições, reformatar ficheiros e recriar miniaturas para as especificações de cada plataforma. Com modelos de descrição por plataforma, modelos de ficheiro por plataforma e modelos de miniatura por plataforma, a publicação multiplataforma torna-se uma tarefa de preenchimento de modelos em vez de uma tarefa de criação. Um produto que demora 2 horas a publicar manualmente em 3 plataformas demora 30 minutos com modelos por plataforma. Isto torna prático publicar cada produto em todas as plataformas relevantes em vez de escolher apenas uma, multiplicando a sua exposição de vendas.',
+      content: 'Os sistemas de automatização tornam a expansão multiplataforma prática. Sem sistemas, publicar o mesmo produto no Etsy, Amazon KDP e Gumroad requer reescrever descrições, reformatar ficheiros e recriar miniaturas para as especificações de cada plataforma. Com modelos de descrição por plataforma, modelos de ficheiro por plataforma e modelos de miniatura por plataforma, a publicação multiplataforma torna-se uma tarefa de preenchimento de modelos em vez de uma tarefa de criação. Um produto que demora 2 horas a publicar manualmente em 3 plataformas demora 30 minutos com modelos por plataforma. Isto torna prático publicar cada produto em todas as plataformas relevantes em vez de escolher apenas uma, multiplicando a sua exposição de vendas.',
     },
   ],
 

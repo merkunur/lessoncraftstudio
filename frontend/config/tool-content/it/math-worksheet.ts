@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Generatore Esercizi Matematica',
     tagline: 'Crea puzzle di algebra visuale con immagini come variabili in meno di 60 secondi',
-    description: 'Vai oltre i classici esercizi di aritmetica con puzzle di algebra illustrata che sfidano gli alunni a ragionare per sistemi di equazioni. Ogni scheda presenta un insieme di equazioni collegate dove le immagini sostituiscono le incognite — gli alunni devono determinare il valore numerico che ogni figura rappresenta. Quattro livelli di difficoltà scalano da due simboli con addizione semplice fino a quattro incognite simultanee con operazioni miste. Un risolutore algebrico integrato garantisce che ogni puzzle abbia esattamente una soluzione corretta — nessuna ambiguità, nessuna approssimazione. Scegli Solo Addizione per pratica focalizzata o Addizione e Sottrazione per problem-solving avanzato. Imposta l\'intervallo numerico, attiva i risultati negativi per studenti più grandi e controlla i puzzle per pagina da 1 a 6 con layout automatico. Seleziona immagini singolarmente, carica un intero set tematico o carica le tue PNG o JPEG per puzzle personalizzati. Poiché i puzzle usano solo immagini e numeri, funzionano in modo identico in ogni lingua — vendi lo stesso PDF in tutto il mondo senza traduzione. Scarica in PDF pronto per la stampa o JPEG ad alta risoluzione. La prova gratuita include una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Vai oltre i negozici esercizi di aritmetica con puzzle di algebra illustrata che sfidano gli utenti a ragionare per sistemi di equazioni. Ogni scheda presenta un insieme di equazioni collegate dove le immagini sostituiscono le incognite — gli utenti devono determinare il valore numerico che ogni figura rappresenta. Quattro livelli di difficoltà scalano da due simboli con addizione semplice fino a quattro incognite simultanee con operazioni miste. Un risolutore algebrico integrato garantisce che ogni puzzle abbia esattamente una soluzione corretta — nessuna ambiguità, nessuna approssimazione. Scegli Solo Addizione per pratica focalizzata o Addizione e Sottrazione per problem-solving avanzato. Imposta l\'intervallo numerico, attiva i risultati negativi per utenti più grandi e controlla i puzzle per pagina da 1 a 6 con layout automatico. Seleziona immagini singolarmente, carica un intero set tematico o carica le tue PNG o JPEG per puzzle personalizzati. Poiché i puzzle usano solo immagini e numeri, funzionano in modo identico in ogni lingua — vendi lo stesso PDF in tutto il mondo senza traduzione. Scarica in PDF pronto per la stampa o JPEG ad alta risoluzione. La prova gratuita include una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
   },
 
   tutorial: {
@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Configura intervallo numerico e opzioni',
-        description: 'Imposta i valori minimo e massimo per le equazioni (predefinito 0–20). Per studenti avanzati, attiva il toggle "Risultati Negativi" in modo che le equazioni di sottrazione possano produrre valori sotto zero. Questi controlli ti permettono di adattare ogni scheda con precisione al gruppo di età e al livello curricolare desiderato.',
+        description: 'Imposta i valori minimo e massimo per le equazioni (predefinito 0–20). per utenti avanzati, attiva il toggle "Risultati Negativi" in modo che le equazioni di sottrazione possano produrre valori sotto zero. Questi controlli ti permettono di adattare ogni scheda con precisione al gruppo di età e al livello curricolare desiderato.',
       },
       {
         title: 'Seleziona le immagini',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Genera, verifica e scarica',
-        description: 'Clicca "Genera" per creare la scheda con puzzle di algebra. Il risolutore integrato verifica che ogni puzzle abbia esattamente una soluzione prima di renderizzarlo. Visualizza l\'anteprima nell\'area di lavoro, poi usa il menu "Scarica" per salvare come JPEG (immagine singola) o PDF (ottimizzato per la stampa). Genera sempre il foglio delle risposte corrispondente — mostra il valore numerico di ogni simbolo per una correzione rapida.',
+        description: 'Clicca "Genera" per creare la scheda con puzzle di algebra. Il risolutore integrato verifica che ogni puzzle abbia esattamente una soluzione prima di renderizzarlo. Visualizza l\'anteprima nell\'area di lavoro, poi usa il menu "Scarica" per salvare come JPEG (immagine singola) o PDF (ottimizzato per la stampa). Genera sempre il foglio delle risposte corrispondente — mostra il valore numerico di ogni simbolo per una verifica rapida.',
       },
     ],
   },
@@ -65,23 +65,23 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Pacchetti algebra visuale tematici',
-      description: 'Crea set di 15–20 puzzle di algebra illustrata usando simboli immagine tematici dalla libreria — dinosauri, spazio, animali, veicoli. Ogni puzzle usa immagini diverse come variabili con difficoltà costante. Raggruppa per tema e vendi su Etsy o Teachers Pay Teachers. Il formato di algebra visuale è genuinamente unico e rende la miniatura del tuo annuncio immediatamente distinguibile dalle schede matematiche standard. I pacchetti tematici incoraggiano anche acquisti ripetuti perché chi apprezza un tema spesso torna per gli altri, costruendo fedeltà nel tempo.',
+      description: 'Crea set di 15–20 puzzle di algebra illustrata usando simboli immagine tematici dalla libreria — dinosauri, spazio, animali, veicoli. Ogni puzzle usa immagini diverse come variabili con difficoltà costante. Raggruppa per tema e vendi su Etsy o Gumroad. Il formato di algebra visuale è genuinamente unico e rende la miniatura del tuo annuncio immediatamente distinguibile dalle schede matematiche standard. I pacchetti tematici incoraggiano anche acquisti ripetuti perché chi apprezza un tema spesso torna per gli altri, costruendo fedeltà nel tempo.',
     },
     {
       title: 'Quaderni algebra progressiva per KDP',
-      description: 'Genera da 60 a 100 pagine di puzzle di algebra illustrata strutturati per difficoltà. Parti da Molto Facile (2 simboli, solo addizione) e progredisci attraverso Facile, Medio, fino a Difficile (4 incognite, operazioni miste). Pubblica come quaderno di attività matematiche su Amazon KDP. La difficoltà progressiva crea un percorso naturale che genitori e insegnanti possono seguire dalla prima all\'ultima pagina.',
+      description: 'Genera da 60 a 100 pagine di puzzle di algebra illustrata strutturati per difficoltà. Parti da Molto Facile (2 simboli, solo addizione) e progredisci attraverso Facile, Medio, fino a Difficile (4 incognite, operazioni miste). Pubblica come quaderno di attività matematiche su Amazon KDP. La difficoltà progressiva crea un percorso naturale che genitori e venditori possono seguire dalla prima all\'ultima pagina.',
     },
     {
-      title: 'Set differenziati per la classe',
-      description: 'Genera quattro versioni dello stesso puzzle tematico a ogni livello di difficoltà: Molto Facile, Facile, Medio e Difficile. Gli insegnanti distribuiscono la versione giusta a ogni alunno in base alle competenze. Tutte le versioni usano lo stesso tema visivo così gli alunni si sentono inclusi anziché isolati. Vendi come pacchetto differenziato a un prezzo premium su TpT.',
+      title: 'Set differenziati per il negozio',
+      description: 'Genera quattro versioni dello stesso puzzle tematico a ogni livello di difficoltà: Molto Facile, Facile, Medio e Difficile. i venditori distribuiscono la versione giusta a ogni utente in base alle competenze. Tutte le versioni usano lo stesso tema visivo così gli utenti si sentono inclusi anziché isolati. Vendi come pacchetto scalato per livello a un prezzo premium su Gumroad.',
     },
     {
       title: 'Puzzle con immagini personalizzate',
-      description: 'Carica le tue illustrazioni, loghi o grafiche con licenza per creare puzzle di algebra che nessun concorrente può replicare. Le immagini caricate diventano i simboli variabili in ogni equazione. Perfetto per costruire un marchio visivo distintivo su Etsy, creare materiali personalizzati per la classe o progettare attività matematiche personalizzate per centri di tutoring.',
+      description: 'Carica le tue illustrazioni, loghi o grafiche con licenza per creare puzzle di algebra che nessun concorrente può replicare. Le immagini caricate diventano i simboli variabili in ogni equazione. Perfetto per costruire un marchio visivo distintivo su Etsy, creare materiali personalizzati per il negozio o progettare attività matematiche personalizzate per centri di tutoring.',
     },
     {
       title: 'Pacchetti algebra stagionali',
-      description: 'Usa temi festivi e stagionali per creare pacchetti a tempo limitato. Un pacchetto "Puzzle Algebra di Natale" con simboli immagine festivi vende benissimo a novembre–dicembre. Halloween, San Valentino e il rientro a scuola hanno ciascuno i propri picchi di vendita su Etsy e TpT. Il formato algebra aggiunge valore percepito e complessità rispetto alla semplice aritmetica.',
+      description: 'Usa temi festivi e stagionali per creare pacchetti a tempo limitato. Un pacchetto "Puzzle Algebra di Natale" con simboli immagine festivi vende benissimo a novembre–dicembre. Halloween, San Valentino e il rientro a scuola hanno ciascuno i propri picchi di vendita su Etsy e Gumroad. Il formato algebra aggiunge valore percepito e complessità rispetto alla semplice aritmetica.',
     },
     {
       title: 'Campionari a difficoltà mista',
@@ -101,13 +101,13 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Pacchetti algebra premium su Teachers Pay Teachers',
-      description: 'Carica pacchetti di puzzle algebra differenziati su TpT. Gli insegnanti cercano costantemente "schede algebra" e "puzzle matematici". Includi tutti e quattro i livelli di difficoltà, entrambe le modalità operative, foglio delle risposte e una guida per l\'insegnante che spiega come funziona il formato algebra visuale. La garanzia di soluzione unica aggiunge credibilità che gli insegnanti apprezzano nella scelta dei materiali. Una guida d\'uso che mappa ogni livello agli standard scolastici aiuta gli insegnanti a giustificare l\'acquisto e aumenta le recensioni positive.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Pacchetti algebra premium su Gumroad',
+      description: 'Carica pacchetti di puzzle algebra differenziati su Gumroad. i venditori cercano costantemente "schede algebra" e "puzzle matematici". Includi tutti e quattro i livelli di difficoltà, entrambe le modalità operative, foglio delle risposte e una guida per l\'venditore che spiega come funziona il formato algebra visuale. La garanzia di soluzione unica aggiunge credibilità che i venditori apprezzano nella scelta dei materiali. Una guida d\'uso che mappa ogni livello agli standard scolastici aiuta i venditori a giustificare l\'acquisto e aumenta le recensioni positive.',
+      platform: 'Gumroad',
     },
     {
       title: 'Kit sfide matematiche su Gumroad',
-      description: 'Crea un kit puzzle premium su Gumroad con oltre 40 puzzle di algebra a livello Medio e Difficile. Rivolgiti a genitori homeschool e tutor di matematica che cercano materiali stimolanti e coinvolgenti. Includi una guida per i genitori che spiega come ogni livello di difficoltà si collega ai concetti algebrici appropriati per età. Il formato visivo rende l\'algebra astratta accessibile a studenti più giovani.',
+      description: 'Crea un kit puzzle premium su Gumroad con oltre 40 puzzle di algebra a livello Medio e Difficile. Rivolgiti a genitori homeschool e tutor di matematica che cercano materiali stimolanti e coinvolgenti. Includi una guida per i genitori che spiega come ogni livello di difficoltà si collega ai concetti algebrici appropriati per età. Il formato visivo rende l\'algebra astratta accessibile a utenti più giovani.',
       platform: 'Gumroad',
     },
     {
@@ -125,19 +125,19 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Inizia con Molto Facile per i principianti',
-      description: 'Il livello Molto Facile usa solo 2 simboli immagine con equazioni di addizione semplice. È perfetto per alunni che incontrano l\'algebra visuale per la prima volta. Lascia che costruiscano sicurezza riconoscendo il pattern prima di passare a Facile, Medio e Difficile. La progressione graduale tiene bassa la frustrazione e alta la motivazione. Per i venditori, puzzle adatti ai principianti attraggono il pubblico più ampio perché i genitori cercano attivamente attività introduttive di algebra da usare a casa.',
+      description: 'Il livello Molto Facile usa solo 2 simboli immagine con equazioni di addizione semplice. È perfetto per utenti che incontrano l\'algebra visuale per la prima volta. Lascia che costruiscano sicurezza riconoscendo il pattern prima di passare a Facile, Medio e Difficile. La progressione graduale tiene bassa la frustrazione e alta la motivazione. Per i venditori, puzzle adatti ai principianti attraggono il pubblico più ampio perché i genitori cercano attivamente attività introduttive di algebra da usare a casa.',
     },
     {
       title: 'Usa le operazioni miste per varietà',
-      description: 'La modalità Addizione e Sottrazione crea puzzle che richiedono strategie diverse nella stessa scheda. Questo impedisce agli alunni di cadere in schemi ripetitivi e testa entrambe le competenze contemporaneamente. I puzzle con operazioni miste hanno anche un valore percepito più alto negli annunci dei marketplace. Su Etsy e TpT, etichettare il tuo annuncio come "operazioni miste" cattura traffico da insegnanti che cercano specificamente materiali di ripasso che coprono più competenze in un\'unica attività.',
+      description: 'La modalità Addizione e Sottrazione crea puzzle che richiedono strategie diverse nella stessa scheda. Questo impedisce agli utenti di cadere in schemi ripetitivi e testa entrambe le competenze contemporaneamente. I puzzle con operazioni miste hanno anche un valore percepito più alto negli annunci dei marketplace. Su Etsy e Gumroad, etichettare il tuo annuncio come "operazioni miste" cattura traffico da venditori che cercano specificamente materiali di ripasso che coprono più competenze in un\'unica attività.',
     },
     {
       title: 'Carica immagini personalizzate per il branding',
       description: 'Carica le tue illustrazioni, mascotte o grafiche con licenza per creare puzzle che nessun concorrente può replicare. Le immagini caricate diventano le variabili delle equazioni, rendendo i tuoi prodotti visivamente distintivi. Gli acquirenti che riconoscono il tuo stile visivo torneranno nel tuo negozio. Le immagini personalizzate ti permettono anche di puntare a nicchie ultra-specifiche come decorazioni stagionali, apprendimento bilingue o schede di ripasso tematico.',
     },
     {
-      title: 'Usa 1–2 puzzle per pagina per alunni più piccoli',
-      description: 'Imposta i puzzle per pagina a 1 o 2 per alunni più piccoli che necessitano di più spazio di lavoro. Puzzle più grandi con simboli e equazioni più visibili sono più facili da leggere e meno intimidatori. Riserva 4–6 puzzle per pagina per studenti più grandi o set di pratica compatti pensati per sessioni di ripasso veloce.',
+      title: 'Usa 1–2 puzzle per pagina per utenti più piccoli',
+      description: 'Imposta i puzzle per pagina a 1 o 2 per utenti più piccoli che necessitano di più spazio di lavoro. Puzzle più grandi con simboli e equazioni più visibili sono più facili da leggere e meno intimidatori. Riserva 4–6 puzzle per pagina per utenti più grandi o set di pratica compatti pensati per sessioni di ripasso veloce.',
     },
     {
       title: 'Abbina agli altri strumenti matematici',
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Includi sempre il foglio delle risposte',
-      description: 'Genera il foglio delle risposte prima di scaricare. Il foglio mostra il valore numerico di ogni simbolo immagine e il sistema di equazioni completamente risolto. Gli acquirenti su Etsy e TpT assegnano costantemente valutazioni più alte ai prodotti che includono il foglio delle risposte — risparmia tempo di correzione agli insegnanti e dà sicurezza ai genitori sulla correttezza della soluzione.',
+      description: 'Genera il foglio delle risposte prima di scaricare. Il foglio mostra il valore numerico di ogni simbolo immagine e il sistema di equazioni completamente risolto. Gli acquirenti su Etsy e Gumroad assegnano costantemente valutazioni più alte ai prodotti che includono il foglio delle risposte — risparmia valore percepito ai venditori e dà sicurezza ai genitori sulla correttezza della soluzione.',
     },
   ],
 
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Come funzionano i puzzle di algebra illustrata?',
-      answer: 'Ogni puzzle presenta un sistema di equazioni collegate dove le immagini sostituiscono le variabili incognite. Gli alunni analizzano le relazioni tra le equazioni per determinare il valore numerico che ogni immagine rappresenta. Ad esempio, se gatto + cane = 7 e gatto + gatto = 6, allora gatto = 3 e cane = 4. Il risolutore integrato garantisce che ogni puzzle abbia esattamente una soluzione corretta. Questo approccio introduce il ragionamento algebrico in forma visuale, rendendolo accessibile a studenti più giovani che non sono pronti per la notazione tradizionale con lettere come x e y.',
+      answer: 'Ogni puzzle presenta un sistema di equazioni collegate dove le immagini sostituiscono le variabili incognite. gli utenti analizzano le relazioni tra le equazioni per determinare il valore numerico che ogni immagine rappresenta. Ad esempio, se gatto + cane = 7 e gatto + gatto = 6, allora gatto = 3 e cane = 4. Il risolutore integrato garantisce che ogni puzzle abbia esattamente una soluzione corretta. Questo approccio introduce il ragionamento algebrico in forma visuale, rendendolo accessibile a utenti più giovani che non sono pronti per la notazione tradizionale con lettere come x e y.',
     },
     {
       question: 'Quali sono i quattro livelli di difficoltà?',
@@ -176,15 +176,15 @@ const content: ToolContent = {
     },
     {
       question: 'Cosa fa il toggle dei risultati negativi?',
-      answer: 'Quando attivato, le equazioni di sottrazione possono produrre valori sotto zero. Questo aggiunge difficoltà per studenti avanzati che conoscono i numeri negativi. Quando disattivato (impostazione predefinita), tutti i risultati restano nell\'intervallo di numeri positivi impostato. Tienilo disattivato per alunni della primaria e attivalo per la scuola media o pratica matematica avanzata.',
+      answer: 'Quando attivato, le equazioni di sottrazione possono produrre valori sotto zero. Questo aggiunge difficoltà per utenti avanzati che conoscono i numeri negativi. Quando disattivato (impostazione predefinita), tutti i risultati restano nell\'intervallo di numeri positivi impostato. Tienilo disattivato per utenti della primaria e attivalo per la scuola media o pratica matematica avanzata.',
     },
     {
       question: 'Posso caricare le mie immagini come simboli variabili?',
-      answer: 'Sì. Clicca "Carica Immagine" per usare le tue PNG o JPEG come simboli variabili nelle equazioni. Questo ti permette di creare puzzle personalizzati con le tue illustrazioni, mascotte di classe, design stagionali o grafiche di nicchia che nessun altro venditore può replicare.',
+      answer: 'Sì. Clicca "Carica Immagine" per usare le tue PNG o JPEG come simboli variabili nelle equazioni. Questo ti permette di creare puzzle personalizzati con le tue illustrazioni, mascotte personalizzate, design stagionali o grafiche di nicchia che nessun altro venditore può replicare.',
     },
     {
       question: 'Quanti puzzle posso mettere su una pagina?',
-      answer: 'Puoi inserire da 1 a 6 puzzle per pagina usando il controllo "Puzzle per Pagina". Il layout si adatta automaticamente al numero selezionato. Usa 1–2 puzzle per pagina per alunni più piccoli che necessitano di più spazio, oppure 4–6 per pagina per schede di pratica compatte e prodotti in formato quaderno.',
+      answer: 'Puoi inserire da 1 a 6 puzzle per pagina usando il controllo "Puzzle per Pagina". Il layout si adatta automaticamente al numero selezionato. Usa 1–2 puzzle per pagina per utenti più piccoli che necessitano di più spazio, oppure 4–6 per pagina per schede di pratica compatte e prodotti in formato quaderno.',
     },
     {
       question: 'I puzzle funzionano in tutte le lingue?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Posso usare le schede per scopi commerciali?',
-      answer: 'La prova gratuita con filigrana è solo per uso personale e scolastico. Per vendere schede su Etsy, Teachers Pay Teachers, Amazon KDP o qualsiasi altro marketplace, è necessaria una licenza commerciale. La licenza commerciale rimuove la filigrana e concede pieni diritti di rivendita per le schede che crei.',
+      answer: 'La prova gratuita con filigrana è solo per uso personale e scolastico. Per vendere schede su Etsy, Gumroad, Amazon KDP o qualsiasi altro marketplace, è necessaria una licenza commerciale. La licenza commerciale rimuove la filigrana e concede pieni diritti di rivendita per le schede che crei.',
     },
     {
       question: 'Qual è la vostra politica di rimborso?',

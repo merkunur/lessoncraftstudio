@@ -4,7 +4,7 @@ const content: ToolContent = {  seo: {
     primaryKeyword: 'creare schede grande piccolo per bambini',
     secondaryKeywords: [
       'schede grande e piccolo per scuola materna',
-      'creatore confronto dimensioni per la classe',
+      'creatore confronto dimensioni per il negozio',
       'schede ordinamento per dimensione per bambini',
       'schede grande piccolo medio per asilo',
     ],
@@ -20,7 +20,7 @@ const content: ToolContent = {  seo: {
   hero: {
     title: 'Generatore Schede Grande e Piccolo',
     tagline: 'Genera schede di confronto dimensioni con cinque tipi di domanda, due modalità immagine e output completamente visivo senza testo che si vende in tutto il mondo senza traduzione',
-    description: 'Crea schede professionali di confronto dimensioni dove gli studenti identificano immagini più grandi, più piccole e di dimensione media o le numerano in ordine di grandezza. Cinque tipi di domanda coprono ogni abilità di discriminazione dimensionale: Cerchia il Grande, Cerchia il Piccolo, Cerchia il Medio, Numera 1–2–3 dal Piccolo al Grande e Numera 1–2–3 dal Grande al Piccolo. Due modalità immagine creano esercizi fondamentalmente diversi dallo stesso strumento: Immagini Identiche mostra la stessa immagine a dimensioni diverse per la pura percezione dimensionale, mentre Immagini Diverse mostra oggetti distinti a dimensioni diverse per il ragionamento sulle dimensioni relative. Imposta da 1 a 10 esercizi per pagina con 2 o 3 immagini per esercizio — due immagini per confronti diretti più grande/più piccolo, tre immagini per introdurre l\'opzione media e abilitare sfide di ordinamento. Ogni scheda è completamente visiva con zero testo sull\'output. Nessuna parola appare sulla pagina generata — solo immagini e indicatori visivi. Questo rende le tue schede universalmente utilizzabili indipendentemente dalla lingua, livello di lettura o stato di alfabetizzazione, e universalmente vendibili senza traduzione. Un singolo annuncio serve ogni mercato nel mondo. Scegli tra oltre 3.100 illustrazioni in 104 collezioni tematiche o carica le tue immagini. La chiave di risposta auto-generata evidenzia e cerchia le risposte corrette per una verifica istantanea. Esporta PDF pronti per la stampa e JPEG a 300 DPI in formato Letter, A4, Quadrato (1200×1200) o dimensioni personalizzate. Attiva la scala di grigi per output ottimizzato per l\'inchiostro. Modifica tutto sul canvas Fabric.js completo con font tra cui Baloo 2, Fredoka, Lexend Deca, Nunito e Quicksand. La prova gratuita include ogni funzione con filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Crea schede professionali di confronto dimensioni dove gli utenti identificano immagini più grandi, più piccole e di dimensione media o le numerano in ordine di grandezza. Cinque tipi di domanda coprono ogni abilità di discriminazione dimensionale: Cerchia il Grande, Cerchia il Piccolo, Cerchia il Medio, Numera 1–2–3 dal Piccolo al Grande e Numera 1–2–3 dal Grande al Piccolo. Due modalità immagine creano esercizi fondamentalmente diversi dallo stesso strumento: Immagini Identiche mostra la stessa immagine a dimensioni diverse per la pura percezione dimensionale, mentre Immagini Diverse mostra oggetti distinti a dimensioni diverse per il ragionamento sulle dimensioni relative. Imposta da 1 a 10 esercizi per pagina con 2 o 3 immagini per esercizio — due immagini per confronti diretti più grande/più piccolo, tre immagini per introdurre l\'opzione media e abilitare sfide di ordinamento. Ogni scheda è completamente visiva con zero testo sull\'output. Nessuna parola appare sulla pagina generata — solo immagini e indicatori visivi. Questo rende le tue schede universalmente utilizzabili indipendentemente dalla lingua, livello di lettura o stato di alfabetizzazione, e universalmente vendibili senza traduzione. Un singolo annuncio serve ogni mercato nel mondo. Scegli tra oltre 3.100 illustrazioni in 104 collezioni tematiche o carica le tue immagini. La chiave di risposta auto-generata evidenzia e cerchia le risposte corrette per una verifica istantanea. Esporta PDF pronti per la stampa e JPEG a 300 DPI in formato Letter, A4, Quadrato (1200×1200) o dimensioni personalizzate. Attiva la scala di grigi per output ottimizzato per l\'inchiostro. Modifica tutto sul canvas Fabric.js completo con font tra cui Baloo 2, Fredoka, Lexend Deca, Nunito e Quicksand. La prova gratuita include ogni funzione con filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
   },
 
   tutorial: {
@@ -36,15 +36,15 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Scegli il Tipo di Domanda',
-        description: 'Seleziona uno dei cinque tipi di domanda dal pannello Contenuto. Cerchia il Grande chiede agli studenti di identificare l\'immagine più grande. Cerchia il Piccolo punta alla più piccola. Cerchia il Medio sfida gli studenti a trovare l\'immagine di dimensione intermedia (richiede 3 immagini per esercizio). Numera 1–2–3 dal Piccolo al Grande chiede agli studenti di etichettare le immagini in ordine crescente di dimensione. Numera 1–2–3 dal Grande al Piccolo inverte l\'ordine in decrescente. Ogni tipo di domanda esercita una diversa abilità di discriminazione dimensionale — identificazione vs. sequenziamento.',
+        description: 'Seleziona uno dei cinque tipi di domanda dal pannello Contenuto. Cerchia il Grande chiede agli utenti di identificare l\'immagine più grande. Cerchia il Piccolo punta alla più piccola. Cerchia il Medio sfida gli utenti a trovare l\'immagine di dimensione intermedia (richiede 3 immagini per esercizio). Numera 1–2–3 dal Piccolo al Grande chiede agli utenti di etichettare le immagini in ordine crescente di dimensione. Numera 1–2–3 dal Grande al Piccolo inverte l\'ordine in decrescente. Ogni tipo di domanda esercita una diversa abilità di discriminazione dimensionale — identificazione vs. sequenziamento.',
       },
       {
         title: 'Seleziona la Modalità Immagine',
-        description: 'Scegli tra due stili di esercizio fondamentalmente diversi. La modalità Immagini Identiche mostra la stessa immagine a dimensioni diverse, isolando la pura percezione dimensionale senza variabili confondenti — ideale per studenti più piccoli che sviluppano la consapevolezza base delle dimensioni. La modalità Immagini Diverse mostra oggetti distinti a dimensioni diverse, richiedendo agli studenti di confrontare elementi differenti e ragionare sulla dimensione relativa. Passare da una modalità all\'altra raddoppia la varietà dei tuoi prodotti senza cambiare nessun\'altra impostazione.',
+        description: 'Scegli tra due stili di esercizio fondamentalmente diversi. La modalità Immagini Identiche mostra la stessa immagine a dimensioni diverse, isolando la pura percezione dimensionale senza variabili confondenti — ideale per utenti più piccoli che sviluppano la consapevolezza base delle dimensioni. La modalità Immagini Diverse mostra oggetti distinti a dimensioni diverse, richiedendo agli utenti di confrontare elementi differenti e ragionare sulla dimensione relativa. Passare da una modalità all\'altra raddoppia la varietà dei tuoi prodotti senza cambiare nessun\'altra impostazione.',
       },
       {
         title: 'Configura Numero di Esercizi e Immagini per Esercizio',
-        description: 'Imposta il numero di esercizi per pagina da 1 a 10. Scegli 2 o 3 immagini per esercizio. Due immagini creano confronti diretti più grande/più piccolo. Tre immagini aggiungono l\'opzione media, abilitano il tipo di domanda Cerchia il Medio e rendono gli esercizi di numerazione più impegnativi con tre elementi da ordinare. Meno esercizi grandi per pagina sono adatti per pratica mirata per studenti più piccoli; più esercizi creano schede di valutazione più dense.',
+        description: 'Imposta il numero di esercizi per pagina da 1 a 10. Scegli 2 o 3 immagini per esercizio. Due immagini creano confronti diretti più grande/più piccolo. Tre immagini aggiungono l\'opzione media, abilitano il tipo di domanda Cerchia il Medio e rendono gli esercizi di numerazione più impegnativi con tre elementi da ordinare. Meno esercizi grandi per pagina sono adatti per pratica mirata per utenti più piccoli; più esercizi creano schede di valutazione più dense.',
       },
       {
         title: 'Sfoglia i Temi o Carica Immagini Personalizzate',
@@ -52,11 +52,11 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Aggiungi Testo e Personalizza il Canvas',
-        description: 'Usa il pannello Strumenti Testo per aggiungere un titolo alla scheda, campi nome studente e data, o istruzioni personalizzate. Scegli tra font tra cui Baloo 2, Fredoka, Lexend Deca, Nunito e Quicksand. Trascina, ridimensiona, ruota e riposiziona ogni elemento sul canvas Fabric.js completo. Gli strumenti di allineamento posizionano gli elementi con precisione, i controlli blocca/sblocca proteggono gli elementi finiti mentre ne modifichi altri, e annulla/ripristina illimitati ti permettono di sperimentare liberamente.',
+        description: 'Usa il pannello Strumenti Testo per aggiungere un titolo alla scheda, campi nome utente e data, o istruzioni personalizzate. Scegli tra font tra cui Baloo 2, Fredoka, Lexend Deca, Nunito e Quicksand. Trascina, ridimensiona, ruota e riposiziona ogni elemento sul canvas Fabric.js completo. Gli strumenti di allineamento posizionano gli elementi con precisione, i controlli blocca/sblocca proteggono gli elementi finiti mentre ne modifichi altri, e annulla/ripristina illimitati ti permettono di sperimentare liberamente.',
       },
       {
         title: 'Genera la Chiave di Risposta e Scarica',
-        description: 'Clicca Genera Chiave di Risposta per creare una versione risolta dove le risposte corrette sono evidenziate e cerchiate per una verifica visiva istantanea. Attiva la scala di grigi per output in bianco e nero ottimizzato per l\'inchiostro. Scarica sia la scheda che la chiave di risposta come PDF pronto per la stampa o JPEG ad alta risoluzione a 300 DPI. Ogni esportazione è pronta per la produzione per annunci Etsy, interni Amazon KDP e file prodotto TPT.',
+        description: 'Clicca Genera Chiave di Risposta per creare una versione risolta dove le risposte corrette sono evidenziate e cerchiate per una verifica visiva istantanea. Attiva la scala di grigi per output in bianco e nero ottimizzato per l\'inchiostro. Scarica sia la scheda che la chiave di risposta come PDF pronto per la stampa o JPEG ad alta risoluzione a 300 DPI. Ogni esportazione è pronta per la produzione per annunci Etsy, interni Amazon KDP e file prodotto Gumroad.',
       },
     ],
   },
@@ -72,7 +72,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Centri di Apprendimento Visivo Differenziato',
-      description: 'Costruisci set di pratica sulla discriminazione dimensionale a livelli usando il tipo di domanda come asse di differenziazione. Livello 1: Cerchia il Grande, 2 immagini, modalità identiche. Livello 2: Cerchia il Piccolo, 2 immagini, modalità diverse. Livello 3: Cerchia il Medio, 3 immagini. Livello 4: Numera 1–2–3, 3 immagini. Ogni livello esercita un\'abilità progressivamente più difficile — dall\'identificazione semplice al sequenziamento multi-passaggio. Confeziona con chiavi di risposta e tracker dei progressi degli studenti. Gli insegnanti pagano prezzi premium per risorse differenziate utilizzabili su più livelli di abilità.',
+      description: 'Costruisci set di pratica sulla discriminazione dimensionale a livelli usando il tipo di domanda come asse di differenziazione. Livello 1: Cerchia il Grande, 2 immagini, modalità identiche. Livello 2: Cerchia il Piccolo, 2 immagini, modalità diverse. Livello 3: Cerchia il Medio, 3 immagini. Livello 4: Numera 1–2–3, 3 immagini. Ogni livello esercita un\'abilità progressivamente più difficile — dall\'identificazione semplice al sequenziamento multi-passaggio. Confeziona con chiavi di risposta e tracker dei progressi degli utenti. i venditori pagano prezzi premium per risorse differenziate utilizzabili su più livelli di abilità.',
     },
     {
       title: 'Prodotti a Vendibilità Globale Senza Testo',
@@ -84,39 +84,39 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Set di Attività Stagionali e Festive',
-      description: 'Usa temi di immagini stagionali e festive per creare bundle di confronto dimensioni a tempo limitato. Un pacchetto "Ordinamento Dimensioni di Halloween" con immagini a tema spaventoso si vende in ottobre. Natale, rientro a scuola, San Valentino e temi estivi raggiungono ciascuno i propri picchi di vendita su Etsy e TpT. Combina esercizi di riscaldamento semplici Cerchia il Grande con esercizi avanzati Numera 1–2–3 in ogni set stagionale per coprire più livelli di abilità e massimizzare il tuo pubblico di acquirenti.',
+      description: 'Usa temi di immagini stagionali e festive per creare bundle di confronto dimensioni a tempo limitato. Un pacchetto "Ordinamento Dimensioni di Halloween" con immagini a tema spaventoso si vende in ottobre. Natale, rientro a scuola, San Valentino e temi estivi raggiungono ciascuno i propri picchi di vendita su Etsy e Gumroad. Combina esercizi di riscaldamento semplici Cerchia il Grande con esercizi avanzati Numera 1–2–3 in ogni set stagionale per coprire più livelli di abilità e massimizzare il tuo pubblico di acquirenti.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Negozio Etsy di Confronto Dimensioni per Tipo di Domanda',
-      description: 'Apri un negozio Etsy specializzato in schede di confronto dimensioni organizzate per difficoltà del tipo di domanda. I pacchetti per principianti presentano Cerchia il Grande con 2 immagini identiche — il compito più semplice di discriminazione dimensionale. I pacchetti intermedi usano Cerchia il Piccolo e Cerchia il Medio con 3 immagini diverse. I pacchetti avanzati presentano esercizi Numera 1–2–3 che richiedono sequenziamento multi-passaggio. La maggior parte dei venditori di schede offre prodotti generici a difficoltà unica. La graduazione per tipo di domanda permette agli acquirenti di trovare il livello esatto di sfida per i loro studenti, migliorando le recensioni e stimolando acquisti ripetuti.',
+      description: 'Apri un negozio Etsy specializzato in schede di confronto dimensioni organizzate per difficoltà del tipo di domanda. I pacchetti per principianti presentano Cerchia il Grande con 2 immagini identiche — il compito più semplice di discriminazione dimensionale. I pacchetti intermedi usano Cerchia il Piccolo e Cerchia il Medio con 3 immagini diverse. I pacchetti avanzati presentano esercizi Numera 1–2–3 che richiedono sequenziamento multi-passaggio. La maggior parte dei venditori di schede offre prodotti generici a difficoltà unica. La graduazione per tipo di domanda permette agli acquirenti di trovare il livello esatto di sfida per i loro utenti, migliorando le recensioni e stimolando acquisti ripetuti.',
       platform: 'Etsy',
     },
     {
       title: 'Serie di Quaderni Discriminazione Dimensionale per Amazon KDP',
-      description: 'Compila oltre 80 esercizi di confronto dimensioni in quaderni tematici per Amazon KDP. Struttura una serie per tema: "Ordinamento Dimensioni Animali," "Grande e Piccolo Veicoli," "Ordinamento Dimensioni Cibo." Ogni libro progredisce dall\'identificazione semplice a 2 immagini all\'ordinamento complesso a 3 immagini con chiavi di risposta in fondo. Il formato visivo senza testo si pubblica identicamente su tutti i marketplace KDP internazionali senza traduzione. I quaderni di confronto dimensioni riempiono una nicchia specifica di apprendimento precoce con domanda tutto l\'anno da genitori e insegnanti della scuola dell\'infanzia.',
+      description: 'Compila oltre 80 esercizi di confronto dimensioni in quaderni tematici per Amazon KDP. Struttura una serie per tema: "Ordinamento Dimensioni Animali," "Grande e Piccolo Veicoli," "Ordinamento Dimensioni Cibo." Ogni libro progredisce dall\'identificazione semplice a 2 immagini all\'ordinamento complesso a 3 immagini con chiavi di risposta in fondo. Il formato visivo senza testo si pubblica identicamente su tutti i marketplace KDP internazionali senza traduzione. I quaderni di confronto dimensioni riempiono una nicchia specifica di apprendimento precoce con domanda tutto l\'anno da genitori e venditori della scuola dell\'infanzia.',
       platform: 'Amazon KDP',
     },
     {
-      title: 'Centri di Discriminazione Visiva per Teachers Pay Teachers',
-      description: 'Carica pacchetti di schede confronto dimensioni su TpT organizzati per livello di abilità e tema. Includi quattro livelli di difficoltà per tema usando il tipo di domanda come asse di differenziazione. Confeziona con chiavi di risposta auto-generate, schede di monitoraggio progressi studenti e istruzioni per l\'insegnante. Il formato senza testo funziona in qualsiasi classe indipendentemente dalla lingua degli studenti — particolarmente prezioso per contesti multilingue e inclusivi. Gli insegnanti cercano "attività confronto dimensioni" e "schede grande e piccolo" e trovano opzioni di qualità limitate.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Centri di Discriminazione Visiva per Gumroad',
+      description: 'Carica pacchetti di schede confronto dimensioni su Gumroad organizzati per livello di abilità e tema. Includi quattro livelli di difficoltà per tema usando il tipo di domanda come asse di differenziazione. Confeziona con chiavi di risposta auto-generate, schede di monitoraggio progressi utenti e istruzioni per l\'venditore. Il formato senza testo funziona in qualsiasi mercato indipendentemente dalla lingua degli utenti — particolarmente prezioso per contesti multilingue e inclusivi. i venditori cercano "attività confronto dimensioni" e "schede grande e piccolo" e trovano opzioni di qualità limitate.',
+      platform: 'Gumroad',
     },
     {
       title: 'Funnel Pinterest di Attività Visive sulle Dimensioni',
-      description: 'Le schede di confronto dimensioni con immagini tematiche colorate sono intrinsecamente adatte a Pinterest — il formato visivo cattura l\'attenzione nei feed Pinterest dove la maggior parte dei pin di schede sono pesanti di testo e visivamente spenti. Pubblica pin di schede campione mostrando i cinque tipi di domanda con filigrana, collega al tuo negozio o landing page, e raccogli indirizzi email per la tua lista iscritti. Promuovi bundle tematici completi e quaderni. Il formato senza testo significa che i pin attraggono genitori e insegnanti in ogni paese, non solo quelli italofoni.',
+      description: 'Le schede di confronto dimensioni con immagini tematiche colorate sono intrinsecamente adatte a Pinterest — il formato visivo cattura l\'attenzione nei feed Pinterest dove la maggior parte dei pin di schede sono pesanti di testo e visivamente spenti. Pubblica pin di schede campione mostrando i cinque tipi di domanda con filigrana, collega al tuo negozio o landing page, e raccogli indirizzi email per la tua lista iscritti. Promuovi bundle tematici completi e quaderni. Il formato senza testo significa che i pin attraggono genitori e venditori in ogni paese, non solo quelli italofoni.',
       platform: 'Pinterest',
     },
     {
       title: 'Toolkit Completo di Apprendimento Visivo su Gumroad',
-      description: 'Raggruppa schede confronto dimensioni con schede di abbinamento, trova l\'intruso, discriminazione visiva ombre, treno delle sequenze e pregrafismo per creare un toolkit completo di apprendimento visivo su Gumroad. Ogni formato esercita una diversa abilità cognitiva visiva: Grande e Piccolo sviluppa la discriminazione dimensionale, abbinamento sviluppa l\'accoppiamento visivo, intruso sviluppa la classificazione, ombre sviluppa il riconoscimento delle forme. Un toolkit visivo multi-formato giustifica un prezzo premium e offre agli studenti pratica varia con immagini tematiche coordinate in ogni tipo di attività.',
+      description: 'Raggruppa schede confronto dimensioni con schede di abbinamento, trova l\'intruso, discriminazione visiva ombre, treno delle sequenze e pregrafismo per creare un toolkit completo di apprendimento visivo su Gumroad. Ogni formato esercita una diversa abilità cognitiva visiva: Grande e Piccolo sviluppa la discriminazione dimensionale, abbinamento sviluppa l\'accoppiamento visivo, intruso sviluppa la negozificazione, ombre sviluppa il riconoscimento delle forme. Un toolkit visivo multi-formato giustifica un prezzo premium e offre agli utenti pratica varia con immagini tematiche coordinate in ogni tipo di attività.',
       platform: 'Gumroad',
     },
     {
       title: 'Linea di Prodotti Doppia Modalità per Massima Varietà',
-      description: 'Crea ogni tema in entrambe le modalità Immagini Identiche e Immagini Diverse e vendili come prodotti separati o bundle premium. Immagini Identiche punta alla pura percezione dimensionale per studenti più piccoli. Immagini Diverse punta al ragionamento sulla dimensione relativa per studenti più avanzati. Questo raddoppia il tuo catalogo prodotti da un singolo set di temi — 104 temi per due modalità equivale a 208 potenziali annunci. Ogni modalità esercita genuinamente un\'abilità cognitiva diversa, quindi la differenziazione è reale e difendibile nelle descrizioni dei prodotti.',
+      description: 'Crea ogni tema in entrambe le modalità Immagini Identiche e Immagini Diverse e vendili come prodotti separati o bundle premium. Immagini Identiche punta alla pura percezione dimensionale per utenti più piccoli. Immagini Diverse punta al ragionamento sulla dimensione relativa per utenti più avanzati. Questo raddoppia il tuo catalogo prodotti da un singolo set di temi — 104 temi per due modalità equivale a 208 potenziali annunci. Ogni modalità esercita genuinamente un\'abilità cognitiva diversa, quindi la differenziazione è reale e difendibile nelle descrizioni dei prodotti.',
       platform: 'Etsy / Amazon KDP',
     },
   ],
@@ -124,7 +124,7 @@ const content: ToolContent = {  seo: {
   proTips: [
     {
       title: 'Usa il Tipo di Domanda come Asse Principale di Difficoltà',
-      description: 'I cinque tipi di domanda creano una progressione naturale di difficoltà. Cerchia il Grande è il più facile — gli studenti individuano l\'immagine ovviamente più grande. Cerchia il Piccolo è leggermente più difficile perché "il più piccolo" richiede un confronto più attento. Cerchia il Medio è il compito di identificazione più impegnativo perché gli studenti devono eliminare entrambi gli estremi. Numera 1–2–3 richiede sequenziamento multi-passaggio. Usa questa progressione per creare bundle di prodotti graduati da una singola sessione di progettazione.',
+      description: 'I cinque tipi di domanda creano una progressione naturale di difficoltà. Cerchia il Grande è il più facile — gli utenti individuano l\'immagine ovviamente più grande. Cerchia il Piccolo è leggermente più difficile perché "il più piccolo" richiede un confronto più attento. Cerchia il Medio è il compito di identificazione più impegnativo perché gli utenti devono eliminare entrambi gli estremi. Numera 1–2–3 richiede sequenziamento multi-passaggio. Usa questa progressione per creare bundle di prodotti graduati da una singola sessione di progettazione.',
     },
     {
       title: 'Sfrutta le Modalità Identiche vs. Diverse per Doppi Prodotti',
@@ -140,15 +140,15 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Usa la Scala di Grigi per KDP e Stampa in Serie',
-      description: 'Attiva l\'opzione scala di grigi per le schede destinate agli interni Amazon KDP o alla stampa in serie in classe. L\'output in bianco e nero costa significativamente meno da stampare e soddisfa i requisiti KDP per interni standard (non a colori premium). Riserva la modalità colore per le anteprime degli annunci Etsy e i download digitali dove le immagini tematiche vibranti attirano clic.',
+      description: 'Attiva l\'opzione scala di grigi per le schede destinate agli interni Amazon KDP o alla stampa in serie online. L\'output in bianco e nero costa significativamente meno da stampare e soddisfa i requisiti KDP per interni standard (non a colori premium). Riserva la modalità colore per le anteprime degli annunci Etsy e i download digitali dove le immagini tematiche vibranti attirano clic.',
     },
     {
       title: 'Combina con Altri Strumenti Visivi per Bundle Premium',
-      description: 'Abbina le schede confronto dimensioni con schede di abbinamento, trova l\'intruso, discriminazione visiva ombre e attività sulle sequenze. Ogni strumento esercita una diversa abilità di discriminazione visiva: Grande e Piccolo copre la percezione dimensionale, abbinamento copre l\'accoppiamento visivo, intruso copre la classificazione, ombre copre il riconoscimento delle forme. I bundle visivi multi-formato si vendono a più di qualsiasi singolo tipo di attività da solo.',
+      description: 'Abbina le schede confronto dimensioni con schede di abbinamento, trova l\'intruso, discriminazione visiva ombre e attività sulle sequenze. Ogni strumento esercita una diversa abilità di discriminazione visiva: Grande e Piccolo copre la percezione dimensionale, abbinamento copre l\'accoppiamento visivo, intruso copre la negozificazione, ombre copre il riconoscimento delle forme. I bundle visivi multi-formato si vendono a più di qualsiasi singolo tipo di attività da solo.',
     },
     {
       title: 'Carica Immagini Personalizzate per Mercati di Nicchia',
-      description: 'Usa il caricamento immagini personalizzate per creare schede confronto dimensioni per pubblici di nicchia oltre la libreria integrata. Confronta dimensioni di edifici per lezioni di architettura, porzioni di cibo per educazione alimentare, o dimensioni dei pianeti per unità di scienze. Le immagini personalizzate ti permettono di raggiungere nicchie specifiche su Etsy e TpT dove le sole immagini della libreria tematica potrebbero non bastare.',
+      description: 'Usa il caricamento immagini personalizzate per creare schede confronto dimensioni per pubblici di nicchia oltre la libreria integrata. Confronta dimensioni di edifici per lezioni di architettura, porzioni di cibo per educazione alimentare, o dimensioni dei pianeti per unità di scienze. Le immagini personalizzate ti permettono di raggiungere nicchie specifiche su Etsy e Gumroad dove le sole immagini della libreria tematica potrebbero non bastare.',
     },
   ],
 
@@ -159,7 +159,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Quali sono i cinque tipi di domanda?',
-      answer: 'Cerchia il Grande chiede agli studenti di trovare l\'immagine più grande. Cerchia il Piccolo punta alla più piccola. Cerchia il Medio richiede l\'identificazione dell\'immagine di dimensione intermedia (necessita 3 immagini per esercizio). Numera 1–2–3 dal Piccolo al Grande chiede agli studenti di etichettare le immagini in ordine crescente. Numera 1–2–3 dal Grande al Piccolo inverte in ordine decrescente. Le domande a cerchio testano l\'identificazione; le domande di numerazione testano il sequenziamento multi-passaggio.',
+      answer: 'Cerchia il Grande chiede agli utenti di trovare l\'immagine più grande. Cerchia il Piccolo punta alla più piccola. Cerchia il Medio richiede l\'identificazione dell\'immagine di dimensione intermedia (necessita 3 immagini per esercizio). Numera 1–2–3 dal Piccolo al Grande chiede agli utenti di etichettare le immagini in ordine crescente. Numera 1–2–3 dal Grande al Piccolo inverte in ordine decrescente. Le domande a cerchio testano l\'identificazione; le domande di numerazione testano il sequenziamento multi-passaggio.',
     },
     {
       question: 'Qual è la differenza tra la modalità Immagini Identiche e Immagini Diverse?',
@@ -167,19 +167,19 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Perché le schede non hanno testo?',
-      answer: 'Le schede Grande e Piccolo sono completamente visive per design. Solo immagini e indicatori visivi appaiono sull\'output — nessuna parola scritta. Questo rende le schede universalmente utilizzabili indipendentemente dalla lingua o dal livello di lettura. Gli studenti pre-lettori le completano senza leggere. Per i venditori, l\'output senza testo significa che lo stesso prodotto si vende in tutto il mondo senza traduzione — un singolo annuncio serve ogni mercato.',
+      answer: 'Le schede Grande e Piccolo sono completamente visive per design. Solo immagini e indicatori visivi appaiono sull\'output — nessuna parola scritta. Questo rende le schede universalmente utilizzabili indipendentemente dalla lingua o dal livello di lettura. gli utenti pre-lettori le completano senza leggere. Per i venditori, l\'output senza testo significa che lo stesso prodotto si vende in tutto il mondo senza traduzione — un singolo annuncio serve ogni mercato.',
     },
     {
       question: 'In cosa differisce Grande e Piccolo da abbinamento, intruso e sequenze?',
-      answer: 'Grande e Piccolo si concentra specificamente sulla discriminazione dimensionale — gli studenti confrontano oggetti per dimensione, identificano il più grande o il più piccolo, o mettono in sequenza gli elementi in ordine di grandezza. Le schede di abbinamento accoppiano elementi identici o correlati. Trova l\'Intruso chiede agli studenti di individuare quale elemento non appartiene a un insieme. Treno delle Sequenze e Schede Sequenze si concentrano sul riconoscimento e il proseguimento di sequenze. Ogni strumento esercita un\'abilità visiva distinta.',
+      answer: 'Grande e Piccolo si concentra specificamente sulla discriminazione dimensionale — gli utenti confrontano oggetti per dimensione, identificano il più grande o il più piccolo, o mettono in sequenza gli elementi in ordine di grandezza. Le schede di abbinamento accoppiano elementi identici o correlati. Trova l\'Intruso chiede agli utenti di individuare quale elemento non appartiene a un insieme. Treno delle Sequenze e Schede Sequenze si concentrano sul riconoscimento e il proseguimento di sequenze. Ogni strumento esercita un\'abilità visiva distinta.',
     },
     {
       question: 'Come funziona la chiave di risposta?',
-      answer: 'La chiave di risposta auto-generata crea una versione risolta della tua scheda. Per le domande a cerchio, l\'immagine corretta è evidenziata e cerchiata visivamente. Per le domande di numerazione, l\'ordine corretto delle dimensioni è mostrato. La chiave di risposta si scarica come file separato insieme alla scheda. Includere le chiavi di risposta aumenta il valore percepito del prodotto ed è atteso dagli acquirenti su Etsy, TPT e KDP.',
+      answer: 'La chiave di risposta auto-generata crea una versione risolta della tua scheda. Per le domande a cerchio, l\'immagine corretta è evidenziata e cerchiata visivamente. Per le domande di numerazione, l\'ordine corretto delle dimensioni è mostrato. La chiave di risposta si scarica come file separato insieme alla scheda. Includere le chiavi di risposta aumenta il valore percepito del prodotto ed è atteso dagli acquirenti su Etsy, Gumroad e KDP.',
     },
     {
       question: 'Posso impostare 2 o 3 immagini per esercizio?',
-      answer: 'Sì. Con 2 immagini, gli studenti fanno un confronto diretto più grande/più piccolo. Con 3 immagini, viene introdotta l\'opzione media, abilitando Cerchia il Medio e rendendo gli esercizi di numerazione più impegnativi con tre elementi da ordinare. Inizia con 2 immagini per studenti più piccoli e progredisci a 3 per pratica più avanzata. Puoi anche impostare da 1 a 10 esercizi per pagina per una densità flessibile della scheda.',
+      answer: 'Sì. Con 2 immagini, gli utenti fanno un confronto diretto più grande/più piccolo. Con 3 immagini, viene introdotta l\'opzione media, abilitando Cerchia il Medio e rendendo gli esercizi di numerazione più impegnativi con tre elementi da ordinare. Inizia con 2 immagini per utenti più piccoli e progredisci a 3 per pratica più avanzata. Puoi anche impostare da 1 a 10 esercizi per pagina per una densità flessibile della scheda.',
     },
     {
       question: 'Posso caricare le mie immagini?',
@@ -191,7 +191,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Posso vendere le schede create con questo strumento a livello commerciale?',
-      answer: 'La prova gratuita con filigrana è solo per uso personale e in classe. Per vendere schede su Etsy, Teachers Pay Teachers, Amazon KDP o qualsiasi altro marketplace, è necessaria una licenza commerciale. La licenza rimuove la filigrana e concede pieni diritti di rivendita per le schede di confronto dimensioni che crei.',
+      answer: 'La prova gratuita con filigrana è solo per uso personale e online. Per vendere schede su Etsy, Gumroad, Amazon KDP o qualsiasi altro marketplace, è necessaria una licenza commerciale. La licenza rimuove la filigrana e concede pieni diritti di rivendita per le schede di confronto dimensioni che crei.',
     },
     {
       question: 'Qual è la vostra politica di rimborso?',
@@ -219,12 +219,12 @@ const content: ToolContent = {  seo: {
       {
         src: '/samples/italian/big small/Grande o Piccolo 2.webp',
         alt: 'Scheda confronto dimensioni in modalità cerchia il grande con immagini tematiche di animali a dimensioni diverse',
-        caption: 'Modalità Cerchia il Grande — gli studenti identificano l\'immagine più grande in ogni esercizio',
+        caption: 'Modalità Cerchia il Grande — gli utenti identificano l\'immagine più grande in ogni esercizio',
       },
       {
         src: '/samples/italian/big small/Grande o Piccolo 3.webp',
         alt: 'Scheda ordinamento dimensioni con tre immagini numerate dalla più piccola alla più grande',
-        caption: 'Numera 1–2–3 dal Piccolo al Grande — gli studenti ordinano le immagini per dimensione dalla più piccola alla più grande',
+        caption: 'Numera 1–2–3 dal Piccolo al Grande — gli utenti ordinano le immagini per dimensione dalla più piccola alla più grande',
       },
       {
         src: '/samples/italian/big small/Grande o Piccolo 4.webp',

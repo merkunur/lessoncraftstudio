@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'generador de fichas de trazado de líneas para vendedores Etsy',
       'creador de fichas de grafomotricidad para editores Amazon KDP',
-      'vender fichas de trazado de líneas en Teachers Pay Teachers',
+      'vender fichas de trazado de líneas en Gumroad',
       'generador de fichas grafomotricidad licencia comercial',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Generador Fichas Grafomotricidad | Crear y Vender',
     metaDescription:
-      'Crea fichas de grafomotricidad para Etsy, KDP y TPT. Ocho plantillas SVG, pares de imágenes, 104 colecciones temáticas. Prueba gratis con marca de agua.',
+      'Crea fichas de grafomotricidad para Etsy, KDP y Gumroad. Ocho plantillas SVG, pares de imágenes, 104 colecciones temáticas. Prueba gratis con marca de agua.',
   },
 
   hero: {
     title: 'Generador de Fichas de Grafomotricidad para Ejercicios de Trazado de Líneas',
     tagline: 'Ocho plantillas de líneas SVG — curvas, diagonales, horizontal y vertical — con 4 a 5 pares de imágenes por página para el desarrollo de la motricidad fina mediante el trazado de líneas guiado.',
     description:
-      'Diseña fichas profesionales de grafomotricidad donde los alumnos trazan a lo largo de caminos guiados para conectar pares de imágenes emparejadas. Ocho plantillas basadas en SVG cubren cuatro tipos de líneas: cuatro plantillas de curvas para movimientos fluidos, dos plantillas de diagonales para trazos en ángulo, una plantilla horizontal para trazado de izquierda a derecha y una plantilla vertical para práctica de arriba hacia abajo. Cada plantilla coloca 4 o 5 pares de imágenes emparejadas a cada lado del camino de la línea, dando a los alumnos un objetivo visual en cada extremo. El autorrelleno asigna aleatoriamente pares de imágenes desde cualquier tema seleccionado o desde todos los temas a la vez. El contenido proviene de la Biblioteca de Imágenes integrada con más de 3100 ilustraciones coloridas en 104 temas — animales, vehículos, comida, naturaleza y docenas más. Cada ficha es puramente visual con cero texto en la salida, haciéndolas universalmente utilizables sin importar el idioma o nivel de lectura. La selección de la plantilla determina automáticamente la orientación de la página: las plantillas de curvas pasan a horizontal para movimientos amplios, mientras que las plantillas de diagonales, horizontal y vertical usan vertical para práctica enfocada de arriba hacia abajo. El Acceso Completo desbloquea los 104 temas y los 11 idiomas de interfaz. Exporta PDF y JPEG listos para imprimir a 300 DPI en formato Carta, A4 o dimensiones personalizadas. Ya sea que vendas packs de trazado de líneas en Etsy, compiles cuadernos de motricidad fina para Amazon KDP o crees centros de preparación para la escritura para TPT, el Generador de Fichas de Grafomotricidad ofrece resultados profesionales en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Diseña fichas profesionales de grafomotricidad donde los usuarios trazan a lo largo de caminos guiados para conectar pares de imágenes emparejadas. Ocho plantillas basadas en SVG cubren cuatro tipos de líneas: cuatro plantillas de curvas para movimientos fluidos, dos plantillas de diagonales para trazos en ángulo, una plantilla horizontal para trazado de izquierda a derecha y una plantilla vertical para práctica de arriba hacia abajo. Cada plantilla coloca 4 o 5 pares de imágenes emparejadas a cada lado del camino de la línea, dando a los usuarios un objetivo visual en cada extremo. El autorrelleno asigna aleatoriamente pares de imágenes desde cualquier tema seleccionado o desde todos los temas a la vez. El contenido proviene de la Biblioteca de Imágenes integrada con más de 3100 ilustraciones coloridas en 104 temas — animales, vehículos, comida, naturaleza y docenas más. Cada ficha es puramente visual con cero texto en la salida, haciéndolas universalmente utilizables sin importar el idioma o nivel de lectura. La selección de la plantilla determina automáticamente la orientación de la página: las plantillas de curvas pasan a horizontal para movimientos amplios, mientras que las plantillas de diagonales, horizontal y vertical usan vertical para práctica enfocada de arriba hacia abajo. El Acceso Completo desbloquea los 104 temas y los 11 idiomas de interfaz. Exporta PDF y JPEG listos para imprimir a 300 DPI en formato Carta, A4 o dimensiones personalizadas. Ya sea que vendas packs de trazado de líneas en Etsy, compiles cuadernos de motricidad fina para Amazon KDP o crees centros de preparación para la escritura para Gumroad, el Generador de Fichas de Grafomotricidad ofrece resultados profesionales en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
   },
 
   howItWorks: {
@@ -47,12 +47,12 @@ const content: AppContent = {
       {
         title: 'Añadir decoraciones de texto y personalizar',
         description:
-          'Usa el panel Herramientas de Texto para añadir un título de ficha, campos de nombre y fecha del alumno (Fredoka 18px) o instrucciones personalizadas con fuentes como Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito y Quicksand. Ajusta el tamaño de fuente, color y ancho del contorno de texto (0 a 10 con granularidad de 0,5). Arrastra, redimensiona, rota y reposiciona cada elemento en el lienzo Fabric.js completo con controles de capas, bloqueo/desbloqueo, herramientas de alineación y zoom de 25 % a 400 %. Deshaz y rehaz hasta 100 estados de historial con Ctrl+Z y Ctrl+Y.',
+          'Usa el panel Herramientas de Texto para añadir un título de ficha, campos de nombre y fecha (Fredoka 18px) o instrucciones personalizadas con fuentes como Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito y Quicksand. Ajusta el tamaño de fuente, color y ancho del contorno de texto (0 a 10 con granularidad de 0,5). Arrastra, redimensiona, rota y reposiciona cada elemento en el lienzo Fabric.js completo con controles de capas, bloqueo/desbloqueo, herramientas de alineación y zoom de 25 % a 400 %. Deshaz y rehaz hasta 100 estados de historial con Ctrl+Z y Ctrl+Y.',
       },
       {
         title: 'Descargar como JPEG o PDF',
         description:
-          'Abre el menú Descargar y exporta tu ficha terminada como JPEG de alta resolución (calidad 1.0) o PDF listo para imprimir a 300 DPI mediante un multiplicador de renderizado 6x. Activa la exportación en escala de grises para versiones que ahorran tinta, ideales para impresión en clase. Los archivos se guardan como drawing_lines_worksheet.jpeg o drawing_lines_worksheet.pdf. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos TPT — sin necesidad de postprocesamiento.',
+          'Abre el menú Descargar y exporta tu ficha terminada como JPEG de alta resolución (calidad 1.0) o PDF listo para imprimir a 300 DPI mediante un multiplicador de renderizado 6x. Activa la exportación en escala de grises para versiones que ahorran tinta, ideales para impresión en línea. Los archivos se guardan como drawing_lines_worksheet.jpeg o drawing_lines_worksheet.pdf. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad — sin necesidad de postprocesamiento.',
       },
     ],
   },
@@ -63,12 +63,12 @@ const content: AppContent = {
       {
         title: 'Ocho plantillas de líneas SVG: curvas, diagonales, horizontal y vertical',
         description:
-          'Ocho plantillas distintas basadas en SVG cubren cuatro tipos de líneas para un desarrollo completo de la motricidad fina. Cuatro plantillas de curvas crean trazados fluidos y amplios que desarrollan la flexibilidad de la muñeca y el movimiento fluido — cada variante de curva ofrece una forma diferente para variedad visual. Dos plantillas de diagonales producen líneas en ángulo que construyen la coordinación cruzada mientras los alumnos trazan de una esquina a otra. Una plantilla horizontal genera líneas rectas de izquierda a derecha para el control direccional. Una plantilla vertical crea líneas de arriba hacia abajo para la práctica del trazo descendente. La variedad de tipos de líneas permite crear packs de dificultad progresiva: empieza con líneas horizontales rectas, avanza a curvas y termina con diagonales para un programa completo de motricidad fina.',
+          'Ocho plantillas distintas basadas en SVG cubren cuatro tipos de líneas para un desarrollo completo de la motricidad fina. Cuatro plantillas de curvas crean trazados fluidos y amplios que desarrollan la flexibilidad de la muñeca y el movimiento fluido — cada variante de curva ofrece una forma diferente para variedad visual. Dos plantillas de diagonales producen líneas en ángulo que construyen la coordinación cruzada mientras los usuarios trazan de una esquina a otra. Una plantilla horizontal genera líneas rectas de izquierda a derecha para el control direccional. Una plantilla vertical crea líneas de arriba hacia abajo para la práctica del trazo descendente. La variedad de tipos de líneas permite crear packs de dificultad progresiva: empieza con líneas horizontales rectas, avanza a curvas y termina con diagonales para un programa completo de motricidad fina.',
       },
       {
         title: 'Asociación de pares de imágenes con autorrelleno desde 104 temas',
         description:
-          'Cada plantilla coloca pares de imágenes emparejadas a cada lado del camino de la línea — los alumnos ven una imagen al inicio y su pareja al final, creando un objetivo visual que motiva el trazado de líneas. El autorrelleno asigna aleatoriamente pares de imágenes desde el tema seleccionado o desde los 104 temas a la vez, llenando instantáneamente cada espacio de par en la página. Esto hace que la creación de fichas en lote sea ultrarrápida: selecciona un tema, haz clic en autorrelleno y la plantilla está lista para exportar. Cambia de tema y repite para generar docenas de fichas únicas en minutos. Cada tema proporciona imágenes coordinadas que funcionan juntas visualmente, creando oportunidades naturales de agrupación en packs temáticos.',
+          'Cada plantilla coloca pares de imágenes emparejadas a cada lado del camino de la línea — los usuarios ven una imagen al inicio y su pareja al final, creando un objetivo visual que motiva el trazado de líneas. El autorrelleno asigna aleatoriamente pares de imágenes desde el tema seleccionado o desde los 104 temas a la vez, llenando instantáneamente cada espacio de par en la página. Esto hace que la creación de fichas en lote sea ultrarrápida: selecciona un tema, haz clic en autorrelleno y la plantilla está lista para exportar. Cambia de tema y repite para generar docenas de fichas únicas en minutos. Cada tema proporciona imágenes coordinadas que funcionan juntas visualmente, creando oportunidades naturales de agrupación en packs temáticos.',
       },
       {
         title: 'Orientación de página controlada por la plantilla',
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: 'Fichas completamente visuales con cero texto en la salida',
         description:
-          'Cada ficha contiene solo imágenes, trazados de líneas y bordes decorativos — ningún texto aparece en la salida generada. Los alumnos trazan líneas entre los pares de imágenes sin necesidad de leer instrucciones. Esto hace que las fichas de Grafomotricidad sean universalmente utilizables sin importar el idioma, nivel de lectura o estado de alfabetización. Los alumnos prelectores, los estudiantes de otros idiomas y los alumnos de educación especial completan los ejercicios siguiendo el trazado visual de la línea. Para los vendedores, una salida sin texto significa que la misma ficha se vende en todo el mundo sin traducción — un solo listado de producto sirve para cada mercado sin versiones en idiomas separados que mantener.',
+          'Cada ficha contiene solo imágenes, trazados de líneas y bordes decorativos — ningún texto aparece en la salida generada. Los usuarios trazan líneas entre los pares de imágenes sin necesidad de leer instrucciones. Esto hace que las fichas de Grafomotricidad sean universalmente utilizables sin importar el idioma, nivel de lectura o estado de alfabetización. Los usuarios prelectores, los usuarios de otros idiomas y los usuarios de educación especial completan los ejercicios siguiendo el trazado visual de la línea. Para los vendedores, una salida sin texto significa que la misma ficha se vende en todo el mundo sin traducción — un solo listado de producto sirve para cada mercado sin versiones en idiomas separados que mantener.',
       },
       {
         title: 'Biblioteca de imágenes con 104 colecciones temáticas y más de 3100 ilustraciones',
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: 'Exportación PDF y JPEG lista para imprimir a 300 DPI',
         description:
-          'Descarga fichas como imágenes JPEG de alta resolución (calidad 1.0) o documentos PDF listos para imprimir renderizados a 300 DPI mediante un multiplicador de renderizado 6x. Los formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) y dimensiones personalizadas están todos soportados. Activa la exportación en escala de grises para versiones que ahorran tinta, ideales para impresión en clase o cuadernos en blanco y negro. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos TPT — sin necesidad de postprocesamiento.',
+          'Descarga fichas como imágenes JPEG de alta resolución (calidad 1.0) o documentos PDF listos para imprimir renderizados a 300 DPI mediante un multiplicador de renderizado 6x. Los formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) y dimensiones personalizadas están todos soportados. Activa la exportación en escala de grises para versiones que ahorran tinta, ideales para impresión en línea o cuadernos en blanco y negro. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad — sin necesidad de postprocesamiento.',
       },
       {
         title: 'Edición completa del lienzo con herramientas de texto y decoración',
@@ -115,26 +115,26 @@ const content: AppContent = {
       {
         title: 'Cuadernos de motricidad fina en Amazon KDP',
         description:
-          'Compila de 60 a 100 ejercicios de trazado de líneas en un cuaderno impreso estructurado como un programa progresivo de motricidad fina. El capítulo 1 cubre las líneas horizontales para las bases del control direccional. El capítulo 2 introduce las líneas verticales para la práctica del trazo descendente. El capítulo 3 avanza a las plantillas de curvas para la flexibilidad de la muñeca. El capítulo 4 desafía a los alumnos con las diagonales que requieren coordinación cruzada. Cada capítulo usa diferentes temas de imágenes para mantener el interés a lo largo de más de 60 páginas. El formato completamente visual significa que no se necesita traducción para los mercados KDP internacionales — publica el mismo interior en cada país. Los cuadernos de motricidad fina llenan un nicho específico de aprendizaje temprano con demanda constante durante todo el año por parte de padres y maestros de preescolar.',
+          'Compila de 60 a 100 ejercicios de trazado de líneas en un cuaderno impreso estructurado como un programa progresivo de motricidad fina. El capítulo 1 cubre las líneas horizontales para las bases del control direccional. El capítulo 2 introduce las líneas verticales para la práctica del trazo descendente. El capítulo 3 avanza a las plantillas de curvas para la flexibilidad de la muñeca. El capítulo 4 desafía a los usuarios con las diagonales que requieren coordinación cruzada. Cada capítulo usa diferentes temas de imágenes para mantener el interés a lo largo de más de 60 páginas. El formato completamente visual significa que no se necesita traducción para los mercados KDP internacionales — publica el mismo interior en cada país. Los cuadernos de motricidad fina llenan un nicho específico de aprendizaje temprano con demanda constante durante todo el año por parte de padres y vendedores de preescolar.',
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de preescritura y preparación para la escritura para TPT',
+        title: 'Centros de preescritura y preparación para la escritura para Gumroad',
         description:
-          'Construye estaciones de preparación para la escritura por niveles usando el tipo de línea como eje de progresión: Estación 1 (líneas horizontales para seguimiento de izquierda a derecha), Estación 2 (líneas verticales para trazos de arriba hacia abajo), Estación 3 (curvas para movimientos de formación de letras) y Estación 4 (diagonales para formas de letras angulares). Cada estación trabaja una competencia de preescritura específica que se transfiere directamente a la formación de letras. Agrupa cada estación con ejercicios temáticos y tarjetas de instrucciones para el profesor. El formato visual sin texto funciona en cualquier aula sin importar el idioma de los alumnos, haciendo estos recursos valiosos para contextos inclusivos, multilingües y de educación especial.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Construye estaciones de preparación para la escritura por niveles usando el tipo de línea como eje de progresión: Estación 1 (líneas horizontales para seguimiento de izquierda a derecha), Estación 2 (líneas verticales para trazos de arriba hacia abajo), Estación 3 (curvas para movimientos de formación de letras) y Estación 4 (diagonales para formas de letras angulares). Cada estación trabaja una competencia de preescritura específica que se transfiere directamente a la formación de letras. Agrupa cada estación con ejercicios temáticos y tarjetas de instrucciones para el vendedor. El formato visual sin texto funciona en cualquier tienda sin importar el idioma de los usuarios, haciendo estos recursos valiosos para contextos inclusivos, multilingües y de educación especial.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Fichas visuales multilingües para mercados globales',
         description:
-          'Como las fichas de Grafomotricidad no contienen texto en la salida, el mismo producto funciona en todos los idiomas sin modificación. Los alumnos trazan líneas entre los pares de imágenes sin necesidad de leer — el trazado visual en sí proporciona todo el guiado necesario. Crea un conjunto de ejercicios de trazado de líneas y véndelo en todo el mundo sin traducción ni versiones en idiomas separados que mantener. Publica productos idénticos en tiendas Etsy dirigidas a diferentes países, o publica el mismo interior KDP en todos los mercados internacionales de Amazon. Un solo flujo de trabajo produce un producto universalmente vendible.',
-        platform: 'Etsy / Amazon KDP / TPT (global)',
+          'Como las fichas de Grafomotricidad no contienen texto en la salida, el mismo producto funciona en todos los idiomas sin modificación. Los usuarios trazan líneas entre los pares de imágenes sin necesidad de leer — el trazado visual en sí proporciona todo el guiado necesario. Crea un conjunto de ejercicios de trazado de líneas y véndelo en todo el mundo sin traducción ni versiones en idiomas separados que mantener. Publica productos idénticos en tiendas Etsy dirigidas a diferentes países, o publica el mismo interior KDP en todos los mercados internacionales de Amazon. Un solo flujo de trabajo produce un producto universalmente vendible.',
+        platform: 'Etsy / Amazon KDP / Gumroad (global)',
       },
       {
-        title: 'Herramienta de motricidad fina para el aula y la terapia',
+        title: 'Herramienta de motricidad fina para venta en línea y la terapia',
         description:
-          'Sube imágenes personalizadas para crear fichas de trazado de líneas orientadas a objetivos terapéuticos o educativos específicos. Los terapeutas ocupacionales pueden seleccionar los tipos de líneas según las necesidades de desarrollo de la motricidad fina de cada paciente — curvas para la movilidad de la muñeca, diagonales para la coordinación bilateral, líneas rectas para el control direccional. Los maestros pueden crear fichas de trazado temáticas donde los alumnos conectan pares de imágenes relacionadas mientras desarrollan el control del lápiz. Ajusta la selección de plantilla y los temas de imágenes según el nivel de habilidad e intereses de cada alumno. Imprime series personalizadas en minutos para sesiones de terapia individuales, grupos pequeños o clases completas.',
-        platform: 'Aula / Terapia / Educación en el hogar',
+          'Sube imágenes personalizadas para crear fichas de trazado de líneas orientadas a objetivos terapéuticos o educativos específicos. Los terapeutas ocupacionales pueden seleccionar los tipos de líneas según las necesidades de desarrollo de la motricidad fina de cada paciente — curvas para la movilidad de la muñeca, diagonales para la coordinación bilateral, líneas rectas para el control direccional. Los vendedores pueden crear fichas de trazado temáticas donde los usuarios conectan pares de imágenes relacionadas mientras desarrollan el control del lápiz. Ajusta la selección de plantilla y los temas de imágenes según el nivel de habilidad e intereses de cada usuario. Imprime series personalizadas en minutos para sesiones de terapia individuales, grupos pequeños o clases completas.',
+        platform: 'Tienda / Terapia / Educación en el hogar',
       },
     ],
   },
@@ -148,12 +148,12 @@ const content: AppContent = {
     {
       question: '¿Qué tipos de líneas están disponibles y qué habilidades desarrollan?',
       answer:
-        'Las líneas curvas desarrollan la flexibilidad de la muñeca y el movimiento fluido mientras los alumnos siguen arcos amplios. Las líneas diagonales construyen la coordinación cruzada con trazados en ángulo. Las líneas horizontales refuerzan el control direccional de izquierda a derecha — la misma dirección de seguimiento usada en la lectura y la escritura. Las líneas verticales practican los trazos de arriba hacia abajo esenciales para la formación de letras. Juntos, estos cuatro tipos de líneas cubren las competencias fundamentales de motricidad fina necesarias para la preparación a la escritura.',
+        'Las líneas curvas desarrollan la flexibilidad de la muñeca y el movimiento fluido mientras los usuarios siguen arcos amplios. Las líneas diagonales construyen la coordinación cruzada con trazados en ángulo. Las líneas horizontales refuerzan el control direccional de izquierda a derecha — la misma dirección de seguimiento usada en la lectura y la escritura. Las líneas verticales practican los trazos de arriba hacia abajo esenciales para la formación de letras. Juntos, estos cuatro tipos de líneas cubren las competencias fundamentales de motricidad fina necesarias para la preparación a la escritura.',
     },
     {
       question: '¿Cómo funciona la asociación de pares de imágenes en cada plantilla?',
       answer:
-        'Cada plantilla coloca pares de imágenes emparejadas a cada lado del camino de la línea. Una imagen aparece al inicio de la línea y su pareja aparece al final. Los alumnos trazan a lo largo del camino guiado para conectar las imágenes que van juntas. Las plantillas contienen 4 o 5 pares según el tipo de línea — las plantillas de curvas y vertical usan 4 pares, las plantillas de diagonales y horizontal usan 5. Las imágenes emparejadas dan a los alumnos un objetivo visual que los motiva a completar cada línea.',
+        'Cada plantilla coloca pares de imágenes emparejadas a cada lado del camino de la línea. Una imagen aparece al inicio de la línea y su pareja aparece al final. Los usuarios trazan a lo largo del camino guiado para conectar las imágenes que van juntas. Las plantillas contienen 4 o 5 pares según el tipo de línea — las plantillas de curvas y vertical usan 4 pares, las plantillas de diagonales y horizontal usan 5. Las imágenes emparejadas dan a los usuarios un objetivo visual que los motiva a completar cada línea.',
     },
     {
       question: '¿Cómo funciona la función de autorrelleno?',
@@ -168,7 +168,7 @@ const content: AppContent = {
     {
       question: '¿Por qué no hay clave de respuesta para las fichas de Grafomotricidad?',
       answer:
-        'Las fichas de Grafomotricidad no necesitan una clave de respuesta separada porque el trazado de la línea en sí guía al alumno. La plantilla de línea SVG impresa en la ficha muestra exactamente dónde trazar — los alumnos siguen el camino visible desde una imagen hasta su pareja. El ejercicio es autocorrectivo: si la línea del alumno sigue el trazado y llega a la imagen correspondiente, lo ha completado correctamente.',
+        'Las fichas de Grafomotricidad no necesitan una clave de respuesta separada porque el trazado de la línea en sí guía al usuario. La plantilla de línea SVG impresa en la ficha muestra exactamente dónde trazar — los usuarios siguen el camino visible desde una imagen hasta su pareja. El ejercicio es autocorrectivo: si la línea del usuario sigue el trazado y llega a la imagen correspondiente, lo ha completado correctamente.',
     },
     {
       question: '¿Puedo subir mis propias imágenes en vez de usar la biblioteca?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de trazado de líneas como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos educativos en TPT o a través de cualquier otro canal de venta. Las ocho plantillas de líneas, los 104 temas de imágenes y el formato completamente visual te ofrecen una fuerte diferenciación y vendibilidad global en las categorías de fichas.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de trazado de líneas como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. Las ocho plantillas de líneas, los 104 temas de imágenes y el formato completamente visual te ofrecen una fuerte diferenciación y vendibilidad global en las categorías de fichas.',
     },
     {
       question: '¿Cuál es la política de reembolso?',
@@ -269,7 +269,7 @@ const content: AppContent = {
       {
         src: '/samples/spanish/drawing lines/Practica de Dibujar Línea 4.webp',
         alt: 'Ficha de trazado de líneas con plantilla de curva conectando pares de imágenes de animales emparejados en orientación horizontal',
-        caption: 'Plantilla de curva — los alumnos trazan líneas curvas fluidas para conectar los pares de imágenes emparejadas',
+        caption: 'Plantilla de curva — los usuarios trazan líneas curvas fluidas para conectar los pares de imágenes emparejadas',
       },
       {
         src: '/samples/spanish/drawing lines/Practica de Dibujar Línea 3.webp',

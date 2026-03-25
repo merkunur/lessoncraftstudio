@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Gerador de Puzzles Algébricos Ilustrados',
     tagline: 'Crie puzzles de álgebra visual com imagens como variáveis em menos de 60 segundos',
-    description: 'Supere as fichas de aritmética padrão com puzzles algébricos ilustrados que desafiam os alunos a pensar em sistemas de equações. Cada ficha apresenta um conjunto de equações interligadas onde as imagens substituem as variáveis desconhecidas — os alunos devem determinar o valor numérico que cada imagem representa. Quatro níveis de dificuldade escalam desde dois símbolos com adição simples até quatro incógnitas simultâneas com operações mistas. Um solucionador algébrico integrado garante que cada puzzle tem exatamente uma solução correta — sem ambiguidade, sem adivinhação. Escolha Só Adição para prática focada ou Adição e Subtração para resolução avançada de problemas. Configure o intervalo numérico, ative os resultados negativos para alunos avançados e controle os puzzles por página de 1 a 6 com ajuste de layout automático. Selecione imagens individualmente, carregue um tema completo ou envie o seu próprio PNG ou JPEG para puzzles personalizados. Como os puzzles usam apenas imagens e números, funcionam de forma idêntica em qualquer idioma — venda o mesmo PDF em todo o mundo sem tradução. Descarregue como PDF pronto para impressão ou JPEG de alta resolução. O teste grátis inclui uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    description: 'Supere as fichas de aritmética padrão com puzzles algébricos ilustrados que desafiam os usuários a pensar em sistemas de equações. Cada ficha apresenta um conjunto de equações interligadas onde as imagens substituem as variáveis desconhecidas — os usuários devem determinar o valor numérico que cada imagem representa. Quatro níveis de dificuldade escalam desde dois símbolos com adição simples até quatro incógnitas simultâneas com operações mistas. Um solucionador algébrico integrado garante que cada puzzle tem exatamente uma solução correta — sem ambiguidade, sem adivinhação. Escolha Só Adição para prática focada ou Adição e Subtração para resolução avançada de problemas. Configure o intervalo numérico, ative os resultados negativos para usuários avançados e controle os puzzles por página de 1 a 6 com ajuste de layout automático. Selecione imagens individualmente, carregue um tema completo ou envie o seu próprio PNG ou JPEG para puzzles personalizados. Como os puzzles usam apenas imagens e números, funcionam de forma idêntica em qualquer idioma — venda o mesmo PDF em todo o mundo sem tradução. Descarregue como PDF pronto para impressão ou JPEG de alta resolução. O teste grátis inclui uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
   },
 
   tutorial: {
@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Configurar Intervalo Numérico e Opções',
-        description: 'Defina os valores mínimo e máximo para as equações (por defeito 0–20). Para alunos avançados, ative o interruptor «Permitir Resultados Negativos» para que as equações de subtração possam produzir valores abaixo de zero. Estes controlos permitem-lhe ajustar cada ficha com precisão ao grupo de idade e nível curricular pretendido.',
+        description: 'Defina os valores mínimo e máximo para as equações (por defeito 0–20). Para usuários avançados, ative o interruptor «Permitir Resultados Negativos» para que as equações de subtração possam produzir valores abaixo de zero. Estes controlos permitem-lhe ajustar cada ficha com precisão ao grupo de idade e nível curricular pretendido.',
       },
       {
         title: 'Selecionar as Imagens',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Gerar, Rever e Descarregar',
-        description: 'Clique em «Gerar» para criar a sua ficha de puzzles algébricos. O solucionador integrado verifica que cada puzzle tem exatamente uma solução antes de o renderizar. Pré-visualize no canvas e depois use o menu «Descarregar» para guardar como JPEG (imagem individual) ou PDF (otimizado para impressão). Gere sempre o gabarito — mostra o valor numérico de cada símbolo para correção rápida.',
+        description: 'Clique em «Gerar» para criar a sua ficha de puzzles algébricos. O solucionador integrado verifica que cada puzzle tem exatamente uma solução antes de o renderizar. Pré-visualize no canvas e depois use o menu «Descarregar» para guardar como JPEG (imagem individual) ou PDF (otimizado para impressão). Gere sempre o gabarito — mostra o valor numérico de cada símbolo paro valor percebido rápida.',
       },
     ],
   },
@@ -65,23 +65,23 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Pacotes de Álgebra Visual Temáticos',
-      description: 'Crie conjuntos de 15 a 20 puzzles algébricos ilustrados usando símbolos temáticos da biblioteca — dinossauros, espaço, animais, veículos. Cada puzzle usa imagens diferentes como variáveis com dificuldade uniforme. Agrupe-os por tema e venda na Etsy ou no Teachers Pay Teachers. O formato de álgebra visual é genuinamente único e faz com que a miniatura do seu listing se destaque instantaneamente face a fichas de matemática padrão. Os pacotes temáticos também fomentam compras repetidas porque os compradores que gostam de um tema costumam voltar para outros, gerando fidelidade a longo prazo para a sua loja.',
+      description: 'Crie conjuntos de 15 a 20 puzzles algébricos ilustrados usando símbolos temáticos da biblioteca — dinossauros, espaço, animais, veículos. Cada puzzle usa imagens diferentes como variáveis com dificuldade uniforme. Agrupe-os por tema e venda na Etsy ou no Gumroad. O formato de álgebra visual é genuinamente único e faz com que a miniatura do seu listing se destaque instantaneamente face a fichas de matemática padrão. Os pacotes temáticos também fomentam compras repetidas porque os compradores que gostam de um tema costumam voltar para outros, gerando fidelidade a longo prazo para a sua loja.',
     },
     {
       title: 'Cadernos Progressivos de Álgebra para KDP',
-      description: 'Compile de 60 a 100 páginas de puzzles algébricos ilustrados estruturados por dificuldade. Comece com Muito Fácil (2 símbolos, só adição) e progrida através de Fácil, Médio até Difícil (4 incógnitas, operações mistas). Publique como caderno de atividades de matemática na Amazon KDP. A dificuldade progressiva cria um currículo natural que pais e professores podem seguir do início ao fim.',
+      description: 'Compile de 60 a 100 páginas de puzzles algébricos ilustrados estruturados por dificuldade. Comece com Muito Fácil (2 símbolos, só adição) e progrida através de Fácil, Médio até Difícil (4 incógnitas, operações mistas). Publique como caderno de atividades de matemática na Amazon KDP. A dificuldade progressiva cria um catálogo de produtos natural que pais e vendedores podem seguir do início ao fim.',
     },
     {
-      title: 'Conjuntos Diferenciados para a Sala de Aula',
-      description: 'Gere quatro versões do mesmo puzzle temático em cada nível de dificuldade: Muito Fácil, Fácil, Médio e Difícil. Os professores entregam a versão adequada a cada aluno conforme a sua capacidade. Todas as versões usam o mesmo tema de imagens para que os alunos se sintam incluídos em vez de sinalizados. Venda-os como um pacote diferenciado a um preço premium no TPT.',
+      title: 'Conjuntos Diferenciados para a loja',
+      description: 'Gere quatro versões do mesmo puzzle temático em cada nível de dificuldade: Muito Fácil, Fácil, Médio e Difícil. Os vendedores entregam a versão adequada a cada usuário conforme a sua capacidade. Todas as versões usam o mesmo tema de imagens para que os usuários se sintam incluídos em vez de sinalizados. Venda-os como um pacote diferenciado a um preço premium no Gumroad.',
     },
     {
       title: 'Puzzles Personalizados com Imagem Própria',
-      description: 'Envie as suas próprias ilustrações, logótipos ou arte com licença para criar puzzles algébricos que nenhum concorrente pode replicar. As imagens enviadas tornam-se os símbolos-variável de cada equação. Perfeito para construir uma marca visual distintiva na Etsy, criar materiais personalizados para a sala de aula ou conceber atividades de matemática com marca própria para negócios de explicações.',
+      description: 'Envie as suas próprias ilustrações, logótipos ou arte com licença para criar puzzles algébricos que nenhum concorrente pode replicar. As imagens enviadas tornam-se os símbolos-variável de cada equação. Perfeito para construir uma marca visual distintiva na Etsy, criar materiais personalizados para a loja ou conceber atividades de matemática com marca própria para negócios de explicações.',
     },
     {
       title: 'Pacotes de Álgebra Sazonais',
-      description: 'Use temas de imagens festivas e sazonais para criar pacotes de edição limitada. Um pacote de «Puzzles de Álgebra de Natal» com símbolos natalícios vende-se muito bem em novembro e dezembro. Halloween, Dia dos Namorados e regresso às aulas têm as suas próprias janelas de vendas pico na Etsy e no TPT. O formato algébrico acrescenta dificuldade percebida e valor sobre a aritmética simples.',
+      description: 'Use temas de imagens festivas e sazonais para criar pacotes de edição limitada. Um pacote de «Puzzles de Álgebra de Natal» com símbolos natalícios vende-se muito bem em novembro e dezembro. Halloween, Dia dos Namorados e regresso às aulas têm as suas próprias janelas de vendas pico na Etsy e no Gumroad. O formato algébrico acrescenta dificuldade percebida e valor sobre a aritmética simples.',
     },
     {
       title: 'Pacotes de Mostruário com Dificuldade Mista',
@@ -101,13 +101,13 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Pacotes Premium de Álgebra no Teachers Pay Teachers',
-      description: 'Carregue pacotes diferenciados de puzzles algébricos no TPT. Os professores procuram constantemente «fichas de álgebra» e «puzzles de matemática». Inclua os quatro níveis de dificuldade, ambos os modos de operação, gabaritos e um guia docente explicando como funciona o formato de álgebra visual. A função de solução única garantida acrescenta credibilidade que os professores valorizam ao escolher materiais para a sala de aula. Incluir um guia de utilização que mapeie cada nível de dificuldade a padrões de ano escolar específicos ajuda os professores a justificar a compra e aumenta as avaliações positivas.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Pacotes Premium de Álgebra no Gumroad',
+      description: 'Carregue pacotes diferenciados de puzzles algébricos no Gumroad. Os vendedores procuram constantemente «fichas de álgebra» e «puzzles de matemática». Inclua os quatro níveis de dificuldade, ambos os modos de operação, gabaritos e um guia vendedor explicando como funciona o formato de álgebra visual. A função de solução única garantida acrescenta credibilidade que os vendedores valorizam ao escolher materiais para a loja. Incluir um guia de utilização que mapeie cada nível de dificuldade a padrões de ano escolar específicos ajuda os vendedores a justificar a compra e aumenta as avaliações positivas.',
+      platform: 'Gumroad',
     },
     {
       title: 'Kits de Desafio Matemático no Gumroad',
-      description: 'Crie um kit premium de puzzles no Gumroad que inclua mais de 40 puzzles algébricos em dificuldade Médio e Difícil. Dirija-se a pais que educam em casa e explicadores de matemática que procuram materiais estimulantes e cativantes. Inclua um guia para pais explicando como cada nível de dificuldade se mapeia a conceitos de álgebra apropriados para cada ano escolar. O formato visual torna a álgebra abstrata acessível para alunos mais novos.',
+      description: 'Crie um kit premium de puzzles no Gumroad que inclua mais de 40 puzzles algébricos em dificuldade Médio e Difícil. Dirija-se a pais que educam em casa e explicadores de matemática que procuram materiais estimulantes e cativantes. Inclua um guia para pais explicando como cada nível de dificuldade se mapeia a conceitos de álgebra apropriados para cada ano escolar. O formato visual torna a álgebra abstrata acessível para usuários mais novos.',
       platform: 'Gumroad',
     },
     {
@@ -125,11 +125,11 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Comece com Muito Fácil para Principiantes',
-      description: 'Muito Fácil usa apenas 2 símbolos-imagem com equações de adição simples. É perfeito para alunos que encontram a álgebra visual pela primeira vez. Deixe-os construir confiança reconhecendo o padrão antes de avançar para Fácil, Médio e Difícil. A progressão gradual mantém a frustração baixa e a motivação elevada. Do ponto de vista do vendedor, os puzzles para principiantes atraem o público mais amplo porque os pais de crianças mais novas procuram ativamente atividades introdutórias de álgebra para usar em casa.',
+      description: 'Muito Fácil usa apenas 2 símbolos-imagem com equações de adição simples. É perfeito para usuários que encontram a álgebra visual pela primeira vez. Deixe-os construir confiança reconhecendo o padrão antes de avançar para Fácil, Médio e Difícil. A progressão gradual mantém a frustração baixa e a motivação elevada. Do ponto de vista do vendedor, os puzzles para principiantes atraem o público mais amplo porque os pais de crianças mais novas procuram ativamente atividades introdutórias de álgebra para usar em casa.',
     },
     {
       title: 'Use Operações Mistas para Maior Variedade',
-      description: 'O modo Adição e Subtração cria puzzles que requerem estratégias de resolução diferentes dentro da mesma ficha. Isto evita que os alunos caiam num padrão repetitivo e avalia ambas as competências simultaneamente. Os puzzles com operações mistas também têm maior valor percebido nos listings de marketplaces porque cobrem mais conteúdo curricular. Na Etsy e no TPT, etiquetar o seu listing como «operações mistas» capta tráfego de pesquisa de professores que procuram especificamente materiais de revisão que abranjam várias competências matemáticas numa única atividade.',
+      description: 'O modo Adição e Subtração cria puzzles que requerem estratégias de resolução diferentes dentro da mesma ficha. Isto evita que os usuários caiam num padrão repetitivo e avalia ambas as competências simultaneamente. Os puzzles com operações mistas também têm maior valor percebido nos listings de marketplaces porque cobrem mais conteúdo curricular. Na Etsy e no Gumroad, etiquetar o seu listing como «operações mistas» capta tráfego de pesquisa de vendedores que procuram especificamente materiais de revisão que abranjam várias competências matemáticas numa única atividade.',
     },
     {
       title: 'Envie Imagens Próprias para Reconhecimento de Marca',
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Use 1–2 Puzzles por Página para os Mais Novos',
-      description: 'Configure os puzzles por página para 1 ou 2 para alunos mais novos que precisam de mais espaço de trabalho. Os puzzles maiores com símbolos e equações maiores são mais fáceis de ler e menos intimidantes. Reserve 4–6 puzzles por página para alunos mais velhos ou fichas de prática compactas desenhadas para sessões de revisão rápida.',
+      description: 'Configure os puzzles por página para 1 ou 2 para usuários mais novos que precisam de mais espaço de trabalho. Os puzzles maiores com símbolos e equações maiores são mais fáceis de ler e menos intimidantes. Reserve 4–6 puzzles por página para usuários mais velhos ou fichas de prática compactas desenhadas para sessões de revisão rápida.',
     },
     {
       title: 'Combine com Ferramentas de Matemática Padrão',
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Inclua Sempre o Gabarito',
-      description: 'Gere o gabarito antes de descarregar as suas fichas. O gabarito mostra o valor numérico de cada símbolo-imagem e o sistema de equações completamente resolvido. Os compradores na Etsy e no TPT classificam sistematicamente melhor os produtos que incluem gabarito — poupa tempo de correção aos professores e dá confiança aos pais sobre a solução.',
+      description: 'Gere o gabarito antes de descarregar as suas fichas. O gabarito mostra o valor numérico de cada símbolo-imagem e o sistema de equações completamente resolvido. Os compradores na Etsy e no Gumroad classificam sistematicamente melhor os produtos que incluem gabarito — poupa valor percebido aos vendedores e dá confiança aos pais sobre a solução.',
     },
   ],
 
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Como funcionam os puzzles algébricos com imagens?',
-      answer: 'Cada puzzle apresenta um sistema de equações interligadas onde as imagens substituem as variáveis desconhecidas. Os alunos analisam as relações entre equações para determinar o valor numérico que cada imagem representa. Por exemplo, se gato + cão = 7 e gato + gato = 6, então gato = 3 e cão = 4. O solucionador integrado garante que cada puzzle tem exatamente uma solução correta. Esta abordagem introduz o raciocínio algébrico de forma visual, tornando-o acessível para alunos mais novos que ainda não estão preparados para a notação variável tradicional com letras como x e y.',
+      answer: 'Cada puzzle apresenta um sistema de equações interligadas onde as imagens substituem as variáveis desconhecidas. Os usuários analisam as relações entre equações para determinar o valor numérico que cada imagem representa. Por exemplo, se gato + cão = 7 e gato + gato = 6, então gato = 3 e cão = 4. O solucionador integrado garante que cada puzzle tem exatamente uma solução correta. Esta abordagem introduz o raciocínio algébrico de forma visual, tornando-o acessível para usuários mais novos que ainda não estão preparados para a notação variável tradicional com letras como x e y.',
     },
     {
       question: 'Quais são os quatro níveis de dificuldade?',
@@ -176,7 +176,7 @@ const content: ToolContent = {
     },
     {
       question: 'O que faz o interruptor de resultados negativos?',
-      answer: 'Quando ativado, as equações de subtração podem produzir valores abaixo de zero. Isto acrescenta dificuldade para alunos avançados familiarizados com números negativos. Quando desativado (opção predefinida), todos os resultados das equações mantêm-se dentro do intervalo numérico positivo que configurou. Mantenha-o desativado para o ensino primário e ative-o para o ensino secundário ou prática de matemática avançada.',
+      answer: 'Quando ativado, as equações de subtração podem produzir valores abaixo de zero. Isto acrescenta dificuldade para usuários avançados familiarizados com números negativos. Quando desativado (opção predefinida), todos os resultados das equações mantêm-se dentro do intervalo numérico positivo que configurou. Mantenha-o desativado para o ensino primário e ative-o para o ensino secundário ou prática de matemática avançada.',
     },
     {
       question: 'Posso enviar as minhas próprias imagens como símbolos-variável?',
@@ -184,7 +184,7 @@ const content: ToolContent = {
     },
     {
       question: 'Quantos puzzles posso colocar numa página?',
-      answer: 'Pode colocar de 1 a 6 puzzles por página usando o controlo «Puzzles por Página». O layout ajusta-se automaticamente para encaixar o número selecionado. Use 1–2 puzzles por página para alunos mais novos que precisam de mais espaço, ou 4–6 por página para fichas de prática compactas e produtos tipo caderno.',
+      answer: 'Pode colocar de 1 a 6 puzzles por página usando o controlo «Puzzles por Página». O layout ajusta-se automaticamente para encaixar o número selecionado. Use 1–2 puzzles por página para usuários mais novos que precisam de mais espaço, ou 4–6 por página para fichas de prática compactas e produtos tipo caderno.',
     },
     {
       question: 'Os puzzles funcionam em todos os idiomas?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Posso usar as fichas para fins comerciais?',
-      answer: 'O teste grátis com marca d\'água é apenas para uso pessoal e educativo. Para vender fichas na Etsy, Teachers Pay Teachers, Amazon KDP ou qualquer outro marketplace, precisa de uma licença comercial. A licença comercial remove a marca d\'água e concede direitos completos de revenda para as fichas que criar.',
+      answer: 'O teste grátis com marca d\'água é apenas para uso pessoal e educativo. Para vender fichas na Etsy, Gumroad, Amazon KDP ou qualquer outro marketplace, precisa de uma licença comercial. A licença comercial remove a marca d\'água e concede direitos completos de revenda para as fichas que criar.',
     },
     {
       question: 'Qual é a política de reembolso?',

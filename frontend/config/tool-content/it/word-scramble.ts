@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Generatore Schede Parole Mescolate',
     tagline: 'Crea puzzle di spelling con tessere lettere mescolate, indizi immagine, codifica colore e 4 livelli di difficoltà in 11 lingue',
-    description: 'Trasforma la pratica del vocabolario in un puzzle di spelling pratico che gli studenti risolvono riordinando tessere lettere mescolate. Questo strumento genera schede parole mescolate dove un indizio immagine è abbinato a un set di tessere mescolate — gli studenti osservano l\'immagine, identificano ciò che rappresenta, e riordinano le lettere nell\'ordine corretto. A differenza degli esercizi con spazi vuoti, le parole mescolate danno agli studenti TUTTE le lettere ma nell\'ordine sbagliato, rendendolo una sfida di riordino lettere che costruisce precisione nello spelling attraverso la manipolazione attiva. La caratteristica distintiva è la codifica colore vocali-consonanti: attivala per mostrare le vocali in un colore e le consonanti in un altro, aggiungendo una dimensione fonetica visiva che aiuta gli studenti a identificare i tipi di lettere mentre risolvono l\'anagramma. Quattro livelli di difficoltà controllano quante lettere sono pre-posizionate nelle posizioni corrette: Nessun Indizio mescola ogni lettera per la sfida massima, Facile pre-posiziona metà delle lettere per principianti guidati, Normale posiziona un quarto per pratica equilibrata, e Difficile posiziona solo un sesto per studenti sicuri. Scegli tra tre fonti di contenuto: la modalità Libreria Immagini attinge da oltre 3.100 illustrazioni in 104 collezioni tematiche, la Modalità Modifica Manuale ti permette di selezionare immagini e personalizzare i nomi visualizzati, e la modalità Lista Parole Personalizzata ti permette di digitare fino a 8 parole direttamente per puzzle solo testo. La sensibilità linguistica è integrata: passa dall\'italiano a una qualsiasi delle 11 lingue supportate e la stessa immagine produce una parola target diversa con lettere diverse e un arrangiamento mescolato completamente diverso. Un\'immagine di cane genera "CANE" in italiano, "DOG" in inglese, "HUND" in tedesco, "CHIEN" in francese, "PERRO" in spagnolo. Un design diventa 11 prodotti unici. Imposta 1–10 puzzle per pagina, alterna tra tessere maiuscole e minuscole, aggiungi numerazione degli esercizi e scegli tra 7 famiglie di font. Esporta in PDF pronto per la stampa o JPEG ad alta risoluzione con generazione automatica del foglio risposte. La prova gratuita include una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Trasforma la pratica del vocabolario in un puzzle di spelling pratico che gli utenti risolvono riordinando tessere lettere mescolate. Questo strumento genera schede parole mescolate dove un indizio immagine è abbinato a un set di tessere mescolate — gli utenti osservano l\'immagine, identificano ciò che rappresenta, e riordinano le lettere nell\'ordine corretto. A differenza degli esercizi con spazi vuoti, le parole mescolate danno agli utenti TUTTE le lettere ma nell\'ordine sbagliato, rendendolo una sfida di riordino lettere che costruisce precisione nello spelling attraverso la manipolazione attiva. La caratteristica distintiva è la codifica colore vocali-consonanti: attivala per mostrare le vocali in un colore e le consonanti in un altro, aggiungendo una dimensione fonetica visiva che aiuta gli utenti a identificare i tipi di lettere mentre risolvono l\'anagramma. Quattro livelli di difficoltà controllano quante lettere sono pre-posizionate nelle posizioni corrette: Nessun Indizio mescola ogni lettera per la sfida massima, Facile pre-posiziona metà delle lettere per principianti guidati, Normale posiziona un quarto per pratica equilibrata, e Difficile posiziona solo un sesto per utenti sicuri. Scegli tra tre fonti di contenuto: la modalità Libreria Immagini attinge da oltre 3.100 illustrazioni in 104 collezioni tematiche, la Modalità Modifica Manuale ti permette di selezionare immagini e personalizzare i nomi visualizzati, e la modalità Lista Parole Personalizzata ti permette di digitare fino a 8 parole direttamente per puzzle solo testo. La sensibilità linguistica è integrata: passa dall\'italiano a una qualsiasi delle 11 lingue supportate e la stessa immagine produce una parola target diversa con lettere diverse e un arrangiamento mescolato completamente diverso. Un\'immagine di cane genera "CANE" in italiano, "DOG" in inglese, "HUND" in tedesco, "CHIEN" in francese, "PERRO" in spagnolo. Un design diventa 11 prodotti unici. Imposta 1–10 puzzle per pagina, alterna tra tessere maiuscole e minuscole, aggiungi numerazione degli esercizi e scegli tra 7 famiglie di font. Esporta in PDF pronto per la stampa o JPEG ad alta risoluzione con generazione automatica del foglio risposte. La prova gratuita include una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
   },
 
   tutorial: {
@@ -41,15 +41,15 @@ const content: ToolContent = {
       },
       {
         title: 'Imposta il livello di difficoltà e il numero di puzzle',
-        description: 'Scegli tra quattro livelli di difficoltà che controllano quante lettere sono pre-posizionate nelle posizioni corrette. Nessun Indizio (0%) mescola ogni lettera per la sfida massima. Facile (50%) pre-posiziona metà delle lettere per principianti guidati. Normale (25%) posiziona un quarto per pratica equilibrata. Difficile (16%) posiziona solo un sesto per studenti sicuri. Poi imposta il numero di puzzle per pagina da 1 a 10 (predefinito: 6).',
+        description: 'Scegli tra quattro livelli di difficoltà che controllano quante lettere sono pre-posizionate nelle posizioni corrette. Nessun Indizio (0%) mescola ogni lettera per la sfida massima. Facile (50%) pre-posiziona metà delle lettere per principianti guidati. Normale (25%) posiziona un quarto per pratica equilibrata. Difficile (16%) posiziona solo un sesto per utenti sicuri. Poi imposta il numero di puzzle per pagina da 1 a 10 (predefinito: 6).',
       },
       {
         title: 'Attiva la codifica colore vocali-consonanti',
-        description: 'Attiva l\'opzione Codifica Colore per mostrare le vocali in un colore e le consonanti in un altro sulle tessere lettere mescolate. Questa funzione è unica delle Parole Mescolate e aggiunge una dimensione fonetica visiva che aiuta gli studenti a identificare i tipi di lettere mentre riordinano le tessere. Seleziona Tutto Nero per tessere tradizionali monocromatiche quando la differenziazione per colore non è necessaria.',
+        description: 'Attiva l\'opzione Codifica Colore per mostrare le vocali in un colore e le consonanti in un altro sulle tessere lettere mescolate. Questa funzione è unica delle Parole Mescolate e aggiunge una dimensione fonetica visiva che aiuta gli utenti a identificare i tipi di lettere mentre riordinano le tessere. Seleziona Tutto Nero per tessere tradizionali monocromatiche quando la differenziazione per colore non è necessaria.',
       },
       {
         title: 'Configura maiuscole, numerazione e lingua',
-        description: 'Alterna tra tessere lettere maiuscole (predefinito) e minuscole. Attiva o disattiva la numerazione degli esercizi. Abilita i campi nome e data dello studente. Seleziona tra le 11 lingue supportate — ogni lingua cambia completamente la parola target, così la stessa immagine crea un puzzle di parole mescolate completamente diverso. Aggiungi sovrapposizioni di testo personalizzate con istruzioni per guidare gli studenti.',
+        description: 'Alterna tra tessere lettere maiuscole (predefinito) e minuscole. Attiva o disattiva la numerazione degli esercizi. Abilita i campi nome e data dell'utente. Seleziona tra le 11 lingue supportate — ogni lingua cambia completamente la parola target, così la stessa immagine crea un puzzle di parole mescolate completamente diverso. Aggiungi sovrapposizioni di testo personalizzate con istruzioni per guidare gli utenti.',
       },
       {
         title: 'Personalizza font, testo e canvas',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Pacchetti puzzle lettere mescolate a tema',
-      description: 'Crea set di 10–15 schede parole mescolate usando collezioni di immagini tematiche — animali, cibo, veicoli, scene naturali, festività, sport e molto altro. Ogni puzzle presenta un indizio immagine abbinato a tessere lettere mescolate che gli studenti riordinano nella scrittura corretta. Attiva la codifica colore su metà del set per una variante "edizione fonetica" che evidenzia i pattern vocali-consonanti. Raggruppa per tema e vendi su Etsy o Teachers Pay Teachers. Il formato tessere mescolate con indizi immagine colorati rende le miniature delle tue inserzioni immediatamente accattivanti rispetto alle classiche schede di spelling.',
+      description: 'Crea set di 10–15 schede parole mescolate usando collezioni di immagini tematiche — animali, cibo, veicoli, scene naturali, festività, sport e molto altro. Ogni puzzle presenta un indizio immagine abbinato a tessere lettere mescolate che gli utenti riordinano nella scrittura corretta. Attiva la codifica colore su metà del set per una variante "edizione fonetica" che evidenzia i pattern vocali-consonanti. Raggruppa per tema e vendi su Etsy o Gumroad. Il formato tessere mescolate con indizi immagine colorati rende le miniature delle tue inserzioni immediatamente accattivanti rispetto ai negoziche schede di spelling.',
     },
     {
       title: 'Libri di attività parole mescolate per KDP',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Set puzzle fonetica con codifica colore',
-      description: 'Sfrutta la funzione di codifica colore vocali-consonanti per creare puzzle di spelling focalizzati sulla fonetica che nessun altro generatore può produrre. Le tessere con codifica colore mostrano le vocali in un colore e le consonanti in un altro, aggiungendo un livello di apprendimento visivo che le semplici parole mescolate non hanno. Crea versioni separate "Edizione Codifica Colore" e "Edizione Classica Nero" di ogni tema per raddoppiare il catalogo prodotti con sforzo minimo.',
+      description: 'Sfrutta la funzione di codifica colore vocali-consonanti per creare puzzle di spelling focalizzati sulla fonetica che nessun altro generatore può produrre. Le tessere con codifica colore mostrano le vocali in un colore e le consonanti in un altro, aggiungendo un livello di apprendimento visivo che le semplici parole mescolate non hanno. Crea versioni separate "Edizione Codifica Colore" e "Edizione negozica Nero" di ogni tema per raddoppiare il catalogo prodotti con sforzo minimo.',
     },
     {
       title: 'Prodotti spelling multilingue',
@@ -85,14 +85,14 @@ const content: ToolContent = {
     },
     {
       title: 'Pacchetti con difficoltà differenziata',
-      description: 'Genera quattro versioni della stessa scheda a tema — una per ogni livello di difficoltà: Nessun Indizio, Facile, Normale e Difficile. Gli insegnanti assegnano la versione giusta a ogni studente in base alle capacità. Vendi come pacchetto differenziato a un prezzo premium su TpT o Etsy. Aggiungi varianti con codifica colore per un totale di otto versioni distinte da una singola sessione di design, con fogli risposte inclusi per ogni versione.',
+      description: 'Genera quattro versioni della stessa scheda a tema — una per ogni livello di difficoltà: Nessun Indizio, Facile, Normale e Difficile. i venditori assegnano la versione giusta a ogni utente in base alle capacità. Vendi come pacchetto scalato per livello a un prezzo premium su Gumroad o Etsy. Aggiungi varianti con codifica colore per un totale di otto versioni distinte da una singola sessione di design, con fogli risposte inclusi per ogni versione.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Negozio fonetica con codifica colore su Etsy',
-      description: 'Apri un negozio Etsy specializzato in schede parole mescolate con codifica colore — una categoria di prodotti che nessun concorrente può replicare con generatori di liste parole base. La funzione di codifica colore vocali-consonanti crea un prodotto visivamente distintivo che cattura l\'attenzione nei risultati di ricerca Etsy e attira genitori focalizzati sulla fonetica e insegnanti di italiano come lingua straniera. Crea pacchetti a tema in entrambe le edizioni codifica colore e classica nero, prezzando i set fonetica con codifica colore a un premium. Targettizza acquirenti che cercano ausili visivi per lo spelling, schede di fonetica e attività di riconoscimento lettere.',
+      description: 'Apri un negozio Etsy specializzato in schede parole mescolate con codifica colore — una categoria di prodotti che nessun concorrente può replicare con generatori di liste parole base. La funzione di codifica colore vocali-consonanti crea un prodotto visivamente distintivo che cattura l\'attenzione nei risultati di ricerca Etsy e attira genitori focalizzati sulla fonetica e venditori di italiano come lingua straniera. Crea pacchetti a tema in entrambe le edizioni codifica colore e negozica nero, prezzando i set fonetica con codifica colore a un premium. Targettizza acquirenti che cercano ausili visivi per lo spelling, schede di fonetica e attività di riconoscimento lettere.',
       platform: 'Etsy',
     },
     {
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Centri alfabetizzazione differenziati su Teachers Pay Teachers',
-      description: 'Carica pacchetti schede parole mescolate su TpT organizzati per tema, livello di difficoltà e codifica colore. Livello 1: Facile con tessere codifica colore per studenti visivi. Livello 2: Normale con codifica colore. Livello 3: Difficile con tessere Tutto Nero. Livello 4: Nessun Indizio con Tutto Nero per sfida avanzata. Includi fogli risposte e una scheda di monitoraggio progressi. Gli acquirenti TpT pagano prezzi premium per risorse spelling differenziate da usare su più livelli di capacità.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Centri alfabetizzazione differenziati su Gumroad',
+      description: 'Carica pacchetti schede parole mescolate su Gumroad organizzati per tema, livello di difficoltà e codifica colore. Livello 1: Facile con tessere codifica colore per utenti visivi. Livello 2: Normale con codifica colore. Livello 3: Difficile con tessere Tutto Nero. Livello 4: Nessun Indizio con Tutto Nero per sfida avanzata. Includi fogli risposte e una scheda di monitoraggio progressi. Gli acquirenti Gumroad pagano prezzi premium per risorse spelling differenziate da usare su più livelli di capacità.',
+      platform: 'Gumroad',
     },
     {
       title: 'Negozio vocabolario multilingue',
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Kit spelling completo su Gumroad',
-      description: 'Raggruppa schede parole mescolate con indovina parole, cerca parole, pratica di scrittura a mano e schede di abbinamento per creare un kit spelling completo su Gumroad. Il formato parole mescolate (riordino lettere) esercita una competenza cognitiva diversa rispetto a indovina parole (spazi vuoti) o cerca parole (ricerca lettere). Un kit spelling multi-formato giustifica un prezzo premium e offre agli studenti pratica variegata con lo stesso vocabolario.',
+      description: 'Raggruppa schede parole mescolate con indovina parole, cerca parole, pratica di scrittura a mano e schede di abbinamento per creare un kit spelling completo su Gumroad. Il formato parole mescolate (riordino lettere) esercita una competenza cognitiva diversa rispetto a indovina parole (spazi vuoti) o cerca parole (ricerca lettere). Un kit spelling multi-formato giustifica un prezzo premium e offre agli utenti pratica variegata con lo stesso vocabolario.',
       platform: 'Gumroad',
     },
   ],
@@ -125,11 +125,11 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Usa la codifica colore per differenziazione fonetica',
-      description: 'Attiva la codifica colore vocali-consonanti per mostrare le vocali in un colore e le consonanti in un altro. Questo ausilio fonetico visivo è unico delle Parole Mescolate e aiuta gli studenti a identificare i tipi di lettere mentre riordinano. Crea un\'"Edizione Codifica Colore" accanto a un\'"Edizione Classica" di ogni tema per raddoppiare la gamma prodotti.',
+      description: 'Attiva la codifica colore vocali-consonanti per mostrare le vocali in un colore e le consonanti in un altro. Questo ausilio fonetico visivo è unico delle Parole Mescolate e aiuta gli utenti a identificare i tipi di lettere mentre riordinano. Crea un\'"Edizione Codifica Colore" accanto a un\'"Edizione negozica" di ogni tema per raddoppiare la gamma prodotti.',
     },
     {
       title: 'Usa Nessun Indizio per valutazioni di spelling',
-      description: 'La modalità Nessun Indizio mescola ogni lettera senza posizioni pre-posizionate, creando una vera valutazione dello spelling da un indizio immagine. Gli studenti devono ricordare la scrittura completa e riordinare tutte le tessere autonomamente. Usala per verifiche, sezioni sfida finale nei quaderni o prodotti premium "edizione esperti".',
+      description: 'La modalità Nessun Indizio mescola ogni lettera senza posizioni pre-posizionate, creando una vera valutazione dello spelling da un indizio immagine. gli utenti devono ricordare la scrittura completa e riordinare tutte le tessere autonomamente. Usala per verifiche, sezioni sfida finale nei quaderni o prodotti premium "edizione esperti".',
     },
     {
       title: 'Vai multilingue per 11 volte la gamma prodotti',
@@ -137,19 +137,19 @@ const content: ToolContent = {
     },
     {
       title: 'Usa la Modalità Modifica Manuale per vocabolario personalizzato',
-      description: 'La Modalità Modifica Manuale ti permette di selezionare immagini dalla libreria e poi modificare i nomi visualizzati prima della generazione. Usala per semplificare lo spelling per studenti più piccoli, aggiungere vocabolario alternativo o concentrarti su pattern fonetici specifici. L\'immagine appare ancora come indizio visivo, ma la parola da riordinare è quella che digiti tu.',
+      description: 'La Modalità Modifica Manuale ti permette di selezionare immagini dalla libreria e poi modificare i nomi visualizzati prima della generazione. Usala per semplificare lo spelling per utenti più piccoli, aggiungere vocabolario alternativo o concentrarti su pattern fonetici specifici. L\'immagine appare ancora come indizio visivo, ma la parola da riordinare è quella che digiti tu.',
     },
     {
       title: 'Usa Scala di Grigi per KDP e stampa in blocco',
-      description: 'Attiva l\'opzione scala di grigi per schede destinate agli interni Amazon KDP o alla stampa in blocco in classe. L\'output in bianco e nero costa significativamente meno da stampare. Riserva la modalità colore per le anteprime delle inserzioni Etsy e i download digitali dove immagini vivaci e tessere colorate attirano i clic.',
+      description: 'Attiva l\'opzione scala di grigi per schede destinate agli interni Amazon KDP o alla stampa in blocco online. L\'output in bianco e nero costa significativamente meno da stampare. Riserva la modalità colore per le anteprime delle inserzioni Etsy e i download digitali dove immagini vivaci e tessere colorate attirano i clic.',
     },
     {
       title: 'Mescola i livelli di difficoltà nei pacchetti',
-      description: 'Crea pacchetti di schede che progrediscono da Facile a Nessun Indizio attraverso lo stesso tema. Un pacchetto "Puzzle Spelling Animali della Fattoria" con 5 pagine Facile, 5 Normale, 5 Difficile e 5 Nessun Indizio offre agli insegnanti un set differenziato pronto all\'uso. Includi fogli risposte per ogni livello. I pacchetti progressivi comandano prezzi premium su TpT ed Etsy.',
+      description: 'Crea pacchetti di schede che progrediscono da Facile a Nessun Indizio attraverso lo stesso tema. Un pacchetto "Puzzle Spelling Animali della Fattoria" con 5 pagine Facile, 5 Normale, 5 Difficile e 5 Nessun Indizio offre ai venditori un set differenziato pronto all\'uso. Includi fogli risposte per ogni livello. I pacchetti progressivi comandano prezzi premium su Gumroad ed Etsy.',
     },
     {
       title: 'Abbina con Indovina Parole per pacchetti completi',
-      description: 'Parole Mescolate (riordino lettere) e Indovina Parole (spazi vuoti) esercitano competenze cognitive diverse usando vocabolario simile. Raggruppa entrambi i formati in un pacchetto "Pratica Spelling Completa" dove gli studenti prima riordinano le tessere, poi inseriscono le lettere mancanti. I pacchetti multi-formato si vendono a più dei pacchetti singolo formato e offrono pratica di spelling più approfondita.',
+      description: 'Parole Mescolate (riordino lettere) e Indovina Parole (spazi vuoti) esercitano competenze cognitive diverse usando vocabolario simile. Raggruppa entrambi i formati in un pacchetto "Pratica Spelling Completa" dove gli utenti prima riordinano le tessere, poi inseriscono le lettere mancanti. I pacchetti multi-formato si vendono a più dei pacchetti singolo formato e offrono pratica di spelling più approfondita.',
     },
   ],
 
@@ -160,15 +160,15 @@ const content: ToolContent = {
     },
     {
       question: 'Come differiscono i puzzle parole mescolate dalle schede indovina parole?',
-      answer: 'Le Parole Mescolate danno agli studenti TUTTE le lettere ma nell\'ordine sbagliato — riordinano le tessere mescolate nella scrittura corretta. Indovina Parole mostra spazi vuoti in posizioni fisse e gli studenti inseriscono le lettere mancanti. Le Parole Mescolate sono una sfida di riordino lettere; Indovina Parole è un esercizio con spazi vuoti. Esercitano competenze cognitive diverse e si abbinano bene in prodotti raggruppati.',
+      answer: 'Le Parole Mescolate danno agli utenti TUTTE le lettere ma nell\'ordine sbagliato — riordinano le tessere mescolate nella scrittura corretta. Indovina Parole mostra spazi vuoti in posizioni fisse e gli utenti inseriscono le lettere mancanti. Le Parole Mescolate sono una sfida di riordino lettere; Indovina Parole è un esercizio con spazi vuoti. Esercitano competenze cognitive diverse e si abbinano bene in prodotti raggruppati.',
     },
     {
       question: 'Come funzionano i quattro livelli di difficoltà?',
-      answer: 'Ogni livello controlla quante lettere sono pre-posizionate nelle posizioni corrette all\'interno delle tessere mescolate. Nessun Indizio (0%) mescola ogni lettera per la sfida massima. Facile (50%) pre-posiziona metà delle lettere per principianti guidati. Normale (25%) posiziona un quarto per pratica equilibrata. Difficile (16%) posiziona solo un sesto. Mescola i livelli tra le pagine per creare pacchetti differenziati.',
+      answer: 'Ogni livello controlla quante lettere sono pre-posizionate nelle posizioni corrette all\'interno delle tessere mescolate. Nessun Indizio (0%) mescola ogni lettera per la sfida massima. Facile (50%) pre-posiziona metà delle lettere per principianti guidati. Normale (25%) posiziona un quarto per pratica equilibrata. Difficile (16%) posiziona solo un sesto. Mescola i livelli tra le pagine per creare pacchetti scalati per livello.',
     },
     {
       question: 'Cos\'è la codifica colore vocali-consonanti?',
-      answer: 'Attiva l\'opzione Codifica Colore per mostrare le vocali in un colore e le consonanti in un altro sulle tessere lettere. Questo ausilio fonetico visivo aiuta gli studenti a distinguere i pattern vocali e consonanti mentre riordinano. Seleziona Tutto Nero per tessere tradizionali monocromatiche. La codifica colore è unica delle Parole Mescolate e aggiunge una forte dimensione di differenziazione per venditori che targettizzano acquirenti focalizzati sulla fonetica.',
+      answer: 'Attiva l\'opzione Codifica Colore per mostrare le vocali in un colore e le consonanti in un altro sulle tessere lettere. Questo ausilio fonetico visivo aiuta gli utenti a distinguere i pattern vocali e consonanti mentre riordinano. Seleziona Tutto Nero per tessere tradizionali monocromatiche. La codifica colore è unica delle Parole Mescolate e aggiunge una forte dimensione di differenziazione per venditori che targettizzano acquirenti focalizzati sulla fonetica.',
     },
     {
       question: 'Quali sono le tre fonti di contenuto?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Posso vendere le schede create con questo strumento commercialmente?',
-      answer: 'La prova gratuita con filigrana è solo per uso personale e didattico. Per vendere le schede su Etsy, Teachers Pay Teachers, Amazon KDP o qualsiasi altro marketplace, è necessaria una licenza commerciale. La licenza commerciale rimuove la filigrana e concede pieni diritti di rivendita per le schede che crei.',
+      answer: 'La prova gratuita con filigrana è solo per uso personale e didattico. Per vendere le schede su Etsy, Gumroad, Amazon KDP o qualsiasi altro marketplace, è necessaria una licenza commerciale. La licenza commerciale rimuove la filigrana e concede pieni diritti di rivendita per le schede che crei.',
     },
     {
       question: 'Qual è la vostra politica di rimborso?',
@@ -230,7 +230,7 @@ const content: ToolContent = {
       {
         src: '/samples/italian/word scramble/Lettere Mescolate 4.webp',
         alt: 'Foglio risposte parole mescolate con tutte le lettere correttamente riordinate',
-        caption: 'Foglio risposte — parole correttamente riordinate per correzione e autoverifica rapida',
+        caption: 'Foglio risposte — parole correttamente riordinate per verifica e autoverifica rapida',
       },
     ],
     youtubeId: 'Hc3g5VsSHEU',

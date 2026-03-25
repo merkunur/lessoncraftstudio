@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'fichas de caligrafia imprimíveis para vendedores Etsy',
       'gerador de fichas de escrita manuscrita para Amazon KDP',
-      'vender fichas de prática de escrita no Teachers Pay Teachers',
+      'vender fichas de prática de escrita no Gumroad',
       'gerador de fichas de caligrafia licença comercial',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Gerador Fichas de Escrita | Criar e Vender',
     metaDescription:
-      'Crie fichas de escrita para Etsy, KDP e TPT. 3 modos progressivos, 5 fontes, setas de traços, traçado progressivo, 104 temas. Teste grátis com marca d\'água.',
+      'Crie fichas de escrita para Etsy, KDP e Gumroad. 3 modos progressivos, 5 fontes, setas de traços, traçado progressivo, 104 temas. Teste grátis com marca d\'água.',
   },
 
   hero: {
     title: 'Gerador de Fichas de Escrita para Prática de Caligrafia',
     tagline: 'Três modos de prática progressivos com ordem de traços guiada por setas e guias de letras com opacidade progressiva — desenvolva a fluência de escrita desde o traçado completo até à escrita autónoma numa única ficha.',
     description:
-      'Crie fichas profissionais de prática de escrita manuscrita com três modos distintos que criam uma progressão de aprendizagem natural: o modo Traçado fornece guias de letras sólidas que os iniciantes seguem diretamente, o Traçado Progressivo reduz progressivamente a visibilidade das letras ao longo da fila para reforçar a confiança, e a Cópia Guiada oferece um contorno ténue para uma escrita quase autónoma. Escolha entre cinco estilos de fonte — Imprensa Regular para letras de forma padrão, Imprensa Regular com Setas com setas numeradas que indicam a ordem dos traços, Imprensa de Traçado para contornos pontilhados desenhados para o traçado, Imprensa de Traçado com Setas combinando contornos pontilhados com setas da ordem dos traços, e Cursiva (Great Vibes) para a prática de escrita cursiva. Cada fila da ficha é configurável de forma independente: combine o modo Traçado para letras novas, o Traçado Progressivo para letras praticadas e a Cópia Guiada para revisão, tudo na mesma página. Os exercícios de traços de pré-escrita (linhas verticais, linhas horizontais, círculos e linhas em ziguezague) acrescentam aquecimentos de motricidade fina que preparam as mãos para a formação de letras. O conteúdo provém da Biblioteca de Imagens integrada com mais de 3100 ilustrações em 104 temas: use o modo Letra Inicial para praticar a primeira letra de cada nome de imagem, o modo Nome Completo para escrever palavras inteiras, ou escreva qualquer Texto Personalizado. O Acesso Completo desbloqueia os 104 temas e os 11 idiomas de interface. Exporte PDFs prontos para impressão e JPEGs a ~300 DPI nos formatos Carta, A4 ou dimensões personalizadas. Quer venda pacotes de prática de escrita na Etsy, compile cadernos de caligrafia para a Amazon KDP ou crie centros de escrita diferenciados para o TPT, o Gerador de Fichas de Escrita produz resultados profissionais em minutos — teste grátis com todas as funcionalidades, sem registo, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie fichas profissionais de prática de escrita manuscrita com três modos distintos que criam uma progressão de aprendizagem natural: o modo Traçado fornece guias de letras sólidas que os iniciantes seguem diretamente, o Traçado Progressivo reduz progressivamente a visibilidade das letras ao longo da fila para reforçar a confiança, e a Cópia Guiada oferece um contorno ténue para uma escrita quase autónoma. Escolha entre cinco estilos de fonte — Imprensa Regular para letras de forma padrão, Imprensa Regular com Setas com setas numeradas que indicam a ordem dos traços, Imprensa de Traçado para contornos pontilhados desenhados para o traçado, Imprensa de Traçado com Setas combinando contornos pontilhados com setas da ordem dos traços, e Cursiva (Great Vibes) para a prática de escrita cursiva. Cada fila da ficha é configurável de forma independente: combine o modo Traçado para letras novas, o Traçado Progressivo para letras praticadas e a Cópia Guiada para revisão, tudo na mesma página. Os exercícios de traços de pré-escrita (linhas verticais, linhas horizontais, círculos e linhas em ziguezague) acrescentam aquecimentos de motricidade fina que preparam as mãos para a formação de letras. O conteúdo provém da Biblioteca de Imagens integrada com mais de 3100 ilustrações em 104 temas: use o modo Letra Inicial para praticar a primeira letra de cada nome de imagem, o modo Nome Completo para escrever palavras inteiras, ou escreva qualquer Texto Personalizado. O Acesso Completo desbloqueia os 104 temas e os 11 idiomas de interface. Exporte PDFs prontos para impressão e JPEGs a ~300 DPI nos formatos Carta, A4 ou dimensões personalizadas. Quer venda pacotes de prática de escrita na Etsy, compile cadernos de caligrafia para a Amazon KDP ou crie centros de escrita diferenciados para o Gumroad, o Gerador de Fichas de Escrita produz resultados profissionais em minutos — teste grátis com todas as funcionalidades, sem registo, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Adicione filas e escolha o modo de prática por fila',
         description:
-          'Cada ficha de escrita é construída fila a fila, e cada fila tem as suas próprias definições independentes. Para cada fila, selecione um dos três modos de prática: Traçado fornece contornos de letras sólidos que os alunos traçam diretamente, Traçado Progressivo começa com letras sólidas que se desvanecem progressivamente ao longo da fila para desenvolver a autonomia, e Cópia Guiada mostra um contorno ténue que os alunos reproduzem ao lado. Combine os três modos numa única ficha para criar dificuldade progressiva de cima para baixo — trace as letras novas em cima, pratique as letras com opacidade decrescente no meio e tente a cópia guiada em baixo.',
+          'Cada ficha de escrita é construída fila a fila, e cada fila tem as suas próprias definições independentes. Para cada fila, selecione um dos três modos de prática: Traçado fornece contornos de letras sólidos que os usuários traçam diretamente, Traçado Progressivo começa com letras sólidas que se desvanecem progressivamente ao longo da fila para desenvolver a autonomia, e Cópia Guiada mostra um contorno ténue que os usuários reproduzem ao lado. Combine os três modos numa única ficha para criar dificuldade progressiva de cima para baixo — trace as letras novas em cima, pratique as letras com opacidade decrescente no meio e tente a cópia guiada em baixo.',
       },
       {
         title: 'Selecione o estilo de fonte e a fonte de conteúdo',
@@ -47,12 +47,12 @@ const content: AppContent = {
       {
         title: 'Configure as maiúsculas, os traços de pré-escrita e o texto decorativo',
         description:
-          'Defina o uso de maiúsculas para cada fila: maiúsculas, minúsculas ou tipo título. Para as filas em Texto Personalizado, ative os exercícios de traços de pré-escrita — linhas verticais, linhas horizontais, círculos ou linhas em ziguezague — para acrescentar aquecimentos de motricidade fina antes da prática de letras. Ajuste a altura de fila para controlar o espaçamento entre linhas. Use o painel de Ferramentas de Texto para adicionar um título à ficha, campos de nome e data do aluno ou instruções com sete fontes, incluindo Lexend Deca, Baloo 2, Fredoka e Quicksand. Arraste, redimensione e reposicione cada elemento no canvas completo Fabric.js.',
+          'Defina o uso de maiúsculas para cada fila: maiúsculas, minúsculas ou tipo título. Para as filas em Texto Personalizado, ative os exercícios de traços de pré-escrita — linhas verticais, linhas horizontais, círculos ou linhas em ziguezague — para acrescentar aquecimentos de motricidade fina antes da prática de letras. Ajuste a altura de fila para controlar o espaçamento entre linhas. Use o painel de Ferramentas de Texto para adicionar um título à ficha, campos de nome e data do usuário ou instruções com sete fontes, incluindo Lexend Deca, Baloo 2, Fredoka e Quicksand. Arraste, redimensione e reposicione cada elemento no canvas completo Fabric.js.',
       },
       {
         title: 'Descarregue como JPEG ou PDF',
         description:
-          'Abra o menu de Descarga e exporte a sua ficha de escrita como JPEG de alta resolução ou PDF pronto para impressão. O motor de exportação renderiza a escala 6× (~300 DPI) para que as letras e as linhas-guia sejam impressas de forma nítida e limpa. Ative a exportação em escala de cinzentos para versões económicas em tinta, ideais para impressão na sala de aula. Não existe gabarito para as fichas de escrita — os modos de prática em si mesmos servem como guia. Cada exportação está pronta para produção: listagens da Etsy, interiores da Amazon KDP e ficheiros de produtos TPT.',
+          'Abra o menu de Descarga e exporte a sua ficha de escrita como JPEG de alta resolução ou PDF pronto para impressão. O motor de exportação renderiza a escala 6× (~300 DPI) para que as letras e as linhas-guia sejam impressas de forma nítida e limpa. Ative a exportação em escala de cinzentos para versões económicas em tinta, ideais para impressão online. Não existe gabarito para as fichas de escrita — os modos de prática em si mesmos servem como guia. Cada exportação está pronta para produção: listagens da Etsy, interiores da Amazon KDP e ficheiros de produtos Gumroad.',
       },
     ],
   },
@@ -63,12 +63,12 @@ const content: AppContent = {
       {
         title: 'Três modos de prática progressivos: Traçado, Traçado Progressivo e Cópia Guiada',
         description:
-          'Os três modos de prática criam uma progressão de aprendizagem natural numa única ficha. O modo Traçado fornece contornos de letras sólidos que os alunos seguem diretamente — suporte visual completo para letras novas ou desconhecidas. O Traçado Progressivo começa com letras sólidas no lado esquerdo da fila e reduz progressivamente a visibilidade para a direita, reforçando a confiança à medida que os alunos dependem menos da guia com cada repetição. A Cópia Guiada mostra apenas um contorno ténue, exigindo uma formação de letras quase autónoma com suporte visual mínimo. Esta progressão do traçado à cópia reproduz as metodologias comprovadas de ensino da escrita e oferece aos vendedores um eixo de diferenciação integrado para pacotes de produtos por níveis.',
+          'Os três modos de prática criam uma progressão de aprendizagem natural numa única ficha. O modo Traçado fornece contornos de letras sólidos que os usuários seguem diretamente — suporte visual completo para letras novas ou desconhecidas. O Traçado Progressivo começa com letras sólidas no lado esquerdo da fila e reduz progressivamente a visibilidade para a direita, reforçando a confiança à medida que os usuários dependem menos da guia com cada repetição. A Cópia Guiada mostra apenas um contorno ténue, exigindo uma formação de letras quase autónoma com suporte visual mínimo. Esta progressão do traçado à cópia reproduz as metodologias comprovadas de ensino da escrita e oferece aos vendedores um eixo de diferenciação integrado para pacotes de produtos por níveis.',
       },
       {
         title: 'Ordem dos traços guiada por setas para a formação correta de letras',
         description:
-          'Os estilos Imprensa Regular com Setas e Imprensa de Traçado com Setas sobrepõem setas direcionais numeradas em cada letra, mostrando aos alunos exatamente como formar cada traço na sequência correta. A seta 1 indica onde começar, a seta 2 mostra o traço seguinte, e assim sucessivamente — eliminando toda a incerteza sobre a direção e a ordem dos traços. Esta funcionalidade é única entre os geradores de escrita: os alunos aprendem não apenas como a letra se parece, mas precisamente como traçá-la. As fichas com ordem de traços por setas atingem preços premium no TPT e na Etsy porque ensinam a técnica correta em vez de simplesmente fornecer linhas para traçar.',
+          'Os estilos Imprensa Regular com Setas e Imprensa de Traçado com Setas sobrepõem setas direcionais numeradas em cada letra, mostrando aos usuários exatamente como formar cada traço na sequência correta. A seta 1 indica onde começar, a seta 2 mostra o traço seguinte, e assim sucessivamente — eliminando toda a incerteza sobre a direção e a ordem dos traços. Esta funcionalidade é única entre os geradores de escrita: os usuários aprendem não apenas como a letra se parece, mas precisamente como traçá-la. As fichas com ordem de traços por setas atingem preços premium no Gumroad e na Etsy porque ensinam a técnica correta em vez de simplesmente fornecer linhas para traçar.',
       },
       {
         title: 'Cinco estilos de fonte incluindo imprensa e cursiva',
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: 'Exercícios de traços de pré-escrita para o desenvolvimento da motricidade fina',
         description:
-          'Antes de abordar a formação de letras, os traços de pré-escrita desenvolvem as competências motoras fundamentais necessárias para a escrita. Quatro tipos de traços estão disponíveis: linhas verticais (traços de cima para baixo), linhas horizontais (varrimentos da esquerda para a direita), círculos (controlo de curva contínua) e linhas em ziguezague (prática de mudanças de direção). Estes exercícios fortalecem a coordenação olho-mão, a pega do lápis e os movimentos musculares específicos usados na escrita. Os pacotes de pré-escrita orientados para o desenvolvimento da motricidade fina constituem um nicho de produto diferenciado na Etsy e no TPT, separado das fichas de traçado de letras.',
+          'Antes de abordar a formação de letras, os traços de pré-escrita desenvolvem as competências motoras fundamentais necessárias para a escrita. Quatro tipos de traços estão disponíveis: linhas verticais (traços de cima para baixo), linhas horizontais (varrimentos da esquerda para a direita), círculos (controlo de curva contínua) e linhas em ziguezague (prática de mudanças de direção). Estes exercícios fortalecem a coordenação olho-mão, a pega do lápis e os movimentos musculares específicos usados na escrita. Os pacotes de pré-escrita orientados para o desenvolvimento da motricidade fina constituem um nicho de produto diferenciado na Etsy e no Gumroad, separado das fichas de traçado de letras.',
       },
       {
         title: 'Independência por fila para fichas de modos combinados',
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Integração da Biblioteca de Imagens com 104 coleções temáticas',
         description:
-          'Aceda a mais de 3100 ilustrações em 104 coleções temáticas — animais, alimentos, veículos, natureza, profissões e dezenas mais. No modo Letra Inicial, os alunos praticam escrever a primeira letra de cada nome de imagem com a imagem como referência visual. No modo Nome Completo, os alunos escrevem a palavra inteira, ligando a prática de escrita ao enriquecimento do vocabulário. A integração de imagens temáticas torna as fichas de escrita mais envolventes do que as páginas de prática em branco e cria oportunidades naturais de agrupamento por tema (animais da quinta, criaturas marinhas, dinossauros) para as listagens em plataformas de venda.',
+          'Aceda a mais de 3100 ilustrações em 104 coleções temáticas — animais, alimentos, veículos, natureza, profissões e dezenas mais. No modo Letra Inicial, os usuários praticam escrever a primeira letra de cada nome de imagem com a imagem como referência visual. No modo Nome Completo, os usuários escrevem a palavra inteira, ligando a prática de escrita ao enriquecimento do vocabulário. A integração de imagens temáticas torna as fichas de escrita mais envolventes do que as páginas de prática em branco e cria oportunidades naturais de agrupamento por tema (animais da quinta, criaturas marinhas, dinossauros) para as listagens em plataformas de venda.',
       },
       {
         title: 'Exportação PDF e JPEG pronta para impressão a alta resolução',
         description:
-          'Descarregue fichas como imagens JPEG de alta resolução ou documentos PDF prontos para impressão. O motor de exportação renderiza com um multiplicador 6×, produzindo ~300 DPI em tamanhos de página padrão — essencial para fichas de escrita onde as linhas-guia finas e os detalhes das letras devem ser impressos de forma nítida. Os formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal e dimensões personalizadas são todos suportados. Ative a exportação em escala de cinzentos para versões económicas em tinta, ideais para impressão na sala de aula ou cadernos a preto e branco. Cada exportação está pronta para produção: listagens da Etsy, interiores da Amazon KDP e ficheiros de produtos TPT.',
+          'Descarregue fichas como imagens JPEG de alta resolução ou documentos PDF prontos para impressão. O motor de exportação renderiza com um multiplicador 6×, produzindo ~300 DPI em tamanhos de página padrão — essencial para fichas de escrita onde as linhas-guia finas e os detalhes das letras devem ser impressos de forma nítida. Os formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal e dimensões personalizadas são todos suportados. Ative a exportação em escala de cinzentos para versões económicas em tinta, ideais para impressão online ou cadernos a preto e branco. Cada exportação está pronta para produção: listagens da Etsy, interiores da Amazon KDP e ficheiros de produtos Gumroad.',
       },
       {
         title: 'Edição completa do canvas com ferramentas de texto e decoração',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de escrita diferenciados para TPT',
+        title: 'Centros de escrita diferenciados para Gumroad',
         description:
-          'Construa conjuntos de prática de escrita por níveis usando os três modos de prática como eixos de diferenciação: Nível 1 (modo Traçado com ordem de traços por setas para alunos a aprender a formação de letras), Nível 2 (Traçado Progressivo para alunos a desenvolver autonomia), Nível 3 (Cópia Guiada para alunos a aproximar-se da fluência), e Nível 4 (linhas vazias para escrita autónoma). Use a independência por fila para criar fichas de modos combinados onde cada fila aponta a um nível de competência diferente — a ferramenta de diferenciação definitiva para centros de escrita. Acompanhe cada nível com integração de imagens temáticas para maior motivação. Os compradores do Teachers Pay Teachers pagam preços premium por recursos de escrita diferenciados que funcionam com múltiplos grupos de níveis.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Construa conjuntos de prática de escrita por níveis usando os três modos de prática como eixos de diferenciação: Nível 1 (modo Traçado com ordem de traços por setas para usuários a aprender a formação de letras), Nível 2 (Traçado Progressivo para usuários a desenvolver autonomia), Nível 3 (Cópia Guiada para usuários a aproximar-se da fluência), e Nível 4 (linhas vazias para escrita autónoma). Use a independência por fila para criar fichas de modos combinados onde cada fila aponta a um nível de competência diferente — a ferramenta de diferenciação definitiva para centros de escrita. Acompanhe cada nível com integração de imagens temáticas para maior motivação. Os compradores do Gumroad pagam preços premium por recursos de escrita diferenciados que funcionam com múltiplos grupos de níveis.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Pacotes de traços de pré-escrita para o desenvolvimento da motricidade fina',
         description:
-          'Crie conjuntos dedicados de prática de traços de pré-escrita com linhas verticais, linhas horizontais, círculos e linhas em ziguezague. Estes exercícios de motricidade fina destinam-se a um público diferenciado: terapeutas ocupacionais, educadores de primeira infância e pais de crianças em idade pré-escolar a desenvolver o controlo do lápis antes da instrução formal de letras. Ofereça os tipos de traços individualmente ou como uma progressão completa de competências motoras. Os pacotes de pré-escrita preenchem um nicho específico na Etsy e no TPT com menos concorrência do que as fichas padrão de traçado de letras, e os quatro tipos de traços proporcionam variedade suficiente para pacotes de produtos significativos.',
-        platform: 'Etsy / TPT (nicho motricidade fina)',
+          'Crie conjuntos dedicados de prática de traços de pré-escrita com linhas verticais, linhas horizontais, círculos e linhas em ziguezague. Estes exercícios de motricidade fina destinam-se a um público diferenciado: terapeutas ocupacionais, vendedores de primeira infância e pais de crianças em idade pré-escolar a desenvolver o controlo do lápis antes da instrução formal de letras. Ofereça os tipos de traços individualmente ou como uma progressão completa de competências motoras. Os pacotes de pré-escrita preenchem um nicho específico na Etsy e no Gumroad com menos concorrência do que as fichas padrão de traçado de letras, e os quatro tipos de traços proporcionam variedade suficiente para pacotes de produtos significativos.',
+        platform: 'Etsy / Gumroad (nicho motricidade fina)',
       },
       {
-        title: 'Ferramenta de prática de escrita para sala de aula e explicações',
+        title: 'Ferramenta de prática de escrita para loja e explicações',
         description:
-          'Use o modo Texto Personalizado para criar fichas de escrita para qualquer palavra, frase ou oração — palavras de ortografia semanais, nomes de alunos, vocabulário visual ou termos específicos de uma disciplina. Defina o modo de prática conforme as capacidades de cada aluno: modo Traçado para conteúdo novo, Traçado Progressivo para desenvolver fluência, Cópia Guiada para revisão quase dominada. Selecione as fontes com setas para alunos que necessitam de instrução da ordem dos traços. Imprima conjuntos personalizados em minutos para grupos pequenos ou turmas inteiras. A independência por fila significa que uma única ficha pode servir múltiplos níveis simultaneamente — as filas de cima traçam palavras novas enquanto as filas de baixo praticam as familiares.',
-        platform: 'Sala de aula / Explicações / Ensino doméstico',
+          'Use o modo Texto Personalizado para criar fichas de escrita para qualquer palavra, frase ou oração — palavras de ortografia semanais, nomes de usuários, vocabulário visual ou termos específicos de uma disciplina. Defina o modo de prática conforme as capacidades de cada usuário: modo Traçado para conteúdo novo, Traçado Progressivo para desenvolver fluência, Cópia Guiada para revisão quase dominada. Selecione as fontes com setas para usuários que necessitam de instrução da ordem dos traços. Imprima conjuntos personalizados em minutos para grupos pequenos ou turmas inteiras. A independência por fila significa que uma única ficha pode servir múltiplos níveis simultaneamente — as filas de cima traçam palavras novas enquanto as filas de baixo praticam as familiares.',
+        platform: 'loja / Explicações / Ensino doméstico',
       },
     ],
   },
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Quais são os três modos de prática e como funcionam?',
       answer:
-        'O modo Traçado fornece contornos de letras sólidos que os alunos traçam diretamente — suporte visual completo para aprender letras novas. O Traçado Progressivo começa com letras sólidas no lado esquerdo da fila e desvanece-as progressivamente para a direita, permitindo aos alunos passar do traçado à escrita autónoma dentro de uma única fila. A Cópia Guiada mostra um contorno ténue de cada letra que os alunos reproduzem ao lado com assistência visual mínima. Estes três modos criam uma progressão natural do suporte completo à escrita autónoma, e pode combinar os três numa única ficha graças à independência por fila.',
+        'O modo Traçado fornece contornos de letras sólidos que os usuários traçam diretamente — suporte visual completo para aprender letras novas. O Traçado Progressivo começa com letras sólidas no lado esquerdo da fila e desvanece-as progressivamente para a direita, permitindo aos usuários passar do traçado à escrita autónoma dentro de uma única fila. A Cópia Guiada mostra um contorno ténue de cada letra que os usuários reproduzem ao lado com assistência visual mínima. Estes três modos criam uma progressão natural do suporte completo à escrita autónoma, e pode combinar os três numa única ficha graças à independência por fila.',
     },
     {
       question: 'Quais são os cinco estilos de fonte e quando usar cada um?',
@@ -153,17 +153,17 @@ const content: AppContent = {
     {
       question: 'Como funciona a ordem dos traços guiada por setas?',
       answer:
-        'Os estilos Imprensa Regular com Setas e Imprensa de Traçado com Setas sobrepõem setas direcionais numeradas em cada letra. A seta 1 mostra onde começar o primeiro traço e em que direção mover, a seta 2 indica o segundo traço, e assim sucessivamente. As setas ensinam aos alunos a sequência de formação correta de cada letra — não apenas como a letra se parece, mas precisamente como traçá-la com a ordem e a direção de traços corretas. Isto transforma uma simples ficha de traçado numa ferramenta de instrução.',
+        'Os estilos Imprensa Regular com Setas e Imprensa de Traçado com Setas sobrepõem setas direcionais numeradas em cada letra. A seta 1 mostra onde começar o primeiro traço e em que direção mover, a seta 2 indica o segundo traço, e assim sucessivamente. As setas ensinam aos usuários a sequência de formação correta de cada letra — não apenas como a letra se parece, mas precisamente como traçá-la com a ordem e a direção de traços corretas. Isto transforma uma simples ficha de traçado numa ferramenta de instrução.',
     },
     {
       question: 'Como funciona o modo Traçado Progressivo?',
       answer:
-        'O modo Traçado Progressivo começa cada fila com letras completamente visíveis e sólidas no lado esquerdo e reduz progressivamente a opacidade de cada letra sucessiva à medida que a fila continua para a direita. No final da fila, as letras são mal visíveis ou desapareceram por completo. Este desvanecimento gradual reforça a confiança do aluno ao reduzir o suporte visual de forma incremental — cada repetição requer um pouco mais de memória autónoma do que a anterior. Serve como ponte entre o traçado completo e a escrita autónoma.',
+        'O modo Traçado Progressivo começa cada fila com letras completamente visíveis e sólidas no lado esquerdo e reduz progressivamente a opacidade de cada letra sucessiva à medida que a fila continua para a direita. No final da fila, as letras são mal visíveis ou desapareceram por completo. Este desvanecimento gradual reforça a confiança do usuário ao reduzir o suporte visual de forma incremental — cada repetição requer um pouco mais de memória autónoma do que a anterior. Serve como ponte entre o traçado completo e a escrita autónoma.',
     },
     {
       question: 'O que são os traços de pré-escrita e para quem se destinam?',
       answer:
-        'Os traços de pré-escrita são exercícios de linhas básicas que desenvolvem o controlo motor fino necessário para a escrita: linhas verticais (traços de cima para baixo), linhas horizontais (varrimentos da esquerda para a direita), círculos (prática de curva contínua) e linhas em ziguezague (controlo de mudanças de direção). Estes exercícios destinam-se a alunos que ainda não estão preparados para a formação de letras — desenvolvem a força da pega do lápis, a coordenação olho-mão e os movimentos musculares específicos usados na escrita. Os traços de pré-escrita estão disponíveis no modo Texto Personalizado.',
+        'Os traços de pré-escrita são exercícios de linhas básicas que desenvolvem o controlo motor fino necessário para a escrita: linhas verticais (traços de cima para baixo), linhas horizontais (varrimentos da esquerda para a direita), círculos (prática de curva contínua) e linhas em ziguezague (controlo de mudanças de direção). Estes exercícios destinam-se a usuários que ainda não estão preparados para a formação de letras — desenvolvem a força da pega do lápis, a coordenação olho-mão e os movimentos musculares específicos usados na escrita. Os traços de pré-escrita estão disponíveis no modo Texto Personalizado.',
     },
     {
       question: 'O que significa a independência por fila?',
@@ -178,7 +178,7 @@ const content: AppContent = {
     {
       question: 'Por que não existe gabarito para as fichas de escrita?',
       answer:
-        'As fichas de escrita são exercícios de prática, não puzzles com soluções corretas ou incorretas. Os modos Traçado e Traçado Progressivo em si mesmos servem como guia — os alunos traçam diretamente sobre ou ao lado das formas de letras fornecidas. Não há nenhuma resposta oculta a revelar. A ficha É a referência. Isto é diferente dos geradores baseados em puzzles como a Caça-Palavras ou o Criptograma, onde um gabarito mostra a solução que os alunos não podiam ver durante o exercício.',
+        'As fichas de escrita são exercícios de prática, não puzzles com soluções corretas ou incorretas. Os modos Traçado e Traçado Progressivo em si mesmos servem como guia — os usuários traçam diretamente sobre ou ao lado das formas de letras fornecidas. Não há nenhuma resposta oculta a revelar. A ficha É a referência. Isto é diferente dos geradores baseados em puzzles como a Caça-Palavras ou o Criptograma, onde um gabarito mostra a solução que os usuários não podiam ver durante o exercício.',
     },
     {
       question: 'Existe um teste grátis?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Posso vender fichas criadas com esta ferramenta na Etsy e Amazon KDP?',
       answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas de escrita como downloads digitais na Etsy, como cadernos de caligrafia impressos na Amazon KDP, como recursos educativos no TPT ou através de qualquer outro canal de venda. Os três modos de prática, os cinco estilos de fonte, a ordem de traços por setas e os traços de pré-escrita oferecem-lhe uma forte diferenciação em categorias saturadas das plataformas de venda.',
+        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas de escrita como downloads digitais na Etsy, como cadernos de caligrafia impressos na Amazon KDP, como recursos educativos no Gumroad ou através de qualquer outro canal de venda. Os três modos de prática, os cinco estilos de fonte, a ordem de traços por setas e os traços de pré-escrita oferecem-lhe uma forte diferenciação em categorias saturadas das plataformas de venda.',
     },
     {
       question: 'Qual é a política de reembolso?',

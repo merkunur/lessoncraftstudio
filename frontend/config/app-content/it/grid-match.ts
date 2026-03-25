@@ -7,7 +7,7 @@ const content: AppContent = {
       'generatore di puzzle a griglia stampabili per venditori Etsy',
       'creatore di puzzle a pezzi di immagini per editori Amazon KDP',
       'generatore di puzzle a griglia con licenza commerciale',
-      'vendere puzzle a griglia di immagini su Teachers Pay Teachers',
+      'vendere puzzle a griglia di immagini su Gumroad',
     ],
     lsiKeywords: [
       'prodotti digitali di puzzle a griglia per imprenditori',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Generatore Puzzle a Griglia | Crea e Vendi Stampabili',
     metaDescription:
-      'Crea puzzle a griglia da vendere su Etsy, KDP e TPT. Griglia configurabile, caselle-indizio, risposte automatiche, 104 temi. Prova gratuita con filigrana.',
+      'Crea puzzle a griglia da vendere su Etsy, KDP e Gumroad. Griglia configurabile, caselle-indizio, risposte automatiche, 104 temi. Prova gratuita con filigrana.',
   },
 
   hero: {
     title: 'Generatore di Puzzle a Griglia per Attività di Abbinamento Pezzi di Immagini',
     tagline: 'Trasforma qualsiasi immagine in un puzzle basato su griglia — dividila in pezzi, rivela caselle-indizio configurabili, mescola i pezzi rimanenti in una palette numerata e genera automaticamente un foglio risposte con cerchi numerati sovrapposti su 104 collezioni di immagini tematiche.',
     description:
-      'Crea puzzle a griglia professionali dove un\'unica immagine viene divisa in una griglia di pezzi e gli studenti abbinano i pezzi numerati alle posizioni corrette. Configura la griglia da 2×2 a 4×4 (2–4 righe × 2–4 colonne) e imposta 1–5 caselle-indizio che rimangono visibili come suggerimenti — meno indizi significa un puzzle più difficile. L\'app mescola i pezzi rimanenti usando l\'algoritmo Fisher-Yates e li presenta in una palette numerata accanto o sotto la griglia. Gli studenti studiano le caselle-indizio rivelate, esaminano i pezzi numerati e scrivono quale numero corrisponde a ciascuna cella vuota. Il sistema a doppio canvas genera sia una scheda di lavoro che un foglio risposte — il foglio risposte mostra l\'immagine completa con cerchi numerati sovrapposti su ogni cella indicando il posizionamento corretto dei pezzi, senza necessità di creare risposte manualmente. Il Puzzle a Griglia NON è sensibile alla lingua: il risultato del puzzle è puramente visivo, senza contenuto testuale localizzato nella scheda. L\'Accesso Completo sblocca tutti i 104 temi con oltre 3100 illustrazioni e le 11 lingue di interfaccia. Aggiungi temi di sfondo e di bordo con controlli di opacità indipendenti, includi testo personalizzato con sette opzioni di font, ed esporta PDF e JPEG pronti per la stampa a 300 DPI nei formati Lettera, A4 o dimensioni personalizzate. Che tu venda pacchetti di puzzle di immagini su Etsy, compili quaderni di percezione visiva per Amazon KDP o crei attività di puzzle rapidi per TPT, questo generatore produce puzzle a griglia pronti per la produzione in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Crea puzzle a griglia professionali dove un\'unica immagine viene divisa in una griglia di pezzi e gli utenti abbinano i pezzi numerati alle posizioni corrette. Configura la griglia da 2×2 a 4×4 (2–4 righe × 2–4 colonne) e imposta 1–5 caselle-indizio che rimangono visibili come suggerimenti — meno indizi significa un puzzle più difficile. L\'app mescola i pezzi rimanenti usando l\'algoritmo Fisher-Yates e li presenta in una palette numerata accanto o sotto la griglia. gli utenti studiano le caselle-indizio rivelate, esaminano i pezzi numerati e scrivono quale numero corrisponde a ciascuna cella vuota. Il sistema a doppio canvas genera sia una scheda di lavoro che un foglio risposte — il foglio risposte mostra l\'immagine completa con cerchi numerati sovrapposti su ogni cella indicando il posizionamento corretto dei pezzi, senza necessità di creare risposte manualmente. Il Puzzle a Griglia NON è sensibile alla lingua: il risultato del puzzle è puramente visivo, senza contenuto testuale localizzato nella scheda. L\'Accesso Completo sblocca tutti i 104 temi con oltre 3100 illustrazioni e le 11 lingue di interfaccia. Aggiungi temi di sfondo e di bordo con controlli di opacità indipendenti, includi testo personalizzato con sette opzioni di font, ed esporta PDF e JPEG pronti per la stampa a 300 DPI nei formati Lettera, A4 o dimensioni personalizzate. Che tu venda pacchetti di puzzle di immagini su Etsy, compili quaderni di percezione visiva per Amazon KDP o crei attività di puzzle rapidi per Gumroad, questo generatore produce puzzle a griglia pronti per la produzione in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Configura la Griglia',
         description:
-          'Apri il pannello Opzioni Griglia e imposta il numero di righe (2–4, predefinito 3) e colonne (2–4, predefinito 3) per la tua griglia di puzzle. Poi imposta il numero di caselle-indizio (1–5, predefinito 1) — sono i pezzi che rimangono visibili nella scheda come suggerimenti per gli studenti. Una griglia 3×3 con 1 indizio crea un puzzle stimolante con 8 pezzi da abbinare, mentre una griglia 2×2 con 3 indizi crea un esercizio facile con solo 1 pezzo da posizionare. Questa difficoltà configurabile facilita la creazione di set di puzzle progressivi.',
+          'Apri il pannello Opzioni Griglia e imposta il numero di righe (2–4, predefinito 3) e colonne (2–4, predefinito 3) per la tua griglia di puzzle. Poi imposta il numero di caselle-indizio (1–5, predefinito 1) — sono i pezzi che rimangono visibili nella scheda come suggerimenti per gli utenti. Una griglia 3×3 con 1 indizio crea un puzzle stimolante con 8 pezzi da abbinare, mentre una griglia 2×2 con 3 indizi crea un esercizio facile con solo 1 pezzo da posizionare. Questa difficoltà configurabile facilita la creazione di set di puzzle progressivi.',
       },
       {
         title: 'Seleziona un\'Immagine',
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Genera le Risposte e Scarica',
         description:
-          'Passa alla scheda Risposte per visualizzare il foglio risposte generato automaticamente. Presenta l\'immagine completa, senza ritaglio, con cerchi numerati sovrapposti su ogni cella della griglia — cerchi con sfondo giallo (#ffffe0) e contorno nero che indicano quale numero della palette corrisponde a ciascuna posizione. Scarica entrambe le versioni con i quattro pulsanti dedicati: Scheda JPEG, Risposte JPEG, Scheda PDF e Risposte PDF a 300 DPI. Attiva la modalità scala di grigi per versioni a risparmio d\'inchiostro. Ogni esportazione è pronta per la produzione: inserzioni Etsy, interni Amazon KDP e file prodotto TPT.',
+          'Passa alla scheda Risposte per visualizzare il foglio risposte generato automaticamente. Presenta l\'immagine completa, senza ritaglio, con cerchi numerati sovrapposti su ogni cella della griglia — cerchi con sfondo giallo (#ffffe0) e contorno nero che indicano quale numero della palette corrisponde a ciascuna posizione. Scarica entrambe le versioni con i quattro pulsanti dedicati: Scheda JPEG, Risposte JPEG, Scheda PDF e Risposte PDF a 300 DPI. Attiva la modalità scala di grigi per versioni a risparmio d\'inchiostro. Ogni esportazione è pronta per la produzione: inserzioni Etsy, interni Amazon KDP e file prodotto Gumroad.',
       },
     ],
   },
@@ -63,22 +63,22 @@ const content: AppContent = {
       {
         title: 'Puzzle a Griglia con Immagine Singola e Righe e Colonne Configurabili (2–4 × 2–4)',
         description:
-          'Ogni puzzle inizia con un\'unica immagine divisa in una griglia di pezzi. Imposta 2–4 righe e 2–4 colonne in modo indipendente, creando griglie da 2×2 (4 pezzi) fino a 4×4 (16 pezzi). La griglia predefinita 3×3 produce 9 pezzi — un livello di difficoltà equilibrato per la maggior parte delle età. Le griglie più piccole funzionano bene per puzzle introduttivi e studenti più giovani, mentre le griglie più grandi sfidano studenti più avanzati e creano prodotti di puzzle premium. A differenza delle schede di abbinamento con immagini multiple, il puzzle a griglia valuta il ragionamento spaziale e l\'analisi visiva di una singola immagine completa.',
+          'Ogni puzzle inizia con un\'unica immagine divisa in una griglia di pezzi. Imposta 2–4 righe e 2–4 colonne in modo indipendente, creando griglie da 2×2 (4 pezzi) fino a 4×4 (16 pezzi). La griglia predefinita 3×3 produce 9 pezzi — un livello di difficoltà equilibrato per la maggior parte delle età. Le griglie più piccole funzionano bene per puzzle introduttivi e utenti più giovani, mentre le griglie più grandi sfidano utenti più avanzati e creano prodotti di puzzle premium. A differenza delle schede di abbinamento con immagini multiple, il puzzle a griglia valuta il ragionamento spaziale e l\'analisi visiva di una singola immagine completa.',
       },
       {
         title: 'Numero di Caselle-Indizio Regolabile per Difficoltà Scalabile (1–5 Celle Rivelate)',
         description:
-          'Controlla la difficoltà del puzzle impostando 1–5 caselle-indizio che rimangono visibili nella scheda come suggerimenti. Con una griglia 3×3 e 1 indizio, gli studenti devono abbinare 8 pezzi mescolati — una vera sfida. Con 5 indizi sulla stessa griglia, solo 4 pezzi devono essere abbinati — un esercizio di riscaldamento accessibile. Questo semplice cursore trasforma la stessa immagine in puzzle che vanno da facile ad avanzato, permettendoti di creare set di difficoltà progressiva da una singola immagine e una singola configurazione di griglia. Il valore predefinito è 1 casella-indizio per massima sfida.',
+          'Controlla la difficoltà del puzzle impostando 1–5 caselle-indizio che rimangono visibili nella scheda come suggerimenti. Con una griglia 3×3 e 1 indizio, gli utenti devono abbinare 8 pezzi mescolati — una vera sfida. Con 5 indizi sulla stessa griglia, solo 4 pezzi devono essere abbinati — un esercizio di riscaldamento accessibile. Questo semplice cursore trasforma la stessa immagine in puzzle che vanno da facile ad avanzato, permettendoti di creare set di difficoltà progressiva da una singola immagine e una singola configurazione di griglia. Il valore predefinito è 1 casella-indizio per massima sfida.',
       },
       {
         title: 'Palette di Pezzi Numerati Mescolati con Algoritmo Fisher-Yates',
         description:
-          'I pezzi nascosti vengono mescolati usando l\'algoritmo Fisher-Yates e presentati in una palette numerata accanto alla griglia. Ogni pezzo riceve un numero unico che gli studenti usano come riferimento quando scrivono le loro risposte. L\'algoritmo garantisce che ogni puzzle generato abbia un ordine di pezzi diverso, anche usando la stessa immagine e gli stessi parametri di griglia. Questo significa che puoi produrre molteplici schede di puzzle uniche da una singola immagine semplicemente rigenerando — prezioso per creare pacchetti variati senza necessitare di immagini sorgente diverse.',
+          'I pezzi nascosti vengono mescolati usando l\'algoritmo Fisher-Yates e presentati in una palette numerata accanto alla griglia. Ogni pezzo riceve un numero unico che gli utenti usano come riferimento quando scrivono le loro risposte. L\'algoritmo garantisce che ogni puzzle generato abbia un ordine di pezzi diverso, anche usando la stessa immagine e gli stessi parametri di griglia. Questo significa che puoi produrre molteplici schede di puzzle uniche da una singola immagine semplicemente rigenerando — prezioso per creare pacchetti variati senza necessitare di immagini sorgente diverse.',
       },
       {
         title: 'Foglio Risposte Auto-generato con Cerchi Numerati Sovrapposti sull\'Immagine Completa',
         description:
-          'Ogni puzzle a griglia genera automaticamente un foglio risposte complementare in una scheda canvas separata. Il foglio risposte presenta l\'immagine completa, senza ritaglio, con cerchi numerati sovrapposti su ogni cella — cerchi con sfondo giallo (#ffffe0), contorno nero e testo nel font Fredoka. Ogni numero corrisponde all\'ordine mescolato della palette della scheda di lavoro, mostrando a studenti e insegnanti esattamente quale pezzo appartiene a ciascuna posizione. Nessuna creazione manuale di risposte, nessun file separato — il foglio risposte rimane perfettamente sincronizzato con la scheda.',
+          'Ogni puzzle a griglia genera automaticamente un foglio risposte complementare in una scheda canvas separata. Il foglio risposte presenta l\'immagine completa, senza ritaglio, con cerchi numerati sovrapposti su ogni cella — cerchi con sfondo giallo (#ffffe0), contorno nero e testo nel font Fredoka. Ogni numero corrisponde all\'ordine mescolato della palette della scheda di lavoro, mostrando a utenti e venditori esattamente quale pezzo appartiene a ciascuna posizione. Nessuna creazione manuale di risposte, nessun file separato — il foglio risposte rimane perfettamente sincronizzato con la scheda.',
       },
       {
         title: 'Libreria Immagini con 104 Collezioni Tematiche e Oltre 3100 Illustrazioni',
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: 'Esportazione PDF e JPEG Pronta per la Stampa a 300 DPI con Modalità Scala di Grigi',
         description:
-          'Scarica puzzle a griglia e fogli risposte come immagini JPEG ad alta risoluzione o documenti PDF pronti per la stampa renderizzati a 300 DPI (moltiplicatore 6×, qualità JPEG 1.0). Quattro pulsanti di download dedicati esportano i file della scheda di lavoro e del foglio risposte separatamente. I formati di pagina includono Lettera Verticale, Lettera Orizzontale, A4 Verticale, A4 Orizzontale e dimensioni completamente personalizzate. L\'orientamento del PDF viene rilevato automaticamente. Attiva la scala di grigi per versioni a risparmio d\'inchiostro che preservano la struttura della griglia. Ogni esportazione è pronta per la produzione: download digitali, quaderni stampati e materiali per la classe.',
+          'Scarica puzzle a griglia e fogli risposte come immagini JPEG ad alta risoluzione o documenti PDF pronti per la stampa renderizzati a 300 DPI (moltiplicatore 6×, qualità JPEG 1.0). Quattro pulsanti di download dedicati esportano i file della scheda di lavoro e del foglio risposte separatamente. I formati di pagina includono Lettera Verticale, Lettera Orizzontale, A4 Verticale, A4 Orizzontale e dimensioni completamente personalizzate. L\'orientamento del PDF viene rilevato automaticamente. Attiva la scala di grigi per versioni a risparmio d\'inchiostro che preservano la struttura della griglia. Ogni esportazione è pronta per la produzione: download digitali, quaderni stampati e materiali per il negozio.',
       },
       {
         title: 'Modifica Completa del Canvas con Strumenti di Testo, Allineamento e Controlli Livelli',
@@ -119,21 +119,21 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.it)',
       },
       {
-        title: 'Attività di Puzzle per la Classe su TPT',
+        title: 'Attività di Puzzle per il negozio su Gumroad',
         description:
-          'Crea attività di puzzle a griglia pronte all\'uso per riempitivi di fine lezione, lavoro mattutino o centri di arricchimento. Gli insegnanti che cercano attività di percezione visiva su TPT apprezzano puzzle che arrivano pronti per la stampa con risposte. Crea set allineati al curriculum: puzzle di immagini di animali per scienze, puzzle di monumenti per studi sociali, puzzle di alimenti per educazione alimentare. La difficoltà configurabile ti permette di differenziare all\'interno di un singolo prodotto — includi versioni facili, medie e difficili degli stessi puzzle tematici così che gli insegnanti possano assegnare in base al livello dello studente.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Crea attività di puzzle a griglia pronte all\'uso per riempitivi di fine lezione, lavoro mattutino o centri di arricchimento. i venditori che cercano attività di percezione visiva su Gumroad apprezzano puzzle che arrivano pronti per la stampa con risposte. Crea set allineati al mercato: puzzle di immagini di animali per scienze, puzzle di monumenti per studi sociali, puzzle di alimenti per educazione alimentare. La difficoltà configurabile ti permette di differenziare all\'interno di un singolo prodotto — includi versioni facili, medie e difficili degli stessi puzzle tematici così che i venditori possano assegnare in base al livello dell'utente.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Collezioni di Puzzle a Griglia Stagionali',
         description:
           'Le 104 collezioni di immagini tematiche coprono ogni occasione stagionale e festiva — Natale, Halloween, Pasqua, San Valentino, ritorno a scuola, vacanze estive e altro. Crea collezioni di puzzle a griglia stagionali allineate con i picchi di acquisto. Lancia pacchetti di puzzle di Halloween a settembre, collezioni di Natale a ottobre e pacchetti di San Valentino a gennaio. Includi multiple dimensioni di griglia e livelli di difficoltà in ogni set stagionale per massimo valore. I prodotti stagionali raggiungono prezzi più alti durante le loro finestre di massima domanda e creano ragioni naturali per acquisti ricorrenti.',
-        platform: 'Etsy / Amazon KDP / TPT (stagionale)',
+        platform: 'Etsy / Amazon KDP / Gumroad (stagionale)',
       },
       {
         title: 'Puzzle a Griglia con Foto Personalizzate per Prodotti su Misura',
         description:
-          'Usa la funzione Carica Immagini Personalizzate per creare puzzle a griglia da qualsiasi foto o illustrazione. Puzzle con foto di famiglia sono regali personalizzati unici. Gli insegnanti possono caricare foto della classe per attività di fine anno. Puzzle con foto di animali domestici, di vacanze e di squadra creano prodotti irripetibili. Offri la creazione di puzzle a griglia personalizzati come servizio premium su Etsy, dove i clienti inviano le loro foto e ricevono schede di puzzle stampate con risposte — un prodotto personalizzato ad alto margine con tempi di produzione minimi.',
+          'Usa la funzione Carica Immagini Personalizzate per creare puzzle a griglia da qualsiasi foto o illustrazione. Puzzle con foto di famiglia sono regali personalizzati unici. i venditori possono caricare foto del negozio per attività di fine anno. Puzzle con foto di animali domestici, di vacanze e di squadra creano prodotti irripetibili. Offri la creazione di puzzle a griglia personalizzati come servizio premium su Etsy, dove i clienti inviano le loro foto e ricevono schede di puzzle stampate con risposte — un prodotto personalizzato ad alto margine con tempi di produzione minimi.',
         platform: 'Etsy (prodotti personalizzati)',
       },
     ],
@@ -143,17 +143,17 @@ const content: AppContent = {
     {
       question: 'Quali dimensioni di griglia sono disponibili per i puzzle a griglia?',
       answer:
-        'Il generatore supporta 2–4 righe e 2–4 colonne, configurate in modo indipendente. Questo crea griglie da 2×2 (4 pezzi) fino a 4×4 (16 pezzi). Il valore predefinito è 3×3 (9 pezzi). Le griglie più piccole sono più facili e funzionano bene per studenti più giovani; le griglie più grandi aumentano la difficoltà e la complessità visiva. Puoi impostare righe e colonne con valori diversi — ad esempio, 2 righe × 4 colonne crea un puzzle rettangolare largo.',
+        'Il generatore supporta 2–4 righe e 2–4 colonne, configurate in modo indipendente. Questo crea griglie da 2×2 (4 pezzi) fino a 4×4 (16 pezzi). Il valore predefinito è 3×3 (9 pezzi). Le griglie più piccole sono più facili e funzionano bene per utenti più giovani; le griglie più grandi aumentano la difficoltà e la complessità visiva. Puoi impostare righe e colonne con valori diversi — ad esempio, 2 righe × 4 colonne crea un puzzle rettangolare largo.',
     },
     {
       question: 'Come controllano la difficoltà del puzzle le caselle-indizio?',
       answer:
-        'Le caselle-indizio sono posizioni della griglia dove il pezzo di immagine rimane visibile come suggerimento. Imposta 1–5 caselle-indizio con il cursore nel pannello Opzioni Griglia (il valore predefinito è 1). Più indizi rendono il puzzle più facile perché gli studenti hanno più punti di riferimento. Per una griglia 3×3 con 1 indizio, gli studenti devono abbinare 8 pezzi — piuttosto impegnativo. Con 5 indizi, solo 4 pezzi devono essere abbinati — molto più accessibile. Questo semplice controllo ti permette di creare set di difficoltà progressiva dalla stessa immagine.',
+        'Le caselle-indizio sono posizioni della griglia dove il pezzo di immagine rimane visibile come suggerimento. Imposta 1–5 caselle-indizio con il cursore nel pannello Opzioni Griglia (il valore predefinito è 1). Più indizi rendono il puzzle più facile perché gli utenti hanno più punti di riferimento. Per una griglia 3×3 con 1 indizio, gli utenti devono abbinare 8 pezzi — piuttosto impegnativo. Con 5 indizi, solo 4 pezzi devono essere abbinati — molto più accessibile. Questo semplice controllo ti permette di creare set di difficoltà progressiva dalla stessa immagine.',
     },
     {
-      question: 'Come funziona il puzzle a griglia per gli studenti?',
+      question: 'Come funziona il puzzle a griglia per gli utenti?',
       answer:
-        'La scheda di lavoro mostra una griglia dove alcune celle presentano il pezzo di immagine reale (caselle-indizio) e le celle rimanenti mostrano marcatori «?». Sotto o accanto alla griglia, una palette numerata presenta tutti i pezzi nascosti in ordine casuale. Gli studenti esaminano le caselle-indizio, studiano i pezzi numerati e determinano quale numero corrisponde a ciascuna posizione vuota della griglia. L\'esercizio richiede ragionamento spaziale — abbinare il contenuto del pezzo alla sua posizione corretta nell\'immagine completa.',
+        'La scheda di lavoro mostra una griglia dove alcune celle presentano il pezzo di immagine reale (caselle-indizio) e le celle rimanenti mostrano marcatori «?». Sotto o accanto alla griglia, una palette numerata presenta tutti i pezzi nascosti in ordine casuale. gli utenti esaminano le caselle-indizio, studiano i pezzi numerati e determinano quale numero corrisponde a ciascuna posizione vuota della griglia. L\'esercizio richiede ragionamento spaziale — abbinare il contenuto del pezzo alla sua posizione corretta nell\'immagine completa.',
     },
     {
       question: 'Come funziona il foglio risposte generato automaticamente?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Posso vendere puzzle a griglia creati con questo strumento su Etsy e Amazon KDP?',
       answer:
-        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere i tuoi puzzle a griglia come download digitali su Etsy, come quaderni stampati su Amazon KDP, come risorse educative su TPT o attraverso qualsiasi altro canale di vendita. Le dimensioni di griglia configurabili, le caselle-indizio regolabili, i fogli risposte generati automaticamente e le 104 collezioni di immagini tematiche ti forniscono gli strumenti creativi per produrre prodotti di puzzle a griglia originali e vendibili.',
+        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere i tuoi puzzle a griglia come download digitali su Etsy, come quaderni stampati su Amazon KDP, come risorse educative su Gumroad o attraverso qualsiasi altro canale di vendita. Le dimensioni di griglia configurabili, le caselle-indizio regolabili, i fogli risposte generati automaticamente e le 104 collezioni di immagini tematiche ti forniscono gli strumenti creativi per produrre prodotti di puzzle a griglia originali e vendibili.',
     },
     {
       question: 'Qual è la politica di rimborso?',
@@ -220,8 +220,8 @@ const content: AppContent = {
     },
     {
       pageType: 'app',
-      slug: 'classificazione-immagini-schede',
-      anchorText: 'Generatore di Schede di Classificazione Immagini',
+      slug: 'negozificazione-immagini-schede',
+      anchorText: 'Generatore di Schede di negozificazione Immagini',
     },
     {
       pageType: 'app',
@@ -235,8 +235,8 @@ const content: AppContent = {
     },
     {
       pageType: 'bundle',
-      slug: 'pacchetto-abbinamento-classificazione',
-      anchorText: 'Pacchetto Abbinamento e Classificazione — Tutte le App di Abbinamento in un Pacchetto',
+      slug: 'pacchetto-abbinamento-negozificazione',
+      anchorText: 'Pacchetto Abbinamento e negozificazione — Tutte le App di Abbinamento in un Pacchetto',
     },
     {
       pageType: 'idea',

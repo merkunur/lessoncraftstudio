@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Gerador de Fichas de Preposições',
     tagline: 'Crie fichas de preposições espaciais com dois modos de exercício em 11 idiomas',
-    description: 'Ensine palavras de posição através de exercícios baseados em imagens que os alunos realmente apreciam. Esta ferramenta gera fichas de preposições onde os estudantes identificam relações espaciais — em cima de, debaixo de, ao lado de, atrás de, entre, acima de, à frente de — estudando cenas com imagens e completando ou selecionando a preposição correta. Escolha entre dois modos de exercício: Preencher a Lacuna, onde os alunos escrevem a preposição correta, ou Escolha Múltipla, onde escolhem entre várias opções com uma linha de instrução personalizável. Configure de 1 a 8 exercícios por ficha e selecione exatamente quais preposições incluir usando a grelha de caixas de seleção. A função de destaque da ferramenta é a Substituição de Formas — uma camada de imagem independente permite-lhe trocar as formas da cena de forma autónoma, criando muito mais combinações visuais do que um único conjunto de imagens poderia oferecer. A sensibilidade linguística está integrada: mude do português para qualquer um dos 11 idiomas suportados e cada palavra de preposição atualiza-se para o seu equivalente nativo. O alemão usa «auf, unter, über, neben, zwischen, drinnen, draußen»; o francês usa «sur, sous, au-dessus, à côté, entre, dedans, dehors». Um único design de ficha transforma-se em 11 produtos únicos em diferentes idiomas. Explore mais de 3100 imagens em 104 temas, carregue as suas próprias imagens PNG ou JPEG para designs personalizados e escolha entre múltiplos modelos e 7 famílias tipográficas. Exporte como PDF pronto para imprimir ou JPEG de alta resolução. O teste grátis inclui uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    description: 'Ensine palavras de posição através de exercícios baseados em imagens que os usuários realmente apreciam. Esta ferramenta gera fichas de preposições onde os compradores identificam relações espaciais — em cima de, debaixo de, ao lado de, atrás de, entre, acima de, à frente de — estudando cenas com imagens e completando ou selecionando a preposição correta. Escolha entre dois modos de exercício: Preencher a Lacuna, onde os usuários escrevem a preposição correta, ou Escolha Múltipla, onde escolhem entre várias opções com uma linha de instrução personalizável. Configure de 1 a 8 exercícios por ficha e selecione exatamente quais preposições incluir usando a grelha de caixas de seleção. A função de destaque da ferramenta é a Substituição de Formas — uma camada de imagem independente permite-lhe trocar as formas da cena de forma autónoma, criando muito mais combinações visuais do que um único conjunto de imagens poderia oferecer. A sensibilidade linguística está integrada: mude do português para qualquer um dos 11 idiomas suportados e cada palavra de preposição atualiza-se para o seu equivalente nativo. O alemão usa «auf, unter, über, neben, zwischen, drinnen, draußen»; o francês usa «sur, sous, au-dessus, à côté, entre, dedans, dehors». Um único design de ficha transforma-se em 11 produtos únicos em diferentes idiomas. Explore mais de 3100 imagens em 104 temas, carregue as suas próprias imagens PNG ou JPEG para designs personalizados e escolha entre múltiplos modelos e 7 famílias tipográficas. Exporte como PDF pronto para imprimir ou JPEG de alta resolução. O teste grátis inclui uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
   },
 
   tutorial: {
@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: 'Escolher o Modo de Exercício',
-        description: 'Selecione Preencher a Lacuna ou Escolha Múltipla. O modo Preencher a Lacuna apresenta uma cena com imagem e uma linha vazia onde os alunos escrevem a preposição correta. O modo Escolha Múltipla mostra opções para que os alunos selecionem, com uma linha de descrição personalizável que pode editar conforme o seu estilo de ensino. Preencher a Lacuna é ideal para alunos mais velhos; Escolha Múltipla funciona melhor para principiantes.',
+        description: 'Selecione Preencher a Lacuna ou Escolha Múltipla. O modo Preencher a Lacuna apresenta uma cena com imagem e uma linha vazia onde os usuários escrevem a preposição correta. O modo Escolha Múltipla mostra opções para que os usuários selecionem, com uma linha de descrição personalizável que pode editar conforme o seu estilo de ensino. Preencher a Lacuna é ideal para usuários mais velhos; Escolha Múltipla funciona melhor para principiantes.',
       },
       {
         title: 'Selecionar Preposições',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Pacotes de Preposições Temáticos',
-      description: 'Crie conjuntos de 10 a 15 fichas de preposições usando coleções de imagens temáticas — animais, veículos, objetos do lar, cenas da natureza. Cada ficha usa diferentes combinações de imagens e formas a um nível de dificuldade uniforme. Agrupe-os por tema e venda na Etsy ou Teachers Pay Teachers. O formato baseado em cenas com imagens faz a miniatura dos seus listings destacar-se das fichas de gramática baseadas em texto. Os pacotes temáticos também incentivam compras repetidas: um comprador que aprecia o seu pacote de preposições de animais provavelmente voltará pelo de veículos ou festividades, criando fidelidade a longo prazo na sua loja.',
+      description: 'Crie conjuntos de 10 a 15 fichas de preposições usando coleções de imagens temáticas — animais, veículos, objetos do lar, cenas da natureza. Cada ficha usa diferentes combinações de imagens e formas a um nível de dificuldade uniforme. Agrupe-os por tema e venda na Etsy ou Gumroad. O formato baseado em cenas com imagens faz a miniatura dos seus listings destacar-se das fichas de gramática baseadas em texto. Os pacotes temáticos também incentivam compras repetidas: um comprador que aprecia o seu pacote de preposições de animais provavelmente voltará pelo de veículos ou festividades, criando fidelidade a longo prazo na sua loja.',
     },
     {
       title: 'Livros de Vocabulário Espacial para KDP',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Conjuntos Diferenciados por Modo de Exercício',
-      description: 'Gere duas versões de cada ficha temática: Escolha Múltipla para alunos mais novos ou com dificuldades, e Preencher a Lacuna para estudantes preparados para a recuperação ativa. Os professores podem entregar a versão adequada a cada aluno conforme o seu nível. Venda-os como um pacote diferenciado a um preço premium na TPT ou Etsy.',
+      description: 'Gere duas versões de cada ficha temática: Escolha Múltipla para usuários mais novos ou com dificuldades, e Preencher a Lacuna para compradores preparados para a recuperação ativa. Os vendedores podem entregar a versão adequada a cada usuário conforme o seu nível. Venda-os como um pacote diferenciado a um preço premium na Gumroad ou Etsy.',
     },
     {
       title: 'Produtos de Preposições Multilingues',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Pacotes de Preposições Sazonais',
-      description: 'Use temas de imagens festivas e sazonais para criar pacotes de edição limitada. Um pacote «Preposições de Natal» com cenas festivas — presentes debaixo da árvore, estrelas acima da casa, doces dentro da meia — vende-se muito bem em novembro e dezembro. O regresso às aulas, Halloween e a primavera têm as suas próprias janelas de vendas de pico na Etsy e TPT.',
+      description: 'Use temas de imagens festivas e sazonais para criar pacotes de edição limitada. Um pacote «Preposições de Natal» com cenas festivas — presentes debaixo da árvore, estrelas acima da casa, doces dentro da meia — vende-se muito bem em novembro e dezembro. O regresso às aulas, Halloween e a primavera têm as suas próprias janelas de vendas de pico na Etsy e Gumroad.',
     },
   ],
 
@@ -101,13 +101,13 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Pacotes de Gramática no Teachers Pay Teachers',
-      description: 'Carregue pacotes de fichas de preposições na TPT organizados por dificuldade e modo de exercício. Inclua conjuntos de Preencher a Lacuna, conjuntos de Escolha Múltipla e pacotes de modo misto com gabaritos para cada página. Os professores procuram «fichas de preposições» e «atividades de vocabulário espacial» com frequência. O formato de cena com imagens acrescenta valor percebido porque os alunos interagem com contexto visual em vez de frases abstratas para completar.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Pacotes de Gramática no Gumroad',
+      description: 'Carregue pacotes de fichas de preposições na Gumroad organizados por dificuldade e modo de exercício. Inclua conjuntos de Preencher a Lacuna, conjuntos de Escolha Múltipla e pacotes de modo misto com gabaritos para cada página. Os vendedores procuram «fichas de preposições» e «atividades de vocabulário espacial» com frequência. O formato de cena com imagens acrescenta valor percebido porque os usuários interagem com contexto visual em vez de frases abstratas para completar.',
+      platform: 'Gumroad',
     },
     {
       title: 'Kits de Preposições de Duplo Modo no Gumroad',
-      description: 'Crie kits premium de preposições no Gumroad que incluam versões de Preencher a Lacuna e Escolha Múltipla de cada ficha, mais gabaritos e um guia de utilização. Agrupe versões em 5 a 11 idiomas num único produto multilingue. Dirija-se a professores de português como língua estrangeira, famílias bilingues e escolas internacionais que precisam de materiais de vocabulário espacial em múltiplos idiomas.',
+      description: 'Crie kits premium de preposições no Gumroad que incluam versões de Preencher a Lacuna e Escolha Múltipla de cada ficha, mais gabaritos e um guia de utilização. Agrupe versões em 5 a 11 idiomas num único produto multilingue. Dirija-se a vendedores de português como língua estrangeira, famílias bilingues e escolas internacionais que precisam de materiais de vocabulário espacial em múltiplos idiomas.',
       platform: 'Gumroad',
     },
     {
@@ -117,19 +117,19 @@ const content: ToolContent = {
     },
     {
       title: 'Pacotes de Variedade com Substituição de Formas na Etsy',
-      description: 'Aproveite a função de Substituição de Formas para criar pacotes de grande volume. Combine 10 imagens principais com 10 formas diferentes para produzir 100 cenas de exercício únicas a partir de apenas 20 imagens de origem. Venda-os como «Mega Pacotes de Preposições de 100 Páginas» na Etsy — o volume justifica um preço premium, e a variedade visual mantém os alunos motivados durante todo o livro.',
+      description: 'Aproveite a função de Substituição de Formas para criar pacotes de grande volume. Combine 10 imagens principais com 10 formas diferentes para produzir 100 cenas de exercício únicas a partir de apenas 20 imagens de origem. Venda-os como «Mega Pacotes de Preposições de 100 Páginas» na Etsy — o volume justifica um preço premium, e a variedade visual mantém os usuários motivados durante todo o livro.',
       platform: 'Etsy',
     },
   ],
 
   proTips: [
     {
-      title: 'Use Preencher a Lacuna para Alunos Mais Velhos',
-      description: 'O modo Preencher a Lacuna exige recuperação ativa — os alunos devem produzir a preposição correta de memória, não apenas reconhecê-la. Isto é ideal para o segundo ano em diante e estudantes de português como língua estrangeira que já conhecem as palavras de posição mas precisam de prática de escrita. Também torna as fichas mais difíceis de adivinhar, aumentando o valor educativo. Na Etsy e TPT, os listings que enfatizam a aprendizagem baseada em recuperação atraem consistentemente compradores docentes que procuram prática rigorosa de vocabulário espacial em vez de exercícios simples de reconhecimento, por isso destacar este modo nas suas descrições de produto pode melhorar as conversões.',
+      title: 'Use Preencher a Lacuna para usuários Mais Velhos',
+      description: 'O modo Preencher a Lacuna exige recuperação ativa — os usuários devem produzir a preposição correta de memória, não apenas reconhecê-la. Isto é ideal para o segundo ano em diante e compradores de português como língua estrangeira que já conhecem as palavras de posição mas precisam de prática de escrita. Também torna as fichas mais difíceis de adivinhar, aumentando o valor educativo. Na Etsy e Gumroad, os listings que enfatizam a aprendizagem baseada em recuperação atraem consistentemente compradores vendedores que procuram prática rigorosa de vocabulário espacial em vez de exercícios simples de reconhecimento, por isso destacar este modo nas suas descrições de produto pode melhorar as conversões.',
     },
     {
       title: 'Use Escolha Múltipla para Principiantes',
-      description: 'O modo Escolha Múltipla oferece aos alunos mais novos ou estudantes iniciantes de português uma experiência guiada. Veem a resposta correta entre as opções, reduzindo a frustração. Personalize o texto de instrução conforme o seu estilo de ensino. Comece com 3 a 4 exercícios por página para não sobrecarregar os novos estudantes. Este formato guiado é especialmente popular entre os pais que compram imprimíveis para uso doméstico, tornando-o um produto forte na Etsy onde os materiais educativos familiares classificam-se consistentemente bem nos resultados de pesquisa.',
+      description: 'O modo Escolha Múltipla oferece aos usuários mais novos ou compradores iniciantes de português uma experiência guiada. Veem a resposta correta entre as opções, reduzindo a frustração. Personalize o texto de instrução conforme o seu estilo de ensino. Comece com 3 a 4 exercícios por página para não sobrecarregar os novos compradores. Este formato guiado é especialmente popular entre os pais que compram imprimíveis para uso doméstico, tornando-o um produto forte na Etsy onde os materiais educativos familiares classificam-se consistentemente bem nos resultados de pesquisa.',
     },
     {
       title: 'Multiplique por 11 com o Modo Multilingue',
@@ -137,11 +137,11 @@ const content: ToolContent = {
     },
     {
       title: 'Agrupe Ambos os Modos num Único Produto',
-      description: 'Combine fichas de Preencher a Lacuna e Escolha Múltipla num único pacote. Os professores adoram pacotes diferenciados que podem entregar a alunos de diferentes níveis. Um «Pacote Completo de Preposições» com ambos os modos, gabaritos e um guia docente alcança um preço mais elevado do que qualquer modo vendido separadamente. Os pacotes de duplo modo também reduzem os pedidos de reembolso porque os compradores sentem que obtêm cobertura completa, e os gabaritos incluídos poupam tempo de correção aos professores — um ponto de venda que vale a pena destacar no texto do seu listing.',
+      description: 'Combine fichas de Preencher a Lacuna e Escolha Múltipla num único pacote. Os vendedores adoram pacotes diferenciados que podem entregar a usuários de diferentes níveis. Um «Pacote Completo de Preposições» com ambos os modos, gabaritos e um guia vendedor alcança um preço mais elevado do que qualquer modo vendido separadamente. Os pacotes de duplo modo também reduzem os pedidos de reembolso porque os compradores sentem que obtêm cobertura completa, e os gabaritos incluídos poupam valor percebido aos vendedores — um ponto de venda que vale a pena destacar no texto do seu listing.',
     },
     {
       title: 'Use Escala de Cinzentos para KDP e Impressão em Massa',
-      description: 'Ative o modo escala de cinzentos para fichas destinadas a interiores de Amazon KDP ou impressão em massa na sala de aula. As cenas a preto e branco custam significativamente menos a imprimir. Reserve o modo a cores para pré-visualizações de listings na Etsy e downloads digitais onde as imagens vibrantes atraem cliques. Muitos vendedores KDP experientes publicam uma edição digital a cores e uma edição impressa em escala de cinzentos do mesmo livro, duplicando efetivamente o seu catálogo a partir de uma única sessão de design sem criar conteúdo novo.',
+      description: 'Ative o modo escala de cinzentos para fichas destinadas a interiores de Amazon KDP ou impressão em massa online. As cenas a preto e branco custam significativamente menos a imprimir. Reserve o modo a cores para pré-visualizações de listings na Etsy e downloads digitais onde as imagens vibrantes atraem cliques. Muitos vendedores KDP experientes publicam uma edição digital a cores e uma edição impressa em escala de cinzentos do mesmo livro, duplicando efetivamente o seu catálogo a partir de uma única sessão de design sem criar conteúdo novo.',
     },
     {
       title: 'Carregue Imagens Próprias para Personalização',
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Como funcionam os dois modos de exercício?',
-      answer: 'O modo Preencher a Lacuna mostra uma cena com imagem e uma linha vazia onde os alunos escrevem a preposição correta (em cima de, debaixo de, acima de, etc.). O modo Escolha Múltipla apresenta a mesma cena mas com opções selecionáveis para que os alunos escolham a resposta correta. Pode personalizar o texto de instrução no modo Escolha Múltipla para adaptá-lo ao seu estilo de ensino.',
+      answer: 'O modo Preencher a Lacuna mostra uma cena com imagem e uma linha vazia onde os usuários escrevem a preposição correta (em cima de, debaixo de, acima de, etc.). O modo Escolha Múltipla apresenta a mesma cena mas com opções selecionáveis para que os usuários escolham a resposta correta. Pode personalizar o texto de instrução no modo Escolha Múltipla para adaptá-lo ao seu estilo de ensino.',
     },
     {
       question: 'Como funciona a seleção de preposições?',
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'Quantos exercícios posso colocar numa página?',
-      answer: 'Pode configurar de 1 a 8 exercícios por ficha. Menos exercícios por página dão a cada cena mais espaço visual, o que funciona bem para alunos mais novos. Mais exercícios por página criam fichas mais densas adequadas para alunos mais velhos ou prática cronometrada. O layout adapta-se automaticamente ao número de exercícios e tamanho de página. Os vendedores frequentemente criam duas versões do mesmo pacote — um design espaçoso de 3 exercícios para anos iniciais e um design compacto de 6 exercícios para alunos mais velhos — e depois agrupam ambas as versões a um preço premium.',
+      answer: 'Pode configurar de 1 a 8 exercícios por ficha. Menos exercícios por página dão a cada cena mais espaço visual, o que funciona bem para usuários mais novos. Mais exercícios por página criam fichas mais densas adequadas para usuários mais velhos ou prática cronometrada. O layout adapta-se automaticamente ao número de exercícios e tamanho de página. Os vendedores frequentemente criam duas versões do mesmo pacote — um design espaçoso de 3 exercícios para anos iniciais e um design compacto de 6 exercícios para usuários mais velhos — e depois agrupam ambas as versões a um preço premium.',
     },
     {
       question: 'Posso carregar as minhas próprias imagens?',
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: 'Posso usar as fichas para fins comerciais?',
-      answer: 'O teste grátis com marca d\'água é apenas para uso pessoal e educativo. Para vender fichas na Etsy, Teachers Pay Teachers, Amazon KDP ou qualquer outro marketplace, precisa de uma licença comercial. A licença comercial remove a marca d\'água e concede direitos completos de revenda para as fichas que criar.',
+      answer: 'O teste grátis com marca d\'água é apenas para uso pessoal e educativo. Para vender fichas na Etsy, Gumroad, Amazon KDP ou qualquer outro marketplace, precisa de uma licença comercial. A licença comercial remove a marca d\'água e concede direitos completos de revenda para as fichas que criar.',
     },
     {
       question: 'Em que formatos de ficheiro posso descarregar?',

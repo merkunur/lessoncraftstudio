@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'schede treno dell\'alfabeto stampabili per Etsy',
       'generatore schede riconoscimento lettere per Amazon KDP',
-      'vendere schede alfabeto su Teachers Pay Teachers',
+      'vendere schede alfabeto su Gumroad',
       'schede treno dell\'alfabeto licenza commerciale',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Generatore Treno dell\'Alfabeto | Crea e Vendi Schede',
     metaDescription:
-      'Crea schede treno dell\'alfabeto da vendere su Etsy, KDP e TPT. Vagoni con lettere e immagini, 11 lingue, 104 temi in PDF. Prova gratuita con filigrana.',
+      'Crea schede treno dell\'alfabeto da vendere su Etsy, KDP e Gumroad. Vagoni con lettere e immagini, 11 lingue, 104 temi in PDF. Prova gratuita con filigrana.',
   },
 
   hero: {
     title: 'Generatore di Schede Treno dell\'Alfabeto per la Pratica del Riconoscimento delle Lettere',
     tagline: 'Ogni vagone trasporta una lettera e un\'immagine corrispondente — costruendo il riconoscimento delle lettere vagone dopo vagone.',
     description:
-      'Crea schede treno dell\'alfabeto visivamente accattivanti dove 11 vagoni colorati attraversano la pagina, ciascuno con una lettera abbinata a un\'illustrazione corrispondente. Scegli la modalità Creazione Automatica per una selezione casuale istantanea di lettere oppure la Modalità Manuale per selezionare esattamente 11 lettere dell\'alfabeto per una pratica mirata. Aggiungi da 3 a 11 indizi configurabili per scheda — immagini-indizio che gli studenti abbinano al vagone-lettera corretto — trasformando il riconoscimento passivo delle lettere in un esercizio attivo di problem solving. Esplora oltre 3100 illustrazioni curate in 104 temi per trovare l\'immagine perfetta per ogni lettera. L\'Accesso Completo sblocca tutte le 11 lingue con i rispettivi alfabeti nativi — il tedesco con Ä/Ö/Ü, lo svedese con Å/Ä/Ö, lo spagnolo con la Ñ per 27 lettere e altro ancora — moltiplicando il tuo catalogo prodotti per undici da un unico flusso di lavoro. L\'alfabeto italiano ha 21 lettere, perfette per schede mirate e compatte. Ogni scheda genera automaticamente un foglio delle risposte, e puoi esportare PDF pronti per la stampa e JPEG a oltre 400 DPI nei formati Lettera, A4 o Quadrato. Che tu venda pacchetti di alfabeto tematici su Etsy, compili libri di alfabetizzazione progressivi per Amazon KDP o crei centri di lettere differenziati per TPT, il Generatore Treno dell\'Alfabeto offre risultati professionali in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Crea schede treno dell\'alfabeto visivamente accattivanti dove 11 vagoni colorati attraversano la pagina, ciascuno con una lettera abbinata a un\'illustrazione corrispondente. Scegli la modalità Creazione Automatica per una selezione casuale istantanea di lettere oppure la Modalità Manuale per selezionare esattamente 11 lettere dell\'alfabeto per una pratica mirata. Aggiungi da 3 a 11 indizi configurabili per scheda — immagini-indizio che gli utenti abbinano al vagone-lettera corretto — trasformando il riconoscimento passivo delle lettere in un esercizio attivo di problem solving. Esplora oltre 3100 illustrazioni curate in 104 temi per trovare l\'immagine perfetta per ogni lettera. L\'Accesso Completo sblocca tutte le 11 lingue con i rispettivi alfabeti nativi — il tedesco con Ä/Ö/Ü, lo svedese con Å/Ä/Ö, lo spagnolo con la Ñ per 27 lettere e altro ancora — moltiplicando il tuo catalogo prodotti per undici da un unico flusso di lavoro. L\'alfabeto italiano ha 21 lettere, perfette per schede mirate e compatte. Ogni scheda genera automaticamente un foglio delle risposte, e puoi esportare PDF pronti per la stampa e JPEG a oltre 400 DPI nei formati Lettera, A4 o Quadrato. Che tu venda pacchetti di alfabeto tematici su Etsy, compili libri di alfabetizzazione progressivi per Amazon KDP o crei centri di lettere differenziati per Gumroad, il Generatore Treno dell\'Alfabeto offre risultati professionali in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {
@@ -42,12 +42,12 @@ const content: AppContent = {
       {
         title: 'Seleziona immagini dalla libreria tematica',
         description:
-          'Apri il pannello della Libreria Immagini ed esplora 104 temi — dagli animali e cibi ai veicoli e festività. Usa la barra di ricerca per trovare immagini specifiche istantaneamente. Ogni vagone-lettera mostra un\'immagine il cui nome inizia con quella lettera, rafforzando la connessione lettera-suono. Puoi anche caricare le tue immagini personalizzate per creare schede con il tuo brand o adattarti a un tema specifico dell\'aula.',
+          'Apri il pannello della Libreria Immagini ed esplora 104 temi — dagli animali e cibi ai veicoli e festività. Usa la barra di ricerca per trovare immagini specifiche istantaneamente. Ogni vagone-lettera mostra un\'immagine il cui nome inizia con quella lettera, rafforzando la connessione lettera-suono. Puoi anche caricare le tue immagini personalizzate per creare schede con il tuo brand o adattarti a un tema specifico dell\'negozio.',
       },
       {
         title: 'Configura gli indizi e lo stile del testo',
         description:
-          'Imposta il numero di indizi da 3 a 11 — sono immagini-indizio presentate separatamente che gli studenti abbinano al vagone-lettera corretto. Meno indizi creano una scheda più facile; più indizi aumentano la difficoltà. Attiva o disattiva i campi nome e data dello studente. Usa il pannello Strumenti di Testo per aggiungere un titolo, istruzioni o testo personalizzato. Scegli tra sette font tra cui Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana con dimensione, colore e contorno regolabili.',
+          'Imposta il numero di indizi da 3 a 11 — sono immagini-indizio presentate separatamente che gli utenti abbinano al vagone-lettera corretto. Meno indizi creano una scheda più facile; più indizi aumentano la difficoltà. Attiva o disattiva i campi nome e data dell'utente. Usa il pannello Strumenti di Testo per aggiungere un titolo, istruzioni o testo personalizzato. Scegli tra sette font tra cui Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana con dimensione, colore e contorno regolabili.',
       },
       {
         title: 'Genera il foglio delle risposte e scarica',
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: 'Sistema di indizi configurabile per difficoltà regolabile',
         description:
-          'Imposta da 3 a 11 indizi per scheda. Gli indizi sono immagini presentate separatamente dal treno — gli studenti devono identificare a quale vagone-lettera appartiene ogni immagine-indizio. Meno indizi creano un esercizio di abbinamento più semplice per la scuola dell\'infanzia, mentre 11 indizi completi sfidano gli alunni della scuola primaria ad abbinare ogni vagone. Questo controllo di difficoltà integrato facilita la creazione di linee di prodotti differenziate o risorse per l\'aula su più livelli dalla stessa applicazione.',
+          'Imposta da 3 a 11 indizi per scheda. Gli indizi sono immagini presentate separatamente dal treno — gli utenti devono identificare a quale vagone-lettera appartiene ogni immagine-indizio. Meno indizi creano un esercizio di abbinamento più semplice per la scuola dell\'infanzia, mentre 11 indizi completi sfidano gli utenti della scuola primaria ad abbinare ogni vagone. Questo controllo di difficoltà integrato facilita la creazione di linee di prodotti differenziate o risorse per l\'negozio su più livelli dalla stessa applicazione.',
       },
       {
         title: '104 temi visivi con oltre 3100 immagini per l\'abbinamento lettera-immagine',
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Generazione automatica del foglio delle risposte',
         description:
-          'Clicca un pulsante per generare un foglio delle risposte completo che mostra ogni vagone con il suo abbinamento lettera-immagine corretto e tutti gli indizi risolti. La scheda risposte offre un\'anteprima in tempo reale per verificare l\'accuratezza prima di scaricare. Esporta il foglio come file JPEG o PDF separato, ideale per edizioni per insegnanti, guide per genitori o pacchetti di prodotti su Etsy senza alcun lavoro manuale.',
+          'Clicca un pulsante per generare un foglio delle risposte completo che mostra ogni vagone con il suo abbinamento lettera-immagine corretto e tutti gli indizi risolti. La scheda risposte offre un\'anteprima in tempo reale per verificare l\'accuratezza prima di scaricare. Esporta il foglio come file JPEG o PDF separato, ideale per edizioni per venditori, guide per genitori o pacchetti di prodotti su Etsy senza alcun lavoro manuale.',
       },
       {
         title: 'Esportazione pronta per la stampa a 400+ DPI con opzione scala di grigi',
         description:
-          'Scarica schede e fogli risposte come immagini JPEG ad alta risoluzione o documenti PDF pronti per la stampa. Il motore di esportazione renderizza con un moltiplicatore 6x, producendo oltre 400 DPI nei formati standard. Attiva l\'esportazione in scala di grigi per versioni a risparmio d\'inchiostro, perfette per la stampa in aula o libri di attività in bianco e nero. I formati Lettera, A4 e Quadrato sono tutti supportati per la massima flessibilità su piattaforme di stampa on demand e stampanti domestiche.',
+          'Scarica schede e fogli risposte come immagini JPEG ad alta risoluzione o documenti PDF pronti per la stampa. Il motore di esportazione renderizza con un moltiplicatore 6x, producendo oltre 400 DPI nei formati standard. Attiva l\'esportazione in scala di grigi per versioni a risparmio d\'inchiostro, perfette per la stampa online o libri di attività in bianco e nero. I formati Lettera, A4 e Quadrato sono tutti supportati per la massima flessibilità su piattaforme di stampa on demand e stampanti domestiche.',
       },
       {
         title: 'Modifica completa del canvas con annulla e ripristina',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centri di alfabetizzazione differenziati per TPT',
+        title: 'Centri di alfabetizzazione differenziati per Gumroad',
         description:
-          'Crea set di treno dell\'alfabeto per livelli usando il numero di indizi come asse di difficoltà: Livello 1 (3 indizi, lettere comuni), Livello 2 (5 indizi, lettere miste), Livello 3 (8 indizi, includendo lettere meno comuni come Q e Z), e Livello 4 (11 indizi, sfida di abbinamento completa). Accompagna ogni livello con fogli delle risposte e una scheda di monitoraggio dei progressi. Gli acquirenti di Teachers Pay Teachers pagano prezzi premium per risorse di alfabetizzazione differenziate che possono usare immediatamente in più gruppi di lettura.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Crea set di treno dell\'alfabeto per livelli usando il numero di indizi come asse di difficoltà: Livello 1 (3 indizi, lettere comuni), Livello 2 (5 indizi, lettere miste), Livello 3 (8 indizi, includendo lettere meno comuni come Q e Z), e Livello 4 (11 indizi, sfida di abbinamento completa). Accompagna ogni livello con fogli delle risposte e una scheda di monitoraggio dei progressi. Gli acquirenti di Gumroad pagano prezzi premium per risorse di alfabetizzazione differenziate che possono usare immediatamente in più gruppi di lettura.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Prodotti di alfabeto multilingue con Accesso Completo',
         description:
-          'L\'Accesso Completo sblocca tutte le 11 lingue con i rispettivi alfabeti nativi. Crea treni dell\'alfabeto in tedesco con vagoni Ä/Ö/Ü, treni in svedese con Å/Ä/Ö, treni in spagnolo con la Ñ e altro ancora. Ogni versione in una lingua è un prodotto distinto che puoi pubblicare su Etsy, TPT o Amazon KDP — moltiplicando efficacemente il tuo catalogo per undici dallo stesso flusso di lavoro. I prodotti di alfabetizzazione multilingue incontrano meno concorrenza e attraggono acquirenti internazionali che cercano nella loro lingua madre.',
-        platform: 'Etsy / Amazon KDP / TPT (multilingue)',
+          'L\'Accesso Completo sblocca tutte le 11 lingue con i rispettivi alfabeti nativi. Crea treni dell\'alfabeto in tedesco con vagoni Ä/Ö/Ü, treni in svedese con Å/Ä/Ö, treni in spagnolo con la Ñ e altro ancora. Ogni versione in una lingua è un prodotto distinto che puoi pubblicare su Etsy, Gumroad o Amazon KDP — moltiplicando efficacemente il tuo catalogo per undici dallo stesso flusso di lavoro. I prodotti di alfabetizzazione multilingue incontrano meno concorrenza e attraggono acquirenti internazionali che cercano nella loro lingua madre.',
+        platform: 'Etsy / Amazon KDP / Gumroad (multilingue)',
       },
       {
-        title: 'Strumento di riconoscimento delle lettere per l\'aula e le ripetizioni',
+        title: 'Strumento di riconoscimento delle lettere per l\'negozio e le ripetizioni',
         description:
-          'Genera schede treno dell\'alfabeto personalizzate adattate alla conoscenza delle lettere di ogni studente. Usa la Modalità Manuale per selezionare le lettere specifiche su cui uno studente sta lavorando, regolando il numero di indizi in base al suo livello. Stampa treni rapidi da 3 indizi per i lettori principianti e treni completi da 11 indizi per gli studenti pronti a una sfida — tutto nella stessa sessione. Il formato treno trasforma il ripasso delle lettere in un gioco di abbinamento che mantiene motivati i piccoli studenti, e il foglio delle risposte automatico fa risparmiare tempo nella correzione.',
-        platform: 'Aula / Ripetizioni / Homeschooling',
+          'Genera schede treno dell\'alfabeto personalizzate adattate alla conoscenza delle lettere di ogni utente. Usa la Modalità Manuale per selezionare le lettere specifiche su cui un utente sta lavorando, regolando il numero di indizi in base al suo livello. Stampa treni rapidi da 3 indizi per i lettori principianti e treni completi da 11 indizi per gli utenti pronti a una sfida — tutto nella stessa sessione. Il formato treno trasforma il ripasso delle lettere in un gioco di abbinamento che mantiene motivati i piccoli utenti, e il foglio delle risposte automatico fa risparmiare tempo nel valore percepito.',
+        platform: 'negozio / Ripetizioni / Homeschooling',
       },
     ],
   },
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Cos\'è il formato di scheda treno dell\'alfabeto?',
       answer:
-        'Ogni scheda presenta 11 vagoni colorati. Ciascun vagone contiene una lettera abbinata a un\'immagine corrispondente il cui nome inizia con quella lettera. Sotto o accanto al treno vengono mostrate immagini-indizio affinché gli studenti le abbinino al vagone corretto. Il formato combina il riconoscimento delle lettere con l\'abbinamento visivo, rendendolo più coinvolgente delle tradizionali schede di ripasso dell\'alfabeto.',
+        'Ogni scheda presenta 11 vagoni colorati. Ciascun vagone contiene una lettera abbinata a un\'immagine corrispondente il cui nome inizia con quella lettera. Sotto o accanto al treno vengono mostrate immagini-indizio affinché gli utenti le abbinino al vagone corretto. Il formato combina il riconoscimento delle lettere con l\'abbinamento visivo, rendendolo più coinvolgente delle tradizionali schede di ripasso dell\'alfabeto.',
     },
     {
       question: 'Quali sono le due modalità di creazione?',
@@ -153,12 +153,12 @@ const content: AppContent = {
     {
       question: 'Come funziona il sistema di indizi?',
       answer:
-        'Gli indizi sono immagini presentate separatamente dai vagoni del treno. Gli studenti guardano ogni immagine-indizio, identificano cosa rappresenta, determinano la lettera iniziale e la abbinano al vagone corretto. Puoi impostare da 3 a 11 indizi per scheda — meno indizi rendono l\'attività più facile, mentre più indizi aumentano la difficoltà. Per i venditori, questo intervallo di indizi regolabile permette di creare pacchetti a difficoltà graduata da un unico strumento — raggruppa le versioni facile, media e difficile e applica un prezzo premium per il set differenziato.',
+        'Gli indizi sono immagini presentate separatamente dai vagoni del treno. gli utenti guardano ogni immagine-indizio, identificano cosa rappresenta, determinano la lettera iniziale e la abbinano al vagone corretto. Puoi impostare da 3 a 11 indizi per scheda — meno indizi rendono l\'attività più facile, mentre più indizi aumentano la difficoltà. Per i venditori, questo intervallo di indizi regolabile permette di creare pacchetti a difficoltà graduata da un unico strumento — raggruppa le versioni facile, media e difficile e applica un prezzo premium per il set differenziato.',
     },
     {
       question: 'Perché ci sono sempre 11 lettere per scheda?',
       answer:
-        'Il formato treno usa 11 vagoni per bilanciare l\'impatto visivo con la leggibilità su una singola pagina. Undici lettere offrono una pratica sostanziale senza sovraccaricare la pagina, e il numero dispari impedisce agli studenti di risolvere per semplice eliminazione alla fine. L\'alfabeto italiano ha 21 lettere, quindi due schede complementari possono coprire quasi tutte le lettere.',
+        'Il formato treno usa 11 vagoni per bilanciare l\'impatto visivo con la leggibilità su una singola pagina. Undici lettere offrono una pratica sostanziale senza sovraccaricare la pagina, e il numero dispari impedisce agli utenti di risolvere per semplice eliminazione alla fine. L\'alfabeto italiano ha 21 lettere, quindi due schede complementari possono coprire quasi tutte le lettere.',
     },
     {
       question: 'L\'applicazione Treno dell\'Alfabeto dipende dalla lingua?',
@@ -178,7 +178,7 @@ const content: AppContent = {
     {
       question: 'Il generatore crea automaticamente i fogli delle risposte?',
       answer:
-        'Sì. Clicca il pulsante Genera Foglio Risposte per creare una versione risolta che mostra ogni vagone con il suo abbinamento lettera-immagine corretto e tutti gli indizi risolti. Puoi visualizzarlo in anteprima sullo schermo e scaricarlo come file JPEG o PDF separato da includere nelle edizioni per insegnanti o nei pacchetti di prodotti. Avere un foglio delle risposte pronto aggiunge valore percepito alle tue inserzioni e ti permette di indicare «risposte incluse» — un dettaglio che gli acquirenti di Etsy e TPT filtrano specificamente quando confrontano i prodotti concorrenti.',
+        'Sì. Clicca il pulsante Genera Foglio Risposte per creare una versione risolta che mostra ogni vagone con il suo abbinamento lettera-immagine corretto e tutti gli indizi risolti. Puoi visualizzarlo in anteprima sullo schermo e scaricarlo come file JPEG o PDF separato da includere nelle edizioni per venditori o nei pacchetti di prodotti. Avere un foglio delle risposte pronto aggiunge valore percepito alle tue inserzioni e ti permette di indicare «risposte incluse» — un dettaglio che gli acquirenti di Etsy e Gumroad filtrano specificamente quando confrontano i prodotti concorrenti.',
     },
     {
       question: 'Esiste una prova gratuita?',
@@ -188,12 +188,12 @@ const content: AppContent = {
     {
       question: 'Cosa include la licenza commerciale?',
       answer:
-        'La Licenza Commerciale offre esportazioni in inglese senza filigrana con pieni diritti di vendita. La licenza Accesso Completo aggiunge tutte le 11 lingue con i rispettivi alfabeti nativi, moltiplicando il tuo catalogo di prodotti. Entrambi i livelli concedono diritti illimitati per vendere su Etsy, Amazon KDP, Teachers Pay Teachers, sul tuo sito o su qualsiasi altra piattaforma — nessuna royalty per vendita, nessun canone mensile e nessun limite di produzione.',
+        'La Licenza Commerciale offre esportazioni in inglese senza filigrana con pieni diritti di vendita. La licenza Accesso Completo aggiunge tutte le 11 lingue con i rispettivi alfabeti nativi, moltiplicando il tuo catalogo di prodotti. Entrambi i livelli concedono diritti illimitati per vendere su Etsy, Amazon KDP, Gumroad, sul tuo sito o su qualsiasi altra piattaforma — nessuna royalty per vendita, nessun canone mensile e nessun limite di produzione.',
     },
     {
       question: 'Posso vendere le schede create con questo strumento su Etsy e Amazon KDP?',
       answer:
-        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede treno dell\'alfabeto come download digitali su Etsy, come libri di attività stampati su Amazon KDP, come risorse educative su TPT o attraverso qualsiasi altro canale di vendita. Il formato treno unico e la capacità multilingue ti offrono una forte differenziazione in categorie di mercato molto competitive.',
+        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede treno dell\'alfabeto come download digitali su Etsy, come libri di attività stampati su Amazon KDP, come risorse educative su Gumroad o attraverso qualsiasi altro canale di vendita. Il formato treno unico e la capacità multilingue ti offrono una forte differenziazione in categorie di mercato molto competitive.',
     },
     {
       question: 'Qual è la politica di rimborso?',

@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Gerador de Fichas de Padrões',
     tagline: 'Gere fichas de reconhecimento de padrões em grelha com nove tipos de padrões, dois modos de pergunta, configuração independente por exercício e um resultado completamente visual sem texto que se vende em todo o mundo sem necessidade de tradução',
-    description: 'Crie fichas profissionais de completar padrões onde os alunos identificam sequências repetitivas e preenchem o elemento em falta ou escolhem a resposta correta entre opções múltiplas. Nove tipos de padrões distintos cobrem a maior variedade de complexidade de sequências disponível: AB alterna dois elementos, AAB e ABB introduzem agrupamentos assimétricos, ABC rota três elementos diferentes, AABB emparelha dois de cada um, ABBC e AABC acrescentam padrões assimétricos de três imagens, ABCC estende com terminações duplas, e ABCD rota quatro elementos diferentes para o máximo desafio. Dois modos de pergunta criam exercícios fundamentalmente diferentes a partir de cada tipo de padrão: Caixa em Branco substitui um elemento por um espaço vazio para raciocínio aberto, enquanto Escolha Múltipla apresenta o espaço vazio acompanhado de três opções de resposta — uma correta e dois distratores. Configure de 1 a 8 exercícios por página com cada exercício parametrizado independentemente para tipo de padrão, modo de pergunta e tema — uma mesma página pode combinar um aquecimento AB em caixa em branco com um desafio ABCD em escolha múltipla. Ative o Início Aleatório para começar padrões a meio do ciclo e a Posição Aleatória do Espaço em Branco para colocar o elemento em falta em qualquer lugar da sequência. O layout padrão em grelha de linhas e colunas organiza os exercícios de forma limpa para resultados prontos para avaliação. Cada ficha é completamente visual com apenas imagens e zero texto na saída — nenhuma palavra aparece na página gerada, tornando os seus produtos universalmente vendíveis sem tradução. Uma única listagem serve todos os mercados do mundo. Escolha entre mais de 3100 ilustrações em 104 coleções temáticas ou carregue as suas próprias imagens. Um separador de gabarito separado mostra todas as caixas em branco preenchidas com os elementos corretos do padrão. Exporte PDF e JPEG prontos para impressão em alta resolução nos formatos Carta, A4, Quadrado (1200×1200) ou dimensões personalizadas. Ative a escala de cinzentos para impressão económica. Edite tudo no canvas completo Fabric.js com fontes como Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. O teste grátis inclui todas as funcionalidades com uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    description: 'Crie fichas profissionais de completar padrões onde os usuários identificam sequências repetitivas e preenchem o elemento em falta ou escolhem a resposta correta entre opções múltiplas. Nove tipos de padrões distintos cobrem a maior variedade de complexidade de sequências disponível: AB alterna dois elementos, AAB e ABB introduzem agrupamentos assimétricos, ABC rota três elementos diferentes, AABB emparelha dois de cada um, ABBC e AABC acrescentam padrões assimétricos de três imagens, ABCC estende com terminações duplas, e ABCD rota quatro elementos diferentes para o máximo desafio. Dois modos de pergunta criam exercícios fundamentalmente diferentes a partir de cada tipo de padrão: Caixa em Branco substitui um elemento por um espaço vazio para raciocínio aberto, enquanto Escolha Múltipla apresenta o espaço vazio acompanhado de três opções de resposta — uma correta e dois distratores. Configure de 1 a 8 exercícios por página com cada exercício parametrizado independentemente para tipo de padrão, modo de pergunta e tema — uma mesma página pode combinar um aquecimento AB em caixa em branco com um desafio ABCD em escolha múltipla. Ative o Início Aleatório para começar padrões a meio do ciclo e a Posição Aleatória do Espaço em Branco para colocar o elemento em falta em qualquer lugar da sequência. O layout padrão em grelha de linhas e colunas organiza os exercícios de forma limpa para resultados prontos para avaliação. Cada ficha é completamente visual com apenas imagens e zero texto na saída — nenhuma palavra aparece na página gerada, tornando os seus produtos universalmente vendíveis sem tradução. Uma única listagem serve todos os mercados do mundo. Escolha entre mais de 3100 ilustrações em 104 coleções temáticas ou carregue as suas próprias imagens. Um separador de gabarito separado mostra todas as caixas em branco preenchidas com os elementos corretos do padrão. Exporte PDF e JPEG prontos para impressão em alta resolução nos formatos Carta, A4, Quadrado (1200×1200) ou dimensões personalizadas. Ative a escala de cinzentos para impressão económica. Edite tudo no canvas completo Fabric.js com fontes como Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. O teste grátis inclui todas as funcionalidades com uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
   },
 
   tutorial: {
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Ativar Campos de Nome/Data e Opções de Exercício',
-        description: 'Ative os campos opcionais de nome e data com linha de pontos para identificação do aluno nas fichas impressas. Estes campos aparecem como áreas pontilhadas que os alunos preenchem antes de começar. Ative ou desative os números de exercício e os elementos decorativos. Cada opção ajusta o design da ficha conforme o seu público — as fichas para a sala de aula beneficiam de campos de nome, enquanto os produtos de download digital podem omiti-los para uma aparência mais limpa.',
+        description: 'Ative os campos opcionais de nome e data com linha de pontos para identificação do usuário nas fichas impressas. Estes campos aparecem como áreas pontilhadas que os usuários preenchem antes de começar. Ative ou desative os números de exercício e os elementos decorativos. Cada opção ajusta o design da ficha conforme o seu público — as fichas para a loja beneficiam de campos de nome, enquanto os produtos de download digital podem omiti-los para uma aparência mais limpa.',
       },
       {
         title: 'Adicionar Texto e Personalizar o Canvas',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Rever o Gabarito e Descarregar',
-        description: 'Mude para o separador Gabarito para ver a ficha completada com todas as caixas em branco preenchidas mostrando os elementos corretos do padrão. Para exercícios em escolha múltipla, a resposta correta está claramente indicada. A ficha e o gabarito são editáveis de forma independente em canvas separados. Ative a escala de cinzentos para impressão económica. Descarregue cada um como JPEG de alta resolução ou PDF pronto para impressão a 300 DPI. Cada exportação está pronta para produção: listagens da Etsy, interiores da Amazon KDP e ficheiros de produtos no TPT.',
+        description: 'Mude para o separador Gabarito para ver a ficha completada com todas as caixas em branco preenchidas mostrando os elementos corretos do padrão. Para exercícios em escolha múltipla, a resposta correta está claramente indicada. A ficha e o gabarito são editáveis de forma independente em canvas separados. Ative a escala de cinzentos para impressão económica. Descarregue cada um como JPEG de alta resolução ou PDF pronto para impressão a 300 DPI. Cada exportação está pronta para produção: listagens da Etsy, interiores da Amazon KDP e ficheiros de produtos no Gumroad.',
       },
     ],
   },
@@ -73,15 +73,15 @@ const content: ToolContent = {
     },
     {
       title: 'Páginas Diferenciadas de Dificuldade Mista',
-      description: 'Construa fichas onde cada exercício na mesma página aponta a um nível de competência diferente usando a configuração por exercício. Exercício 1: AB caixa em branco para aquecimento. Exercício 2: AAB caixa em branco para prática. Exercício 3: ABC escolha múltipla para desafio guiado. Exercício 4: ABCD caixa em branco com início aleatório para avaliação. Uma só página impressa serve como atividade diferenciada completa. Os professores obtêm prática variada sem gerir fichas separadas, e os vendedores criam produtos sofisticados que alcançam preços mais altos do que as páginas de um só tipo de padrão.',
+      description: 'Construa fichas onde cada exercício na mesma página aponta a um nível de competência diferente usando a configuração por exercício. Exercício 1: AB caixa em branco para aquecimento. Exercício 2: AAB caixa em branco para prática. Exercício 3: ABC escolha múltipla para desafio guiado. Exercício 4: ABCD caixa em branco com início aleatório para avaliação. Uma só página impressa serve como atividade diferenciada completa. Os vendedores obtêm prática variada sem gerir fichas separadas, e os vendedores criam produtos sofisticados que alcançam preços mais altos do que as páginas de um só tipo de padrão.',
     },
     {
       title: 'Conjuntos Sazonais e de Festividades de Padrões',
-      description: 'Use temas de imagens sazonais e de festividades para criar pacotes de padrões de edição limitada. Um pacote de «Padrões de Halloween» com imagens temáticas de terror vende-se em outubro. Natal, regresso às aulas, Dia dos Namorados e temas de verão têm cada um as suas próprias épocas de pico de vendas na Etsy e no TPT. Combine aquecimentos simples de AB com desafios avançados de ABCD em cada conjunto sazonal para cobrir múltiplos níveis de competência. Dois modos de pergunta multiplicam a variedade dentro de cada tema.',
+      description: 'Use temas de imagens sazonais e de festividades para criar pacotes de padrões de edição limitada. Um pacote de «Padrões de Halloween» com imagens temáticas de terror vende-se em outubro. Natal, regresso às aulas, Dia dos Namorados e temas de verão têm cada um as suas próprias épocas de pico de vendas na Etsy e no Gumroad. Combine aquecimentos simples de AB com desafios avançados de ABCD em cada conjunto sazonal para cobrir múltiplos níveis de competência. Dois modos de pergunta multiplicam a variedade dentro de cada tema.',
     },
     {
       title: 'Pacotes de Aprendizagem Visual Multiformato',
-      description: 'Combine fichas de padrões em grelha com fichas de trem de padrões, fichas de associação, fichas do intruso e atividades de discriminação visual usando temas coordenados. As fichas de padrões em grelha usam linhas e colunas com nove tipos e dois modos. As fichas de trem de padrões usam o distintivo formato de 11 vagões com cinco tipos. Cada formato exercita o reconhecimento de padrões de forma diferente. Os pacotes multiformato vendem-se por mais do que qualquer tipo de atividade individual e oferecem prática variada aos alunos com um tema unificado em cada atividade.',
+      description: 'Combine fichas de padrões em grelha com fichas de trem de padrões, fichas de associação, fichas do intruso e atividades de discriminação visual usando temas coordenados. As fichas de padrões em grelha usam linhas e colunas com nove tipos e dois modos. As fichas de trem de padrões usam o distintivo formato de 11 vagões com cinco tipos. Cada formato exercita o reconhecimento de padrões de forma diferente. Os pacotes multiformato vendem-se por mais do que qualquer tipo de atividade individual e oferecem prática variada aos usuários com um tema unificado em cada atividade.',
     },
     {
       title: 'Fichas de Padrões com Imagens Próprias',
@@ -101,13 +101,13 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Centros por Níveis no Teachers Pay Teachers',
-      description: 'Carregue pacotes de fichas de padrões no TPT organizados por nível de competência usando a configuração por exercício como diferenciador. As páginas do Nível 1 apresentam todos os exercícios AB em caixa em branco. O Nível 2 mistura AB e AAB com ambos os modos. O Nível 3 introduz ABC com escolha múltipla junto a aquecimentos em caixa em branco. O Nível 4 combina desafios ABCD com início aleatório. Cada nível usa exercícios temáticos com gabaritos separados. A independência por exercício significa que uma página serve como atividade completa de centro. Os professores procuram «fichas de reconhecimento de padrões» e encontram opções limitadas com nove tipos.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Centros por Níveis no Gumroad',
+      description: 'Carregue pacotes de fichas de padrões no Gumroad organizados por nível de competência usando a configuração por exercício como diferenciador. As páginas do Nível 1 apresentam todos os exercícios AB em caixa em branco. O Nível 2 mistura AB e AAB com ambos os modos. O Nível 3 introduz ABC com escolha múltipla junto a aquecimentos em caixa em branco. O Nível 4 combina desafios ABCD com início aleatório. Cada nível usa exercícios temáticos com gabaritos separados. A independência por exercício significa que uma página serve como atividade completa de centro. Os vendedores procuram «fichas de reconhecimento de padrões» e encontram opções limitadas com nove tipos.',
+      platform: 'Gumroad',
     },
     {
       title: 'Funil Visual de Fichas de Padrões no Pinterest',
-      description: 'As fichas de padrões com imagens temáticas coloridas num layout de grelha limpo são excelentes pins para o Pinterest. Publique fichas de exemplo mostrando diferentes tipos de padrões com marca d\'água, faça ligação à sua loja ou página de destino e recolha endereços de email para a sua lista de subscritores. Crie pins para cada modo de pergunta separadamente — «fichas de padrões para completar» e «fichas de padrões de escolha múltipla» apontam a pesquisas diferentes. O formato sem texto significa que os pins atraem pais e professores de todos os países do mundo.',
+      description: 'As fichas de padrões com imagens temáticas coloridas num layout de grelha limpo são excelentes pins para o Pinterest. Publique fichas de exemplo mostrando diferentes tipos de padrões com marca d\'água, faça ligação à sua loja ou página de destino e recolha endereços de email para a sua lista de subscritores. Crie pins para cada modo de pergunta separadamente — «fichas de padrões para completar» e «fichas de padrões de escolha múltipla» apontam a pesquisas diferentes. O formato sem texto significa que os pins atraem pais e vendedores de todos os países do mundo.',
       platform: 'Pinterest',
     },
     {
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Ative Início Aleatório e Posição Aleatória para Fichas Únicas',
-      description: 'O Início Aleatório começa os padrões a meio do ciclo em vez do primeiro elemento. A Posição Aleatória do Espaço em Branco coloca o elemento em falta em localizações variadas da sequência. Juntos, estes ajustes garantem que cada ficha gerada seja única mesmo quando se usa o mesmo tipo de padrão e tema. Para os vendedores, isto significa que pode produzir pacotes grandes de fichas não repetitivas de forma eficiente. Para os professores, impede que os alunos copiem respostas.',
+      description: 'O Início Aleatório começa os padrões a meio do ciclo em vez do primeiro elemento. A Posição Aleatória do Espaço em Branco coloca o elemento em falta em localizações variadas da sequência. Juntos, estes ajustes garantem que cada ficha gerada seja única mesmo quando se usa o mesmo tipo de padrão e tema. Para os vendedores, isto significa que pode produzir pacotes grandes de fichas não repetitivas de forma eficiente. Para os vendedores, impede que os usuários copiem respostas.',
     },
     {
       title: 'Destaque o Resultado Sem Texto para Vendas Globais',
@@ -145,11 +145,11 @@ const content: ToolContent = {
     },
     {
       title: 'Ajuste a Complexidade do Padrão à Idade Alvo',
-      description: 'Para pré-escolares (3–4 anos), use padrões AB e AAB com modo caixa em branco para reconhecimento simples. Para alunos do jardim de infância (4–6 anos), introduza padrões ABC e o modo escolha múltipla. Para o primeiro ano e acima, os padrões ABBC até ABCD com início aleatório criam verdadeiros desafios de raciocínio. Especifique a idade alvo nos títulos e etiquetas dos seus produtos para melhor segmentação de pesquisa nos marketplaces.',
+      description: 'Para pré-escolares (3–4 anos), use padrões AB e AAB com modo caixa em branco para reconhecimento simples. Para usuários do jardim de infância (4–6 anos), introduza padrões ABC e o modo escolha múltipla. Para o primeiro ano e acima, os padrões ABBC até ABCD com início aleatório criam verdadeiros desafios de raciocínio. Especifique a idade alvo nos títulos e etiquetas dos seus produtos para melhor segmentação de pesquisa nos marketplaces.',
     },
     {
       title: 'Use Escala de Cinzentos para KDP e Impressão em Volume',
-      description: 'Ative a opção de escala de cinzentos para fichas destinadas a interiores da Amazon KDP ou impressão em grande quantidade na sala de aula. A impressão a preto e branco custa significativamente menos e cumpre os requisitos de interior do KDP para livros padrão (sem cor premium). Reserve o modo a cores para pré-visualizações de listagens da Etsy e downloads digitais onde as imagens temáticas vibrantes atraem cliques nos resultados de pesquisa.',
+      description: 'Ative a opção de escala de cinzentos para fichas destinadas a interiores da Amazon KDP ou impressão em grande quantidade online. A impressão a preto e branco custa significativamente menos e cumpre os requisitos de interior do KDP para livros padrão (sem cor premium). Reserve o modo a cores para pré-visualizações de listagens da Etsy e downloads digitais onde as imagens temáticas vibrantes atraem cliques nos resultados de pesquisa.',
     },
   ],
 
@@ -164,7 +164,7 @@ const content: ToolContent = {
     },
     {
       question: 'Quais são os dois modos de pergunta?',
-      answer: 'O modo Caixa em Branco substitui um elemento do padrão por um espaço vazio — os alunos devem identificar o padrão e determinar o elemento em falta sem qualquer pista. O modo Escolha Múltipla apresenta o espaço vazio acompanhado de três opções de resposta: um elemento correto e dois distratores. Caixa em Branco avalia o raciocínio aberto; Escolha Múltipla avalia o reconhecimento com opções estruturadas. Ambos os modos funcionam com os nove tipos de padrões, resultando em 18 estilos de exercício distintos.',
+      answer: 'O modo Caixa em Branco substitui um elemento do padrão por um espaço vazio — os usuários devem identificar o padrão e determinar o elemento em falta sem qualquer pista. O modo Escolha Múltipla apresenta o espaço vazio acompanhado de três opções de resposta: um elemento correto e dois distratores. Caixa em Branco avalia o raciocínio aberto; Escolha Múltipla avalia o reconhecimento com opções estruturadas. Ambos os modos funcionam com os nove tipos de padrões, resultando em 18 estilos de exercício distintos.',
     },
     {
       question: 'Como funciona a configuração por exercício?',
@@ -176,7 +176,7 @@ const content: ToolContent = {
     },
     {
       question: 'O que fazem o Início Aleatório e a Posição Aleatória do Espaço em Branco?',
-      answer: 'O Início Aleatório começa o padrão num ponto aleatório do ciclo em vez de sempre no primeiro elemento — um padrão ABC pode começar em C-A-B-C em vez de A-B-C. A Posição Aleatória do Espaço em Branco coloca o elemento em falta em qualquer posição da sequência em vez de uma localização fixa. Juntos, estes ajustes impedem que os alunos resolvam por rotina e garantem que cada ficha gerada apresente um desafio novo.',
+      answer: 'O Início Aleatório começa o padrão num ponto aleatório do ciclo em vez de sempre no primeiro elemento — um padrão ABC pode começar em C-A-B-C em vez de A-B-C. A Posição Aleatória do Espaço em Branco coloca o elemento em falta em qualquer posição da sequência em vez de uma localização fixa. Juntos, estes ajustes impedem que os usuários resolvam por rotina e garantem que cada ficha gerada apresente um desafio novo.',
     },
     {
       question: 'Por que é que as fichas não têm texto?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Posso vender as fichas criadas com esta ferramenta para fins comerciais?',
-      answer: 'Sim. Com uma licença comercial, tem todos os direitos para vender fichas de padrões como downloads digitais na Etsy, cadernos impressos na Amazon KDP, recursos educativos no TPT ou através de qualquer outro canal de venda. Nove tipos de padrões, dois modos de pergunta e configuração por exercício oferecem-lhe a maior variedade e diferenciação de produtos disponível.',
+      answer: 'Sim. Com uma licença comercial, tem todos os direitos para vender fichas de padrões como downloads digitais na Etsy, cadernos impressos na Amazon KDP, recursos educativos no Gumroad ou através de qualquer outro canal de venda. Nove tipos de padrões, dois modos de pergunta e configuração por exercício oferecem-lhe a maior variedade e diferenciação de produtos disponível.',
     },
     {
       question: 'Qual é a política de reembolso?',
@@ -214,23 +214,23 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/portuguese/pattern worksheet/Quebra-cabeças de Padrões 1.webp',
-      primaryAlt: 'Ficha de reconhecimento de padrões com exercícios em grelha mostrando sequências de imagens repetitivas com caixas em branco e opções de escolha múltipla para os alunos completarem',
+      primaryAlt: 'Ficha de reconhecimento de padrões com exercícios em grelha mostrando sequências de imagens repetitivas com caixas em branco e opções de escolha múltipla para os usuários completarem',
     },
     sampleGallery: [
       {
         src: '/samples/portuguese/pattern worksheet/Quebra-cabeças de Padrões 2.webp',
-        alt: 'Ficha de padrões com exercícios AB em caixa em branco usando imagens de animais num layout em grelha com espaços vazios para os alunos completarem',
-        caption: 'Exercícios AB em caixa em branco com tema animais — os alunos identificam o padrão alternante e completam a imagem em falta',
+        alt: 'Ficha de padrões com exercícios AB em caixa em branco usando imagens de animais num layout em grelha com espaços vazios para os usuários completarem',
+        caption: 'Exercícios AB em caixa em branco com tema animais — os usuários identificam o padrão alternante e completam a imagem em falta',
       },
       {
         src: '/samples/portuguese/pattern worksheet/Quebra-cabeças de Padrões 3.webp',
         alt: 'Ficha de padrões com exercícios ABC em escolha múltipla usando imagens de veículos com três opções de resposta por exercício',
-        caption: 'Exercícios ABC em escolha múltipla com tema veículos — os alunos escolhem o elemento correto em falta entre três opções',
+        caption: 'Exercícios ABC em escolha múltipla com tema veículos — os usuários escolhem o elemento correto em falta entre três opções',
       },
       {
         src: '/samples/portuguese/pattern worksheet/Quebra-cabeças de Padrões 4.webp',
         alt: 'Gabarito da ficha de padrões mostrando todas as caixas em branco preenchidas com os elementos corretos do padrão para verificação',
-        caption: 'Vista do gabarito — todas as caixas preenchidas com os elementos corretos do padrão para verificação pelo professor',
+        caption: 'Vista do gabarito — todas as caixas preenchidas com os elementos corretos do padrão para verificação pelo vendedor',
       },
     ],
     youtubeId: 'W94X5_RA3ug',

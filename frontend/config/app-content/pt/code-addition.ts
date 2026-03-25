@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'fichas de puzzles matemáticos imprimíveis para Etsy',
       'fichas de decifrar código de adição para Amazon KDP',
-      'gerador de puzzles matemáticos para vendedores TPT',
+      'gerador de puzzles matemáticos para vendedores Gumroad',
       'fichas de adição codificada licença comercial',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Gerador de Adição Codificada | Puzzles Matemáticos',
     metaDescription:
-      'Crie puzzles de adição codificada para vender na Etsy, KDP e TPT. Palavra Revelada, 104 temas, 11 idiomas, gabaritos, 400+ DPI. Teste grátis com marca d\'água.',
+      'Crie puzzles de adição codificada para vender na Etsy, KDP e Gumroad. Palavra Revelada, 104 temas, 11 idiomas, gabaritos, 400+ DPI. Teste grátis com marca d\'água.',
   },
 
   hero: {
     title: 'Gerador de Fichas de Adição Codificada — Puzzles Matemáticos para Decifrar',
     tagline: 'Transforme a adição numa missão de detetive onde cada imagem esconde um número secreto.',
     description:
-      'Crie fichas de adição do tipo criptaritmético que desafiam os alunos a decifrar um código visual. Cada imagem na ficha representa um número oculto — os alunos resolvem equações de adição para deduzir qual número corresponde a cada imagem, combinando fluência matemática com raciocínio lógico num único exercício. Mude para o modo Palavra Revelada e o desafio aumenta: escreva uma palavra secreta de até dez letras, e cada equação corretamente resolvida revela uma letra da resposta, enquanto três letras distratoras com somas incorretas mantêm o suspense. O gerador suporta onze alfabetos específicos de cada idioma, pelo que o modo Palavra Revelada funciona nativamente em português, inglês, alemão, francês e mais sete idiomas — uma funcionalidade que nenhum outro gerador de fichas oferece. O alfabeto português inclui ã, õ, ç, á, é, í, ó, ú, â, ê, ô e à, garantindo que palavras secretas com caracteres acentuados funcionem naturalmente. Escolha entre mais de 3100 imagens em 104 temas, configure intervalos numéricos de 1 a 20 com dois a cinco símbolos-código por ficha, e exporte PDFs ou JPEGs prontos para impressão a mais de 400 DPI com gabaritos automáticos. Teste grátis com todas as funcionalidades — sem registo, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie fichas de adição do tipo criptaritmético que desafiam os usuários a decifrar um código visual. Cada imagem na ficha representa um número oculto — os usuários resolvem equações de adição para deduzir qual número corresponde a cada imagem, combinando fluência matemática com raciocínio lógico num único exercício. Mude para o modo Palavra Revelada e o desafio aumenta: escreva uma palavra secreta de até dez letras, e cada equação corretamente resolvida revela uma letra da resposta, enquanto três letras distratoras com somas incorretas mantêm o suspense. O gerador suporta onze alfabetos específicos de cada idioma, pelo que o modo Palavra Revelada funciona nativamente em português, inglês, alemão, francês e mais sete idiomas — uma funcionalidade que nenhum outro gerador de fichas oferece. O alfabeto português inclui ã, õ, ç, á, é, í, ó, ú, â, ê, ô e à, garantindo que palavras secretas com caracteres acentuados funcionem naturalmente. Escolha entre mais de 3100 imagens em 104 temas, configure intervalos numéricos de 1 a 20 com dois a cinco símbolos-código por ficha, e exporte PDFs ou JPEGs prontos para impressão a mais de 400 DPI com gabaritos automáticos. Teste grátis com todas as funcionalidades — sem registo, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
   },
 
   howItWorks: {
@@ -42,17 +42,17 @@ const content: AppContent = {
       {
         title: 'Escolha imagens da biblioteca temática',
         description:
-          'Abra o painel da Biblioteca de Imagens e explore 104 temas — desde animais e dinossauros até espaço e festividades. Use a barra de pesquisa para encontrar imagens específicas instantaneamente. As imagens que selecionar tornam-se os símbolos-código da sua ficha: cada imagem corresponde a um número oculto que os alunos devem deduzir. Também pode carregar as suas próprias imagens PNG ou JPEG para puzzles personalizados e sazonais.',
+          'Abra o painel da Biblioteca de Imagens e explore 104 temas — desde animais e dinossauros até espaço e festividades. Use a barra de pesquisa para encontrar imagens específicas instantaneamente. As imagens que selecionar tornam-se os símbolos-código da sua ficha: cada imagem corresponde a um número oculto que os usuários devem deduzir. Também pode carregar as suas próprias imagens PNG ou JPEG para puzzles personalizados e sazonais.',
       },
       {
         title: 'Adicione texto, títulos e opções',
         description:
-          'Use o painel de Ferramentas de Texto para adicionar um título, campos de nome e data do aluno, instruções ou qualquer texto personalizado. Escolha entre sete fontes adequadas para crianças, incluindo Lexend Deca, Baloo 2, Fredoka e Quicksand. Ative ou desative os números de exercício, mostre ou oculte o cabeçalho e a borda, e ative o modo escala de cinzentos para impressão económica. Cada opção atualiza a pré-visualização do canvas em tempo real para que ajuste o layout antes de exportar.',
+          'Use o painel de Ferramentas de Texto para adicionar um título, campos de nome e data do usuário, instruções ou qualquer texto personalizado. Escolha entre sete fontes adequadas para crianças, incluindo Lexend Deca, Baloo 2, Fredoka e Quicksand. Ative ou desative os números de exercício, mostre ou oculte o cabeçalho e a borda, e ative o modo escala de cinzentos para impressão económica. Cada opção atualiza a pré-visualização do canvas em tempo real para que ajuste o layout antes de exportar.',
       },
       {
         title: 'Gere o gabarito e descarregue',
         description:
-          'Vá ao separador de Gabarito e clique em Gerar para criar uma versão resolvida da sua ficha. O gabarito sobrepõe cada número oculto diretamente sobre o seu símbolo-imagem, tornando as soluções perfeitamente claras para professores e pais. Exporte tanto a ficha como o gabarito em JPEG de alta resolução ou PDF pronto para impressão. Cada ficheiro é renderizado a mais de 400 DPI para que os seus puzzles de decifrar código fiquem nítidos tanto impressos em casa como carregados na Etsy e Amazon KDP.',
+          'Vá ao separador de Gabarito e clique em Gerar para criar uma versão resolvida da sua ficha. O gabarito sobrepõe cada número oculto diretamente sobre o seu símbolo-imagem, tornando as soluções perfeitamente claras para vendedores e pais. Exporte tanto a ficha como o gabarito em JPEG de alta resolução ou PDF pronto para impressão. Cada ficheiro é renderizado a mais de 400 DPI para que os seus puzzles de decifrar código fiquem nítidos tanto impressos em casa como carregados na Etsy e Amazon KDP.',
       },
     ],
   },
@@ -63,12 +63,12 @@ const content: AppContent = {
       {
         title: 'Mecânica de decifrar código — imagens como números ocultos',
         description:
-          'A característica que define este gerador é o seu motor criptaritmético. Cada imagem na ficha representa secretamente um número específico. Os alunos resolvem equações de adição onde as parcelas e as somas são mostradas como imagens, e depois usam dedução lógica para descobrir qual número cada imagem representa. Isto transforma um exercício de adição rotineiro num puzzle de estilo detetive que desenvolve o pensamento de ordem superior em paralelo com a fluência matemática básica. Como os puzzles exigem raciocinar através de múltiplas equações simultaneamente, os alunos desenvolvem competências de resolução de problemas que vão muito além da simples memorização.',
+          'A característica que define este gerador é o seu motor criptaritmético. Cada imagem na ficha representa secretamente um número específico. Os usuários resolvem equações de adição onde as parcelas e as somas são mostradas como imagens, e depois usam dedução lógica para descobrir qual número cada imagem representa. Isto transforma um exercício de adição rotineiro num puzzle de estilo detetive que desenvolve o pensamento de ordem superior em paralelo com a fluência matemática básica. Como os puzzles exigem raciocinar através de múltiplas equações simultaneamente, os usuários desenvolvem competências de resolução de problemas que vão muito além da simples memorização.',
       },
       {
         title: 'Modo Palavra Revelada com palavras secretas',
         description:
-          'Ative o modo Palavra Revelada e escreva uma palavra secreta de até dez letras. O gerador cria uma equação de adição por cada letra da palavra — a soma de cada equação corresponde a uma letra específica num quadro de descodificação. Os alunos resolvem as equações, procuram cada soma no quadro e soletram a palavra oculta. Três equações distratoras com somas incorretas são adicionadas automaticamente, dando aos alunos problemas extra que não correspondem a nenhuma letra e obrigando-os a verificar cada resposta. Se o intervalo numérico não conseguir produzir somas únicas suficientes para todas as letras, a aplicação ajusta inteligentemente alargando o intervalo ou aumentando o número de parcelas de duas até quatro.',
+          'Ative o modo Palavra Revelada e escreva uma palavra secreta de até dez letras. O gerador cria uma equação de adição por cada letra da palavra — a soma de cada equação corresponde a uma letra específica num quadro de descodificação. Os usuários resolvem as equações, procuram cada soma no quadro e soletram a palavra oculta. Três equações distratoras com somas incorretas são adicionadas automaticamente, dando aos usuários problemas extra que não correspondem a nenhuma letra e obrigando-os a verificar cada resposta. Se o intervalo numérico não conseguir produzir somas únicas suficientes para todas as letras, a aplicação ajusta inteligentemente alargando o intervalo ou aumentando o número de parcelas de duas até quatro.',
       },
       {
         title: 'Alfabetos sensíveis ao idioma para 11 línguas',
@@ -78,17 +78,17 @@ const content: AppContent = {
       {
         title: 'Intervalos numéricos e quantidade de símbolos configuráveis',
         description:
-          'Defina os valores mínimos e máximos das parcelas de 1 a 20 para controlar a dificuldade dos problemas. Escolha entre dois e cinco símbolos-imagem únicos por ficha para ajustar a complexidade da dedução — dois símbolos criam um puzzle acessível para alunos mais novos, enquanto cinco símbolos exigem um acompanhamento cuidadoso através de muitas equações. A combinação de intervalo numérico e quantidade de símbolos dá-lhe um controlo preciso sobre a dificuldade, permitindo-lhe criar conjuntos progressivos de fichas de fácil a avançado em minutos.',
+          'Defina os valores mínimos e máximos das parcelas de 1 a 20 para controlar a dificuldade dos problemas. Escolha entre dois e cinco símbolos-imagem únicos por ficha para ajustar a complexidade da dedução — dois símbolos criam um puzzle acessível para usuários mais novos, enquanto cinco símbolos exigem um acompanhamento cuidadoso através de muitas equações. A combinação de intervalo numérico e quantidade de símbolos dá-lhe um controlo preciso sobre a dificuldade, permitindo-lhe criar conjuntos progressivos de fichas de fácil a avançado em minutos.',
       },
       {
         title: '104 temas visuais com mais de 3100 imagens',
         description:
-          'Explore uma biblioteca de mais de 3100 ilustrações selecionadas organizadas em 104 temas, incluindo animais da quinta, vida marinha, veículos, espaço, alimentos, desportos, dinossauros, festividades e muito mais. Cada imagem é de alta resolução e concebida para uma impressão nítida e adequada a crianças. Na Adição Codificada, as imagens servem como os próprios símbolos-código — os alunos veem um gato, um foguetão e um cupcake e devem deduzir que o gato vale 3, o foguetão 7 e o cupcake 5. Os puzzles temáticos são irresistíveis para as crianças e muito vendáveis como produtos imprimíveis.',
+          'Explore uma biblioteca de mais de 3100 ilustrações selecionadas organizadas em 104 temas, incluindo animais da quinta, vida marinha, veículos, espaço, alimentos, desportos, dinossauros, festividades e muito mais. Cada imagem é de alta resolução e concebida para uma impressão nítida e adequada a crianças. Na Adição Codificada, as imagens servem como os próprios símbolos-código — os usuários veem um gato, um foguetão e um cupcake e devem deduzir que o gato vale 3, o foguetão 7 e o cupcake 5. Os puzzles temáticos são irresistíveis para as crianças e muito vendáveis como produtos imprimíveis.',
       },
       {
         title: 'Gabarito automático com sobreposição de números',
         description:
-          'Gere um gabarito completo com um único clique. O gabarito reproduz o layout da sua ficha e sobrepõe o número oculto diretamente sobre cada símbolo-imagem, tornando a solução imediatamente óbvia. No modo Palavra Revelada, o gabarito também mostra a palavra descodificada e identifica quais equações eram distratoras. Exporte o gabarito como ficheiro separado para inclusão fácil em edições do professor, guias para pais ou pacotes de produtos comerciais.',
+          'Gere um gabarito completo com um único clique. O gabarito reproduz o layout da sua ficha e sobrepõe o número oculto diretamente sobre cada símbolo-imagem, tornando a solução imediatamente óbvia. No modo Palavra Revelada, o gabarito também mostra a palavra descodificada e identifica quais equações eram distratoras. Exporte o gabarito como ficheiro separado para inclusão fácil em edições do vendedor, guias para pais ou pacotes de produtos comerciais.',
       },
       {
         title: 'Exportação pronta para impressão a 400+ DPI com opção escala de cinzentos',
@@ -119,10 +119,10 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de matemática diferenciados com Palavra Revelada para TPT',
+        title: 'Centros de matemática diferenciados com Palavra Revelada para Gumroad',
         description:
-          'Crie conjuntos de adição codificada por níveis para Teachers Pay Teachers: Nível 1 (dois símbolos com somas inferiores a 10), Nível 2 (três símbolos com somas inferiores a 15), Nível 3 (quatro ou cinco símbolos com somas até 20) e um nível bónus de Palavra Revelada onde os alunos descodificam palavras de vocabulário. Cada nível com gabaritos e folha de acompanhamento do progresso. A mecânica de decifrar código diferencia naturalmente — mais símbolos e intervalos mais altos aumentam a dificuldade sem alterar o formato da atividade, para que todos os alunos num centro de matemática façam o mesmo tipo de trabalho ao seu próprio nível.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Crie conjuntos de adição codificada por níveis para Gumroad: Nível 1 (dois símbolos com somas inferiores a 10), Nível 2 (três símbolos com somas inferiores a 15), Nível 3 (quatro ou cinco símbolos com somas até 20) e um nível bónus de Palavra Revelada onde os usuários descodificam palavras de vocabulário. Cada nível com gabaritos e folha de acompanhamento do progresso. A mecânica de decifrar código diferencia naturalmente — mais símbolos e intervalos mais altos aumentam a dificuldade sem alterar o formato da atividade, para que todos os usuários num centro de matemática façam o mesmo tipo de trabalho ao seu próprio nível.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Pacotes de puzzles multilingues para a sua própria loja',
@@ -131,10 +131,10 @@ const content: AppContent = {
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: 'Envolvimento na sala de aula e prática lúdica de matemática',
+        title: 'Envolvimento online e prática lúdica de matemática',
         description:
-          'Use as fichas de adição codificada para transformar a prática diária de matemática num jogo. Distribua um puzzle em Modo Clássico como desafio de aquecimento onde o primeiro aluno a decifrar o código ganha uma recompensa. Use o modo Palavra Revelada para codificar uma palavra de vocabulário, um facto curioso ou uma mensagem motivacional que os alunos descobrem ao resolver todas as equações. O formato puzzle transforma uma ficha de prática rotineira numa atividade de mistério que mantém os alunos concentrados e motivados. Os gabaritos automáticos poupam tempo de correção, e a dificuldade configurável significa que um único gerador serve desde a pré-escola até ao terceiro ano.',
-        platform: 'Sala de aula / Explicações / Ensino doméstico',
+          'Use as fichas de adição codificada para transformar a prática diária de matemática num jogo. Distribua um puzzle em Modo Clássico como desafio de aquecimento onde o primeiro usuário a decifrar o código ganha uma recompensa. Use o modo Palavra Revelada para codificar uma palavra de vocabulário, um facto curioso ou uma mensagem motivacional que os usuários descobrem ao resolver todas as equações. O formato puzzle transforma uma ficha de prática rotineira numa atividade de mistério que mantém os usuários concentrados e motivados. Os gabaritos automáticos poupam valor percebido, e a dificuldade configurável significa que um único gerador serve desde a pré-escola até ao terceiro ano.',
+        platform: 'loja / Explicações / Ensino doméstico',
       },
     ],
   },
@@ -143,12 +143,12 @@ const content: AppContent = {
     {
       question: 'Como funciona a mecânica de decifrar código?',
       answer:
-        'Cada imagem na ficha representa secretamente um número específico. A ficha mostra equações de adição onde as parcelas e as somas são mostradas como imagens em vez de dígitos. Os alunos resolvem as equações usando lógica e dedução: se um gato mais um cão é igual a sete e um gato mais um gato é igual a seis, então o gato vale três e o cão quatro. O puzzle exige raciocinar através de múltiplas equações simultaneamente, desenvolvendo tanto a fluência matemática como o pensamento crítico.',
+        'Cada imagem na ficha representa secretamente um número específico. A ficha mostra equações de adição onde as parcelas e as somas são mostradas como imagens em vez de dígitos. Os usuários resolvem as equações usando lógica e dedução: se um gato mais um cão é igual a sete e um gato mais um gato é igual a seis, então o gato vale três e o cão quatro. O puzzle exige raciocinar através de múltiplas equações simultaneamente, desenvolvendo tanto a fluência matemática como o pensamento crítico.',
     },
     {
       question: 'O que é o modo Palavra Revelada?',
       answer:
-        'O modo Palavra Revelada permite-lhe escrever uma palavra secreta de até dez letras. O gerador cria uma equação por letra — a soma de cada equação corresponde a uma letra específica num quadro de descodificação. Os alunos resolvem as equações, procuram cada soma no quadro e soletram a palavra oculta. Três equações distratoras com somas incorretas são adicionadas automaticamente, pelo que os alunos devem verificar cada resposta. Combina a prática de adição com ortografia e vocabulário numa única atividade envolvente.',
+        'O modo Palavra Revelada permite-lhe escrever uma palavra secreta de até dez letras. O gerador cria uma equação por letra — a soma de cada equação corresponde a uma letra específica num quadro de descodificação. Os usuários resolvem as equações, procuram cada soma no quadro e soletram a palavra oculta. Três equações distratoras com somas incorretas são adicionadas automaticamente, pelo que os usuários devem verificar cada resposta. Combina a prática de adição com ortografia e vocabulário numa única atividade envolvente.',
     },
     {
       question: 'Como é que os símbolos-imagem correspondem aos números?',
@@ -163,7 +163,7 @@ const content: AppContent = {
     {
       question: 'Quantos símbolos posso usar por ficha?',
       answer:
-        'Pode escolher entre dois e cinco símbolos-imagem únicos por ficha. Menos símbolos criam puzzles mais fáceis que os alunos mais novos conseguem resolver; mais símbolos criam desafios complexos que exigem acompanhar múltiplas incógnitas através de muitas equações. Ajustar a quantidade de símbolos é a forma mais simples de escalar a dificuldade sem alterar o intervalo numérico.',
+        'Pode escolher entre dois e cinco símbolos-imagem únicos por ficha. Menos símbolos criam puzzles mais fáceis que os usuários mais novos conseguem resolver; mais símbolos criam desafios complexos que exigem acompanhar múltiplas incógnitas através de muitas equações. Ajustar a quantidade de símbolos é a forma mais simples de escalar a dificuldade sem alterar o intervalo numérico.',
     },
     {
       question: 'A Adição Codificada é sensível ao idioma?',
@@ -173,7 +173,7 @@ const content: AppContent = {
     {
       question: 'O que são as letras distratoras no modo Palavra Revelada?',
       answer:
-        'As letras distratoras são três equações adicionais cujas somas não correspondem a nenhuma letra da palavra secreta. Aparecem na ficha junto às equações reais, e as suas somas apontam para letras que não fazem parte da resposta. Isto impede que os alunos simplesmente resolvam qualquer equação e assumam que revela uma letra — devem resolver todas as equações e consultar o quadro de descodificação para identificar quais são distratoras e quais soletram a palavra.',
+        'As letras distratoras são três equações adicionais cujas somas não correspondem a nenhuma letra da palavra secreta. Aparecem na ficha junto às equações reais, e as suas somas apontam para letras que não fazem parte da resposta. Isto impede que os usuários simplesmente resolvam qualquer equação e assumam que revela uma letra — devem resolver todas as equações e consultar o quadro de descodificação para identificar quais são distratoras e quais soletram a palavra.',
     },
     {
       question: 'Como é que o gabarito mostra as soluções?',
@@ -188,12 +188,12 @@ const content: AppContent = {
     {
       question: 'O que inclui a licença comercial?',
       answer:
-        'A licença comercial remove a marca d\'água de todos os downloads e concede-lhe direitos ilimitados para vender as fichas que criar — na Etsy, Amazon KDP, Teachers Pay Teachers, no seu próprio site ou em qualquer outra plataforma. Não há royalties por venda, não há taxas mensais e não há limites na quantidade de fichas que produzir ou vender.',
+        'A licença comercial remove a marca d\'água de todos os downloads e concede-lhe direitos ilimitados para vender as fichas que criar — na Etsy, Amazon KDP, Gumroad, no seu próprio site ou em qualquer outra plataforma. Não há royalties por venda, não há taxas mensais e não há limites na quantidade de fichas que produzir ou vender.',
     },
     {
       question: 'Posso vender fichas criadas com esta ferramenta na Etsy e Amazon KDP?',
       answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas de adição codificada como downloads digitais na Etsy, como cadernos de puzzles impressos na Amazon KDP, como recursos educativos no TPT ou através de qualquer outro canal de venda. O formato de decifrar código é um produto comprovado porque se destaca das fichas padrão de exercícios de adição nos resultados de pesquisa dos mercados.',
+        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas de adição codificada como downloads digitais na Etsy, como cadernos de puzzles impressos na Amazon KDP, como recursos educativos no Gumroad ou através de qualquer outro canal de venda. O formato de decifrar código é um produto comprovado porque se destaca das fichas padrão de exercícios de adição nos resultados de pesquisa dos mercados.',
     },
     {
       question: 'Preciso de instalar algum software?',
@@ -246,7 +246,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'bases-matematica-ideias-imprimiveis',
-      anchorText: 'Ideias de imprimíveis de matemática para educadores e vendedores',
+      anchorText: 'Ideias de imprimíveis de matemática para vendedores e vendedores',
     },
     {
       pageType: 'idea',
@@ -269,7 +269,7 @@ const content: AppContent = {
       {
         src: '/samples/portuguese/code addition/Código Secreto Adição 2.webp',
         alt: 'Ficha de adição codificada no Modo Clássico com imagens temáticas de animais como símbolos-código',
-        caption: 'Modo Clássico — os alunos decifram o código deduzindo qual número cada imagem representa',
+        caption: 'Modo Clássico — os usuários decifram o código deduzindo qual número cada imagem representa',
       },
       {
         src: '/samples/portuguese/code addition/Código Secreto Adição 3.webp',

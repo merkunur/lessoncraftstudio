@@ -7,7 +7,7 @@ const content: AppContent = {
       'creatore schede cruciverba illustrato stampabili per venditori Etsy',
       'generatore puzzle cruciverba con immagini per editori KDP',
       'creatore cruciverba con immagini licenza commerciale',
-      'vendere cruciverba con immagini su Teachers Pay Teachers',
+      'vendere cruciverba con immagini su Gumroad',
     ],
     lsiKeywords: [
       'stampabili cruciverba digitali business online',
@@ -15,14 +15,14 @@ const content: AppContent = {
       'strumenti business cruciverba illustrati stampabili',
     ],
     titleTag: 'Generatore Cruciverba con Immagini | Crea e Vendi Online',
-    metaDescription: 'Crea cruciverba con immagini da vendere su Etsy, KDP e TPT. Indizi visivi su griglia 15×15, 4 metodi di input, foglio risposte automatico. Prova gratuita.',
+    metaDescription: 'Crea cruciverba con immagini da vendere su Etsy, KDP e Gumroad. Indizi visivi su griglia 15×15, 4 metodi di input, foglio risposte automatico. Prova gratuita.',
   },
 
   hero: {
     title: 'Generatore di Cruciverba con Immagini per Puzzle con Indizi Visivi',
     tagline: 'Sostituisci gli indizi testuali tradizionali con indizi visivi su una griglia 15×15 — quattro metodi di input (selezione automatica per tema, modifica manuale immagini, lista personalizzata parole con indizi, caricamento immagini personalizzate), foglio risposte auto-generato con griglia compilata e intestazione localizzata "Cruciverba con Immagini" su 104 collezioni di immagini tematiche.',
     description:
-      'Crea cruciverba professionali dove immagini colorate sostituiscono gli indizi testuali dei cruciverba tradizionali. Otto immagini generano otto parole su una griglia fissa 15×15 — l\'algoritmo estrae le parole dai nomi delle immagini, le ordina per lunghezza per un posizionamento ottimale e riempie la griglia con posizioni numerate per gli indizi. Scegli tra quattro metodi di input: la Generazione Rapida per Tema seleziona automaticamente 8 immagini casuali da qualsiasi tema e genera istantaneamente; la Modifica Manuale Nomi Immagini ti permette di cliccare singole immagini e rinominarle prima della generazione; la Lista Personalizzata Parole con Indizi passa ai cruciverba tradizionali con indizi testuali usando il formato PAROLA: indizio; e Carica Immagini Personalizzate ti permette di aggiungere i tuoi file JPEG, PNG, GIF o WebP insieme al contenuto della libreria. Il Generatore di Cruciverba con Immagini è sensibile alla lingua: le parole del puzzle provengono dai nomi localizzati delle immagini tramite il sistema Vocabolario Immagini, quindi cambiare lingua modifica le parole effettive del cruciverba. Per esempio, un\'immagine di gatto genera "CAT" in inglese ma "GATTO" in italiano — producendo griglie di cruciverba completamente diverse dalle stesse immagini. Il sistema a doppio canvas genera sia una scheda puzzle che una scheda foglio risposte — il foglio risposte mostra la griglia compilata con tutte le risposte visibili. Ogni puzzle include un\'intestazione auto-generata localizzata con sfondo blu (#5B9BD5), titolo in Fredoka e descrizione in Quicksand renderizzati in tutte le 11 lingue supportate. L\'Accesso Completo sblocca tutti i 104 temi con oltre 3.100 illustrazioni e tutte le 11 lingue per parole del puzzle localizzate. Aggiungi temi di sfondo e temi di bordo con controlli di opacità indipendenti ed esporta PDF e JPEG pronti da stampare a 300 DPI nei formati Letter, A4 o dimensioni personalizzate. Che tu venda pacchetti di cruciverba con immagini su Etsy, compili quaderni di cruciverba per Amazon KDP o crei attività di vocabolario con cruciverba per TPT, questo generatore produce puzzle pronti per la produzione in pochi minuti — prova gratuita con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Crea cruciverba professionali dove immagini colorate sostituiscono gli indizi testuali dei cruciverba tradizionali. Otto immagini generano otto parole su una griglia fissa 15×15 — l\'algoritmo estrae le parole dai nomi delle immagini, le ordina per lunghezza per un posizionamento ottimale e riempie la griglia con posizioni numerate per gli indizi. Scegli tra quattro metodi di input: la Generazione Rapida per Tema seleziona automaticamente 8 immagini casuali da qualsiasi tema e genera istantaneamente; la Modifica Manuale Nomi Immagini ti permette di cliccare singole immagini e rinominarle prima della generazione; la Lista Personalizzata Parole con Indizi passa ai cruciverba tradizionali con indizi testuali usando il formato PAROLA: indizio; e Carica Immagini Personalizzate ti permette di aggiungere i tuoi file JPEG, PNG, GIF o WebP insieme al contenuto della libreria. Il Generatore di Cruciverba con Immagini è sensibile alla lingua: le parole del puzzle provengono dai nomi localizzati delle immagini tramite il sistema Vocabolario Immagini, quindi cambiare lingua modifica le parole effettive del cruciverba. Per esempio, un\'immagine di gatto genera "CAT" in inglese ma "GATTO" in italiano — producendo griglie di cruciverba completamente diverse dalle stesse immagini. Il sistema a doppio canvas genera sia una scheda puzzle che una scheda foglio risposte — il foglio risposte mostra la griglia compilata con tutte le risposte visibili. Ogni puzzle include un\'intestazione auto-generata localizzata con sfondo blu (#5B9BD5), titolo in Fredoka e descrizione in Quicksand renderizzati in tutte le 11 lingue supportate. L\'Accesso Completo sblocca tutti i 104 temi con oltre 3.100 illustrazioni e tutte le 11 lingue per parole del puzzle localizzate. Aggiungi temi di sfondo e temi di bordo con controlli di opacità indipendenti ed esporta PDF e JPEG pronti da stampare a 300 DPI nei formati Letter, A4 o dimensioni personalizzate. Che tu venda pacchetti di cruciverba con immagini su Etsy, compili quaderni di cruciverba per Amazon KDP o crei attività di vocabolario con cruciverba per Gumroad, questo generatore produce puzzle pronti per la produzione in pochi minuti — prova gratuita con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {
@@ -51,7 +51,7 @@ const content: AppContent = {
       {
         title: 'Genera il Foglio Risposte e Scarica',
         description:
-          'Passa alla scheda Foglio Risposte per vedere la griglia compilata con tutte le risposte del cruciverba visibili. Scarica entrambe le versioni usando i quattro pulsanti dedicati nel menu a tendina: Scheda JPEG, Foglio Risposte JPEG, Scheda PDF e Foglio Risposte PDF. I file vengono esportati a 300 DPI per qualità pronta da stampare. Attiva la scala di grigi per versioni a risparmio di inchiostro. Ogni esportazione è pronta per la produzione per inserzioni Etsy, interni Amazon KDP e file prodotto TPT.',
+          'Passa alla scheda Foglio Risposte per vedere la griglia compilata con tutte le risposte del cruciverba visibili. Scarica entrambe le versioni usando i quattro pulsanti dedicati nel menu a tendina: Scheda JPEG, Foglio Risposte JPEG, Scheda PDF e Foglio Risposte PDF. I file vengono esportati a 300 DPI per qualità pronta da stampare. Attiva la scala di grigi per versioni a risparmio di inchiostro. Ogni esportazione è pronta per la produzione per inserzioni Etsy, interni Amazon KDP e file prodotto Gumroad.',
       },
     ],
   },
@@ -72,7 +72,7 @@ const content: AppContent = {
       {
         title: 'Foglio Risposte Auto-Generato con Griglia del Cruciverba Compilata',
         description:
-          'Ogni cruciverba con immagini genera automaticamente un foglio risposte complementare in una scheda canvas separata. Il foglio risposte riproduce l\'esatto layout del puzzle e riempie la griglia con tutte le risposte corrette visibili nelle celle. Nessuna creazione manuale delle risposte, nessun file separato — il foglio risposte rimane perfettamente sincronizzato con il puzzle. Questo approccio a doppio canvas risparmia tempo significativo ai venditori che creano pacchetti di cruciverba dove ogni puzzle necessita del proprio foglio risposte. Scarica il foglio risposte come crossword_answer_key.jpeg o image-crossword-answer-key.pdf insieme al puzzle per studenti.',
+          'Ogni cruciverba con immagini genera automaticamente un foglio risposte complementare in una scheda canvas separata. Il foglio risposte riproduce l\'esatto layout del puzzle e riempie la griglia con tutte le risposte corrette visibili nelle celle. Nessuna creazione manuale delle risposte, nessun file separato — il foglio risposte rimane perfettamente sincronizzato con il puzzle. Questo approccio a doppio canvas risparmia tempo significativo ai venditori che creano pacchetti di cruciverba dove ogni puzzle necessita del proprio foglio risposte. Scarica il foglio risposte come crossword_answer_key.jpeg o image-crossword-answer-key.pdf insieme al puzzle per utenti.',
       },
       {
         title: 'Parole del Puzzle Localizzate in 11 Lingue tramite Vocabolario Immagini',
@@ -82,7 +82,7 @@ const content: AppContent = {
       {
         title: 'Lista Personalizzata Parole con Indizi per Cruciverba Tradizionali',
         description:
-          'Abilita la casella Lista Personalizzata Parole con Indizi per passare dai cruciverba con immagini ai cruciverba tradizionali con indizi testuali. Inserisci le parole e i relativi indizi nel formato PAROLA: testo indizio, uno per riga, con un minimo di 8 voci. Lo stesso algoritmo di griglia 15×15 posiziona le tue parole personalizzate con incrocio ottimale, e gli indizi testuali sostituiscono gli indizi visivi accanto alla griglia. Questa modalità ti permette di creare cruciverba di vocabolario, cruciverba ortografici o cruciverba specifici per materia con contenuto definito dall\'insegnante — senza bisogno della libreria di immagini.',
+          'Abilita la casella Lista Personalizzata Parole con Indizi per passare dai cruciverba con immagini ai cruciverba tradizionali con indizi testuali. Inserisci le parole e i relativi indizi nel formato PAROLA: testo indizio, uno per riga, con un minimo di 8 voci. Lo stesso algoritmo di griglia 15×15 posiziona le tue parole personalizzate con incrocio ottimale, e gli indizi testuali sostituiscono gli indizi visivi accanto alla griglia. Questa modalità ti permette di creare cruciverba di vocabolario, cruciverba ortografici o cruciverba specifici per materia con contenuto definito dall\'venditore — senza bisogno della libreria di immagini.',
       },
       {
         title: 'Modifica Manuale Nomi Immagini Prima della Generazione del Puzzle',
@@ -97,7 +97,7 @@ const content: AppContent = {
       {
         title: 'Esportazione PDF e JPEG Pronti da Stampare a 300 DPI con Modalità Scala di Grigi',
         description:
-          'Scarica cruciverba e fogli risposte come immagini JPEG ad alta risoluzione o documenti PDF pronti da stampare renderizzati a 300 DPI (moltiplicatore 6×). Quattro pulsanti di download dedicati nel menu a tendina esportano crossword_worksheet.jpeg, crossword_answer_key.jpeg, image-crossword-worksheet.pdf e image-crossword-answer-key.pdf separatamente. I formati pagina includono Letter Verticale, Letter Orizzontale, A4 Verticale, A4 Orizzontale e dimensioni completamente personalizzate. Attiva la scala di grigi per versioni a risparmio di inchiostro. Ogni esportazione è pronta per la produzione per download digitali, quaderni stampati e materiale didattico.',
+          'Scarica cruciverba e fogli risposte come immagini JPEG ad alta risoluzione o documenti PDF pronti da stampare renderizzati a 300 DPI (moltiplicatore 6×). Quattro pulsanti di download dedicati nel menu a tendina esportano crossword_worksheet.jpeg, crossword_answer_key.jpeg, image-crossword-worksheet.pdf e image-crossword-answer-key.pdf separatamente. I formati pagina includono Letter Verticale, Letter Orizzontale, A4 Verticale, A4 Orizzontale e dimensioni completamente personalizzate. Attiva la scala di grigi per versioni a risparmio di inchiostro. Ogni esportazione è pronta per la produzione per download digitali, quaderni stampati e prodotto stampabile.',
       },
     ],
   },
@@ -120,20 +120,20 @@ const content: AppContent = {
       {
         title: 'Set di Cruciverba con Immagini Multilingue con Generazione Sensibile alla Lingua',
         description:
-          'Sfrutta la generazione di parole sensibile alla lingua per creare cruciverba con immagini in 11 lingue. Le stesse immagini producono griglie di cruciverba completamente diverse quando cambi lingua — un\'immagine di gatto crea "CAT" in inglese, "KATZE" in tedesco e "GATTO" in italiano. Crea pacchetti di cruciverba multilingue dove ogni versione linguistica usa le stesse immagini tematiche ma produce puzzle unici con parole localizzate. Questo è prezioso per insegnanti ESL/EFL, classi bilingui e famiglie di homeschooling internazionali. Vendi pacchetti specifici per lingua o mega-pacchetti multilingue a prezzi premium.',
-        platform: 'Etsy / TPT (mercato multilingue)',
+          'Sfrutta la generazione di parole sensibile alla lingua per creare cruciverba con immagini in 11 lingue. Le stesse immagini producono griglie di cruciverba completamente diverse quando cambi lingua — un\'immagine di gatto crea "CAT" in inglese, "KATZE" in tedesco e "GATTO" in italiano. Crea pacchetti di cruciverba multilingue dove ogni versione linguistica usa le stesse immagini tematiche ma produce puzzle unici con parole localizzate. Questo è prezioso per venditori ESL/EFL, negozi bilingui e famiglie di homeschooling internazionali. Vendi pacchetti specifici per lingua o mega-pacchetti multilingue a prezzi premium.',
+        platform: 'Etsy / Gumroad (mercato multilingue)',
       },
       {
-        title: 'Cruciverba di Vocabolario Personalizzati per TPT',
+        title: 'Cruciverba di Vocabolario Personalizzati per Gumroad',
         description:
-          'Usa la modalità Lista Personalizzata Parole con Indizi per creare cruciverba allineati al curriculum con vocabolario definito dall\'insegnante. Inserisci termini e definizioni specifici per materia nel formato PAROLA: indizio — vocabolario scientifico, termini di studi sociali, parole di comprensione della lettura o liste di ortografia. Gli insegnanti che cercano attività di cruciverba su TPT apprezzano puzzle che corrispondono esattamente al loro curriculum. Crea set di cruciverba di vocabolario per livello scolastico con fogli risposte in formato PDF e JPEG. La modalità con indizi testuali ti permette di creare cruciverba per qualsiasi materia senza dipendere dalla libreria di immagini.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Usa la modalità Lista Personalizzata Parole con Indizi per creare cruciverba allineati al mercato con vocabolario definito dall\'venditore. Inserisci termini e definizioni specifici per materia nel formato PAROLA: indizio — vocabolario scientifico, termini di studi sociali, parole di comprensione della lettura o liste di ortografia. i venditori che cercano attività di cruciverba su Gumroad apprezzano puzzle che corrispondono esattamente al loro catalogo prodotti. Crea set di cruciverba di vocabolario per livello scolastico con fogli risposte in formato PDF e JPEG. La modalità con indizi testuali ti permette di creare cruciverba per qualsiasi materia senza dipendere dalla libreria di immagini.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Collezioni Stagionali di Cruciverba con Immagini',
         description:
           'Le 104 collezioni di immagini tematiche coprono ogni occasione stagionale e festiva — Natale, Halloween, Pasqua, San Valentino, ritorno a scuola, vacanze estive e molto altro. Crea collezioni di cruciverba con immagini a tempo limitato in linea con i periodi di picco degli acquisti. Pubblica pacchetti di cruciverba di Halloween a settembre, collezioni natalizie a ottobre e pacchetti di San Valentino a gennaio. La natura visiva dei cruciverba con immagini rende i temi stagionali particolarmente coinvolgenti — immagini festive come indizi creano un immediato richiamo stagionale. I prodotti stagionali comandano prezzi più alti durante i periodi di picco e generano acquisti ripetuti.',
-        platform: 'Etsy / Amazon KDP / TPT (stagionale)',
+        platform: 'Etsy / Amazon KDP / Gumroad (stagionale)',
       },
     ],
   },
@@ -142,7 +142,7 @@ const content: AppContent = {
     {
       question: 'Cos\'è un cruciverba con immagini e come si differenzia da un cruciverba tradizionale?',
       answer:
-        'Un cruciverba con immagini sostituisce gli indizi testuali tradizionali con indizi visivi. Invece di leggere una definizione scritta e inserire la risposta, i risolutori guardano un\'immagine colorata e scrivono la parola che rappresenta nella griglia del cruciverba. Il generatore posiziona 8 parole derivate dalle immagini su una griglia fissa 15×15 con posizioni numerate che collegano ogni immagine alla sua cella di partenza. Questo formato rende i cruciverba accessibili ai risolutori più giovani e agli studenti di lingue, mantenendo comunque la sfida di posizionamento delle parole dei cruciverba tradizionali.',
+        'Un cruciverba con immagini sostituisce gli indizi testuali tradizionali con indizi visivi. Invece di leggere una definizione scritta e inserire la risposta, i risolutori guardano un\'immagine colorata e scrivono la parola che rappresenta nella griglia del cruciverba. Il generatore posiziona 8 parole derivate dalle immagini su una griglia fissa 15×15 con posizioni numerate che collegano ogni immagine alla sua cella di partenza. Questo formato rende i cruciverba accessibili ai risolutori più giovani e agli utenti di lingue, mantenendo comunque la sfida di posizionamento delle parole dei cruciverba tradizionali.',
     },
     {
       question: 'Perché la griglia è fissa a 15×15 celle?',
@@ -192,7 +192,7 @@ const content: AppContent = {
     {
       question: 'Posso vendere i cruciverba con immagini creati con questo strumento su Etsy e Amazon KDP?',
       answer:
-        'Sì. Con una licenza commerciale, hai pieni diritti di vendere i tuoi cruciverba con immagini come download digitali su Etsy, come quaderni stampati su Amazon KDP, come risorse didattiche su TPT o attraverso qualsiasi altro canale di vendita. I quattro metodi di input, i fogli risposte auto-generati, la generazione di parole sensibile alla lingua e le 104 collezioni di immagini tematiche ti danno gli strumenti creativi per produrre prodotti di cruciverba originali e vendibili.',
+        'Sì. Con una licenza commerciale, hai pieni diritti di vendere i tuoi cruciverba con immagini come download digitali su Etsy, come quaderni stampati su Amazon KDP, come prodotti stampabili su Gumroad o attraverso qualsiasi altro canale di vendita. I quattro metodi di input, i fogli risposte auto-generati, la generazione di parole sensibile alla lingua e le 104 collezioni di immagini tematiche ti danno gli strumenti creativi per produrre prodotti di cruciverba originali e vendibili.',
     },
     {
       question: 'Qual è la politica di rimborso?',

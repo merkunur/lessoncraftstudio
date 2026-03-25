@@ -1,20 +1,20 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'criar cartelas de bingo para a sala de aula',
+    primaryKeyword: 'criar cartelas de bingo para a loja',
     secondaryKeywords: [
-      'criador de bingo com imagens para a classe',
+      'criador de bingo com imagens para a loja',
       'criador de jogos de bingo para crianças',
       'cartelas de bingo imprimíveis para a escola',
-      'gerador de cartelas bingo para professores',
+      'gerador de cartelas bingo para vendedores',
     ],
     lsiKeywords: [
-      'gerador batch de cartelas bingo para a classe',
+      'gerador batch de cartelas bingo para a loja',
       'criador de bingo com imagens e palavras',
       'folha de chamada bingo criador',
     ],
-    titleTag: 'Criar Cartelas de Bingo — Para a Sala de Aula',
-    metaDescription: 'Crie cartelas de bingo com imagens para a sala de aula. Grelhas de 3x3 a 5x5, lotes de cartelas únicas, folhas de chamada, 104 temas. Teste com marca d\'água.',
+    titleTag: 'Criar Cartelas de Bingo — Para a loja',
+    metaDescription: 'Crie cartelas de bingo com imagens para a loja. Grelhas de 3x3 a 5x5, lotes de cartelas únicas, folhas de chamada, 104 temas. Teste com marca d\'água.',
     },
 
   hero: {
@@ -40,7 +40,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Selecione Imagens da Biblioteca',
-        description: 'Abra o painel de Biblioteca de Imagens e explore 104 coleções temáticas com mais de 3100 ilustrações a cores — animais, alimentos, veículos, natureza, festividades, profissões e dezenas mais. Filtre por tema usando o menu suspenso ou pesquise por palavra-chave. Clique nas imagens para selecioná-las para as suas cartelas de bingo. Ative a caixa «Usar seleção personalizada» para escolher imagens específicas para o banco de chamada — um contador em tempo real mostra o número de seleções enquanto escolhe. A seleção personalizada de chamada dá-lhe controlo preciso sobre quais elementos aparecem no jogo de bingo, útil para atividades alinhadas com o currículo ou eventos temáticos.',
+        description: 'Abra o painel de Biblioteca de Imagens e explore 104 coleções temáticas com mais de 3100 ilustrações a cores — animais, alimentos, veículos, natureza, festividades, profissões e dezenas mais. Filtre por tema usando o menu suspenso ou pesquise por palavra-chave. Clique nas imagens para selecioná-las para as suas cartelas de bingo. Ative a caixa «Usar seleção personalizada» para escolher imagens específicas para o banco de chamada — um contador em tempo real mostra o número de seleções enquanto escolhe. A seleção personalizada de chamada dá-lhe controlo preciso sobre quais elementos aparecem no jogo de bingo, útil para atividades alinhadas com o catálogo de produtos ou eventos temáticos.',
       },
       {
         title: 'Configure o Layout de Página e as Decorações',
@@ -56,7 +56,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Descarregue Cartelas, Folha de Chamada e Lote ZIP',
-        description: 'Ative a escala de cinzentos para versões económicas em tinta ideais para impressão na sala de aula e interiores de KDP. Descarregue ficheiros individuais usando os quatro botões dedicados: ficha JPEG, folha de chamada JPEG, ficha PDF e folha de chamada PDF — tudo renderizado a 300 DPI (multiplicador 6×, qualidade JPEG 1,0). Para exportação em lote, clique no botão de descarga ZIP para receber todas as cartelas de bingo geradas como JPEGs individuais num único ficheiro bingo_cards.zip. A exportação ZIP em lote é essencial para vendedores que criam conjuntos de bingo com múltiplas cartelas — gere 10 cartelas únicas e empacote-as numa única descarga. Os ficheiros estão prontos para produção em listagens da Etsy, interiores da Amazon KDP e ficheiros de produtos do TPT.',
+        description: 'Ative a escala de cinzentos para versões económicas em tinta ideais para impressão online e interiores de KDP. Descarregue ficheiros individuais usando os quatro botões dedicados: ficha JPEG, folha de chamada JPEG, ficha PDF e folha de chamada PDF — tudo renderizado a 300 DPI (multiplicador 6×, qualidade JPEG 1,0). Para exportação em lote, clique no botão de descarga ZIP para receber todas as cartelas de bingo geradas como JPEGs individuais num único ficheiro bingo_cards.zip. A exportação ZIP em lote é essencial para vendedores que criam conjuntos de bingo com múltiplas cartelas — gere 10 cartelas únicas e empacote-as numa única descarga. Os ficheiros estão prontos para produção em listagens da Etsy, interiores da Amazon KDP e ficheiros de produtos do Gumroad.',
       },
     ],
   },
@@ -75,8 +75,8 @@ const content: ToolContent = {  seo: {
       description: 'Compile 40–80 cartelas de bingo em cadernos de atividades impressos para Amazon KDP. Estruture capítulos por tema: bingo de animais, bingo de alimentos, bingo de veículos, bingo de festividades. Inclua folhas de chamada após cada conjunto para que o livro seja autossuficiente para jogar — os leitores podem fotocopiar a página de chamada enquanto os jogadores usam as páginas de cartelas de bingo diretamente. Misture tamanhos de grelha dentro dos capítulos para dificuldade progressiva. Ative a escala de cinzentos para saída económica em tinta que mantém baixos os custos de impressão do KDP. A função de geração em lote produz 10 cartelas únicas por conjunto em segundos, tornando eficientes as compilações grandes de cadernos.',
     },
     {
-      title: 'Kits de Jogo de Bingo Prontos para a Sala de Aula',
-      description: 'Construa kits completos de jogo de bingo para uso na sala de aula com 10 cartelas únicas de jogador e uma folha de chamada por conjunto. Os professores que procuram atividades de bingo valorizam produtos que chegam prontos para jogar — imprima as cartelas, distribua e comece o jogo imediatamente. Use o modo de preenchimento de Palavra com vocabulário curricular para revisão de língua, preenchimento de Imagem para exercícios de reconhecimento visual ou modos mistos para instrução diferenciada. A função de seleção personalizada de chamada permite-lhe escolher exatamente quais elementos de vocabulário aparecem no jogo para alinhamento curricular preciso.',
+      title: 'Kits de Jogo de Bingo Prontos para a loja',
+      description: 'Construa kits completos de jogo de bingo para uso online com 10 cartelas únicas de jogador e uma folha de chamada por conjunto. Os vendedores que procuram atividades de bingo valorizam produtos que chegam prontos para jogar — imprima as cartelas, distribua e comece o jogo imediatamente. Use o modo de preenchimento de Palavra com vocabulário curricular para revisão de língua, preenchimento de Imagem para exercícios de reconhecimento visual ou modos mistos para pacotes escalonados por nível. A função de seleção personalizada de chamada permite-lhe escolher exatamente quais elementos de vocabulário aparecem no jogo para alinhamento curricular preciso.',
     },
     {
       title: 'Coleções de Bingo Sazonais e de Festividades',
@@ -100,13 +100,13 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Pacotes de Atividades de Bingo para o TPT',
-      description: 'Carregue pacotes de atividades de bingo para a sala de aula no TPT com cartelas únicas de jogador e folhas de chamada para o professor como pontos de venda principais. Os professores que procuram atividades de bingo valorizam produtos que chegam prontos para jogar — imprima, distribua e comece o jogo. Crie conjuntos alinhados com o currículo: bingo de vocabulário usando o modo de preenchimento de Palavra, bingo de reconhecimento visual usando preenchimento de Imagem e bingo de modos mistos para instrução diferenciada. Inclua 10 cartelas únicas por conjunto com uma folha de chamada. O modo de preenchimento de Palavra com nomes localizados de imagens transforma o bingo numa atividade de revisão de vocabulário que os professores podem usar em língua, vocabulário de ciências e unidades temáticas.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Pacotes de Atividades de Bingo para o Gumroad',
+      description: 'Carregue pacotes de atividades de bingo para a loja no Gumroad com cartelas únicas de jogador e folhas de chamada para o vendedor como pontos de venda principais. Os vendedores que procuram atividades de bingo valorizam produtos que chegam prontos para jogar — imprima, distribua e comece o jogo. Crie conjuntos alinhados com o catálogo de produtos: bingo de vocabulário usando o modo de preenchimento de Palavra, bingo de reconhecimento visual usando preenchimento de Imagem e bingo de modos mistos para pacotes escalonados por nível. Inclua 10 cartelas únicas por conjunto com uma folha de chamada. O modo de preenchimento de Palavra com nomes localizados de imagens transforma o bingo numa atividade de revisão de vocabulário que os vendedores podem usar em língua, vocabulário de ciências e unidades temáticas.',
+      platform: 'Gumroad',
     },
     {
       title: 'Funil de Tráfego com Cartelas de Bingo no Pinterest',
-      description: 'As cartelas de bingo criam pins visualmente impactantes no Pinterest — a grelha colorida com imagens temáticas e fichas circulares cria um formato de jogo imediatamente reconhecível que pais e professores adoram. Publique cartelas de bingo de amostra mostrando diferentes temas: bingo de animais para quadros de pré-escolar, bingo de festividades para quadros sazonais e bingo de vocabulário para quadros educativos. Crie séries de pins separadas para «bingo imprimível com imagens», «jogos de bingo para a sala de aula» e «atividades de bingo para festividades». O bingo é um jogo universalmente reconhecido, pelo que os pins atraem audiências de todos os países e idiomas. Ligue cada pin às suas listagens de produtos na Etsy ou no TPT.',
+      description: 'As cartelas de bingo criam pins visualmente impactantes no Pinterest — a grelha colorida com imagens temáticas e fichas circulares cria um formato de jogo imediatamente reconhecível que pais e vendedores adoram. Publique cartelas de bingo de amostra mostrando diferentes temas: bingo de animais para quadros de pré-escolar, bingo de festividades para quadros sazonais e bingo de vocabulário para quadros educativos. Crie séries de pins separadas para «bingo imprimível com imagens», «jogos de bingo para a loja» e «atividades de bingo para festividades». O bingo é um jogo universalmente reconhecido, pelo que os pins atraem audiências de todos os países e idiomas. Ligue cada pin às suas listagens de produtos na Etsy ou no Gumroad.',
       platform: 'Pinterest',
     },
     {
@@ -116,8 +116,8 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Produtos de Bingo Multilingue para Mercados Globais',
-      description: 'O Gerador de Cartelas de Bingo é sensível ao idioma — o modo de preenchimento de Palavra usa nomes localizados de imagens em 11 idiomas, facilitando a produção de cartelas de bingo em inglês, alemão, francês, espanhol, português, italiano, holandês, sueco, dinamarquês, norueguês e finlandês a partir das mesmas imagens. Crie produtos de bingo de vocabulário dirigidos a lojas Etsy internacionais, compradores multilingues do TPT e estudantes de idiomas em todo o mundo. Venda o mesmo conjunto temático de bingo em múltiplas versões de idioma sem redesenho — simplesmente mude o idioma e regenere. Os pacotes multilingues conseguem preços premium e alcançam compradores que os concorrentes monolingues não conseguem atingir.',
-      platform: 'Etsy / TPT',
+      description: 'O Gerador de Cartelas de Bingo é sensível ao idioma — o modo de preenchimento de Palavra usa nomes localizados de imagens em 11 idiomas, facilitando a produção de cartelas de bingo em inglês, alemão, francês, espanhol, português, italiano, holandês, sueco, dinamarquês, norueguês e finlandês a partir das mesmas imagens. Crie produtos de bingo de vocabulário dirigidos a lojas Etsy internacionais, compradores multilingues do Gumroad e compradores de idiomas em todo o mundo. Venda o mesmo conjunto temático de bingo em múltiplas versões de idioma sem redesenho — simplesmente mude o idioma e regenere. Os pacotes multilingues conseguem preços premium e alcançam compradores que os concorrentes monolingues não conseguem atingir.',
+      platform: 'Etsy / Gumroad',
     },
   ],
 
@@ -132,7 +132,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Aproveite a Seleção Personalizada de Chamada para Alinhamento Curricular',
-      description: 'Ative a caixa «Usar seleção personalizada» para escolher exatamente quais imagens aparecem no banco de chamada. O contador em tempo real mostra o número de seleções enquanto escolhe da Biblioteca de Imagens. Esta função é fundamental para criar jogos de bingo alinhados com o currículo — selecione apenas as palavras de vocabulário que a sua lição cobre, apenas os animais de um habitat específico ou apenas os alimentos de uma unidade de nutrição. A seleção personalizada de chamada transforma o bingo de um jogo aleatório numa ferramenta de ensino dirigida, que é o ponto de venda principal para produtos de sala de aula no TPT.',
+      description: 'Ative a caixa «Usar seleção personalizada» para escolher exatamente quais imagens aparecem no banco de chamada. O contador em tempo real mostra o número de seleções enquanto escolhe da Biblioteca de Imagens. Esta função é fundamental para criar jogos de bingo alinhados com o catálogo de produtos — selecione apenas as palavras de vocabulário que a sua lição cobre, apenas os animais de um habitat específico ou apenas os alimentos de uma unidade de nutrição. A seleção personalizada de chamada transforma o bingo de um jogo aleatório numa ferramenta de ensino dirigida, que é o ponto de venda principal para produtos de loja no Gumroad.',
     },
     {
       title: 'Explore o Preenchimento de Palavra Sensível ao Idioma para Produtos Multilingues',
@@ -148,7 +148,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Aponte a Múltiplos Tamanhos de Grelha para Máxima Cobertura de Mercado',
-      description: 'Diferentes tamanhos de grelha servem diferentes audiências. As grelhas de 3×3 (9 células) funcionam melhor para bingo de pré-escolar e jardim de infância com partidas rápidas e menos elementos a seguir. As grelhas de 4×4 (16 células) são ideais para salas de aula do ensino primário com jogo equilibrado. As grelhas de 5×5 (25 células) proporcionam a experiência clássica de bingo para alunos mais velhos e noites de jogos em família. Inclua os três tamanhos nos seus pacotes de produtos e crie listagens separadas dirigidas a cada grupo etário. A função de geração em lote significa que mudar tamanhos de grelha e regenerar leva segundos.',
+      description: 'Diferentes tamanhos de grelha servem diferentes audiências. As grelhas de 3×3 (9 células) funcionam melhor para bingo de pré-escolar e jardim de infância com partidas rápidas e menos elementos a seguir. As grelhas de 4×4 (16 células) são ideais para salas de aula do ensino primário com jogo equilibrado. As grelhas de 5×5 (25 células) proporcionam a experiência clássica de bingo para usuários mais velhos e noites de jogos em família. Inclua os três tamanhos nos seus pacotes de produtos e crie listagens separadas dirigidas a cada grupo etário. A função de geração em lote significa que mudar tamanhos de grelha e regenerar leva segundos.',
     },
   ],
 
@@ -179,7 +179,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'O que é a seleção personalizada de chamada?',
-      answer: 'Ative a caixa «Usar seleção personalizada» no painel de Definições da Cartela de Bingo para escolher quais imagens específicas aparecem no banco de chamada. Quando ativa, clique nas imagens da Biblioteca de Imagens para adicioná-las à sua seleção personalizada de chamada — um contador em tempo real mostra o número de seleções enquanto escolhe. Isto dá-lhe controlo preciso sobre quais elementos aparecem no jogo de bingo, útil para atividades de vocabulário alinhadas com o currículo, eventos temáticos ou qualquer situação onde queira escolher os elementos exatos que os jogadores encontrarão durante o jogo.',
+      answer: 'Ative a caixa «Usar seleção personalizada» no painel de Definições da Cartela de Bingo para escolher quais imagens específicas aparecem no banco de chamada. Quando ativa, clique nas imagens da Biblioteca de Imagens para adicioná-las à sua seleção personalizada de chamada — um contador em tempo real mostra o número de seleções enquanto escolhe. Isto dá-lhe controlo preciso sobre quais elementos aparecem no jogo de bingo, útil para atividades de vocabulário alinhadas com o catálogo de produtos, eventos temáticos ou qualquer situação onde queira escolher os elementos exatos que os jogadores encontrarão durante o jogo.',
     },
     {
       question: 'O Gerador de Cartelas de Bingo é sensível ao idioma?',
@@ -191,11 +191,11 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Que tamanhos de página e formatos de exportação estão disponíveis?',
-      answer: 'Os tamanhos de página incluem Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) e dimensões personalizadas. Exporte como JPEG de alta resolução ou PDF pronto para impressão a 300 DPI (multiplicador 6×, qualidade JPEG 1,0). Ative a escala de cinzentos para saída económica em tinta. Cinco opções de descarga: ficha JPEG, folha de chamada JPEG, ficha PDF, folha de chamada PDF e exportação ZIP em lote de todas as cartelas geradas. Todas as exportações estão prontas para produção em descargas digitais, cadernos de atividades impressos e fichas para a sala de aula.',
+      answer: 'Os tamanhos de página incluem Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) e dimensões personalizadas. Exporte como JPEG de alta resolução ou PDF pronto para impressão a 300 DPI (multiplicador 6×, qualidade JPEG 1,0). Ative a escala de cinzentos para saída económica em tinta. Cinco opções de descarga: ficha JPEG, folha de chamada JPEG, ficha PDF, folha de chamada PDF e exportação ZIP em lote de todas as cartelas geradas. Todas as exportações estão prontas para produção em descargas digitais, cadernos de atividades impressos e fichas para a loja.',
     },
     {
       question: 'Posso vender cartelas de bingo criadas com esta ferramenta para fins comerciais?',
-      answer: 'Sim. Com uma licença comercial, tem todos os direitos para vender cartelas de bingo como descargas digitais na Etsy, cadernos de atividades impressos na Amazon KDP, recursos para a sala de aula no TPT ou através de qualquer outro canal de venda. Os tamanhos de grelha configuráveis, a geração em lote, a exportação ZIP, os modos de preenchimento duais, as folhas de chamada dedicadas, a seleção personalizada de chamada, o preenchimento de palavras multilingue e as 104 coleções temáticas de imagens dão-lhe tudo o necessário para criar produtos profissionais de bingo que competem em categorias de jogos imprimíveis em todos os principais mercados.',
+      answer: 'Sim. Com uma licença comercial, tem todos os direitos para vender cartelas de bingo como descargas digitais na Etsy, cadernos de atividades impressos na Amazon KDP, recursos para a loja no Gumroad ou através de qualquer outro canal de venda. Os tamanhos de grelha configuráveis, a geração em lote, a exportação ZIP, os modos de preenchimento duais, as folhas de chamada dedicadas, a seleção personalizada de chamada, o preenchimento de palavras multilingue e as 104 coleções temáticas de imagens dão-lhe tudo o necessário para criar produtos profissionais de bingo que competem em categorias de jogos imprimíveis em todos os principais mercados.',
     },
     {
       question: 'Qual é a política de reembolso?',

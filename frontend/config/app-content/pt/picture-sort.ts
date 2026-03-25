@@ -7,7 +7,7 @@ const content: AppContent = {
       'gerador de fichas de classificação a duas categorias para vendedores Etsy',
       'criador de atividades de classificação de imagens para editores Amazon KDP',
       'gerador de fichas de classificação de imagens com licença comercial',
-      'vender fichas de classificação imprimíveis no Teachers Pay Teachers',
+      'vender fichas de classificação imprimíveis no Gumroad',
     ],
     lsiKeywords: [
       'produtos digitais de classificação de imagens para empreendedores',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Gerador Fichas Classificação Imagens | Criar',
     metaDescription:
-      'Crie fichas de classificação de imagens para Etsy, KDP e TPT. Duas categorias, gabarito automático, 104 temas, 4–12 imagens. Teste grátis com marca d\'água.',
+      'Crie fichas de classificação de imagens para Etsy, KDP e Gumroad. Duas categorias, gabarito automático, 104 temas, 4–12 imagens. Teste grátis com marca d\'água.',
   },
 
   hero: {
     title: 'Gerador de Fichas de Classificação de Imagens para Atividades de Classificação a Duas Categorias',
     tagline: 'Classificação a duas categorias num único gerador potente — modo de tema ou seleção manual de imagens — com gabaritos autogerados, 4 a 12 imagens configuráveis, cabeçalho localizado «Classificação de Imagens» em 11 idiomas e 104 coleções de imagens temáticas.',
     description:
-      'Crie fichas de classificação profissionais onde os alunos classificam imagens em duas categorias, colocando as imagens recortadas no grupo correto esquerdo ou direito. Escolha o modo de tema para preencher automaticamente as categorias a partir da biblioteca de imagens — selecione um tema à esquerda e outro à direita, e a aplicação gera 4 a 6 imagens aleatórias por tema — ou mude para o modo manual para selecionar imagens individualmente e atribuir cada uma a uma categoria. Cada ficha apresenta duas molduras de categoria com borda tracejada na parte superior como destinos de classificação e uma grelha de recortes misturada por baixo com imagens mistas prontas para recortar e classificar. O sistema de canvas duplo gera tanto um separador de ficha de trabalho como um separador de gabarito com imagens 6× maiores organizadas em caixas de categorias, para que nunca precise de criar gabaritos manualmente. O Gerador de Classificação de Imagens é sensível ao idioma: as etiquetas de categoria utilizam nomes de imagens localizados, pelo que mudar de idioma altera o texto na ficha. Um cabeçalho localizado «Classificação de Imagens» com fundo verde-menta e título verde-azulado apresenta-se automaticamente nos 11 idiomas suportados. O Acesso Completo desbloqueia os 104 temas com mais de 3100 ilustrações e os 11 idiomas de interface para etiquetas de categoria localizadas. Adicione temas de fundo e de borda com controlos de opacidade independentes, inclua campos de nome e data para responsabilidade em sala de aula, e exporte PDFs e JPEGs prontos para impressão a 300 DPI nos formatos Carta, A4, Quadrado (1200×1200) ou dimensões personalizadas. Quer venda pacotes de atividades de classificação na Etsy, compile cadernos de classificação para a Amazon KDP ou crie atividades de classificação para o TPT, este gerador produz fichas prontas para produção em minutos — teste grátis com todas as funcionalidades, sem registo, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie fichas de classificação profissionais onde os usuários classificam imagens em duas categorias, colocando as imagens recortadas no grupo correto esquerdo ou direito. Escolha o modo de tema para preencher automaticamente as categorias a partir da biblioteca de imagens — selecione um tema à esquerda e outro à direita, e a aplicação gera 4 a 6 imagens aleatórias por tema — ou mude para o modo manual para selecionar imagens individualmente e atribuir cada uma a uma categoria. Cada ficha apresenta duas molduras de categoria com borda tracejada na parte superior como destinos de classificação e uma grelha de recortes misturada por baixo com imagens mistas prontas para recortar e classificar. O sistema de canvas duplo gera tanto um separador de ficha de trabalho como um separador de gabarito com imagens 6× maiores organizadas em caixas de categorias, para que nunca precise de criar gabaritos manualmente. O Gerador de Classificação de Imagens é sensível ao idioma: as etiquetas de categoria utilizam nomes de imagens localizados, pelo que mudar de idioma altera o texto na ficha. Um cabeçalho localizado «Classificação de Imagens» com fundo verde-menta e título verde-azulado apresenta-se automaticamente nos 11 idiomas suportados. O Acesso Completo desbloqueia os 104 temas com mais de 3100 ilustrações e os 11 idiomas de interface para etiquetas de categoria localizadas. Adicione temas de fundo e de borda com controlos de opacidade independentes, inclua campos de nome e data para responsabilidade online, e exporte PDFs e JPEGs prontos para impressão a 300 DPI nos formatos Carta, A4, Quadrado (1200×1200) ou dimensões personalizadas. Quer venda pacotes de atividades de classificação na Etsy, compile cadernos de classificação para a Amazon KDP ou crie atividades de classificação para o Gumroad, este gerador produz fichas prontas para produção em minutos — teste grátis com todas as funcionalidades, sem registo, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
   },
 
   howItWorks: {
@@ -32,12 +32,12 @@ const content: AppContent = {
       {
         title: 'Configure o Layout da Página',
         description:
-          'Abra o painel Configuração de Página e escolha um formato: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) ou qualquer dimensão personalizada. Selecione uma cor de fundo com o seletor de cores. Escolha um tema de fundo e ajuste a sua opacidade (de 0 a 1 em passos de 0,05), depois selecione um tema de borda com o seu próprio controlo de opacidade independente. Marque «Incluir Campos de Nome/Data» para adicionar linhas de nome e data para os alunos. Estas opções de layout emolduram a sua ficha de classificação antes de configurar o conteúdo.',
+          'Abra o painel Configuração de Página e escolha um formato: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) ou qualquer dimensão personalizada. Selecione uma cor de fundo com o seletor de cores. Escolha um tema de fundo e ajuste a sua opacidade (de 0 a 1 em passos de 0,05), depois selecione um tema de borda com o seu próprio controlo de opacidade independente. Marque «Incluir Campos de Nome/Data» para adicionar linhas de nome e data para os usuários. Estas opções de layout emolduram a sua ficha de classificação antes de configurar o conteúdo.',
       },
       {
         title: 'Escolha as Suas Categorias de Classificação',
         description:
-          'Abra o painel Categorias de Classificação e selecione dois temas — um para a categoria esquerda e outro para a categoria direita. A aplicação gera automaticamente 4 a 6 imagens aleatórias por tema a partir da biblioteca de imagens. Por exemplo, escolha Animais à esquerda e Alimentos à direita para criar uma ficha de classificação onde os alunos classificam as imagens no grupo correto. Também pode mudar para o modo manual para selecionar imagens individualmente e atribuir cada uma à categoria esquerda ou direita.',
+          'Abra o painel Categorias de Classificação e selecione dois temas — um para a categoria esquerda e outro para a categoria direita. A aplicação gera automaticamente 4 a 6 imagens aleatórias por tema a partir da biblioteca de imagens. Por exemplo, escolha Animais à esquerda e Alimentos à direita para criar uma ficha de classificação onde os usuários classificam as imagens no grupo correto. Também pode mudar para o modo manual para selecionar imagens individualmente e atribuir cada uma à categoria esquerda ou direita.',
       },
       {
         title: 'Selecione Imagens da Biblioteca ou Carregue as Suas',
@@ -47,12 +47,12 @@ const content: AppContent = {
       {
         title: 'Gere a Ficha de Classificação',
         description:
-          'Clique em Gerar para criar o layout de classificação em duas partes. A aplicação organiza o seu conteúdo em molduras de categoria na parte superior (duas molduras lado a lado com borda tracejada e preenchimento #FAFAFA) e uma grelha de recortes misturada por baixo (células brancas com bordas tracejadas #666). Um cabeçalho estilizado «Classificação de Imagens» aparece no topo com um fundo verde-menta (#4DB6AC), título verde-azulado (#00796B) na fonte Fredoka e descrição laranja (#FF7043) na fonte Quicksand. Uma borda exterior verde-azulada (#26A69A, 8 px) emoldura toda a página. A grelha de recortes apresenta todas as imagens em ordem aleatória — os alunos recortam-nas e classificam-nas na moldura de categoria correta.',
+          'Clique em Gerar para criar o layout de classificação em duas partes. A aplicação organiza o seu conteúdo em molduras de categoria na parte superior (duas molduras lado a lado com borda tracejada e preenchimento #FAFAFA) e uma grelha de recortes misturada por baixo (células brancas com bordas tracejadas #666). Um cabeçalho estilizado «Classificação de Imagens» aparece no topo com um fundo verde-menta (#4DB6AC), título verde-azulado (#00796B) na fonte Fredoka e descrição laranja (#FF7043) na fonte Quicksand. Uma borda exterior verde-azulada (#26A69A, 8 px) emoldura toda a página. A grelha de recortes apresenta todas as imagens em ordem aleatória — os usuários recortam-nas e classificam-nas na moldura de categoria correta.',
       },
       {
         title: 'Gere o Gabarito e Descarregue',
         description:
-          'Mude para o separador Gabarito para ver a solução autogerada com imagens 6× maiores organizadas nas suas caixas de categorias corretas, apresentadas num máximo de 2 colunas por caixa. Descarregue ambas as versões com quatro botões dedicados: Ficha JPEG, Gabarito JPEG, Ficha PDF e Gabarito PDF. Os ficheiros são exportados a 300 DPI com qualidade JPEG de 1.0. Ative o modo escala de cinzentos para versões económicas em tinta. Cada exportação está pronta para produção em lojas Etsy, interiores Amazon KDP e ficheiros TPT.',
+          'Mude para o separador Gabarito para ver a solução autogerada com imagens 6× maiores organizadas nas suas caixas de categorias corretas, apresentadas num máximo de 2 colunas por caixa. Descarregue ambas as versões com quatro botões dedicados: Ficha JPEG, Gabarito JPEG, Ficha PDF e Gabarito PDF. Os ficheiros são exportados a 300 DPI com qualidade JPEG de 1.0. Ative o modo escala de cinzentos para versões económicas em tinta. Cada exportação está pronta para produção em lojas Etsy, interiores Amazon KDP e ficheiros Gumroad.',
       },
     ],
   },
@@ -86,14 +86,14 @@ const content: AppContent = {
           'Explore 104 coleções de imagens temáticas que cobrem animais, alimentos, veículos, natureza, profissões, festividades, desportos, estações e dezenas mais. Cada tema fornece um conjunto coordenado de ilustrações coloridas que funcionam como categorias de classificação. Filtre por tema usando o menu suspenso ou pesquise imagens específicas por palavra-chave. A seleção de categorias por tema facilita a criação de fichas de classificação com pares de categorias naturais — animais terrestres vs animais marinhos, comida saudável vs comida de plástico, artigos de verão vs artigos de inverno. A Licença Comercial inclui 10 temas coloridos; o Acesso Completo desbloqueia os 104 temas para máxima variedade criativa.',
       },
       {
-        title: 'Campos de Nome e Data para Responsabilidade em Sala de Aula',
+        title: 'Campos de Nome e Data para Responsabilidade online',
         description:
-          'Marque a caixa «Incluir Campos de Nome/Data» no painel Configuração de Página para adicionar linhas de nome e data à ficha de classificação. Estes campos asseguram a responsabilidade dos alunos em sala de aula e tornam as fichas prontas para recolha e avaliação sem qualquer preparação adicional. Os professores que procuram atividades de classificação valorizam fichas que chegam prontas para usar, e a opção de nome/data torna os seus produtos mais atrativos para o mercado educativo no TPT e na Etsy.',
+          'Marque a caixa «Incluir Campos de Nome/Data» no painel Configuração de Página para adicionar linhas de nome e data à ficha de classificação. Estes campos asseguram a responsabilidade dos usuários online e tornam as fichas prontas para recolha e avaliação sem qualquer preparação adicional. Os vendedores que procuram atividades de classificação valorizam fichas que chegam prontas para usar, e a opção de nome/data torna os seus produtos mais atrativos para o mercado educativo no Gumroad e na Etsy.',
       },
       {
         title: 'Exportação PDF e JPEG Pronta para Impressão a 300 DPI com Modo Escala de Cinzentos',
         description:
-          'Descarregue fichas de classificação e gabaritos como imagens JPEG de alta resolução ou documentos PDF prontos para impressão renderizados a 300 DPI com qualidade JPEG de 1.0 e orientação automática. Quatro botões de descarga dedicados exportam a Ficha JPEG, o Gabarito JPEG, a Ficha PDF e o Gabarito PDF separadamente. Os formatos de página incluem Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) e dimensões completamente personalizadas. Ative a escala de cinzentos para versões económicas em tinta. Cada exportação está pronta para produção: downloads digitais, cadernos impressos e materiais de sala de aula.',
+          'Descarregue fichas de classificação e gabaritos como imagens JPEG de alta resolução ou documentos PDF prontos para impressão renderizados a 300 DPI com qualidade JPEG de 1.0 e orientação automática. Quatro botões de descarga dedicados exportam a Ficha JPEG, o Gabarito JPEG, a Ficha PDF e o Gabarito PDF separadamente. Os formatos de página incluem Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) e dimensões completamente personalizadas. Ative a escala de cinzentos para versões económicas em tinta. Cada exportação está pronta para produção: downloads digitais, cadernos impressos e materiais de loja.',
       },
       {
         title: 'Edição Completa do Canvas com Ferramentas de Texto, Alinhamento e Controlos de Camadas',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Atividades de Classificação para Sala de Aula no TPT',
+        title: 'Atividades de Classificação para loja no Gumroad',
         description:
-          'Crie fichas de classificação prontas para usar com campos de nome/data e gabaritos impressos. Os professores que procuram atividades de classificação no TPT valorizam fichas que chegam prontas para a sala de aula — o campo de nome assegura a responsabilidade do aluno, as molduras de categoria fornecem destinos de classificação claros, e o gabarito autogerado poupa tempo de preparação. Crie conjuntos alinhados com o currículo: vivo vs não vivo, comida saudável vs comida de plástico, animais diurnos vs noturnos, roupa de tempo quente vs frio. Cada conjunto inclui fichas para alunos e gabaritos nos formatos PDF e JPEG.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Crie fichas de classificação prontas para usar com campos de nome/data e gabaritos impressos. Os vendedores que procuram atividades de classificação no Gumroad valorizam fichas que chegam prontas para a loja — o campo de nome assegura a responsabilidade do usuário, as molduras de categoria fornecem destinos de classificação claros, e o gabarito autogerado poupa tempo de preparação. Crie conjuntos alinhados com o catálogo de produtos: vivo vs não vivo, comida saudável vs comida de plástico, animais diurnos vs noturnos, roupa de tempo quente vs frio. Cada conjunto inclui fichas para usuários e gabaritos nos formatos PDF e JPEG.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Coleções de Classificação Sazonais e de Festividades',
         description:
-          'As 104 coleções de imagens temáticas cobrem cada ocasião sazonal e festiva — Natal, Halloween, Páscoa, Dia dos Namorados, regresso às aulas, férias de verão e mais. Crie fichas de classificação sazonais onde os alunos classifiquem artigos festivos em categorias: decorações de Natal vs comida de Natal, disfarces de Halloween vs doces de Halloween, atividades de verão vs atividades de inverno. Lance pacotes de classificação de Halloween em setembro, coleções de Natal em outubro e pacotes do Dia dos Namorados em janeiro. Os produtos sazonais alcançam preços mais altos durante as janelas de máxima procura e criam razões naturais para compras recorrentes.',
-        platform: 'Etsy / Amazon KDP / TPT (sazonal)',
+          'As 104 coleções de imagens temáticas cobrem cada ocasião sazonal e festiva — Natal, Halloween, Páscoa, Dia dos Namorados, regresso às aulas, férias de verão e mais. Crie fichas de classificação sazonais onde os usuários classifiquem artigos festivos em categorias: decorações de Natal vs comida de Natal, disfarces de Halloween vs doces de Halloween, atividades de verão vs atividades de inverno. Lance pacotes de classificação de Halloween em setembro, coleções de Natal em outubro e pacotes do Dia dos Namorados em janeiro. Os produtos sazonais alcançam preços mais altos durante as janelas de máxima procura e criam razões naturais para compras recorrentes.',
+        platform: 'Etsy / Amazon KDP / Gumroad (sazonal)',
       },
       {
         title: 'Fichas de Classificação Multilingues para os Mercados PLE e Bilingue',
         description:
-          'Aproveite as etiquetas de categoria sensíveis ao idioma para criar fichas de classificação em 11 idiomas. As mesmas imagens produzem etiquetas de categoria diferentes ao mudar de idioma — os nomes das imagens e o cabeçalho «Classificação de Imagens» atualizam-se automaticamente. Crie pacotes de classificação multilingues onde cada versão linguística usa as mesmas imagens temáticas mas com texto localizado. Isto é particularmente valioso para professores de PLE, salas de aula bilingues e famílias de ensino doméstico internacionais. Venda pacotes por idioma ou megapacotes multilingues a preços premium na Etsy e no TPT.',
-        platform: 'Etsy / TPT (mercado multilingue)',
+          'Aproveite as etiquetas de categoria sensíveis ao idioma para criar fichas de classificação em 11 idiomas. As mesmas imagens produzem etiquetas de categoria diferentes ao mudar de idioma — os nomes das imagens e o cabeçalho «Classificação de Imagens» atualizam-se automaticamente. Crie pacotes de classificação multilingues onde cada versão linguística usa as mesmas imagens temáticas mas com texto localizado. Isto é particularmente valioso para vendedores de PLE, salas de aula bilingues e famílias de ensino doméstico internacionais. Venda pacotes por idioma ou megapacotes multilingues a preços premium na Etsy e no Gumroad.',
+        platform: 'Etsy / Gumroad (mercado multilingue)',
       },
     ],
   },
@@ -143,12 +143,12 @@ const content: AppContent = {
     {
       question: 'Como funciona o mecanismo de classificação a duas categorias?',
       answer:
-        'Cada ficha de classificação tem exatamente duas categorias — esquerda e direita. A ficha apresenta duas molduras de categoria com borda tracejada na parte superior onde os alunos classificam as suas imagens, e uma grelha de recortes misturada por baixo com todas as imagens misturadas. Os alunos recortam as imagens da grelha e colocam cada uma na moldura de categoria correta. O formato de duas categorias cria um exercício de classificação binária claro que funciona para qualquer tema — animais vs alimentos, terra vs água, vivo vs não vivo, e milhares de outras combinações.',
+        'Cada ficha de classificação tem exatamente duas categorias — esquerda e direita. A ficha apresenta duas molduras de categoria com borda tracejada na parte superior onde os usuários classificam as suas imagens, e uma grelha de recortes misturada por baixo com todas as imagens misturadas. Os usuários recortam as imagens da grelha e colocam cada uma na moldura de categoria correta. O formato de duas categorias cria um exercício de classificação binária claro que funciona para qualquer tema — animais vs alimentos, terra vs água, vivo vs não vivo, e milhares de outras combinações.',
     },
     {
       question: 'Qual é a diferença entre o modo de tema e o modo manual?',
       answer:
-        'O modo de tema permite-lhe escolher um tema para a categoria esquerda e um tema diferente para a categoria direita. A aplicação seleciona automaticamente 4 a 6 imagens aleatórias por tema a partir da biblioteca de imagens, criando fichas com 8 a 12 imagens no total. O modo manual dá-lhe controlo total: seleciona individualmente as imagens de qualquer tema e atribui cada uma à categoria esquerda ou direita. O modo de tema é mais rápido para produção em massa; o modo manual é ideal para criar atividades de classificação específicas alinhadas com o currículo.',
+        'O modo de tema permite-lhe escolher um tema para a categoria esquerda e um tema diferente para a categoria direita. A aplicação seleciona automaticamente 4 a 6 imagens aleatórias por tema a partir da biblioteca de imagens, criando fichas com 8 a 12 imagens no total. O modo manual dá-lhe controlo total: seleciona individualmente as imagens de qualquer tema e atribui cada uma à categoria esquerda ou direita. O modo de tema é mais rápido para produção em massa; o modo manual é ideal para criar atividades de classificação específicas alinhadas com o catálogo de produtos.',
     },
     {
       question: 'Quantas imagens posso incluir em cada ficha de classificação?',
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: 'Como funciona a grelha de recortes misturada?',
       answer:
-        'A grelha de recortes ocupa os 55 % inferiores da área de conteúdo e apresenta todas as imagens selecionadas em ordem aleatória. As imagens aparecem em células brancas com bordas tracejadas #666 e cantos arredondados de 4 px, dispostas em 3 a 4 colunas conforme o número total de imagens. Cada imagem ocupa 85 % da sua célula. Os alunos recortam as imagens ao longo das linhas tracejadas e classificam-nas na moldura de categoria correta acima. A mistura aleatória garante que os alunos realmente classifiquem cada imagem em vez de copiar um padrão.',
+        'A grelha de recortes ocupa os 55 % inferiores da área de conteúdo e apresenta todas as imagens selecionadas em ordem aleatória. As imagens aparecem em células brancas com bordas tracejadas #666 e cantos arredondados de 4 px, dispostas em 3 a 4 colunas conforme o número total de imagens. Cada imagem ocupa 85 % da sua célula. Os usuários recortam as imagens ao longo das linhas tracejadas e classificam-nas na moldura de categoria correta acima. A mistura aleatória garante que os usuários realmente classifiquem cada imagem em vez de copiar um padrão.',
     },
     {
       question: 'Como funciona o gabarito autogerado?',
@@ -178,7 +178,7 @@ const content: AppContent = {
     {
       question: 'Posso incluir campos de nome e data nas fichas de classificação?',
       answer:
-        'Sim. Marque a caixa «Incluir Campos de Nome/Data» no painel Configuração de Página para adicionar linhas de nome e data à ficha. Estes campos asseguram a responsabilidade dos alunos em sala de aula e tornam as suas fichas de classificação prontas para recolha e avaliação sem qualquer preparação adicional.',
+        'Sim. Marque a caixa «Incluir Campos de Nome/Data» no painel Configuração de Página para adicionar linhas de nome e data à ficha. Estes campos asseguram a responsabilidade dos usuários online e tornam as suas fichas de classificação prontas para recolha e avaliação sem qualquer preparação adicional.',
     },
     {
       question: 'Existe um teste grátis?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Posso vender fichas de classificação criadas com esta ferramenta na Etsy e Amazon KDP?',
       answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas de classificação como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos educativos no TPT ou através de qualquer outro canal de venda. O mecanismo de classificação a duas categorias, os gabaritos autogerados e as 104 coleções de imagens temáticas dão-lhe as ferramentas criativas para produzir produtos de atividades de classificação originais e vendáveis.',
+        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas de classificação como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos educativos no Gumroad ou através de qualquer outro canal de venda. O mecanismo de classificação a duas categorias, os gabaritos autogerados e as 104 coleções de imagens temáticas dão-lhe as ferramentas criativas para produzir produtos de atividades de classificação originais e vendáveis.',
     },
     {
       question: 'Qual é a política de reembolso?',

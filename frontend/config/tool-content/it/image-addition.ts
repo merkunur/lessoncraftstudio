@@ -1,26 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'creare schede addizione per la classe',
+    primaryKeyword: 'creare schede addizione per il negozio',
     secondaryKeywords: [
-      'creatore di schede addizione per insegnanti',
+      'creatore di schede addizione per venditori',
       'schede addizione matematica per bambini',
       'esercizi di addizione stampabili',
       'schede addizione con immagini per la scuola materna',
     ],
     lsiKeywords: [
-      'schede matematiche visive per la classe',
+      'schede matematiche visive per il negozio',
       'esercizi di addizione con immagini per bambini',
-      'schede matematiche scuola materna per insegnanti',
+      'schede matematiche scuola materna per venditori',
     ],
-    titleTag: 'Creare Schede Addizione — Per Insegnanti',
-    metaDescription: 'Crea schede di addizione con immagini tematiche per la classe. 104 temi, 4 modalità, chiave di correzione e PDF stampabili. Prova gratuita con filigrana.',
+    titleTag: 'Creare Schede Addizione — Per venditori',
+    metaDescription: 'Crea schede di addizione con immagini tematiche per il negozio. 104 temi, 4 modalità, chiave di valore percepito e PDF stampabili. Prova gratuita con filigrana.',
     },
 
   hero: {
     title: 'Generatore di Schede di Addizione',
     tagline: 'Crea schede di addizione illustrate e professionali in meno di 60 secondi',
-    description: 'Trasforma gli esercizi di matematica in un\'avventura visuale che entusiasma i bambini e genera entrate solide per i venditori. Con questo potente strumento crei schede di addizione personalizzate con immagini tematiche che i bambini vogliono davvero completare. Scegli tra oltre 100 temi con più di 3.100 illustrazioni selezionate a mano, imposta il livello di difficoltà attraverso quattro modalità di esercizio, definisci il layout della pagina in ogni dettaglio e scarica PDF pronti per la stampa o JPEG ad alta risoluzione. Perfetto per venditori Etsy che creano prodotti stampabili di matematica, editori Amazon KDP che compilano libri di attività e insegnanti che necessitano di materiali differenziati per vari livelli di competenza. La prova gratuita include una filigrana sui download. Acquista una licenza commerciale per rimuovere la filigrana e vendere le tue schede su qualsiasi piattaforma.',
+    description: 'Trasforma gli esercizi di matematica in un\'avventura visuale che entusiasma i bambini e genera entrate solide per i venditori. Con questo potente strumento crei schede di addizione personalizzate con immagini tematiche che i bambini vogliono davvero completare. Scegli tra oltre 100 temi con più di 3.100 illustrazioni selezionate a mano, imposta il livello di difficoltà attraverso quattro modalità di esercizio, definisci il layout della pagina in ogni dettaglio e scarica PDF pronti per la stampa o JPEG ad alta risoluzione. Perfetto per venditori Etsy che creano prodotti stampabili di matematica, editori Amazon KDP che compilano libri di attività e venditori che necessitano di materiali differenziati per vari livelli di competenza. La prova gratuita include una filigrana sui download. Acquista una licenza commerciale per rimuovere la filigrana e vendere le tue schede su qualsiasi piattaforma.',
   },
 
   tutorial: {
@@ -32,7 +32,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Scegli la modalità di esercizio',
-        description: 'Apri il pannello "Configurazione esercizi" e seleziona tra quattro potenti modalità: Immagine + Immagine mostra entrambi gli addendi come gruppi di immagini, permettendo agli alunni di contare e sommare in modo puramente visuale. Immagine + Numero combina un gruppo di immagini con una cifra, creando il ponte tra pensiero concreto e astratto. Trova il Sommando mostra la somma e un gruppo — la parte mancante deve essere individuata, stimolando il pensiero pre-algebrico. La Modalità Mista combina casualmente tutti e tre gli stili su un unico foglio per la massima varietà.',
+        description: 'Apri il pannello "Configurazione esercizi" e seleziona tra quattro potenti modalità: Immagine + Immagine mostra entrambi gli addendi come gruppi di immagini, permettendo agli utenti di contare e sommare in modo puramente visuale. Immagine + Numero combina un gruppo di immagini con una cifra, creando il ponte tra pensiero concreto e astratto. Trova il Sommando mostra la somma e un gruppo — la parte mancante deve essere individuata, stimolando il pensiero pre-algebrico. La Modalità Mista combina casualmente tutti e tre gli stili su un unico foglio per la massima varietà.',
       },
       {
         title: 'Imposta il livello di difficoltà',
@@ -48,15 +48,15 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Aggiungi testo e titoli',
-        description: 'Usa il pannello "Strumenti testo" per aggiungere un titolo efficace, un campo nome per l\'alunno, un campo data o istruzioni personalizzate. Scegli tra caratteri adatti ai bambini come Fredoka, Baloo 2, Quicksand e Nunito. Regola dimensione del carattere, colore e contorno opzionale del testo per una migliore leggibilità sugli sfondi. Aggiungi il nome del tuo negozio o un avviso di copyright per rendere il tuo marchio visibile su ogni scheda.',
+        description: 'Usa il pannello "Strumenti testo" per aggiungere un titolo efficace, un campo nome per l\'utente, un campo data o istruzioni personalizzate. Scegli tra caratteri accattivanti come Fredoka, Baloo 2, Quicksand e Nunito. Regola dimensione del carattere, colore e contorno opzionale del testo per una migliore leggibilità sugli sfondi. Aggiungi il nome del tuo negozio o un avviso di copyright per rendere il tuo marchio visibile su ogni scheda.',
       },
       {
         title: 'Perfeziona le opzioni della scheda',
-        description: 'Ottimizza la tua scheda con pratiche caselle di controllo: attiva i campi Nome e Data in cima alla pagina, mostra o nascondi il segno più tra i gruppi di immagini, aggiungi numeri progressivi agli esercizi e attiva o disattiva lo stile a misura di bambino per le caselle delle risposte. Ogni singola modifica aggiorna l\'anteprima in tempo reale sull\'area di lavoro, permettendoti di valutare il risultato istantaneamente.',
+        description: 'Ottimizza la tua scheda con pratiche caselle di controllo: attiva i campi Nome e Data in cima alla pagina, mostra o nascondi il segno più tra i gruppi di immagini, aggiungi numeri progressivi agli esercizi e attiva o disattiva lo stile chiaro e leggibile per le caselle delle risposte. Ogni singola modifica aggiorna l\'anteprima in tempo reale sull\'area di lavoro, permettendoti di valutare il risultato istantaneamente.',
       },
       {
         title: 'Genera e scarica',
-        description: 'Clicca il pulsante "Genera" per creare la tua scheda completata. L\'anteprima si aggiorna in tempo reale sull\'area di lavoro. Quando sei soddisfatto del risultato, usa il menu a tendina "Scarica" per salvare come JPEG (immagine singola per mockup e social media) o PDF (ottimizzato per la stampa e la vendita). Genera e scarica anche una chiave di correzione corrispondente con tutte le soluzioni inserite — indispensabile per pacchetti di prodotti professionali.',
+        description: 'Clicca il pulsante "Genera" per creare la tua scheda completata. L\'anteprima si aggiorna in tempo reale sull\'area di lavoro. Quando sei soddisfatto del risultato, usa il menu a tendina "Scarica" per salvare come JPEG (immagine singola per mockup e social media) o PDF (ottimizzato per la stampa e la vendita). Genera e scarica anche una chiave di valore percepito corrispondente con tutte le soluzioni inserite — indispensabile per pacchetti di prodotti professionali.',
       },
     ],
   },
@@ -64,11 +64,11 @@ const content: ToolContent = {  seo: {
   whatYouCanCreate: [
     {
       title: 'Pacchetti di attività di addizione tematici',
-      description: 'Crea un set di 10–20 schede attorno a un singolo tema — dinosauri, animali della fattoria o creature marine. Raggruppale come pacchetto di attività PDF e vendile su Etsy o Teachers Pay Teachers. I pacchetti tematici sono particolarmente apprezzati da genitori e insegnanti perché mantengono i bambini motivati più a lungo e offrono un quadro contenutistico chiaro. I pacchetti singoli si vendono a 3–5 €, i mega-pacchetti con più temi a 12–18 €.',
+      description: 'Crea un set di 10–20 schede attorno a un singolo tema — dinosauri, animali della fattoria o creature marine. Raggruppale come pacchetto di attività PDF e vendile su Etsy o Gumroad. I pacchetti tematici sono particolarmente apprezzati da genitori e venditori perché mantengono i bambini motivati più a lungo e offrono un quadro contenutistico chiaro. I pacchetti singoli si vendono a 3–5 €, i mega-pacchetti con più temi a 12–18 €.',
     },
     {
       title: 'Set di compiti differenziati',
-      description: 'Genera tre versioni della stessa scheda a diversi livelli di difficoltà: facile (intervallo 1–3), medio (1–5) e difficile (1–10). Gli insegnanti possono assegnare il livello giusto a ogni alunno senza dedicare tempo extra alla preparazione. I set differenziati ottengono prezzi più alti sulle piattaforme educative perché gli acquirenti riconoscono subito il valore aggiunto e possono utilizzare i materiali direttamente in classi eterogenee.',
+      description: 'Genera tre versioni della stessa scheda a diversi livelli di difficoltà: facile (intervallo 1–3), medio (1–5) e difficile (1–10). i venditori possono assegnare il livello giusto a ogni utente senza dedicare tempo extra alla preparazione. I set differenziati ottengono prezzi più alti sulle piattaforme educative perché gli acquirenti riconoscono subito il valore aggiunto e possono utilizzare i materiali direttamente in negozi eterogenee.',
     },
     {
       title: 'Pacchetti matematici stagionali',
@@ -79,12 +79,12 @@ const content: ToolContent = {  seo: {
       description: 'Genera 50–100 pagine di schede di addizione in Modalità Mista con difficoltà progressiva, esporta come PDF ad alta risoluzione e pubblica come libro di attività low-content su Amazon KDP. Il formato quadrato (1200×1200 pixel) è ideale per i libri di attività KDP. Aggiungi una copertina accattivante, una pagina di istruzioni e una sezione soluzioni alla fine. I libri di attività KDP per bambini dai 3 ai 7 anni si vendono con costanza durante tutto l\'anno.',
     },
     {
-      title: 'Pacchetti per il lavoro mattutino in classe',
-      description: 'Crea un mese di esercizi di riscaldamento quotidiani sull\'addizione con 20–25 schede. Ogni scheda richiede 5–10 minuti ed è perfetta come attività d\'ingresso o come lavoro autonomo durante le supplenze. Includi la chiave di correzione affinché gli alunni possano autocontrollarsi. I pacchetti mensili possono essere commercializzati come prodotto in abbonamento e generare entrate ricorrenti.',
+      title: 'Pacchetti per il lavoro mattutino online',
+      description: 'Crea un mese di esercizi di riscaldamento quotidiani sull\'addizione con 20–25 schede. Ogni scheda richiede 5–10 minuti ed è perfetta come attività d\'ingresso o come lavoro autonomo durante le supplenze. Includi la chiave di valore percepito affinché gli utenti possano autocontrollarsi. I pacchetti mensili possono essere commercializzati come prodotto in abbonamento e generare entrate ricorrenti.',
     },
     {
       title: 'Schede di matematica multilingue',
-      description: 'Cambia la lingua del contenuto per creare schede con etichette delle immagini in italiano, tedesco, francese, spagnolo, portoghese o una delle 11 lingue supportate. Ideale per classi di italiano L2, famiglie bilingui che praticano l\'istruzione a casa o venditori internazionali che desiderano offrire lo stesso contenuto in più lingue e moltiplicare così il proprio mercato raggiungibile.',
+      description: 'Cambia la lingua del contenuto per creare schede con etichette delle immagini in italiano, tedesco, francese, spagnolo, portoghese o una delle 11 lingue supportate. Ideale per negozi di italiano L2, famiglie bilingui che praticano l\'istruzione a casa o venditori internazionali che desiderano offrire lo stesso contenuto in più lingue e moltiplicare così il proprio mercato raggiungibile.',
     },
   ],
 
@@ -95,9 +95,9 @@ const content: ToolContent = {  seo: {
       platform: 'Etsy',
     },
     {
-      title: 'Venditore su Teachers Pay Teachers',
-      description: 'Carica pacchetti differenziati di schede di addizione su Teachers Pay Teachers. Gli insegnanti cercano costantemente "esercizi di addizione con immagini" e "schede operative matematica". Includi chiavi di correzione, una breve guida per l\'insegnante e suggerimenti per la differenziazione in ogni file per aumentare significativamente il valore percepito e ottenere valutazioni migliori e acquisti ripetuti.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Venditore su Gumroad',
+      description: 'Carica pacchetti scalati per livello di schede di addizione su Gumroad. i venditori cercano costantemente "esercizi di addizione con immagini" e "schede operative matematica". Includi chiavi di valore percepito, una breve guida per l\'venditore e suggerimenti per la differenziazione in ogni file per aumentare significativamente il valore percepito e ottenere valutazioni migliori e acquisti ripetuti.',
+      platform: 'Gumroad',
     },
     {
       title: 'Libri di attività su Amazon KDP',
@@ -106,16 +106,16 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Materiale integrativo per l\'istruzione a casa',
-      description: 'Crea un curriculum strutturato di addizione di 12 settimane con difficoltà progressiva, partendo da semplici esercizi Immagine + Immagine nell\'intervallo 1–3 fino ad arrivare a esercizi complessi Trova il Sommando nell\'intervallo 1–10. Vendi il curriculum completo come download digitale sul tuo sito web o tramite Gumroad. Le famiglie che praticano l\'istruzione a casa cercano attivamente materiali matematici visivi e pratici.',
+      description: 'Crea un catalogo prodotti strutturato di addizione di 12 settimane con difficoltà progressiva, partendo da semplici esercizi Immagine + Immagine nell\'intervallo 1–3 fino ad arrivare a esercizi complessi Trova il Sommando nell\'intervallo 1–10. Vendi il catalogo prodotti completo come download digitale sul tuo sito web o tramite Gumroad. Le famiglie che praticano l\'istruzione a casa cercano attivamente materiali matematici visivi e pratici.',
       platform: 'Gumroad',
     },
     {
       title: 'Biblioteca di risorse per ripetizioni e doposcuola',
-      description: 'Se gestisci un centro di ripetizioni o doposcuola, genera schede individuali per ogni sessione, calibrate sul livello attuale dell\'alunno. Il formato basato sulle immagini mantiene i giovani studenti concentrati mentre puoi monitorare con precisione su quali intervalli numerici hanno difficoltà. Usa la chiave di correzione automatica per una correzione immediata e una valutazione dei progressi senza tempo aggiuntivo.',
+      description: 'Se gestisci un centro di ripetizioni o doposcuola, genera schede individuali per ogni sessione, calibrate sul livello attuale dell\'utente. Il formato basato sulle immagini mantiene i giovani utenti concentrati mentre puoi monitorare con precisione su quali intervalli numerici hanno difficoltà. Usa la chiave di valore percepito automatica per una verifica immediata e una valutazione dei progressi senza tempo aggiuntivo.',
     },
     {
       title: 'Lead magnet sui social media per acquisire clienti',
-      description: 'Offri un pacchetto campione di prova gratuita con filigrana di 5 schede di addizione come lead magnet su Instagram o Pinterest. Raccogli indirizzi email di genitori e insegnanti interessati e successivamente vendi i tuoi pacchetti tematici completi tramite email marketing. Le schede visive con immagini colorate creano pin e post particolarmente accattivanti che portano traffico organico al tuo negozio.',
+      description: 'Offri un pacchetto campione di prova gratuita con filigrana di 5 schede di addizione come lead magnet su Instagram o Pinterest. Raccogli indirizzi email di genitori e venditori interessati e successivamente vendi i tuoi pacchetti tematici completi tramite email marketing. Le schede visive con immagini colorate creano pin e post particolarmente accattivanti che portano traffico organico al tuo negozio.',
     },
   ],
 
@@ -129,8 +129,8 @@ const content: ToolContent = {  seo: {
       description: 'I prodotti stagionali superano quelli evergreen nei periodi di punta. Crea pacchetti di addizione con zucche a settembre, pupazzi di neve a novembre, coniglietti pasquali a febbraio e fiori a marzo. Pubblica i tuoi prodotti stagionali 2–3 settimane prima dell\'inizio della stagione per raggiungere gli acquirenti anticipati e costruire rilevanza nella ricerca Etsy con largo anticipo.',
     },
     {
-      title: 'Includi sempre la chiave di correzione',
-      description: 'Clicca su "Genera chiave di correzione" prima di scaricare la tua scheda. Gli acquirenti su Etsy e Teachers Pay Teachers valutano sistematicamente meglio i prodotti che includono una chiave di correzione. Ci vogliono solo 10 secondi in più e migliora significativamente le tue valutazioni, gli acquisti ripetuti e il tasso di raccomandazione.',
+      title: 'Includi sempre la chiave di valore percepito',
+      description: 'Clicca su "Genera chiave di valore percepito" prima di scaricare la tua scheda. Gli acquirenti su Etsy e Gumroad valutano sistematicamente meglio i prodotti che includono una chiave di valore percepito. Ci vogliono solo 10 secondi in più e migliora significativamente le tue valutazioni, gli acquisti ripetuti e il tasso di raccomandazione.',
     },
     {
       title: 'Esporta sia PDF che JPEG',
@@ -138,11 +138,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Inizia con intervalli numerici bassi',
-      description: 'Per i prodotti destinati alla scuola dell\'infanzia e alla prima elementare, mantieni il numero massimo per gruppo tra 3 e 5. I bambini piccoli si sentono sopraffatti dai numeri grandi e perdono la motivazione. Crea versioni separate "Facile" e "Sfida" di ogni scheda affinché genitori e insegnanti possano scegliere con flessibilità il livello appropriato.',
+      description: 'Per i prodotti destinati alla scuola dell\'infanzia e alla prima elementare, mantieni il numero massimo per gruppo tra 3 e 5. I bambini piccoli si sentono sopraffatti dai numeri grandi e perdono la motivazione. Crea versioni separate "Facile" e "Sfida" di ogni scheda affinché genitori e venditori possano scegliere con flessibilità il livello appropriato.',
     },
     {
       title: 'Aggiungi testo personalizzato per il branding',
-      description: 'Usa gli strumenti testo per aggiungere il nome del tuo negozio, un avviso di copyright o un messaggio motivazionale in fondo a ogni scheda. Questo branding discreto rafforza notevolmente il riconoscimento del tuo marchio quando un cliente condivide la tua scheda con altri genitori, insegnanti o sui social media. Un branding coerente su tutti i prodotti crea fiducia e favorisce gli acquisti ripetuti.',
+      description: 'Usa gli strumenti testo per aggiungere il nome del tuo negozio, un avviso di copyright o un messaggio motivazionale in fondo a ogni scheda. Questo branding discreto rafforza notevolmente il riconoscimento del tuo marchio quando un cliente condivide la tua scheda con altri genitori, venditori o sui social media. Un branding coerente su tutti i prodotti crea fiducia e favorisce gli acquisti ripetuti.',
     },
     {
       title: 'Sfrutta al massimo la libreria di cornici e sfondi',
@@ -157,11 +157,11 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Quali formati di file posso scaricare?',
-      answer: 'Puoi scaricare le schede come immagini JPEG ad alta risoluzione o file PDF ottimizzati per la stampa. Sia la scheda che la chiave di correzione corrispondente sono disponibili in entrambi i formati. I PDF sono ideali per la stampa diretta e come formato di consegna per i prodotti digitali. I JPEG sono perfetti per mockup dei prodotti, post sui social media e anteprime per il negozio.',
+      answer: 'Puoi scaricare le schede come immagini JPEG ad alta risoluzione o file PDF ottimizzati per la stampa. Sia la scheda che la chiave di valore percepito corrispondente sono disponibili in entrambi i formati. I PDF sono ideali per la stampa diretta e come formato di consegna per i prodotti digitali. I JPEG sono perfetti per mockup dei prodotti, post sui social media e anteprime per il negozio.',
     },
     {
       question: 'Posso usare le schede per scopi commerciali?',
-      answer: 'La prova gratuita con filigrana è destinata esclusivamente all\'uso personale e didattico. Per vendere schede su Etsy, Teachers Pay Teachers, Amazon KDP o qualsiasi altro marketplace, è necessaria una licenza commerciale. La licenza commerciale rimuove la filigrana e concede pieni diritti di rivendita per tutte le schede da te create, senza royalty o canoni mensili.',
+      answer: 'La prova gratuita con filigrana è destinata esclusivamente all\'uso personale e didattico. Per vendere schede su Etsy, Gumroad, Amazon KDP o qualsiasi altro marketplace, è necessaria una licenza commerciale. La licenza commerciale rimuove la filigrana e concede pieni diritti di rivendita per tutte le schede da te create, senza royalty o canoni mensili.',
     },
     {
       question: 'Quanti temi di immagini sono disponibili?',
@@ -180,8 +180,8 @@ const content: ToolContent = {  seo: {
       answer: 'No. Il generatore funziona interamente nel tuo browser web su qualsiasi dispositivo moderno — Windows, Mac, Chromebook, iPad o tablet Android. Non c\'è nulla da installare, nessun plugin richiesto e nessun account da creare. Apri semplicemente la pagina e inizia subito.',
     },
     {
-      question: 'Posso generare una chiave di correzione?',
-      answer: 'Sì. Dopo aver generato una scheda, clicca su "Genera chiave di correzione" per creare un foglio di soluzioni corrispondente con tutte le risposte compilate. Puoi scaricare la chiave di correzione come file JPEG o PDF separato. Particolarmente utile per insegnanti che necessitano di correzione rapida e per venditori che vogliono includere le chiavi di correzione come valore aggiunto nei loro pacchetti di prodotti.',
+      question: 'Posso generare una chiave di valore percepito?',
+      answer: 'Sì. Dopo aver generato una scheda, clicca su "Genera chiave di valore percepito" per creare un foglio di soluzioni corrispondente con tutte le risposte compilate. Puoi scaricare la chiave di valore percepito come file JPEG o PDF separato. Particolarmente utile per venditori che necessitano di valore percepito rapida e per venditori che vogliono includere le chiavi di valore percepito come valore aggiunto nei loro pacchetti di prodotti.',
     },
     {
       question: 'Quali dimensioni di pagina sono supportate?',

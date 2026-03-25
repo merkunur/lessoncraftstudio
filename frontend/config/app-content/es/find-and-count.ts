@@ -7,7 +7,7 @@ const content: AppContent = {
       'generador de fichas de objetos ocultos imprimibles para vendedores Etsy',
       'creador de fichas yo espío para editores Amazon KDP',
       'generador de fichas busca y cuenta con licencia comercial',
-      'vender fichas de busca y encuentra en Teachers Pay Teachers',
+      'vender fichas de busca y encuentra en Gumroad',
     ],
     lsiKeywords: [
       'productos digitales yo espío para emprendedores',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Generador Fichas Busca y Encuentra | Crear y Vender',
     metaDescription:
-      'Crea fichas yo espío de busca y cuenta para Etsy, KDP y TPT. 4 tipos de tarea, modo Identificación de Letras, clave de respuesta auto, 104 temas.',
+      'Crea fichas yo espío de busca y cuenta para Etsy, KDP y Gumroad. 4 tipos de tarea, modo Identificación de Letras, clave de respuesta auto, 104 temas.',
   },
 
   hero: {
     title: 'Generador de Fichas Busca y Encuentra para Actividades Yo Espío Imprimibles',
     tagline: 'Dos modos de actividad en un solo generador — Objeto Oculto Yo Espío e Identificación de Letras — con cuatro tipos de tarea combinables (rodear, cuadrado, tachar, contar), alfabetos específicos por idioma con letras acentuadas, etiquetas de nombres de imágenes localizadas en 11 idiomas y claves de respuesta autogeneradas con anotaciones visuales.',
     description:
-      'Crea fichas profesionales de busca y encuentra donde los alumnos buscan en una escena de imágenes dispersas para encontrar, rodear, tachar o contar objetos específicos. Elige entre dos modos de actividad: el modo Objeto Oculto dispersa imágenes en una cuadrícula configurable (5–10 filas × 5–10 columnas) y te permite asignar hasta 4 objetos objetivo con tipos de tarea individuales — rodear con un círculo, rodear con un cuadrado, tachar o contar cuántos aparecen. El modo Identificación de Letras muestra una cuadrícula de alfabeto específica por idioma con letras acentuadas (alemán ÄÖÜ, español Ñ, sueco ÅÄÖ, danés/noruego ÆØÅ) y genera escenas yo espío usando imágenes que empiezan con la letra seleccionada. Cada ficha incluye un encabezado autogenerado — «Yo Espío» o «Identificación de Letras» — localizado en los 11 idiomas compatibles con un borde azul (#2196F3). El sistema de doble lienzo genera tanto una pestaña de ficha como una pestaña de clave de respuesta con anotaciones rojas de círculo, cuadrado y cruz más conteos de cantidad. El Generador de Busca y Encuentra es sensible al idioma: las etiquetas de nombres de imágenes en la ficha se muestran en el idioma seleccionado a través del sistema de Vocabulario de Imágenes. El Acceso Completo desbloquea los 104 temas con más de 3100 ilustraciones y los 11 idiomas de interfaz para etiquetas localizadas. Añade temas de fondo y borde con controles de opacidad independientes, y exporta PDF y JPEG listos para imprimir a 300 DPI en formato Carta, A4, Cuadrado (1200×1200) o tamaños personalizados. Ya sea que vendas packs de actividades yo espío en Etsy, compiles cuadernos de objetos ocultos para Amazon KDP o crees actividades de conteo para TPT, este generador ofrece fichas listas para producción en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Crea fichas profesionales de busca y encuentra donde los usuarios buscan en una escena de imágenes dispersas para encontrar, rodear, tachar o contar objetos específicos. Elige entre dos modos de actividad: el modo Objeto Oculto dispersa imágenes en una cuadrícula configurable (5–10 filas × 5–10 columnas) y te permite asignar hasta 4 objetos objetivo con tipos de tarea individuales — rodear con un círculo, rodear con un cuadrado, tachar o contar cuántos aparecen. El modo Identificación de Letras muestra una cuadrícula de alfabeto específica por idioma con letras acentuadas (alemán ÄÖÜ, español Ñ, sueco ÅÄÖ, danés/noruego ÆØÅ) y genera escenas yo espío usando imágenes que empiezan con la letra seleccionada. Cada ficha incluye un encabezado autogenerado — «Yo Espío» o «Identificación de Letras» — localizado en los 11 idiomas compatibles con un borde azul (#2196F3). El sistema de doble lienzo genera tanto una pestaña de ficha como una pestaña de clave de respuesta con anotaciones rojas de círculo, cuadrado y cruz más conteos de cantidad. El Generador de Busca y Encuentra es sensible al idioma: las etiquetas de nombres de imágenes en la ficha se muestran en el idioma seleccionado a través del sistema de Vocabulario de Imágenes. El Acceso Completo desbloquea los 104 temas con más de 3100 ilustraciones y los 11 idiomas de interfaz para etiquetas localizadas. Añade temas de fondo y borde con controles de opacidad independientes, y exporta PDF y JPEG listos para imprimir a 300 DPI en formato Carta, A4, Cuadrado (1200×1200) o tamaños personalizados. Ya sea que vendas packs de actividades yo espío en Etsy, compiles cuadernos de objetos ocultos para Amazon KDP o crees actividades de conteo para Gumroad, este generador ofrece fichas listas para producción en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Elige tu Modo de Actividad',
         description:
-          'Selecciona entre dos modos. El modo Objeto Oculto (predeterminado) crea escenas clásicas de yo espío — imágenes dispersas en una cuadrícula donde los alumnos buscan objetos específicos. El modo Identificación de Letras activa una cuadrícula de alfabeto específica por idioma con letras acentuadas y genera escenas usando imágenes que empiezan con la letra seleccionada. El encabezado cambia automáticamente entre «Yo Espío» e «Identificación de Letras» (localizado en los 11 idiomas) según tu selección.',
+          'Selecciona entre dos modos. El modo Objeto Oculto (predeterminado) crea escenas clásicas de yo espío — imágenes dispersas en una cuadrícula donde los usuarios buscan objetos específicos. El modo Identificación de Letras activa una cuadrícula de alfabeto específica por idioma con letras acentuadas y genera escenas usando imágenes que empiezan con la letra seleccionada. El encabezado cambia automáticamente entre «Yo Espío» e «Identificación de Letras» (localizado en los 11 idiomas) según tu selección.',
       },
       {
         title: 'Selecciona Imágenes y Asigna Tipos de Tarea',
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Genera la Clave de Respuesta y Descarga',
         description:
-          'Cambia a la pestaña Clave de Respuesta para ver las anotaciones autogeneradas: círculos rojos alrededor de objetos para rodear, cuadrados rojos alrededor de objetos para encuadrar, cruces rojas sobre objetos tachados y conteos de cantidad para objetos contados. Descarga ambas versiones usando cuatro botones dedicados: Ficha JPEG, Clave de Respuesta JPEG, Ficha PDF y Clave de Respuesta PDF a 300 DPI. Activa escala de grises para versiones que ahorran tinta. Cada exportación está lista para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos TPT.',
+          'Cambia a la pestaña Clave de Respuesta para ver las anotaciones autogeneradas: círculos rojos alrededor de objetos para rodear, cuadrados rojos alrededor de objetos para encuadrar, cruces rojas sobre objetos tachados y conteos de cantidad para objetos contados. Descarga ambas versiones usando cuatro botones dedicados: Ficha JPEG, Clave de Respuesta JPEG, Ficha PDF y Clave de Respuesta PDF a 300 DPI. Activa escala de grises para versiones que ahorran tinta. Cada exportación está lista para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad.',
       },
     ],
   },
@@ -63,17 +63,17 @@ const content: AppContent = {
       {
         title: 'Dos Modos de Actividad: Objeto Oculto Yo Espío e Identificación de Letras',
         description:
-          'Un generador cubre dos formatos de actividad distintos. El modo Objeto Oculto crea escenas clásicas de yo espío donde los alumnos buscan en una cuadrícula de imágenes dispersas para encontrar objetos específicos. El modo Identificación de Letras activa una cuadrícula de alfabeto específica por idioma — inglés A–Z (26 letras), alemán A–Z + ÄÖÜ (29 letras), español A–Z + Ñ (27 letras), sueco/finlandés A–Z + ÅÄÖ (29 letras), danés/noruego A–Z + ÆØÅ (29 letras) — y genera escenas usando imágenes que empiezan con la letra seleccionada. El encabezado cambia automáticamente entre «Yo Espío» e «Identificación de Letras» (localizado en los 11 idiomas) según el modo activo.',
+          'Un generador cubre dos formatos de actividad distintos. El modo Objeto Oculto crea escenas clásicas de yo espío donde los usuarios buscan en una cuadrícula de imágenes dispersas para encontrar objetos específicos. El modo Identificación de Letras activa una cuadrícula de alfabeto específica por idioma — inglés A–Z (26 letras), alemán A–Z + ÄÖÜ (29 letras), español A–Z + Ñ (27 letras), sueco/finlandés A–Z + ÅÄÖ (29 letras), danés/noruego A–Z + ÆØÅ (29 letras) — y genera escenas usando imágenes que empiezan con la letra seleccionada. El encabezado cambia automáticamente entre «Yo Espío» e «Identificación de Letras» (localizado en los 11 idiomas) según el modo activo.',
       },
       {
         title: 'Cuatro Tipos de Tarea: Rodear, Cuadrado, Tachar y Contar — Combinables en Una Ficha',
         description:
-          'Asigna un tipo de tarea diferente a cada uno de los hasta 4 objetos objetivo en una sola ficha. La tarea de rodear pide a los alumnos dibujar un círculo alrededor del objeto. La tarea de cuadrado pide ponerle un cuadrado alrededor. La tarea de tachar pide tacharlo. La tarea de contar pide contar cuántas instancias aparecen y escribir el número. Combina los cuatro tipos de tarea en una ficha para desafíos cognitivos variados, o usa un solo tipo para práctica enfocada. Cada tipo de tarea genera instrucciones localizadas automáticamente.',
+          'Asigna un tipo de tarea diferente a cada uno de los hasta 4 objetos objetivo en una sola ficha. La tarea de rodear pide a los usuarios dibujar un círculo alrededor del objeto. La tarea de cuadrado pide ponerle un cuadrado alrededor. La tarea de tachar pide tacharlo. La tarea de contar pide contar cuántas instancias aparecen y escribir el número. Combina los cuatro tipos de tarea en una ficha para desafíos cognitivos variados, o usa un solo tipo para práctica enfocada. Cada tipo de tarea genera instrucciones localizadas automáticamente.',
       },
       {
         title: 'Alfabetos Específicos por Idioma con Letras Acentuadas para Identificación de Letras',
         description:
-          'El modo Identificación de Letras muestra una cuadrícula de alfabeto adaptada al conjunto de caracteres de cada idioma. El alemán incluye Ä, Ö y Ü junto a las 26 letras estándar. El español añade Ñ. El sueco y finlandés incluyen Å, Ä y Ö. El danés y noruego añaden Æ, Ø y Å. La cuadrícula del alfabeto se muestra en 7 columnas y ajusta automáticamente el número de filas según la cantidad de letras del idioma. Los alumnos seleccionan una letra y el generador crea una escena yo espío usando imágenes que empiezan con esa letra en el idioma seleccionado.',
+          'El modo Identificación de Letras muestra una cuadrícula de alfabeto adaptada al conjunto de caracteres de cada idioma. El alemán incluye Ä, Ö y Ü junto a las 26 letras estándar. El español añade Ñ. El sueco y finlandés incluyen Å, Ä y Ö. El danés y noruego añaden Æ, Ø y Å. La cuadrícula del alfabeto se muestra en 7 columnas y ajusta automáticamente el número de filas según la cantidad de letras del idioma. Los usuarios seleccionan una letra y el generador crea una escena yo espío usando imágenes que empiezan con esa letra en el idioma seleccionado.',
       },
       {
         title: 'Etiquetas de Nombres de Imágenes Localizadas en 11 Idiomas vía Vocabulario de Imágenes',
@@ -93,12 +93,12 @@ const content: AppContent = {
       {
         title: 'Exportación PDF y JPEG Lista para Imprimir a 300 DPI con Escala de Grises',
         description:
-          'Descarga fichas yo espío y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir renderizados a 300 DPI (multiplicador 6×). Cuatro botones de descarga dedicados exportan Ficha JPEG, Clave de Respuesta JPEG, Ficha PDF y Clave de Respuesta PDF por separado. Los tamaños de página incluyen Predeterminado (800×1000), Carta, A4, Cuadrado (1200×1200) y dimensiones totalmente personalizadas. Activa escala de grises para versiones que ahorran tinta y tóner. Cada exportación está lista para producción en descargas digitales, cuadernos impresos y material para el aula.',
+          'Descarga fichas yo espío y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir renderizados a 300 DPI (multiplicador 6×). Cuatro botones de descarga dedicados exportan Ficha JPEG, Clave de Respuesta JPEG, Ficha PDF y Clave de Respuesta PDF por separado. Los tamaños de página incluyen Predeterminado (800×1000), Carta, A4, Cuadrado (1200×1200) y dimensiones totalmente personalizadas. Activa escala de grises para versiones que ahorran tinta y tóner. Cada exportación está lista para producción en descargas digitales, cuadernos impresos y material para venta en línea.',
       },
       {
         title: 'Densidad de Cuadrícula Configurable con 5–10 Filas y 5–10 Columnas',
         description:
-          'Controla la dificultad y densidad visual de tus fichas yo espío ajustando las dimensiones de la cuadrícula. Configura filas de 5 a 10 y columnas de 5 a 10 — el valor predeterminado es 6×6 (36 celdas). Una cuadrícula de 5×5 (25 celdas) crea fichas más fáciles con imágenes más grandes para alumnos más pequeños. Una cuadrícula de 10×10 (100 celdas) crea escenas densas y desafiantes para alumnos avanzados. Cada celda muestra una imagen a un tamaño máximo de 80px, con una reducción de tamaño del 5% aplicada en el modo Identificación de Letras. Los objetos objetivo se distribuyen aleatoriamente en la cuadrícula con 1–5 instancias cada uno.',
+          'Controla la dificultad y densidad visual de tus fichas yo espío ajustando las dimensiones de la cuadrícula. Configura filas de 5 a 10 y columnas de 5 a 10 — el valor predeterminado es 6×6 (36 celdas). Una cuadrícula de 5×5 (25 celdas) crea fichas más fáciles con imágenes más grandes para usuarios más pequeños. Una cuadrícula de 10×10 (100 celdas) crea escenas densas y desafiantes para usuarios avanzados. Cada celda muestra una imagen a un tamaño máximo de 80px, con una reducción de tamaño del 5% aplicada en el modo Identificación de Letras. Los objetos objetivo se distribuyen aleatoriamente en la cuadrícula con 1–5 instancias cada uno.',
       },
     ],
   },
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Actividades de Observación y Conteo para el Aula en TPT',
+        title: 'Actividades de Observación y Conteo para venta en línea en Gumroad',
         description:
-          'Crea fichas yo espío de conteo listas para usar donde los alumnos buscan, encuentran y cuentan objetos en una escena de imágenes dispersas. Los profesores que buscan actividades de conteo en TPT valoran fichas que combinan búsqueda visual con práctica de aritmética. La tarea de contar pide a los alumnos escribir cuántas instancias de cada objeto encuentran — una extensión natural de yo espío hacia habilidades matemáticas. Crea conjuntos alineados con el currículo: conteo de animales de granja, conteo de ayudantes comunitarios, conteo de criaturas marinas y conteo de objetos estacionales. Cada conjunto incluye fichas del alumno y claves de respuesta en formatos PDF y JPEG.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Crea fichas yo espío de conteo listas para usar donde los usuarios buscan, encuentran y cuentan objetos en una escena de imágenes dispersas. Los vendedores que buscan actividades de conteo en Gumroad valoran fichas que combinan búsqueda visual con práctica de aritmética. La tarea de contar pide a los usuarios escribir cuántas instancias de cada objeto encuentran — una extensión natural de yo espío hacia habilidades matemáticas. Crea conjuntos alineados con el catálogo de productos: conteo de animales de granja, conteo de ayudantes comunitarios, conteo de criaturas marinas y conteo de objetos estacionales. Cada conjunto incluye fichas del usuario y claves de respuesta en formatos PDF y JPEG.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Packs de Identificación de Letras y Fonética para Conciencia Alfabética',
         description:
-          'Aprovecha el modo Identificación de Letras para crear fichas yo espío enfocadas en el reconocimiento de la letra inicial. Cada ficha se centra en una letra específica — los alumnos encuentran todos los objetos que empiezan con esa letra en una escena de imágenes dispersas. Crea un pack completo de Identificación de Letras A–Z con 26 fichas (una por letra) y claves de respuesta. Los alfabetos específicos por idioma con letras acentuadas te permiten crear packs de fonética para el mercado alemán (ÄÖÜ), español (Ñ) y nórdico (ÅÄÖ/ÆØÅ) que los competidores con herramientas solo en inglés no pueden igualar.',
-        platform: 'Etsy / TPT (mercado de lectoescritura)',
+          'Aprovecha el modo Identificación de Letras para crear fichas yo espío enfocadas en el reconocimiento de la letra inicial. Cada ficha se centra en una letra específica — los usuarios encuentran todos los objetos que empiezan con esa letra en una escena de imágenes dispersas. Crea un pack completo de Identificación de Letras A–Z con 26 fichas (una por letra) y claves de respuesta. Los alfabetos específicos por idioma con letras acentuadas te permiten crear packs de fonética para el mercado alemán (ÄÖÜ), español (Ñ) y nórdico (ÅÄÖ/ÆØÅ) que los competidores con herramientas solo en inglés no pueden igualar.',
+        platform: 'Etsy / Gumroad (mercado de lectoescritura)',
       },
       {
         title: 'Colecciones Yo Espío Multilingües para Mercados Globales',
         description:
-          'Aprovecha las etiquetas de nombres de imágenes sensibles al idioma para crear fichas yo espío en 11 idiomas. Las mismas imágenes producen etiquetas diferentes al cambiar de idioma — los nombres de imágenes, las primeras letras en Identificación de Letras y el texto del encabezado se actualizan automáticamente. Crea packs yo espío multilingües donde cada versión de idioma usa las mismas imágenes temáticas pero con etiquetas localizadas. Esto es valioso para profesores de ESL/EFL, aulas bilingües y familias de educación en casa internacionales. Vende packs por idioma o mega-packs multilingües a precios premium.',
-        platform: 'Etsy / TPT (mercado multilingüe)',
+          'Aprovecha las etiquetas de nombres de imágenes sensibles al idioma para crear fichas yo espío en 11 idiomas. Las mismas imágenes producen etiquetas diferentes al cambiar de idioma — los nombres de imágenes, las primeras letras en Identificación de Letras y el texto del encabezado se actualizan automáticamente. Crea packs yo espío multilingües donde cada versión de idioma usa las mismas imágenes temáticas pero con etiquetas localizadas. Esto es valioso para vendedores de ESL/EFL, tiendas bilingües y familias de trabajo desde casa internacionales. Vende packs por idioma o mega-packs multilingües a precios premium.',
+        platform: 'Etsy / Gumroad (mercado multilingüe)',
       },
     ],
   },
@@ -143,12 +143,12 @@ const content: AppContent = {
     {
       question: '¿Cuáles son los dos modos de actividad y en qué se diferencian?',
       answer:
-        'El generador ofrece dos modos distintos. El modo Objeto Oculto (predeterminado) crea escenas clásicas de yo espío — imágenes dispersas en una cuadrícula configurable donde los alumnos buscan hasta 4 objetos específicos y realizan las tareas asignadas (rodear, cuadrado, tachar o contar). El modo Identificación de Letras activa una cuadrícula de alfabeto específica por idioma y genera escenas yo espío usando imágenes que empiezan con la letra seleccionada. El encabezado de la ficha cambia automáticamente entre «Yo Espío» e «Identificación de Letras» (localizado en los 11 idiomas) según el modo activo.',
+        'El generador ofrece dos modos distintos. El modo Objeto Oculto (predeterminado) crea escenas clásicas de yo espío — imágenes dispersas en una cuadrícula configurable donde los usuarios buscan hasta 4 objetos específicos y realizan las tareas asignadas (rodear, cuadrado, tachar o contar). El modo Identificación de Letras activa una cuadrícula de alfabeto específica por idioma y genera escenas yo espío usando imágenes que empiezan con la letra seleccionada. El encabezado de la ficha cambia automáticamente entre «Yo Espío» e «Identificación de Letras» (localizado en los 11 idiomas) según el modo activo.',
     },
     {
       question: '¿Cuáles son los cuatro tipos de tarea y puedo combinarlos en una ficha?',
       answer:
-        'Los cuatro tipos de tarea son rodear (dibujar un círculo alrededor del objeto), cuadrado (poner un cuadrado alrededor del objeto), tachar (tachar el objeto) y contar (contar cuántas instancias aparecen y escribir el número). Sí, puedes asignar un tipo de tarea diferente a cada uno de los hasta 4 objetos objetivo en una sola ficha. Por ejemplo, una ficha puede pedir a los alumnos rodear todos los gatos, tachar todos los perros, contar todas las aves y poner un cuadrado alrededor de todos los peces.',
+        'Los cuatro tipos de tarea son rodear (dibujar un círculo alrededor del objeto), cuadrado (poner un cuadrado alrededor del objeto), tachar (tachar el objeto) y contar (contar cuántas instancias aparecen y escribir el número). Sí, puedes asignar un tipo de tarea diferente a cada uno de los hasta 4 objetos objetivo en una sola ficha. Por ejemplo, una ficha puede pedir a los usuarios rodear todos los gatos, tachar todos los perros, contar todas las aves y poner un cuadrado alrededor de todos los peces.',
     },
     {
       question: '¿Cómo funciona la Identificación de Letras con diferentes idiomas?',
@@ -163,17 +163,17 @@ const content: AppContent = {
     {
       question: '¿Cómo funciona la densidad de cuadrícula configurable?',
       answer:
-        'En el panel de Configuración de Página, configura filas de 5 a 10 y columnas de 5 a 10. El valor predeterminado es 6×6 (36 celdas). Una cuadrícula más pequeña como 5×5 (25 celdas) crea fichas más fáciles con imágenes más grandes — ideal para alumnos más pequeños. Una cuadrícula más grande como 10×10 (100 celdas) crea escenas densas y desafiantes para alumnos avanzados. Cada celda muestra una imagen a un tamaño máximo de 80px. Los objetos objetivo aparecen 1–5 veces cada uno, con las celdas restantes rellenadas con imágenes distractoras aleatorias del tema.',
+        'En el panel de Configuración de Página, configura filas de 5 a 10 y columnas de 5 a 10. El valor predeterminado es 6×6 (36 celdas). Una cuadrícula más pequeña como 5×5 (25 celdas) crea fichas más fáciles con imágenes más grandes — ideal para usuarios más pequeños. Una cuadrícula más grande como 10×10 (100 celdas) crea escenas densas y desafiantes para usuarios avanzados. Cada celda muestra una imagen a un tamaño máximo de 80px. Los objetos objetivo aparecen 1–5 veces cada uno, con las celdas restantes rellenadas con imágenes distractoras aleatorias del tema.',
     },
     {
       question: '¿Por qué hay un límite de 4 objetos por ficha?',
       answer:
-        'El generador impone un máximo de 4 objetos objetivo por ficha para mantener actividades yo espío claras y enfocadas. Con 4 objetos y 4 tipos de tarea diferentes, una sola ficha puede contener 4 tareas distintas de buscar y hacer — suficiente variedad para desafiar a los alumnos sin abrumarlos. El panel de Preguntas de Objeto Oculto muestra un contador de selección y proporciona un botón Limpiar Selección para reiniciar tus opciones. Este límite asegura que cada ficha permanezca visualmente escaneable y pedagógicamente efectiva.',
+        'El generador impone un máximo de 4 objetos objetivo por ficha para mantener actividades yo espío claras y enfocadas. Con 4 objetos y 4 tipos de tarea diferentes, una sola ficha puede contener 4 tareas distintas de buscar y hacer — suficiente variedad para desafiar a los usuarios sin abrumarlos. El panel de Preguntas de Objeto Oculto muestra un contador de selección y proporciona un botón Limpiar Selección para reiniciar tus opciones. Este límite asegura que cada ficha permanezca visualmente escaneable y pedagógicamente efectiva.',
     },
     {
       question: '¿Cómo funciona la clave de respuesta autogenerada?',
       answer:
-        'El generador usa un sistema de doble lienzo con una pestaña de Ficha y una pestaña de Clave de Respuesta. La ficha muestra la escena de imágenes dispersas sin marcas — los alumnos buscan y completan las tareas ellos mismos. La clave de respuesta reproduce el diseño idéntico y superpone anotaciones visuales rojas: círculos alrededor de objetos con tarea de rodear, cuadrados alrededor de objetos con tarea de cuadrado, cruces sobre objetos con tarea de tachar y conteos de cantidad para objetos con tarea de contar. Ambas versiones se exportan por separado usando cuatro botones dedicados: Ficha JPEG, Clave de Respuesta JPEG, Ficha PDF y Clave de Respuesta PDF.',
+        'El generador usa un sistema de doble lienzo con una pestaña de Ficha y una pestaña de Clave de Respuesta. La ficha muestra la escena de imágenes dispersas sin marcas — los usuarios buscan y completan las tareas ellos mismos. La clave de respuesta reproduce el diseño idéntico y superpone anotaciones visuales rojas: círculos alrededor de objetos con tarea de rodear, cuadrados alrededor de objetos con tarea de cuadrado, cruces sobre objetos con tarea de tachar y conteos de cantidad para objetos con tarea de contar. Ambas versiones se exportan por separado usando cuatro botones dedicados: Ficha JPEG, Clave de Respuesta JPEG, Ficha PDF y Clave de Respuesta PDF.',
     },
     {
       question: '¿La ficha se autogenera al cargar la página?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender fichas yo espío creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de yo espío y busca y cuenta como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para el aula en TPT o a través de cualquier otro canal de venta. Los dos modos de actividad, cuatro tipos de tarea, Identificación de Letras con alfabetos específicos por idioma y las 104 colecciones de imágenes temáticas te dan las herramientas creativas para producir productos yo espío originales y vendibles.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de yo espío y busca y cuenta como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para venta en línea en Gumroad o a través de cualquier otro canal de venta. Los dos modos de actividad, cuatro tipos de tarea, Identificación de Letras con alfabetos específicos por idioma y las 104 colecciones de imágenes temáticas te dan las herramientas creativas para producir productos yo espío originales y vendibles.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

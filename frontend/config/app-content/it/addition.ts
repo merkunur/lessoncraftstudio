@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'schede addizione stampabili per Etsy',
       'generatore schede matematica per Amazon KDP',
-      'vendere schede addizione su Teachers Pay Teachers',
+      'vendere schede addizione su Gumroad',
       'schede addizione licenza commerciale',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Generatore Schede di Addizione | Crea e Vendi Online',
     metaDescription:
-      'Crea schede di addizione da vendere su Etsy, KDP e TPT. 104 temi, 4 modalità esercizio, soluzioni incluse, export 400+ DPI. Prova gratuita con filigrana.',
+      'Crea schede di addizione da vendere su Etsy, KDP e Gumroad. 104 temi, 4 modalità esercizio, soluzioni incluse, export 400+ DPI. Prova gratuita con filigrana.',
   },
 
   hero: {
     title: 'Generatore di Schede di Addizione per la Pratica Visiva della Matematica',
     tagline: 'Trasforma l\'addizione in un\'avventura pratica con schede di matematica basate su immagini.',
     description:
-      'Crea schede di addizione basate su immagini che rendono i primi concetti di matematica tangibili e divertenti. Scegli tra quattro modalità di esercizio distinte — Immagine + Immagine, Immagine + Numero, Trova l\'Addendo e Modalità Mista — per adattarti a ogni livello, dalla scuola dell\'infanzia alla seconda elementare. Esplora oltre 3100 illustrazioni selezionate in 104 temi come animali della fattoria, veicoli e alimenti per dare vita a ogni problema. Ogni scheda include un foglio soluzioni automatico, e puoi esportare PDF pronti per la stampa in formato Letter, A4 o personalizzato a oltre 400 DPI. Che tu venda su Etsy, pubblichi libri di attività su Amazon KDP o distribuisca schede ai tuoi studenti, il Generatore di Schede di Addizione offre risultati professionali in pochi minuti. Prova gratuita con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Crea schede di addizione basate su immagini che rendono i primi concetti di matematica tangibili e divertenti. Scegli tra quattro modalità di esercizio distinte — Immagine + Immagine, Immagine + Numero, Trova l\'Addendo e Modalità Mista — per adattarti a ogni livello, dalla scuola dell\'infanzia alla seconda elementare. Esplora oltre 3100 illustrazioni selezionate in 104 temi come animali della fattoria, veicoli e alimenti per dare vita a ogni problema. Ogni scheda include un foglio soluzioni automatico, e puoi esportare PDF pronti per la stampa in formato Letter, A4 o personalizzato a oltre 400 DPI. Che tu venda su Etsy, pubblichi libri di attività su Amazon KDP o distribuisca schede ai tuoi utenti, il Generatore di Schede di Addizione offre risultati professionali in pochi minuti. Prova gratuita con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {
@@ -37,17 +37,17 @@ const content: AppContent = {
       {
         title: 'Configura la modalità di esercizio e l\'intervallo numerico',
         description:
-          'Apri la Configurazione Esercizi e seleziona una delle quattro modalità. Immagine + Immagine mostra due gruppi di immagini che gli studenti contano e sommano. Immagine + Numero abbina un gruppo di immagini a un numero. Trova l\'Addendo rivela il totale e un gruppo, sfidando gli studenti a scoprire la parte mancante. La Modalità Mista combina le tre per una pratica variegata. Imposta il minimo e il massimo di elementi per gruppo (1–10) e scegli quanti esercizi appaiono per pagina (1–10).',
+          'Apri la Configurazione Esercizi e seleziona una delle quattro modalità. Immagine + Immagine mostra due gruppi di immagini che gli utenti contano e sommano. Immagine + Numero abbina un gruppo di immagini a un numero. Trova l\'Addendo rivela il totale e un gruppo, sfidando gli utenti a scoprire la parte mancante. La Modalità Mista combina le tre per una pratica variegata. Imposta il minimo e il massimo di elementi per gruppo (1–10) e scegli quanti esercizi appaiono per pagina (1–10).',
       },
       {
         title: 'Scegli le immagini dalla libreria tematica',
         description:
-          'Apri il pannello Libreria Immagini ed esplora 104 temi — dagli animali e alimenti ai veicoli e alle festività. Usa la barra di ricerca per trovare immagini specifiche in modo istantaneo. Clicca per selezionare le immagini che desideri; ogni esercizio utilizza la tua selezione. Puoi anche caricare le tue immagini personalizzate per un aspetto unico che si abbini al tuo marchio o al tema della classe. Quando crei prodotti da vendere, selezionare immagini di un tema coerente — ad esempio, solo animali dell\'oceano o solo frutta — produce schede visivamente coerenti che si presentano meglio nelle miniature delle inserzioni e attraggono più clic nei risultati di ricerca.',
+          'Apri il pannello Libreria Immagini ed esplora 104 temi — dagli animali e alimenti ai veicoli e alle festività. Usa la barra di ricerca per trovare immagini specifiche in modo istantaneo. Clicca per selezionare le immagini che desideri; ogni esercizio utilizza la tua selezione. Puoi anche caricare le tue immagini personalizzate per un aspetto unico che si abbini al tuo marchio o al tema del negozio. Quando crei prodotti da vendere, selezionare immagini di un tema coerente — ad esempio, solo animali dell\'oceano o solo frutta — produce schede visivamente coerenti che si presentano meglio nelle miniature delle inserzioni e attraggono più clic nei risultati di ricerca.',
       },
       {
         title: 'Aggiungi testo, titoli e dettagli personalizzati',
         description:
-          'Usa il pannello Strumenti Testo per aggiungere un titolo alla scheda, campi per il nome e la data dello studente, istruzioni o qualsiasi testo personalizzato. Scegli tra sette font adatti ai bambini, tra cui Lexend Deca, Baloo 2, Fredoka e Quicksand. Regola dimensione, colore e contorno del carattere per una leggibilità ottimale. Attiva o disattiva i numeri degli esercizi, il segno di addizione tra i gruppi di immagini e la casella di risposta adatta ai bambini in base alle tue esigenze.',
+          'Usa il pannello Strumenti Testo per aggiungere un titolo alla scheda, campi per il nome e la data dell'utente, istruzioni o qualsiasi testo personalizzato. Scegli tra sette font accattivanti, tra cui Lexend Deca, Baloo 2, Fredoka e Quicksand. Regola dimensione, colore e contorno del carattere per una leggibilità ottimale. Attiva o disattiva i numeri degli esercizi, il segno di addizione tra i gruppi di immagini e la casella di risposta accattivante in base alle tue esigenze.',
       },
       {
         title: 'Genera il foglio soluzioni e scarica',
@@ -63,22 +63,22 @@ const content: AppContent = {
       {
         title: 'Quattro modalità di esercizio distinte',
         description:
-          'Scegli la modalità più adatta al livello dei tuoi studenti. La modalità Immagine + Immagine usa due gruppi di immagini per un conteggio puramente visivo — perfetta per i bambini della scuola dell\'infanzia che iniziano a sommare. La modalità Immagine + Numero combina immagini e numeri per collegare il pensiero concreto a quello astratto. La modalità Trova l\'Addendo mostra la somma e un gruppo, sviluppando il ragionamento algebrico precoce. La Modalità Mista combina le tre per una pratica varia e senza ripetizioni.',
+          'Scegli la modalità più adatta al livello dei tuoi utenti. La modalità Immagine + Immagine usa due gruppi di immagini per un conteggio puramente visivo — perfetta per i bambini della scuola dell\'infanzia che iniziano a sommare. La modalità Immagine + Numero combina immagini e numeri per collegare il pensiero concreto a quello astratto. La modalità Trova l\'Addendo mostra la somma e un gruppo, sviluppando il ragionamento algebrico precoce. La Modalità Mista combina le tre per una pratica varia e senza ripetizioni.',
       },
       {
         title: 'Intervalli numerici configurabili',
         description:
-          'Imposta il minimo e il massimo di elementi per gruppo da 1 a 10, con controllo totale sulla difficoltà. Crea schede semplici da 1+1 a 3+3 per i più piccoli, esercizi standard da 1–10 per la scuola dell\'infanzia, o problemi più impegnativi vicini al dieci per la prima e seconda elementare. La regolazione si fa con un solo clic, permettendoti di differenziare l\'insegnamento per un\'intera classe in pochi minuti.',
+          'Imposta il minimo e il massimo di elementi per gruppo da 1 a 10, con controllo totale sulla difficoltà. Crea schede semplici da 1+1 a 3+3 per i più piccoli, esercizi standard da 1–10 per la scuola dell\'infanzia, o problemi più impegnativi vicini al dieci per la prima e seconda elementare. La regolazione si fa con un solo clic, permettendoti di differenziare l\'insegnamento per un\'intero catalogo in pochi minuti.',
       },
       {
         title: '104 temi visivi con oltre 3100 immagini',
         description:
-          'Esplora una libreria di oltre 3100 illustrazioni selezionate in 104 temi: animali della fattoria, vita marina, veicoli, spazio, alimenti, sport, dinosauri, festività e molto altro. Ogni immagine è ad alta risoluzione e progettata per una stampa nitida e adatta ai bambini. Poiché le immagini veicolano il contenuto matematico — non il testo — le tue schede funzionano perfettamente in qualsiasi lingua e in qualsiasi aula del mondo.',
+          'Esplora una libreria di oltre 3100 illustrazioni selezionate in 104 temi: animali della fattoria, vita marina, veicoli, spazio, alimenti, sport, dinosauri, festività e molto altro. Ogni immagine è ad alta risoluzione e progettata per una stampa nitida e accattivante. Poiché le immagini veicolano il contenuto matematico — non il testo — le tue schede funzionano perfettamente in qualsiasi lingua e in qualsiasi negozio del mondo.',
       },
       {
         title: 'Generazione automatica del foglio soluzioni',
         description:
-          'Clicca un pulsante per generare un foglio soluzioni completo che riproduce il layout della tua scheda con tutte le risposte compilate. La scheda soluzioni presenta un\'anteprima in tempo reale per verificare l\'esattezza prima di scaricare. Esporta il foglio soluzioni come file JPEG o PDF separato, ideale per edizioni dell\'insegnante, guide per genitori o pacchetti di prodotti su Etsy senza alcun lavoro manuale.',
+          'Clicca un pulsante per generare un foglio soluzioni completo che riproduce il layout della tua scheda con tutte le risposte compilate. La scheda soluzioni presenta un\'anteprima in tempo reale per verificare l\'esattezza prima di scaricare. Esporta il foglio soluzioni come file JPEG o PDF separato, ideale per edizioni dell\'venditore, guide per genitori o pacchetti di prodotti su Etsy senza alcun lavoro manuale.',
       },
       {
         title: 'Esportazione PDF e JPEG pronta per la stampa a 400+ DPI',
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Carica le tue immagini personalizzate',
         description:
-          'Vai oltre la libreria integrata caricando le tue immagini PNG o JPEG direttamente nell\'applicazione. Ideale per schede brandizzate, clipart personalizzate, mascotte della classe o contenuti stagionali che distinguono i tuoi prodotti stampabili dalla concorrenza. Le immagini caricate si integrano perfettamente con ogni modalità di esercizio, mantenendo un controllo creativo totale.',
+          'Vai oltre la libreria integrata caricando le tue immagini PNG o JPEG direttamente nell\'applicazione. Ideale per schede brandizzate, clipart personalizzate, mascotte del negozio o contenuti stagionali che distinguono i tuoi prodotti stampabili dalla concorrenza. Le immagini caricate si integrano perfettamente con ogni modalità di esercizio, mantenendo un controllo creativo totale.',
       },
       {
         title: 'Cornici decorative e temi di sfondo',
         description:
-          'Trasforma le tue schede da semplici a professionali con cornici decorative e immagini di sfondo dalla stessa libreria di 104 temi. Regola l\'opacità della cornice e dello sfondo in modo indipendente affinché gli elementi visivi arricchiscano il design senza distrarre dal contenuto matematico. Abbinare una cornice stagionale a uno sfondo colorato crea set tematici che si vendono a prezzi più alti su Etsy e Teachers Pay Teachers. Ad esempio, schede con cornice floreale e sfondo pastello per la primavera, o cornice di fiocchi di neve e sfondo azzurro per l\'inverno, ti permettono di creare collezioni stagionali che gli acquirenti cercano attivamente in momenti specifici dell\'anno.',
+          'Trasforma le tue schede da semplici a professionali con cornici decorative e immagini di sfondo dalla stessa libreria di 104 temi. Regola l\'opacità della cornice e dello sfondo in modo indipendente affinché gli elementi visivi arricchiscano il design senza distrarre dal contenuto matematico. Abbinare una cornice stagionale a uno sfondo colorato crea set tematici che si vendono a prezzi più alti su Etsy e Gumroad. Ad esempio, schede con cornice floreale e sfondo pastello per la primavera, o cornice di fiocchi di neve e sfondo azzurro per l\'inverno, ti permettono di creare collezioni stagionali che gli acquirenti cercano attivamente in momenti specifici dell\'anno.',
       },
       {
         title: 'Editing completo del canvas con annulla e ripristina',
@@ -109,7 +109,7 @@ const content: AppContent = {
       {
         title: 'Pacchetti tematici di schede di addizione su Etsy',
         description:
-          'Crea set di 10–20 schede di addizione raggruppate per tema — animali della fattoria, dinosauri, vita marina, festività — e offrili come download istantaneo su Etsy. Includi il foglio soluzioni come file extra. I pacchetti tematici attraggono genitori che cercano interessi specifici e insegnanti che necessitano di materiale pronto all\'uso. Definisci il prezzo dei temi singoli tra $3–$5 e dei mega-pacchetti tra $12–$18 per un valore medio dell\'ordine solido. Organizza ogni pacchetto con difficoltà progressiva — partendo da somme semplici di 1+1 nelle prime schede e avanzando fino a somme di 8+9 nelle ultime — così che i genitori vedano un percorso di apprendimento completo all\'interno di ogni acquisto.',
+          'Crea set di 10–20 schede di addizione raggruppate per tema — animali della fattoria, dinosauri, vita marina, festività — e offrili come download istantaneo su Etsy. Includi il foglio soluzioni come file extra. I pacchetti tematici attraggono genitori che cercano interessi specifici e venditori che necessitano di materiale pronto all\'uso. Definisci il prezzo dei temi singoli tra $3–$5 e dei mega-pacchetti tra $12–$18 per un valore medio dell\'ordine solido. Organizza ogni pacchetto con difficoltà progressiva — partendo da somme semplici di 1+1 nelle prime schede e avanzando fino a somme di 8+9 nelle ultime — così che i genitori vedano un percorso di apprendimento completo all\'interno di ogni acquisto.',
         platform: 'Etsy (etsy.com)',
       },
       {
@@ -119,10 +119,10 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centri di matematica differenziati per TPT',
+        title: 'Centri di matematica differenziati per Gumroad',
         description:
-          'Crea set di addizione per livelli usando le quattro modalità di esercizio: Livello 1 (Immagine + Immagine, intervallo 1–3), Livello 2 (Immagine + Numero, intervallo 1–5), Livello 3 (Trova l\'Addendo, intervallo 1–7) e Livello 4 (Misto, intervallo 1–10). Ogni livello con foglio soluzioni e scheda di monitoraggio del progresso. Gli acquirenti di Teachers Pay Teachers pagano prezzi premium per risorse differenziate che possono utilizzare immediatamente in più gruppi di livello.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Crea set di addizione per livelli usando le quattro modalità di esercizio: Livello 1 (Immagine + Immagine, intervallo 1–3), Livello 2 (Immagine + Numero, intervallo 1–5), Livello 3 (Trova l\'Addendo, intervallo 1–7) e Livello 4 (Misto, intervallo 1–10). Ogni livello con foglio soluzioni e scheda di monitoraggio del progresso. Gli acquirenti di Gumroad pagano prezzi premium per risorse differenziate che possono utilizzare immediatamente in più gruppi di livello.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Contenuti in abbonamento per il tuo negozio',
@@ -131,10 +131,10 @@ const content: AppContent = {
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: 'Schede di pratica per la classe e il tutoraggio',
+        title: 'Schede di pratica per il negozio e il tutoraggio',
         description:
-          'Genera schede di addizione personalizzate adattate al livello attuale di ogni studente. Stampa schede Immagine + Immagine per principianti e schede Trova l\'Addendo per studenti avanzati — tutto nella stessa sessione. Il foglio soluzioni automatico fa risparmiare tempo nella correzione. Che tu gestisca un centro di tutoraggio, insegni alla scuola dell\'infanzia o pratichi homeschooling, il generatore sostituisce ore di creazione manuale con pochi clic.',
-        platform: 'Classe / Tutoraggio / Homeschooling',
+          'Genera schede di addizione personalizzate adattate al livello attuale di ogni utente. Stampa schede Immagine + Immagine per principianti e schede Trova l\'Addendo per utenti avanzati — tutto nella stessa sessione. Il foglio soluzioni automatico fa risparmiare tempo nel valore percepito. Che tu gestisca un centro di tutoraggio, insegni alla scuola dell\'infanzia o pratichi homeschooling, il generatore sostituisce ore di creazione manuale con pochi clic.',
+        platform: 'Vendita Online / Marketplace / Uso Personale',
       },
     ],
   },
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Quali modalità di esercizio offre il Generatore di Schede di Addizione?',
       answer:
-        'Il generatore include quattro modalità: Immagine + Immagine (due gruppi di immagini da contare e sommare), Immagine + Numero (un gruppo di immagini più un numero), Trova l\'Addendo (la somma è mostrata e gli studenti trovano il gruppo mancante) e Modalità Mista (combina le tre). Ogni modalità si rivolge a un livello diverso, dal conteggio visivo puro al ragionamento algebrico precoce. I venditori che offrono le quattro modalità in un singolo pacchetto differenziato possono fissare prezzi premium, poiché gli acquirenti ricevono una progressione completa da principiante ad avanzato.',
+        'Il generatore include quattro modalità: Immagine + Immagine (due gruppi di immagini da contare e sommare), Immagine + Numero (un gruppo di immagini più un numero), Trova l\'Addendo (la somma è mostrata e gli utenti trovano il gruppo mancante) e Modalità Mista (combina le tre). Ogni modalità si rivolge a un livello diverso, dal conteggio visivo puro al ragionamento algebrico precoce. I venditori che offrono le quattro modalità in un singolo pacchetto scalato per livello possono fissare prezzi premium, poiché gli acquirenti ricevono una progressione completa da principiante ad avanzato.',
     },
     {
       question: 'Quali intervalli numerici posso configurare per i problemi di addizione?',
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: 'Il generatore crea fogli soluzioni automaticamente?',
       answer:
-        'Sì. Clicca sul pulsante Genera Foglio Soluzioni per creare una versione compilata della tua scheda con tutte le somme corrette. Puoi visualizzare l\'anteprima del foglio soluzioni sullo schermo e scaricarlo come file JPEG o PDF separato insieme alla scheda dello studente. Includere fogli soluzioni nelle tue inserzioni di prodotto aggiunge valore percepito per gli insegnanti acquirenti, che si aspettano risorse pronte all\'uso che facciano risparmiare tempo nella correzione.',
+        'Sì. Clicca sul pulsante Genera Foglio Soluzioni per creare una versione compilata della tua scheda con tutte le somme corrette. Puoi visualizzare l\'anteprima del foglio soluzioni sullo schermo e scaricarlo come file JPEG o PDF separato insieme alla scheda dell'utente. Includere fogli soluzioni nelle tue inserzioni di prodotto aggiunge valore percepito per i acquirenti, che si aspettano risorse pronte all\'uso che facciano risparmiare tempo nel valore percepito.',
     },
     {
       question: 'Quali formati di pagina e di esportazione sono supportati?',
@@ -183,12 +183,12 @@ const content: AppContent = {
     {
       question: 'Cosa include la licenza commerciale?',
       answer:
-        'La licenza commerciale rimuove la filigrana da tutti i download e ti concede diritti illimitati per vendere le schede che crei — su Etsy, Amazon KDP, Teachers Pay Teachers, sul tuo sito o su qualsiasi altra piattaforma. Non ci sono royalty per vendita, non ci sono canoni mensili e non ci sono limiti alla quantità di schede che produci o vendi.',
+        'La licenza commerciale rimuove la filigrana da tutti i download e ti concede diritti illimitati per vendere le schede che crei — su Etsy, Amazon KDP, Gumroad, sul tuo sito o su qualsiasi altra piattaforma. Non ci sono royalty per vendita, non ci sono canoni mensili e non ci sono limiti alla quantità di schede che produci o vendi.',
     },
     {
       question: 'Posso vendere le schede create con questo strumento su Etsy e Amazon KDP?',
       answer:
-        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede di addizione come download digitali su Etsy, come libri di attività stampati su Amazon KDP, come risorse educative su TPT o attraverso qualsiasi altro canale di vendita. Molti venditori creano pacchetti tematici e libri di attività che generano entrate costanti.',
+        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede di addizione come download digitali su Etsy, come libri di attività stampati su Amazon KDP, come risorse educative su Gumroad o attraverso qualsiasi altro canale di vendita. Molti venditori creano pacchetti tematici e libri di attività che generano entrate costanti.',
     },
     {
       question: 'Devo installare qualche software?',
@@ -236,7 +236,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'basi-matematica-idee-stampabili',
-      anchorText: 'Idee di stampabili di matematica per educatori e venditori',
+      anchorText: 'Idee di stampabili di matematica per imprenditori e venditori',
     },
     {
       pageType: 'idea',
@@ -259,7 +259,7 @@ const content: AppContent = {
       {
         src: '/samples/italian/addition/Addizione Divertente 2.webp',
         alt: 'Scheda di addizione verticale in modalità Immagine + Immagine con tema animali',
-        caption: 'Modalità Immagine + Immagine — gli studenti contano due gruppi di immagini e scrivono la somma',
+        caption: 'Modalità Immagine + Immagine — gli utenti contano due gruppi di immagini e scrivono la somma',
       },
       {
         src: '/samples/italian/addition/Addizione Divertente 3.webp',
@@ -269,7 +269,7 @@ const content: AppContent = {
       {
         src: '/samples/italian/addition/Addizione Divertente 4.webp',
         alt: 'Scheda di addizione in modalità Trova l\'Addendo con tema veicoli',
-        caption: 'Modalità Trova l\'Addendo — gli studenti scoprono il gruppo mancante per l\'algebra precoce',
+        caption: 'Modalità Trova l\'Addendo — gli utenti scoprono il gruppo mancante per l\'algebra precoce',
       },
     ],
     youtubeId: '6O5aCzHkh8M',

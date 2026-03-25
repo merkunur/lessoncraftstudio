@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'generador de fichas tren de secuencias repetitivas para vendedores Etsy',
       'creador de fichas tren de patrones personalizadas para Amazon KDP',
-      'vender fichas de reconocimiento de patrones en Teachers Pay Teachers',
+      'vender fichas de reconocimiento de patrones en Gumroad',
       'generador de fichas tren de patrones licencia comercial',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Generador Fichas Tren de Patrones | Vender',
     metaDescription:
-      'Crea fichas tren de patrones para Etsy, KDP y TPT. Cinco tipos de patrones, 11 vagones temáticos, pistas ajustables, PDF listo.',
+      'Crea fichas tren de patrones para Etsy, KDP y Gumroad. Cinco tipos de patrones, 11 vagones temáticos, pistas ajustables, PDF listo.',
   },
 
   hero: {
     title: 'Generador de Fichas Tren de Patrones para Ejercicios de Secuencias Repetitivas',
     tagline: 'Cinco tipos de patrones — AB, AAB, ABB, ABC, AABB — mostrados en 11 vagones de tren temáticos con número de pistas ajustable de 4 a 10 para un control preciso de la dificultad.',
     description:
-      'Diseña fichas profesionales de reconocimiento de patrones donde los alumnos identifican y completan secuencias repetitivas mostradas como imágenes en un tren temático con 11 vagones. Cinco tipos de patrones distintos cubren todos los niveles de complejidad de secuencias: AB alterna dos elementos, AAB agrupa dos de uno seguido de uno de otro, ABB invierte ese agrupamiento, ABC rota tres elementos diferentes, y AABB empareja dos de cada uno antes de repetir. La disposición del tren organiza 11 vagones en tres filas (5 + 3 + 3), con cada vagón conteniendo una imagen del patrón repetitivo. Un vagón se deja vacío — los alumnos identifican el patrón y determinan el elemento que falta. Ajusta el número de pistas de 4 a 10 para controlar la dificultad: mostrar 10 pistas hace el patrón evidente, mientras que mostrar solo 4 exige un verdadero razonamiento lógico ya que los 3 primeros vagones siempre se revelan. El contenido proviene de la Biblioteca de Imágenes integrada con más de 3100 ilustraciones en 104 temas. Un onglet de clave de respuesta separado muestra los 11 vagones llenos con la secuencia correcta para una verificación instantánea. El Acceso Completo desbloquea los 104 temas y los 11 idiomas de interfaz. Exporta PDF y JPEG listos para imprimir en alta resolución en formato Carta, A4, Cuadrado o dimensiones personalizadas. Cada ficha es completamente visual con solo imágenes en los vagones y cero texto en la salida, haciendo los productos universalmente vendibles sin traducción. Ya sea que crees packs de reconocimiento de patrones en Etsy, compiles cuadernos de aprendizaje temprano para Amazon KDP o construyas centros diferenciados de matemáticas para TPT, el Generador de Fichas Tren de Patrones produce productos únicos en formato tren en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Diseña fichas profesionales de reconocimiento de patrones donde los usuarios identifican y completan secuencias repetitivas mostradas como imágenes en un tren temático con 11 vagones. Cinco tipos de patrones distintos cubren todos los niveles de complejidad de secuencias: AB alterna dos elementos, AAB agrupa dos de uno seguido de uno de otro, ABB invierte ese agrupamiento, ABC rota tres elementos diferentes, y AABB empareja dos de cada uno antes de repetir. La disposición del tren organiza 11 vagones en tres filas (5 + 3 + 3), con cada vagón conteniendo una imagen del patrón repetitivo. Un vagón se deja vacío — los usuarios identifican el patrón y determinan el elemento que falta. Ajusta el número de pistas de 4 a 10 para controlar la dificultad: mostrar 10 pistas hace el patrón evidente, mientras que mostrar solo 4 exige un verdadero razonamiento lógico ya que los 3 primeros vagones siempre se revelan. El contenido proviene de la Biblioteca de Imágenes integrada con más de 3100 ilustraciones en 104 temas. Un onglet de clave de respuesta separado muestra los 11 vagones llenos con la secuencia correcta para una verificación instantánea. El Acceso Completo desbloquea los 104 temas y los 11 idiomas de interfaz. Exporta PDF y JPEG listos para imprimir en alta resolución en formato Carta, A4, Cuadrado o dimensiones personalizadas. Cada ficha es completamente visual con solo imágenes en los vagones y cero texto en la salida, haciendo los productos universalmente vendibles sin traducción. Ya sea que crees packs de reconocimiento de patrones en Etsy, compiles cuadernos de aprendizaje temprano para Amazon KDP o construyas centros diferenciados de matemáticas para Gumroad, el Generador de Fichas Tren de Patrones produce productos únicos en formato tren en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
   },
 
   howItWorks: {
@@ -42,7 +42,7 @@ const content: AppContent = {
       {
         title: 'Configurar el número de pistas y los campos nombre/fecha',
         description:
-          'Establece el número de pistas visibles de 4 a 10 para controlar la dificultad de la ficha. Los 3 primeros vagones siempre se muestran, y el vagón que falta se coloca dinámicamente entre las posiciones restantes. Mostrar 10 pistas deja solo un vagón vacío entre 10 visibles — el patrón es muy evidente, ideal para principiantes. Mostrar solo 4 pistas obliga a los alumnos a identificar el patrón a partir de información mínima — un verdadero desafío de razonamiento. Activa los campos opcionales de nombre y fecha recortables para la identificación de los alumnos en las fichas impresas.',
+          'Establece el número de pistas visibles de 4 a 10 para controlar la dificultad de la ficha. Los 3 primeros vagones siempre se muestran, y el vagón que falta se coloca dinámicamente entre las posiciones restantes. Mostrar 10 pistas deja solo un vagón vacío entre 10 visibles — el patrón es muy evidente, ideal para principiantes. Mostrar solo 4 pistas obliga a los usuarios a identificar el patrón a partir de información mínima — un verdadero desafío de razonamiento. Activa los campos opcionales de nombre y fecha recortables para la identificación de los usuarios en las fichas impresas.',
       },
       {
         title: 'Seleccionar imágenes y añadir decoraciones',
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Revisar la clave de respuesta y descargar',
         description:
-          'Cambia a la pestaña Clave de Respuesta para ver el tren completo con los 11 vagones llenos — la posición que faltaba ahora muestra el elemento correcto del patrón. La ficha y la clave de respuesta son editables de forma independiente en lienzos separados. Activa la exportación en escala de grises para versiones que ahorran tinta. Luego descarga cada uno como JPEG de alta resolución o PDF listo para imprimir. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos TPT — la ficha y la clave de respuesta se descargan como archivos separados para un paquete de producto completo.',
+          'Cambia a la pestaña Clave de Respuesta para ver el tren completo con los 11 vagones llenos — la posición que faltaba ahora muestra el elemento correcto del patrón. La ficha y la clave de respuesta son editables de forma independiente en lienzos separados. Activa la exportación en escala de grises para versiones que ahorran tinta. Luego descarga cada uno como JPEG de alta resolución o PDF listo para imprimir. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad — la ficha y la clave de respuesta se descargan como archivos separados para un paquete de producto completo.',
       },
     ],
   },
@@ -63,22 +63,22 @@ const content: AppContent = {
       {
         title: 'Formato visual en vagones de tren con 11 vagones temáticos',
         description:
-          'Los patrones se muestran en un tren temático con 11 vagones dispuestos en tres filas (5 arriba, 3 centro-izquierda, 3 centro-derecha). Cada vagón contiene una imagen de la secuencia repetitiva, creando un formato visualmente atractivo que se diferencia de las fichas de patrones en cuadrícula estándar. La disposición en tren da a los productos un aspecto distintivo en los listados de los marketplaces — los compradores que navegan por Etsy o TPT ven inmediatamente algo diferente de los ejercicios típicos en filas y columnas. La ilustración temática del tren añade valor de producción que justifica precios premium.',
+          'Los patrones se muestran en un tren temático con 11 vagones dispuestos en tres filas (5 arriba, 3 centro-izquierda, 3 centro-derecha). Cada vagón contiene una imagen de la secuencia repetitiva, creando un formato visualmente atractivo que se diferencia de las fichas de patrones en cuadrícula estándar. La disposición en tren da a los productos un aspecto distintivo en los listados de los marketplaces — los compradores que navegan por Etsy o Gumroad ven inmediatamente algo diferente de los ejercicios típicos en filas y columnas. La ilustración temática del tren añade valor de producción que justifica precios premium.',
       },
       {
         title: 'Cinco tipos de patrones repetitivos para dificultad progresiva',
         description:
-          'Cinco tipos de patrones cubren todo el espectro de complejidad de secuencias repetitivas. AB alterna dos elementos en el patrón más simple posible. AAB y ABB introducen agrupamientos asimétricos donde un elemento aparece dos veces antes o después del otro. ABC rota tres elementos diferentes, obligando a los alumnos a seguir una unidad de repetición más larga. AABB empareja dos de cada elemento en un ciclo extendido. Esta progresión crea una escala de dificultad natural desde la alternancia simple en preescolar hasta secuencias avanzadas de múltiples elementos — ofreciendo a los vendedores un eje de diferenciación integrado para packs de productos por niveles.',
+          'Cinco tipos de patrones cubren todo el espectro de complejidad de secuencias repetitivas. AB alterna dos elementos en el patrón más simple posible. AAB y ABB introducen agrupamientos asimétricos donde un elemento aparece dos veces antes o después del otro. ABC rota tres elementos diferentes, obligando a los usuarios a seguir una unidad de repetición más larga. AABB empareja dos de cada elemento en un ciclo extendido. Esta progresión crea una escala de dificultad natural desde la alternancia simple en preescolar hasta secuencias avanzadas de múltiples elementos — ofreciendo a los vendedores un eje de diferenciación integrado para packs de productos por niveles.',
       },
       {
         title: 'Número de pistas ajustable de 4 a 10 para control de dificultad',
         description:
-          'El control del número de pistas determina cuántas de las 11 posiciones de vagones muestran imágenes frente a la única posición vacía. Los 3 primeros vagones siempre se revelan, estableciendo la base del patrón. Con 10 pistas, solo un vagón está vacío entre 10 elementos visibles — el patrón es muy evidente. Con 4 pistas, los alumnos ven información mínima y deben razonar cuidadosamente para identificar la secuencia a partir de datos limitados. Este único ajuste crea una amplia gama de dificultad a partir de cada tipo de patrón, multiplicando efectivamente la variedad de tus productos: un patrón AB con 10 pistas es ideal para principiantes, mientras que un patrón ABC con 4 pistas desafía a los alumnos avanzados.',
+          'El control del número de pistas determina cuántas de las 11 posiciones de vagones muestran imágenes frente a la única posición vacía. Los 3 primeros vagones siempre se revelan, estableciendo la base del patrón. Con 10 pistas, solo un vagón está vacío entre 10 elementos visibles — el patrón es muy evidente. Con 4 pistas, los usuarios ven información mínima y deben razonar cuidadosamente para identificar la secuencia a partir de datos limitados. Este único ajuste crea una amplia gama de dificultad a partir de cada tipo de patrón, multiplicando efectivamente la variedad de tus productos: un patrón AB con 10 pistas es ideal para principiantes, mientras que un patrón ABC con 4 pistas desafía a los usuarios avanzados.',
       },
       {
         title: 'Posición del vagón que falta dinámica con colocación inteligente',
         description:
-          'La posición del vagón vacío se selecciona dinámicamente entre las posiciones 3 a 10 según el número de pistas configurado, asegurando que el elemento que falta siempre caiga dentro de la sección repetitiva del patrón en lugar de al inicio obvio. Las 3 primeras posiciones siempre están llenas para establecer visualmente el patrón antes de presentar el desafío. Esta colocación inteligente crea puzzles justos y resolubles cada vez — los alumnos tienen suficiente contexto para identificar el patrón antes de encontrar el vagón vacío. El posicionamiento dinámico también significa que dos fichas con el mismo tipo de patrón pueden tener diferentes posiciones del vagón que falta, añadiendo variedad natural a los packs de productos.',
+          'La posición del vagón vacío se selecciona dinámicamente entre las posiciones 3 a 10 según el número de pistas configurado, asegurando que el elemento que falta siempre caiga dentro de la sección repetitiva del patrón en lugar de al inicio obvio. Las 3 primeras posiciones siempre están llenas para establecer visualmente el patrón antes de presentar el desafío. Esta colocación inteligente crea puzzles justos y resolubles cada vez — los usuarios tienen suficiente contexto para identificar el patrón antes de encontrar el vagón vacío. El posicionamiento dinámico también significa que dos fichas con el mismo tipo de patrón pueden tener diferentes posiciones del vagón que falta, añadiendo variedad natural a los packs de productos.',
       },
       {
         title: 'Biblioteca de imágenes con 104 colecciones temáticas',
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Sistema de doble lienzo con clave de respuesta separada',
         description:
-          'La ficha y la clave de respuesta viven en lienzos separados e independientemente editables, accesibles mediante pestañas. La ficha muestra el tren con un vagón vacío; la clave de respuesta muestra los 11 vagones llenos con la secuencia correcta del patrón. Cada lienzo permite edición completa — añade texto, ajusta el diseño, reposiciona elementos — para que puedas personalizar tanto la ficha del alumno como la clave de respuesta del profesor de forma independiente. Ambos se descargan como archivos separados, ofreciendo a los compradores un paquete de producto completo. Incluir claves de respuesta verificadas aumenta el valor percibido y es lo que esperan los compradores en Etsy, TPT y KDP.',
+          'La ficha y la clave de respuesta viven en lienzos separados e independientemente editables, accesibles mediante pestañas. La ficha muestra el tren con un vagón vacío; la clave de respuesta muestra los 11 vagones llenos con la secuencia correcta del patrón. Cada lienzo permite edición completa — añade texto, ajusta el diseño, reposiciona elementos — para que puedas personalizar tanto la ficha del usuario como la clave de respuesta del vendedor de forma independiente. Ambos se descargan como archivos separados, ofreciendo a los compradores un paquete de producto completo. Incluir claves de respuesta verificadas aumenta el valor percibido y es lo que esperan los compradores en Etsy, Gumroad y KDP.',
       },
       {
         title: 'Exportación PDF y JPEG lista para imprimir en alta resolución',
         description:
-          'Descarga fichas y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir renderizados con un multiplicador 6x para una salida nítida y detallada. Los formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) y dimensiones personalizadas están todos soportados. Activa la exportación en escala de grises para versiones que ahorran tinta, ideales para impresión en clase o cuadernos en blanco y negro. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos TPT — sin necesidad de postprocesamiento.',
+          'Descarga fichas y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir renderizados con un multiplicador 6x para una salida nítida y detallada. Los formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) y dimensiones personalizadas están todos soportados. Activa la exportación en escala de grises para versiones que ahorran tinta, ideales para impresión en línea o cuadernos en blanco y negro. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad — sin necesidad de postprocesamiento.',
       },
       {
         title: 'Edición completa del lienzo con herramientas de texto y decoración',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros diferenciados de matemáticas y reconocimiento visual para TPT',
+        title: 'Centros diferenciados de matemáticas y reconocimiento visual para Gumroad',
         description:
-          'Construye conjuntos de práctica de reconocimiento de patrones por niveles usando la complejidad del patrón como eje de diferenciación: Nivel 1 (patrones AB, 8–10 pistas), Nivel 2 (patrones AAB/ABB, 6–8 pistas), Nivel 3 (patrones ABC, 5–6 pistas) y Nivel 4 (patrones AABB, 4–5 pistas). Cada nivel se enfoca en una demanda cognitiva diferente — desde reconocer la alternancia simple hasta identificar secuencias complejas de múltiples elementos a partir de información limitada. El formato en vagones de tren crea un tema visual atractivo que funciona como actividad de centro en el aula. Acompaña cada nivel con ejercicios temáticos y claves de respuesta separadas para comodidad del profesor.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Construye conjuntos de práctica de reconocimiento de patrones por niveles usando la complejidad del patrón como eje de diferenciación: Nivel 1 (patrones AB, 8–10 pistas), Nivel 2 (patrones AAB/ABB, 6–8 pistas), Nivel 3 (patrones ABC, 5–6 pistas) y Nivel 4 (patrones AABB, 4–5 pistas). Cada nivel se enfoca en una demanda cognitiva diferente — desde reconocer la alternancia simple hasta identificar secuencias complejas de múltiples elementos a partir de información limitada. El formato en vagones de tren crea un tema visual atractivo que funciona como actividad de centro en línea. Acompaña cada nivel con ejercicios temáticos y claves de respuesta separadas para comodidad del vendedor.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Fichas visuales multilingües para mercados globales',
         description:
           'Como las fichas Tren de Patrones contienen solo imágenes en los vagones con cero texto en la salida, el mismo producto funciona en todos los idiomas sin modificación. Crea un conjunto de ejercicios de trenes de patrones y véndelo en todo el mundo — sin traducción necesaria, sin versiones de idiomas separadas que mantener. Cambiar el idioma del contenido solo afecta las etiquetas de la biblioteca de imágenes en el generador, no la ficha impresa. Publica productos idénticos en tiendas Etsy dirigidas a diferentes países, o publica el mismo interior KDP en todos los mercados internacionales de Amazon. Un solo flujo de trabajo produce un producto universalmente vendible.',
-        platform: 'Etsy / Amazon KDP / TPT (global)',
+        platform: 'Etsy / Amazon KDP / Gumroad (global)',
       },
       {
-        title: 'Herramienta de conceptos de patrones para el aula y el refuerzo',
+        title: 'Herramienta de conceptos de patrones para venta en línea y el refuerzo',
         description:
-          'Sube imágenes personalizadas para crear fichas tren de patrones adaptadas a cualquier tema o unidad — usa etapas de crecimiento de plantas para una lección de ciencias, imágenes de artefactos históricos para ciencias sociales, o símbolos de notas musicales para una clase de música. Los cinco tipos de patrones te permiten adaptar el ejercicio al objetivo de aprendizaje: AB para la introducción, ABC y AABB para la evaluación. Ajusta el número de pistas según el nivel de cada alumno — más pistas para los alumnos con dificultades, menos para los avanzados. Imprime series personalizadas en minutos para grupos pequeños o clases enteras. La pestaña de clave de respuesta separada ahorra tiempo de corrección, y el formato visual en tren engancha a los alumnos que encuentran las fichas en cuadrícula monótonas.',
-        platform: 'Aula / Refuerzo / Educación en casa',
+          'Sube imágenes personalizadas para crear fichas tren de patrones adaptadas a cualquier tema o unidad — usa etapas de crecimiento de plantas para una lección de ciencias, imágenes de artefactos históricos para ciencias sociales, o símbolos de notas musicales para una clase de música. Los cinco tipos de patrones te permiten adaptar el ejercicio al objetivo de aprendizaje: AB para la introducción, ABC y AABB para la evaluación. Ajusta el número de pistas según el nivel de cada usuario — más pistas para los usuarios con dificultades, menos para los avanzados. Imprime series personalizadas en minutos para grupos pequeños o clases enteras. La pestaña de clave de respuesta separada ahorra valor percibido, y el formato visual en tren engancha a los usuarios que encuentran las fichas en cuadrícula monótonas.',
+        platform: 'Tienda / Refuerzo / Educación en casa',
       },
     ],
   },
@@ -143,12 +143,12 @@ const content: AppContent = {
     {
       question: '¿Cuáles son los cinco tipos de patrones y cómo se diferencian?',
       answer:
-        'AB alterna dos elementos (A-B-A-B) para el patrón repetitivo más simple. AAB agrupa dos de un elemento seguido de uno de otro (A-A-B-A-A-B). ABB invierte ese agrupamiento (A-B-B-A-B-B). ABC rota tres elementos diferentes (A-B-C-A-B-C), obligando a los alumnos a seguir una unidad de repetición más larga. AABB empareja dos de cada elemento (A-A-B-B-A-A-B-B) en un ciclo extendido. La progresión de AB a AABB crea una escala de dificultad natural desde la alternancia simple de dos elementos hasta secuencias complejas de múltiples elementos.',
+        'AB alterna dos elementos (A-B-A-B) para el patrón repetitivo más simple. AAB agrupa dos de un elemento seguido de uno de otro (A-A-B-A-A-B). ABB invierte ese agrupamiento (A-B-B-A-B-B). ABC rota tres elementos diferentes (A-B-C-A-B-C), obligando a los usuarios a seguir una unidad de repetición más larga. AABB empareja dos de cada elemento (A-A-B-B-A-A-B-B) en un ciclo extendido. La progresión de AB a AABB crea una escala de dificultad natural desde la alternancia simple de dos elementos hasta secuencias complejas de múltiples elementos.',
     },
     {
       question: '¿Cómo controla la dificultad el número de pistas?',
       answer:
-        'El número de pistas determina cuántos de los 11 vagones del tren muestran imágenes. Los 3 primeros vagones siempre son visibles para establecer el patrón. Con 10 pistas, solo un vagón está vacío entre 10 llenos — el patrón es muy evidente. Con 4 pistas, los alumnos ven información mínima y deben razonar cuidadosamente para identificar la secuencia. Este único ajuste transforma cualquier tipo de patrón de un ejercicio simple a un verdadero desafío de razonamiento, multiplicando efectivamente la variedad de productos a partir de cada tipo de patrón.',
+        'El número de pistas determina cuántos de los 11 vagones del tren muestran imágenes. Los 3 primeros vagones siempre son visibles para establecer el patrón. Con 10 pistas, solo un vagón está vacío entre 10 llenos — el patrón es muy evidente. Con 4 pistas, los usuarios ven información mínima y deben razonar cuidadosamente para identificar la secuencia. Este único ajuste transforma cualquier tipo de patrón de un ejercicio simple a un verdadero desafío de razonamiento, multiplicando efectivamente la variedad de productos a partir de cada tipo de patrón.',
     },
     {
       question: '¿Cómo se disponen los 11 vagones del tren en la página?',
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: '¿Cómo se determina la posición del vagón que falta?',
       answer:
-        'El vagón vacío se coloca dinámicamente entre las posiciones 3 a 10 según el número de pistas configurado. Las 3 primeras posiciones siempre están llenas para que los alumnos vean suficiente del patrón antes de encontrar el vagón vacío. Esta colocación inteligente asegura que cada puzzle sea justo y resoluble. Dos fichas con el mismo tipo de patrón pueden tener diferentes posiciones del vagón que falta, añadiendo variedad natural a los packs de productos.',
+        'El vagón vacío se coloca dinámicamente entre las posiciones 3 a 10 según el número de pistas configurado. Las 3 primeras posiciones siempre están llenas para que los usuarios vean suficiente del patrón antes de encontrar el vagón vacío. Esta colocación inteligente asegura que cada puzzle sea justo y resoluble. Dos fichas con el mismo tipo de patrón pueden tener diferentes posiciones del vagón que falta, añadiendo variedad natural a los packs de productos.',
     },
     {
       question: '¿Cómo selecciono las imágenes para los vagones del tren?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas tren de patrones como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos educativos en TPT o a través de cualquier otro canal de venta. Los cinco tipos de patrones, el número de pistas ajustable y el formato único en vagones de tren te ofrecen una fuerte diferenciación y vendibilidad global en las categorías de los marketplaces.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas tren de patrones como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. Los cinco tipos de patrones, el número de pistas ajustable y el formato único en vagones de tren te ofrecen una fuerte diferenciación y vendibilidad global en las categorías de los marketplaces.',
     },
     {
       question: '¿Cuál es la política de reembolso?',
@@ -263,13 +263,13 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/spanish/pattern train/Tren de Patrones 1.webp',
-      primaryAlt: 'Ficha tren de patrones con vagones temáticos mostrando un patrón repetitivo AB con un vagón vacío para que los alumnos lo completen',
+      primaryAlt: 'Ficha tren de patrones con vagones temáticos mostrando un patrón repetitivo AB con un vagón vacío para que los usuarios lo completen',
     },
     sampleGallery: [
       {
         src: '/samples/spanish/pattern train/Tren de Patrones 2.webp',
         alt: 'Ficha tren de patrones en modo patrón AB alternante con imágenes de animales en 11 vagones temáticos',
-        caption: 'Patrón AB con tema animales — los alumnos identifican la secuencia alternante y completan el vagón que falta',
+        caption: 'Patrón AB con tema animales — los usuarios identifican la secuencia alternante y completan el vagón que falta',
       },
       {
         src: '/samples/spanish/pattern train/Tren de Patrones 3.webp',
@@ -279,7 +279,7 @@ const content: AppContent = {
       {
         src: '/samples/spanish/pattern train/Tren de Patrones 1 answer_key.webp',
         alt: 'Clave de respuesta del tren de patrones mostrando los 11 vagones llenos con la secuencia correcta del patrón',
-        caption: 'Vista de clave de respuesta — los 11 vagones llenos con el patrón correcto para la verificación del profesor',
+        caption: 'Vista de clave de respuesta — los 11 vagones llenos con el patrón correcto para la verificación del vendedor',
       },
     ],
     youtubeId: '5A4aHvcC5u4',

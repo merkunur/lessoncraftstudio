@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'fichas de resta imprimibles para Etsy',
       'generador de fichas de resta para Amazon KDP',
-      'vender fichas de resta en Teachers Pay Teachers',
+      'vender fichas de resta en Gumroad',
       'fichas de resta licencia comercial',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Generador de Fichas de Resta | Crear y Vender',
     metaDescription:
-      'Crea fichas de resta para vender en Etsy, KDP y TPT. 4 modos con tachado visual, 104 temas, claves incluidas, export 400+ DPI. Prueba gratis con marca de.',
+      'Crea fichas de resta para vender en Etsy, KDP y Gumroad. 4 modos con tachado visual, 104 temas, claves incluidas, export 400+ DPI. Prueba gratis con marca de.',
   },
 
   hero: {
     title: 'Generador de Fichas de Resta con Visualización de Tachado',
     tagline: 'Haz que la resta sea intuitiva con fichas donde los niños tachan imágenes para encontrar la respuesta.',
     description:
-      'Crea fichas de resta basadas en imágenes que enseñan el concepto de «quitar» mediante un método visual poderoso: las imágenes tachadas. Los alumnos ven un grupo de imágenes y observan cruces diagonales trazadas sobre los elementos restados — convirtiendo el concepto abstracto de la resta en algo concreto e intuitivo. Elige entre cuatro modos de ejercicio — Tachar, Imagen − Número, Encontrar el Sustraendo y Modo Mixto — para acompañar el aprendizaje desde preescolar hasta segundo grado. Explora más de 3100 ilustraciones seleccionadas en 104 temas como dinosaurios, vida marina y vehículos. Cada ficha incluye una clave de respuesta automática, y puedes exportar PDF listos para imprimir en formato Carta, A4 o personalizado a más de 400 DPI. Un modo de escala de grises integrado permite crear versiones en blanco y negro con un solo clic. Ya sea que vendas paquetes temáticos en Etsy, publiques libros de actividades en Amazon KDP o imprimas fichas de práctica para tus alumnos, el Generador de Fichas de Resta produce resultados profesionales en minutos. Prueba gratis con todas las funciones — sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Crea fichas de resta basadas en imágenes que enseñan el concepto de «quitar» mediante un método visual poderoso: las imágenes tachadas. Los usuarios ven un grupo de imágenes y observan cruces diagonales trazadas sobre los elementos restados — convirtiendo el concepto abstracto de la resta en algo concreto e intuitivo. Elige entre cuatro modos de ejercicio — Tachar, Imagen − Número, Encontrar el Sustraendo y Modo Mixto — para acompañar el aprendizaje desde preescolar hasta segundo grado. Explora más de 3100 ilustraciones seleccionadas en 104 temas como dinosaurios, vida marina y vehículos. Cada ficha incluye una clave de respuesta automática, y puedes exportar PDF listos para imprimir en formato Carta, A4 o personalizado a más de 400 DPI. Un modo de escala de grises integrado permite crear versiones en blanco y negro con un solo clic. Ya sea que vendas paquetes temáticos en Etsy, publiques libros de actividades en Amazon KDP o imprimas fichas de práctica para tus usuarios, el Generador de Fichas de Resta produce resultados profesionales en minutos. Prueba gratis con todas las funciones — sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Configura el modo de ejercicio y el rango de números',
         description:
-          'Abre la Configuración de Ejercicios y selecciona uno de los cuatro modos. El modo Tachar muestra un grupo completo de imágenes y traza cruces diagonales sobre los elementos restados — la visualización característica que hace tangible la resta para los más pequeños. El modo Imagen − Número asocia un grupo de imágenes con un número para alumnos en transición hacia la resta abstracta. El modo Encontrar el Sustraendo muestra el grupo inicial y el resultado, desafiando a los alumnos a determinar cuántos se quitaron. El Modo Mixto combina los tres para una práctica variada. Establece el minuendo máximo de 2 a 20 y elige cuántos ejercicios aparecen por página.',
+          'Abre la Configuración de Ejercicios y selecciona uno de los cuatro modos. El modo Tachar muestra un grupo completo de imágenes y traza cruces diagonales sobre los elementos restados — la visualización característica que hace tangible la resta para los más pequeños. El modo Imagen − Número asocia un grupo de imágenes con un número para usuarios en transición hacia la resta abstracta. El modo Encontrar el Sustraendo muestra el grupo inicial y el resultado, desafiando a los usuarios a determinar cuántos se quitaron. El Modo Mixto combina los tres para una práctica variada. Establece el minuendo máximo de 2 a 20 y elige cuántos ejercicios aparecen por página.',
       },
       {
         title: 'Elige imágenes de la biblioteca temática',
@@ -47,12 +47,12 @@ const content: AppContent = {
       {
         title: 'Añade texto, títulos y opciones',
         description:
-          'Usa el panel de Herramientas de Texto para añadir un título, campos de nombre y fecha del alumno, instrucciones o cualquier texto personalizado. Elige entre tres fuentes amigables para niños — Lexend Deca, Baloo 2 y Nunito — y ajusta tamaño, color y estilo para una legibilidad óptima. Activa o desactiva los números de ejercicio, habilita la casilla de respuesta adaptada a niños y ajusta la posición de los elementos en el lienzo con las herramientas de arrastrar y soltar.',
+          'Usa el panel de Herramientas de Texto para añadir un título, campos de nombre y fecha, instrucciones o cualquier texto personalizado. Elige entre tres fuentes claros — Lexend Deca, Baloo 2 y Nunito — y ajusta tamaño, color y estilo para una legibilidad óptima. Activa o desactiva los números de ejercicio, habilita la casilla de respuesta atractivo y ajusta la posición de los elementos en el lienzo con las herramientas de arrastrar y soltar.',
       },
       {
         title: 'Genera la clave de respuesta y descarga',
         description:
-          'Ve a la pestaña de Clave de Respuesta y haz clic en Generar Clave de Respuesta para crear una versión completada con todas las diferencias correctas. Luego abre el menú de Descarga y exporta tanto la ficha como su clave de respuesta en JPEG de alta resolución o PDF listo para imprimir. Marca la casilla de Escala de Grises para producir versiones en blanco y negro — perfectas para impresión en clase o producción de libros de actividades económicos. Cada exportación se renderiza a más de 400 DPI.',
+          'Ve a la pestaña de Clave de Respuesta y haz clic en Generar Clave de Respuesta para crear una versión completada con todas las diferencias correctas. Luego abre el menú de Descarga y exporta tanto la ficha como su clave de respuesta en JPEG de alta resolución o PDF listo para imprimir. Marca la casilla de Escala de Grises para producir versiones en blanco y negro — perfectas para impresión en línea o producción de libros de actividades económicos. Cada exportación se renderiza a más de 400 DPI.',
       },
     ],
   },
@@ -63,32 +63,32 @@ const content: AppContent = {
       {
         title: 'Visualización de tachado',
         description:
-          'La función característica que distingue a este generador. En el modo Tachar, se muestra un grupo completo de imágenes y se trazan cruces diagonales sobre los últimos N elementos para mostrar la resta visualmente. Esto transforma la idea abstracta de «quitar» en algo que los alumnos pueden ver y comprender de inmediato. Un niño que observa ocho manzanas con tres tachadas entiende «8 menos 3» mucho más intuitivamente que mirando solo números. Las marcas de tachado se muestran claramente en el lienzo y aparecen tanto en la ficha como en la clave de respuesta.',
+          'La función característica que distingue a este generador. En el modo Tachar, se muestra un grupo completo de imágenes y se trazan cruces diagonales sobre los últimos N elementos para mostrar la resta visualmente. Esto transforma la idea abstracta de «quitar» en algo que los usuarios pueden ver y comprender de inmediato. Un niño que observa ocho manzanas con tres tachadas entiende «8 menos 3» mucho más intuitivamente que mirando solo números. Las marcas de tachado se muestran claramente en el lienzo y aparecen tanto en la ficha como en la clave de respuesta.',
       },
       {
         title: 'Cuatro modos de ejercicio distintos',
         description:
-          'Elige el modo que mejor se adapte al nivel de tus alumnos. El modo Tachar es ideal para principiantes — cuentan el grupo completo, los elementos tachados y escriben el número restante. El modo Imagen − Número asocia un grupo de imágenes con un número, conectando lo concreto con lo abstracto. El modo Encontrar el Sustraendo muestra el grupo original y el resultado, desarrollando el razonamiento algebraico temprano. El Modo Mixto combina los tres para una práctica variada sin repetición. Cambiar de modo requiere un solo clic.',
+          'Elige el modo que mejor se adapte al nivel de tus usuarios. El modo Tachar es ideal para principiantes — cuentan el grupo completo, los elementos tachados y escriben el número restante. El modo Imagen − Número asocia un grupo de imágenes con un número, conectando lo concreto con lo abstracto. El modo Encontrar el Sustraendo muestra el grupo original y el resultado, desarrollando el razonamiento algebraico temprano. El Modo Mixto combina los tres para una práctica variada sin repetición. Cambiar de modo requiere un solo clic.',
       },
       {
         title: 'Rangos de números configurables',
         description:
-          'Establece el minuendo máximo de 2 a 20, con control total sobre la dificultad. El generador garantiza que el sustraendo siempre sea menor que el minuendo, produciendo respuestas válidas y no negativas en todos los casos. Crea fichas sencillas con un máximo de 5 para preescolar, ejercicios estándar hasta 10 para infantil, o problemas más difíciles hasta 20 para primer y segundo grado. El ajuste se hace con un solo cambio, permitiéndote diferenciar la enseñanza para toda una clase en minutos.',
+          'Establece el minuendo máximo de 2 a 20, con control total sobre la dificultad. El generador garantiza que el sustraendo siempre sea menor que el minuendo, produciendo respuestas válidas y no negativas en todos los casos. Crea fichas sencillas con un máximo de 5 para preescolar, ejercicios estándar hasta 10 para infantil, o problemas más difíciles hasta 20 para primer y segundo grado. El ajuste se hace con un solo cambio, permitiéndote diferenciar la oferta para toda una clase en minutos.',
       },
       {
         title: '104 temas visuales con más de 3100 imágenes',
         description:
-          'Explora una biblioteca de más de 3100 ilustraciones seleccionadas en 104 temas: animales de granja, vida marina, vehículos, espacio, comida, deportes, dinosaurios, festividades y más. Cada imagen es de alta resolución y diseñada para una impresión clara y adaptada a niños. Como las imágenes llevan el contenido matemático — no el texto — tus fichas de resta funcionan perfectamente en cualquier idioma y en cualquier aula del mundo, vendiéndose internacionalmente sin traducción.',
+          'Explora una biblioteca de más de 3100 ilustraciones seleccionadas en 104 temas: animales de granja, vida marina, vehículos, espacio, comida, deportes, dinosaurios, festividades y más. Cada imagen es de alta resolución y diseñada para una impresión clara y atractivo. Como las imágenes llevan el contenido matemático — no el texto — tus fichas de resta funcionan perfectamente en cualquier idioma y en cualquier tienda del mundo, vendiéndose internacionalmente sin traducción.',
       },
       {
         title: 'Generación automática de clave de respuesta',
         description:
-          'Haz clic en un botón para generar una clave de respuesta completa que reproduce el diseño de tu ficha con todas las diferencias correctas. En el modo Tachar, la clave muestra las mismas imágenes tachadas más la respuesta escrita, permitiendo a los maestros verificar de un vistazo. Exporta la clave como archivo JPEG o PDF separado, ideal para ediciones del profesor, guías para padres o paquetes de productos en Etsy.',
+          'Haz clic en un botón para generar una clave de respuesta completa que reproduce el diseño de tu ficha con todas las diferencias correctas. En el modo Tachar, la clave muestra las mismas imágenes tachadas más la respuesta escrita, permitiendo a los vendedores verificar de un vistazo. Exporta la clave como archivo JPEG o PDF separado, ideal para ediciones del vendedor, guías para padres o paquetes de productos en Etsy.',
       },
       {
         title: 'Exportación lista para imprimir a 400+ DPI con escala de grises',
         description:
-          'Descarga fichas y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir. El motor de exportación renderiza a más de 400 DPI en tamaños estándar. El modo de escala de grises integrado convierte toda tu ficha a blanco y negro con una sola casilla — ideal para impresión en clase, reducir costos de tinta o producir interiores de libros de actividades para Amazon KDP.',
+          'Descarga fichas y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir. El motor de exportación renderiza a más de 400 DPI en tamaños estándar. El modo de escala de grises integrado convierte toda tu ficha a blanco y negro con una sola casilla — ideal para impresión en línea, reducir costos de tinta o producir interiores de libros de actividades para Amazon KDP.',
       },
       {
         title: 'Sube tus propias imágenes',
@@ -109,7 +109,7 @@ const content: AppContent = {
       {
         title: 'Paquetes temáticos de fichas de resta en Etsy',
         description:
-          'Crea conjuntos de 10 a 20 fichas de resta agrupadas por tema — dinosaurios, animales de granja, criaturas marinas, festividades — y ofrécelos como descarga instantánea en Etsy. Incluye la clave de respuesta y versiones en color y escala de grises como archivos extra para aumentar el valor percibido. La visualización de tachado es un argumento visual fuerte en las miniaturas, captando la atención de padres y maestros en los resultados de búsqueda. Fija temas individuales entre $3–$5 y mega-paquetes combinando varios temas entre $12–$18.',
+          'Crea conjuntos de 10 a 20 fichas de resta agrupadas por tema — dinosaurios, animales de granja, criaturas marinas, festividades — y ofrécelos como descarga instantánea en Etsy. Incluye la clave de respuesta y versiones en color y escala de grises como archivos extra para aumentar el valor percibido. La visualización de tachado es un argumento visual fuerte en las miniaturas, captando la atención de padres y vendedores en los resultados de búsqueda. Fija temas individuales entre $3–$5 y mega-paquetes combinando varios temas entre $12–$18.',
         platform: 'Etsy (etsy.com)',
       },
       {
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de matemáticas diferenciados para TPT',
+        title: 'Centros de matemáticas diferenciados para Gumroad',
         description:
-          'Crea conjuntos de resta por niveles: Nivel 1 (Tachar, minuendo máximo 5), Nivel 2 (Imagen − Número, minuendo máximo 10), Nivel 3 (Encontrar el Sustraendo, minuendo máximo 15) y Nivel 4 (Mixto, minuendo máximo 20). Cada nivel con claves de respuesta y hoja de seguimiento del progreso. Los compradores de Teachers Pay Teachers pagan precios premium por recursos diferenciados utilizables inmediatamente en múltiples grupos de nivel, y la visualización de tachado hace que tu listado destaque entre los competidores de solo texto.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Crea conjuntos de resta por niveles: Nivel 1 (Tachar, minuendo máximo 5), Nivel 2 (Imagen − Número, minuendo máximo 10), Nivel 3 (Encontrar el Sustraendo, minuendo máximo 15) y Nivel 4 (Mixto, minuendo máximo 20). Cada nivel con claves de respuesta y hoja de seguimiento del progreso. Los compradores de Gumroad pagan precios premium por recursos diferenciados utilizables inmediatamente en múltiples grupos de nivel, y la visualización de tachado hace que tu listado destaque entre los competidores de solo texto.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Contenido de suscripción para tu propia tienda',
         description:
-          'Usa el generador para producir paquetes semanales de fichas de resta y distribúyelos a través de Shopify, Gumroad o Payhip. Un modelo de suscripción — nuevo paquete temático cada semana — genera ingresos recurrentes y fideliza una clientela de familias que educan en casa y centros de tutoría. Con cuatro modos, 104 temas y dificultad ajustable de 2 a 20, tienes suficientes combinaciones para años de contenido único sin repetirte.',
+          'Usa el generador para producir paquetes semanales de fichas de resta y distribúyelos a través de Shopify, Gumroad o Payhip. Un modelo de suscripción — nuevo paquete temático cada semana — genera ingresos recurrentes y fideliza una clientela de emprendedores y centros de tutoría. Con cuatro modos, 104 temas y dificultad ajustable de 2 a 20, tienes suficientes combinaciones para años de contenido único sin repetirte.',
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: 'Fichas de práctica para el aula y tutoría',
+        title: 'Fichas de práctica para venta en línea y tutoría',
         description:
-          'Genera fichas de resta personalizadas adaptadas al nivel de cada alumno. Imprime fichas en modo Tachar para principiantes que necesitan el apoyo visual, y fichas de Encontrar el Sustraendo para alumnos avanzados listos para el pensamiento algebraico — todo en la misma sesión. La clave de respuesta automática ahorra tiempo de corrección, y el modo de escala de grises reduce los costos de impresión para uso intensivo en clase. Ya sea que dirijas un centro de tutoría, enseñes en infantil o eduques en casa, el generador reemplaza horas de creación manual por unos pocos clics.',
-        platform: 'Aula / Tutoría / Educación en casa',
+          'Genera fichas de resta personalizadas adaptadas al nivel de cada usuario. Imprime fichas en modo Tachar para principiantes que necesitan el apoyo visual, y fichas de Encontrar el Sustraendo para usuarios avanzados listos para el pensamiento algebraico — todo en la misma sesión. La clave de respuesta automática ahorra valor percibido, y el modo de escala de grises reduce los costos de impresión para uso intensivo en línea. Ya sea que dirijas un centro de tutoría, enseñes en infantil o eduques en casa, el generador reemplaza horas de creación manual por unos pocos clics.',
+        platform: 'Tienda / Tutoría / Educación en casa',
       },
     ],
   },
@@ -143,17 +143,17 @@ const content: AppContent = {
     {
       question: '¿Qué modos de ejercicio ofrece el Generador de Fichas de Resta?',
       answer:
-        'El generador incluye cuatro modos: Tachar (un grupo completo de imágenes con cruces diagonales sobre los elementos restados), Imagen − Número (un grupo de imágenes menos un número), Encontrar el Sustraendo (se muestran el inicio y el resultado, y los alumnos determinan cuántos se quitaron) y Modo Mixto (mezcla los tres). Cada modo se dirige a un nivel diferente, desde el conteo visual hasta el razonamiento algebraico temprano.',
+        'El generador incluye cuatro modos: Tachar (un grupo completo de imágenes con cruces diagonales sobre los elementos restados), Imagen − Número (un grupo de imágenes menos un número), Encontrar el Sustraendo (se muestran el inicio y el resultado, y los usuarios determinan cuántos se quitaron) y Modo Mixto (mezcla los tres). Cada modo se dirige a un nivel diferente, desde el conteo visual hasta el razonamiento algebraico temprano.',
     },
     {
       question: '¿Cómo funciona la visualización de tachado?',
       answer:
-        'En el modo Tachar, la ficha muestra el grupo de inicio completo — por ejemplo, ocho mariposas. Luego se trazan cruces diagonales sobre las últimas N imágenes para representar la cantidad restada. Los alumnos cuentan las imágenes sin marcar para encontrar la respuesta. Esto convierte el concepto abstracto de «quitar» en algo visible y concreto, especialmente eficaz para niños de preescolar e infantil que comienzan a aprender la resta.',
+        'En el modo Tachar, la ficha muestra el grupo de inicio completo — por ejemplo, ocho mariposas. Luego se trazan cruces diagonales sobre las últimas N imágenes para representar la cantidad restada. Los usuarios cuentan las imágenes sin marcar para encontrar la respuesta. Esto convierte el concepto abstracto de «quitar» en algo visible y concreto, especialmente eficaz para niños de preescolar e infantil que comienzan a aprender la resta.',
     },
     {
       question: '¿Qué rangos de números puedo configurar para los problemas de resta?',
       answer:
-        'Puedes establecer el minuendo máximo de 2 a 20. El generador se asegura automáticamente de que el sustraendo siempre sea menor que el minuendo, garantizando respuestas válidas y no negativas. Esto te permite crear problemas fáciles como 3 menos 1 para principiantes o problemas más difíciles como 18 menos 12 para alumnos avanzados.',
+        'Puedes establecer el minuendo máximo de 2 a 20. El generador se asegura automáticamente de que el sustraendo siempre sea menor que el minuendo, garantizando respuestas válidas y no negativas. Esto te permite crear problemas fáciles como 3 menos 1 para principiantes o problemas más difíciles como 18 menos 12 para usuarios avanzados.',
     },
     {
       question: '¿Cuántas imágenes y temas hay disponibles?',
@@ -163,7 +163,7 @@ const content: AppContent = {
     {
       question: '¿El generador crea claves de respuesta automáticamente?',
       answer:
-        'Sí. Haz clic en el botón Generar Clave de Respuesta para crear una versión completada de tu ficha con todas las diferencias correctas. En el modo Tachar, la clave conserva las imágenes tachadas y añade la respuesta escrita, facilitando la verificación para maestros y padres. Descárgala como archivo JPEG o PDF separado junto con la ficha del alumno.',
+        'Sí. Haz clic en el botón Generar Clave de Respuesta para crear una versión completada de tu ficha con todas las diferencias correctas. En el modo Tachar, la clave conserva las imágenes tachadas y añade la respuesta escrita, facilitando la verificación para vendedores y padres. Descárgala como archivo JPEG o PDF separado junto con la ficha del usuario.',
     },
     {
       question: '¿Las fichas de resta dependen del idioma?',
@@ -173,7 +173,7 @@ const content: AppContent = {
     {
       question: '¿Qué es la opción de exportación en escala de grises?',
       answer:
-        'El menú de descarga incluye una casilla de Escala de Grises que convierte toda tu ficha y clave de respuesta a blanco y negro antes de exportar. Esto produce versiones económicas en tinta, perfectas para impresión en clase, producción de libros de actividades a bajo costo en Amazon KDP o cualquier situación donde la impresión a color no esté disponible o sea demasiado costosa.',
+        'El menú de descarga incluye una casilla de Escala de Grises que convierte toda tu ficha y clave de respuesta a blanco y negro antes de exportar. Esto produce versiones económicas en tinta, perfectas para impresión en línea, producción de libros de actividades a bajo costo en Amazon KDP o cualquier situación donde la impresión a color no esté disponible o sea demasiado costosa.',
     },
     {
       question: '¿Hay una prueba gratuita?',
@@ -183,12 +183,12 @@ const content: AppContent = {
     {
       question: '¿Qué incluye la licencia comercial?',
       answer:
-        'La licencia comercial elimina la marca de agua de todas las descargas y te otorga derechos ilimitados para vender las fichas que crees — en Etsy, Amazon KDP, Teachers Pay Teachers, tu propio sitio web o cualquier otra plataforma. No hay regalías por venta, no hay cuotas mensuales y no hay límites en la cantidad de fichas que produzcas o vendas.',
+        'La licencia comercial elimina la marca de agua de todas las descargas y te otorga derechos ilimitados para vender las fichas que crees — en Etsy, Amazon KDP, Gumroad, tu propio sitio web o cualquier otra plataforma. No hay regalías por venta, no hay cuotas mensuales y no hay límites en la cantidad de fichas que produzcas o vendas.',
     },
     {
       question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de resta como descargas digitales en Etsy, como libros de actividades impresos en Amazon KDP, como recursos educativos en TPT o a través de cualquier otro canal de venta. Muchos vendedores crean paquetes temáticos y libros de actividades que generan ingresos consistentes.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de resta como descargas digitales en Etsy, como libros de actividades impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. Muchos vendedores crean paquetes temáticos y libros de actividades que generan ingresos consistentes.',
     },
     {
       question: '¿Cuál es la política de reembolso?',
@@ -236,7 +236,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'bases-matematicas-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles de matemáticas para educadores y vendedores',
+      anchorText: 'Ideas de imprimibles de matemáticas para emprendedores y vendedores',
     },
     {
       pageType: 'idea',
@@ -268,8 +268,8 @@ const content: AppContent = {
       },
       {
         src: '/samples/spanish/subtraction/Restas Divertidas 3.webp',
-        alt: 'Ficha de resta en modo Encontrar el Sustraendo desafiando a los alumnos a encontrar el valor faltante',
-        caption: 'Modo Encontrar el Sustraendo — los alumnos determinan cuántos se quitaron',
+        alt: 'Ficha de resta en modo Encontrar el Sustraendo desafiando a los usuarios a encontrar el valor faltante',
+        caption: 'Modo Encontrar el Sustraendo — los usuarios determinan cuántos se quitaron',
       },
     ],
     youtubeId: 'til2mrWMUxk',

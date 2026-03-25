@@ -7,7 +7,7 @@ const content: AppContent = {
       'fichas de caça ao tesouro imprimíveis para vendedores Etsy',
       'gerador de puzzles direcionais para editores Amazon KDP',
       'criador de caça ao tesouro com quadrícula licença comercial',
-      'vender fichas de caça ao tesouro no Teachers Pay Teachers',
+      'vender fichas de caça ao tesouro no Gumroad',
     ],
     lsiKeywords: [
       'produtos digitais de caça ao tesouro para empreendedores',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Gerador Caça ao Tesouro | Criar e Vender',
     metaDescription:
-      'Crie fichas de caça ao tesouro para Etsy, KDP e TPT. Quadrícula 5×5, dois modos direcionais, gabarito automático, 104 temas. Teste grátis com marca d\'água.',
+      'Crie fichas de caça ao tesouro para Etsy, KDP e Gumroad. Quadrícula 5×5, dois modos direcionais, gabarito automático, 104 temas. Teste grátis com marca d\'água.',
   },
 
   hero: {
     title: 'Gerador de Fichas de Caça ao Tesouro para Puzzles Direcionais',
     tagline: 'Gere puzzles direcionais de procura de caminho numa quadrícula de coordenadas 5×5 — dois vocabulários de direção (Básico: cima/baixo/esquerda/direita e Cardinal: norte/sul/leste/oeste), pistas direcionais completamente localizadas em 11 idiomas, gabarito autogerado com localização do tesouro realçada, e cabeçalhos temáticos de tesouro em 104 coleções de imagens.',
     description:
-      'Crie fichas profissionais de caça ao tesouro onde os alunos seguem pistas de movimento sequenciais para localizar o tesouro escondido numa quadrícula de coordenadas 5×5 com letras e números (linhas A–E, colunas 1–5). Cada puzzle distribui 6 imagens temáticas pela quadrícula como pontos de referência, depois gera uma posição de início e exatamente 4 movimentos direcionais que conduzem à célula do tesouro. Escolha entre dois vocabulários de direção: o modo Básico usa cima, baixo, esquerda e direita para aprendizes iniciais, enquanto o modo Cardinal usa norte, sul, leste e oeste para raciocínio espacial mais avançado. O Gerador de Caça ao Tesouro é sensível ao idioma: mudar o idioma altera tanto o texto das instruções direcionais como o conteúdo das imagens, com todas as direções completamente traduzidas para os 11 idiomas suportados. Cada puzzle inclui um cabeçalho localizado autogerado com fundo verde-azulado (#2C8C7C), título dourado (#D4A017) em fonte Fredoka e descrição em areia na Quicksand — mostrando «Caça ao Tesouro» e «Segue as pistas e encontra o tesouro!» no idioma selecionado. O sistema de duplo canvas gera tanto um separador de ficha como um separador de gabarito — o gabarito realça a célula final do tesouro em amarelo pálido para que nunca tenha de a marcar manualmente. O Acesso Completo desbloqueia todos os 104 temas com mais de 3100 ilustrações e os 11 idiomas para direções e imagens localizadas. Adicione temas de fundo e temas de moldura com controlos de opacidade independentes, e exporte PDF e JPEG prontos para impressão a 300 DPI em tamanhos Carta, A4, Quadrado (1200×1200) ou personalizados. Quer venda packs de caça ao tesouro na Etsy, compile cadernos de competências direcionais para Amazon KDP ou crie atividades de quadrícula de coordenadas para TPT, este gerador produz puzzles prontos para produção em minutos — teste grátis com todas as funcionalidades — sem registo, sem cartão de crédito. Os downloads incluem marca d\'água; adquira uma licença para removê-la.',
+      'Crie fichas profissionais de caça ao tesouro onde os usuários seguem pistas de movimento sequenciais para localizar o tesouro escondido numa quadrícula de coordenadas 5×5 com letras e números (linhas A–E, colunas 1–5). Cada puzzle distribui 6 imagens temáticas pela quadrícula como pontos de referência, depois gera uma posição de início e exatamente 4 movimentos direcionais que conduzem à célula do tesouro. Escolha entre dois vocabulários de direção: o modo Básico usa cima, baixo, esquerda e direita para aprendizes iniciais, enquanto o modo Cardinal usa norte, sul, leste e oeste para raciocínio espacial mais avançado. O Gerador de Caça ao Tesouro é sensível ao idioma: mudar o idioma altera tanto o texto das instruções direcionais como o conteúdo das imagens, com todas as direções completamente traduzidas para os 11 idiomas suportados. Cada puzzle inclui um cabeçalho localizado autogerado com fundo verde-azulado (#2C8C7C), título dourado (#D4A017) em fonte Fredoka e descrição em areia na Quicksand — mostrando «Caça ao Tesouro» e «Segue as pistas e encontra o tesouro!» no idioma selecionado. O sistema de duplo canvas gera tanto um separador de ficha como um separador de gabarito — o gabarito realça a célula final do tesouro em amarelo pálido para que nunca tenha de a marcar manualmente. O Acesso Completo desbloqueia todos os 104 temas com mais de 3100 ilustrações e os 11 idiomas para direções e imagens localizadas. Adicione temas de fundo e temas de moldura com controlos de opacidade independentes, e exporte PDF e JPEG prontos para impressão a 300 DPI em tamanhos Carta, A4, Quadrado (1200×1200) ou personalizados. Quer venda packs de caça ao tesouro na Etsy, compile cadernos de competências direcionais para Amazon KDP ou crie atividades de quadrícula de coordenadas para Gumroad, este gerador produz puzzles prontos para produção em minutos — teste grátis com todas as funcionalidades — sem registo, sem cartão de crédito. Os downloads incluem marca d\'água; adquira uma licença para removê-la.',
   },
 
   howItWorks: {
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Reveja o Gabarito e Descarregue',
         description:
-          'Mude para o separador Gabarito para ver a solução com a célula final do tesouro realçada em amarelo pálido (rgba(255, 250, 205, 0.8)) e um traço cinzento escuro. Descarregue ambas as versões usando os quatro botões dedicados no menu suspenso: JPEG de Ficha, JPEG de Gabarito, PDF de Ficha e PDF de Gabarito. Os ficheiros são exportados a 300 DPI para qualidade pronta para impressão. Ative a escala de cinzentos para versões que poupam tinta. Cada exportação está pronta para produção em listagens da Etsy, interiores de Amazon KDP e ficheiros de produtos TPT.',
+          'Mude para o separador Gabarito para ver a solução com a célula final do tesouro realçada em amarelo pálido (rgba(255, 250, 205, 0.8)) e um traço cinzento escuro. Descarregue ambas as versões usando os quatro botões dedicados no menu suspenso: JPEG de Ficha, JPEG de Gabarito, PDF de Ficha e PDF de Gabarito. Os ficheiros são exportados a 300 DPI para qualidade pronta para impressão. Ative a escala de cinzentos para versões que poupam tinta. Cada exportação está pronta para produção em listagens da Etsy, interiores de Amazon KDP e ficheiros de produtos Gumroad.',
       },
     ],
   },
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: 'Exportação Pronta para Impressão em PDF e JPEG a 300 DPI com Escala de Cinzentos',
         description:
-          'Descarregue puzzles de caça ao tesouro e gabaritos como imagens JPEG de alta resolução ou documentos PDF prontos para impressão renderizados a 300 DPI (multiplicador JPEG 6×, multiplicador PDF 3×). Quatro botões de descarga dedicados no menu suspenso exportam ficha.jpeg, gabarito.jpeg, ficha.pdf e gabarito.pdf separadamente. Os tamanhos de página incluem Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) e dimensões totalmente personalizadas. Ative a escala de cinzentos para versões que poupam tinta e toner. Cada exportação está pronta para produção em downloads digitais, cadernos impressos e material para sala de aula.',
+          'Descarregue puzzles de caça ao tesouro e gabaritos como imagens JPEG de alta resolução ou documentos PDF prontos para impressão renderizados a 300 DPI (multiplicador JPEG 6×, multiplicador PDF 3×). Quatro botões de descarga dedicados no menu suspenso exportam ficha.jpeg, gabarito.jpeg, ficha.pdf e gabarito.pdf separadamente. Os tamanhos de página incluem Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) e dimensões totalmente personalizadas. Ative a escala de cinzentos para versões que poupam tinta e toner. Cada exportação está pronta para produção em downloads digitais, cadernos impressos e material para loja.',
       },
     ],
   },
@@ -117,19 +117,19 @@ const content: AppContent = {
         title: 'Conjuntos Multilingues de Caça ao Tesouro com Direções Localizadas',
         description:
           'Aproveite as pistas direcionais completamente localizadas para criar fichas de caça ao tesouro em 11 idiomas. A mesma estrutura de puzzle produz conteúdo autêntico no idioma nativo ao mudar de idioma — as direções, instruções e etiquetas de imagens atualizam-se automaticamente. Crie packs multilingues de caça ao tesouro onde cada versão num idioma usa as mesmas imagens temáticas mas texto direcional localizado. Isto é valioso para salas de aula de ESL/EFL que ensinam vocabulário direcional, famílias bilingues e programas de ensino doméstico internacionais. Venda conjuntos específicos por idioma ou mega-packs multilingues a preços premium.',
-        platform: 'Etsy / TPT (mercado multilingue)',
+        platform: 'Etsy / Gumroad (mercado multilingue)',
       },
       {
-        title: 'Packs de Atividades de Quadrícula de Coordenadas para TPT',
+        title: 'Packs de Atividades de Quadrícula de Coordenadas para Gumroad',
         description:
-          'Crie conjuntos de atividades de quadrícula de coordenadas prontos a usar que ensinam raciocínio espacial e competências de mapas. A quadrícula 5×5 com letras e números (linhas A–E, colunas 1–5) introduz os alunos nos sistemas de coordenadas usados em geografia, matemática e ciências. Os professores que procuram atividades de quadrícula de coordenadas no TPT valorizam fichas com quadrículas visuais claras, instruções sequenciais e gabaritos impressos. Crie conjuntos alinhados com o currículo: combine caças ao tesouro com direção Básica com versões de direção Cardinal para instrução diferenciada. Cada conjunto inclui fichas para alunos e gabaritos em formatos PDF e JPEG.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Crie conjuntos de atividades de quadrícula de coordenadas prontos a usar que ensinam raciocínio espacial e competências de mapas. A quadrícula 5×5 com letras e números (linhas A–E, colunas 1–5) introduz os usuários nos sistemas de coordenadas usados em geografia, matemática e ciências. Os vendedores que procuram atividades de quadrícula de coordenadas no Gumroad valorizam fichas com quadrículas visuais claras, instruções sequenciais e gabaritos impressos. Crie conjuntos alinhados com o catálogo de produtos: combine caças ao tesouro com direção Básica com versões de direção Cardinal para pacotes escalonados por nível. Cada conjunto inclui fichas para usuários e gabaritos em formatos PDF e JPEG.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Coleções Sazonais de Caça ao Tesouro',
         description:
           'As 104 coleções de imagens temáticas cobrem cada ocasião sazonal e festiva — Natal, Halloween, Páscoa, Dia dos Namorados, regresso às aulas, férias de verão e mais. Crie coleções de caça ao tesouro sazonais que se alinhem com os períodos de maior procura. Lance caças ao tesouro de Halloween em setembro, coleções de Natal em outubro e packs do Dia dos Namorados em janeiro. Inclua ambos os tipos de direção Básico e Cardinal em cada conjunto sazonal para máximo valor. Os produtos sazonais atingem preços mais altos durante as suas janelas de pico e criam razões naturais para compras recorrentes.',
-        platform: 'Etsy / Amazon KDP / TPT (sazonal)',
+        platform: 'Etsy / Amazon KDP / Gumroad (sazonal)',
       },
     ],
   },
@@ -138,12 +138,12 @@ const content: AppContent = {
     {
       question: 'O que é uma ficha de caça ao tesouro e como funciona o puzzle?',
       answer:
-        'Uma ficha de caça ao tesouro é um puzzle de procura de caminho numa quadrícula de coordenadas 5×5 etiquetada com linhas de letras (A–E) e colunas de números (1–5). Seis imagens temáticas são distribuídas pela quadrícula como pontos de referência visuais. A ficha fornece 5 linhas de instruções: uma posição de início (p. ex., «Começa em A3»), exatamente 4 movimentos direcionais (p. ex., «Move-te para baixo 2 casas»), e uma pergunta final «Onde está o tesouro?» Os alunos seguem as pistas sequenciais na quadrícula para determinar que célula contém o tesouro.',
+        'Uma ficha de caça ao tesouro é um puzzle de procura de caminho numa quadrícula de coordenadas 5×5 etiquetada com linhas de letras (A–E) e colunas de números (1–5). Seis imagens temáticas são distribuídas pela quadrícula como pontos de referência visuais. A ficha fornece 5 linhas de instruções: uma posição de início (p. ex., «Começa em A3»), exatamente 4 movimentos direcionais (p. ex., «Move-te para baixo 2 casas»), e uma pergunta final «Onde está o tesouro?» Os usuários seguem as pistas sequenciais na quadrícula para determinar que célula contém o tesouro.',
     },
     {
       question: 'Como funciona a quadrícula de coordenadas 5×5?',
       answer:
-        'A quadrícula é composta por 25 células dispostas em 5 linhas (etiquetadas de A a E) e 5 colunas (etiquetadas de 1 a 5). Cada célula é identificada por uma coordenada de letra-número como A1, B3 ou E5. Seis imagens temáticas ocupam 6 das 25 células como pontos de referência visuais. A posição de início e os 4 movimentos permanecem dentro dos limites da quadrícula (linhas A–E, colunas 1–5), assegurando que cada puzzle é resolúvel. Este sistema de coordenadas letra-número introduz os alunos nas competências de referência de quadrícula usadas em mapas, gráficos e matemática.',
+        'A quadrícula é composta por 25 células dispostas em 5 linhas (etiquetadas de A a E) e 5 colunas (etiquetadas de 1 a 5). Cada célula é identificada por uma coordenada de letra-número como A1, B3 ou E5. Seis imagens temáticas ocupam 6 das 25 células como pontos de referência visuais. A posição de início e os 4 movimentos permanecem dentro dos limites da quadrícula (linhas A–E, colunas 1–5), assegurando que cada puzzle é resolúvel. Este sistema de coordenadas letra-número introduz os usuários nas competências de referência de quadrícula usadas em mapas, gráficos e matemática.',
     },
     {
       question: 'Quais são os dois tipos de direção e como se diferenciam?',
@@ -153,12 +153,12 @@ const content: AppContent = {
     {
       question: 'Porque é que cada puzzle tem exatamente 4 movimentos?',
       answer:
-        'A estrutura consistente de 4 movimentos cria um formato de puzzle padronizado que funciona de forma fiável na quadrícula 5×5. Quatro movimentos proporcionam complexidade suficiente para uma procura de caminho significativa sem sobrecarregar os aprendizes mais novos. Cada puzzle segue o mesmo formato de 5 linhas de instruções: posição de início, 4 movimentos sequenciais e a pergunta «Onde está o tesouro?». Esta consistência torna as fichas de caça ao tesouro previsíveis para os alunos e fáceis de empacotar em conjuntos de atividades estruturados para vendedores.',
+        'A estrutura consistente de 4 movimentos cria um formato de puzzle padronizado que funciona de forma fiável na quadrícula 5×5. Quatro movimentos proporcionam complexidade suficiente para uma procura de caminho significativa sem sobrecarregar os aprendizes mais novos. Cada puzzle segue o mesmo formato de 5 linhas de instruções: posição de início, 4 movimentos sequenciais e a pergunta «Onde está o tesouro?». Esta consistência torna as fichas de caça ao tesouro previsíveis para os usuários e fáceis de empacotar em conjuntos de atividades estruturados para vendedores.',
     },
     {
       question: 'Como são usadas as 6 imagens no puzzle?',
       answer:
-        'Seis imagens temáticas são distribuídas pelas 25 células da quadrícula 5×5 como pontos de referência visuais. Tornam a quadrícula visualmente atrativa e ajudam os alunos a orientarem-se enquanto seguem as pistas direcionais. Pode preencher a quadrícula usando três métodos: Gerar a partir do Tema (predefinido) seleciona automaticamente 6 imagens aleatórias do tema escolhido, a Seleção Manual de Imagens permite-lhe explorar a biblioteca e clicar para escolher exatamente 6 imagens, e Carregar Imagens Personalizadas permite-lhe adicionar os seus próprios ficheiros JPEG, PNG, GIF ou WebP.',
+        'Seis imagens temáticas são distribuídas pelas 25 células da quadrícula 5×5 como pontos de referência visuais. Tornam a quadrícula visualmente atrativa e ajudam os usuários a orientarem-se enquanto seguem as pistas direcionais. Pode preencher a quadrícula usando três métodos: Gerar a partir do Tema (predefinido) seleciona automaticamente 6 imagens aleatórias do tema escolhido, a Seleção Manual de Imagens permite-lhe explorar a biblioteca e clicar para escolher exatamente 6 imagens, e Carregar Imagens Personalizadas permite-lhe adicionar os seus próprios ficheiros JPEG, PNG, GIF ou WebP.',
     },
     {
       question: 'O Gerador de Caça ao Tesouro é sensível ao idioma?',
@@ -173,7 +173,7 @@ const content: AppContent = {
     {
       question: 'Como funciona o gabarito autogerado?',
       answer:
-        'O gerador usa um sistema de duplo canvas com um separador de Ficha e um separador de Gabarito, cada um com pilhas separadas de desfazer/refazer. A ficha mostra a quadrícula 5×5 com imagens distribuídas e pistas direcionais — pronta para os alunos seguirem. O gabarito reproduz o layout idêntico e realça a célula final do tesouro em amarelo pálido (rgba(255, 250, 205, 0.8)) com um traço cinzento escuro, tornando o destino imediatamente visível. Ambas as versões são exportadas separadamente usando quatro botões dedicados: ficha.jpeg, gabarito.jpeg, ficha.pdf e gabarito.pdf.',
+        'O gerador usa um sistema de duplo canvas com um separador de Ficha e um separador de Gabarito, cada um com pilhas separadas de desfazer/refazer. A ficha mostra a quadrícula 5×5 com imagens distribuídas e pistas direcionais — pronta para os usuários seguirem. O gabarito reproduz o layout idêntico e realça a célula final do tesouro em amarelo pálido (rgba(255, 250, 205, 0.8)) com um traço cinzento escuro, tornando o destino imediatamente visível. Ambas as versões são exportadas separadamente usando quatro botões dedicados: ficha.jpeg, gabarito.jpeg, ficha.pdf e gabarito.pdf.',
     },
     {
       question: 'Existe um teste grátis?',
@@ -188,7 +188,7 @@ const content: AppContent = {
     {
       question: 'Posso vender fichas de caça ao tesouro criadas com esta ferramenta na Etsy e Amazon KDP?',
       answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas de caça ao tesouro como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos para sala de aula no TPT ou através de qualquer outro canal de venda. Os dois tipos de direção, a quadrícula de coordenadas 5×5, as pistas direcionais localizadas, os gabaritos autogerados e as 104 coleções temáticas de imagens dão-lhe as ferramentas criativas para produzir produtos originais e vendáveis de puzzles de procura de caminho.',
+        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas de caça ao tesouro como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos para loja no Gumroad ou através de qualquer outro canal de venda. Os dois tipos de direção, a quadrícula de coordenadas 5×5, as pistas direcionais localizadas, os gabaritos autogerados e as 104 coleções temáticas de imagens dão-lhe as ferramentas criativas para produzir produtos originais e vendáveis de puzzles de procura de caminho.',
     },
     {
       question: 'Qual é a política de reembolso?',

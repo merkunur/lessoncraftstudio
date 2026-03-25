@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Generador de Sopa de Letras',
     tagline: 'Crea sopas de letras con cuadrículas ajustables, controles de dirección y letras de relleno adaptadas al idioma en 11 idiomas',
-    description: 'Diseña sopas de letras profesionales donde las palabras ocultas están incrustadas dentro de una cuadrícula de letras aleatorias y los alumnos escanean filas, columnas y diagonales para encontrarlas — el formato de puzzle clásico que nunca pasa de moda. Esta herramienta te da control preciso sobre la dificultad a través de dos ejes independientes: tamaño de cuadrícula (ajustable de 5×5 a 30×30 con filas y columnas configurables de forma independiente) y controles de dirección de palabras (palabras diagonales activables o desactivables, palabras en reverso activables o desactivables) creando entre dos y ocho direcciones posibles de colocación. Elige entre tres fuentes de contenido: el modo Biblioteca de Imágenes selecciona de más de 3.100 ilustraciones en 104 colecciones temáticas, el Modo Edición Manual te permite seleccionar imágenes y personalizar los nombres mostrados, y el modo Lista de Palabras Personalizada te permite escribir hasta 8 palabras directamente para sopas de letras solo con texto. Tres modos de visualización — Palabras + Imágenes, Solo Imágenes y Solo Palabras — controlan qué aparece como pistas junto a la cuadrícula. La característica estrella es el relleno de letras adaptado al idioma: cuando cambias de idioma, las letras de relleno de la cuadrícula cambian para coincidir con el conjunto de caracteres de ese idioma con distribuciones de frecuencia ponderadas. Las cuadrículas en alemán incluyen ä, ö, ü y ß a frecuencias naturales. Las cuadrículas en francés incluyen é, è, ç, à. Las cuadrículas en español incluyen ñ, á, é, í, ó, ú a sus frecuencias naturales. Cada idioma recibe caracteres de relleno auténticos, haciendo que los puzzles sean lingüísticamente genuinos en vez de generados con letras inglesas. Una clave de respuestas codificada por colores resalta cada palabra encontrada en uno de seis colores cíclicos — rosa, azul, verde, dorado, coral y lavanda — para verificación visual instantánea. Exporta PDF e imágenes JPEG listos para imprimir a más de 400 DPI en tamaño Carta, A4 o personalizado. Elige entre 7 familias tipográficas, añade campos de nombre y fecha del alumno, activa el modo escala de grises para impresión con ahorro de tinta, y usa el lienzo completo de Fabric.js para reposicionar cada elemento. La prueba gratuita incluye una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
+    description: 'Diseña sopas de letras profesionales donde las palabras ocultas están incrustadas dentro de una cuadrícula de letras aleatorias y los usuarios escanean filas, columnas y diagonales para encontrarlas — el formato de puzzle clásico que nunca pasa de moda. Esta herramienta te da control preciso sobre la dificultad a través de dos ejes independientes: tamaño de cuadrícula (ajustable de 5×5 a 30×30 con filas y columnas configurables de forma independiente) y controles de dirección de palabras (palabras diagonales activables o desactivables, palabras en reverso activables o desactivables) creando entre dos y ocho direcciones posibles de colocación. Elige entre tres fuentes de contenido: el modo Biblioteca de Imágenes selecciona de más de 3.100 ilustraciones en 104 colecciones temáticas, el Modo Edición Manual te permite seleccionar imágenes y personalizar los nombres mostrados, y el modo Lista de Palabras Personalizada te permite escribir hasta 8 palabras directamente para sopas de letras solo con texto. Tres modos de visualización — Palabras + Imágenes, Solo Imágenes y Solo Palabras — controlan qué aparece como pistas junto a la cuadrícula. La característica estrella es el relleno de letras adaptado al idioma: cuando cambias de idioma, las letras de relleno de la cuadrícula cambian para coincidir con el conjunto de caracteres de ese idioma con distribuciones de frecuencia ponderadas. Las cuadrículas en alemán incluyen ä, ö, ü y ß a frecuencias naturales. Las cuadrículas en francés incluyen é, è, ç, à. Las cuadrículas en español incluyen ñ, á, é, í, ó, ú a sus frecuencias naturales. Cada idioma recibe caracteres de relleno auténticos, haciendo que los puzzles sean lingüísticamente genuinos en vez de generados con letras inglesas. Una clave de respuestas codificada por colores resalta cada palabra encontrada en uno de seis colores cíclicos — rosa, azul, verde, dorado, coral y lavanda — para verificación visual instantánea. Exporta PDF e imágenes JPEG listos para imprimir a más de 400 DPI en tamaño Carta, A4 o personalizado. Elige entre 7 familias tipográficas, añade campos de nombre y fecha, activa el modo escala de grises para impresión con ahorro de tinta, y usa el lienzo completo de Fabric.js para reposicionar cada elemento. La prueba gratuita incluye una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
   },
 
   tutorial: {
@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Configurar el Tamaño y las Dimensiones de la Cuadrícula',
-        description: 'Ajusta filas y columnas de forma independiente desde 5 hasta 30. El valor predeterminado es 12×12. Una cuadrícula de 5×5 con 25 celdas crea un puzzle rápido y accesible para alumnos pequeños. Una cuadrícula de 20×20 o 30×30 crea una búsqueda densa y desafiante para solucionadores experimentados. Ajustar las dimensiones de la cuadrícula es la forma principal de controlar cuánta exploración visual requiere cada puzzle. Adapta el tamaño a tu público: pequeño para infantil, mediano para primaria, grande para adultos y entusiastas de puzzles.',
+        description: 'Ajusta filas y columnas de forma independiente desde 5 hasta 30. El valor predeterminado es 12×12. Una cuadrícula de 5×5 con 25 celdas crea un puzzle rápido y accesible para usuarios pequeños. Una cuadrícula de 20×20 o 30×30 crea una búsqueda densa y desafiante para solucionadores experimentados. Ajustar las dimensiones de la cuadrícula es la forma principal de controlar cuánta exploración visual requiere cada puzzle. Adapta el tamaño a tu público: pequeño para infantil, mediano para primaria, grande para adultos y entusiastas de puzzles.',
       },
       {
         title: 'Activar los Controles de Dirección de Palabras',
@@ -53,7 +53,7 @@ const content: ToolContent = {
       },
       {
         title: 'Personalizar Fuentes, Texto y Lienzo',
-        description: 'Elige entre 7 familias tipográficas: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial o Verdana. Activa o desactiva los campos de nombre y fecha del alumno. Añade textos personalizados con instrucciones o títulos. Usa las herramientas del lienzo Fabric.js para arrastrar, redimensionar, rotar y reposicionar cada elemento de la página. Las herramientas de alineación, controles de bloqueo y deshacer/rehacer ilimitados te permiten afinar el diseño con precisión.',
+        description: 'Elige entre 7 familias tipográficas: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial o Verdana. Activa o desactiva los campos de nombre y fecha. Añade textos personalizados con instrucciones o títulos. Usa las herramientas del lienzo Fabric.js para arrastrar, redimensionar, rotar y reposicionar cada elemento de la página. Las herramientas de alineación, controles de bloqueo y deshacer/rehacer ilimitados te permiten afinar el diseño con precisión.',
       },
       {
         title: 'Generar la Clave de Respuestas y Descargar',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Packs Temáticos de Sopa de Letras',
-      description: 'Crea conjuntos de 10 a 20 fichas de sopa de letras agrupadas por tema — animales de granja, criaturas marinas, vehículos, comida, festividades y más. Varía el tamaño de cuadrícula y los ajustes de dirección a lo largo del conjunto para dificultad progresiva: comienza con una cuadrícula 8×8 solo horizontal y avanza hasta una cuadrícula 16×16 con diagonales y reverso. Incluye claves de respuestas codificadas por colores en cada puzzle. Agrúpalos por tema y véndelos en Etsy o Teachers Pay Teachers. El formato de cuadrícula con imágenes hace que las miniaturas de tus listings sean reconocibles al instante como actividades de puzzle atractivas.',
+      description: 'Crea conjuntos de 10 a 20 fichas de sopa de letras agrupadas por tema — animales de granja, criaturas marinas, vehículos, comida, festividades y más. Varía el tamaño de cuadrícula y los ajustes de dirección a lo largo del conjunto para dificultad progresiva: comienza con una cuadrícula 8×8 solo horizontal y avanza hasta una cuadrícula 16×16 con diagonales y reverso. Incluye claves de respuestas codificadas por colores en cada puzzle. Agrúpalos por tema y véndelos en Etsy o Gumroad. El formato de cuadrícula con imágenes hace que las miniaturas de tus listings sean reconocibles al instante como actividades de puzzle atractivas.',
     },
     {
       title: 'Cuadernos de Sopa de Letras para KDP',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Conjuntos de Vocabulario con Dificultad Diferenciada',
-      description: 'Crea conjuntos de práctica nivelados usando el tamaño de cuadrícula y los controles de dirección como ejes de diferenciación. Nivel 1: cuadrícula 8×8, solo horizontal, 4 palabras. Nivel 2: cuadrícula 12×12, horizontal y vertical, 6 palabras. Nivel 3: cuadrícula 16×16, diagonales activadas, 8 palabras. Nivel 4: cuadrícula 20×20, diagonales y reverso, 8 palabras. Empaqueta cada nivel con claves de respuestas y una guía de seguimiento del progreso. Los profesores pagan precios premium por recursos diferenciados que pueden usar con múltiples niveles de habilidad.',
+      description: 'Crea conjuntos de práctica nivelados usando el tamaño de cuadrícula y los controles de dirección como ejes de diferenciación. Nivel 1: cuadrícula 8×8, solo horizontal, 4 palabras. Nivel 2: cuadrícula 12×12, horizontal y vertical, 6 palabras. Nivel 3: cuadrícula 16×16, diagonales activadas, 8 palabras. Nivel 4: cuadrícula 20×20, diagonales y reverso, 8 palabras. Empaqueta cada nivel con claves de respuestas y una guía de seguimiento del progreso. Los vendedores pagan precios premium por recursos diferenciados que pueden usar con múltiples niveles de habilidad.',
     },
     {
       title: 'Productos de Sopa de Letras Multilingüe',
@@ -81,18 +81,18 @@ const content: ToolContent = {
     },
     {
       title: 'Sopas de Letras con Vocabulario Personalizado',
-      description: 'Usa el modo Lista de Palabras Personalizada para escribir vocabulario específico directamente: términos de ciencias, listas de ortografía semanales, vocabulario de lectura, palabras de estudios sociales o práctica de idiomas. No necesitas imágenes — la herramienta genera una sopa de letras completa a partir de tus palabras escritas. Crea fichas de puzzle específicas para cualquier currículo, nivel de grado o tema de nicho que la biblioteca de imágenes no cubra.',
+      description: 'Usa el modo Lista de Palabras Personalizada para escribir vocabulario específico directamente: términos de ciencias, listas de ortografía semanales, vocabulario de lectura, palabras de estudios sociales o práctica de idiomas. No necesitas imágenes — la herramienta genera una sopa de letras completa a partir de tus palabras escritas. Crea fichas de puzzle específicas para cualquier catálogo de productos, nivel de grado o tema de nicho que la biblioteca de imágenes no cubra.',
     },
     {
       title: 'Packs Estacionales y de Festividades',
-      description: 'Usa temas de imágenes festivas y estacionales para crear packs de edición limitada. Un pack de «Sopa de Letras de Halloween» con vocabulario espeluznante en cuadrículas progresivamente más grandes se vende muy bien en octubre. Navidad, vuelta al cole, primavera y verano tienen sus propias ventanas de ventas pico en Etsy y TpT. Combina cuadrículas fáciles para alumnos pequeños con cuadrículas difíciles para mayores en un solo pack estacional para maximizar tu audiencia de compradores.',
+      description: 'Usa temas de imágenes festivas y estacionales para crear packs de edición limitada. Un pack de «Sopa de Letras de Halloween» con vocabulario espeluznante en cuadrículas progresivamente más grandes se vende muy bien en octubre. Navidad, vuelta al cole, primavera y verano tienen sus propias ventanas de ventas pico en Etsy y Gumroad. Combina cuadrículas fáciles para usuarios pequeños con cuadrículas difíciles para mayores en un solo pack estacional para maximizar tu audiencia de compradores.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Tienda de Sopas de Letras por Dificultad en Etsy',
-      description: 'Abre una tienda Etsy especializada en sopas de letras organizadas por nivel de dificultad. Usa el tamaño de cuadrícula y los controles de dirección para crear niveles claramente diferenciados: Principiante (8×8, solo horizontal), Intermedio (12×12, diagonales activadas), Avanzado (18×18, diagonales y reverso), Experto (25×25, las ocho direcciones). La mayoría de vendedores de sopas de letras ofrecen puzzles genéricos de un solo nivel — los productos con dificultad graduada permiten a los compradores encontrar exactamente el desafío adecuado para sus alumnos, lo que genera mejores reseñas y compras repetidas.',
+      description: 'Abre una tienda Etsy especializada en sopas de letras organizadas por nivel de dificultad. Usa el tamaño de cuadrícula y los controles de dirección para crear niveles claramente diferenciados: Principiante (8×8, solo horizontal), Intermedio (12×12, diagonales activadas), Avanzado (18×18, diagonales y reverso), Experto (25×25, las ocho direcciones). La mayoría de vendedores de sopas de letras ofrecen puzzles genéricos de un solo nivel — los productos con dificultad graduada permiten a los compradores encontrar exactamente el desafío adecuado para sus usuarios, lo que genera mejores reseñas y compras repetidas.',
       platform: 'Etsy',
     },
     {
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Centros de Vocabulario en Teachers Pay Teachers',
-      description: 'Sube packs de sopas de letras a TpT organizados por tema y dificultad. Incluye cuatro niveles de dificultad por tema usando el tamaño de cuadrícula y los controles de dirección como ejes de diferenciación. Empaqueta con claves de respuestas codificadas por colores y hojas de seguimiento del progreso del alumno. Los profesores buscan «actividades de vocabulario» y «sopa de letras» frecuentemente. La dificultad ajustable significa que un solo producto sirve para un aula completa con habilidades mixtas, algo que los profesores valoran mucho y mencionan en las reseñas.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Centros de Vocabulario en Gumroad',
+      description: 'Sube packs de sopas de letras a Gumroad organizados por tema y dificultad. Incluye cuatro niveles de dificultad por tema usando el tamaño de cuadrícula y los controles de dirección como ejes de diferenciación. Empaqueta con claves de respuestas codificadas por colores y hojas de seguimiento del progreso del usuario. Los vendedores buscan «actividades de vocabulario» y «sopa de letras» frecuentemente. La dificultad ajustable significa que un solo producto sirve para un tienda completa con habilidades mixtas, algo que los vendedores valoran mucho y mencionan en las reseñas.',
+      platform: 'Gumroad',
     },
     {
       title: 'Tienda de Puzzles Multilingüe',
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Kit Completo de Puzzles en Gumroad',
-      description: 'Combina sopas de letras con fichas de palabras desordenadas, adivinar palabras, criptogramas y asociación para crear un kit de puzzles integral en Gumroad. Cada formato ejercita una habilidad cognitiva diferente: la sopa de letras desarrolla la exploración visual y el reconocimiento de patrones, las palabras desordenadas practican la reorganización de letras, adivinar palabras evalúa el recuerdo ortográfico con pistas contextuales. Un kit de puzzles multiformato justifica un precio premium y ofrece a los alumnos práctica variada con el mismo vocabulario.',
+      description: 'Combina sopas de letras con fichas de palabras desordenadas, adivinar palabras, criptogramas y asociación para crear un kit de puzzles integral en Gumroad. Cada formato ejercita una habilidad cognitiva diferente: la sopa de letras desarrolla la exploración visual y el reconocimiento de patrones, las palabras desordenadas practican la reorganización de letras, adivinar palabras evalúa el recuerdo ortográfico con pistas contextuales. Un kit de puzzles multiformato justifica un precio premium y ofrece a los usuarios práctica variada con el mismo vocabulario.',
       platform: 'Gumroad',
     },
   ],
@@ -125,7 +125,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Usa el Tamaño de Cuadrícula como Control Principal de Dificultad',
-      description: 'Una cuadrícula de 5×5 con 25 celdas es un puzzle rápido y fácil donde las palabras se encuentran casi de inmediato. Una cuadrícula de 20×20 con 400 celdas requiere exploración visual sostenida. Usa cuadrículas pequeñas para infantil y principiantes, cuadrículas medianas para alumnos de primaria, y cuadrículas grandes para adultos y entusiastas de puzzles. El tamaño de la cuadrícula afecta la dificultad más que cualquier otro ajuste.',
+      description: 'Una cuadrícula de 5×5 con 25 celdas es un puzzle rápido y fácil donde las palabras se encuentran casi de inmediato. Una cuadrícula de 20×20 con 400 celdas requiere exploración visual sostenida. Usa cuadrículas pequeñas para infantil y principiantes, cuadrículas medianas para usuarios de primaria, y cuadrículas grandes para adultos y entusiastas de puzzles. El tamaño de la cuadrícula afecta la dificultad más que cualquier otro ajuste.',
     },
     {
       title: 'Combina los Controles de Dirección para Desafío Progresivo',
@@ -137,15 +137,15 @@ const content: ToolContent = {
     },
     {
       title: 'Usa los Modos de Visualización Estratégicamente',
-      description: 'El modo Palabras + Imágenes es el estándar — ideal para aprendizaje de vocabulario. El modo Solo Imágenes añade un desafío extra: los alumnos deben identificar qué representa el dibujo antes de buscar la palabra. El modo Solo Palabras crea sopas de letras clásicas basadas en texto sin pistas visuales. Ofrece los tres modos como variantes del mismo pack temático para triplicar tu gama de productos con una sola sesión de diseño.',
+      description: 'El modo Palabras + Imágenes es el estándar — ideal para aprendizaje de vocabulario. El modo Solo Imágenes añade un desafío extra: los usuarios deben identificar qué representa el dibujo antes de buscar la palabra. El modo Solo Palabras crea sopas de letras clásicas basadas en texto sin pistas visuales. Ofrece los tres modos como variantes del mismo pack temático para triplicar tu gama de productos con una sola sesión de diseño.',
     },
     {
       title: 'Usa Escala de Grises para KDP e Impresión en Grandes Cantidades',
-      description: 'Activa el modo escala de grises para fichas destinadas a interiores de Amazon KDP o impresión masiva en el aula. La impresión en blanco y negro cuesta significativamente menos. Reserva el modo color para vistas previas de listings en Etsy y descargas digitales donde las imágenes vibrantes y las cuadrículas coloridas atraen clics.',
+      description: 'Activa el modo escala de grises para fichas destinadas a interiores de Amazon KDP o impresión masiva en línea. La impresión en blanco y negro cuesta significativamente menos. Reserva el modo color para vistas previas de listings en Etsy y descargas digitales donde las imágenes vibrantes y las cuadrículas coloridas atraen clics.',
     },
     {
       title: 'Las Claves de Respuestas Codificadas por Colores Añaden Valor Profesional',
-      description: 'La clave de respuestas en seis colores — rosa, azul, verde, dorado, coral, lavanda — resalta cada palabra de forma distinta, incluso cuando las palabras se cruzan o superponen en la cuadrícula. Incluye siempre claves de respuestas en tus packs de productos. Los profesores las esperan, los padres las agradecen, y el formato codificado por colores luce profesional en las vistas previas de tus listings en comparación con claves de respuestas simples de tipo «rodea la palabra».',
+      description: 'La clave de respuestas en seis colores — rosa, azul, verde, dorado, coral, lavanda — resalta cada palabra de forma distinta, incluso cuando las palabras se cruzan o superponen en la cuadrícula. Incluye siempre claves de respuestas en tus packs de productos. Los vendedores las esperan, los padres las agradecen, y el formato codificado por colores luce profesional en las vistas previas de tus listings en comparación con claves de respuestas simples de tipo «rodea la palabra».',
     },
     {
       title: 'Combina con Otras Herramientas de Vocabulario para Packs Premium',
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Cómo funciona el formato de sopa de letras?',
-      answer: 'Las palabras ocultas se incrustan dentro de una cuadrícula de letras aleatorias de relleno. Los alumnos escanean filas, columnas y opcionalmente diagonales para encontrar cada palabra, luego la rodean o resaltan. Las letras de relleno de la cuadrícula se aleatorizan cada vez que generas, así que cada puzzle es único incluso con la misma lista de palabras. Se pueden colocar hasta 8 palabras en una sola cuadrícula.',
+      answer: 'Las palabras ocultas se incrustan dentro de una cuadrícula de letras aleatorias de relleno. Los usuarios escanean filas, columnas y opcionalmente diagonales para encontrar cada palabra, luego la rodean o resaltan. Las letras de relleno de la cuadrícula se aleatorizan cada vez que generas, así que cada puzzle es único incluso con la misma lista de palabras. Se pueden colocar hasta 8 palabras en una sola cuadrícula.',
     },
     {
       question: '¿Qué tamaños de cuadrícula están disponibles?',
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: '¿En qué se diferencia la sopa de letras de las palabras desordenadas y adivinar palabras?',
-      answer: 'La Sopa de Letras es un puzzle de exploración visual — los alumnos encuentran palabras ocultas incrustadas en una cuadrícula de letras aleatorias escaneando filas, columnas y diagonales. Las Palabras Desordenadas dan a los alumnos fichas de letras mezcladas para reorganizar en la ortografía correcta. Adivinar Palabras muestra espacios en blanco en posiciones fijas y los alumnos completan las letras faltantes. Cada formato ejercita una habilidad cognitiva diferente y se complementan bien en productos combinados.',
+      answer: 'La Sopa de Letras es un puzzle de exploración visual — los usuarios encuentran palabras ocultas incrustadas en una cuadrícula de letras aleatorias escaneando filas, columnas y diagonales. Las Palabras Desordenadas dan a los usuarios fichas de letras mezcladas para reorganizar en la ortografía correcta. Adivinar Palabras muestra espacios en blanco en posiciones fijas y los usuarios completan las letras faltantes. Cada formato ejercita una habilidad cognitiva diferente y se complementan bien en productos combinados.',
     },
     {
       question: '¿Qué idiomas están disponibles?',
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Puedo vender las fichas creadas con esta herramienta?',
-      answer: 'La prueba gratuita con marca de agua es solo para uso personal y educativo. Para vender fichas en Etsy, Teachers Pay Teachers, Amazon KDP o cualquier otro marketplace, necesitas una licencia comercial. La licencia comercial elimina la marca de agua y otorga derechos completos de reventa para las fichas que crees.',
+      answer: 'La prueba gratuita con marca de agua es solo para uso personal y educativo. Para vender fichas en Etsy, Gumroad, Amazon KDP o cualquier otro marketplace, necesitas una licencia comercial. La licencia comercial elimina la marca de agua y otorga derechos completos de reventa para las fichas que crees.',
     },
     {
       question: '¿En qué formatos de archivo puedo descargar?',

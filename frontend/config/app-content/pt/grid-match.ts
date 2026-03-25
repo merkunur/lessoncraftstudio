@@ -7,7 +7,7 @@ const content: AppContent = {
       'gerador de puzzles de quadrícula imprimíveis para vendedores Etsy',
       'criador de puzzles de peças de imagens para editores Amazon KDP',
       'gerador de puzzles de quadrícula com licença comercial',
-      'vender puzzles de quadrícula de imagens no Teachers Pay Teachers',
+      'vender puzzles de quadrícula de imagens no Gumroad',
     ],
     lsiKeywords: [
       'produtos digitais de puzzles de quadrícula para empreendedores',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Gerador Puzzles de Quadrícula | Criar e Vender',
     metaDescription:
-      'Crie puzzles de quadrícula para vender na Etsy, KDP e TPT. Grelha configurável, caselas-dica, gabarito automático, 104 temas. Teste grátis com marca d\'água.',
+      'Crie puzzles de quadrícula para vender na Etsy, KDP e Gumroad. Grelha configurável, caselas-dica, gabarito automático, 104 temas. Teste grátis com marca d\'água.',
   },
 
   hero: {
     title: 'Gerador de Puzzles de Quadrícula para Atividades de Correspondência de Peças de Imagens',
     tagline: 'Transforme qualquer imagem num puzzle baseado em quadrícula — divida-a em peças, revele caselas-dica configuráveis, misture as peças restantes numa paleta numerada e gere automaticamente um gabarito com círculos numerados sobrepostos em 104 coleções de imagens temáticas.',
     description:
-      'Crie puzzles de quadrícula profissionais onde uma imagem única é dividida numa grelha de peças e os alunos associam as peças numeradas às suas posições corretas. Configure a grelha de 2×2 a 4×4 (2–4 linhas × 2–4 colunas) e defina 1–5 caselas-dica que permanecem visíveis como pistas — menos pistas significa um puzzle mais difícil. A aplicação mistura as peças restantes usando o algoritmo Fisher-Yates e apresenta-as numa paleta numerada ao lado ou abaixo da grelha. Os alunos estudam as caselas-dica reveladas, examinam as peças numeradas e escrevem qual número corresponde a cada célula vazia. O sistema de canvas duplo gera tanto um separador de ficha de trabalho como um separador de gabarito — o gabarito mostra a imagem completa com círculos numerados sobrepostos em cada célula indicando a colocação correta das peças, sem necessidade de criar gabaritos manualmente. O Puzzle de Quadrícula NÃO é sensível ao idioma: o resultado do puzzle é puramente visual, sem conteúdo textual localizado na ficha. O Acesso Completo desbloqueia os 104 temas com mais de 3100 ilustrações e os 11 idiomas de interface. Adicione temas de fundo e de borda com controlos de opacidade independentes, inclua texto personalizado com sete opções de fontes, e exporte PDFs e JPEGs prontos para impressão a 300 DPI nos formatos Carta, A4 ou dimensões personalizadas. Quer venda pacotes de puzzles de imagens na Etsy, compile cadernos de perceção visual para a Amazon KDP ou crie atividades de puzzles rápidos para o TPT, este gerador produz puzzles de quadrícula prontos para produção em minutos — teste grátis com todas as funcionalidades, sem registo, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie puzzles de quadrícula profissionais onde uma imagem única é dividida numa grelha de peças e os usuários associam as peças numeradas às suas posições corretas. Configure a grelha de 2×2 a 4×4 (2–4 linhas × 2–4 colunas) e defina 1–5 caselas-dica que permanecem visíveis como pistas — menos pistas significa um puzzle mais difícil. A aplicação mistura as peças restantes usando o algoritmo Fisher-Yates e apresenta-as numa paleta numerada ao lado ou abaixo da grelha. Os usuários estudam as caselas-dica reveladas, examinam as peças numeradas e escrevem qual número corresponde a cada célula vazia. O sistema de canvas duplo gera tanto um separador de ficha de trabalho como um separador de gabarito — o gabarito mostra a imagem completa com círculos numerados sobrepostos em cada célula indicando a colocação correta das peças, sem necessidade de criar gabaritos manualmente. O Puzzle de Quadrícula NÃO é sensível ao idioma: o resultado do puzzle é puramente visual, sem conteúdo textual localizado na ficha. O Acesso Completo desbloqueia os 104 temas com mais de 3100 ilustrações e os 11 idiomas de interface. Adicione temas de fundo e de borda com controlos de opacidade independentes, inclua texto personalizado com sete opções de fontes, e exporte PDFs e JPEGs prontos para impressão a 300 DPI nos formatos Carta, A4 ou dimensões personalizadas. Quer venda pacotes de puzzles de imagens na Etsy, compile cadernos de perceção visual para a Amazon KDP ou crie atividades de puzzles rápidos para o Gumroad, este gerador produz puzzles de quadrícula prontos para produção em minutos — teste grátis com todas as funcionalidades, sem registo, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Configure a Grelha',
         description:
-          'Abra o painel Opções de Grelha e defina o número de linhas (2–4, predefinição 3) e colunas (2–4, predefinição 3) para a sua grelha de puzzle. Depois defina o número de caselas-dica (1–5, predefinição 1) — são as peças que permanecem visíveis na ficha como pistas para os alunos. Uma grelha 3×3 com 1 dica cria um puzzle estimulante com 8 peças por associar, enquanto uma grelha 2×2 com 3 dicas cria um exercício fácil com apenas 1 peça por colocar. Esta dificuldade configurável facilita a criação de conjuntos de puzzles progressivos.',
+          'Abra o painel Opções de Grelha e defina o número de linhas (2–4, predefinição 3) e colunas (2–4, predefinição 3) para a sua grelha de puzzle. Depois defina o número de caselas-dica (1–5, predefinição 1) — são as peças que permanecem visíveis na ficha como pistas para os usuários. Uma grelha 3×3 com 1 dica cria um puzzle estimulante com 8 peças por associar, enquanto uma grelha 2×2 com 3 dicas cria um exercício fácil com apenas 1 peça por colocar. Esta dificuldade configurável facilita a criação de conjuntos de puzzles progressivos.',
       },
       {
         title: 'Selecione uma Imagem',
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Gere o Gabarito e Descarregue',
         description:
-          'Mude para o separador Gabarito para ver o gabarito gerado automaticamente. Apresenta a imagem completa, sem recortar, com círculos numerados sobrepostos em cada célula da grelha — círculos com fundo amarelo (#ffffe0) e contorno preto que indicam qual número da paleta corresponde a cada posição. Descarregue ambas as versões com os quatro botões dedicados: Ficha JPEG, Gabarito JPEG, Ficha PDF e Gabarito PDF a 300 DPI. Ative o modo escala de cinzentos para versões económicas em tinta. Cada exportação está pronta para produção: listagens da Etsy, interiores da Amazon KDP e ficheiros de produtos TPT.',
+          'Mude para o separador Gabarito para ver o gabarito gerado automaticamente. Apresenta a imagem completa, sem recortar, com círculos numerados sobrepostos em cada célula da grelha — círculos com fundo amarelo (#ffffe0) e contorno preto que indicam qual número da paleta corresponde a cada posição. Descarregue ambas as versões com os quatro botões dedicados: Ficha JPEG, Gabarito JPEG, Ficha PDF e Gabarito PDF a 300 DPI. Ative o modo escala de cinzentos para versões económicas em tinta. Cada exportação está pronta para produção: listagens da Etsy, interiores da Amazon KDP e ficheiros de produtos Gumroad.',
       },
     ],
   },
@@ -63,22 +63,22 @@ const content: AppContent = {
       {
         title: 'Puzzle de Quadrícula com Imagem Única e Linhas e Colunas Configuráveis (2–4 × 2–4)',
         description:
-          'Cada puzzle começa com uma única imagem dividida numa grelha de peças. Defina 2–4 linhas e 2–4 colunas de forma independente, criando grelhas de 2×2 (4 peças) até 4×4 (16 peças). A grelha predefinida 3×3 produz 9 peças — um nível de dificuldade equilibrado para a maioria das idades. As grelhas mais pequenas funcionam bem para puzzles introdutórios e alunos mais novos, enquanto as grelhas maiores desafiam alunos mais avançados e criam produtos de puzzles premium. Ao contrário das fichas de associação com múltiplas imagens, o puzzle de quadrícula avalia o raciocínio espacial e a análise visual de uma única imagem completa.',
+          'Cada puzzle começa com uma única imagem dividida numa grelha de peças. Defina 2–4 linhas e 2–4 colunas de forma independente, criando grelhas de 2×2 (4 peças) até 4×4 (16 peças). A grelha predefinida 3×3 produz 9 peças — um nível de dificuldade equilibrado para a maioria das idades. As grelhas mais pequenas funcionam bem para puzzles introdutórios e usuários mais novos, enquanto as grelhas maiores desafiam usuários mais avançados e criam produtos de puzzles premium. Ao contrário das fichas de associação com múltiplas imagens, o puzzle de quadrícula avalia o raciocínio espacial e a análise visual de uma única imagem completa.',
       },
       {
         title: 'Número de Caselas-Dica Ajustável para Dificuldade Escalável (1–5 Células Reveladas)',
         description:
-          'Controle a dificuldade do puzzle definindo 1–5 caselas-dica que permanecem visíveis na ficha como pistas. Com uma grelha 3×3 e 1 dica, os alunos devem associar 8 peças misturadas — um verdadeiro desafio. Com 5 dicas na mesma grelha, apenas 4 peças precisam de ser associadas — um exercício acessível de aquecimento. Este simples controlo deslizante transforma a mesma imagem em puzzles que vão de fácil a avançado, permitindo-lhe criar conjuntos de dificuldade progressiva a partir de uma única imagem e uma única configuração de grelha. O valor predefinido é 1 casela-dica para máximo desafio.',
+          'Controle a dificuldade do puzzle definindo 1–5 caselas-dica que permanecem visíveis na ficha como pistas. Com uma grelha 3×3 e 1 dica, os usuários devem associar 8 peças misturadas — um verdadeiro desafio. Com 5 dicas na mesma grelha, apenas 4 peças precisam de ser associadas — um exercício acessível de aquecimento. Este simples controlo deslizante transforma a mesma imagem em puzzles que vão de fácil a avançado, permitindo-lhe criar conjuntos de dificuldade progressiva a partir de uma única imagem e uma única configuração de grelha. O valor predefinido é 1 casela-dica para máximo desafio.',
       },
       {
         title: 'Paleta de Peças Numeradas Misturadas com Algoritmo Fisher-Yates',
         description:
-          'As peças ocultas são misturadas usando o algoritmo Fisher-Yates e apresentadas numa paleta numerada ao lado da grelha. Cada peça recebe um número único que os alunos usam como referência ao escrever as suas respostas. O algoritmo garante que cada puzzle gerado tem uma ordem de peças diferente, mesmo usando a mesma imagem e os mesmos parâmetros de grelha. Isto significa que pode produzir múltiplas fichas de puzzles únicas a partir de uma única imagem simplesmente regenerando — valioso para criar pacotes variados sem necessitar de imagens fonte diferentes.',
+          'As peças ocultas são misturadas usando o algoritmo Fisher-Yates e apresentadas numa paleta numerada ao lado da grelha. Cada peça recebe um número único que os usuários usam como referência ao escrever as suas respostas. O algoritmo garante que cada puzzle gerado tem uma ordem de peças diferente, mesmo usando a mesma imagem e os mesmos parâmetros de grelha. Isto significa que pode produzir múltiplas fichas de puzzles únicas a partir de uma única imagem simplesmente regenerando — valioso para criar pacotes variados sem necessitar de imagens fonte diferentes.',
       },
       {
         title: 'Gabarito Autogerado com Círculos Numerados Sobrepostos na Imagem Completa',
         description:
-          'Cada puzzle de quadrícula gera automaticamente um gabarito complementar num separador de canvas separado. O gabarito apresenta a imagem completa, sem recortar, com círculos numerados sobrepostos em cada célula — círculos com fundo amarelo (#ffffe0), contorno preto e texto na fonte Fredoka. Cada número corresponde à ordem misturada da paleta da ficha de trabalho, mostrando a alunos e professores exatamente qual peça pertence a cada posição. Sem criação manual de gabaritos, sem ficheiro separado — o gabarito mantém-se perfeitamente sincronizado com a ficha.',
+          'Cada puzzle de quadrícula gera automaticamente um gabarito complementar num separador de canvas separado. O gabarito apresenta a imagem completa, sem recortar, com círculos numerados sobrepostos em cada célula — círculos com fundo amarelo (#ffffe0), contorno preto e texto na fonte Fredoka. Cada número corresponde à ordem misturada da paleta da ficha de trabalho, mostrando a usuários e vendedores exatamente qual peça pertence a cada posição. Sem criação manual de gabaritos, sem ficheiro separado — o gabarito mantém-se perfeitamente sincronizado com a ficha.',
       },
       {
         title: 'Biblioteca de Imagens com 104 Coleções Temáticas e Mais de 3100 Ilustrações',
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: 'Exportação PDF e JPEG Pronta para Impressão a 300 DPI com Modo Escala de Cinzentos',
         description:
-          'Descarregue puzzles de quadrícula e gabaritos como imagens JPEG de alta resolução ou documentos PDF prontos para impressão renderizados a 300 DPI (multiplicador 6×, qualidade JPEG 1.0). Quatro botões de descarga dedicados exportam os ficheiros de ficha de trabalho e gabarito separadamente. Os formatos de página incluem Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal e dimensões totalmente personalizadas. A orientação do PDF é detetada automaticamente. Ative a escala de cinzentos para versões económicas em tinta que preservam a estrutura da grelha. Cada exportação está pronta para produção: downloads digitais, cadernos impressos e materiais de sala de aula.',
+          'Descarregue puzzles de quadrícula e gabaritos como imagens JPEG de alta resolução ou documentos PDF prontos para impressão renderizados a 300 DPI (multiplicador 6×, qualidade JPEG 1.0). Quatro botões de descarga dedicados exportam os ficheiros de ficha de trabalho e gabarito separadamente. Os formatos de página incluem Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal e dimensões totalmente personalizadas. A orientação do PDF é detetada automaticamente. Ative a escala de cinzentos para versões económicas em tinta que preservam a estrutura da grelha. Cada exportação está pronta para produção: downloads digitais, cadernos impressos e materiais de loja.',
       },
       {
         title: 'Edição Completa do Canvas com Ferramentas de Texto, Alinhamento e Controlos de Camadas',
@@ -119,21 +119,21 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Atividades de Puzzles para a Sala de Aula no TPT',
+        title: 'Atividades de Puzzles para a loja no Gumroad',
         description:
-          'Crie atividades de puzzles de quadrícula prontas para usar em preenchimentos de fim de aula, trabalho matinal ou centros de enriquecimento. Os professores que procuram atividades de perceção visual no TPT valorizam puzzles que chegam prontos para imprimir com gabaritos. Crie conjuntos alinhados com o currículo: puzzles de imagens de animais para ciências, puzzles de monumentos para estudos sociais, puzzles de alimentos para nutrição. A dificuldade configurável permite-lhe diferenciar dentro de um único produto — inclua versões fáceis, médias e difíceis dos mesmos puzzles temáticos para que os professores possam atribuir conforme o nível do aluno.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Crie atividades de puzzles de quadrícula prontas para usar em preenchimentos de fim de aula, trabalho matinal ou centros de enriquecimento. Os vendedores que procuram atividades de perceção visual no Gumroad valorizam puzzles que chegam prontos para imprimir com gabaritos. Crie conjuntos alinhados com o catálogo de produtos: puzzles de imagens de animais para ciências, puzzles de monumentos para estudos sociais, puzzles de alimentos para nutrição. A dificuldade configurável permite-lhe diferenciar dentro de um único produto — inclua versões fáceis, médias e difíceis dos mesmos puzzles temáticos para que os vendedores possam atribuir conforme o nível do usuário.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Coleções de Puzzles de Quadrícula Sazonais',
         description:
           'As 104 coleções de imagens temáticas cobrem cada ocasião sazonal e festiva — Natal, Halloween, Páscoa, Dia dos Namorados, regresso às aulas, férias de verão e mais. Crie coleções de puzzles de quadrícula por época alinhadas com os picos de compra. Lance pacotes de puzzles de Halloween em setembro, coleções de Natal em outubro e pacotes do Dia dos Namorados em janeiro. Inclua múltiplos tamanhos de grelha e níveis de dificuldade em cada conjunto sazonal para máximo valor. Os produtos sazonais alcançam preços mais altos durante as suas janelas de máxima procura e criam razões naturais para compras recorrentes.',
-        platform: 'Etsy / Amazon KDP / TPT (sazonal)',
+        platform: 'Etsy / Amazon KDP / Gumroad (sazonal)',
       },
       {
         title: 'Puzzles de Quadrícula com Fotos Personalizadas para Produtos à Medida',
         description:
-          'Use a função Carregar Imagens Personalizadas para criar puzzles de quadrícula a partir de qualquer foto ou ilustração. Puzzles com fotos de família são presentes personalizados únicos. Os professores podem carregar fotos da turma para atividades de fim de ano. Puzzles com fotos de animais de estimação, de férias e de equipa criam produtos irrepetíveis. Ofereça a criação de puzzles de quadrícula personalizados como serviço premium na Etsy, onde os clientes enviam as suas fotos e recebem fichas de puzzles impressas com gabaritos — um produto personalizado de alta margem com tempo de produção mínimo.',
+          'Use a função Carregar Imagens Personalizadas para criar puzzles de quadrícula a partir de qualquer foto ou ilustração. Puzzles com fotos de família são presentes personalizados únicos. Os vendedores podem carregar fotos da turma para atividades de fim de ano. Puzzles com fotos de animais de estimação, de férias e de equipa criam produtos irrepetíveis. Ofereça a criação de puzzles de quadrícula personalizados como serviço premium na Etsy, onde os clientes enviam as suas fotos e recebem fichas de puzzles impressas com gabaritos — um produto personalizado de alta margem com tempo de produção mínimo.',
         platform: 'Etsy (produtos personalizados)',
       },
     ],
@@ -143,17 +143,17 @@ const content: AppContent = {
     {
       question: 'Que tamanhos de grelha estão disponíveis para os puzzles de quadrícula?',
       answer:
-        'O gerador suporta 2–4 linhas e 2–4 colunas, configuradas de forma independente. Isto cria grelhas de 2×2 (4 peças) até 4×4 (16 peças). O valor predefinido é 3×3 (9 peças). As grelhas mais pequenas são mais fáceis e funcionam bem para alunos mais novos; as grelhas maiores aumentam a dificuldade e a complexidade visual. Pode definir linhas e colunas com valores diferentes — por exemplo, 2 linhas × 4 colunas cria um puzzle retangular largo.',
+        'O gerador suporta 2–4 linhas e 2–4 colunas, configuradas de forma independente. Isto cria grelhas de 2×2 (4 peças) até 4×4 (16 peças). O valor predefinido é 3×3 (9 peças). As grelhas mais pequenas são mais fáceis e funcionam bem para usuários mais novos; as grelhas maiores aumentam a dificuldade e a complexidade visual. Pode definir linhas e colunas com valores diferentes — por exemplo, 2 linhas × 4 colunas cria um puzzle retangular largo.',
     },
     {
       question: 'Como é que as caselas-dica controlam a dificuldade do puzzle?',
       answer:
-        'As caselas-dica são posições da grelha onde a peça de imagem permanece visível como pista. Defina 1–5 caselas-dica com o controlo deslizante no painel Opções de Grelha (o valor predefinido é 1). Mais dicas tornam o puzzle mais fácil porque os alunos têm mais pontos de referência. Para uma grelha 3×3 com 1 dica, os alunos devem associar 8 peças — bastante desafiante. Com 5 dicas, apenas 4 peças precisam de ser associadas — muito mais acessível. Este simples controlo permite-lhe criar conjuntos de dificuldade progressiva a partir da mesma imagem.',
+        'As caselas-dica são posições da grelha onde a peça de imagem permanece visível como pista. Defina 1–5 caselas-dica com o controlo deslizante no painel Opções de Grelha (o valor predefinido é 1). Mais dicas tornam o puzzle mais fácil porque os usuários têm mais pontos de referência. Para uma grelha 3×3 com 1 dica, os usuários devem associar 8 peças — bastante desafiante. Com 5 dicas, apenas 4 peças precisam de ser associadas — muito mais acessível. Este simples controlo permite-lhe criar conjuntos de dificuldade progressiva a partir da mesma imagem.',
     },
     {
-      question: 'Como funciona o puzzle de quadrícula para os alunos?',
+      question: 'Como funciona o puzzle de quadrícula para os usuários?',
       answer:
-        'A ficha de trabalho mostra uma grelha onde algumas células apresentam a peça de imagem real (caselas-dica) e as células restantes mostram marcadores «?». Abaixo ou ao lado da grelha, uma paleta numerada apresenta todas as peças ocultas em ordem aleatória. Os alunos examinam as caselas-dica, estudam as peças numeradas e determinam qual número corresponde a cada posição vazia da grelha. O exercício requer raciocínio espacial — associar o conteúdo da peça à sua localização correta na imagem completa.',
+        'A ficha de trabalho mostra uma grelha onde algumas células apresentam a peça de imagem real (caselas-dica) e as células restantes mostram marcadores «?». Abaixo ou ao lado da grelha, uma paleta numerada apresenta todas as peças ocultas em ordem aleatória. Os usuários examinam as caselas-dica, estudam as peças numeradas e determinam qual número corresponde a cada posição vazia da grelha. O exercício requer raciocínio espacial — associar o conteúdo da peça à sua localização correta na imagem completa.',
     },
     {
       question: 'Como funciona o gabarito gerado automaticamente?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Posso vender puzzles de quadrícula criados com esta ferramenta na Etsy e Amazon KDP?',
       answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender os seus puzzles de quadrícula como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos educativos no TPT ou através de qualquer outro canal de venda. Os tamanhos de grelha configuráveis, as caselas-dica ajustáveis, os gabaritos gerados automaticamente e as 104 coleções de imagens temáticas dão-lhe as ferramentas criativas para produzir produtos de puzzles de quadrícula originais e vendáveis.',
+        'Sim. Com uma licença comercial, tem todos os direitos para vender os seus puzzles de quadrícula como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos educativos no Gumroad ou através de qualquer outro canal de venda. Os tamanhos de grelha configuráveis, as caselas-dica ajustáveis, os gabaritos gerados automaticamente e as 104 coleções de imagens temáticas dão-lhe as ferramentas criativas para produzir produtos de puzzles de quadrícula originais e vendáveis.',
     },
     {
       question: 'Qual é a política de reembolso?',

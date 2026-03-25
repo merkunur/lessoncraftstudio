@@ -7,7 +7,7 @@ const content: AppContent = {
       'creatore schede caccia al tesoro stampabili per venditori Etsy',
       'generatore puzzle direzionali con percorso per editori KDP',
       'creatore caccia al tesoro con griglia coordinate licenza commerciale',
-      'vendere schede caccia al tesoro su Teachers Pay Teachers',
+      'vendere schede caccia al tesoro su Gumroad',
     ],
     lsiKeywords: [
       'stampabili caccia al tesoro digitali business online',
@@ -15,14 +15,14 @@ const content: AppContent = {
       'strumenti business puzzle percorso stampabili',
     ],
     titleTag: 'Generatore Caccia al Tesoro | Crea Schede Percorso',
-    metaDescription: 'Crea schede caccia al tesoro da vendere su Etsy, KDP e TPT. Griglia coordinate 5×5, due tipi di direzioni, chiave risposte automatica, 104 temi.',
+    metaDescription: 'Crea schede caccia al tesoro da vendere su Etsy, KDP e Gumroad. Griglia coordinate 5×5, due tipi di direzioni, chiave risposte automatica, 104 temi.',
   },
 
   hero: {
     title: 'Generatore di Schede Caccia al Tesoro per Puzzle Direzionali con Percorso',
     tagline: 'Genera puzzle direzionali con percorso su una griglia di coordinate 5×5 — due vocabolari direzionali (Base: su/giù/sinistra/destra e Cardinale: nord/sud/est/ovest), indizi direzionali completamente localizzati in 11 lingue, chiave di risposta auto-generata con posizione del tesoro evidenziata e intestazioni a tema tesoro su 104 collezioni di immagini.',
     description:
-      'Crea schede professionali di caccia al tesoro dove gli studenti seguono indizi di movimento sequenziali per localizzare un tesoro nascosto su una griglia di coordinate 5×5 con lettere e numeri (righe A–E, colonne 1–5). Ogni puzzle disperde 6 immagini tematiche sulla griglia come punti di riferimento, poi genera una posizione di partenza e esattamente 4 mosse direzionali che conducono alla cella del tesoro. Scegli tra due vocabolari direzionali: la modalità Base usa su, giù, sinistra e destra per i più piccoli, mentre la modalità Cardinale usa nord, sud, est e ovest per un ragionamento spaziale più avanzato. Il Generatore di Caccia al Tesoro è sensibile alla lingua: cambiare lingua modifica sia il testo delle istruzioni direzionali che il contenuto delle immagini, con tutte le direzioni completamente tradotte in 11 lingue supportate. Ogni puzzle include un\'intestazione auto-generata localizzata con sfondo verde acqua (#2C8C7C), titolo dorato (#D4A017) nel font Fredoka e descrizione color sabbia in Quicksand — mostrando "Caccia al Tesoro" e "Segui gli indizi e trova il tesoro!" nella lingua selezionata. Il sistema a doppio canvas genera sia una scheda attività che una scheda chiave di risposta — la chiave di risposta evidenzia la cella finale del tesoro in giallo pallido così non devi mai segnarla manualmente. L\'Accesso Completo sblocca tutti i 104 temi con oltre 3.100 illustrazioni e tutte le 11 lingue per direzioni e immagini localizzate. Aggiungi temi di sfondo e temi di bordo con controlli di opacità indipendenti ed esporta PDF e JPEG pronti da stampare a 300 DPI nei formati Letter, A4, Quadrato (1200×1200) o dimensioni personalizzate. Che tu venda pacchetti di caccia al tesoro su Etsy, compili quaderni di competenze direzionali per Amazon KDP o crei attività con griglia di coordinate per TPT, questo generatore produce puzzle pronti per la produzione in pochi minuti — prova gratuita con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Crea schede professionali di caccia al tesoro dove gli utenti seguono indizi di movimento sequenziali per localizzare un tesoro nascosto su una griglia di coordinate 5×5 con lettere e numeri (righe A–E, colonne 1–5). Ogni puzzle disperde 6 immagini tematiche sulla griglia come punti di riferimento, poi genera una posizione di partenza e esattamente 4 mosse direzionali che conducono alla cella del tesoro. Scegli tra due vocabolari direzionali: la modalità Base usa su, giù, sinistra e destra per i più piccoli, mentre la modalità Cardinale usa nord, sud, est e ovest per un ragionamento spaziale più avanzato. Il Generatore di Caccia al Tesoro è sensibile alla lingua: cambiare lingua modifica sia il testo delle istruzioni direzionali che il contenuto delle immagini, con tutte le direzioni completamente tradotte in 11 lingue supportate. Ogni puzzle include un\'intestazione auto-generata localizzata con sfondo verde acqua (#2C8C7C), titolo dorato (#D4A017) nel font Fredoka e descrizione color sabbia in Quicksand — mostrando "Caccia al Tesoro" e "Segui gli indizi e trova il tesoro!" nella lingua selezionata. Il sistema a doppio canvas genera sia una scheda attività che una scheda chiave di risposta — la chiave di risposta evidenzia la cella finale del tesoro in giallo pallido così non devi mai segnarla manualmente. L\'Accesso Completo sblocca tutti i 104 temi con oltre 3.100 illustrazioni e tutte le 11 lingue per direzioni e immagini localizzate. Aggiungi temi di sfondo e temi di bordo con controlli di opacità indipendenti ed esporta PDF e JPEG pronti da stampare a 300 DPI nei formati Letter, A4, Quadrato (1200×1200) o dimensioni personalizzate. Che tu venda pacchetti di caccia al tesoro su Etsy, compili quaderni di competenze direzionali per Amazon KDP o crei attività con griglia di coordinate per Gumroad, questo generatore produce puzzle pronti per la produzione in pochi minuti — prova gratuita con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {
@@ -51,7 +51,7 @@ const content: AppContent = {
       {
         title: 'Visualizza la Chiave di Risposta e Scarica',
         description:
-          'Passa alla scheda Chiave di Risposta per vedere la soluzione con la cella finale del tesoro evidenziata in giallo pallido (rgba(255, 250, 205, 0.8)) e un contorno grigio scuro. Scarica entrambe le versioni usando i quattro pulsanti dedicati nel menu a tendina: Scheda JPEG, Chiave di Risposta JPEG, Scheda PDF e Chiave di Risposta PDF. I file vengono esportati a 300 DPI per qualità pronta da stampare. Attiva la scala di grigi per versioni a risparmio di inchiostro. Ogni esportazione è pronta per la produzione per inserzioni Etsy, interni Amazon KDP e file prodotto TPT.',
+          'Passa alla scheda Chiave di Risposta per vedere la soluzione con la cella finale del tesoro evidenziata in giallo pallido (rgba(255, 250, 205, 0.8)) e un contorno grigio scuro. Scarica entrambe le versioni usando i quattro pulsanti dedicati nel menu a tendina: Scheda JPEG, Chiave di Risposta JPEG, Scheda PDF e Chiave di Risposta PDF. I file vengono esportati a 300 DPI per qualità pronta da stampare. Attiva la scala di grigi per versioni a risparmio di inchiostro. Ogni esportazione è pronta per la produzione per inserzioni Etsy, interni Amazon KDP e file prodotto Gumroad.',
       },
     ],
   },
@@ -97,7 +97,7 @@ const content: AppContent = {
       {
         title: 'Esportazione PDF e JPEG Pronti da Stampare a 300 DPI con Modalità Scala di Grigi',
         description:
-          'Scarica puzzle caccia al tesoro e chiavi di risposta come immagini JPEG ad alta risoluzione o documenti PDF pronti da stampare renderizzati a 300 DPI (moltiplicatore JPEG 6×, moltiplicatore PDF 3×). Quattro pulsanti di download dedicati nel menu a tendina esportano scheda.jpeg, chiave_risposte.jpeg, scheda.pdf e chiave_risposte.pdf separatamente. I formati pagina includono Letter Verticale, Letter Orizzontale, A4 Verticale, A4 Orizzontale, Quadrato (1200×1200) e dimensioni completamente personalizzate. Attiva la scala di grigi per versioni a risparmio di inchiostro. Ogni esportazione è pronta per la produzione per download digitali, quaderni stampati e materiale didattico.',
+          'Scarica puzzle caccia al tesoro e chiavi di risposta come immagini JPEG ad alta risoluzione o documenti PDF pronti da stampare renderizzati a 300 DPI (moltiplicatore JPEG 6×, moltiplicatore PDF 3×). Quattro pulsanti di download dedicati nel menu a tendina esportano scheda.jpeg, chiave_risposte.jpeg, scheda.pdf e chiave_risposte.pdf separatamente. I formati pagina includono Letter Verticale, Letter Orizzontale, A4 Verticale, A4 Orizzontale, Quadrato (1200×1200) e dimensioni completamente personalizzate. Attiva la scala di grigi per versioni a risparmio di inchiostro. Ogni esportazione è pronta per la produzione per download digitali, quaderni stampati e prodotto stampabile.',
       },
     ],
   },
@@ -120,20 +120,20 @@ const content: AppContent = {
       {
         title: 'Set di Caccia al Tesoro Multilingue con Direzioni Localizzate',
         description:
-          'Sfrutta gli indizi direzionali completamente localizzati per creare schede caccia al tesoro in 11 lingue. La stessa struttura di puzzle produce contenuto autentico in lingua madre quando cambi lingua — direzioni, istruzioni ed etichette delle immagini si aggiornano automaticamente. Crea pacchetti di caccia al tesoro multilingue dove ogni versione linguistica usa le stesse immagini tematiche ma con testo direzionale localizzato. Questo è prezioso per classi ESL/EFL che insegnano il vocabolario direzionale, famiglie bilingui e programmi di homeschooling internazionali. Vendi pacchetti specifici per lingua o mega-pacchetti multilingue a prezzi premium.',
-        platform: 'Etsy / TPT (mercato multilingue)',
+          'Sfrutta gli indizi direzionali completamente localizzati per creare schede caccia al tesoro in 11 lingue. La stessa struttura di puzzle produce contenuto autentico in lingua madre quando cambi lingua — direzioni, istruzioni ed etichette delle immagini si aggiornano automaticamente. Crea pacchetti di caccia al tesoro multilingue dove ogni versione linguistica usa le stesse immagini tematiche ma con testo direzionale localizzato. Questo è prezioso per negozi ESL/EFL che insegnano il vocabolario direzionale, famiglie bilingui e programmi di homeschooling internazionali. Vendi pacchetti specifici per lingua o mega-pacchetti multilingue a prezzi premium.',
+        platform: 'Etsy / Gumroad (mercato multilingue)',
       },
       {
-        title: 'Pacchetti di Attività con Griglia di Coordinate per TPT',
+        title: 'Pacchetti di Attività con Griglia di Coordinate per Gumroad',
         description:
-          'Crea set di attività con griglia di coordinate pronti all\'uso che insegnano il ragionamento spaziale e le competenze di orientamento. La griglia 5×5 con lettere e numeri (righe A–E, colonne 1–5) introduce gli studenti ai sistemi di coordinate usati in geografia, matematica e scienze. Gli insegnanti che cercano attività con griglia di coordinate su TPT apprezzano schede con griglie visive chiare, istruzioni sequenziali e chiavi di risposta stampate. Crea set allineati al curriculum: abbina caccia al tesoro con direzioni Base a versioni con direzioni Cardinali per istruzione differenziata. Ogni set include schede studente e chiavi di risposta in formato PDF e JPEG.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Crea set di attività con griglia di coordinate pronti all\'uso che insegnano il ragionamento spaziale e le competenze di orientamento. La griglia 5×5 con lettere e numeri (righe A–E, colonne 1–5) introduce gli utenti ai sistemi di coordinate usati in geografia, matematica e scienze. i venditori che cercano attività con griglia di coordinate su Gumroad apprezzano schede con griglie visive chiare, istruzioni sequenziali e chiavi di risposta stampate. Crea set allineati al mercato: abbina caccia al tesoro con direzioni Base a versioni con direzioni Cardinali per pacchetti scalati per livello. Ogni set include schede utente e chiavi di risposta in formato PDF e JPEG.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Collezioni Stagionali di Caccia al Tesoro',
         description:
           'Le 104 collezioni di immagini tematiche coprono ogni occasione stagionale e festiva — Natale, Halloween, Pasqua, San Valentino, ritorno a scuola, vacanze estive e molto altro. Crea collezioni di caccia al tesoro a tempo limitato in linea con i periodi di picco degli acquisti. Pubblica caccia al tesoro di Halloween a settembre, collezioni natalizie a ottobre e pacchetti di San Valentino a gennaio. Includi sia i tipi di direzione Base che Cardinale in ogni set stagionale per il massimo valore. I prodotti stagionali comandano prezzi più alti durante i periodi di picco e generano acquisti ripetuti.',
-        platform: 'Etsy / Amazon KDP / TPT (stagionale)',
+        platform: 'Etsy / Amazon KDP / Gumroad (stagionale)',
       },
     ],
   },
@@ -142,12 +142,12 @@ const content: AppContent = {
     {
       question: 'Cos\'è una scheda caccia al tesoro e come funziona il puzzle?',
       answer:
-        'Una scheda caccia al tesoro è un puzzle con percorso su una griglia di coordinate 5×5 etichettata con righe di lettere (A–E) e colonne di numeri (1–5). Sei immagini tematiche sono disperse sulla griglia come punti di riferimento visivi. La scheda fornisce 5 righe di istruzioni: una posizione di partenza (es. "Parti da A3"), esattamente 4 mosse direzionali (es. "Muoviti verso il basso di 2 caselle") e una domanda finale "Dov\'è il tesoro?" Gli studenti seguono gli indizi sequenziali sulla griglia per determinare quale cella contiene il tesoro.',
+        'Una scheda caccia al tesoro è un puzzle con percorso su una griglia di coordinate 5×5 etichettata con righe di lettere (A–E) e colonne di numeri (1–5). Sei immagini tematiche sono disperse sulla griglia come punti di riferimento visivi. La scheda fornisce 5 righe di istruzioni: una posizione di partenza (es. "Parti da A3"), esattamente 4 mosse direzionali (es. "Muoviti verso il basso di 2 caselle") e una domanda finale "Dov\'è il tesoro?" gli utenti seguono gli indizi sequenziali sulla griglia per determinare quale cella contiene il tesoro.',
     },
     {
       question: 'Come funziona la griglia di coordinate 5×5?',
       answer:
-        'La griglia è composta da 25 celle disposte in 5 righe (etichettate dalla A alla E) e 5 colonne (etichettate da 1 a 5). Ogni cella è identificata da una coordinata lettera-numero come A1, B3 o E5. Sei immagini tematiche occupano 6 delle 25 celle come punti di riferimento visivi. La posizione di partenza e tutte le 4 mosse restano entro i confini della griglia (righe A–E, colonne 1–5), garantendo che ogni puzzle sia risolvibile. Questo sistema di coordinate con lettere e numeri introduce gli studenti alle competenze di lettura delle griglie usate nelle mappe, nei grafici e in matematica.',
+        'La griglia è composta da 25 celle disposte in 5 righe (etichettate dalla A alla E) e 5 colonne (etichettate da 1 a 5). Ogni cella è identificata da una coordinata lettera-numero come A1, B3 o E5. Sei immagini tematiche occupano 6 delle 25 celle come punti di riferimento visivi. La posizione di partenza e tutte le 4 mosse restano entro i confini della griglia (righe A–E, colonne 1–5), garantendo che ogni puzzle sia risolvibile. Questo sistema di coordinate con lettere e numeri introduce gli utenti alle competenze di lettura delle griglie usate nelle mappe, nei grafici e in matematica.',
     },
     {
       question: 'Quali sono i due tipi di direzione e come si differenziano?',
@@ -157,12 +157,12 @@ const content: AppContent = {
     {
       question: 'Perché ogni puzzle ha esattamente 4 mosse?',
       answer:
-        'La struttura costante a 4 mosse crea un formato di puzzle standardizzato che funziona in modo affidabile sulla griglia 5×5. Quattro mosse forniscono sufficiente complessità per un percorso significativo senza sopraffare i più piccoli. Ogni puzzle segue lo stesso formato a 5 righe di istruzioni: posizione di partenza, 4 mosse sequenziali e la domanda "Dov\'è il tesoro?" Questa coerenza rende le schede caccia al tesoro prevedibili per gli studenti e facili da confezionare in set di attività strutturati per i venditori.',
+        'La struttura costante a 4 mosse crea un formato di puzzle standardizzato che funziona in modo affidabile sulla griglia 5×5. Quattro mosse forniscono sufficiente complessità per un percorso significativo senza sopraffare i più piccoli. Ogni puzzle segue lo stesso formato a 5 righe di istruzioni: posizione di partenza, 4 mosse sequenziali e la domanda "Dov\'è il tesoro?" Questa coerenza rende le schede caccia al tesoro prevedibili per gli utenti e facili da confezionare in set di attività strutturati per i venditori.',
     },
     {
       question: 'Come vengono usate le 6 immagini nel puzzle?',
       answer:
-        'Sei immagini tematiche sono disperse sulle 25 celle della griglia 5×5 come punti di riferimento visivi. Rendono la griglia visivamente coinvolgente e aiutano gli studenti a orientarsi mentre seguono gli indizi direzionali. Puoi popolare la griglia usando tre metodi: Genera per Tema (predefinito) seleziona automaticamente 6 immagini casuali dal tema scelto, Selezione Manuale Immagini ti permette di sfogliare la libreria e cliccare per scegliere esattamente 6 immagini, e Carica Immagini Personalizzate ti permette di aggiungere i tuoi file JPEG, PNG, GIF o WebP.',
+        'Sei immagini tematiche sono disperse sulle 25 celle della griglia 5×5 come punti di riferimento visivi. Rendono la griglia visivamente coinvolgente e aiutano gli utenti a orientarsi mentre seguono gli indizi direzionali. Puoi popolare la griglia usando tre metodi: Genera per Tema (predefinito) seleziona automaticamente 6 immagini casuali dal tema scelto, Selezione Manuale Immagini ti permette di sfogliare la libreria e cliccare per scegliere esattamente 6 immagini, e Carica Immagini Personalizzate ti permette di aggiungere i tuoi file JPEG, PNG, GIF o WebP.',
     },
     {
       question: 'Il Generatore di Caccia al Tesoro è sensibile alla lingua?',
@@ -177,7 +177,7 @@ const content: AppContent = {
     {
       question: 'Come funziona la chiave di risposta auto-generata?',
       answer:
-        'Il generatore utilizza un sistema a doppio canvas con una scheda Scheda e una scheda Chiave di Risposta, ciascuna con pile di annulla/ripristina separate. La scheda mostra la griglia 5×5 con immagini disperse e indizi direzionali — pronta per gli studenti. La chiave di risposta riproduce il layout identico ed evidenzia la cella finale del tesoro in giallo pallido (rgba(255, 250, 205, 0.8)) con un contorno grigio scuro, rendendo la destinazione immediatamente visibile. Entrambe le versioni si esportano separatamente usando quattro pulsanti di download dedicati: scheda.jpeg, chiave_risposte.jpeg, scheda.pdf e chiave_risposte.pdf.',
+        'Il generatore utilizza un sistema a doppio canvas con una scheda Scheda e una scheda Chiave di Risposta, ciascuna con pile di annulla/ripristina separate. La scheda mostra la griglia 5×5 con immagini disperse e indizi direzionali — pronta per gli utenti. La chiave di risposta riproduce il layout identico ed evidenzia la cella finale del tesoro in giallo pallido (rgba(255, 250, 205, 0.8)) con un contorno grigio scuro, rendendo la destinazione immediatamente visibile. Entrambe le versioni si esportano separatamente usando quattro pulsanti di download dedicati: scheda.jpeg, chiave_risposte.jpeg, scheda.pdf e chiave_risposte.pdf.',
     },
     {
       question: 'È disponibile una prova gratuita?',
@@ -192,7 +192,7 @@ const content: AppContent = {
     {
       question: 'Posso vendere le schede caccia al tesoro create con questo strumento su Etsy e Amazon KDP?',
       answer:
-        'Sì. Con una licenza commerciale, hai pieni diritti di vendere le tue schede caccia al tesoro come download digitali su Etsy, come quaderni stampati su Amazon KDP, come risorse didattiche su TPT o attraverso qualsiasi altro canale di vendita. I due tipi di direzione, la griglia di coordinate 5×5, gli indizi direzionali localizzati, le chiavi di risposta auto-generate e le 104 collezioni di immagini tematiche ti danno gli strumenti creativi per produrre prodotti di puzzle con percorso originali e vendibili.',
+        'Sì. Con una licenza commerciale, hai pieni diritti di vendere le tue schede caccia al tesoro come download digitali su Etsy, come quaderni stampati su Amazon KDP, come prodotti stampabili su Gumroad o attraverso qualsiasi altro canale di vendita. I due tipi di direzione, la griglia di coordinate 5×5, gli indizi direzionali localizzati, le chiavi di risposta auto-generate e le 104 collezioni di immagini tematiche ti danno gli strumenti creativi per produrre prodotti di puzzle con percorso originali e vendibili.',
     },
     {
       question: 'Qual è la politica di rimborso?',

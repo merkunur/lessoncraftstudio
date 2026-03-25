@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'schede più o meno stampabili per Etsy',
       'generatore schede confronto quantità per Amazon KDP',
-      'vendere schede maggiore minore su Teachers Pay Teachers',
+      'vendere schede maggiore minore su Gumroad',
       'schede di confronto licenza commerciale',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Generatore Schede Più o Meno | Crea e Vendi Stampabili',
     metaDescription:
-      'Crea schede di confronto quantità da vendere su Etsy, KDP e TPT. 3 modalità di esercizio, 104 temi, soluzioni incluse, 400+ DPI. Prova gratuita con filigrana.',
+      'Crea schede di confronto quantità da vendere su Etsy, KDP e Gumroad. 3 modalità di esercizio, 104 temi, soluzioni incluse, 400+ DPI. Prova gratuita con filigrana.',
   },
 
   hero: {
     title: 'Generatore di Schede Più o Meno per il Confronto Visivo dei Numeri',
     tagline: 'Trasforma il confronto dei numeri in una scoperta visiva con schede illustrate di maggiore e minore.',
     description:
-      'Crea schede di confronto accattivanti che insegnano agli alunni a identificare quale gruppo ha di più, quale ha di meno e quando due gruppi sono uguali. Scegli tra tre modalità di esercizio distinte — Immagine contro Immagine, Immagine contro Numero e l\'esclusiva modalità Segna e Cancella Gruppi, dove gli alunni analizzano riquadri di immagini miste per trovare il gruppo maggioritario. Alterna tra confronti con immagini uguali e diverse, scegli tra simboli illustrati e simboli matematici standard, e seleziona tra oltre 3100 immagini in 104 temi. Ogni scheda genera una soluzione automatica, e puoi esportare PDF pronti per la stampa in formato Letter, A4 o personalizzato a oltre 400 DPI. Che tu venda pacchetti tematici su Etsy, compili libri di attività di confronto su Amazon KDP o crei centri differenziati per la tua classe, il Generatore Più o Meno produce risultati professionali in pochi minuti. Prova gratuita con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Crea schede di confronto accattivanti che insegnano agli utenti a identificare quale gruppo ha di più, quale ha di meno e quando due gruppi sono uguali. Scegli tra tre modalità di esercizio distinte — Immagine contro Immagine, Immagine contro Numero e l\'esclusiva modalità Segna e Cancella Gruppi, dove gli utenti analizzano riquadri di immagini miste per trovare il gruppo maggioritario. Alterna tra confronti con immagini uguali e diverse, scegli tra simboli illustrati e simboli matematici standard, e seleziona tra oltre 3100 immagini in 104 temi. Ogni scheda genera una soluzione automatica, e puoi esportare PDF pronti per la stampa in formato Letter, A4 o personalizzato a oltre 400 DPI. Che tu venda pacchetti tematici su Etsy, compili libri di attività di confronto su Amazon KDP o crei centri differenziati per il tuo catalogo, il Generatore Più o Meno produce risultati professionali in pochi minuti. Prova gratuita con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Scegli la modalità di confronto',
         description:
-          'Apri la Configurazione Esercizi e seleziona una delle tre modalità. Immagine contro Immagine presenta due gruppi di immagini affiancati per contare e confrontare. Immagine contro Numero abbina un gruppo di immagini a un numero per collegare il senso visivo e astratto dei numeri. Segna e Cancella Gruppi riempie un riquadro con due tipi di immagini miste — gli alunni segnano il gruppo maggioritario e cancellano quello minoritario. Le modalità standard supportano da 1 a 8 esercizi per pagina; Segna e Cancella supporta da 1 a 3 esercizi con 8-20 immagini per riquadro.',
+          'Apri la Configurazione Esercizi e seleziona una delle tre modalità. Immagine contro Immagine presenta due gruppi di immagini affiancati per contare e confrontare. Immagine contro Numero abbina un gruppo di immagini a un numero per collegare il senso visivo e astratto dei numeri. Segna e Cancella Gruppi riempie un riquadro con due tipi di immagini miste — gli utenti segnano il gruppo maggioritario e cancellano quello minoritario. Le modalità standard supportano da 1 a 8 esercizi per pagina; Segna e Cancella supporta da 1 a 3 esercizi con 8-20 immagini per riquadro.',
       },
       {
         title: 'Configura le impostazioni degli esercizi',
@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Esplora la libreria di immagini e aggiungi testo',
         description:
-          'Apri il pannello Libreria Immagini ed esplora 104 temi — dagli animali e cibi ai veicoli e festività. Usa la ricerca per trovare immagini istantaneamente. Seleziona immagini singole o assegna un tema per l\'intera scheda. Aggiungi un titolo, campi nome e data dell\'alunno o istruzioni personalizzate con il pannello Strumenti di Testo. Scegli tra font adatti ai bambini e regola dimensione, colore e contorno per una lettura chiara.',
+          'Apri il pannello Libreria Immagini ed esplora 104 temi — dagli animali e cibi ai veicoli e festività. Usa la ricerca per trovare immagini istantaneamente. Seleziona immagini singole o assegna un tema per l\'intera scheda. Aggiungi un titolo, campi nome e data dell\'utente o istruzioni personalizzate con il pannello Strumenti di Testo. Scegli tra font accattivanti e regola dimensione, colore e contorno per una lettura chiara.',
       },
       {
         title: 'Genera la soluzione e scarica',
@@ -63,12 +63,12 @@ const content: AppContent = {
       {
         title: 'Tre modalità di esercizio di confronto',
         description:
-          'Scegli la modalità più adatta al tuo obiettivo didattico. La modalità Immagine contro Immagine presenta due gruppi di immagini per un confronto puramente visivo — ideale per introdurre maggiore e minore. La modalità Immagine contro Numero abbina un gruppo di immagini a un numero, collegando il conteggio concreto al riconoscimento astratto dei numeri. La modalità Segna e Cancella Gruppi riempie un riquadro con immagini miste di due categorie, sfidando gli alunni a identificare e contrassegnare i gruppi maggioritario e minoritario.',
+          'Scegli la modalità più adatta al tuo obiettivo didattico. La modalità Immagine contro Immagine presenta due gruppi di immagini per un confronto puramente visivo — ideale per introdurre maggiore e minore. La modalità Immagine contro Numero abbina un gruppo di immagini a un numero, collegando il conteggio concreto al riconoscimento astratto dei numeri. La modalità Segna e Cancella Gruppi riempie un riquadro con immagini miste di due categorie, sfidando gli utenti a identificare e contrassegnare i gruppi maggioritario e minoritario.',
       },
       {
         title: 'Modalità esclusiva Segna e Cancella Gruppi',
         description:
-          'Questa modalità è unica tra i generatori di schede convenzionali. Un singolo riquadro contiene da 8 a 20 immagini di due categorie diverse mescolate. Gli alunni devono ordinare visivamente i gruppi, contare ciascuno, e poi segnare il gruppo con più elementi e cancellare quello con meno. Sviluppa simultaneamente la discriminazione visiva, la precisione nel conteggio e le competenze di confronto. Ogni scheda può includere fino a 3 esercizi Segna e Cancella per una pratica mirata.',
+          'Questa modalità è unica tra i generatori di schede convenzionali. Un singolo riquadro contiene da 8 a 20 immagini di due categorie diverse mescolate. gli utenti devono ordinare visivamente i gruppi, contare ciascuno, e poi segnare il gruppo con più elementi e cancellare quello con meno. Sviluppa simultaneamente la discriminazione visiva, la precisione nel conteggio e le competenze di confronto. Ogni scheda può includere fino a 3 esercizi Segna e Cancella per una pratica mirata.',
       },
       {
         title: 'Controllo della variazione immagini',
@@ -78,22 +78,22 @@ const content: AppContent = {
       {
         title: 'Opzioni di visualizzazione dei simboli',
         description:
-          'Scegli tra Simboli Illustrati — versioni colorate e grafiche dei segni di maggiore, minore e uguale — e Simboli Normali che usano i caratteri di testo convenzionali (>, <, =). I simboli illustrati sono perfetti per gli alunni più piccoli che beneficiano di indizi visivi, mentre i simboli normali preparano gli alunni alla notazione matematica convenzionale. Puoi anche attivare Mostra Simboli da Cerchiare, aggiungendo simboli di confronto che gli alunni cerchiano come parte dell\'esercizio.',
+          'Scegli tra Simboli Illustrati — versioni colorate e grafiche dei segni di maggiore, minore e uguale — e Simboli Normali che usano i caratteri di testo convenzionali (>, <, =). I simboli illustrati sono perfetti per gli utenti più piccoli che beneficiano di indizi visivi, mentre i simboli normali preparano gli utenti alla notazione matematica convenzionale. Puoi anche attivare Mostra Simboli da Cerchiare, aggiungendo simboli di confronto che gli utenti cerchiano come parte dell\'esercizio.',
       },
       {
         title: '104 temi visivi con oltre 3100 immagini',
         description:
-          'Esplora una libreria di oltre 3100 illustrazioni selezionate in 104 temi: animali della fattoria, vita marina, veicoli, spazio, cibi, sport, dinosauri, festività e molto altro. Ogni immagine è ad alta risoluzione e progettata per una stampa nitida e adatta ai bambini. Poiché le schede sono puramente visive — senza testo negli esercizi — funzionano perfettamente in qualsiasi lingua e in qualsiasi classe del mondo.',
+          'Esplora una libreria di oltre 3100 illustrazioni selezionate in 104 temi: animali della fattoria, vita marina, veicoli, spazio, cibi, sport, dinosauri, festività e molto altro. Ogni immagine è ad alta risoluzione e progettata per una stampa nitida e accattivante. Poiché le schede sono puramente visive — senza testo negli esercizi — funzionano perfettamente in qualsiasi lingua e in qualsiasi mercato del mondo.',
       },
       {
         title: 'Generazione automatica delle soluzioni',
         description:
-          'Clicca un pulsante per generare una soluzione completa che riproduce il layout della tua scheda con tutti i simboli di confronto corretti. La scheda soluzioni presenta un\'anteprima in tempo reale per verificare l\'esattezza prima di scaricare. Esporta la soluzione come file JPEG o PDF separato, facilitandone l\'inclusione in edizioni per l\'insegnante, guide per i genitori o pacchetti di prodotti su Etsy senza alcun lavoro manuale.',
+          'Clicca un pulsante per generare una soluzione completa che riproduce il layout della tua scheda con tutti i simboli di confronto corretti. La scheda soluzioni presenta un\'anteprima in tempo reale per verificare l\'esattezza prima di scaricare. Esporta la soluzione come file JPEG o PDF separato, facilitandone l\'inclusione in edizioni per l\'venditore, guide per i genitori o pacchetti di prodotti su Etsy senza alcun lavoro manuale.',
       },
       {
         title: 'Esportazione pronta per la stampa a 400+ DPI con opzione scala di grigi',
         description:
-          'Scarica schede e soluzioni come immagini JPEG ad alta risoluzione o documenti PDF pronti per la stampa. Il motore di esportazione renderizza con un moltiplicatore 6x, producendo oltre 400 DPI nei formati standard. Attiva la modalità Scala di Grigi per convertire le schede colorate in bianco e nero per una stampa economica in classe. I formati Letter, A4, Quadrato e personalizzato sono tutti supportati per la massima flessibilità.',
+          'Scarica schede e soluzioni come immagini JPEG ad alta risoluzione o documenti PDF pronti per la stampa. Il motore di esportazione renderizza con un moltiplicatore 6x, producendo oltre 400 DPI nei formati standard. Attiva la modalità Scala di Grigi per convertire le schede colorate in bianco e nero per una stampa economica online. I formati Letter, A4, Quadrato e personalizzato sono tutti supportati per la massima flessibilità.',
       },
       {
         title: 'Modifica completa del canvas con annulla e ripristina',
@@ -109,7 +109,7 @@ const content: AppContent = {
       {
         title: 'Pacchetti tematici di schede di confronto su Etsy',
         description:
-          'Crea set di 10-20 schede di confronto raggruppate per tema — animali della fattoria, dinosauri, vita marina, festività — e offrili come download istantaneo su Etsy. Includi le tre modalità (Immagine contro Immagine, Immagine contro Numero, Segna e Cancella) più le soluzioni per una risorsa didattica completa. I pacchetti tematici di confronto attirano genitori e insegnanti che cercano temi specifici. Fissa il prezzo dei pacchetti singoli tra €3–€5 e dei mega-pacchetti misti tra €12–€18. I temi stagionali come Halloween, Natale e San Valentino tendono ad aumentare nelle ricerche settimane prima di ogni festività, quindi programma i tuoi annunci in anticipo.',
+          'Crea set di 10-20 schede di confronto raggruppate per tema — animali della fattoria, dinosauri, vita marina, festività — e offrili come download istantaneo su Etsy. Includi le tre modalità (Immagine contro Immagine, Immagine contro Numero, Segna e Cancella) più le soluzioni per una prodotto stampabile completa. I pacchetti tematici di confronto attirano genitori e venditori che cercano temi specifici. Fissa il prezzo dei pacchetti singoli tra €3–€5 e dei mega-pacchetti misti tra €12–€18. I temi stagionali come Halloween, Natale e San Valentino tendono ad aumentare nelle ricerche settimane prima di ogni festività, quindi programma i tuoi annunci in anticipo.',
         platform: 'Etsy (etsy.com)',
       },
       {
@@ -119,10 +119,10 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centri di matematica differenziati per TPT',
+        title: 'Centri di matematica differenziati per Gumroad',
         description:
-          'Crea set di confronto per livelli usando le tre modalità come gradini di difficoltà naturali: Livello 1 (Immagine contro Immagine con Immagini Uguali), Livello 2 (Immagine contro Numero con Immagini Diverse) e Livello 3 (Segna e Cancella Gruppi). Ogni livello con soluzioni e scheda di monitoraggio dei progressi. Gli acquirenti di Teachers Pay Teachers pagano prezzi premium per risorse differenziate che possono usare immediatamente in più gruppi di livello nei centri di matematica.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Crea set di confronto per livelli usando le tre modalità come gradini di difficoltà naturali: Livello 1 (Immagine contro Immagine con Immagini Uguali), Livello 2 (Immagine contro Numero con Immagini Diverse) e Livello 3 (Segna e Cancella Gruppi). Ogni livello con soluzioni e scheda di monitoraggio dei progressi. Gli acquirenti di Gumroad pagano prezzi premium per risorse differenziate che possono usare immediatamente in più gruppi di livello nei centri di matematica.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Contenuti in abbonamento per il tuo negozio',
@@ -131,10 +131,10 @@ const content: AppContent = {
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: 'Pratica di confronto per classe e doposcuola',
+        title: 'Pratica di confronto per vendita online e marketplace',
         description:
-          'Genera schede di confronto personalizzate adattate al livello di ogni alunno. Stampa schede Immagine contro Immagine con Immagini Uguali per i principianti e schede Segna e Cancella Gruppi per gli alunni avanzati — tutto nella stessa sessione. La soluzione automatica fa risparmiare tempo nella correzione. Che tu gestisca un centro di doposcuola, insegni alla scuola dell\'infanzia o primaria, o faccia homeschooling, il generatore sostituisce ore di creazione manuale di schede con pochi clic.',
-        platform: 'Classe / Doposcuola / Homeschooling',
+          'Genera schede di confronto personalizzate adattate al livello di ogni utente. Stampa schede Immagine contro Immagine con Immagini Uguali per i principianti e schede Segna e Cancella Gruppi per gli utenti avanzati — tutto nella stessa sessione. La soluzione automatica fa risparmiare tempo nel valore percepito. Che tu gestisca un centro di doposcuola, insegni alla scuola dell\'infanzia o primaria, o faccia homeschooling, il generatore sostituisce ore di creazione manuale di schede con pochi clic.',
+        platform: 'Vendita Online / Marketplace / Uso Personale',
       },
     ],
   },
@@ -143,12 +143,12 @@ const content: AppContent = {
     {
       question: 'Quali modalità di confronto offre il Generatore Più o Meno?',
       answer:
-        'Il generatore include tre modalità: Immagine contro Immagine (due gruppi di immagini da contare e confrontare), Immagine contro Numero (un gruppo di immagini abbinato a un numero) e Segna e Cancella Gruppi (un riquadro di immagini miste dove gli alunni segnano il gruppo maggioritario e cancellano quello minoritario). Ogni modalità si rivolge a un livello diverso e a una sfida di confronto distinta. I venditori spesso impacchettano le tre modalità in un unico annuncio di prodotto, offrendo agli acquirenti un curriculum completo di confronto in un solo download.',
+        'Il generatore include tre modalità: Immagine contro Immagine (due gruppi di immagini da contare e confrontare), Immagine contro Numero (un gruppo di immagini abbinato a un numero) e Segna e Cancella Gruppi (un riquadro di immagini miste dove gli utenti segnano il gruppo maggioritario e cancellano quello minoritario). Ogni modalità si rivolge a un livello diverso e a una sfida di confronto distinta. I venditori spesso impacchettano le tre modalità in un unico annuncio di prodotto, offrendo agli acquirenti un catalogo prodotti completo di confronto in un solo download.',
     },
     {
       question: 'Cos\'è la modalità Segna e Cancella Gruppi?',
       answer:
-        'Segna e Cancella Gruppi è un tipo di esercizio unico in cui un singolo riquadro contiene da 8 a 20 immagini di due categorie diverse mescolate. Gli alunni ordinano visivamente le immagini, contano ogni gruppo, e poi segnano il gruppo con più elementi e cancellano quello con meno. Puoi includere fino a 3 esercizi Segna e Cancella per scheda. Questa modalità sviluppa simultaneamente la discriminazione visiva e le competenze di conteggio. Poiché questa modalità si trova raramente nei generatori concorrenti, i venditori che la evidenziano nei titoli e nelle descrizioni possono differenziarsi e attirare acquirenti in cerca di attività matematiche uniche.',
+        'Segna e Cancella Gruppi è un tipo di esercizio unico in cui un singolo riquadro contiene da 8 a 20 immagini di due categorie diverse mescolate. gli utenti ordinano visivamente le immagini, contano ogni gruppo, e poi segnano il gruppo con più elementi e cancellano quello con meno. Puoi includere fino a 3 esercizi Segna e Cancella per scheda. Questa modalità sviluppa simultaneamente la discriminazione visiva e le competenze di conteggio. Poiché questa modalità si trova raramente nei generatori concorrenti, i venditori che la evidenziano nei titoli e nelle descrizioni possono differenziarsi e attirare acquirenti in cerca di attività matematiche uniche.',
     },
     {
       question: 'Quali intervalli numerici posso configurare per gli esercizi di confronto?',
@@ -163,7 +163,7 @@ const content: AppContent = {
     {
       question: 'Quali sono le opzioni di visualizzazione dei simboli?',
       answer:
-        'Puoi scegliere tra Simboli Illustrati (versioni colorate e grafiche dei segni di maggiore, minore e uguale) e Simboli Normali (caratteri di testo convenzionali >, <, =). I simboli illustrati sono ideali per gli alunni più piccoli che beneficiano di indizi visivi. Puoi anche attivare Mostra Simboli da Cerchiare, che aggiunge simboli di confronto che gli alunni cerchiano come parte dell\'esercizio.',
+        'Puoi scegliere tra Simboli Illustrati (versioni colorate e grafiche dei segni di maggiore, minore e uguale) e Simboli Normali (caratteri di testo convenzionali >, <, =). I simboli illustrati sono ideali per gli utenti più piccoli che beneficiano di indizi visivi. Puoi anche attivare Mostra Simboli da Cerchiare, che aggiunge simboli di confronto che gli utenti cerchiano come parte dell\'esercizio.',
     },
     {
       question: 'Le schede di confronto dipendono dalla lingua?',
@@ -173,12 +173,12 @@ const content: AppContent = {
     {
       question: 'Il generatore crea le soluzioni automaticamente?',
       answer:
-        'Sì. Clicca sul pulsante Genera Soluzione per creare una versione completa della tua scheda con tutti i simboli di confronto corretti. Puoi visualizzare l\'anteprima della soluzione sullo schermo e scaricarla come file JPEG o PDF separato insieme alla scheda dell\'alunno. Includere soluzioni formattate professionalmente in ogni annuncio di prodotto segnala qualità e professionalità agli acquirenti dei marketplace, che spesso filtrano per risorse che includono le soluzioni quando navigano su Etsy o Teachers Pay Teachers.',
+        'Sì. Clicca sul pulsante Genera Soluzione per creare una versione completa della tua scheda con tutti i simboli di confronto corretti. Puoi visualizzare l\'anteprima della soluzione sullo schermo e scaricarla come file JPEG o PDF separato insieme alla scheda dell\'utente. Includere soluzioni formattate professionalmente in ogni annuncio di prodotto segnala qualità e professionalità agli acquirenti dei marketplace, che spesso filtrano per risorse che includono le soluzioni quando navigano su Etsy o Gumroad.',
     },
     {
       question: 'Posso esportare le schede in scala di grigi per risparmiare inchiostro?',
       answer:
-        'Sì. Attiva l\'opzione Scala di Grigi nel pannello Download per convertire le tue schede colorate in bianco e nero prima di esportare. Perfetto per la stampa in classe dove vuoi risparmiare inchiostro senza sacrificare la qualità della pratica di confronto. Sia le esportazioni JPEG che PDF supportano la modalità scala di grigi.',
+        'Sì. Attiva l\'opzione Scala di Grigi nel pannello Download per convertire le tue schede colorate in bianco e nero prima di esportare. Perfetto per la stampa in volume dove vuoi risparmiare inchiostro senza sacrificare la qualità della pratica di confronto. Sia le esportazioni JPEG che PDF supportano la modalità scala di grigi.',
     },
     {
       question: 'Esiste una prova gratuita?',
@@ -188,12 +188,12 @@ const content: AppContent = {
     {
       question: 'Cosa include la licenza commerciale?',
       answer:
-        'La licenza commerciale rimuove la filigrana da tutti i download e ti concede diritti illimitati per vendere le schede che crei — su Etsy, Amazon KDP, Teachers Pay Teachers, sul tuo sito o su qualsiasi altra piattaforma. Non ci sono royalty per vendita, nessun canone mensile e nessun limite alla quantità di schede che produci o vendi.',
+        'La licenza commerciale rimuove la filigrana da tutti i download e ti concede diritti illimitati per vendere le schede che crei — su Etsy, Amazon KDP, Gumroad, sul tuo sito o su qualsiasi altra piattaforma. Non ci sono royalty per vendita, nessun canone mensile e nessun limite alla quantità di schede che produci o vendi.',
     },
     {
       question: 'Posso vendere le schede create con questo strumento su Etsy e Amazon KDP?',
       answer:
-        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede di confronto come download digitali su Etsy, come libri di attività stampati su Amazon KDP, come risorse educative su TPT o attraverso qualsiasi altro canale di vendita. Molti venditori creano pacchetti tematici e libri di attività che generano entrate costanti. Puoi anche combinare schede di confronto con altri tipi di schede di matematica — come addizione o sottrazione — per creare pacchetti completi di pratica che raggiungono prezzi più alti e attirano acquirenti in cerca di risorse complete.',
+        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede di confronto come download digitali su Etsy, come libri di attività stampati su Amazon KDP, come risorse educative su Gumroad o attraverso qualsiasi altro canale di vendita. Molti venditori creano pacchetti tematici e libri di attività che generano entrate costanti. Puoi anche combinare schede di confronto con altri tipi di schede di matematica — come addizione o sottrazione — per creare pacchetti completi di pratica che raggiungono prezzi più alti e attirano acquirenti in cerca di risorse complete.',
     },
     {
       question: 'Qual è la politica di rimborso?',
@@ -236,7 +236,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'basi-matematica-idee-stampabili',
-      anchorText: 'Idee di stampabili di matematica per educatori e venditori',
+      anchorText: 'Idee di stampabili di matematica per imprenditori e venditori',
     },
     {
       pageType: 'idea',
@@ -264,7 +264,7 @@ const content: AppContent = {
       {
         src: '/samples/italian/more less/Più Meno 2.webp',
         alt: 'Scheda di confronto nella modalità Immagine contro Immagine con tema animali',
-        caption: 'Modalità Immagine contro Immagine — gli alunni contano due gruppi di immagini e confrontano le quantità',
+        caption: 'Modalità Immagine contro Immagine — gli utenti contano due gruppi di immagini e confrontano le quantità',
       },
       {
         src: '/samples/italian/more less/Più Meno 3.webp',
@@ -273,8 +273,8 @@ const content: AppContent = {
       },
       {
         src: '/samples/italian/more less/Più Meno 4.webp',
-        alt: 'Scheda Segna e Cancella Gruppi con immagini miste per la classificazione visiva',
-        caption: 'Modalità Segna e Cancella Gruppi — gli alunni trovano il gruppo maggioritario in un riquadro di immagini miste',
+        alt: 'Scheda Segna e Cancella Gruppi con immagini miste per la negozificazione visiva',
+        caption: 'Modalità Segna e Cancella Gruppi — gli utenti trovano il gruppo maggioritario in un riquadro di immagini miste',
       },
     ],
     youtubeId: 'eNguG63nYVs',

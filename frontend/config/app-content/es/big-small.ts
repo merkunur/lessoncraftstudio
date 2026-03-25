@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'fichas comparación de tamaños imprimibles para vendedores Etsy',
       'generador de fichas grande y pequeño personalizadas para Amazon KDP',
-      'vender fichas discriminación visual de tamaños en Teachers Pay Teachers',
+      'vender fichas discriminación visual de tamaños en Gumroad',
       'fichas grande pequeño comparación de tamaños licencia comercial',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Generador Fichas Grande Pequeño | Crear y Vender',
     metaDescription:
-      'Crea fichas de comparación de tamaños para Etsy, KDP y TPT. 5 tipos de preguntas, modos idénticos y diferentes, 104 temas. Prueba gratis con marca de agua.',
+      'Crea fichas de comparación de tamaños para Etsy, KDP y Gumroad. 5 tipos de preguntas, modos idénticos y diferentes, 104 temas. Prueba gratis con marca de agua.',
   },
 
   hero: {
     title: 'Generador de Fichas Grande y Pequeño para Ejercicios de Comparación de Tamaños',
     tagline: 'Cinco tipos de preguntas — rodea el más grande, rodea el más pequeño, rodea el mediano, numerar del más pequeño al más grande, numerar del más grande al más pequeño — con modos de imágenes idénticas y diferentes para la discriminación visual de tamaños.',
     description:
-      'Diseña fichas profesionales de comparación de tamaños donde los alumnos observan imágenes temáticas mostradas a diferentes tamaños e identifican cuál es más grande, más pequeña o de tamaño mediano, o las numeran en orden del más pequeño al más grande o del más grande al más pequeño. Cinco tipos de preguntas distintos cubren cada habilidad de discriminación de tamaños: Rodea el Más Grande, Rodea el Más Pequeño, Rodea el Mediano, Numerar 1–2–3 del Más Pequeño al Más Grande y Numerar 1–2–3 del Más Grande al Más Pequeño. Dos modos de imágenes crean ejercicios fundamentalmente diferentes: las Imágenes Idénticas muestran la misma imagen a diferentes tamaños para una percepción pura del tamaño, mientras que las Imágenes Diferentes muestran objetos distintos para un razonamiento de tamaño relativo. Configura de 1 a 10 ejercicios por página con 2 o 3 imágenes por ejercicio — dos imágenes para comparaciones más simples, tres para ejercicios más difíciles que incluyen la opción del mediano. Cada ficha es completamente visual con cero texto en la salida, haciéndolas universalmente utilizables independientemente del idioma o nivel de lectura. El contenido proviene de la Biblioteca de Imágenes integrada con más de 3100 ilustraciones en 104 temas. Una clave de respuesta generada automáticamente resalta las respuestas correctas para una verificación instantánea. El Acceso Completo desbloquea los 104 temas y los 11 idiomas de interfaz. Exporta PDF listos para imprimir y JPEG a 300 DPI en formato Carta, A4 o dimensiones personalizadas. Ya sea que vendas packs de comparación de tamaños en Etsy, compiles cuadernos de aprendizaje temprano para Amazon KDP o crees centros visuales diferenciados para TPT, el Generador de Fichas Grande y Pequeño produce resultados profesionales en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Diseña fichas profesionales de comparación de tamaños donde los usuarios observan imágenes temáticas mostradas a diferentes tamaños e identifican cuál es más grande, más pequeña o de tamaño mediano, o las numeran en orden del más pequeño al más grande o del más grande al más pequeño. Cinco tipos de preguntas distintos cubren cada habilidad de discriminación de tamaños: Rodea el Más Grande, Rodea el Más Pequeño, Rodea el Mediano, Numerar 1–2–3 del Más Pequeño al Más Grande y Numerar 1–2–3 del Más Grande al Más Pequeño. Dos modos de imágenes crean ejercicios fundamentalmente diferentes: las Imágenes Idénticas muestran la misma imagen a diferentes tamaños para una percepción pura del tamaño, mientras que las Imágenes Diferentes muestran objetos distintos para un razonamiento de tamaño relativo. Configura de 1 a 10 ejercicios por página con 2 o 3 imágenes por ejercicio — dos imágenes para comparaciones más simples, tres para ejercicios más difíciles que incluyen la opción del mediano. Cada ficha es completamente visual con cero texto en la salida, haciéndolas universalmente utilizables independientemente del idioma o nivel de lectura. El contenido proviene de la Biblioteca de Imágenes integrada con más de 3100 ilustraciones en 104 temas. Una clave de respuesta generada automáticamente resalta las respuestas correctas para una verificación instantánea. El Acceso Completo desbloquea los 104 temas y los 11 idiomas de interfaz. Exporta PDF listos para imprimir y JPEG a 300 DPI en formato Carta, A4 o dimensiones personalizadas. Ya sea que vendas packs de comparación de tamaños en Etsy, compiles cuadernos de aprendizaje temprano para Amazon KDP o crees centros visuales diferenciados para Gumroad, el Generador de Fichas Grande y Pequeño produce resultados profesionales en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Elegir el tipo de pregunta',
         description:
-          'Selecciona uno de los cinco tipos de preguntas desde el panel Contenido. Rodea el Más Grande pide a los alumnos que identifiquen la imagen más grande. Rodea el Más Pequeño se centra en la imagen más pequeña. Rodea el Mediano desafía a los alumnos a encontrar la imagen de tamaño intermedio (requiere 3 imágenes por ejercicio). Numerar 1–2–3 del Más Pequeño al Más Grande pide a los alumnos que ordenen las imágenes de la más pequeña a la más grande. Numerar 1–2–3 del Más Grande al Más Pequeño invierte el orden de la más grande a la más pequeña. Cada tipo de pregunta se enfoca en una habilidad diferente de discriminación de tamaños — identificación vs secuenciación.',
+          'Selecciona uno de los cinco tipos de preguntas desde el panel Contenido. Rodea el Más Grande pide a los usuarios que identifiquen la imagen más grande. Rodea el Más Pequeño se centra en la imagen más pequeña. Rodea el Mediano desafía a los usuarios a encontrar la imagen de tamaño intermedio (requiere 3 imágenes por ejercicio). Numerar 1–2–3 del Más Pequeño al Más Grande pide a los usuarios que ordenen las imágenes de la más pequeña a la más grande. Numerar 1–2–3 del Más Grande al Más Pequeño invierte el orden de la más grande a la más pequeña. Cada tipo de pregunta se enfoca en una habilidad diferente de discriminación de tamaños — identificación vs secuenciación.',
       },
       {
         title: 'Configurar el número de ejercicios y los ajustes de imágenes',
@@ -47,12 +47,12 @@ const content: AppContent = {
       {
         title: 'Seleccionar imágenes y añadir texto decorativo',
         description:
-          'Explora 104 colecciones de imágenes temáticas con más de 3100 ilustraciones — animales, comida, vehículos, naturaleza y docenas más — o sube tus propias imágenes personalizadas. Cada tema proporciona un conjunto coordinado de imágenes que funcionan juntas visualmente. Usa el panel Herramientas de Texto para añadir un título de ficha, campos de nombre y fecha del alumno o instrucciones con cinco fuentes: Baloo 2, Fredoka, Lexend Deca, Nunito y Quicksand. Arrastra, redimensiona y reposiciona cada elemento en el lienzo Fabric.js completo.',
+          'Explora 104 colecciones de imágenes temáticas con más de 3100 ilustraciones — animales, comida, vehículos, naturaleza y docenas más — o sube tus propias imágenes personalizadas. Cada tema proporciona un conjunto coordinado de imágenes que funcionan juntas visualmente. Usa el panel Herramientas de Texto para añadir un título de ficha, campos de nombre y fecha o instrucciones con cinco fuentes: Baloo 2, Fredoka, Lexend Deca, Nunito y Quicksand. Arrastra, redimensiona y reposiciona cada elemento en el lienzo Fabric.js completo.',
       },
       {
         title: 'Generar la clave de respuesta y descargar',
         description:
-          'Haz clic en Generar Clave de Respuesta para crear una versión resuelta donde las respuestas correctas están resaltadas y rodeadas para una verificación visual instantánea. Activa la exportación en escala de grises para versiones que ahorran tinta, ideales para impresión en clase. Luego abre el menú Descarga y exporta tanto la ficha como la clave de respuesta en JPEG de alta resolución o PDF listo para imprimir a 300 DPI. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos TPT.',
+          'Haz clic en Generar Clave de Respuesta para crear una versión resuelta donde las respuestas correctas están resaltadas y rodeadas para una verificación visual instantánea. Activa la exportación en escala de grises para versiones que ahorran tinta, ideales para impresión en línea. Luego abre el menú Descarga y exporta tanto la ficha como la clave de respuesta en JPEG de alta resolución o PDF listo para imprimir a 300 DPI. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad.',
       },
     ],
   },
@@ -63,12 +63,12 @@ const content: AppContent = {
       {
         title: 'Cinco tipos de preguntas de comparación de tamaños',
         description:
-          'Cinco tipos de preguntas distintos cubren cada habilidad de discriminación de tamaños. Rodea el Más Grande y Rodea el Más Pequeño se centran en la identificación de un solo elemento — los alumnos encuentran la imagen más grande o más pequeña. Rodea el Mediano añade complejidad al requerir que los alumnos identifiquen la imagen de tamaño intermedio, evitando ambos extremos. Numerar 1–2–3 del Más Pequeño al Más Grande y Numerar 1–2–3 del Más Grande al Más Pequeño pasan de la identificación a la secuenciación, pidiendo a los alumnos que ordenen todas las imágenes por tamaño. Esta gama de tipos de preguntas crea una progresión natural de dificultad, desde la identificación simple hasta el ordenamiento en varios pasos, ofreciendo a los vendedores un eje de diferenciación integrado para packs de productos por niveles.',
+          'Cinco tipos de preguntas distintos cubren cada habilidad de discriminación de tamaños. Rodea el Más Grande y Rodea el Más Pequeño se centran en la identificación de un solo elemento — los usuarios encuentran la imagen más grande o más pequeña. Rodea el Mediano añade complejidad al requerir que los usuarios identifiquen la imagen de tamaño intermedio, evitando ambos extremos. Numerar 1–2–3 del Más Pequeño al Más Grande y Numerar 1–2–3 del Más Grande al Más Pequeño pasan de la identificación a la secuenciación, pidiendo a los usuarios que ordenen todas las imágenes por tamaño. Esta gama de tipos de preguntas crea una progresión natural de dificultad, desde la identificación simple hasta el ordenamiento en varios pasos, ofreciendo a los vendedores un eje de diferenciación integrado para packs de productos por niveles.',
       },
       {
         title: 'Modos de comparación Imágenes Idénticas vs Imágenes Diferentes',
         description:
-          'Dos modos de imágenes crean tipos de ejercicios fundamentalmente diferentes desde la misma herramienta. El modo Imágenes Idénticas muestra la misma imagen a diferentes tamaños, aislando la percepción pura del tamaño sin otras variables — los alumnos comparan la escala sin elementos confusos. El modo Imágenes Diferentes muestra objetos distintos a diferentes tamaños, requiriendo un razonamiento de tamaño relativo donde los alumnos deben comparar elementos diferentes. El modo idéntico es ideal para los más pequeños que desarrollan la conciencia básica de tamaños, mientras que el modo diferente desafía a los alumnos más avanzados con habilidades de comparación más abstractas. Cambiar entre modos duplica la variedad de tus productos sin modificar ningún otro ajuste.',
+          'Dos modos de imágenes crean tipos de ejercicios fundamentalmente diferentes desde la misma herramienta. El modo Imágenes Idénticas muestra la misma imagen a diferentes tamaños, aislando la percepción pura del tamaño sin otras variables — los usuarios comparan la escala sin elementos confusos. El modo Imágenes Diferentes muestra objetos distintos a diferentes tamaños, requiriendo un razonamiento de tamaño relativo donde los usuarios deben comparar elementos diferentes. El modo idéntico es ideal para los más pequeños que desarrollan la conciencia básica de tamaños, mientras que el modo diferente desafía a los usuarios más avanzados con habilidades de comparación más abstractas. Cambiar entre modos duplica la variedad de tus productos sin modificar ningún otro ajuste.',
       },
       {
         title: 'Número de ejercicios e imágenes por ejercicio ajustables',
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: 'Fichas completamente visuales con cero texto en la salida',
         description:
-          'Cada ficha contiene solo imágenes e indicadores visuales — ningún texto aparece en la salida generada. Esto hace que las fichas Grande y Pequeño sean universalmente utilizables independientemente del idioma, nivel de lectura o capacidad lectora. Los alumnos en prelectura, los aprendices de idiomas y los alumnos de educación especial pueden completar los ejercicios sin leer una sola palabra. Para los vendedores, la ausencia de texto en la salida significa que la misma ficha se vende en todo el mundo sin traducción — un solo producto sirve para todos los mercados. Esta es una ventaja competitiva significativa frente a los generadores de fichas con texto.',
+          'Cada ficha contiene solo imágenes e indicadores visuales — ningún texto aparece en la salida generada. Esto hace que las fichas Grande y Pequeño sean universalmente utilizables independientemente del idioma, nivel de lectura o capacidad lectora. Los usuarios en prelectura, los aprendices de idiomas y los usuarios de educación especial pueden completar los ejercicios sin leer una sola palabra. Para los vendedores, la ausencia de texto en la salida significa que la misma ficha se vende en todo el mundo sin traducción — un solo producto sirve para todos los mercados. Esta es una ventaja competitiva significativa frente a los generadores de fichas con texto.',
       },
       {
         title: 'Biblioteca de imágenes con 104 colecciones temáticas',
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Clave de respuesta generada automáticamente con respuestas resaltadas',
         description:
-          'La clave de respuesta generada automáticamente resalta y rodea las respuestas correctas para cada ejercicio de la ficha. Para las preguntas de tipo «rodea», la imagen correcta está visualmente marcada. Para las preguntas de numeración, el orden correcto de tamaño se muestra. La clave de respuesta se descarga como archivo separado junto con la ficha, ofreciendo a los compradores un producto completo. Incluir claves de respuesta aumenta el valor percibido y justifica precios más altos en Etsy y TPT — los compradores esperan soluciones verificadas con cada producto de fichas.',
+          'La clave de respuesta generada automáticamente resalta y rodea las respuestas correctas para cada ejercicio de la ficha. Para las preguntas de tipo «rodea», la imagen correcta está visualmente marcada. Para las preguntas de numeración, el orden correcto de tamaño se muestra. La clave de respuesta se descarga como archivo separado junto con la ficha, ofreciendo a los compradores un producto completo. Incluir claves de respuesta aumenta el valor percibido y justifica precios más altos en Etsy y Gumroad — los compradores esperan soluciones verificadas con cada producto de fichas.',
       },
       {
         title: 'Exportación PDF y JPEG lista para imprimir a 300 DPI',
         description:
-          'Descarga tus fichas y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir a 300 DPI. Los formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) y dimensiones personalizadas están todos soportados. Activa la exportación en escala de grises para versiones que ahorran tinta, ideales para impresión en clase o cuadernos en blanco y negro. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos TPT — sin necesidad de postprocesamiento.',
+          'Descarga tus fichas y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir a 300 DPI. Los formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) y dimensiones personalizadas están todos soportados. Activa la exportación en escala de grises para versiones que ahorran tinta, ideales para impresión en línea o cuadernos en blanco y negro. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad — sin necesidad de postprocesamiento.',
       },
       {
         title: 'Edición completa del lienzo con herramientas de texto y decoración',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros visuales diferenciados para TPT',
+        title: 'Centros visuales diferenciados para Gumroad',
         description:
-          'Construye conjuntos de práctica de comparación de tamaños por niveles usando el tipo de pregunta como eje de diferenciación: Nivel 1 (Rodea el Más Grande, 2 imágenes, modo idéntico), Nivel 2 (Rodea el Más Pequeño, 2 imágenes, modo diferente), Nivel 3 (Rodea el Mediano, 3 imágenes) y Nivel 4 (Numeración 1–2–3). Cada nivel se enfoca en una habilidad cognitiva diferente — desde la identificación simple hasta la secuenciación en varios pasos. Acompaña cada nivel con ejercicios temáticos y claves de respuesta. El formato visual sin texto funciona en cualquier aula independientemente del idioma de los alumnos, haciendo estos recursos valiosos para contextos inclusivos y multilingües.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Construye conjuntos de práctica de comparación de tamaños por niveles usando el tipo de pregunta como eje de diferenciación: Nivel 1 (Rodea el Más Grande, 2 imágenes, modo idéntico), Nivel 2 (Rodea el Más Pequeño, 2 imágenes, modo diferente), Nivel 3 (Rodea el Mediano, 3 imágenes) y Nivel 4 (Numeración 1–2–3). Cada nivel se enfoca en una habilidad cognitiva diferente — desde la identificación simple hasta la secuenciación en varios pasos. Acompaña cada nivel con ejercicios temáticos y claves de respuesta. El formato visual sin texto funciona en cualquier tienda independientemente del idioma de los usuarios, haciendo estos recursos valiosos para contextos inclusivos y multilingües.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Fichas visuales multilingües para mercados globales',
         description:
           'Como las fichas Grande y Pequeño no contienen texto en la salida, el mismo producto funciona en todos los idiomas sin modificación. Crea un conjunto de ejercicios de comparación de tamaños y véndelo en todo el mundo — sin traducción necesaria, sin versiones de idiomas separadas que mantener. Esta es una ventaja considerable frente a los generadores de fichas con texto donde cada producto necesita 11 variantes lingüísticas. Publica productos idénticos en tiendas Etsy dirigidas a diferentes países, o publica el mismo interior KDP en todos los mercados internacionales de Amazon. Un solo flujo de trabajo produce un producto universalmente vendible.',
-        platform: 'Etsy / Amazon KDP / TPT (global)',
+        platform: 'Etsy / Amazon KDP / Gumroad (global)',
       },
       {
-        title: 'Herramienta de comparación de tamaños para el aula y el refuerzo',
+        title: 'Herramienta de comparación de tamaños para venta en línea y el refuerzo',
         description:
-          'Sube imágenes personalizadas para crear fichas de comparación de tamaños para cualquier tema o concepto — compara tamaños de edificios en ciencias sociales, tamaños de animales en ciencias naturales o porciones de alimentos en educación para la salud. Los cinco tipos de preguntas te permiten adaptar el ejercicio al objetivo de aprendizaje: identificación para la introducción, ordenamiento para la evaluación. Ajusta el número de ejercicios por página y de imágenes por ejercicio según el nivel de cada alumno. Imprime series personalizadas en minutos para grupos pequeños o clases enteras. La clave de respuesta generada automáticamente ahorra tiempo de corrección, y el formato visual atrae a los alumnos que tienen dificultades con las fichas con mucho texto.',
-        platform: 'Aula / Refuerzo / Educación en casa',
+          'Sube imágenes personalizadas para crear fichas de comparación de tamaños para cualquier tema o concepto — compara tamaños de edificios en ciencias sociales, tamaños de animales en ciencias naturales o porciones de alimentos en educación para la salud. Los cinco tipos de preguntas te permiten adaptar el ejercicio al objetivo de aprendizaje: identificación para la introducción, ordenamiento para la evaluación. Ajusta el número de ejercicios por página y de imágenes por ejercicio según el nivel de cada usuario. Imprime series personalizadas en minutos para grupos pequeños o clases enteras. La clave de respuesta generada automáticamente ahorra valor percibido, y el formato visual atrae a los usuarios que tienen dificultades con las fichas con mucho texto.',
+        platform: 'Tienda / Refuerzo / Educación en casa',
       },
     ],
   },
@@ -143,17 +143,17 @@ const content: AppContent = {
     {
       question: '¿Cuáles son los cinco tipos de preguntas y cómo funcionan?',
       answer:
-        'Rodea el Más Grande pide a los alumnos que identifiquen la imagen más grande entre 2 o 3 opciones. Rodea el Más Pequeño se centra en la imagen más pequeña. Rodea el Mediano requiere identificar la imagen de tamaño intermedio (solo disponible con 3 imágenes por ejercicio). Numerar 1–2–3 del Más Pequeño al Más Grande pide a los alumnos que etiqueten las imágenes en orden ascendente de tamaño. Numerar 1–2–3 del Más Grande al Más Pequeño invierte el orden a descendente. Las preguntas de rodear evalúan la identificación; las preguntas de numeración evalúan la secuenciación — juntas cubren toda la gama de habilidades de discriminación de tamaños.',
+        'Rodea el Más Grande pide a los usuarios que identifiquen la imagen más grande entre 2 o 3 opciones. Rodea el Más Pequeño se centra en la imagen más pequeña. Rodea el Mediano requiere identificar la imagen de tamaño intermedio (solo disponible con 3 imágenes por ejercicio). Numerar 1–2–3 del Más Pequeño al Más Grande pide a los usuarios que etiqueten las imágenes en orden ascendente de tamaño. Numerar 1–2–3 del Más Grande al Más Pequeño invierte el orden a descendente. Las preguntas de rodear evalúan la identificación; las preguntas de numeración evalúan la secuenciación — juntas cubren toda la gama de habilidades de discriminación de tamaños.',
     },
     {
       question: '¿Cuál es la diferencia entre el modo Imágenes Idénticas e Imágenes Diferentes?',
       answer:
-        'El modo Imágenes Idénticas muestra la misma imagen a diferentes tamaños — por ejemplo, tres copias de un gato a escala pequeña, mediana y grande. Esto aísla la percepción pura del tamaño sin otras variables. El modo Imágenes Diferentes muestra objetos distintos a diferentes tamaños — por ejemplo, un perro, un gato y un pájaro a escalas diferentes. Esto requiere un razonamiento de tamaño relativo donde los alumnos deben comparar elementos diferentes. Los dos modos crean ejercicios fundamentalmente diferentes y duplican efectivamente la variedad de tus productos.',
+        'El modo Imágenes Idénticas muestra la misma imagen a diferentes tamaños — por ejemplo, tres copias de un gato a escala pequeña, mediana y grande. Esto aísla la percepción pura del tamaño sin otras variables. El modo Imágenes Diferentes muestra objetos distintos a diferentes tamaños — por ejemplo, un perro, un gato y un pájaro a escalas diferentes. Esto requiere un razonamiento de tamaño relativo donde los usuarios deben comparar elementos diferentes. Los dos modos crean ejercicios fundamentalmente diferentes y duplican efectivamente la variedad de tus productos.',
     },
     {
       question: '¿Qué controla el ajuste de 2 o 3 imágenes por ejercicio?',
       answer:
-        'Con 2 imágenes por ejercicio, los alumnos hacen una comparación simple entre grande y pequeño. Con 3 imágenes, se introduce la opción del mediano, activando el tipo de pregunta Rodea el Mediano y haciendo los ejercicios de numeración más desafiantes con tres elementos a ordenar en vez de dos. Los ejercicios de tres imágenes son más difíciles porque los alumnos deben distinguir tres tamaños relativos en lugar de solo dos. Empieza con 2 imágenes para los más pequeños y progresa hacia 3 para una práctica más avanzada.',
+        'Con 2 imágenes por ejercicio, los usuarios hacen una comparación simple entre grande y pequeño. Con 3 imágenes, se introduce la opción del mediano, activando el tipo de pregunta Rodea el Mediano y haciendo los ejercicios de numeración más desafiantes con tres elementos a ordenar en vez de dos. Los ejercicios de tres imágenes son más difíciles porque los usuarios deben distinguir tres tamaños relativos en lugar de solo dos. Empieza con 2 imágenes para los más pequeños y progresa hacia 3 para una práctica más avanzada.',
     },
     {
       question: '¿Cuántos ejercicios se pueden poner en una página?',
@@ -163,12 +163,12 @@ const content: AppContent = {
     {
       question: '¿Por qué las fichas no tienen texto?',
       answer:
-        'Las fichas Grande y Pequeño son completamente visuales por diseño. Los ejercicios contienen solo imágenes e indicadores visuales como círculos o casillas de numeración — ninguna palabra escrita aparece en la salida generada. Esto hace que las fichas sean universalmente utilizables independientemente del idioma o nivel de lectura. Los alumnos en prelectura las completan sin necesidad de leer. La misma ficha se vende en todo el mundo sin traducción. Las instrucciones pueden darse oralmente por el profesor o añadirse como texto personalizado usando las herramientas de texto si es necesario.',
+        'Las fichas Grande y Pequeño son completamente visuales por diseño. Los ejercicios contienen solo imágenes e indicadores visuales como círculos o casillas de numeración — ninguna palabra escrita aparece en la salida generada. Esto hace que las fichas sean universalmente utilizables independientemente del idioma o nivel de lectura. Los usuarios en prelectura las completan sin necesidad de leer. La misma ficha se vende en todo el mundo sin traducción. Las instrucciones pueden darse oralmente por el vendedor o añadirse como texto personalizado usando las herramientas de texto si es necesario.',
     },
     {
       question: '¿Cómo funciona la clave de respuesta generada automáticamente?',
       answer:
-        'La clave de respuesta crea una versión resuelta de tu ficha donde las respuestas correctas están visualmente resaltadas y rodeadas. Para las preguntas de rodear, la imagen correcta está marcada. Para las preguntas de numeración, el orden correcto de tamaño se muestra. La clave de respuesta se descarga como archivo separado junto con la ficha. Incluir claves de respuesta con cada producto aumenta el valor percibido y es lo que esperan los compradores en Etsy, TPT y KDP.',
+        'La clave de respuesta crea una versión resuelta de tu ficha donde las respuestas correctas están visualmente resaltadas y rodeadas. Para las preguntas de rodear, la imagen correcta está marcada. Para las preguntas de numeración, el orden correcto de tamaño se muestra. La clave de respuesta se descarga como archivo separado junto con la ficha. Incluir claves de respuesta con cada producto aumenta el valor percibido y es lo que esperan los compradores en Etsy, Gumroad y KDP.',
     },
     {
       question: '¿Se pueden subir imágenes propias en lugar de usar la biblioteca?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de comparación de tamaños como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos educativos en TPT o a través de cualquier otro canal de venta. Los cinco tipos de preguntas, los dos modos de imágenes y el formato completamente visual te ofrecen una fuerte diferenciación y vendibilidad global en las categorías de los marketplaces.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de comparación de tamaños como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. Los cinco tipos de preguntas, los dos modos de imágenes y el formato completamente visual te ofrecen una fuerte diferenciación y vendibilidad global en las categorías de los marketplaces.',
     },
     {
       question: '¿Cuál es la política de reembolso?',
@@ -269,12 +269,12 @@ const content: AppContent = {
       {
         src: '/samples/spanish/big small/Grande o Pequeño 2.webp',
         alt: 'Ficha de comparación de tamaños en modo rodea el más grande con imágenes temáticas de animales a diferentes tamaños',
-        caption: 'Modo Rodea el Más Grande — los alumnos identifican la imagen más grande en cada ejercicio',
+        caption: 'Modo Rodea el Más Grande — los usuarios identifican la imagen más grande en cada ejercicio',
       },
       {
         src: '/samples/spanish/big small/Grande o Pequeño 3.webp',
         alt: 'Ficha de comparación de tamaños en modo numeración con tres imágenes a ordenar del más pequeño al más grande',
-        caption: 'Numerar 1–2–3 del Más Pequeño al Más Grande — los alumnos ordenan las imágenes por tamaño ascendente',
+        caption: 'Numerar 1–2–3 del Más Pequeño al Más Grande — los usuarios ordenan las imágenes por tamaño ascendente',
       },
       {
         src: '/samples/spanish/big small/Grande o Pequeño 4.webp',

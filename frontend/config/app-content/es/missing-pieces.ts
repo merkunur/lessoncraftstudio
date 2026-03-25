@@ -6,8 +6,8 @@ const content: AppContent = {
     secondaryKeywords: [
       'creador de rompecabezas de piezas faltantes para vendedores Etsy',
       'generador de fichas de puzzles visuales para editores Amazon KDP',
-      'creador de puzzles de piezas faltantes con licencia comercial TPT',
-      'vender fichas de piezas faltantes imprimibles en Teachers Pay Teachers',
+      'creador de puzzles de piezas faltantes con licencia comercial Gumroad',
+      'vender fichas de piezas faltantes imprimibles en Gumroad',
     ],
     lsiKeywords: [
       'productos digitales de puzzles visuales para emprendedores',
@@ -15,14 +15,14 @@ const content: AppContent = {
       'actividades de puzzles imprimibles para negocio en línea',
     ],
     titleTag: 'Generador Piezas Faltantes | Crear y Vender',
-    metaDescription: 'Crea puzzles de piezas faltantes para vender en Etsy, KDP y TPT. 6 formas, dificultad configurable, clave de respuestas automática, 104 temas. Prueba gratis.',
+    metaDescription: 'Crea puzzles de piezas faltantes para vender en Etsy, KDP y Gumroad. 6 formas, dificultad configurable, clave de respuestas automática, 104 temas. Prueba gratis.',
   },
 
   hero: {
     title: 'Generador de Puzzles de Piezas Faltantes Estilo Rompecabezas Visual',
-    tagline: 'Genera rompecabezas estilo puzzle donde se recortan piezas de imágenes y los estudiantes identifican la opción numerada correcta — con 6 formas de pieza, 1–5 piezas faltantes, 2–6 opciones de solución con piezas distractoras, claves de respuestas automáticas y diseño puramente visual que funciona en cualquier idioma.',
+    tagline: 'Genera rompecabezas estilo puzzle donde se recortan piezas de imágenes y los usuarios identifican la opción numerada correcta — con 6 formas de pieza, 1–5 piezas faltantes, 2–6 opciones de solución con piezas distractoras, claves de respuestas automáticas y diseño puramente visual que funciona en cualquier idioma.',
     description:
-      'Crea puzzles profesionales de piezas faltantes donde una imagen tiene huecos recortados y los estudiantes identifican qué opción numerada rellena cada espacio. El algoritmo inteligente de extracción de piezas encuentra áreas visualmente distintas con suficiente varianza de color, garantizando que cada puzzle sea resoluble y atractivo. Elige entre 6 formas de pieza — cuadrado, círculo, rectángulo vertical, rectángulo horizontal, elipse vertical y elipse horizontal — y configura la dificultad con 1–5 piezas faltantes y 2–6 opciones de solución que incluyen piezas distractoras para desafiar las habilidades de discriminación visual. Cada puzzle incluye una clave de respuestas generada automáticamente con etiquetas numéricas resaltadas en amarillo colocadas dentro de cada hueco mostrando la opción correcta. El encabezado generado automáticamente muestra "Piezas Faltantes" en turquesa (#06B6D4) con una descripción en rosa (#DB2777) enmarcado en un sistema de doble borde — borde exterior verde azulado (#14B8A6, 8px) y borde interior rosa intenso (#EC4899, 3px) — localizado en los 11 idiomas soportados. Piezas Faltantes NO es sensible al idioma: los puzzles son puramente visuales sin contenido dependiente del idioma, por lo que cada puzzle funciona idénticamente en todo el mundo. El Acceso Completo desbloquea los 104 temas con más de 3.100 ilustraciones y los 11 idiomas de interfaz. Añade temas de fondo y temas de borde con controles de opacidad independientes, y exporta PDFs y JPEGs listos para imprimir a 300 DPI en tamaños Carta, A4, Cuadrado o personalizado. Ya sea que vendas paquetes de puzzles visuales en Etsy, compiles libros de rompecabezas para Amazon KDP o crees actividades de pensamiento crítico para TPT, este generador produce puzzles listos para producción en minutos — prueba gratis con todas las funciones — sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Crea puzzles profesionales de piezas faltantes donde una imagen tiene huecos recortados y los usuarios identifican qué opción numerada rellena cada espacio. El algoritmo inteligente de extracción de piezas encuentra áreas visualmente distintas con suficiente varianza de color, garantizando que cada puzzle sea resoluble y atractivo. Elige entre 6 formas de pieza — cuadrado, círculo, rectángulo vertical, rectángulo horizontal, elipse vertical y elipse horizontal — y configura la dificultad con 1–5 piezas faltantes y 2–6 opciones de solución que incluyen piezas distractoras para desafiar las habilidades de discriminación visual. Cada puzzle incluye una clave de respuestas generada automáticamente con etiquetas numéricas resaltadas en amarillo colocadas dentro de cada hueco mostrando la opción correcta. El encabezado generado automáticamente muestra "Piezas Faltantes" en turquesa (#06B6D4) con una descripción en rosa (#DB2777) enmarcado en un sistema de doble borde — borde exterior verde azulado (#14B8A6, 8px) y borde interior rosa intenso (#EC4899, 3px) — localizado en los 11 idiomas soportados. Piezas Faltantes NO es sensible al idioma: los puzzles son puramente visuales sin contenido dependiente del idioma, por lo que cada puzzle funciona idénticamente en todo el mundo. El Acceso Completo desbloquea los 104 temas con más de 3.100 ilustraciones y los 11 idiomas de interfaz. Añade temas de fondo y temas de borde con controles de opacidad independientes, y exporta PDFs y JPEGs listos para imprimir a 300 DPI en tamaños Carta, A4, Cuadrado o personalizado. Ya sea que vendas paquetes de puzzles visuales en Etsy, compiles libros de rompecabezas para Amazon KDP o crees actividades de pensamiento crítico para Gumroad, este generador produce puzzles listos para producción en minutos — prueba gratis con todas las funciones — sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
   },
 
   howItWorks: {
@@ -51,7 +51,7 @@ const content: AppContent = {
       {
         title: 'Genera la clave de respuestas y descarga',
         description:
-          'Cambia a la pestaña Clave de Respuestas para ver la clave generada automáticamente. La misma imagen del puzzle aparece con los huecos, y etiquetas numéricas resaltadas en amarillo (rgba(255,255,0,0.7)) dentro de cada hueco muestran el índice de la opción correcta. Descarga ambas versiones usando cuatro botones dedicados: JPEG de la Ficha, JPEG de la Clave, PDF de la Ficha y PDF de la Clave — todos renderizados a 300 DPI con calidad JPEG 1.0. Activa escala de grises para versiones que ahorran tinta. Cada exportación está lista para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos TPT.',
+          'Cambia a la pestaña Clave de Respuestas para ver la clave generada automáticamente. La misma imagen del puzzle aparece con los huecos, y etiquetas numéricas resaltadas en amarillo (rgba(255,255,0,0.7)) dentro de cada hueco muestran el índice de la opción correcta. Descarga ambas versiones usando cuatro botones dedicados: JPEG de la Ficha, JPEG de la Clave, PDF de la Ficha y PDF de la Clave — todos renderizados a 300 DPI con calidad JPEG 1.0. Activa escala de grises para versiones que ahorran tinta. Cada exportación está lista para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad.',
       },
     ],
   },
@@ -62,7 +62,7 @@ const content: AppContent = {
       {
         title: 'Puzzles Estilo Rompecabezas con Dificultad Configurable',
         description:
-          'Crea puzzles donde una imagen tiene huecos recortados y los estudiantes identifican qué opción numerada rellena cada espacio. Configura la dificultad con dos controles independientes: establece 1–5 piezas faltantes para controlar la complejidad del puzzle, y establece 2–6 opciones de solución para controlar cuántas opciones evalúan los estudiantes. Más piezas faltantes significa más razonamiento espacial; más opciones de solución (incluyendo distractoras) significa discriminación visual más aguda. Este sistema de dificultad en dos ejes te permite crear puzzles que van desde identificación simple de una pieza hasta desafíos complejos de múltiples piezas.',
+          'Crea puzzles donde una imagen tiene huecos recortados y los usuarios identifican qué opción numerada rellena cada espacio. Configura la dificultad con dos controles independientes: establece 1–5 piezas faltantes para controlar la complejidad del puzzle, y establece 2–6 opciones de solución para controlar cuántas opciones evalúan los usuarios. Más piezas faltantes significa más razonamiento espacial; más opciones de solución (incluyendo distractoras) significa discriminación visual más aguda. Este sistema de dificultad en dos ejes te permite crear puzzles que van desde identificación simple de una pieza hasta desafíos complejos de múltiples piezas.',
       },
       {
         title: 'Seis Formas de Pieza: Cuadrado, Círculo, Rectángulo y Variantes de Elipse',
@@ -77,12 +77,12 @@ const content: AppContent = {
       {
         title: 'Clave de Respuestas Automática con Etiquetas Numéricas Resaltadas en Amarillo',
         description:
-          'Cada puzzle de piezas faltantes genera automáticamente una clave de respuestas complementaria en una pestaña separada del lienzo. La clave de respuestas muestra la misma imagen del puzzle con los huecos, y coloca etiquetas numéricas resaltadas en amarillo (rgba(255,255,0,0.7)) dentro de cada hueco mostrando el índice de opción correcto basado en 1. El tamaño de fuente se escala al 60% del tamaño de la pieza para una legibilidad clara. No necesitas crear respuestas manualmente — la clave de respuestas se mantiene perfectamente sincronizada con el puzzle. Descarga la clave como answer_key.jpeg o answer_key.pdf junto con la ficha del estudiante.',
+          'Cada puzzle de piezas faltantes genera automáticamente una clave de respuestas complementaria en una pestaña separada del lienzo. La clave de respuestas muestra la misma imagen del puzzle con los huecos, y coloca etiquetas numéricas resaltadas en amarillo (rgba(255,255,0,0.7)) dentro de cada hueco mostrando el índice de opción correcto basado en 1. El tamaño de fuente se escala al 60% del tamaño de la pieza para una legibilidad clara. No necesitas crear respuestas manualmente — la clave de respuestas se mantiene perfectamente sincronizada con el puzzle. Descarga la clave como answer_key.jpeg o answer_key.pdf junto con la ficha del usuario.',
       },
       {
         title: 'Opciones de Solución Numeradas con Piezas Distractoras',
         description:
-          'Las opciones de solución se muestran en contenedores numerados (1–N) con etiquetas numéricas resaltadas en amarillo para identificación clara. Cuando las opciones de solución exceden el número de piezas faltantes, las opciones extra son piezas distractoras — extraídas de diferentes áreas de la misma imagen que no coinciden con ningún hueco. Las distractoras obligan a los estudiantes a comparar cuidadosamente los detalles visuales en lugar de simplemente resolver por eliminación. Las fichas verticales organizan las opciones en una fila horizontal debajo del puzzle (75% del tamaño máximo); las fichas horizontales las colocan en el lado derecho (50% del ancho) en una fila horizontal.',
+          'Las opciones de solución se muestran en contenedores numerados (1–N) con etiquetas numéricas resaltadas en amarillo para identificación clara. Cuando las opciones de solución exceden el número de piezas faltantes, las opciones extra son piezas distractoras — extraídas de diferentes áreas de la misma imagen que no coinciden con ningún hueco. Las distractoras obligan a los usuarios a comparar cuidadosamente los detalles visuales en lugar de simplemente resolver por eliminación. Las fichas verticales organizan las opciones en una fila horizontal debajo del puzzle (75% del tamaño máximo); las fichas horizontales las colocan en el lado derecho (50% del ancho) en una fila horizontal.',
       },
       {
         title: 'Biblioteca de Imágenes con 104 Colecciones Temáticas y Más de 3.100 Ilustraciones',
@@ -92,7 +92,7 @@ const content: AppContent = {
       {
         title: 'Exportación Lista para Imprimir en PDF y JPEG a 300 DPI con Escala de Grises',
         description:
-          'Descarga puzzles de piezas faltantes y claves de respuestas como imágenes JPEG de alta resolución o documentos PDF listos para imprimir renderizados a 300 DPI (multiplicador 6×) con calidad JPEG 1.0. Cuatro botones de descarga dedicados exportan la ficha y la clave de respuestas por separado. Los tamaños de página incluyen Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) y dimensiones totalmente personalizadas. Activa escala de grises para versiones que ahorran tinta. Cada exportación está lista para producción en descargas digitales, libros de trabajo impresos y fichas para el aula.',
+          'Descarga puzzles de piezas faltantes y claves de respuestas como imágenes JPEG de alta resolución o documentos PDF listos para imprimir renderizados a 300 DPI (multiplicador 6×) con calidad JPEG 1.0. Cuatro botones de descarga dedicados exportan la ficha y la clave de respuestas por separado. Los tamaños de página incluyen Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) y dimensiones totalmente personalizadas. Activa escala de grises para versiones que ahorran tinta. Cada exportación está lista para producción en descargas digitales, libros de trabajo impresos y fichas para venta en línea.',
       },
       {
         title: 'Edición Completa del Lienzo con Herramientas de Texto, Alineación y Capas',
@@ -118,16 +118,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Actividades de Puzzles para el Aula en TPT',
+        title: 'Actividades de Puzzles para venta en línea en Gumroad',
         description:
-          'Crea actividades listas para usar de discriminación visual y pensamiento crítico para Teachers Pay Teachers. Los puzzles de piezas faltantes fortalecen el razonamiento espacial, el análisis visual y la atención al detalle — habilidades valoradas en los currículos de educación infantil y primaria. Crea conjuntos alineados con el currículo: puzzles de hábitats de animales, puzzles de escenas estacionales, puzzles de ayudantes comunitarios y puzzles de grupos de alimentos. Cada conjunto incluye fichas para estudiantes y claves de respuestas en formatos PDF y JPEG. La dificultad configurable te permite crear versiones diferenciadas del mismo puzzle para aulas con niveles mixtos.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Crea actividades listas para usar de discriminación visual y pensamiento crítico para Gumroad. Los puzzles de piezas faltantes fortalecen el razonamiento espacial, el análisis visual y la atención al detalle — habilidades valoradas en los catálogos de productos de educación infantil y primaria. Crea conjuntos alineados con el catálogo de productos: puzzles de hábitats de animales, puzzles de escenas estacionales, puzzles de ayudantes comunitarios y puzzles de grupos de alimentos. Cada conjunto incluye fichas para usuarios y claves de respuestas en formatos PDF y JPEG. La dificultad configurable te permite crear versiones diferenciadas del mismo puzzle para tiendas con niveles mixtos.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Colecciones de Puzzles Estacionales y Festivos',
         description:
           'Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, Día de San Valentín, vuelta al colegio, vacaciones de verano y más. Crea colecciones de puzzles de disponible ahora que se alineen con los períodos de mayor demanda comercial. Lanza paquetes de puzzles de Halloween en septiembre, colecciones de Navidad en octubre y paquetes de San Valentín en enero. Varía las formas de pieza y los niveles de dificultad dentro de cada conjunto estacional para máximo valor. Los productos estacionales obtienen precios más altos durante sus ventanas de mayor demanda y crean razones naturales para compras recurrentes de tu base de clientes.',
-        platform: 'Etsy / Amazon KDP / TPT (estacional)',
+        platform: 'Etsy / Amazon KDP / Gumroad (estacional)',
       },
       {
         title: 'Alcance en el Mercado Global — Los Puzzles Visuales No Necesitan Traducción',
@@ -142,7 +142,7 @@ const content: AppContent = {
     {
       question: '¿Cómo funciona el mecanismo del puzzle de piezas faltantes?',
       answer:
-        'El generador toma una imagen de la biblioteca (o tu imagen subida) y recorta 1–5 piezas, dejando huecos blancos con contornos de trazo negro en las ubicaciones originales. Luego muestra 2–6 opciones de solución numeradas debajo o al lado del puzzle — las piezas correctas más piezas distractoras extraídas de otras áreas de la misma imagen. Los estudiantes examinan los huecos y las opciones numeradas, luego identifican qué opción rellena cada espacio basándose en color, patrón y detalle visual.',
+        'El generador toma una imagen de la biblioteca (o tu imagen subida) y recorta 1–5 piezas, dejando huecos blancos con contornos de trazo negro en las ubicaciones originales. Luego muestra 2–6 opciones de solución numeradas debajo o al lado del puzzle — las piezas correctas más piezas distractoras extraídas de otras áreas de la misma imagen. Los usuarios examinan los huecos y las opciones numeradas, luego identifican qué opción rellena cada espacio basándose en color, patrón y detalle visual.',
     },
     {
       question: '¿Cuáles son las 6 formas de pieza disponibles?',
@@ -152,12 +152,12 @@ const content: AppContent = {
     {
       question: '¿Cómo funcionan los ajustes de dificultad?',
       answer:
-        'La dificultad se controla con dos configuraciones independientes. El número de piezas faltantes (1–5) determina cuántos huecos se recortan de la imagen — más piezas significa más razonamiento espacial. El número de opciones de solución (2–6) determina cuántas opciones numeradas evalúan los estudiantes — cuando las opciones exceden las piezas faltantes, las extras son distractoras que requieren comparación visual cuidadosa. Un puzzle con 1 pieza faltante y 2 opciones es fácil; 5 piezas faltantes con 6 opciones es desafiante.',
+        'La dificultad se controla con dos configuraciones independientes. El número de piezas faltantes (1–5) determina cuántos huecos se recortan de la imagen — más piezas significa más razonamiento espacial. El número de opciones de solución (2–6) determina cuántas opciones numeradas evalúan los usuarios — cuando las opciones exceden las piezas faltantes, las extras son distractoras que requieren comparación visual cuidadosa. Un puzzle con 1 pieza faltante y 2 opciones es fácil; 5 piezas faltantes con 6 opciones es desafiante.',
     },
     {
       question: '¿Qué son las piezas distractoras y cómo se generan?',
       answer:
-        'Las piezas distractoras son opciones de solución adicionales que no coinciden con ningún hueco del puzzle. Se extraen de diferentes áreas de la misma imagen fuente usando hasta 200 intentos de colocación cada una, asegurando que no se superpongan con las piezas correctas. Las distractoras evitan que los estudiantes resuelvan solo por eliminación — deben comparar cuidadosamente colores, patrones y detalles visuales para distinguir las opciones correctas de alternativas de apariencia similar.',
+        'Las piezas distractoras son opciones de solución adicionales que no coinciden con ningún hueco del puzzle. Se extraen de diferentes áreas de la misma imagen fuente usando hasta 200 intentos de colocación cada una, asegurando que no se superpongan con las piezas correctas. Las distractoras evitan que los usuarios resuelvan solo por eliminación — deben comparar cuidadosamente colores, patrones y detalles visuales para distinguir las opciones correctas de alternativas de apariencia similar.',
     },
     {
       question: '¿Cómo funciona el algoritmo inteligente de extracción de piezas?',
@@ -192,7 +192,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender puzzles de piezas faltantes creados con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes plenos derechos para vender tus puzzles de piezas faltantes como descargas digitales en Etsy, como libros de trabajo impresos en Amazon KDP, como recursos para el aula en TPT o a través de cualquier otro canal de venta. Las 6 formas de pieza, la dificultad configurable, las claves de respuestas automáticas y las 104 colecciones de imágenes temáticas te dan las herramientas creativas para producir productos de puzzles originales y vendibles.',
+        'Sí. Con una licencia comercial, tienes plenos derechos para vender tus puzzles de piezas faltantes como descargas digitales en Etsy, como libros de trabajo impresos en Amazon KDP, como recursos para venta en línea en Gumroad o a través de cualquier otro canal de venta. Las 6 formas de pieza, la dificultad configurable, las claves de respuestas automáticas y las 104 colecciones de imágenes temáticas te dan las herramientas creativas para producir productos de puzzles originales y vendibles.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

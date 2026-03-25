@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'fichas de preposiciones imprimibles para Etsy',
       'generador de fichas de vocabulario espacial para Amazon KDP',
-      'vender fichas de preposiciones en Teachers Pay Teachers',
+      'vender fichas de preposiciones en Gumroad',
       'fichas de preposiciones espaciales licencia comercial',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Generador Fichas Preposiciones | Crear y Vender',
     metaDescription:
-      'Crea fichas de preposiciones para vender en Etsy, KDP y TPT. 8 preposiciones espaciales, completar el hueco y opción múltiple. Prueba gratis con marca de.',
+      'Crea fichas de preposiciones para vender en Etsy, KDP y Gumroad. 8 preposiciones espaciales, completar el hueco y opción múltiple. Prueba gratis con marca de.',
   },
 
   hero: {
     title: 'Generador de Fichas de Preposiciones para la Práctica del Vocabulario Espacial',
     tagline: 'Ocho preposiciones espaciales combinadas con ejercicios de imágenes y formas — construyendo el vocabulario espacial frase a frase.',
     description:
-      'Diseña fichas de preposiciones profesionales que enseñan relaciones espaciales a través de ejercicios prácticos con imágenes y formas. Los alumnos practican ocho preposiciones fundamentales — en/dentro de, encima de, debajo de, al lado de, detrás de, entre, arriba de y delante de — mediante dos modos de ejercicio distintos: Completar el Hueco, donde los alumnos escriben la preposición que falta, y Opción Múltiple, donde identifican la imagen que corresponde a una descripción espacial. Selecciona qué preposiciones incluir desde la lista integrada y configura de 1 a 8 ejercicios por ficha. Explora más de 3100 ilustraciones seleccionadas en 104 temas para los objetos posicionados, y elige entre 8 formas geométricas (círculo, cubo, cilindro, corazón, hexágono, cuadrado, estrella, triángulo) como puntos de referencia espacial. El Acceso Completo desbloquea los 11 idiomas soportados con preposiciones gramaticalmente correctas — alemán con contracciones dativas como „im" y „am", francés con reglas de elisión para « l\' » ante vocales, español con artículos con género (el/la) — multiplicando tu catálogo de productos por once desde un solo flujo de trabajo. Cada ficha genera una clave de respuesta automática, y puedes exportar PDF listos para imprimir y JPEG a más de 400 DPI en formato Carta, A4, Cuadrado o dimensiones personalizadas. Ya sea que vendas paquetes temáticos de preposiciones en Etsy, compiles libros de vocabulario espacial para Amazon KDP o crees centros de lenguaje diferenciados para TPT, el Generador de Fichas de Preposiciones produce resultados profesionales en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Diseña fichas de preposiciones profesionales que enseñan relaciones espaciales a través de ejercicios prácticos con imágenes y formas. Los usuarios practican ocho preposiciones fundamentales — en/dentro de, encima de, debajo de, al lado de, detrás de, entre, arriba de y delante de — mediante dos modos de ejercicio distintos: Completar el Hueco, donde los usuarios escriben la preposición que falta, y Opción Múltiple, donde identifican la imagen que corresponde a una descripción espacial. Selecciona qué preposiciones incluir desde la lista integrada y configura de 1 a 8 ejercicios por ficha. Explora más de 3100 ilustraciones seleccionadas en 104 temas para los objetos posicionados, y elige entre 8 formas geométricas (círculo, cubo, cilindro, corazón, hexágono, cuadrado, estrella, triángulo) como puntos de referencia espacial. El Acceso Completo desbloquea los 11 idiomas soportados con preposiciones gramaticalmente correctas — alemán con contracciones dativas como „im" y „am", francés con reglas de elisión para « l\' » ante vocales, español con artículos con género (el/la) — multiplicando tu catálogo de productos por once desde un solo flujo de trabajo. Cada ficha genera una clave de respuesta automática, y puedes exportar PDF listos para imprimir y JPEG a más de 400 DPI en formato Carta, A4, Cuadrado o dimensiones personalizadas. Ya sea que vendas paquetes temáticos de preposiciones en Etsy, compiles libros de vocabulario espacial para Amazon KDP o crees centros de lenguaje diferenciados para Gumroad, el Generador de Fichas de Preposiciones produce resultados profesionales en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Elige el modo y el número de ejercicios',
         description:
-          'Abre el panel de Configuración de Ejercicios y selecciona uno de los dos modos. El modo Completar el Hueco presenta frases como «[Imagen] está ____ el [forma]» donde los alumnos escriben la preposición correcta en el espacio en blanco. El modo Opción Múltiple muestra una descripción espacial y pide a los alumnos que marquen la imagen correspondiente. Establece el número de ejercicios por ficha de 1 a 8 para controlar la densidad y la dificultad.',
+          'Abre el panel de Configuración de Ejercicios y selecciona uno de los dos modos. El modo Completar el Hueco presenta frases como «[Imagen] está ____ el [forma]» donde los usuarios escriben la preposición correcta en el espacio en blanco. El modo Opción Múltiple muestra una descripción espacial y pide a los usuarios que marquen la imagen correspondiente. Establece el número de ejercicios por ficha de 1 a 8 para controlar la densidad y la dificultad.',
       },
       {
         title: 'Selecciona las preposiciones de la lista',
@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Elige los objetos y las formas de la biblioteca',
         description:
-          'Abre el panel de Biblioteca de Imágenes y explora 104 temas para las imágenes de objetos — los elementos posicionados — y luego elige entre 8 formas geométricas (círculo, cubo, cilindro, corazón, hexágono, cuadrado, estrella, triángulo) como puntos de referencia espacial. Usa la barra de búsqueda para encontrar imágenes específicas al instante. Configura el estilo del texto con siete fuentes, incluyendo Lexend Deca, Baloo 2 y Fredoka. Activa los campos de nombre y fecha del alumno, y sube tus propias imágenes personalizadas para fichas con tu marca.',
+          'Abre el panel de Biblioteca de Imágenes y explora 104 temas para las imágenes de objetos — los elementos posicionados — y luego elige entre 8 formas geométricas (círculo, cubo, cilindro, corazón, hexágono, cuadrado, estrella, triángulo) como puntos de referencia espacial. Usa la barra de búsqueda para encontrar imágenes específicas al instante. Configura el estilo del texto con siete fuentes, incluyendo Lexend Deca, Baloo 2 y Fredoka. Activa los campos de nombre y fecha, y sube tus propias imágenes personalizadas para fichas con tu marca.',
       },
       {
         title: 'Genera la clave de respuesta y descarga',
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: '8 preposiciones espaciales con modos Completar el Hueco y Opción Múltiple',
         description:
-          'Practica ocho preposiciones espaciales fundamentales — en/dentro de, encima de, debajo de, al lado de, detrás de, entre, arriba de y delante de — a través de dos tipos de ejercicio distintos. El modo Completar el Hueco presenta frases con imágenes y formas con una preposición que falta que los alumnos completan, desarrollando la escritura y la memorización. El modo Opción Múltiple muestra una descripción espacial y pide a los alumnos que identifiquen la imagen correspondiente, reforzando el reconocimiento y la comprensión. Usar ambos modos en diferentes fichas crea una progresión natural de fácil a difícil dentro del mismo paquete de productos.',
+          'Practica ocho preposiciones espaciales fundamentales — en/dentro de, encima de, debajo de, al lado de, detrás de, entre, arriba de y delante de — a través de dos tipos de ejercicio distintos. El modo Completar el Hueco presenta frases con imágenes y formas con una preposición que falta que los usuarios completan, desarrollando la escritura y la memorización. El modo Opción Múltiple muestra una descripción espacial y pide a los usuarios que identifiquen la imagen correspondiente, reforzando el reconocimiento y la comprensión. Usar ambos modos en diferentes fichas crea una progresión natural de fácil a difícil dentro del mismo paquete de productos.',
       },
       {
         title: 'Gramática adaptada a cada idioma con dativo, elisión y reglas de artículos',
@@ -73,12 +73,12 @@ const content: AppContent = {
       {
         title: 'Objetos + Formas: dos tipos de imagen para el contexto espacial',
         description:
-          'Cada ejercicio posiciona un objeto (una ilustración temática como un gato, un coche o una manzana) en relación con una forma (círculo, cubo, cilindro, corazón, hexágono, cuadrado, estrella o triángulo). Este sistema de doble imagen crea relaciones espaciales claras e inequívocas que los alumnos pueden analizar de un vistazo. Los objetos provienen de la biblioteca de 104 temas con más de 3100 ilustraciones, mientras que las 8 formas geométricas sirven también como introducción a la geometría. Los nombres de las formas están completamente traducidos en los 11 idiomas con las formas plurales correctas.',
+          'Cada ejercicio posiciona un objeto (una ilustración temática como un gato, un coche o una manzana) en relación con una forma (círculo, cubo, cilindro, corazón, hexágono, cuadrado, estrella o triángulo). Este sistema de doble imagen crea relaciones espaciales claras e inequívocas que los usuarios pueden analizar de un vistazo. Los objetos provienen de la biblioteca de 104 temas con más de 3100 ilustraciones, mientras que las 8 formas geométricas sirven también como introducción a la geometría. Los nombres de las formas están completamente traducidos en los 11 idiomas con las formas plurales correctas.',
       },
       {
         title: 'Número de ejercicios configurable de 1 a 8 por ficha',
         description:
-          'Establece exactamente cuántos ejercicios aparecen en cada página, desde un solo ejercicio enfocado para principiantes hasta una página densa de ocho ejercicios para revisión y evaluación. Menos ejercicios dejan espacio para imágenes más grandes y más espacio en blanco, ideal para productos de preescolar e infantil. Más ejercicios maximizan la densidad de práctica para alumnos mayores o tareas para casa. Esta flexibilidad te permite crear productos visualmente distintos desde la misma aplicación sin cambiar ningún otro parámetro.',
+          'Establece exactamente cuántos ejercicios aparecen en cada página, desde un solo ejercicio enfocado para principiantes hasta una página densa de ocho ejercicios para revisión y evaluación. Menos ejercicios dejan espacio para imágenes más grandes y más espacio en blanco, ideal para productos de preescolar e infantil. Más ejercicios maximizan la densidad de práctica para usuarios mayores o tareas para casa. Esta flexibilidad te permite crear productos visualmente distintos desde la misma aplicación sin cambiar ningún otro parámetro.',
       },
       {
         title: '104 temas visuales con más de 3100 imágenes y 8 formas geométricas',
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Generación automática de clave de respuesta',
         description:
-          'Haz clic en un botón para generar una clave de respuesta completa que reproduce el diseño de tu ficha con cada preposición correcta completada. Para los ejercicios de Completar el Hueco, la clave muestra la frase completa. Para Opción Múltiple, resalta la imagen correcta. Exporta la clave de respuesta como archivo JPEG o PDF separado, ideal para ediciones del profesor, guías para padres o paquetes de productos en Etsy sin ningún trabajo manual.',
+          'Haz clic en un botón para generar una clave de respuesta completa que reproduce el diseño de tu ficha con cada preposición correcta completada. Para los ejercicios de Completar el Hueco, la clave muestra la frase completa. Para Opción Múltiple, resalta la imagen correcta. Exporta la clave de respuesta como archivo JPEG o PDF separado, ideal para ediciones del vendedor, guías para padres o paquetes de productos en Etsy sin ningún trabajo manual.',
       },
       {
         title: 'Exportación lista para imprimir a 400+ DPI con opción escala de grises',
         description:
-          'Descarga fichas y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir. El motor de exportación renderiza con un multiplicador 6x, produciendo más de 400 DPI en tamaños estándar. Activa la exportación en escala de grises para versiones que ahorran tinta, perfectas para impresión en el aula o libros de actividades en blanco y negro. Los formatos Carta, A4, Cuadrado y dimensiones personalizadas están todos soportados para máxima flexibilidad en plataformas de impresión bajo demanda e impresoras domésticas.',
+          'Descarga fichas y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir. El motor de exportación renderiza con un multiplicador 6x, produciendo más de 400 DPI en tamaños estándar. Activa la exportación en escala de grises para versiones que ahorran tinta, perfectas para impresión en volumen o libros de actividades en blanco y negro. Los formatos Carta, A4, Cuadrado y dimensiones personalizadas están todos soportados para máxima flexibilidad en plataformas de impresión bajo demanda e impresoras domésticas.',
       },
       {
         title: 'Edición completa del lienzo con deshacer y rehacer',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de lenguaje diferenciados para TPT',
+        title: 'Centros de lenguaje diferenciados para Gumroad',
         description:
-          'Construye conjuntos de preposiciones por niveles usando el modo de ejercicio como eje de dificultad: Nivel 1 (Opción Múltiple, 2 preposiciones, 2 ejercicios por página), Nivel 2 (Opción Múltiple, 5 preposiciones, 4 ejercicios), Nivel 3 (Completar el Hueco, 5 preposiciones, 6 ejercicios), y Nivel 4 (Completar el Hueco, las 8 preposiciones, 8 ejercicios). Acompaña cada nivel con claves de respuesta y una hoja de seguimiento del progreso. Los compradores de Teachers Pay Teachers pagan precios premium por recursos de vocabulario espacial diferenciados que pueden desplegar inmediatamente en múltiples grupos de nivel.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Construye conjuntos de preposiciones por niveles usando el modo de ejercicio como eje de dificultad: Nivel 1 (Opción Múltiple, 2 preposiciones, 2 ejercicios por página), Nivel 2 (Opción Múltiple, 5 preposiciones, 4 ejercicios), Nivel 3 (Completar el Hueco, 5 preposiciones, 6 ejercicios), y Nivel 4 (Completar el Hueco, las 8 preposiciones, 8 ejercicios). Acompaña cada nivel con claves de respuesta y una hoja de seguimiento del progreso. Los compradores de Gumroad pagan precios premium por recursos de vocabulario espacial diferenciados que pueden desplegar inmediatamente en múltiples grupos de nivel.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Productos multilingües de preposiciones con Acceso Completo',
         description:
-          'El Acceso Completo desbloquea los 11 idiomas con preposiciones gramaticalmente correctas, artículos con género, contracciones dativas y reglas de elisión. Crea fichas de preposiciones en alemán con „im" y „am", fichas en francés con la elisión «l\'», fichas en español con los artículos el/la, y más. Cada versión lingüística es un producto distinto que puedes listar en Etsy, TPT o Amazon KDP — multiplicando efectivamente tu catálogo por once desde el mismo flujo de trabajo. Los productos multilingües de vocabulario espacial enfrentan menos competencia y atraen compradores internacionales que buscan en su idioma nativo.',
-        platform: 'Etsy / Amazon KDP / TPT (multilingüe)',
+          'El Acceso Completo desbloquea los 11 idiomas con preposiciones gramaticalmente correctas, artículos con género, contracciones dativas y reglas de elisión. Crea fichas de preposiciones en alemán con „im" y „am", fichas en francés con la elisión «l\'», fichas en español con los artículos el/la, y más. Cada versión lingüística es un producto distinto que puedes listar en Etsy, Gumroad o Amazon KDP — multiplicando efectivamente tu catálogo por once desde el mismo flujo de trabajo. Los productos multilingües de vocabulario espacial enfrentan menos competencia y atraen compradores internacionales que buscan en su idioma nativo.',
+        platform: 'Etsy / Amazon KDP / Gumroad (multilingüe)',
       },
       {
-        title: 'Herramienta de vocabulario espacial para el aula y tutoría',
+        title: 'Herramienta de vocabulario espacial para venta en línea y tutoría',
         description:
-          'Genera fichas de preposiciones personalizadas adaptadas al nivel de vocabulario espacial de cada alumno. Usa la lista de preposiciones para enfocarte en aquellas con las que un alumno tiene dificultades, y ajusta el número de ejercicios según su capacidad de atención. Comienza con Opción Múltiple para los principiantes y avanza hacia Completar el Hueco para alumnos listos para producir lenguaje de forma autónoma. Imprime series en minutos para grupos pequeños o clases enteras. La clave de respuesta automática ahorra tiempo de corrección, y el formato de imágenes y formas mantiene el interés de los alumnos jóvenes con el razonamiento espacial visual.',
-        platform: 'Aula / Tutoría / Educación en casa',
+          'Genera fichas de preposiciones personalizadas adaptadas al nivel de vocabulario espacial de cada usuario. Usa la lista de preposiciones para enfocarte en aquellas con las que un usuario tiene dificultades, y ajusta el número de ejercicios según su capacidad de atención. Comienza con Opción Múltiple para los principiantes y avanza hacia Completar el Hueco para usuarios listos para producir lenguaje de forma autónoma. Imprime series en minutos para grupos pequeños o clases enteras. La clave de respuesta automática ahorra valor percibido, y el formato de imágenes y formas mantiene el interés de los usuarios jóvenes con el razonamiento espacial visual.',
+        platform: 'Tienda / Tutoría / Educación en casa',
       },
     ],
   },
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: '¿Qué modos de ejercicio ofrece el Generador de Fichas de Preposiciones?',
       answer:
-        'El generador incluye dos modos: Completar el Hueco y Opción Múltiple. Completar el Hueco presenta frases con una preposición que falta que los alumnos completan (por ejemplo, «El gato está ____ el círculo»). Opción Múltiple muestra una descripción espacial y pide a los alumnos que marquen la imagen correspondiente. Ambos modos funcionan con las ocho preposiciones y todos los temas.',
+        'El generador incluye dos modos: Completar el Hueco y Opción Múltiple. Completar el Hueco presenta frases con una preposición que falta que los usuarios completan (por ejemplo, «El gato está ____ el círculo»). Opción Múltiple muestra una descripción espacial y pide a los usuarios que marquen la imagen correspondiente. Ambos modos funcionan con las ocho preposiciones y todos los temas.',
     },
     {
       question: '¿Cuáles son las 8 preposiciones disponibles?',
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: '¿Cuántos ejercicios puedo poner en cada ficha?',
       answer:
-        'Puedes establecer de 1 a 8 ejercicios por ficha. Menos ejercicios crean páginas más simples y menos cargadas, ideales para alumnos más pequeños o práctica enfocada. Más ejercicios maximizan la densidad de práctica para sesiones de revisión, evaluaciones o tareas. Variar el número de ejercicios en tus listados también te ayuda a crear niveles de precios distintos — una ficha introductoria de un solo ejercicio como punto de entrada económico y un paquete de revisión completo de ocho ejercicios a un precio premium.',
+        'Puedes establecer de 1 a 8 ejercicios por ficha. Menos ejercicios crean páginas más simples y menos cargadas, ideales para usuarios más pequeños o práctica enfocada. Más ejercicios maximizan la densidad de práctica para sesiones de revisión, evaluaciones o tareas. Variar el número de ejercicios en tus listados también te ayuda a crear niveles de precios distintos — una ficha introductoria de un solo ejercicio como punto de entrada económico y un paquete de revisión completo de ocho ejercicios a un precio premium.',
     },
     {
       question: '¿El Generador de Fichas de Preposiciones es sensible al idioma?',
@@ -178,7 +178,7 @@ const content: AppContent = {
     {
       question: '¿El generador crea claves de respuesta automáticamente?',
       answer:
-        'Sí. Haz clic en el botón Generar Clave de Respuesta para crear una versión resuelta de tu ficha. Para los ejercicios de Completar el Hueco, la clave muestra cada espacio en blanco completado con la preposición correcta. Para Opción Múltiple, indica la imagen correcta. Exporta la clave de respuesta como archivo JPEG o PDF separado junto con la ficha del alumno.',
+        'Sí. Haz clic en el botón Generar Clave de Respuesta para crear una versión resuelta de tu ficha. Para los ejercicios de Completar el Hueco, la clave muestra cada espacio en blanco completado con la preposición correcta. Para Opción Múltiple, indica la imagen correcta. Exporta la clave de respuesta como archivo JPEG o PDF separado junto con la ficha del usuario.',
     },
     {
       question: '¿Hay una prueba gratuita?',
@@ -188,12 +188,12 @@ const content: AppContent = {
     {
       question: '¿Qué incluye la licencia comercial?',
       answer:
-        'La Licencia Comercial proporciona exportaciones en inglés sin marca de agua con derechos completos de venta. La licencia de Acceso Completo añade los 11 idiomas con preposiciones, artículos y reglas gramaticales correctas, multiplicando tu catálogo de productos. Ambos niveles otorgan derechos ilimitados para vender en Etsy, Amazon KDP, Teachers Pay Teachers, tu propio sitio web o cualquier otra plataforma — sin regalías por venta, sin cuotas mensuales y sin límites de producción.',
+        'La Licencia Comercial proporciona exportaciones en inglés sin marca de agua con derechos completos de venta. La licencia de Acceso Completo añade los 11 idiomas con preposiciones, artículos y reglas gramaticales correctas, multiplicando tu catálogo de productos. Ambos niveles otorgan derechos ilimitados para vender en Etsy, Amazon KDP, Gumroad, tu propio sitio web o cualquier otra plataforma — sin regalías por venta, sin cuotas mensuales y sin límites de producción.',
     },
     {
       question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de preposiciones como descargas digitales en Etsy, como libros de actividades impresos en Amazon KDP, como recursos educativos en TPT o a través de cualquier otro canal de venta. El formato de imágenes y formas y la capacidad multilingüe te ofrecen una fuerte diferenciación en categorías de mercado competitivas.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de preposiciones como descargas digitales en Etsy, como libros de actividades impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. El formato de imágenes y formas y la capacidad multilingüe te ofrecen una fuerte diferenciación en categorías de mercado competitivas.',
     },
     {
       question: '¿Cuál es la política de reembolso?',
@@ -251,7 +251,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'educacion-en-casa-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles para educación en casa',
+      anchorText: 'Ideas de imprimibles para trabajo desde casa',
     },
   ],
 
@@ -264,12 +264,12 @@ const content: AppContent = {
       {
         src: '/samples/spanish/prepositions/Preposiciones 1.webp',
         alt: 'Ficha de preposiciones completar el hueco con tema de animales y formas geométricas',
-        caption: 'Modo Completar el Hueco — los alumnos completan las frases con la preposición correcta',
+        caption: 'Modo Completar el Hueco — los usuarios completan las frases con la preposición correcta',
       },
       {
         src: '/samples/spanish/prepositions/Preposiciones 2.webp',
         alt: 'Ficha de preposiciones opción múltiple con tema de vehículos mostrando descripciones espaciales',
-        caption: 'Modo Opción Múltiple — los alumnos identifican la imagen que corresponde a la descripción espacial',
+        caption: 'Modo Opción Múltiple — los usuarios identifican la imagen que corresponde a la descripción espacial',
       },
       {
         src: '/samples/spanish/prepositions/Preposiciones 3.webp',

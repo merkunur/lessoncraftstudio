@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'generatore schede treno sequenze ripetitive per venditori Etsy',
       'creatore schede treno dei modelli personalizzate per Amazon KDP',
-      'vendere schede riconoscimento pattern su Teachers Pay Teachers',
+      'vendere schede riconoscimento pattern su Gumroad',
       'generatore schede treno dei modelli licenza commerciale',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Generatore Schede Treno dei Modelli | Crea e Vendi',
     metaDescription:
-      'Crea schede treno dei modelli per Etsy, KDP e TPT. Cinque tipi di pattern, 11 vagoni tematici, indizi regolabili da 4 a 10. Prova gratuita con filigrana.',
+      'Crea schede treno dei modelli per Etsy, KDP e Gumroad. Cinque tipi di pattern, 11 vagoni tematici, indizi regolabili da 4 a 10. Prova gratuita con filigrana.',
   },
 
   hero: {
     title: 'Generatore di Schede Treno dei Modelli per Esercizi di Sequenze Ripetitive',
     tagline: 'Cinque tipi di pattern — AB, AAB, ABB, ABC, AABB — presentati in 11 vagoni tematici con numero di indizi regolabile da 4 a 10 per un controllo preciso della difficoltà.',
     description:
-      'Crea schede professionali di riconoscimento pattern dove gli studenti identificano e completano sequenze ripetitive presentate come immagini in un treno tematico con 11 vagoni. Cinque tipi di pattern distinti coprono tutti i livelli di complessità delle sequenze: AB alterna due elementi, AAB raggruppa due di uno seguito da uno dell\'altro, ABB inverte tale raggruppamento, ABC ruota tre elementi diversi, e AABB accoppia due di ciascuno prima di ripetere. La disposizione del treno organizza 11 vagoni in tre file (5 + 3 + 3), con ogni vagone contenente un\'immagine del pattern ripetitivo. Un vagone resta vuoto — gli studenti identificano il pattern e determinano l\'elemento mancante. Regola il numero di indizi da 4 a 10 per controllare la difficoltà: mostrare 10 indizi rende il pattern evidente, mentre mostrarne solo 4 richiede un vero ragionamento logico, poiché i primi 3 vagoni sono sempre rivelati. Il contenuto proviene dalla Libreria Immagini integrata con oltre 3100 illustrazioni in 104 temi. Una scheda risposte separata mostra tutti gli 11 vagoni completati con la sequenza corretta per la verifica istantanea. L\'Accesso Completo sblocca tutti i 104 temi e le 11 lingue dell\'interfaccia. Esporta PDF e JPEG pronti per la stampa in alta risoluzione nei formati Lettera, A4, Quadrato o dimensioni personalizzate. Ogni scheda è completamente visiva con solo immagini nei vagoni e zero testo nell\'output, rendendo i prodotti universalmente vendibili senza traduzione. Che tu crei pacchetti di riconoscimento pattern su Etsy, compili quaderni di apprendimento precoce per Amazon KDP o costruisca centri differenziati di matematica per TPT, il Generatore di Schede Treno dei Modelli produce prodotti unici in formato treno in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Crea schede professionali di riconoscimento pattern dove gli utenti identificano e completano sequenze ripetitive presentate come immagini in un treno tematico con 11 vagoni. Cinque tipi di pattern distinti coprono tutti i livelli di complessità delle sequenze: AB alterna due elementi, AAB raggruppa due di uno seguito da uno dell\'altro, ABB inverte tale raggruppamento, ABC ruota tre elementi diversi, e AABB accoppia due di ciascuno prima di ripetere. La disposizione del treno organizza 11 vagoni in tre file (5 + 3 + 3), con ogni vagone contenente un\'immagine del pattern ripetitivo. Un vagone resta vuoto — gli utenti identificano il pattern e determinano l\'elemento mancante. Regola il numero di indizi da 4 a 10 per controllare la difficoltà: mostrare 10 indizi rende il pattern evidente, mentre mostrarne solo 4 richiede un vero ragionamento logico, poiché i primi 3 vagoni sono sempre rivelati. Il contenuto proviene dalla Libreria Immagini integrata con oltre 3100 illustrazioni in 104 temi. Una scheda risposte separata mostra tutti gli 11 vagoni completati con la sequenza corretta per la verifica istantanea. L\'Accesso Completo sblocca tutti i 104 temi e le 11 lingue dell\'interfaccia. Esporta PDF e JPEG pronti per la stampa in alta risoluzione nei formati Lettera, A4, Quadrato o dimensioni personalizzate. Ogni scheda è completamente visiva con solo immagini nei vagoni e zero testo nell\'output, rendendo i prodotti universalmente vendibili senza traduzione. Che tu crei pacchetti di riconoscimento pattern su Etsy, compili quaderni di apprendimento precoce per Amazon KDP o costruisca centri differenziati di matematica per Gumroad, il Generatore di Schede Treno dei Modelli produce prodotti unici in formato treno in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {
@@ -42,7 +42,7 @@ const content: AppContent = {
       {
         title: 'Configura il numero di indizi e i campi nome/data',
         description:
-          'Imposta il numero di indizi visibili da 4 a 10 per controllare la difficoltà della scheda. I primi 3 vagoni sono sempre mostrati, e il vagone mancante viene posizionato dinamicamente tra le posizioni rimanenti. Mostrare 10 indizi lascia solo un vagone vuoto tra 10 visibili — il pattern è molto evidente, ideale per i principianti. Mostrare solo 4 indizi obbliga gli studenti a identificare il pattern con informazioni minime — una vera sfida di ragionamento. Attiva i campi opzionali nome e data ritagliabili per l\'identificazione degli studenti sulle schede stampate.',
+          'Imposta il numero di indizi visibili da 4 a 10 per controllare la difficoltà della scheda. I primi 3 vagoni sono sempre mostrati, e il vagone mancante viene posizionato dinamicamente tra le posizioni rimanenti. Mostrare 10 indizi lascia solo un vagone vuoto tra 10 visibili — il pattern è molto evidente, ideale per i principianti. Mostrare solo 4 indizi obbliga gli utenti a identificare il pattern con informazioni minime — una vera sfida di ragionamento. Attiva i campi opzionali nome e data ritagliabili per l\'identificazione degli utenti sulle schede stampate.',
       },
       {
         title: 'Seleziona le immagini e aggiungi decorazioni',
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Rivedi le risposte e scarica',
         description:
-          'Passa alla scheda Risposte per vedere il treno completo con tutti gli 11 vagoni riempiti — la posizione mancante ora mostra l\'elemento corretto del pattern. La scheda e le risposte sono modificabili in modo indipendente su canvas separati. Attiva l\'esportazione in scala di grigi per versioni economiche in inchiostro. Poi scarica ciascuno come JPEG ad alta risoluzione o PDF pronto per la stampa. Ogni esportazione è pronta per la produzione: inserzioni Etsy, interni Amazon KDP e file di prodotti TPT — la scheda e le risposte si scaricano come file separati per un pacchetto prodotto completo.',
+          'Passa alla scheda Risposte per vedere il treno completo con tutti gli 11 vagoni riempiti — la posizione mancante ora mostra l\'elemento corretto del pattern. La scheda e le risposte sono modificabili in modo indipendente su canvas separati. Attiva l\'esportazione in scala di grigi per versioni economiche in inchiostro. Poi scarica ciascuno come JPEG ad alta risoluzione o PDF pronto per la stampa. Ogni esportazione è pronta per la produzione: inserzioni Etsy, interni Amazon KDP e file di prodotti Gumroad — la scheda e le risposte si scaricano come file separati per un pacchetto prodotto completo.',
       },
     ],
   },
@@ -63,22 +63,22 @@ const content: AppContent = {
       {
         title: 'Formato visivo a vagoni con 11 vagoni tematici',
         description:
-          'I pattern vengono presentati in un treno tematico con 11 vagoni disposti in tre file (5 in alto, 3 centro-sinistra, 3 centro-destra). Ogni vagone contiene un\'immagine della sequenza ripetitiva, creando un formato visivamente accattivante che si distingue dalle schede di pattern a griglia standard. La disposizione a treno conferisce ai prodotti un aspetto distintivo nelle inserzioni delle piattaforme — gli acquirenti che navigano su Etsy o TPT vedono immediatamente qualcosa di diverso dai tipici esercizi in righe e colonne. L\'illustrazione tematica del treno aggiunge valore di produzione che giustifica prezzi premium.',
+          'I pattern vengono presentati in un treno tematico con 11 vagoni disposti in tre file (5 in alto, 3 centro-sinistra, 3 centro-destra). Ogni vagone contiene un\'immagine della sequenza ripetitiva, creando un formato visivamente accattivante che si distingue dalle schede di pattern a griglia standard. La disposizione a treno conferisce ai prodotti un aspetto distintivo nelle inserzioni delle piattaforme — gli acquirenti che navigano su Etsy o Gumroad vedono immediatamente qualcosa di diverso dai tipici esercizi in righe e colonne. L\'illustrazione tematica del treno aggiunge valore di produzione che giustifica prezzi premium.',
       },
       {
         title: 'Cinque tipi di pattern ripetitivi per difficoltà progressiva',
         description:
-          'Cinque tipi di pattern coprono l\'intero spettro di complessità delle sequenze ripetitive. AB alterna due elementi nel pattern più semplice possibile. AAB e ABB introducono raggruppamenti asimmetrici dove un elemento appare due volte prima o dopo l\'altro. ABC ruota tre elementi diversi, obbligando gli studenti a seguire un\'unità di ripetizione più lunga. AABB accoppia due di ciascun elemento in un ciclo esteso. Questa progressione crea una scala di difficoltà naturale dall\'alternanza semplice nella scuola dell\'infanzia alle sequenze avanzate con più elementi — offrendo ai venditori un asse di differenziazione integrato per pacchetti di prodotti per livelli.',
+          'Cinque tipi di pattern coprono l\'intero spettro di complessità delle sequenze ripetitive. AB alterna due elementi nel pattern più semplice possibile. AAB e ABB introducono raggruppamenti asimmetrici dove un elemento appare due volte prima o dopo l\'altro. ABC ruota tre elementi diversi, obbligando gli utenti a seguire un\'unità di ripetizione più lunga. AABB accoppia due di ciascun elemento in un ciclo esteso. Questa progressione crea una scala di difficoltà naturale dall\'alternanza semplice nella scuola dell\'infanzia alle sequenze avanzate con più elementi — offrendo ai venditori un asse di differenziazione integrato per pacchetti di prodotti per livelli.',
       },
       {
         title: 'Numero di indizi regolabile da 4 a 10 per il controllo della difficoltà',
         description:
-          'Il controllo del numero di indizi determina quante delle 11 posizioni dei vagoni mostrano immagini rispetto all\'unica posizione vuota. I primi 3 vagoni sono sempre rivelati, stabilendo la base del pattern. Con 10 indizi, solo un vagone è vuoto tra 10 elementi visibili — il pattern è molto evidente. Con 4 indizi, gli studenti vedono informazioni minime e devono ragionare attentamente per identificare la sequenza da dati limitati. Questa singola impostazione crea un\'ampia gamma di difficoltà da ogni tipo di pattern, moltiplicando efficacemente la varietà dei tuoi prodotti: un pattern AB con 10 indizi è ideale per i principianti, mentre un pattern ABC con 4 indizi sfida gli studenti avanzati.',
+          'Il controllo del numero di indizi determina quante delle 11 posizioni dei vagoni mostrano immagini rispetto all\'unica posizione vuota. I primi 3 vagoni sono sempre rivelati, stabilendo la base del pattern. Con 10 indizi, solo un vagone è vuoto tra 10 elementi visibili — il pattern è molto evidente. Con 4 indizi, gli utenti vedono informazioni minime e devono ragionare attentamente per identificare la sequenza da dati limitati. Questa singola impostazione crea un\'ampia gamma di difficoltà da ogni tipo di pattern, moltiplicando efficacemente la varietà dei tuoi prodotti: un pattern AB con 10 indizi è ideale per i principianti, mentre un pattern ABC con 4 indizi sfida gli utenti avanzati.',
       },
       {
         title: 'Posizione del vagone mancante dinamica con posizionamento intelligente',
         description:
-          'La posizione del vagone vuoto viene selezionata dinamicamente tra le posizioni 3 e 10 in base al numero di indizi configurato, garantendo che l\'elemento mancante cada sempre nella sezione ripetitiva del pattern e non nell\'inizio ovvio. Le prime 3 posizioni sono sempre riempite per stabilire visivamente il pattern prima di presentare la sfida. Questo posizionamento intelligente crea puzzle equi e risolvibili ogni volta — gli studenti hanno contesto sufficiente per identificare il pattern prima di incontrare il vagone vuoto. Il posizionamento dinamico significa anche che due schede con lo stesso tipo di pattern possono avere posizioni diverse del vagone mancante, aggiungendo varietà naturale ai pacchetti di prodotti.',
+          'La posizione del vagone vuoto viene selezionata dinamicamente tra le posizioni 3 e 10 in base al numero di indizi configurato, garantendo che l\'elemento mancante cada sempre nella sezione ripetitiva del pattern e non nell\'inizio ovvio. Le prime 3 posizioni sono sempre riempite per stabilire visivamente il pattern prima di presentare la sfida. Questo posizionamento intelligente crea puzzle equi e risolvibili ogni volta — gli utenti hanno contesto sufficiente per identificare il pattern prima di incontrare il vagone vuoto. Il posizionamento dinamico significa anche che due schede con lo stesso tipo di pattern possono avere posizioni diverse del vagone mancante, aggiungendo varietà naturale ai pacchetti di prodotti.',
       },
       {
         title: 'Libreria Immagini con 104 collezioni tematiche',
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Sistema a doppio canvas con scheda risposte separata',
         description:
-          'La scheda e le risposte risiedono su canvas separati e modificabili in modo indipendente, accessibili tramite schede. La scheda mostra il treno con un vagone vuoto; le risposte mostrano tutti gli 11 vagoni riempiti con la sequenza corretta del pattern. Ogni canvas consente la modifica completa — aggiungi testo, regola la disposizione, riposiziona gli elementi — così puoi personalizzare sia la scheda dello studente che le risposte dell\'insegnante in modo indipendente. Entrambi si scaricano come file separati, offrendo agli acquirenti un pacchetto prodotto completo. Includere le risposte verificate aumenta il valore percepito ed è ciò che gli acquirenti si aspettano su Etsy, TPT e KDP.',
+          'La scheda e le risposte risiedono su canvas separati e modificabili in modo indipendente, accessibili tramite schede. La scheda mostra il treno con un vagone vuoto; le risposte mostrano tutti gli 11 vagoni riempiti con la sequenza corretta del pattern. Ogni canvas consente la modifica completa — aggiungi testo, regola la disposizione, riposiziona gli elementi — così puoi personalizzare sia la scheda dell'utente che le risposte dell\'venditore in modo indipendente. Entrambi si scaricano come file separati, offrendo agli acquirenti un pacchetto prodotto completo. Includere le risposte verificate aumenta il valore percepito ed è ciò che gli acquirenti si aspettano su Etsy, Gumroad e KDP.',
       },
       {
         title: 'Esportazione PDF e JPEG pronta per la stampa in alta risoluzione',
         description:
-          'Scarica schede e risposte come immagini JPEG ad alta risoluzione o documenti PDF pronti per la stampa renderizzati con un moltiplicatore 6x per un output nitido e dettagliato. I formati Lettera Verticale, Lettera Orizzontale, A4 Verticale, A4 Orizzontale, Quadrato (1200×1200) e dimensioni personalizzate sono tutti supportati. Attiva l\'esportazione in scala di grigi per versioni economiche in inchiostro, ideali per la stampa in classe o quaderni in bianco e nero. Ogni esportazione è pronta per la produzione: inserzioni Etsy, interni Amazon KDP e file di prodotti TPT — senza necessità di post-elaborazione.',
+          'Scarica schede e risposte come immagini JPEG ad alta risoluzione o documenti PDF pronti per la stampa renderizzati con un moltiplicatore 6x per un output nitido e dettagliato. I formati Lettera Verticale, Lettera Orizzontale, A4 Verticale, A4 Orizzontale, Quadrato (1200×1200) e dimensioni personalizzate sono tutti supportati. Attiva l\'esportazione in scala di grigi per versioni economiche in inchiostro, ideali per la stampa in volume o quaderni in bianco e nero. Ogni esportazione è pronta per la produzione: inserzioni Etsy, interni Amazon KDP e file di prodotti Gumroad — senza necessità di post-elaborazione.',
       },
       {
         title: 'Modifica completa del canvas con strumenti testo e decorazione',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centri differenziati di matematica e riconoscimento visivo per TPT',
+        title: 'Centri differenziati di matematica e riconoscimento visivo per Gumroad',
         description:
-          'Costruisci set di pratica di riconoscimento pattern per livelli usando la complessità del pattern come asse di differenziazione: Livello 1 (pattern AB, 8–10 indizi), Livello 2 (pattern AAB/ABB, 6–8 indizi), Livello 3 (pattern ABC, 5–6 indizi) e Livello 4 (pattern AABB, 4–5 indizi). Ogni livello si concentra su un\'esigenza cognitiva diversa — dal riconoscere l\'alternanza semplice all\'identificare sequenze complesse con più elementi da informazioni limitate. Il formato a vagoni crea un tema visivo accattivante che funziona come attività di centro in classe. Accompagna ogni livello con esercizi tematici e risposte separate per la comodità dell\'insegnante.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Costruisci set di pratica di riconoscimento pattern per livelli usando la complessità del pattern come asse di differenziazione: Livello 1 (pattern AB, 8–10 indizi), Livello 2 (pattern AAB/ABB, 6–8 indizi), Livello 3 (pattern ABC, 5–6 indizi) e Livello 4 (pattern AABB, 4–5 indizi). Ogni livello si concentra su un\'esigenza cognitiva diversa — dal riconoscere l\'alternanza semplice all\'identificare sequenze complesse con più elementi da informazioni limitate. Il formato a vagoni crea un tema visivo accattivante che funziona come attività di centro online. Accompagna ogni livello con esercizi tematici e risposte separate per la comodità dell\'venditore.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Schede visive multilingue per i mercati globali',
         description:
           'Poiché le schede Treno dei Modelli contengono solo immagini nei vagoni con zero testo nell\'output, lo stesso prodotto funziona in tutte le lingue senza modifiche. Crea un set di esercizi di treni di pattern e vendilo in tutto il mondo — nessuna traduzione necessaria, nessuna versione linguistica separata da mantenere. Cambiare la lingua del contenuto influisce solo sulle etichette della libreria immagini nel generatore, non sulla scheda stampata. Pubblica prodotti identici nei negozi Etsy rivolti a diversi paesi, o pubblica lo stesso interno KDP in tutti i mercati internazionali di Amazon. Un singolo flusso di lavoro produce un prodotto universalmente vendibile.',
-        platform: 'Etsy / Amazon KDP / TPT (globale)',
+        platform: 'Etsy / Amazon KDP / Gumroad (globale)',
       },
       {
-        title: 'Strumento per concetti di pattern in classe e ripetizioni',
+        title: 'Strumento per concetti di pattern online e ripetizioni',
         description:
-          'Carica immagini personalizzate per creare schede treno dei modelli adattate a qualsiasi materia o unità — usa fasi di crescita delle piante per una lezione di scienze, immagini di manufatti storici per storia, o simboli di note musicali per una lezione di musica. I cinque tipi di pattern ti permettono di adattare l\'esercizio all\'obiettivo di apprendimento: AB per l\'introduzione, ABC e AABB per la valutazione. Regola il numero di indizi in base al livello di ogni studente — più indizi per chi ha difficoltà, meno per gli avanzati. Stampa serie personalizzate in pochi minuti per piccoli gruppi o classi intere. La scheda risposte separata fa risparmiare tempo di correzione, e il formato visivo a treno coinvolge gli studenti che trovano monotone le schede a griglia.',
-        platform: 'Classe / Ripetizioni / Istruzione domiciliare',
+          'Carica immagini personalizzate per creare schede treno dei modelli adattate a qualsiasi materia o unità — usa fasi di crescita delle piante per una lezione di scienze, immagini di manufatti storici per storia, o simboli di note musicali per una lezione di musica. I cinque tipi di pattern ti permettono di adattare l\'esercizio all\'obiettivo di apprendimento: AB per l\'introduzione, ABC e AABB per la valutazione. Regola il numero di indizi in base al livello di ogni utente — più indizi per chi ha difficoltà, meno per gli avanzati. Stampa serie personalizzate in pochi minuti per piccoli gruppi o negozi intere. La scheda risposte separata fa risparmiare valore percepito, e il formato visivo a treno coinvolge gli utenti che trovano monotone le schede a griglia.',
+        platform: 'Vendita Online / Marketplace / Uso Personale',
       },
     ],
   },
@@ -143,12 +143,12 @@ const content: AppContent = {
     {
       question: 'Quali sono i cinque tipi di pattern e come si differenziano?',
       answer:
-        'AB alterna due elementi (A-B-A-B) per il pattern ripetitivo più semplice. AAB raggruppa due di un elemento seguito da uno dell\'altro (A-A-B-A-A-B). ABB inverte tale raggruppamento (A-B-B-A-B-B). ABC ruota tre elementi diversi (A-B-C-A-B-C), obbligando gli studenti a seguire un\'unità di ripetizione più lunga. AABB accoppia due di ciascun elemento (A-A-B-B-A-A-B-B) in un ciclo esteso. La progressione da AB a AABB crea una scala di difficoltà naturale dall\'alternanza semplice di due elementi alle sequenze complesse con più elementi.',
+        'AB alterna due elementi (A-B-A-B) per il pattern ripetitivo più semplice. AAB raggruppa due di un elemento seguito da uno dell\'altro (A-A-B-A-A-B). ABB inverte tale raggruppamento (A-B-B-A-B-B). ABC ruota tre elementi diversi (A-B-C-A-B-C), obbligando gli utenti a seguire un\'unità di ripetizione più lunga. AABB accoppia due di ciascun elemento (A-A-B-B-A-A-B-B) in un ciclo esteso. La progressione da AB a AABB crea una scala di difficoltà naturale dall\'alternanza semplice di due elementi alle sequenze complesse con più elementi.',
     },
     {
       question: 'Come controlla la difficoltà il numero di indizi?',
       answer:
-        'Il numero di indizi determina quanti degli 11 vagoni del treno mostrano immagini. I primi 3 vagoni sono sempre visibili per stabilire il pattern. Con 10 indizi, solo un vagone è vuoto tra 10 riempiti — il pattern è molto evidente. Con 4 indizi, gli studenti vedono informazioni minime e devono ragionare attentamente per identificare la sequenza. Questa singola impostazione trasforma qualsiasi tipo di pattern da un esercizio semplice in una vera sfida di ragionamento, moltiplicando efficacemente la varietà di prodotti da ogni tipo di pattern.',
+        'Il numero di indizi determina quanti degli 11 vagoni del treno mostrano immagini. I primi 3 vagoni sono sempre visibili per stabilire il pattern. Con 10 indizi, solo un vagone è vuoto tra 10 riempiti — il pattern è molto evidente. Con 4 indizi, gli utenti vedono informazioni minime e devono ragionare attentamente per identificare la sequenza. Questa singola impostazione trasforma qualsiasi tipo di pattern da un esercizio semplice in una vera sfida di ragionamento, moltiplicando efficacemente la varietà di prodotti da ogni tipo di pattern.',
     },
     {
       question: 'Come sono disposti gli 11 vagoni del treno sulla pagina?',
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: 'Come viene determinata la posizione del vagone mancante?',
       answer:
-        'Il vagone vuoto viene posizionato dinamicamente tra le posizioni 3 e 10 in base al numero di indizi configurato. Le prime 3 posizioni sono sempre riempite affinché gli studenti vedano abbastanza del pattern prima di incontrare il vagone vuoto. Questo posizionamento intelligente garantisce che ogni puzzle sia equo e risolvibile. Due schede con lo stesso tipo di pattern possono avere posizioni diverse del vagone mancante, aggiungendo varietà naturale ai pacchetti di prodotti.',
+        'Il vagone vuoto viene posizionato dinamicamente tra le posizioni 3 e 10 in base al numero di indizi configurato. Le prime 3 posizioni sono sempre riempite affinché gli utenti vedano abbastanza del pattern prima di incontrare il vagone vuoto. Questo posizionamento intelligente garantisce che ogni puzzle sia equo e risolvibile. Due schede con lo stesso tipo di pattern possono avere posizioni diverse del vagone mancante, aggiungendo varietà naturale ai pacchetti di prodotti.',
     },
     {
       question: 'Come seleziono le immagini per i vagoni del treno?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Posso vendere schede create con questo strumento su Etsy e Amazon KDP?',
       answer:
-        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede treno dei modelli come download digitali su Etsy, come quaderni stampati su Amazon KDP, come risorse educative su TPT o attraverso qualsiasi altro canale di vendita. I cinque tipi di pattern, il numero di indizi regolabile e il formato unico a vagoni ti offrono una forte differenziazione e vendibilità globale nelle categorie delle piattaforme di vendita.',
+        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede treno dei modelli come download digitali su Etsy, come quaderni stampati su Amazon KDP, come risorse educative su Gumroad o attraverso qualsiasi altro canale di vendita. I cinque tipi di pattern, il numero di indizi regolabile e il formato unico a vagoni ti offrono una forte differenziazione e vendibilità globale nelle categorie delle piattaforme di vendita.',
     },
     {
       question: 'Qual è la politica di rimborso?',
@@ -269,7 +269,7 @@ const content: AppContent = {
       {
         src: '/samples/italian/pattern train/Treno dei Modelli 2.webp',
         alt: 'Scheda treno dei modelli in modalità pattern AB alternante con immagini di animali in 11 vagoni tematici',
-        caption: 'Pattern AB con tema animali — gli studenti identificano la sequenza alternante e completano il vagone mancante',
+        caption: 'Pattern AB con tema animali — gli utenti identificano la sequenza alternante e completano il vagone mancante',
       },
       {
         src: '/samples/italian/pattern train/Treno dei Modelli 3.webp',
@@ -279,7 +279,7 @@ const content: AppContent = {
       {
         src: '/samples/italian/pattern train/Treno dei Modelli 4.webp',
         alt: 'Scheda risposte del treno dei modelli che mostra tutti gli 11 vagoni riempiti con la sequenza corretta del pattern',
-        caption: 'Vista risposte — tutti gli 11 vagoni riempiti con il pattern corretto per la verifica dell\'insegnante',
+        caption: 'Vista risposte — tutti gli 11 vagoni riempiti con il pattern corretto per la verifica dell\'venditore',
       },
     ],
     youtubeId: '5A4aHvcC5u4',

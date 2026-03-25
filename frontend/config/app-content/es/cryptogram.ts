@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'fichas de criptograma con imágenes imprimibles para vendedores Etsy',
       'generador de puzzles de criptograma cifrado para Amazon KDP',
-      'vender fichas de criptograma en Teachers Pay Teachers',
+      'vender fichas de criptograma en Gumroad',
       'fichas de criptograma con leyenda de letras licencia comercial',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Generador Fichas Criptograma | Crear y Vender',
     metaDescription:
-      'Crea fichas de criptograma para Etsy, KDP y TPT. Cifrado por imágenes, Letras a Revelar 0–10, 104 temas, clave automática. Prueba gratis con marca de agua.',
+      'Crea fichas de criptograma para Etsy, KDP y Gumroad. Cifrado por imágenes, Letras a Revelar 0–10, 104 temas, clave automática. Prueba gratis con marca de agua.',
   },
 
   hero: {
     title: 'Generador de Fichas de Criptograma para Puzzles de Cifrado por Imágenes',
     tagline: 'Asocia cada letra del alfabeto a una imagen y codifica frases enteras en puzzles visuales cifrados — dificultad ajustable desde cero pistas hasta altamente guiado con Letras a Revelar.',
     description:
-      'Convierte cualquier frase u oración en un puzzle de criptograma con imágenes donde cada letra del alfabeto es reemplazada por una imagen, y los alumnos descifran el código deduciendo qué imagen representa qué letra. Cada puzzle codifica un mensaje completo y legible — no solo una palabra aislada — ofreciendo a los resolvedores la satisfacción de revelar una oración entera mediante el reconocimiento de patrones y la deducción. El control Letras a Revelar (0–10) determina cuántas correspondencias letra-imagen están pre-resueltas como pistas, creando un gradiente de dificultad progresivo que va desde desafíos expertos sin pistas hasta puzzles altamente guiados para principiantes. La Asignación Automática extrae imágenes aleatorias de cualquiera de las 104 colecciones temáticas (más de 3100 ilustraciones) para completar las letras no asignadas al instante, o usa la Asignación Manual para seleccionar a mano imágenes específicas para letras específicas con una vista previa visual completa de todas las correspondencias. La clave de respuesta incluye una leyenda de letras completa que muestra cada letra del alfabeto emparejada con su imagen asignada en orden alfabético — la referencia definitiva para verificar las soluciones. El Acceso Completo desbloquea los 11 idiomas soportados donde tanto el texto del mensaje secreto COMO el conjunto de letras del alfabeto cambian según el idioma: los criptogramas en alemán codifican frases alemanas con ä, ö, ü, ß en el alfabeto; los criptogramas en francés codifican frases francesas con é, è, ç, à; los criptogramas en español codifican frases españolas con ñ, á, é, í, ó, ú — cada versión lingüística es un producto de cifrado verdaderamente diferente. Exporta PDF listos para imprimir y JPEG a más de 400 DPI en formato Carta, A4 o dimensiones personalizadas. Ya sea que vendas paquetes de puzzles cifrados temáticos en Etsy, compiles libros de criptogramas para Amazon KDP o crees centros de descifrado diferenciados para TPT, el Generador de Fichas de Criptograma produce resultados profesionales en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Convierte cualquier frase u oración en un puzzle de criptograma con imágenes donde cada letra del alfabeto es reemplazada por una imagen, y los usuarios descifran el código deduciendo qué imagen representa qué letra. Cada puzzle codifica un mensaje completo y legible — no solo una palabra aislada — ofreciendo a los resolvedores la satisfacción de revelar una oración entera mediante el reconocimiento de patrones y la deducción. El control Letras a Revelar (0–10) determina cuántas correspondencias letra-imagen están pre-resueltas como pistas, creando un gradiente de dificultad progresivo que va desde desafíos expertos sin pistas hasta puzzles altamente guiados para principiantes. La Asignación Automática extrae imágenes aleatorias de cualquiera de las 104 colecciones temáticas (más de 3100 ilustraciones) para completar las letras no asignadas al instante, o usa la Asignación Manual para seleccionar a mano imágenes específicas para letras específicas con una vista previa visual completa de todas las correspondencias. La clave de respuesta incluye una leyenda de letras completa que muestra cada letra del alfabeto emparejada con su imagen asignada en orden alfabético — la referencia definitiva para verificar las soluciones. El Acceso Completo desbloquea los 11 idiomas soportados donde tanto el texto del mensaje secreto COMO el conjunto de letras del alfabeto cambian según el idioma: los criptogramas en alemán codifican frases alemanas con ä, ö, ü, ß en el alfabeto; los criptogramas en francés codifican frases francesas con é, è, ç, à; los criptogramas en español codifican frases españolas con ñ, á, é, í, ó, ú — cada versión lingüística es un producto de cifrado verdaderamente diferente. Exporta PDF listos para imprimir y JPEG a más de 400 DPI en formato Carta, A4 o dimensiones personalizadas. Ya sea que vendas paquetes de puzzles cifrados temáticos en Etsy, compiles libros de criptogramas para Amazon KDP o crees centros de descifrado diferenciados para Gumroad, el Generador de Fichas de Criptograma produce resultados profesionales en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Introduce la frase secreta y selecciona el idioma',
         description:
-          'Escribe la frase u oración que quieres que los alumnos decodifiquen. Este es el mensaje secreto que será codificado como un cifrado por imágenes. Selecciona el idioma de destino — el texto de la frase debe coincidir con el idioma elegido, ya que los alumnos lo decodificarán en palabras legibles. El conjunto de letras del alfabeto se ajusta automáticamente según el idioma: el inglés usa 26 letras, el alemán incluye ä, ö, ü, ß, el francés incluye caracteres acentuados y el español incluye ñ, á, é, í, ó, ú. Cada letra de tu frase será asociada a una imagen en el cifrado.',
+          'Escribe la frase u oración que quieres que los usuarios decodifiquen. Este es el mensaje secreto que será codificado como un cifrado por imágenes. Selecciona el idioma de destino — el texto de la frase debe coincidir con el idioma elegido, ya que los usuarios lo decodificarán en palabras legibles. El conjunto de letras del alfabeto se ajusta automáticamente según el idioma: el inglés usa 26 letras, el alemán incluye ä, ö, ü, ß, el francés incluye caracteres acentuados y el español incluye ñ, á, é, í, ó, ú. Cada letra de tu frase será asociada a una imagen en el cifrado.',
       },
       {
         title: 'Asigna imágenes a las letras',
@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Ajusta la dificultad con Letras a Revelar y añade texto personalizado',
         description:
-          'Ajusta el control Letras a Revelar de 0 a 10 para determinar cuántas correspondencias letra-imagen están pre-resueltas como pistas en la ficha. Cero revelaciones crea un desafío de descifrado puro; diez revelaciones proporcionan un andamiaje intenso para principiantes. Añade un título de ficha, campos de nombre y fecha del alumno, instrucciones o cualquier texto personalizado con cinco fuentes: Lexend Deca, Baloo 2, Nunito, Quicksand y Fredoka. Usa el lienzo Fabric.js completo para arrastrar, redimensionar, rotar y reposicionar cada elemento.',
+          'Ajusta el control Letras a Revelar de 0 a 10 para determinar cuántas correspondencias letra-imagen están pre-resueltas como pistas en la ficha. Cero revelaciones crea un desafío de descifrado puro; diez revelaciones proporcionan un andamiaje intenso para principiantes. Añade un título de ficha, campos de nombre y fecha, instrucciones o cualquier texto personalizado con cinco fuentes: Lexend Deca, Baloo 2, Nunito, Quicksand y Fredoka. Usa el lienzo Fabric.js completo para arrastrar, redimensionar, rotar y reposicionar cada elemento.',
       },
       {
         title: 'Genera la leyenda de letras de la clave de respuesta y descarga',
@@ -63,17 +63,17 @@ const content: AppContent = {
       {
         title: 'Cifrado por imágenes con correspondencia imagen-letra',
         description:
-          'Cada letra del alfabeto se asocia a una imagen única, y la frase secreta se muestra como una secuencia de imágenes que reemplazan cada letra. Los alumnos identifican cada imagen, deducen qué letra representa y reconstruyen el texto original — un desafío fundamentalmente diferente de los puzzles de búsqueda de palabras o reordenamiento de letras. El cifrado imagen-letra estimula la deducción, el reconocimiento de patrones y el razonamiento contextual mientras los alumnos construyen una clave de descifrado mental, una correspondencia a la vez. Esta mecánica de descifrado crea puzzles con verdaderos momentos de revelación cuando cada letra decodificada desbloquea múltiples palabras simultáneamente.',
+          'Cada letra del alfabeto se asocia a una imagen única, y la frase secreta se muestra como una secuencia de imágenes que reemplazan cada letra. Los usuarios identifican cada imagen, deducen qué letra representa y reconstruyen el texto original — un desafío fundamentalmente diferente de los puzzles de búsqueda de palabras o reordenamiento de letras. El cifrado imagen-letra estimula la deducción, el reconocimiento de patrones y el razonamiento contextual mientras los usuarios construyen una clave de descifrado mental, una correspondencia a la vez. Esta mecánica de descifrado crea puzzles con verdaderos momentos de revelación cuando cada letra decodificada desbloquea múltiples palabras simultáneamente.',
       },
       {
         title: 'Codificación a nivel de frase para el descifrado de mensajes completos',
         description:
-          'A diferencia de los puzzles que codifican palabras individuales, el Generador de Criptograma codifica frases y oraciones enteras. Los alumnos decodifican un mensaje completo y legible — una cita motivadora, una oración de vocabulario, un dato curioso o una instrucción personalizada — obteniendo la satisfacción de revelar un contenido significativo en lugar de palabras aisladas. La codificación a nivel de frase también proporciona pistas contextuales: las palabras cortas comunes como «el», «y» y «es» ayudan a los resolvedores a descifrar el código más rápido, creando un efecto de andamiaje natural que recompensa la intuición lingüística.',
+          'A diferencia de los puzzles que codifican palabras individuales, el Generador de Criptograma codifica frases y oraciones enteras. Los usuarios decodifican un mensaje completo y legible — una cita motivadora, una oración de vocabulario, un dato curioso o una instrucción personalizada — obteniendo la satisfacción de revelar un contenido significativo en lugar de palabras aisladas. La codificación a nivel de frase también proporciona pistas contextuales: las palabras cortas comunes como «el», «y» y «es» ayudan a los resolvedores a descifrar el código más rápido, creando un efecto de andamiaje natural que recompensa la intuición lingüística.',
       },
       {
         title: 'Dificultad ajustable con Letras a Revelar (0–10)',
         description:
-          'El control Letras a Revelar determina cuántas correspondencias letra-imagen están pre-resueltas como pistas en la ficha. En cero, los alumnos enfrentan un desafío de descifrado puro sin información de partida. En diez, una porción significativa del cifrado ya está decodificada, proporcionando un andamiaje intenso para resolvedores más jóvenes o menos experimentados. Este único control crea un gradiente de dificultad progresivo que hace los puzzles de criptograma accesibles a una amplia gama de niveles de capacidad — y también sirve como un eje de diferenciación potente para paquetes de productos.',
+          'El control Letras a Revelar determina cuántas correspondencias letra-imagen están pre-resueltas como pistas en la ficha. En cero, los usuarios enfrentan un desafío de descifrado puro sin información de partida. En diez, una porción significativa del cifrado ya está decodificada, proporcionando un andamiaje intenso para resolvedores más jóvenes o menos experimentados. Este único control crea un gradiente de dificultad progresivo que hace los puzzles de criptograma accesibles a una amplia gama de niveles de capacidad — y también sirve como un eje de diferenciación potente para paquetes de productos.',
       },
       {
         title: 'Asignación Automática de imágenes desde 104 colecciones temáticas',
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Leyenda de letras completa en la clave de respuesta',
         description:
-          'La clave de respuesta incluye una leyenda de letras única que muestra cada letra del alfabeto emparejada con su imagen asignada en orden alfabético. Es la referencia definitiva para verificar las soluciones — los alumnos (o los profesores) pueden buscar cualquier imagen para confirmar qué letra representa. El formato de leyenda de letras es exclusivo del Generador de Criptograma y proporciona una referencia de respuesta más clara y completa que simplemente mostrar el texto de la frase decodificada solo.',
+          'La clave de respuesta incluye una leyenda de letras única que muestra cada letra del alfabeto emparejada con su imagen asignada en orden alfabético. Es la referencia definitiva para verificar las soluciones — los usuarios (o los vendedores) pueden buscar cualquier imagen para confirmar qué letra representa. El formato de leyenda de letras es exclusivo del Generador de Criptograma y proporciona una referencia de respuesta más clara y completa que simplemente mostrar el texto de la frase decodificada solo.',
       },
       {
         title: 'Exportación PDF y JPEG lista para imprimir a alta resolución',
         description:
-          'Descarga fichas y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir. El motor de exportación usa un multiplicador DPI 6x, produciendo más de 400 DPI en tamaños de página estándar. Los formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal y dimensiones personalizadas están todos soportados. Activa la exportación en escala de grises para versiones económicas en tinta ideales para impresión en el aula o libros de puzzles en blanco y negro. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos TPT.',
+          'Descarga fichas y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir. El motor de exportación usa un multiplicador DPI 6x, produciendo más de 400 DPI en tamaños de página estándar. Los formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal y dimensiones personalizadas están todos soportados. Activa la exportación en escala de grises para versiones económicas en tinta ideales para impresión en volumen o libros de puzzles en blanco y negro. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad.',
       },
       {
         title: 'Edición completa del lienzo con herramientas de texto e imagen',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de descifrado diferenciados para TPT',
+        title: 'Centros de descifrado diferenciados para Gumroad',
         description:
-          'Construye conjuntos de práctica de criptograma por niveles usando Letras a Revelar como eje de diferenciación: Nivel 1 (8 revelaciones, frases cortas, imágenes temáticas), Nivel 2 (5 revelaciones, frases medianas), Nivel 3 (2 revelaciones, oraciones más largas) y Nivel 4 (0 revelaciones, desafío de descifrado completo). Acompaña cada nivel con leyendas de letras de claves de respuesta y una hoja de seguimiento del progreso del alumno. La mecánica del cifrado es intrínsecamente motivadora — los alumnos experimentan una verdadera emoción de descifrado cuando cada letra decodificada desbloquea más del mensaje. Los compradores de Teachers Pay Teachers pagan precios premium por recursos de lectoescritura diferenciados que pueden desplegar inmediatamente en múltiples niveles de capacidad.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Construye conjuntos de práctica de criptograma por niveles usando Letras a Revelar como eje de diferenciación: Nivel 1 (8 revelaciones, frases cortas, imágenes temáticas), Nivel 2 (5 revelaciones, frases medianas), Nivel 3 (2 revelaciones, oraciones más largas) y Nivel 4 (0 revelaciones, desafío de descifrado completo). Acompaña cada nivel con leyendas de letras de claves de respuesta y una hoja de seguimiento del progreso del usuario. La mecánica del cifrado es intrínsecamente motivadora — los usuarios experimentan una verdadera emoción de descifrado cuando cada letra decodificada desbloquea más del mensaje. Los compradores de Gumroad pagan precios premium por recursos de lectoescritura diferenciados que pueden desplegar inmediatamente en múltiples niveles de capacidad.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Productos de criptograma multilingües con Acceso Completo',
         description:
           'El Acceso Completo desbloquea los 11 idiomas, y como el Criptograma es sensible al idioma, tanto el texto del mensaje secreto COMO el conjunto de letras del alfabeto cambian según el idioma. Una frase en inglés se convierte en una frase en alemán codificada con un alfabeto que incluye ä, ö, ü, ß; una frase en francés usa un alfabeto con é, è, ç, à; una frase en español usa un alfabeto con ñ, á, é, í, ó, ú. Cada versión lingüística produce un puzzle cifrado verdaderamente diferente con palabras diferentes, correspondencias de letras diferentes y una experiencia de resolución diferente. Crea series temáticas idénticas en múltiples idiomas y lista cada una como un producto de Etsy o un libro de KDP separado — once flujos de ingresos desde un solo flujo de trabajo.',
-        platform: 'Etsy / Amazon KDP / TPT (multilingüe)',
+        platform: 'Etsy / Amazon KDP / Gumroad (multilingüe)',
       },
       {
-        title: 'Herramienta de vocabulario para el aula y tutoría',
+        title: 'Herramienta de vocabulario para venta en línea y tutoría',
         description:
-          'Codifica oraciones de vocabulario personalizadas, frases de repaso de ortografía o definiciones específicas de una asignatura como puzzles de criptograma. Escribe cualquier frase como mensaje secreto — «La mitocondria es la central energética de la célula» para biología, «La Declaración de Independencia se firmó en 1776» para historia, o las palabras del dictado semanal organizadas en una oración. Ajusta las Letras a Revelar según el nivel de capacidad de cada alumno para una diferenciación instantánea. El formato de descifrado transforma el repaso de vocabulario memorístico en una actividad de puzzle motivadora, y la leyenda de letras de la clave de respuesta ahorra tiempo de corrección.',
-        platform: 'Aula / Tutoría / Educación en casa',
+          'Codifica oraciones de vocabulario personalizadas, frases de repaso de ortografía o definiciones específicas de una asignatura como puzzles de criptograma. Escribe cualquier frase como mensaje secreto — «La mitocondria es la central energética de la célula» para biología, «La Declaración de Independencia se firmó en 1776» para historia, o las palabras del dictado semanal organizadas en una oración. Ajusta las Letras a Revelar según el nivel de capacidad de cada usuario para una diferenciación instantánea. El formato de descifrado transforma el repaso de vocabulario memorístico en una actividad de puzzle motivadora, y la leyenda de letras de la clave de respuesta ahorra valor percibido.',
+        platform: 'Tienda / Tutoría / Educación en casa',
       },
     ],
   },
@@ -143,12 +143,12 @@ const content: AppContent = {
     {
       question: '¿Cómo funciona el cifrado de criptograma por imágenes?',
       answer:
-        'Cada letra del alfabeto se asigna a una imagen única. Tu frase secreta se muestra entonces como una secuencia de imágenes que reemplazan cada letra. Los alumnos observan cada imagen, determinan qué letra representa y escriben la letra para reconstruir el mensaje original. Los espacios y la puntuación se conservan tal cual, para que los alumnos vean los límites entre palabras. El desafío consiste en construir la correspondencia completa imagen-letra mediante la deducción y el reconocimiento de patrones.',
+        'Cada letra del alfabeto se asigna a una imagen única. Tu frase secreta se muestra entonces como una secuencia de imágenes que reemplazan cada letra. Los usuarios observan cada imagen, determinan qué letra representa y escriben la letra para reconstruir el mensaje original. Los espacios y la puntuación se conservan tal cual, para que los usuarios vean los límites entre palabras. El desafío consiste en construir la correspondencia completa imagen-letra mediante la deducción y el reconocimiento de patrones.',
     },
     {
       question: '¿Qué hace el control Letras a Revelar (0–10)?',
       answer:
-        'Letras a Revelar controla cuántas correspondencias letra-imagen están pre-resueltas en la ficha como pistas. En 0, los alumnos comienzan sin información alguna y deben descifrar el código entero desde cero. En 10, diez correspondencias ya están decodificadas, proporcionando un andamiaje significativo. Este control es el ajuste principal de dificultad — usa valores más altos para principiantes y valores más bajos para resolvedores avanzados. También sirve como eje de diferenciación natural para paquetes de productos por niveles.',
+        'Letras a Revelar controla cuántas correspondencias letra-imagen están pre-resueltas en la ficha como pistas. En 0, los usuarios comienzan sin información alguna y deben descifrar el código entero desde cero. En 10, diez correspondencias ya están decodificadas, proporcionando un andamiaje significativo. Este control es el ajuste principal de dificultad — usa valores más altos para principiantes y valores más bajos para resolvedores avanzados. También sirve como eje de diferenciación natural para paquetes de productos por niveles.',
     },
     {
       question: '¿Cuál es la diferencia entre Asignación Automática y Asignación Manual?',
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: '¿Se pueden codificar frases completas, no solo palabras aisladas?',
       answer:
-        'Sí. El Generador de Criptograma codifica frases y oraciones enteras, no palabras individuales. Los alumnos decodifican un mensaje completo y legible, lo que proporciona pistas contextuales — las palabras cortas comunes, los patrones de oraciones familiares y las letras repetidas ayudan a los resolvedores a descifrar el código. Esta codificación a nivel de frase hace el puzzle más satisfactorio y más educativo que los desafíos de palabras aisladas.',
+        'Sí. El Generador de Criptograma codifica frases y oraciones enteras, no palabras individuales. Los usuarios decodifican un mensaje completo y legible, lo que proporciona pistas contextuales — las palabras cortas comunes, los patrones de oraciones familiares y las letras repetidas ayudan a los resolvedores a descifrar el código. Esta codificación a nivel de frase hace el puzzle más satisfactorio y más educativo que los desafíos de palabras aisladas.',
     },
     {
       question: '¿Se pueden subir imágenes propias para el cifrado?',
@@ -168,12 +168,12 @@ const content: AppContent = {
     {
       question: '¿Qué muestra la leyenda de letras de la clave de respuesta?',
       answer:
-        'La clave de respuesta incluye una leyenda de letras completa que muestra cada letra del alfabeto emparejada con su imagen asignada en orden alfabético. Es la referencia definitiva para verificar las soluciones — los alumnos o los profesores pueden buscar cualquier imagen para confirmar qué letra representa. La clave de respuesta también muestra la frase completamente decodificada para una verificación rápida.',
+        'La clave de respuesta incluye una leyenda de letras completa que muestra cada letra del alfabeto emparejada con su imagen asignada en orden alfabético. Es la referencia definitiva para verificar las soluciones — los usuarios o los vendedores pueden buscar cualquier imagen para confirmar qué letra representa. La clave de respuesta también muestra la frase completamente decodificada para una verificación rápida.',
     },
     {
       question: '¿Cuál es la diferencia entre los temas Color y Blanco y Negro?',
       answer:
-        'Las colecciones temáticas están disponibles en ilustraciones a color y en variantes de dibujo de línea en blanco y negro (filtradas por el sufijo _bw). Los temas Color producen puzzles cifrados vibrantes y visualmente ricos, ideales para productos digitales e impresión a color. Los temas Blanco y Negro producen fichas económicas en tinta que se imprimen limpiamente en impresoras estándar de aula y funcionan bien en libros de puzzles en blanco y negro.',
+        'Las colecciones temáticas están disponibles en ilustraciones a color y en variantes de dibujo de línea en blanco y negro (filtradas por el sufijo _bw). Los temas Color producen puzzles cifrados vibrantes y visualmente ricos, ideales para productos digitales e impresión a color. Los temas Blanco y Negro producen fichas económicas en tinta que se imprimen limpiamente en impresoras estándar del mercado y funcionan bien en libros de puzzles en blanco y negro.',
     },
     {
       question: '¿Cómo funciona el alfabeto adaptado al idioma?',
@@ -188,7 +188,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de criptograma como descargas digitales en Etsy, como libros de puzzles impresos en Amazon KDP, como recursos educativos en TPT o a través de cualquier otro canal de venta. Las Letras a Revelar ajustables, las colecciones de imágenes temáticas y la capacidad multilingüe te ofrecen una fuerte diferenciación en categorías de mercado.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de criptograma como descargas digitales en Etsy, como libros de puzzles impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. Las Letras a Revelar ajustables, las colecciones de imágenes temáticas y la capacidad multilingüe te ofrecen una fuerte diferenciación en categorías de mercado.',
     },
     {
       question: '¿El Generador de Criptograma es sensible al idioma?',
@@ -236,7 +236,7 @@ const content: AppContent = {
     {
       pageType: 'guide',
       slug: 'vender-material-educativo-etsy',
-      anchorText: 'Guía para Vender Material Educativo en Etsy',
+      anchorText: 'Guía para Vender productos imprimibles en Etsy',
     },
     {
       pageType: 'start',
@@ -251,7 +251,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'educacion-en-casa-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles para educación en casa',
+      anchorText: 'Ideas de imprimibles para trabajo desde casa',
     },
     {
       pageType: 'guide',

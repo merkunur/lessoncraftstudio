@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'generador de páginas para colorear para vendedores Etsy',
       'creador de fichas para colorear para editores Amazon KDP',
-      'vender páginas para colorear en Teachers Pay Teachers',
+      'vender páginas para colorear en Gumroad',
       'generador de páginas para colorear licencia comercial',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Generador Páginas para Colorear | Crear y Vender',
     metaDescription:
-      'Crea páginas para colorear para vender en Etsy, KDP y TPT. Lienzo libre, 104 temas, dibujo a mano alzada, escala de grises. Prueba gratis con marca de agua.',
+      'Crea páginas para colorear para vender en Etsy, KDP y Gumroad. Lienzo libre, 104 temas, dibujo a mano alzada, escala de grises. Prueba gratis con marca de agua.',
   },
 
   hero: {
     title: 'Generador de Páginas para Colorear para Fichas de Coloreo Personalizadas',
-    tagline: 'Diseñador de páginas para colorear en lienzo de formato libre — explora 104 colecciones de imágenes temáticas, añade dibujos a mano alzada, incluye ayudas para el aula como campos de nombre y líneas de caligrafía, y activa la exportación en escala de grises para páginas para colorear de ahorro de tinta.',
+    tagline: 'Diseñador de páginas para colorear en lienzo de formato libre — explora 104 colecciones de imágenes temáticas, añade dibujos a mano alzada, incluye ayudas para venta en línea como campos de nombre y líneas de caligrafía, y activa la exportación en escala de grises para páginas para colorear de ahorro de tinta.',
     description:
-      'Diseña páginas para colorear profesionales en un lienzo de formato libre donde colocas las imágenes exactamente donde quieras — sin cuadrículas, sin plantillas, libertad creativa total. Explora la Biblioteca de Imágenes integrada con más de 3100 ilustraciones coloridas en 104 colecciones temáticas, haz clic en cualquier imagen para añadirla a tu lienzo, luego organiza, redimensiona, rota y superpón los elementos hasta que tu página quede perfecta. La herramienta de dibujo a mano alzada te permite dibujar ilustraciones personalizadas directamente en el lienzo con color y tamaño de pincel ajustables. Las ayudas para el aula añaden un campo de nombre del alumno y líneas de práctica de caligrafía con un solo clic — convirtiendo las páginas para colorear en actividades listas para la clase. Cuando termines, activa la opción de exportación en escala de grises para convertir tu composición colorida en páginas para colorear de ahorro de tinta, perfectas para imprimir. Añade temas de bordes decorativos, texto personalizado con efectos de contorno y sube tus propias imágenes junto al contenido de la biblioteca. El Generador de Páginas para Colorear no es sensible al idioma — la salida es puramente visual, así que las fichas son idénticas en todos los idiomas. El Acceso Completo desbloquea los 104 temas y los 11 idiomas de interfaz. Exporta PDF y JPEG listos para imprimir a 300 DPI en formato Carta, A4, Cuadrado o dimensiones personalizadas. Ya sea que vendas packs de páginas para colorear en Etsy, compiles libros para colorear para Amazon KDP o crees actividades de coloreo para la clase en TPT, el Generador de Páginas para Colorear ofrece resultados profesionales en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Diseña páginas para colorear profesionales en un lienzo de formato libre donde colocas las imágenes exactamente donde quieras — sin cuadrículas, sin plantillas, libertad creativa total. Explora la Biblioteca de Imágenes integrada con más de 3100 ilustraciones coloridas en 104 colecciones temáticas, haz clic en cualquier imagen para añadirla a tu lienzo, luego organiza, redimensiona, rota y superpón los elementos hasta que tu página quede perfecta. La herramienta de dibujo a mano alzada te permite dibujar ilustraciones personalizadas directamente en el lienzo con color y tamaño de pincel ajustables. Las ayudas para venta en línea añaden un campo de nombre y líneas de práctica de caligrafía con un solo clic — convirtiendo las páginas para colorear en actividades listas para la clase. Cuando termines, activa la opción de exportación en escala de grises para convertir tu composición colorida en páginas para colorear de ahorro de tinta, perfectas para imprimir. Añade temas de bordes decorativos, texto personalizado con efectos de contorno y sube tus propias imágenes junto al contenido de la biblioteca. El Generador de Páginas para Colorear no es sensible al idioma — la salida es puramente visual, así que las fichas son idénticas en todos los idiomas. El Acceso Completo desbloquea los 104 temas y los 11 idiomas de interfaz. Exporta PDF y JPEG listos para imprimir a 300 DPI en formato Carta, A4, Cuadrado o dimensiones personalizadas. Ya sea que vendas packs de páginas para colorear en Etsy, compiles libros para colorear para Amazon KDP o crees actividades de coloreo para la clase en Gumroad, el Generador de Páginas para Colorear ofrece resultados profesionales en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
   },
 
   howItWorks: {
@@ -45,14 +45,14 @@ const content: AppContent = {
           'Arrastra las imágenes a cualquier lugar del lienzo de formato libre — sin ajuste a cuadrícula, sin restricciones de plantilla. Redimensiona arrastrando las esquinas, rota a cualquier ángulo y usa los controles de capas para gestionar el orden de apilamiento. Bloquea los elementos terminados para evitar movimientos accidentales mientras continúas editando. El lienzo soporta hasta 20 estados de deshacer/rehacer (Ctrl+Z / Ctrl+Y) para experimentar libremente. Haz zoom del 25 % al 300 % para una colocación precisa de los detalles pequeños.',
       },
       {
-        title: 'Añadir texto, ayudas para el aula y dibujos a mano alzada',
+        title: 'Añadir texto, ayudas para venta en línea y dibujos a mano alzada',
         description:
-          'Usa el panel Herramientas de Texto para añadir títulos, instrucciones o etiquetas con fuentes como Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial y Verdana. Ajusta el tamaño de fuente, color y ancho del contorno de texto (0 a 10 con granularidad de 0,5) para máxima legibilidad. Haz clic en las Ayudas para el Aula para añadir un campo de nombre del alumno («Nombre: ____») o líneas de práctica de caligrafía con un solo clic. Cambia a la Herramienta de Dibujo para dibujar ilustraciones a mano alzada directamente en el lienzo — elige un color de pincel y ajusta el tamaño del pincel de 1 a 50 píxeles.',
+          'Usa el panel Herramientas de Texto para añadir títulos, instrucciones o etiquetas con fuentes como Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial y Verdana. Ajusta el tamaño de fuente, color y ancho del contorno de texto (0 a 10 con granularidad de 0,5) para máxima legibilidad. Haz clic en las Ayudas para venta en línea para añadir un campo de nombre («Nombre: ____») o líneas de práctica de caligrafía con un solo clic. Cambia a la Herramienta de Dibujo para dibujar ilustraciones a mano alzada directamente en el lienzo — elige un color de pincel y ajusta el tamaño del pincel de 1 a 50 píxeles.',
       },
       {
         title: 'Activar la escala de grises y descargar',
         description:
-          'Abre el panel Descargar y activa la opción de escala de grises para convertir tu composición colorida en páginas para colorear de ahorro de tinta — perfectas para fichas impresas y libros para colorear. Exporta como JPEG de alta resolución o PDF listo para imprimir a 300 DPI. Los archivos se guardan como coloring_page.jpeg o coloring_page.pdf para una organización sencilla. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos TPT — sin necesidad de postprocesamiento.',
+          'Abre el panel Descargar y activa la opción de escala de grises para convertir tu composición colorida en páginas para colorear de ahorro de tinta — perfectas para fichas impresas y libros para colorear. Exporta como JPEG de alta resolución o PDF listo para imprimir a 300 DPI. Los archivos se guardan como coloring_page.jpeg o coloring_page.pdf para una organización sencilla. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad — sin necesidad de postprocesamiento.',
       },
     ],
   },
@@ -71,14 +71,14 @@ const content: AppContent = {
           'Cambia al modo Dibujo y dibuja directamente en el lienzo con el pincel a mano alzada. Elige cualquier color de pincel con el selector de colores (predeterminado #333333) y ajusta el tamaño del pincel de 1 a 50 píxeles con el control deslizante. Dibuja bordes personalizados, añade garabatos decorativos, crea ilustraciones originales o traza líneas de conexión entre imágenes. La herramienta de dibujo usa el renderizado a mano alzada de Fabric.js para trazos suaves y fluidos. Combinada con la biblioteca de imágenes, la herramienta de dibujo a mano alzada te permite crear páginas para colorear que mezclan ilustraciones seleccionadas con tus propias obras originales.',
       },
       {
-        title: 'Ayudas para el aula: campo de nombre y líneas de caligrafía',
+        title: 'Ayudas para venta en línea: campo de nombre y líneas de caligrafía',
         description:
-          'Dos ayudas para el aula con un solo clic transforman las páginas para colorear en actividades listas para la clase. El botón Campo de Nombre añade un bloque de texto formateado «Nombre: ____________________» posicionado en la parte superior de la página — los alumnos escriben su nombre antes de empezar. El botón Líneas de Caligrafía añade un grupo de tres líneas uniformemente espaciadas (continua, discontinua, continua) cerca de la parte inferior de la página para práctica de escritura. Juntas, estas ayudas hacen que tus fichas para colorear estén listas para el aula sin formato manual de texto. Los vendedores de TPT pueden destacar estas funcionalidades como diferenciación integrada frente a las páginas para colorear genéricas.',
+          'Dos ayudas para venta en línea con un solo clic transforman las páginas para colorear en actividades listas para la clase. El botón Campo de Nombre añade un bloque de texto formateado «Nombre: ____________________» posicionado en la parte superior de la página — los usuarios escriben su nombre antes de empezar. El botón Líneas de Caligrafía añade un grupo de tres líneas uniformemente espaciadas (continua, discontinua, continua) cerca de la parte inferior de la página para práctica de escritura. Juntas, estas ayudas hacen que tus fichas para colorear estén listas para venta en línea sin formato manual de texto. Los vendedores de Gumroad pueden destacar estas funcionalidades como diferenciación integrada frente a las páginas para colorear genéricas.',
       },
       {
         title: 'Exportación en escala de grises para páginas para colorear de ahorro de tinta',
         description:
-          'La Biblioteca de Imágenes contiene más de 3100 ilustraciones coloridas — pero las páginas para colorear necesitan imprimirse en blanco y negro para que los alumnos añadan sus propios colores. La exportación en escala de grises resuelve esto convirtiendo tu composición entera a escala de grises en el momento de la exportación. Diseña con imágenes a todo color para identificación visual fácil y luego activa la opción para producir fichas para colorear de ahorro de tinta. Este flujo de trabajo es esencial para los interiores de libros para colorear de Amazon KDP donde las páginas deben ser en escala de grises, y para la impresión en el aula donde la tinta a color es cara o no está disponible.',
+          'La Biblioteca de Imágenes contiene más de 3100 ilustraciones coloridas — pero las páginas para colorear necesitan imprimirse en blanco y negro para que los usuarios añadan sus propios colores. La exportación en escala de grises resuelve esto convirtiendo tu composición entera a escala de grises en el momento de la exportación. Diseña con imágenes a todo color para identificación visual fácil y luego activa la opción para producir fichas para colorear de ahorro de tinta. Este flujo de trabajo es esencial para los interiores de libros para colorear de Amazon KDP donde las páginas deben ser en escala de grises, y para la impresión en volumen donde la tinta a color es cara o no está disponible.',
       },
       {
         title: 'Biblioteca de Imágenes con 104 colecciones temáticas y más de 3100 ilustraciones',
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: 'Exportación PDF y JPEG lista para imprimir a 300 DPI',
         description:
-          'Descarga páginas para colorear como imágenes JPEG de alta resolución o documentos PDF listos para imprimir renderizados a 300 DPI mediante un multiplicador 6× para una salida nítida. Los formatos de página incluyen Carta Vertical (612×792), Carta Horizontal (792×612), A4 Vertical (595×842), A4 Horizontal (842×595), Cuadrado (1200×1200) y dimensiones completamente personalizadas. Activa la escala de grises para versiones de ahorro de tinta. Cada exportación está lista para producción: descargas digitales de Etsy, interiores de libros de Amazon KDP y archivos de recursos de TPT.',
+          'Descarga páginas para colorear como imágenes JPEG de alta resolución o documentos PDF listos para imprimir renderizados a 300 DPI mediante un multiplicador 6× para una salida nítida. Los formatos de página incluyen Carta Vertical (612×792), Carta Horizontal (792×612), A4 Vertical (595×842), A4 Horizontal (842×595), Cuadrado (1200×1200) y dimensiones completamente personalizadas. Activa la escala de grises para versiones de ahorro de tinta. Cada exportación está lista para producción: descargas digitales de Etsy, interiores de libros de Amazon KDP y archivos de recursos de Gumroad.',
       },
       {
         title: 'Edición completa del lienzo con herramientas de texto y controles de capas',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Fichas de actividades para colorear en la clase para TPT',
+        title: 'Fichas de actividades para colorear en la clase para Gumroad',
         description:
-          'Construye fichas para colorear listas para la clase con las ayudas integradas. Añade un campo de nombre para que los alumnos identifiquen su trabajo e incluye líneas de práctica de caligrafía en la parte inferior para práctica de lectoescritura integrada. Los maestros que buscan actividades para colorear en TPT valoran fichas que van más allá del simple coloreo — el campo de nombre y las líneas de caligrafía hacen de tu producto una ficha de actividad multihabilidad. Crea conjuntos temáticos vinculados a unidades curriculares: el clima, las estaciones, los ayudantes de la comunidad, los grupos de alimentos y los hábitats. La salida puramente visual funciona para cada alumno sin importar el idioma o nivel de lectura.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Construye fichas para colorear listas para la clase con las ayudas integradas. Añade un campo de nombre para que los usuarios identifiquen su trabajo e incluye líneas de práctica de caligrafía en la parte inferior para práctica de lectoescritura integrada. Los vendedores que buscan actividades para colorear en Gumroad valoran fichas que van más allá del simple coloreo — el campo de nombre y las líneas de caligrafía hacen de tu producto una ficha de actividad multihabilidad. Crea conjuntos temáticos vinculados a unidades de productoses: el clima, las estaciones, los ayudantes de la comunidad, los grupos de alimentos y los hábitats. La salida puramente visual funciona para cada usuario sin importar el idioma o nivel de lectura.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Páginas para colorear personalizadas con dibujo a mano alzada',
         description:
           'Combina las ilustraciones de la biblioteca con tus propios dibujos a mano alzada para crear páginas para colorear que ningún otro generador puede producir. Dibuja bordes personalizados, añade elementos decorativos entre las imágenes, traza escenas conectoras que unan varias imágenes o crea ilustraciones completamente originales en el lienzo. El tamaño de pincel ajustable (1 a 50 px) maneja desde el trabajo de detalle fino hasta los contornos gruesos. Este enfoque híbrido — imágenes seleccionadas de la biblioteca más arte original a mano alzada — produce páginas para colorear con verdadero valor creativo que alcanzan precios premium en los listados de los marketplaces.',
-        platform: 'Etsy / Amazon KDP / TPT',
+        platform: 'Etsy / Amazon KDP / Gumroad',
       },
       {
         title: 'Colecciones de páginas para colorear estacionales y festivas',
         description:
           'Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Semana Santa, San Valentín, vuelta al cole, vacaciones de verano, fiestas de invierno y mucho más. Crea colecciones de páginas para colorear por disponible ahora alineadas con los picos de compra. Lanza los packs de Halloween en septiembre, las colecciones de Navidad en octubre y los packs de San Valentín en enero. Los productos estacionales alcanzan precios más altos durante sus ventanas de máxima demanda y crean razones naturales para compras recurrentes de la misma base de clientes.',
-        platform: 'Etsy / Amazon KDP / TPT (estacional)',
+        platform: 'Etsy / Amazon KDP / Gumroad (estacional)',
       },
     ],
   },
@@ -151,14 +151,14 @@ const content: AppContent = {
         'Activa el botón Herramienta de Dibujo para cambiar del modo Selección al modo Dibujo. Elige un color de pincel con el selector de colores y ajusta el tamaño del pincel de 1 a 50 píxeles con el control deslizante. Dibuja directamente en el lienzo con tu ratón o lápiz digital — los trazos se renderizan como trazados suaves de Fabric.js. Vuelve al modo Selección para mover y editar tus dibujos como cualquier otro objeto del lienzo. Combina el dibujo a mano alzada con las imágenes de la biblioteca para páginas para colorear híbridas.',
     },
     {
-      question: '¿Qué son las ayudas para el aula y cómo se usan?',
+      question: '¿Qué son las ayudas para venta en línea y cómo se usan?',
       answer:
-        'Dos botones con un solo clic en el panel Ayudas para el Aula. El botón Campo de Nombre añade un bloque de texto formateado «Nombre: ____________________» cerca de la parte superior de la página. El botón Líneas de Caligrafía añade un grupo de tres líneas uniformemente espaciadas (continua, discontinua, continua) cerca de la parte inferior de la página para práctica de escritura. Ambas ayudas crean objetos estándar del lienzo que puedes reposicionar, redimensionar o eliminar como cualquier otro elemento.',
+        'Dos botones con un solo clic en el panel Ayudas para venta en línea. El botón Campo de Nombre añade un bloque de texto formateado «Nombre: ____________________» cerca de la parte superior de la página. El botón Líneas de Caligrafía añade un grupo de tres líneas uniformemente espaciadas (continua, discontinua, continua) cerca de la parte inferior de la página para práctica de escritura. Ambas ayudas crean objetos estándar del lienzo que puedes reposicionar, redimensionar o eliminar como cualquier otro elemento.',
     },
     {
       question: '¿Cómo funciona la exportación en escala de grises?',
       answer:
-        'La opción de escala de grises en el panel Descargar convierte tu página para colorear entera a escala de grises en el momento de la exportación. Tu lienzo permanece a todo color para edición visual fácil — la escala de grises solo se aplica al archivo exportado. Esto te permite diseñar con imágenes coloridas para identificación y luego producir una salida de ahorro de tinta para imprimir. Esencial para los interiores de libros para colorear de Amazon KDP y la impresión en el aula donde la tinta a color no está disponible o es cara.',
+        'La opción de escala de grises en el panel Descargar convierte tu página para colorear entera a escala de grises en el momento de la exportación. Tu lienzo permanece a todo color para edición visual fácil — la escala de grises solo se aplica al archivo exportado. Esto te permite diseñar con imágenes coloridas para identificación y luego producir una salida de ahorro de tinta para imprimir. Esencial para los interiores de libros para colorear de Amazon KDP y la impresión en volumen donde la tinta a color no está disponible o es cara.',
     },
     {
       question: '¿Cómo explorar y añadir imágenes desde la biblioteca?',
@@ -178,12 +178,12 @@ const content: AppContent = {
     {
       question: '¿Por qué no hay clave de respuesta para las páginas para colorear?',
       answer:
-        'Las páginas para colorear son actividades creativas sin una única respuesta correcta — el propósito mismo es que los alumnos o coloristas añadan sus propios colores. A diferencia de las fichas de matemáticas o los ejercicios de trazado de letras, no hay una forma correcta o incorrecta de colorear una página. Esto hace que las páginas para colorear sean productos ideales de baja preparación para los vendedores, porque solo exportas la página para colorear en sí, sin archivo de clave de respuesta adicional que crear.',
+        'Las páginas para colorear son actividades creativas sin una única respuesta correcta — el propósito mismo es que los usuarios o coloristas añadan sus propios colores. A diferencia de las fichas de matemáticas o los ejercicios de trazado de letras, no hay una forma correcta o incorrecta de colorear una página. Esto hace que las páginas para colorear sean productos ideales de baja preparación para los vendedores, porque solo exportas la página para colorear en sí, sin archivo de clave de respuesta adicional que crear.',
     },
     {
       question: '¿Hay una prueba gratis?',
       answer:
-        'Sí. Puedes acceder a todas las funciones — el lienzo de formato libre, todas las herramientas de dibujo, la biblioteca de imágenes, las ayudas para el aula, los temas de bordes, la exportación en escala de grises y todos los formatos de descarga — sin crear una cuenta, introducir una tarjeta de crédito ni instalar ningún software. Las descargas de la prueba gratis incluyen una pequeña marca de agua. Una licencia comercial elimina la marca de agua y otorga derechos completos de venta.',
+        'Sí. Puedes acceder a todas las funciones — el lienzo de formato libre, todas las herramientas de dibujo, la biblioteca de imágenes, las ayudas para venta en línea, los temas de bordes, la exportación en escala de grises y todos los formatos de descarga — sin crear una cuenta, introducir una tarjeta de crédito ni instalar ningún software. Las descargas de la prueba gratis incluyen una pequeña marca de agua. Una licencia comercial elimina la marca de agua y otorga derechos completos de venta.',
     },
     {
       question: '¿El Generador de Páginas para Colorear es sensible al idioma?',
@@ -193,12 +193,12 @@ const content: AppContent = {
     {
       question: '¿Puedo vender páginas para colorear creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus páginas para colorear como descargas digitales en Etsy, como libros para colorear impresos en Amazon KDP, como recursos educativos en TPT o a través de cualquier otro canal de venta. El lienzo de formato libre, la herramienta de dibujo a mano alzada y las 104 colecciones de imágenes temáticas te ofrecen las herramientas creativas para producir productos de páginas para colorear originales y vendibles.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus páginas para colorear como descargas digitales en Etsy, como libros para colorear impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. El lienzo de formato libre, la herramienta de dibujo a mano alzada y las 104 colecciones de imágenes temáticas te ofrecen las herramientas creativas para producir productos de páginas para colorear originales y vendibles.',
     },
     {
       question: '¿Cuál es la política de reembolso?',
       answer:
-        'Al darte la prueba gratis acceso a todas las funciones, no ofrecemos reembolsos en las compras de licencia comercial. Puedes probar el lienzo de formato libre, cada herramienta de dibujo, la biblioteca de imágenes completa, las ayudas para el aula, los temas de bordes, la exportación en escala de grises y todos los formatos de descarga antes de comprar. La prueba gratis es la política de reembolso — asegúrate de que la herramienta se adapta a tus necesidades antes de adquirir una licencia.',
+        'Al darte la prueba gratis acceso a todas las funciones, no ofrecemos reembolsos en las compras de licencia comercial. Puedes probar el lienzo de formato libre, cada herramienta de dibujo, la biblioteca de imágenes completa, las ayudas para venta en línea, los temas de bordes, la exportación en escala de grises y todos los formatos de descarga antes de comprar. La prueba gratis es la política de reembolso — asegúrate de que la herramienta se adapta a tus necesidades antes de adquirir una licencia.',
     },
   ],
 
@@ -263,7 +263,7 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/spanish/coloring/coloring portrait 1.webp',
-      primaryAlt: 'Página para colorear personalizada con imágenes temáticas organizadas en lienzo de formato libre con borde decorativo y campo de nombre para el aula',
+      primaryAlt: 'Página para colorear personalizada con imágenes temáticas organizadas en lienzo de formato libre con borde decorativo y campo de nombre para venta en línea',
     },
     sampleGallery: [
       {
@@ -273,7 +273,7 @@ const content: AppContent = {
       },
       {
         src: '/samples/spanish/coloring/coloring portrait 3.webp',
-        alt: 'Página para colorear con líneas de caligrafía y campo de nombre del alumno para uso en el aula',
+        alt: 'Página para colorear con líneas de caligrafía y campo de nombre para uso comercial',
         caption: 'Página para colorear lista para la clase — campo de nombre y líneas de práctica de caligrafía incluidos',
       },
       {

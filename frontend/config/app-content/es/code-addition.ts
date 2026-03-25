@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'fichas de puzzles matemáticos imprimibles para Etsy',
       'fichas de descifrar código de suma para Amazon KDP',
-      'creador de puzzles matemáticos para vendedores TPT',
+      'creador de puzzles matemáticos para vendedores Gumroad',
       'fichas de suma codificada licencia comercial',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Generador Suma Codificada | Crear y Vender',
     metaDescription:
-      'Crea puzzles de suma codificada para vender en Etsy, KDP y TPT. Modo Palabra Revelada, 104 temas, 11 idiomas, claves, 400+ DPI.',
+      'Crea puzzles de suma codificada para vender en Etsy, KDP y Gumroad. Modo Palabra Revelada, 104 temas, 11 idiomas, claves, 400+ DPI.',
   },
 
   hero: {
     title: 'Generador de Fichas de Suma Codificada — Puzzles Matemáticos para Descifrar',
     tagline: 'Convierte la suma en una misión de detective donde cada imagen esconde un número secreto.',
     description:
-      'Crea fichas de suma de tipo criptaritmético que desafían a los alumnos a descifrar un código visual. Cada imagen en la ficha representa un número oculto — los alumnos resuelven ecuaciones de suma para deducir qué número corresponde a cada imagen, combinando fluidez matemática con razonamiento lógico en un solo ejercicio. Cambia al modo Palabra Revelada y el reto sube: escribe una palabra secreta de hasta diez letras, y cada ecuación resuelta correctamente revela una letra de la respuesta mientras tres letras distractoras con sumas incorrectas mantienen el suspenso. El generador admite once alfabetos específicos de cada idioma, así que el modo Palabra Revelada funciona de forma nativa en español, inglés, alemán, francés y siete idiomas más — una función que ningún otro creador de fichas ofrece. Elige entre más de 3100 imágenes en 104 temas, configura rangos de números de 1 a 20 con dos a cinco símbolos-código por ficha, y exporta PDF o JPEG listos para imprimir a más de 400 DPI con claves de respuesta automáticas. Prueba gratis con todas las funciones — sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Crea fichas de suma de tipo criptaritmético que desafían a los usuarios a descifrar un código visual. Cada imagen en la ficha representa un número oculto — los usuarios resuelven ecuaciones de suma para deducir qué número corresponde a cada imagen, combinando fluidez matemática con razonamiento lógico en un solo ejercicio. Cambia al modo Palabra Revelada y el reto sube: escribe una palabra secreta de hasta diez letras, y cada ecuación resuelta correctamente revela una letra de la respuesta mientras tres letras distractoras con sumas incorrectas mantienen el suspenso. El generador admite once alfabetos específicos de cada idioma, así que el modo Palabra Revelada funciona de forma nativa en español, inglés, alemán, francés y siete idiomas más — una función que ningún otro creador de fichas ofrece. Elige entre más de 3100 imágenes en 104 temas, configura rangos de números de 1 a 20 con dos a cinco símbolos-código por ficha, y exporta PDF o JPEG listos para imprimir a más de 400 DPI con claves de respuesta automáticas. Prueba gratis con todas las funciones — sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
   },
 
   howItWorks: {
@@ -42,17 +42,17 @@ const content: AppContent = {
       {
         title: 'Elige imágenes de la biblioteca temática',
         description:
-          'Abre el panel de Biblioteca de Imágenes y explora 104 temas — desde animales y dinosaurios hasta espacio y festividades. Usa la barra de búsqueda para encontrar imágenes específicas al instante. Las imágenes que selecciones se convierten en los símbolos-código de tu ficha: cada imagen corresponde a un número oculto que los alumnos deben deducir. También puedes subir tus propias imágenes PNG o JPEG para puzzles personalizados y de temporada.',
+          'Abre el panel de Biblioteca de Imágenes y explora 104 temas — desde animales y dinosaurios hasta espacio y festividades. Usa la barra de búsqueda para encontrar imágenes específicas al instante. Las imágenes que selecciones se convierten en los símbolos-código de tu ficha: cada imagen corresponde a un número oculto que los usuarios deben deducir. También puedes subir tus propias imágenes PNG o JPEG para puzzles personalizados y de temporada.',
       },
       {
         title: 'Añade texto, títulos y opciones',
         description:
-          'Usa el panel de Herramientas de Texto para añadir un título, campos de nombre y fecha del alumno, instrucciones o cualquier texto personalizado. Elige entre siete fuentes amigables para niños, incluyendo Lexend Deca, Baloo 2, Fredoka y Quicksand. Activa o desactiva los números de ejercicio, muestra u oculta el encabezado y el borde, y habilita el modo escala de grises para impresión económica. Cada opción actualiza la vista previa del lienzo en tiempo real para que ajustes el diseño antes de exportar.',
+          'Usa el panel de Herramientas de Texto para añadir un título, campos de nombre y fecha, instrucciones o cualquier texto personalizado. Elige entre siete fuentes claros, incluyendo Lexend Deca, Baloo 2, Fredoka y Quicksand. Activa o desactiva los números de ejercicio, muestra u oculta el encabezado y el borde, y habilita el modo escala de grises para impresión económica. Cada opción actualiza la vista previa del lienzo en tiempo real para que ajustes el diseño antes de exportar.',
       },
       {
         title: 'Genera la clave de respuesta y descarga',
         description:
-          'Ve a la pestaña de Clave de Respuesta y haz clic en Generar para crear una versión resuelta de tu ficha. La clave de respuesta superpone cada número oculto directamente sobre su símbolo-imagen, haciendo las soluciones perfectamente claras para maestros y padres. Exporta tanto la ficha como la clave de respuesta en JPEG de alta resolución o PDF listo para imprimir. Cada archivo se renderiza a más de 400 DPI para que tus puzzles de descifrar código se vean nítidos tanto impresos en casa como subidos a Etsy y Amazon KDP.',
+          'Ve a la pestaña de Clave de Respuesta y haz clic en Generar para crear una versión resuelta de tu ficha. La clave de respuesta superpone cada número oculto directamente sobre su símbolo-imagen, haciendo las soluciones perfectamente claras para vendedores y padres. Exporta tanto la ficha como la clave de respuesta en JPEG de alta resolución o PDF listo para imprimir. Cada archivo se renderiza a más de 400 DPI para que tus puzzles de descifrar código se vean nítidos tanto impresos en casa como subidos a Etsy y Amazon KDP.',
       },
     ],
   },
@@ -63,12 +63,12 @@ const content: AppContent = {
       {
         title: 'Mecánica de descifrar código — imágenes como números ocultos',
         description:
-          'La característica definitoria de este generador es su motor criptaritmético. Cada imagen en la ficha representa secretamente un número específico. Los alumnos resuelven ecuaciones de suma donde los sumandos y las sumas se muestran como imágenes, y luego usan la deducción lógica para averiguar qué número representa cada imagen. Esto transforma un ejercicio de suma rutinario en un puzzle de estilo detective que desarrolla el pensamiento de orden superior junto con la fluidez matemática básica. Como los puzzles requieren razonar a través de múltiples ecuaciones simultáneamente, los alumnos construyen habilidades de resolución de problemas que van mucho más allá de la simple memorización.',
+          'La característica definitoria de este generador es su motor criptaritmético. Cada imagen en la ficha representa secretamente un número específico. Los usuarios resuelven ecuaciones de suma donde los sumandos y las sumas se muestran como imágenes, y luego usan la deducción lógica para averiguar qué número representa cada imagen. Esto transforma un ejercicio de suma rutinario en un puzzle de estilo detective que desarrolla el pensamiento de orden superior junto con la fluidez matemática básica. Como los puzzles requieren razonar a través de múltiples ecuaciones simultáneamente, los usuarios construyen habilidades de resolución de problemas que van mucho más allá de la simple memorización.',
       },
       {
         title: 'Modo Palabra Revelada con palabras secretas',
         description:
-          'Activa el modo Palabra Revelada y escribe una palabra secreta de hasta diez letras. El generador crea una ecuación de suma por cada letra de la palabra — la suma de cada ecuación corresponde a una letra específica en un cuadro de decodificación. Los alumnos resuelven las ecuaciones, buscan cada suma en el cuadro y deletrean la palabra oculta. Tres ecuaciones distractoras con sumas incorrectas se añaden automáticamente, dando a los alumnos problemas extra que no corresponden a ninguna letra y obligándolos a verificar cada respuesta. Si el rango de números no puede producir suficientes sumas únicas para todas las letras, la aplicación ajusta inteligentemente ampliando el rango o aumentando el número de sumandos de dos hasta cuatro.',
+          'Activa el modo Palabra Revelada y escribe una palabra secreta de hasta diez letras. El generador crea una ecuación de suma por cada letra de la palabra — la suma de cada ecuación corresponde a una letra específica en un cuadro de decodificación. Los usuarios resuelven las ecuaciones, buscan cada suma en el cuadro y deletrean la palabra oculta. Tres ecuaciones distractoras con sumas incorrectas se añaden automáticamente, dando a los usuarios problemas extra que no corresponden a ninguna letra y obligándolos a verificar cada respuesta. Si el rango de números no puede producir suficientes sumas únicas para todas las letras, la aplicación ajusta inteligentemente ampliando el rango o aumentando el número de sumandos de dos hasta cuatro.',
       },
       {
         title: 'Alfabetos sensibles al idioma para 11 lenguas',
@@ -78,17 +78,17 @@ const content: AppContent = {
       {
         title: 'Rangos de números y cantidad de símbolos configurables',
         description:
-          'Establece los valores mínimos y máximos de los sumandos de 1 a 20 para controlar la dificultad de los problemas. Elige entre dos y cinco símbolos-imagen únicos por ficha para ajustar la complejidad de la deducción — dos símbolos crean un puzzle accesible para alumnos más pequeños, mientras que cinco símbolos exigen un seguimiento cuidadoso a través de muchas ecuaciones. La combinación de rango de números y cantidad de símbolos te da un control preciso sobre la dificultad, permitiéndote crear conjuntos progresivos de fichas de fácil a experto en minutos.',
+          'Establece los valores mínimos y máximos de los sumandos de 1 a 20 para controlar la dificultad de los problemas. Elige entre dos y cinco símbolos-imagen únicos por ficha para ajustar la complejidad de la deducción — dos símbolos crean un puzzle accesible para usuarios más pequeños, mientras que cinco símbolos exigen un seguimiento cuidadoso a través de muchas ecuaciones. La combinación de rango de números y cantidad de símbolos te da un control preciso sobre la dificultad, permitiéndote crear conjuntos progresivos de fichas de fácil a experto en minutos.',
       },
       {
         title: '104 temas visuales con más de 3100 imágenes',
         description:
-          'Explora una biblioteca de más de 3100 ilustraciones seleccionadas organizadas en 104 temas, incluyendo animales de granja, vida marina, vehículos, espacio, comida, deportes, dinosaurios, festividades y más. Cada imagen es de alta resolución y diseñada para una impresión clara y adaptada a niños. En Suma Codificada, las imágenes sirven como los propios símbolos-código — los alumnos ven un gato, un cohete y un cupcake y deben deducir que el gato vale 3, el cohete 7 y el cupcake 5. Los puzzles temáticos son irresistibles para los niños y muy vendidos como productos imprimibles.',
+          'Explora una biblioteca de más de 3100 ilustraciones seleccionadas organizadas en 104 temas, incluyendo animales de granja, vida marina, vehículos, espacio, comida, deportes, dinosaurios, festividades y más. Cada imagen es de alta resolución y diseñada para una impresión clara y atractivo. En Suma Codificada, las imágenes sirven como los propios símbolos-código — los usuarios ven un gato, un cohete y un cupcake y deben deducir que el gato vale 3, el cohete 7 y el cupcake 5. Los puzzles temáticos son irresistibles para los niños y muy vendidos como productos imprimibles.',
       },
       {
         title: 'Clave de respuesta automática con superposición de números',
         description:
-          'Genera una clave de respuesta completa con un solo clic. La clave de respuesta reproduce el diseño de tu ficha y superpone el número oculto directamente sobre cada símbolo-imagen, haciendo la solución inmediatamente obvia. En modo Palabra Revelada, la clave también muestra la palabra decodificada e identifica qué ecuaciones eran distractoras. Exporta la clave como archivo separado para incluirla fácilmente en ediciones del profesor, guías para padres o paquetes de productos comerciales.',
+          'Genera una clave de respuesta completa con un solo clic. La clave de respuesta reproduce el diseño de tu ficha y superpone el número oculto directamente sobre cada símbolo-imagen, haciendo la solución inmediatamente obvia. En modo Palabra Revelada, la clave también muestra la palabra decodificada e identifica qué ecuaciones eran distractoras. Exporta la clave como archivo separado para incluirla fácilmente en ediciones del vendedor, guías para padres o paquetes de productos comerciales.',
       },
       {
         title: 'Exportación lista para imprimir a 400+ DPI con opción escala de grises',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de matemáticas diferenciados con Palabra Revelada para TPT',
+        title: 'Centros de matemáticas diferenciados con Palabra Revelada para Gumroad',
         description:
-          'Crea conjuntos de suma codificada por niveles para Teachers Pay Teachers: Nivel 1 (dos símbolos con sumas menores de 10), Nivel 2 (tres símbolos con sumas menores de 15), Nivel 3 (cuatro o cinco símbolos con sumas hasta 20) y un nivel bonus de Palabra Revelada donde los alumnos decodifican palabras de vocabulario. Cada nivel con claves de respuesta y hoja de seguimiento del progreso. La mecánica de descifrar código diferencia de forma natural — más símbolos y rangos más altos aumentan la dificultad sin cambiar el formato de la actividad, para que todos los alumnos en un centro de matemáticas hagan el mismo tipo de trabajo a su propio nivel.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Crea conjuntos de suma codificada por niveles para Gumroad: Nivel 1 (dos símbolos con sumas menores de 10), Nivel 2 (tres símbolos con sumas menores de 15), Nivel 3 (cuatro o cinco símbolos con sumas hasta 20) y un nivel bonus de Palabra Revelada donde los usuarios decodifican palabras de vocabulario. Cada nivel con claves de respuesta y hoja de seguimiento del progreso. La mecánica de descifrar código diferencia de forma natural — más símbolos y rangos más altos aumentan la dificultad sin cambiar el formato de la actividad, para que todos los usuarios en un centro de matemáticas hagan el mismo tipo de trabajo a su propio nivel.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Paquetes de puzzles multilingües para tu propia tienda',
         description:
-          'Aprovecha la función multilingüe de Palabra Revelada para crear paquetes de suma codificada en varios idiomas y véndelos a través de Gumroad, Shopify o Payhip. Un paquete en español usa el alfabeto español correcto con acentos y ñ; un paquete en alemán incluye los Umlauts. Esta es una oportunidad de mercado — prácticamente ningún generador competidor ofrece puzzles de descifrar código adaptados a cada idioma. Apunta a familias bilingües, comunidades de educación en casa y escuelas internacionales con paquetes específicos por idioma que ningún competidor puede replicar fácilmente.',
+          'Aprovecha la función multilingüe de Palabra Revelada para crear paquetes de suma codificada en varios idiomas y véndelos a través de Gumroad, Shopify o Payhip. Un paquete en español usa el alfabeto español correcto con acentos y ñ; un paquete en alemán incluye los Umlauts. Esta es una oportunidad de mercado — prácticamente ningún generador competidor ofrece puzzles de descifrar código adaptados a cada idioma. Apunta a familias bilingües, comunidades de trabajo desde casa y escuelas internacionales con paquetes específicos por idioma que ningún competidor puede replicar fácilmente.',
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: 'Participación en el aula y práctica lúdica de matemáticas',
+        title: 'Participación en línea y práctica lúdica de matemáticas',
         description:
-          'Usa las fichas de suma codificada para convertir la práctica diaria de matemáticas en un juego. Reparte un puzzle en Modo Clásico como desafío de calentamiento donde el primer alumno en descifrar el código gana una recompensa. Usa el modo Palabra Revelada para codificar una palabra de vocabulario, un dato curioso o un mensaje motivacional que los alumnos descubren al resolver todas las ecuaciones. El formato puzzle transforma una ficha de práctica rutinaria en una actividad de misterio que mantiene a los alumnos concentrados y motivados. Las claves de respuesta automáticas ahorran tiempo de corrección, y la dificultad configurable significa que un solo generador sirve desde preescolar hasta tercer grado.',
-        platform: 'Aula / Tutoría / Educación en casa',
+          'Usa las fichas de suma codificada para convertir la práctica diaria de matemáticas en un juego. Reparte un puzzle en Modo Clásico como desafío de calentamiento donde el primer usuario en descifrar el código gana una recompensa. Usa el modo Palabra Revelada para codificar una palabra de vocabulario, un dato curioso o un mensaje motivacional que los usuarios descubren al resolver todas las ecuaciones. El formato puzzle transforma una ficha de práctica rutinaria en una actividad de misterio que mantiene a los usuarios concentrados y motivados. Las claves de respuesta automáticas ahorran valor percibido, y la dificultad configurable significa que un solo generador sirve desde preescolar hasta tercer grado.',
+        platform: 'Tienda / Tutoría / Educación en casa',
       },
     ],
   },
@@ -143,12 +143,12 @@ const content: AppContent = {
     {
       question: '¿Cómo funciona la mecánica de descifrar código?',
       answer:
-        'Cada imagen en la ficha representa secretamente un número específico. La ficha muestra ecuaciones de suma donde los sumandos y las sumas se muestran como imágenes en lugar de dígitos. Los alumnos resuelven las ecuaciones usando lógica y deducción: si un gato más un perro es igual a siete y un gato más un gato es igual a seis, entonces el gato vale tres y el perro cuatro. El puzzle requiere razonar a través de múltiples ecuaciones simultáneamente, desarrollando tanto la fluidez matemática como el pensamiento crítico.',
+        'Cada imagen en la ficha representa secretamente un número específico. La ficha muestra ecuaciones de suma donde los sumandos y las sumas se muestran como imágenes en lugar de dígitos. Los usuarios resuelven las ecuaciones usando lógica y deducción: si un gato más un perro es igual a siete y un gato más un gato es igual a seis, entonces el gato vale tres y el perro cuatro. El puzzle requiere razonar a través de múltiples ecuaciones simultáneamente, desarrollando tanto la fluidez matemática como el pensamiento crítico.',
     },
     {
       question: '¿Qué es el modo Palabra Revelada?',
       answer:
-        'El modo Palabra Revelada te permite escribir una palabra secreta de hasta diez letras. El generador crea una ecuación por letra — la suma de cada ecuación corresponde a una letra específica en un cuadro de decodificación. Los alumnos resuelven las ecuaciones, buscan cada suma en el cuadro y deletrean la palabra oculta. Tres ecuaciones distractoras con sumas incorrectas se añaden automáticamente, así que los alumnos deben verificar cada respuesta. Combina la práctica de suma con ortografía y vocabulario en una sola actividad atractiva.',
+        'El modo Palabra Revelada te permite escribir una palabra secreta de hasta diez letras. El generador crea una ecuación por letra — la suma de cada ecuación corresponde a una letra específica en un cuadro de decodificación. Los usuarios resuelven las ecuaciones, buscan cada suma en el cuadro y deletrean la palabra oculta. Tres ecuaciones distractoras con sumas incorrectas se añaden automáticamente, así que los usuarios deben verificar cada respuesta. Combina la práctica de suma con ortografía y vocabulario en una sola actividad atractiva.',
     },
     {
       question: '¿Cómo se corresponden los símbolos-imagen con los números?',
@@ -163,7 +163,7 @@ const content: AppContent = {
     {
       question: '¿Cuántos símbolos puedo usar por ficha?',
       answer:
-        'Puedes elegir entre dos y cinco símbolos-imagen únicos por ficha. Menos símbolos crean puzzles más fáciles que los alumnos más pequeños pueden resolver; más símbolos crean desafíos complejos que requieren rastrear múltiples incógnitas a través de muchas ecuaciones. Ajustar la cantidad de símbolos es la forma más sencilla de escalar la dificultad sin cambiar el rango de números.',
+        'Puedes elegir entre dos y cinco símbolos-imagen únicos por ficha. Menos símbolos crean puzzles más fáciles que los usuarios más pequeños pueden resolver; más símbolos crean desafíos complejos que requieren rastrear múltiples incógnitas a través de muchas ecuaciones. Ajustar la cantidad de símbolos es la forma más sencilla de escalar la dificultad sin cambiar el rango de números.',
     },
     {
       question: '¿La Suma Codificada es sensible al idioma?',
@@ -173,7 +173,7 @@ const content: AppContent = {
     {
       question: '¿Qué son las letras distractoras en el modo Palabra Revelada?',
       answer:
-        'Las letras distractoras son tres ecuaciones adicionales cuyas sumas no corresponden a ninguna letra de la palabra secreta. Aparecen en la ficha junto a las ecuaciones reales, y sus sumas apuntan a letras que no forman parte de la respuesta. Esto evita que los alumnos simplemente resuelvan cualquier ecuación y asuman que revela una letra — deben resolver todas las ecuaciones y consultar el cuadro de decodificación para identificar cuáles son distractoras y cuáles deletrean la palabra.',
+        'Las letras distractoras son tres ecuaciones adicionales cuyas sumas no corresponden a ninguna letra de la palabra secreta. Aparecen en la ficha junto a las ecuaciones reales, y sus sumas apuntan a letras que no forman parte de la respuesta. Esto evita que los usuarios simplemente resuelvan cualquier ecuación y asuman que revela una letra — deben resolver todas las ecuaciones y consultar el cuadro de decodificación para identificar cuáles son distractoras y cuáles deletrean la palabra.',
     },
     {
       question: '¿Cómo muestra la clave de respuesta las soluciones?',
@@ -188,12 +188,12 @@ const content: AppContent = {
     {
       question: '¿Qué incluye la licencia comercial?',
       answer:
-        'La licencia comercial elimina la marca de agua de todas las descargas y te otorga derechos ilimitados para vender las fichas que crees — en Etsy, Amazon KDP, Teachers Pay Teachers, tu propio sitio web o cualquier otra plataforma. No hay regalías por venta, no hay cuotas mensuales y no hay límites en la cantidad de fichas que produzcas o vendas.',
+        'La licencia comercial elimina la marca de agua de todas las descargas y te otorga derechos ilimitados para vender las fichas que crees — en Etsy, Amazon KDP, Gumroad, tu propio sitio web o cualquier otra plataforma. No hay regalías por venta, no hay cuotas mensuales y no hay límites en la cantidad de fichas que produzcas o vendas.',
     },
     {
       question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de suma codificada como descargas digitales en Etsy, como cuadernos de puzzles impresos en Amazon KDP, como recursos educativos en TPT o a través de cualquier otro canal de venta. El formato de descifrar código es un producto probado porque se distingue de las fichas estándar de suma en los resultados de búsqueda de los mercados.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de suma codificada como descargas digitales en Etsy, como cuadernos de puzzles impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. El formato de descifrar código es un producto probado porque se distingue de las fichas estándar de suma en los resultados de búsqueda de los mercados.',
     },
     {
       question: '¿Necesito instalar algún software?',
@@ -246,7 +246,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'bases-matematicas-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles de matemáticas para educadores y vendedores',
+      anchorText: 'Ideas de imprimibles de matemáticas para emprendedores y vendedores',
     },
     {
       pageType: 'idea',
@@ -269,7 +269,7 @@ const content: AppContent = {
       {
         src: '/samples/spanish/code addition/Código Secreto Suma 1.webp',
         alt: 'Ficha de suma codificada en Modo Clásico con imágenes temáticas de animales como símbolos-código',
-        caption: 'Modo Clásico — los alumnos descifran el código deduciendo qué número representa cada imagen',
+        caption: 'Modo Clásico — los usuarios descifran el código deduciendo qué número representa cada imagen',
       },
       {
         src: '/samples/spanish/code addition/Código Secreto Suma 2.webp',

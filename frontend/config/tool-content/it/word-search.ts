@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Generatore Schede Cerca Parole',
     tagline: 'Crea puzzle con parole nascoste in griglie regolabili, controlli direzionali e lettere riempitive sensibili alla lingua in 11 lingue',
-    description: 'Progetta schede cerca parole professionali dove le parole nascoste sono incorporate in una griglia di lettere riempitive casuali e gli studenti esaminano righe, colonne e diagonali per trovarle — il formato puzzle classico che non passa mai di moda. Questo strumento ti offre un controllo preciso sulla difficoltà attraverso due assi indipendenti: dimensione della griglia (regolabile da 5×5 a 30×30 con righe e colonne impostabili indipendentemente) e controlli di direzione delle parole (parole diagonali attivabili/disattivabili, parole inverse attivabili/disattivabili) creando da due a otto possibili direzioni di posizionamento. Scegli tra tre fonti di contenuto: la modalità Libreria Immagini attinge da oltre 3.100 illustrazioni in 104 collezioni tematiche, la Modalità Modifica Manuale ti permette di selezionare immagini e personalizzare i nomi visualizzati, e la modalità Lista Parole Personalizzata ti permette di digitare fino a 8 parole direttamente per puzzle solo testo. Tre modalità di visualizzazione — Parole + Immagini, Solo Immagini e Solo Parole — controllano cosa appare come indizio accanto alla griglia. La caratteristica distintiva sono le lettere riempitive sensibili alla lingua: quando cambi lingua, le lettere riempitive della griglia cambiano per corrispondere al set di caratteri di quella lingua con distribuzioni di frequenza ponderate. Le griglie tedesche includono ä, ö, ü e ß a frequenze naturali. Le griglie francesi includono é, è, ç, à. Le griglie svedesi includono å, ä, ö. Ogni lingua ottiene lettere riempitive autentiche, rendendo i puzzle linguisticamente genuini invece che ovviamente generati in inglese. Un foglio risposte codificato a colori evidenzia ogni parola trovata in uno di sei colori ciclici — rosa, blu, verde, oro, corallo e lavanda — per una verifica visiva istantanea. Esporta PDF pronti per la stampa e JPEG a oltre 400 DPI in formato Letter, A4 o dimensioni personalizzate. Scegli tra 7 famiglie di font, aggiungi campi nome e data dello studente, attiva la scala di grigi per output ottimizzato per l\'inchiostro, e usa il canvas Fabric.js completo per riposizionare ogni elemento. La prova gratuita include una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Progetta schede cerca parole professionali dove le parole nascoste sono incorporate in una griglia di lettere riempitive casuali e gli utenti esaminano righe, colonne e diagonali per trovarle — il formato puzzi negozico che non passa mai di moda. Questo strumento ti offre un controllo preciso sulla difficoltà attraverso due assi indipendenti: dimensione della griglia (regolabile da 5×5 a 30×30 con righe e colonne impostabili indipendentemente) e controlli di direzione delle parole (parole diagonali attivabili/disattivabili, parole inverse attivabili/disattivabili) creando da due a otto possibili direzioni di posizionamento. Scegli tra tre fonti di contenuto: la modalità Libreria Immagini attinge da oltre 3.100 illustrazioni in 104 collezioni tematiche, la Modalità Modifica Manuale ti permette di selezionare immagini e personalizzare i nomi visualizzati, e la modalità Lista Parole Personalizzata ti permette di digitare fino a 8 parole direttamente per puzzle solo testo. Tre modalità di visualizzazione — Parole + Immagini, Solo Immagini e Solo Parole — controllano cosa appare come indizio accanto alla griglia. La caratteristica distintiva sono le lettere riempitive sensibili alla lingua: quando cambi lingua, le lettere riempitive della griglia cambiano per corrispondere al set di caratteri di quella lingua con distribuzioni di frequenza ponderate. Le griglie tedesche includono ä, ö, ü e ß a frequenze naturali. Le griglie francesi includono é, è, ç, à. Le griglie svedesi includono å, ä, ö. Ogni lingua ottiene lettere riempitive autentiche, rendendo i puzzle linguisticamente genuini invece che ovviamente generati in inglese. Un foglio risposte codificato a colori evidenzia ogni parola trovata in uno di sei colori ciclici — rosa, blu, verde, oro, corallo e lavanda — per una verifica visiva istantanea. Esporta PDF pronti per la stampa e JPEG a oltre 400 DPI in formato Letter, A4 o dimensioni personalizzate. Scegli tra 7 famiglie di font, aggiungi campi nome e data dell'utente, attiva la scala di grigi per output ottimizzato per l\'inchiostro, e usa il canvas Fabric.js completo per riposizionare ogni elemento. La prova gratuita include una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
   },
 
   tutorial: {
@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Configura dimensione e proporzioni della griglia',
-        description: 'Imposta righe e colonne indipendentemente da 5 a 30. Il valore predefinito è 12×12. Una griglia 5×5 con 25 celle crea un puzzle veloce e accessibile per studenti piccoli. Una griglia 20×20 o 30×30 crea una ricerca densa e impegnativa per risolutori esperti. Regolare le dimensioni della griglia è il modo principale per controllare quanta scansione visiva richiede ogni puzzle. Adatta la dimensione della griglia al tuo pubblico: piccola per la scuola dell\'infanzia, media per la scuola primaria, grande per adulti e appassionati di puzzle.',
+        description: 'Imposta righe e colonne indipendentemente da 5 a 30. Il valore predefinito è 12×12. Una griglia 5×5 con 25 celle crea un puzzle veloce e accessibile per utenti piccoli. Una griglia 20×20 o 30×30 crea una ricerca densa e impegnativa per risolutori esperti. Regolare le dimensioni della griglia è il modo principale per controllare quanta scansione visiva richiede ogni puzzle. Adatta la dimensione della griglia al tuo pubblico: piccola per la scuola dell\'infanzia, media per la scuola primaria, grande per adulti e appassionati di puzzle.',
       },
       {
         title: 'Attiva i controlli di direzione delle parole',
@@ -53,7 +53,7 @@ const content: ToolContent = {
       },
       {
         title: 'Personalizza font, testo e canvas',
-        description: 'Scegli tra 7 famiglie di font: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial o Verdana. Attiva o disattiva i campi nome e data dello studente. Aggiungi sovrapposizioni di testo personalizzate con istruzioni o titoli. Usa gli strumenti del canvas Fabric.js per trascinare, ridimensionare, ruotare e riposizionare ogni elemento sulla pagina. Gli strumenti di allineamento, i controlli blocca/sblocca e annulla/ripristina illimitati ti permettono di perfezionare il layout con precisione.',
+        description: 'Scegli tra 7 famiglie di font: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial o Verdana. Attiva o disattiva i campi nome e data dell'utente. Aggiungi sovrapposizioni di testo personalizzate con istruzioni o titoli. Usa gli strumenti del canvas Fabric.js per trascinare, ridimensionare, ruotare e riposizionare ogni elemento sulla pagina. Gli strumenti di allineamento, i controlli blocca/sblocca e annulla/ripristina illimitati ti permettono di perfezionare il layout con precisione.',
       },
       {
         title: 'Genera il foglio risposte e scarica',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Pacchetti puzzle cerca parole a tema',
-      description: 'Crea set di 10–20 schede cerca parole raggruppate per tema — animali della fattoria, creature marine, veicoli, cibo, festività e molto altro. Varia la dimensione della griglia e le impostazioni di direzione nel set per una difficoltà progressiva: inizia con una griglia 8×8 solo orizzontale e arriva a una griglia 16×16 con diagonali e parole inverse. Includi fogli risposte codificati a colori per ogni puzzle. Raggruppa per tema e vendi su Etsy o Teachers Pay Teachers. Il formato griglia con immagini rende le miniature delle inserzioni immediatamente riconoscibili come attività puzzle coinvolgenti.',
+      description: 'Crea set di 10–20 schede cerca parole raggruppate per tema — animali della fattoria, creature marine, veicoli, cibo, festività e molto altro. Varia la dimensione della griglia e le impostazioni di direzione nel set per una difficoltà progressiva: inizia con una griglia 8×8 solo orizzontale e arriva a una griglia 16×16 con diagonali e parole inverse. Includi fogli risposte codificati a colori per ogni puzzle. Raggruppa per tema e vendi su Etsy o Gumroad. Il formato griglia con immagini rende le miniature delle inserzioni immediatamente riconoscibili come attività puzzle coinvolgenti.',
     },
     {
       title: 'Libri puzzle cerca parole per KDP',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Set griglie vocabolario differenziate',
-      description: 'Costruisci set di pratica cerca parole livellati usando dimensione della griglia e controlli di direzione come assi di differenziazione. Livello 1: griglia 8×8, solo orizzontale, 4 parole. Livello 2: griglia 12×12, orizzontale e verticale, 6 parole. Livello 3: griglia 16×16, diagonali abilitate, 8 parole. Livello 4: griglia 20×20, diagonali e inverse, 8 parole. Confeziona ogni livello con fogli risposte e una guida di monitoraggio progressi. Gli insegnanti pagano prezzi premium per risorse differenziate utilizzabili su più livelli di capacità.',
+      description: 'Costruisci set di pratica cerca parole livellati usando dimensione della griglia e controlli di direzione come assi di differenziazione. Livello 1: griglia 8×8, solo orizzontale, 4 parole. Livello 2: griglia 12×12, orizzontale e verticale, 6 parole. Livello 3: griglia 16×16, diagonali abilitate, 8 parole. Livello 4: griglia 20×20, diagonali e inverse, 8 parole. Confeziona ogni livello con fogli risposte e una guida di monitoraggio progressi. i venditori pagano prezzi premium per risorse differenziate utilizzabili su più livelli di capacità.',
     },
     {
       title: 'Prodotti cerca parole multilingue',
@@ -85,14 +85,14 @@ const content: ToolContent = {
     },
     {
       title: 'Pacchetti puzzle stagionali e per festività',
-      description: 'Usa temi di immagini festive e stagionali per creare pacchetti a tempo limitato. Un pacchetto "Cerca Parole di Halloween" con vocabolario spaventoso in griglie progressivamente più grandi si vende bene in ottobre. Natale, rientro a scuola, primavera e estate hanno ciascuno le proprie finestre di vendita di punta su Etsy e TpT. Combina griglie piccole e facili per studenti più giovani con griglie grandi e impegnative per ragazzi più grandi in un unico pacchetto stagionale per massimizzare il tuo pubblico di acquirenti.',
+      description: 'Usa temi di immagini festive e stagionali per creare pacchetti a tempo limitato. Un pacchetto "Cerca Parole di Halloween" con vocabolario spaventoso in griglie progressivamente più grandi si vende bene in ottobre. Natale, rientro a scuola, primavera e estate hanno ciascuno le proprie finestre di vendita di punta su Etsy e Gumroad. Combina griglie piccole e facili per utenti più giovani con griglie grandi e impegnative per ragazzi più grandi in un unico pacchetto stagionale per massimizzare il tuo pubblico di acquirenti.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Negozio puzzle graduati per difficoltà su Etsy',
-      description: 'Apri un negozio Etsy specializzato in schede cerca parole organizzate per livello di difficoltà. Usa dimensione della griglia e controlli di direzione per creare livelli chiaramente differenziati: Principiante (8×8, solo orizzontale), Intermedio (12×12, diagonali abilitate), Avanzato (18×18, diagonali e inverse), Esperto (25×25, tutte otto le direzioni). La maggior parte dei venditori di cerca parole offre puzzle generici — i prodotti graduati per difficoltà permettono agli acquirenti di trovare esattamente il livello di sfida giusto per i loro studenti, risultando in recensioni migliori e acquisti ripetuti.',
+      description: 'Apri un negozio Etsy specializzato in schede cerca parole organizzate per livello di difficoltà. Usa dimensione della griglia e controlli di direzione per creare livelli chiaramente differenziati: Principiante (8×8, solo orizzontale), Intermedio (12×12, diagonali abilitate), Avanzato (18×18, diagonali e inverse), Esperto (25×25, tutte otto le direzioni). La maggior parte dei venditori di cerca parole offre puzzle generici — i prodotti graduati per difficoltà permettono agli acquirenti di trovare esattamente il livello di sfida giusto per i loro utenti, risultando in recensioni migliori e acquisti ripetuti.',
       platform: 'Etsy',
     },
     {
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Centri vocabolario su Teachers Pay Teachers',
-      description: 'Carica pacchetti schede cerca parole su TpT organizzati per tema e difficoltà. Includi quattro livelli di difficoltà per tema usando dimensione della griglia e controlli di direzione come assi di differenziazione. Confeziona con fogli risposte codificati a colori e schede di monitoraggio progressi studenti. Gli insegnanti cercano "attività vocabolario" e "schede cerca parole" frequentemente. La difficoltà regolabile significa che un prodotto serve un\'intera classe di capacità miste, cosa che gli insegnanti apprezzano molto e menzionano nelle recensioni.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Centri vocabolario su Gumroad',
+      description: 'Carica pacchetti schede cerca parole su Gumroad organizzati per tema e difficoltà. Includi quattro livelli di difficoltà per tema usando dimensione della griglia e controlli di direzione come assi di differenziazione. Confeziona con fogli risposte codificati a colori e schede di monitoraggio progressi utenti. i venditori cercano "attività vocabolario" e "schede cerca parole" frequentemente. La difficoltà regolabile significa che un prodotto serve un\'intero catalogo di capacità miste, cosa che i venditori apprezzano molto e menzionano nelle recensioni.',
+      platform: 'Gumroad',
     },
     {
       title: 'Negozio puzzle multilingue',
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Kit puzzle completo su Gumroad',
-      description: 'Raggruppa schede cerca parole con parole mescolate, indovina parole, crittogrammi e schede di abbinamento per creare un kit puzzle completo su Gumroad. Ogni formato esercita una competenza cognitiva diversa: cerca parole costruisce scansione visiva e riconoscimento di pattern, parole mescolate pratica il riordino lettere, indovina parole testa il ricordo dello spelling. Un kit puzzle multi-formato giustifica un prezzo premium e offre agli studenti pratica variegata con lo stesso vocabolario.',
+      description: 'Raggruppa schede cerca parole con parole mescolate, indovina parole, crittogrammi e schede di abbinamento per creare un kit puzzle completo su Gumroad. Ogni formato esercita una competenza cognitiva diversa: cerca parole costruisce scansione visiva e riconoscimento di pattern, parole mescolate pratica il riordino lettere, indovina parole testa il ricordo dello spelling. Un kit puzzle multi-formato giustifica un prezzo premium e offre agli utenti pratica variegata con lo stesso vocabolario.',
       platform: 'Gumroad',
     },
   ],
@@ -137,15 +137,15 @@ const content: ToolContent = {
     },
     {
       title: 'Usa le modalità di visualizzazione strategicamente',
-      description: 'La modalità Parole + Immagini è lo standard — ottima per la costruzione del vocabolario. La modalità Solo Immagini aggiunge una sfida extra: gli studenti devono identificare cosa raffigura l\'immagine prima di poter cercare la parola. La modalità Solo Parole crea cerca parole classici testuali senza indizi visivi. Offri tutte e tre le modalità come varianti dello stesso pacchetto a tema per triplicare la tua gamma prodotti da una singola sessione di design.',
+      description: 'La modalità Parole + Immagini è lo standard — ottima per la costruzione del vocabolario. La modalità Solo Immagini aggiunge una sfida extra: gli utenti devono identificare cosa raffigura l\'immagine prima di poter cercare la parola. La modalità Solo Parole crea cerca paroi negozici testuali senza indizi visivi. Offri tutte e tre le modalità come varianti dello stesso pacchetto a tema per triplicare la tua gamma prodotti da una singola sessione di design.',
     },
     {
       title: 'Usa la scala di grigi per KDP e stampa in blocco',
-      description: 'Attiva l\'opzione scala di grigi per schede destinate agli interni Amazon KDP o alla stampa in blocco in classe. L\'output in bianco e nero costa significativamente meno da stampare. Riserva la modalità colore per le anteprime delle inserzioni Etsy e i download digitali dove griglie vivaci e immagini colorate attirano i clic.',
+      description: 'Attiva l\'opzione scala di grigi per schede destinate agli interni Amazon KDP o alla stampa in blocco online. L\'output in bianco e nero costa significativamente meno da stampare. Riserva la modalità colore per le anteprime delle inserzioni Etsy e i download digitali dove griglie vivaci e immagini colorate attirano i clic.',
     },
     {
       title: 'I fogli risposte codificati a colori aggiungono valore professionale',
-      description: 'Il foglio risposte a sei colori — rosa, blu, verde, oro, corallo, lavanda — evidenzia ogni parola in modo distinto, anche quando le parole si incrociano o si sovrappongono nella griglia. Includi sempre fogli risposte nei tuoi pacchetti prodotto. Gli insegnanti se li aspettano, i genitori li apprezzano, e il formato codificato a colori appare professionale nelle anteprime delle inserzioni rispetto ai semplici fogli risposte con parole cerchiate.',
+      description: 'Il foglio risposte a sei colori — rosa, blu, verde, oro, corallo, lavanda — evidenzia ogni parola in modo distinto, anche quando le parole si incrociano o si sovrappongono nella griglia. Includi sempre fogli risposte nei tuoi pacchetti prodotto. i venditori se li aspettano, i genitori li apprezzano, e il formato codificato a colori appare professionale nelle anteprime delle inserzioni rispetto ai semplici fogli risposte con parole cerchiate.',
     },
     {
       title: 'Abbina con altri strumenti di alfabetizzazione per pacchetti premium',
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Come funziona il formato puzzle cerca parole?',
-      answer: 'Le parole nascoste sono incorporate in una griglia di lettere riempitive casuali. Gli studenti esaminano righe, colonne e opzionalmente diagonali per trovare ogni parola, poi la cerchiano o evidenziano. Le lettere riempitive della griglia vengono randomizzate ogni volta che generi, così ogni puzzle è unico anche con la stessa lista di parole. Fino a 8 parole possono essere posizionate in una singola griglia.',
+      answer: 'Le parole nascoste sono incorporate in una griglia di lettere riempitive casuali. gli utenti esaminano righe, colonne e opzionalmente diagonali per trovare ogni parola, poi la cerchiano o evidenziano. Le lettere riempitive della griglia vengono randomizzate ogni volta che generi, così ogni puzzle è unico anche con la stessa lista di parole. Fino a 8 parole possono essere posizionate in una singola griglia.',
     },
     {
       question: 'Quali dimensioni di griglia sono disponibili?',
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'In cosa differisce il cerca parole da parole mescolate e indovina parole?',
-      answer: 'Il Cerca Parole è un puzzle di scansione visiva — gli studenti trovano parole nascoste incorporate in una griglia di lettere casuali esaminando righe, colonne e diagonali. Le Parole Mescolate danno agli studenti tessere lettere mescolate da riordinare nella scrittura corretta. Indovina Parole mostra spazi vuoti in posizioni fisse e gli studenti inseriscono le lettere mancanti. Ogni formato esercita una competenza cognitiva diversa e si abbinano bene in prodotti raggruppati.',
+      answer: 'Il Cerca Parole è un puzzle di scansione visiva — gli utenti trovano parole nascoste incorporate in una griglia di lettere casuali esaminando righe, colonne e diagonali. Le Parole Mescolate danno agli utenti tessere lettere mescolate da riordinare nella scrittura corretta. Indovina Parole mostra spazi vuoti in posizioni fisse e gli utenti inseriscono le lettere mancanti. Ogni formato esercita una competenza cognitiva diversa e si abbinano bene in prodotti raggruppati.',
     },
     {
       question: 'Quali lingue sono supportate?',
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: 'Posso vendere le schede create con questo strumento commercialmente?',
-      answer: 'La prova gratuita con filigrana è solo per uso personale e didattico. Per vendere le schede su Etsy, Teachers Pay Teachers, Amazon KDP o qualsiasi altro marketplace, è necessaria una licenza commerciale. La licenza commerciale rimuove la filigrana e concede pieni diritti di rivendita per le schede che crei.',
+      answer: 'La prova gratuita con filigrana è solo per uso personale e didattico. Per vendere le schede su Etsy, Gumroad, Amazon KDP o qualsiasi altro marketplace, è necessaria una licenza commerciale. La licenza commerciale rimuove la filigrana e concede pieni diritti di rivendita per le schede che crei.',
     },
     {
       question: 'Quali formati di file posso scaricare?',

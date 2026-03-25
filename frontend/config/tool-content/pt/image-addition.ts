@@ -1,26 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'criar fichas de adição para a sala de aula',
+    primaryKeyword: 'criar fichas de adição para a loja',
     secondaryKeywords: [
-      'criador de fichas de adição para professores',
+      'criador de fichas de adição para vendedores',
       'fichas de adição matemática para crianças',
       'exercícios de adição imprimíveis',
       'fichas de adição com imagens para pré-escola',
     ],
     lsiKeywords: [
-      'fichas matemáticas visuais para a classe',
+      'fichas matemáticas visuais para a loja',
       'exercícios de adição com imagens para crianças',
-      'fichas matemáticas pré-escola para professores',
+      'fichas matemáticas pré-escola para vendedores',
     ],
-    titleTag: 'Criar Fichas de Adição — Para Professores e Pais',
-    metaDescription: 'Crie fichas de adição com imagens temáticas para a sala de aula. 104 temas, dificuldade ajustável, gabarito incluído, PDF imprimível. Teste com marca d\'água.',
+    titleTag: 'Criar Fichas de Adição — para vendedores e Pais',
+    metaDescription: 'Crie fichas de adição com imagens temáticas para a loja. 104 temas, dificuldade ajustável, gabarito incluído, PDF imprimível. Teste com marca d\'água.',
     },
 
   hero: {
     title: 'Gerador de Fichas de Adição',
     tagline: 'Crie fichas de adição com imagens atrativas em menos de 60 segundos',
-    description: 'Transforme a prática de matemática numa aventura visual. Esta ferramenta permite-lhe criar fichas de adição personalizadas com imagens temáticas que as crianças realmente querem completar. Escolha entre mais de 100 temas de imagens, ajuste o intervalo de dificuldade, selecione o layout da página e descarregue PDFs prontos para imprimir ou JPEGs de alta resolução. Perfeito para professores que preparam pacotes de tarefas diferenciadas, pais que complementam a aprendizagem escolar e vendedores da Etsy que criam produtos de matemática imprimíveis. O teste grátis inclui uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender as suas criações com uso comercial.',
+    description: 'Transforme a prática de matemática numa aventura visual. Esta ferramenta permite-lhe criar fichas de adição personalizadas com imagens temáticas que as crianças realmente querem completar. Escolha entre mais de 100 temas de imagens, ajuste o intervalo de dificuldade, selecione o layout da página e descarregue PDFs prontos para imprimir ou JPEGs de alta resolução. Perfeito para vendedores que preparam pacotes de tarefas diferenciadas, pais que complementam a aprendizagem escolar e vendedores da Etsy que criam produtos de matemática imprimíveis. O teste grátis inclui uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender as suas criações com uso comercial.',
   },
 
   tutorial: {
@@ -36,7 +36,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Ajustar o Intervalo de Dificuldade',
-        description: 'Ajuste os controlos «Mínimo de elementos por grupo» e «Máximo de elementos por grupo» para controlar os números utilizados. Para a pré-escola, experimente 1–3. Para o jardim de infância, use 1–5. Os alunos do 1.º ano podem trabalhar com 1–10. Também pode definir o número de exercícios por ficha (de 1 a 10).',
+        description: 'Ajuste os controlos «Mínimo de elementos por grupo» e «Máximo de elementos por grupo» para controlar os números utilizados. Para a pré-escola, experimente 1–3. Para o jardim de infância, use 1–5. Os usuários do 1.º ano podem trabalhar com 1–10. Também pode definir o número de exercícios por ficha (de 1 a 10).',
       },
       {
         title: 'Selecionar um Tema da Biblioteca de Imagens',
@@ -48,7 +48,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Adicionar Texto e Títulos',
-        description: 'Use o painel «Ferramentas de Texto» para adicionar um título, um campo de nome do aluno ou instruções. Escolha entre fontes adequadas para crianças como Fredoka, Baloo 2, Quicksand e Nunito. Ajuste o tamanho, cor e contorno opcional do texto para melhorar a legibilidade sobre os fundos.',
+        description: 'Use o painel «Ferramentas de Texto» para adicionar um título, um campo de nome ou instruções. Escolha entre fontes adequadas para crianças como Fredoka, Baloo 2, Quicksand e Nunito. Ajuste o tamanho, cor e contorno opcional do texto para melhorar a legibilidade sobre os fundos.',
       },
       {
         title: 'Ajustar as Opções da Ficha',
@@ -64,11 +64,11 @@ const content: ToolContent = {  seo: {
   whatYouCanCreate: [
     {
       title: 'Pacotes de Atividades de Adição Temáticos',
-      description: 'Crie um conjunto de 10 a 20 fichas em torno de um único tema — dinossauros, animais da quinta ou criaturas marinhas. Agrupe-os como um pacote PDF e venda na Etsy ou no Teachers Pay Teachers. Os pais adoram pacotes temáticos porque mantêm as crianças envolvidas durante mais tempo. Cada tema da biblioteca contém variedade suficiente para completar um pacote inteiro sem repetir imagens, o que significa que os compradores obtêm uma verdadeira diversidade visual em cada download. Defina o preço entre 3 $ e 5 $ para temas individuais e entre 8 $ e 12 $ para mega-pacotes que combinam vários temas com uma curva de dificuldade progressiva.',
+      description: 'Crie um conjunto de 10 a 20 fichas em torno de um único tema — dinossauros, animais da quinta ou criaturas marinhas. Agrupe-os como um pacote PDF e venda na Etsy ou no Gumroad. Os pais adoram pacotes temáticos porque mantêm as crianças envolvidas durante mais tempo. Cada tema da biblioteca contém variedade suficiente para completar um pacote inteiro sem repetir imagens, o que significa que os compradores obtêm uma verdadeira diversidade visual em cada download. Defina o preço entre 3 $ e 5 $ para temas individuais e entre 8 $ e 12 $ para mega-pacotes que combinam vários temas com uma curva de dificuldade progressiva.',
     },
     {
       title: 'Conjuntos de Tarefas Diferenciados',
-      description: 'Gere três versões da mesma ficha com diferentes níveis de dificuldade: fácil (1–3), médio (1–5) e difícil (1–10). Os professores podem entregar o nível adequado a cada aluno sem gastar tempo extra de preparação. Esta abordagem funciona especialmente bem no Teachers Pay Teachers, onde os educadores procuram especificamente material diferenciado que poupa tempo de planificação. Agrupe os três níveis de dificuldade como um único listing entre 4 $ e 6 $, e inclua um guia docente explicando qual nível se adapta a cada perfil de aluno.',
+      description: 'Gere três versões da mesma ficha com diferentes níveis de dificuldade: fácil (1–3), médio (1–5) e difícil (1–10). Os vendedores podem entregar o nível adequado a cada usuário sem gastar tempo extra de preparação. Esta abordagem funciona especialmente bem no Gumroad, onde os vendedores procuram especificamente material diferenciado que poupa tempo de planificação. Agrupe os três níveis de dificuldade como um único listing entre 4 $ e 6 $, e inclua um guia vendedor explicando qual nível se adapta a cada perfil de usuário.',
     },
     {
       title: 'Pacotes de Matemática Sazonais',
@@ -79,8 +79,8 @@ const content: ToolContent = {  seo: {
       description: 'Gere de 50 a 100 páginas de fichas de adição em modos mistos, exporte como PDF de alta resolução e publique como livro de atividades low-content na Amazon KDP. O formato quadrado (1200×1200) é ideal para livros de atividades KDP. Use um tema coerente ao longo do livro ou alterne temas por capítulo para um aspeto profissional coeso. Inclua um índice, uma página de introdução com instruções para os pais e uma secção de gabaritos completa no final. Defina o preço dos seus livros KDP entre 5,99 $ e 8,99 $ para retornos ótimos de royalties.',
     },
     {
-      title: 'Pacotes de Exercícios Matinais para a Sala de Aula',
-      description: 'Prepare um mês de aquecimentos diários de adição. Cada ficha demora de 5 a 10 minutos, ideal para o trabalho de entrada matinal. Inclua o gabarito para que os alunos se autocorrijam. Os pacotes de exercícios matinais vendem-se de forma consistente na Etsy e no Teachers Pay Teachers porque os professores compram-nos no início de cada ano letivo. Crie pacotes mensais de 20 a 25 fichas entre 5 $ e 8 $, e ofereça um pacote de ano inteiro com desconto entre 35 $ e 45 $ para maximizar as receitas por cliente.',
+      title: 'Pacotes de Exercícios Matinais para a loja',
+      description: 'Prepare um mês de aquecimentos diários de adição. Cada ficha demora de 5 a 10 minutos, ideal para o trabalho de entrada matinal. Inclua o gabarito para que os usuários se autocorrijam. Os pacotes de exercícios matinais vendem-se de forma consistente na Etsy e no Gumroad porque os vendedores compram-nos no início de cada ano letivo. Crie pacotes mensais de 20 a 25 fichas entre 5 $ e 8 $, e ofereça um pacote de ano inteiro com desconto entre 35 $ e 45 $ para maximizar as receitas por cliente.',
     },
     {
       title: 'Fichas de Matemática Bilingues',
@@ -95,9 +95,9 @@ const content: ToolContent = {  seo: {
       platform: 'Etsy',
     },
     {
-      title: 'Vendedor no Teachers Pay Teachers',
-      description: 'Carregue pacotes de fichas de adição diferenciadas no TPT. Os professores procuram constantemente «fichas de adição com imagens». Inclua o gabarito e um guia docente em cada listing para uma maior perceção de valor. Ao criar os seus listings de TPT, invista tempo adicional nas imagens de pré-visualização porque os professores tomam as suas decisões de compra quase exclusivamente a partir das miniaturas visuais. Gere fichas de exemplo com os temas mais coloridos e inclua capturas de ecrã anotadas mostrando as opções de dificuldade e os modos de exercício disponíveis.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Vendedor no Gumroad',
+      description: 'Carregue pacotes de fichas de adição diferenciadas no Gumroad. Os vendedores procuram constantemente «fichas de adição com imagens». Inclua o gabarito e um guia vendedor em cada listing para uma maior perceção de valor. Ao criar os seus listings de Gumroad, invista tempo adicional nas imagens de pré-visualização porque os vendedores tomam as suas decisões de compra quase exclusivamente a partir das miniaturas visuais. Gere fichas de exemplo com os temas mais coloridos e inclua capturas de ecrã anotadas mostrando as opções de dificuldade e os modos de exercício disponíveis.',
+      platform: 'Gumroad',
     },
     {
       title: 'Livros de Atividades na Amazon KDP',
@@ -111,7 +111,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Biblioteca de Recursos para Centros de Explicações',
-      description: 'Se dirige um centro de explicações, gere fichas personalizadas para cada sessão com os alunos. O formato baseado em imagens mantém os estudantes mais novos envolvidos enquanto faz o acompanhamento dos intervalos numéricos que lhes são difíceis. Use o gabarito para uma correção instantânea. Acompanhe o progresso de cada aluno guardando as configurações e regenerando exercícios semelhantes com um nível de dificuldade ligeiramente superior à medida que melhoram.',
+      description: 'Se dirige um centro de explicações, gere fichas personalizadas para cada sessão com os usuários. O formato baseado em imagens mantém os compradores mais novos envolvidos enquanto faz o acompanhamento dos intervalos numéricos que lhes são difíceis. Use o gabarito para umo valor percebido instantânea. Acompanhe o progresso de cada usuário guardando as configurações e regenerando exercícios semelhantes com um nível de dificuldade ligeiramente superior à medida que melhoram.',
     },
     {
       title: 'Lead Magnet nas Redes Sociais',
@@ -130,7 +130,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Inclua Sempre o Gabarito',
-      description: 'Clique em «Gerar Gabarito» antes de descarregar. Os compradores na Etsy e no TPT classificam sistematicamente melhor os produtos que incluem um gabarito. Demora apenas 10 segundos adicionais e melhora significativamente as suas avaliações e as compras repetidas. Um gabarito também torna o seu produto adequado para famílias que educam em casa, onde os pais precisam de verificar o trabalho rapidamente.',
+      description: 'Clique em «Gerar Gabarito» antes de descarregar. Os compradores na Etsy e no Gumroad classificam sistematicamente melhor os produtos que incluem um gabarito. Demora apenas 10 segundos adicionais e melhora significativamente as suas avaliações e as compras repetidas. Um gabarito também torna o seu produto adequado para famílias que educam em casa, onde os pais precisam de verificar o trabalho rapidamente.',
     },
     {
       title: 'Exporte em PDF e em JPEG',
@@ -138,11 +138,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Comece com Intervalos de Números Baixos',
-      description: 'Para produtos destinados à pré-escola e ao jardim de infância, mantenha o máximo de elementos por grupo em 3–5. As crianças pequenas ficam sobrecarregadas com números grandes. Crie versões separadas «fácil» e «desafio» de cada ficha para que os pais e professores possam escolher o nível adequado.',
+      description: 'Para produtos destinados à pré-escola e ao jardim de infância, mantenha o máximo de elementos por grupo em 3–5. As crianças pequenas ficam sobrecarregadas com números grandes. Crie versões separadas «fácil» e «desafio» de cada ficha para que os pais e vendedores possam escolher o nível adequado.',
     },
     {
       title: 'Adicione Texto Personalizado para a Sua Marca',
-      description: 'Use as Ferramentas de Texto para adicionar o nome da sua loja, um aviso de direitos de autor ou uma mensagem motivadora na parte inferior de cada ficha. Este branding subtil ajuda a construir reconhecimento se um cliente partilhar a sua ficha com outro pai ou professor.',
+      description: 'Use as Ferramentas de Texto para adicionar o nome da sua loja, um aviso de direitos de autor ou uma mensagem motivadora na parte inferior de cada ficha. Este branding subtil ajuda a construir reconhecimento se um cliente partilhar a sua ficha com outro pai ou vendedor.',
     },
     {
       title: 'Aproveite a Biblioteca de Bordas e Fundos',
@@ -161,7 +161,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Posso usar as fichas para fins comerciais?',
-      answer: 'O teste grátis com marca d\'água é apenas para uso pessoal e educativo. Para vender fichas na Etsy, Teachers Pay Teachers, Amazon KDP ou qualquer outro marketplace, precisa de uma licença comercial. A licença comercial remove a marca d\'água e concede direitos completos de revenda para as fichas que criar.',
+      answer: 'O teste grátis com marca d\'água é apenas para uso pessoal e educativo. Para vender fichas na Etsy, Gumroad, Amazon KDP ou qualquer outro marketplace, precisa de uma licença comercial. A licença comercial remove a marca d\'água e concede direitos completos de revenda para as fichas que criar.',
     },
     {
       question: 'Quantos temas de imagens estão disponíveis?',
@@ -181,7 +181,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Posso gerar um gabarito?',
-      answer: 'Sim. Após gerar uma ficha, clique em «Gerar Gabarito» para criar uma folha de soluções com todas as respostas preenchidas. Pode descarregar o gabarito como um ficheiro JPEG ou PDF independente. Isto é especialmente útil para professores e para vendedores que querem incluir gabaritos nos seus produtos. Os compradores na Etsy e no TPT deixam sistematicamente melhores classificações em listings que incluem gabaritos.',
+      answer: 'Sim. Após gerar uma ficha, clique em «Gerar Gabarito» para criar uma folha de soluções com todas as respostas preenchidas. Pode descarregar o gabarito como um ficheiro JPEG ou PDF independente. Isto é especialmente útil para vendedores e para vendedores que querem incluir gabaritos nos seus produtos. Os compradores na Etsy e no Gumroad deixam sistematicamente melhores classificações em listings que incluem gabaritos.',
     },
     {
       question: 'Que tamanhos de página são compatíveis?',

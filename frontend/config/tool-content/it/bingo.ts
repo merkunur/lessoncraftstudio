@@ -1,20 +1,20 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'creare cartelle bingo per la classe',
+    primaryKeyword: 'creare cartelle bingo per il negozio',
     secondaryKeywords: [
-      'creatore di bingo illustrato per la classe',
+      'creatore di bingo illustrato per il negozio',
       'creatore di giochi bingo per bambini',
       'cartelle bingo stampabili per la scuola',
-      'generatore di cartelle bingo per insegnanti',
+      'generatore di cartelle bingo per venditori',
     ],
     lsiKeywords: [
-      'generatore batch di cartelle bingo per la classe',
+      'generatore batch di cartelle bingo per il negozio',
       'creatore di bingo con immagini e parole',
       'foglio di richiamo bingo creatore',
     ],
-    titleTag: 'Creare Cartelle Bingo — Bingo per la Classe',
-    metaDescription: 'Crea cartelle bingo illustrate per la classe. Griglie da 3x3 a 5x5, generazione batch, foglio di richiamo, 104 temi. Prova gratuita con filigrana.',
+    titleTag: 'Creare Cartelle Bingo — Bingo per il negozio',
+    metaDescription: 'Crea cartelle bingo illustrate per il negozio. Griglie da 3x3 a 5x5, generazione batch, foglio di richiamo, 104 temi. Prova gratuita con filigrana.',
     },
 
   hero: {
@@ -32,7 +32,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Configura la Dimensione della Griglia e il Numero di Cartelle',
-        description: 'Apri il pannello Impostazioni Cartella Bingo e imposta le righe (3–5) e le colonne (3–5) in modo indipendente per definire la dimensione della griglia — il predefinito è 4×4 con 16 celle. Una griglia 3×3 è adatta per turni di bingo rapidi con meno elementi da seguire, mentre una griglia 5×5 offre l\'esperienza classica del bingo con 25 celle. Imposta il numero di cartelle da 1 a 10 per generare in batch più cartelle bingo uniche. Ogni cartella pesca una selezione casuale diversa dal pool di immagini, garantendo che ogni cartella nel batch sia unica — essenziale per il bingo dove ogni giocatore ha bisogno di una cartella diversa.',
+        description: 'Apri il pannello Impostazioni Cartella Bingo e imposta le righe (3–5) e le colonne (3–5) in modo indipendente per definire la dimensione della griglia — il predefinito è 4×4 con 16 celle. Una griglia 3×3 è adatta per turni di bingo rapidi con meno elementi da seguire, mentre una griglia 5×5 offre l\'esperienza negozica del bingo con 25 celle. Imposta il numero di cartelle da 1 a 10 per generare in batch più cartelle bingo uniche. Ogni cartella pesca una selezione casuale diversa dal pool di immagini, garantendo che ogni cartella nel batch sia unica — essenziale per il bingo dove ogni giocatore ha bisogno di una cartella diversa.',
       },
       {
         title: 'Scegli le Modalità di Riempimento per Celle e Gettoni',
@@ -40,7 +40,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Seleziona le Immagini dalla Libreria',
-        description: 'Apri il pannello Libreria di Immagini e sfoglia 104 collezioni tematiche con oltre 3.100 illustrazioni colorate — animali, cibo, veicoli, natura, festività, professioni e decine di altre categorie. Filtra per tema usando il menu a tendina o cerca per parola chiave. Clicca sulle immagini per selezionarle per le tue cartelle bingo. Attiva la casella "Usa selezione personalizzata" per scegliere manualmente immagini specifiche per il pool di richiamo — un contatore in tempo reale mostra il conteggio della selezione mentre scegli. La selezione personalizzata del richiamo ti dà un controllo preciso su quali elementi appaiono nel gioco di bingo, utile per attività allineate al curriculum o eventi tematici.',
+        description: 'Apri il pannello Libreria di Immagini e sfoglia 104 collezioni tematiche con oltre 3.100 illustrazioni colorate — animali, cibo, veicoli, natura, festività, professioni e decine di altre categorie. Filtra per tema usando il menu a tendina o cerca per parola chiave. Clicca sulle immagini per selezionarle per le tue cartelle bingo. Attiva la casella "Usa selezione personalizzata" per scegliere manualmente immagini specifiche per il pool di richiamo — un contatore in tempo reale mostra il conteggio della selezione mentre scegli. La selezione personalizzata del richiamo ti dà un controllo preciso su quali elementi appaiono nel gioco di bingo, utile per attività allineate al mercato o eventi tematici.',
       },
       {
         title: 'Imposta il Layout della Pagina e le Decorazioni',
@@ -56,7 +56,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Scarica Cartelle, Foglio di Richiamo e Batch ZIP',
-        description: 'Attiva la scala di grigi per versioni a risparmio d\'inchiostro ideali per la stampa in classe e gli interni KDP. Scarica i file individuali usando i quattro pulsanti dedicati: scheda JPEG, foglio di richiamo JPEG, scheda PDF e foglio di richiamo PDF — tutto renderizzato a 300 DPI (moltiplicatore 6×, qualità JPEG 1.0). Per l\'esportazione batch, clicca il pulsante download ZIP per ricevere tutte le cartelle bingo generate come JPEG individuali in un unico file bingo_cards.zip. L\'esportazione batch ZIP è essenziale per i venditori che creano set di cartelle bingo multipli — genera 10 cartelle uniche e confezionale in un unico download. I file sono pronti per la produzione per inserzioni Etsy, interni Amazon KDP e file risorse TpT.',
+        description: 'Attiva la scala di grigi per versioni a risparmio d\'inchiostro ideali per la stampa in volume e gli interni KDP. Scarica i file individuali usando i quattro pulsanti dedicati: scheda JPEG, foglio di richiamo JPEG, scheda PDF e foglio di richiamo PDF — tutto renderizzato a 300 DPI (moltiplicatore 6×, qualità JPEG 1.0). Per l\'esportazione batch, clicca il pulsante download ZIP per ricevere tutte le cartelle bingo generate come JPEG individuali in un unico file bingo_cards.zip. L\'esportazione batch ZIP è essenziale per i venditori che creano set di cartelle bingo multipli — genera 10 cartelle uniche e confezionale in un unico download. I file sono pronti per la produzione per inserzioni Etsy, interni Amazon KDP e file risorse Gumroad.',
       },
     ],
   },
@@ -64,7 +64,7 @@ const content: ToolContent = {  seo: {
   whatYouCanCreate: [
     {
       title: 'Set di Cartelle Bingo Tematiche per Dimensione della Griglia',
-      description: 'Crea pacchetti di cartelle bingo organizzati per tema e dimensione della griglia usando le 104 collezioni di immagini. Ogni tema supporta più configurazioni di griglia: cartelle 3×3 per gioco rapido con 9 celle per turni brevi, cartelle 4×4 standard con 16 celle per un gameplay equilibrato e cartelle 5×5 classiche con 25 celle per sessioni prolungate. Genera in batch 10 cartelle uniche per dimensione di griglia, poi combina tutte e tre le dimensioni in un unico pacchetto prodotto con fogli di richiamo inclusi. L\'esportazione batch ZIP confeziona ogni set per la consegna immediata. Il mescolamento Fisher-Yates dei gettoni assicura che ogni cartella presenti una sfida di bingo genuina dove i gettoni non rispecchiano mai il layout della griglia.',
+      description: 'Crea pacchetti di cartelle bingo organizzati per tema e dimensione della griglia usando le 104 collezioni di immagini. Ogni tema supporta più configurazioni di griglia: cartelle 3×3 per gioco rapido con 9 celle per turni brevi, cartelle 4×4 standard con 16 celle per un gameplay equilibrato e cartelle 5×5 negoziche con 25 celle per sessioni prolungate. Genera in batch 10 cartelle uniche per dimensione di griglia, poi combina tutte e tre le dimensioni in un unico pacchetto prodotto con fogli di richiamo inclusi. L\'esportazione batch ZIP confeziona ogni set per la consegna immediata. Il mescolamento Fisher-Yates dei gettoni assicura che ogni cartella presenti una sfida di bingo genuina dove i gettoni non rispecchiano mai il layout della griglia.',
     },
     {
       title: 'Prodotti Bingo Vocabolario Multilingue',
@@ -75,12 +75,12 @@ const content: ToolContent = {  seo: {
       description: 'Compila 40–80 cartelle bingo in libri di attività stampati per Amazon KDP. Struttura i capitoli per tema: bingo animali, bingo cibo, bingo veicoli, bingo festività. Includi i fogli di richiamo dopo ogni set così il libro è autosufficiente per il gioco — i lettori possono fotocopiare la pagina di richiamo mentre i giocatori usano le pagine delle cartelle bingo direttamente. Mescola le dimensioni delle griglie all\'interno dei capitoli per una difficoltà progressiva. Attiva la scala di grigi per stampe a risparmio d\'inchiostro che mantengano bassi i costi di stampa KDP. La funzione di generazione batch produce 10 cartelle uniche per set in pochi secondi, rendendo efficienti le compilazioni di grandi quaderni.',
     },
     {
-      title: 'Kit di Gioco Bingo Pronti per la Classe',
-      description: 'Costruisci kit di gioco bingo completi per l\'uso in classe con 10 cartelle uniche per giocatore e un foglio per chi conduce il gioco per ogni set. Gli insegnanti che cercano attività bingo apprezzano prodotti che arrivano pronti per giocare — stampa le cartelle, distribuiscile e inizia il gioco immediatamente. Usa la modalità Parola con vocabolario curricolare per il ripasso di italiano, la modalità Immagine per esercizi di riconoscimento visivo o modalità miste per l\'istruzione differenziata. La funzione di selezione personalizzata del richiamo ti permette di curare esattamente quali elementi del vocabolario appaiono nel gioco per un allineamento curricolare preciso.',
+      title: 'Kit di Gioco Bingo Pronti per il negozio',
+      description: 'Costruisci kit di gioco bingo completi per l\'uso online con 10 cartelle uniche per giocatore e un foglio per chi conduce il gioco per ogni set. i venditori che cercano attività bingo apprezzano prodotti che arrivano pronti per giocare — stampa le cartelle, distribuiscile e inizia il gioco immediatamente. Usa la modalità Parola con vocabolario curricolare per il ripasso di italiano, la modalità Immagine per esercizi di riconoscimento visivo o modalità miste per l\'pacchetti scalati per livello. La funzione di selezione personalizzata del richiamo ti permette di curare esattamente quali elementi del vocabolario appaiono nel gioco per un allineamento curricolare preciso.',
     },
     {
       title: 'Collezioni Bingo Stagionali e Festive',
-      description: 'Costruisci collezioni stagionali rotanti usando temi festivi e naturali dalla libreria di 104 temi. Tombola di Natale, bingo di Halloween, bingo di Pasqua, bingo di San Valentino, bingo del ritorno a scuola e bingo estivo supportano ciascuno pacchetti prodotto dedicati. Il bingo è un gioco naturalmente sociale che raggiunge il picco durante le festività quando famiglie e classi cercano attività di gruppo. Includi più dimensioni di griglia e varianti sia con immagini che con parole in ogni set stagionale per il massimo valore. Pubblica ogni collezione 4–6 settimane prima della festività per la massima visibilità sui marketplace.',
+      description: 'Costruisci collezioni stagionali rotanti usando temi festivi e naturali dalla libreria di 104 temi. Tombola di Natale, bingo di Halloween, bingo di Pasqua, bingo di San Valentino, bingo del ritorno a scuola e bingo estivo supportano ciascuno pacchetti prodotto dedicati. Il bingo è un gioco naturalmente sociale che raggiunge il picco durante le festività quando famiglie e negozi cercano attività di gruppo. Includi più dimensioni di griglia e varianti sia con immagini che con parole in ogni set stagionale per il massimo valore. Pubblica ogni collezione 4–6 settimane prima della festività per la massima visibilità sui marketplace.',
     },
     {
       title: 'Set di Cartelle Bingo per Eventi e Feste',
@@ -91,7 +91,7 @@ const content: ToolContent = {  seo: {
   businessIdeas: [
     {
       title: 'Negozio di Cartelle Bingo Tematiche su Etsy',
-      description: 'Apri un negozio Etsy specializzato in pacchetti di cartelle bingo illustrate organizzati per tema usando le 104 collezioni di immagini. Animali, cibo, veicoli, festività, natura e professioni diventano ciascuno inserzioni separate con 10–30 cartelle uniche per set e fogli di richiamo inclusi. La funzione di generazione batch crea 10 cartelle uniche per clic, e l\'esportazione ZIP le confeziona istantaneamente per la consegna digitale. Mescola le dimensioni delle griglie all\'interno dei pacchetti: cartelle 3×3 per gioco rapido, cartelle 4×4 standard e cartelle 5×5 classiche per varietà. Prezzi per singoli pacchetti tematici a 3–5 € per 10–15 cartelle con fogli di richiamo e pacchetti premium multi-tema a 8–15 €.',
+      description: 'Apri un negozio Etsy specializzato in pacchetti di cartelle bingo illustrate organizzati per tema usando le 104 collezioni di immagini. Animali, cibo, veicoli, festività, natura e professioni diventano ciascuno inserzioni separate con 10–30 cartelle uniche per set e fogli di richiamo inclusi. La funzione di generazione batch crea 10 cartelle uniche per clic, e l\'esportazione ZIP le confeziona istantaneamente per la consegna digitale. Mescola le dimensioni delle griglie all\'interno dei pacchetti: cartelle 3×3 per gioco rapido, cartelle 4×4 standard e cartelle 5×5 negoziche per varietà. Prezzi per singoli pacchetti tematici a 3–5 € per 10–15 cartelle con fogli di richiamo e pacchetti premium multi-tema a 8–15 €.',
       platform: 'Etsy',
     },
     {
@@ -100,13 +100,13 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Pacchetti Bingo per la Classe su TpT',
-      description: 'Carica pacchetti di attività bingo per la classe su TpT con cartelle uniche per i giocatori e fogli per chi conduce il gioco come punti di vendita principali. Gli insegnanti che cercano attività bingo apprezzano prodotti pronti per giocare — stampa, distribuisci e inizia il gioco. Crea set allineati al curriculum: bingo vocabolario usando la modalità Parola, bingo di riconoscimento immagini usando la modalità Immagine e bingo a modalità mista per l\'istruzione differenziata. Includi 10 cartelle uniche per set con un foglio di richiamo. La modalità Parola con nomi localizzati delle immagini trasforma il bingo in un\'attività di ripasso del vocabolario che gli insegnanti possono usare in italiano, scienze e unità tematiche.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Pacchetti Bingo per il negozio su Gumroad',
+      description: 'Carica pacchetti di attività bingo per il negozio su Gumroad con cartelle uniche per i giocatori e fogli per chi conduce il gioco come punti di vendita principali. i venditori che cercano attività bingo apprezzano prodotti pronti per giocare — stampa, distribuisci e inizia il gioco. Crea set allineati al mercato: bingo vocabolario usando la modalità Parola, bingo di riconoscimento immagini usando la modalità Immagine e bingo a modalità mista per l\'pacchetti scalati per livello. Includi 10 cartelle uniche per set con un foglio di richiamo. La modalità Parola con nomi localizzati delle immagini trasforma il bingo in un\'attività di ripasso del vocabolario che i venditori possono usare in italiano, scienze e unità tematiche.',
+      platform: 'Gumroad',
     },
     {
       title: 'Funnel di Traffico Bingo su Pinterest',
-      description: 'Le cartelle bingo creano pin visivamente accattivanti su Pinterest — il layout colorato della griglia con immagini tematiche e gettoni circolari crea un formato di gioco immediatamente riconoscibile che genitori e insegnanti adorano. Pubblica cartelle bingo di esempio mostrando diversi temi: bingo animali per bacheche della scuola dell\'infanzia, bingo festivo per bacheche stagionali e bingo con parole per bacheche educative. Crea serie di pin separate per "tombola stampabile", "giochi bingo per la classe" e "attività bingo festive". Il bingo è un gioco universalmente riconosciuto, quindi i pin attraggono pubblico di ogni paese e lingua. Collega ogni pin alle tue inserzioni Etsy o TpT.',
+      description: 'Le cartelle bingo creano pin visivamente accattivanti su Pinterest — il layout colorato della griglia con immagini tematiche e gettoni circolari crea un formato di gioco immediatamente riconoscibile che genitori e venditori adorano. Pubblica cartelle bingo di esempio mostrando diversi temi: bingo animali per bacheche della scuola dell\'infanzia, bingo festivo per bacheche stagionali e bingo con parole per bacheche educative. Crea serie di pin separate per "tombola stampabile", "giochi bingo per il negozio" e "attività bingo festive". Il bingo è un gioco universalmente riconosciuto, quindi i pin attraggono pubblico di ogni paese e lingua. Collega ogni pin alle tue inserzioni Etsy o Gumroad.',
       platform: 'Pinterest',
     },
     {
@@ -116,8 +116,8 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Prodotti Bingo Multilingue per Mercati Globali',
-      description: 'Il Generatore di Cartelle Bingo è sensibile alla lingua — la modalità Parola usa nomi localizzati delle immagini in 11 lingue, rendendo semplice produrre cartelle bingo in inglese, tedesco, francese, spagnolo, portoghese, italiano, olandese, svedese, danese, norvegese e finlandese dalle stesse immagini. Crea prodotti bingo vocabolario per negozi Etsy internazionali, acquirenti TpT multilingue e studenti di lingue in tutto il mondo. Vendi lo stesso set di bingo tematico in più versioni linguistiche senza bisogno di ridisegnare — basta cambiare la lingua e rigenerare. I pacchetti multilingue ottengono prezzi premium e raggiungono acquirenti che i concorrenti monolingue non possono raggiungere.',
-      platform: 'Etsy / TpT',
+      description: 'Il Generatore di Cartelle Bingo è sensibile alla lingua — la modalità Parola usa nomi localizzati delle immagini in 11 lingue, rendendo semplice produrre cartelle bingo in inglese, tedesco, francese, spagnolo, portoghese, italiano, olandese, svedese, danese, norvegese e finlandese dalle stesse immagini. Crea prodotti bingo vocabolario per negozi Etsy internazionali, acquirenti Gumroad multilingue e utenti di lingue in tutto il mondo. Vendi lo stesso set di bingo tematico in più versioni linguistiche senza bisogno di ridisegnare — basta cambiare la lingua e rigenerare. I pacchetti multilingue ottengono prezzi premium e raggiungono acquirenti che i concorrenti monolingue non possono raggiungere.',
+      platform: 'Etsy / Gumroad',
     },
   ],
 
@@ -132,7 +132,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Sfrutta la Selezione Personalizzata del Richiamo per l\'Allineamento Curricolare',
-      description: 'Attiva la casella "Usa selezione personalizzata" per scegliere manualmente esattamente quali immagini appaiono nel pool di richiamo. Il contatore in tempo reale mostra il conteggio della selezione mentre scegli dalla Libreria di Immagini. Questa funzione è fondamentale per creare giochi di bingo allineati al curriculum — seleziona solo le parole del vocabolario coperte dalla tua lezione, solo gli animali di un habitat specifico o solo i cibi di un\'unità sulla nutrizione. La selezione personalizzata del richiamo trasforma il bingo da un gioco casuale a uno strumento didattico mirato, che è il punto di vendita principale per i prodotti TpT per la classe.',
+      description: 'Attiva la casella "Usa selezione personalizzata" per scegliere manualmente esattamente quali immagini appaiono nel pool di richiamo. Il contatore in tempo reale mostra il conteggio della selezione mentre scegli dalla Libreria di Immagini. Questa funzione è fondamentale per creare giochi di bingo allineati al mercato — seleziona solo le parole del vocabolario coperte dalla tua lezione, solo gli animali di un habitat specifico o solo i cibi di un\'unità sulla nutrizione. La selezione personalizzata del richiamo trasforma il bingo da un gioco casuale a uno strumento didattico mirato, che è il punto di vendita principale per i prodotti Gumroad per il negozio.',
     },
     {
       title: 'Sfrutta il Riempimento Parola Sensibile alla Lingua per Prodotti Multilingue',
@@ -148,7 +148,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Punta a Più Dimensioni di Griglia per la Massima Copertura di Mercato',
-      description: 'Diverse dimensioni di griglia servono diversi pubblici. Le griglie 3×3 (9 celle) funzionano meglio per il bingo della scuola dell\'infanzia e della primaria con turni rapidi e meno elementi da seguire. Le griglie 4×4 (16 celle) sono adatte per le classi elementari con un gameplay equilibrato. Le griglie 5×5 (25 celle) offrono l\'esperienza di bingo classica per studenti più grandi e serate di gioco in famiglia. Includi tutte e tre le dimensioni nei tuoi pacchetti prodotto e crea inserzioni separate per ogni fascia d\'età. La funzione di generazione batch significa che cambiare dimensione della griglia e rigenerare richiede pochi secondi.',
+      description: 'Diverse dimensioni di griglia servono diversi pubblici. Le griglie 3×3 (9 celle) funzionano meglio per il bingo della scuola dell\'infanzia e della primaria con turni rapidi e meno elementi da seguire. Le griglie 4×4 (16 celle) sono adatte per i negozi elementari con un gameplay equilibrato. Le griglie 5×5 (25 celle) offrono l\'esperienza di bingo negozica per utenti più grandi e serate di gioco in famiglia. Includi tutte e tre le dimensioni nei tuoi pacchetti prodotto e crea inserzioni separate per ogni fascia d\'età. La funzione di generazione batch significa che cambiare dimensione della griglia e rigenerare richiede pochi secondi.',
     },
   ],
 
@@ -163,7 +163,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Quali dimensioni di griglia sono disponibili per le cartelle bingo?',
-      answer: 'Le righe e le colonne sono configurabili indipendentemente da 3 a 5, creando griglie da 3×3 (9 celle) fino a 5×5 (25 celle). Il predefinito è 4×4 con 16 celle. Puoi anche creare griglie non quadrate come 3×5 (15 celle) o 5×3 (15 celle) per formati di cartelle bingo unici. Le griglie più piccole funzionano bene per turni rapidi alla scuola dell\'infanzia con meno elementi da seguire, mentre le griglie 5×5 offrono l\'esperienza di bingo classica per partite più lunghe e pubblici più grandi.',
+      answer: 'Le righe e le colonne sono configurabili indipendentemente da 3 a 5, creando griglie da 3×3 (9 celle) fino a 5×5 (25 celle). Il predefinito è 4×4 con 16 celle. Puoi anche creare griglie non quadrate come 3×5 (15 celle) o 5×3 (15 celle) per formati di cartelle bingo unici. Le griglie più piccole funzionano bene per turni rapidi alla scuola dell\'infanzia con meno elementi da seguire, mentre le griglie 5×5 offrono l\'esperienza di bingo negozica per partite più lunghe e pubblici più grandi.',
     },
     {
       question: 'Qual è la differenza tra il riempimento delle celle e il riempimento dei gettoni?',
@@ -179,7 +179,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Cos\'è la selezione personalizzata del richiamo?',
-      answer: 'Attiva la casella "Usa selezione personalizzata" nel pannello Impostazioni Cartella Bingo per scegliere manualmente quali immagini specifiche appaiono nel pool di richiamo. Quando attivata, clicca sulle immagini nella Libreria di Immagini per aggiungerle alla tua selezione personalizzata del richiamo — un contatore in tempo reale mostra il conteggio della selezione mentre scegli. Questo ti dà un controllo preciso su quali elementi appaiono nel gioco di bingo, utile per attività di vocabolario allineate al curriculum, eventi tematici o qualsiasi situazione in cui vuoi curare gli elementi esatti che i giocatori incontreranno durante il gioco.',
+      answer: 'Attiva la casella "Usa selezione personalizzata" nel pannello Impostazioni Cartella Bingo per scegliere manualmente quali immagini specifiche appaiono nel pool di richiamo. Quando attivata, clicca sulle immagini nella Libreria di Immagini per aggiungerle alla tua selezione personalizzata del richiamo — un contatore in tempo reale mostra il conteggio della selezione mentre scegli. Questo ti dà un controllo preciso su quali elementi appaiono nel gioco di bingo, utile per attività di vocabolario allineate al mercato, eventi tematici o qualsiasi situazione in cui vuoi curare gli elementi esatti che i giocatori incontreranno durante il gioco.',
     },
     {
       question: 'Il Generatore di Cartelle Bingo è sensibile alla lingua?',
@@ -191,11 +191,11 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Quali dimensioni di pagina e formati di esportazione sono disponibili?',
-      answer: 'Le dimensioni di pagina includono Letter Verticale, Letter Orizzontale, A4 Verticale, A4 Orizzontale, Quadrato (1200×1200) e dimensioni personalizzate. Esporta come JPEG ad alta risoluzione o PDF pronto per la stampa a 300 DPI (moltiplicatore 6×, qualità JPEG 1.0). Attiva la scala di grigi per stampe a risparmio d\'inchiostro. Cinque opzioni di download: scheda JPEG, foglio di richiamo JPEG, scheda PDF, foglio di richiamo PDF e esportazione batch ZIP di tutte le cartelle generate. Tutte le esportazioni sono pronte per la produzione per download digitali, libri di attività stampati e materiali didattici.',
+      answer: 'Le dimensioni di pagina includono Letter Verticale, Letter Orizzontale, A4 Verticale, A4 Orizzontale, Quadrato (1200×1200) e dimensioni personalizzate. Esporta come JPEG ad alta risoluzione o PDF pronto per la stampa a 300 DPI (moltiplicatore 6×, qualità JPEG 1.0). Attiva la scala di grigi per stampe a risparmio d\'inchiostro. Cinque opzioni di download: scheda JPEG, foglio di richiamo JPEG, scheda PDF, foglio di richiamo PDF e esportazione batch ZIP di tutte le cartelle generate. Tutte le esportazioni sono pronte per la produzione per download digitali, libri di attività stampati e prodotti stampabili.',
     },
     {
       question: 'Posso vendere le cartelle bingo create con questo strumento a scopo commerciale?',
-      answer: 'Sì. Con una licenza commerciale, hai pieni diritti di vendere cartelle bingo come download digitali su Etsy, libri di attività stampati su Amazon KDP, risorse per la classe su TpT o attraverso qualsiasi altro canale di vendita. Le dimensioni di griglia configurabili, la generazione batch, l\'esportazione ZIP, le doppie modalità di riempimento, i fogli di richiamo dedicati, la selezione personalizzata del richiamo, il riempimento parola multilingue e le 104 collezioni tematiche di immagini ti danno tutto il necessario per creare prodotti bingo professionali che competono nelle categorie di giochi stampabili su tutti i principali marketplace.',
+      answer: 'Sì. Con una licenza commerciale, hai pieni diritti di vendere cartelle bingo come download digitali su Etsy, libri di attività stampati su Amazon KDP, risorse per il negozio su Gumroad o attraverso qualsiasi altro canale di vendita. Le dimensioni di griglia configurabili, la generazione batch, l\'esportazione ZIP, le doppie modalità di riempimento, i fogli di richiamo dedicati, la selezione personalizzata del richiamo, il riempimento parola multilingue e le 104 collezioni tematiche di immagini ti danno tutto il necessario per creare prodotti bingo professionali che competono nelle categorie di giochi stampabili su tutti i principali marketplace.',
     },
     {
       question: 'Qual è la vostra politica di rimborso?',
@@ -208,7 +208,7 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generatore-schede-abbinamento', anchorText: 'Generatore Schede di Abbinamento' },
     { pageType: 'tool', slug: 'generatore-puzzle-griglia', anchorText: 'Generatore Puzzle Griglia' },
     { pageType: 'tool', slug: 'generatore-discriminazione-visiva', anchorText: 'Generatore Discriminazione Visiva' },
-    { pageType: 'tool', slug: 'generatore-classificazione-immagini', anchorText: 'Generatore Classificazione Immagini' },
+    { pageType: 'tool', slug: 'generatore-negozificazione-immagini', anchorText: 'Generatore negozificazione Immagini' },
     { pageType: 'tool', slug: 'generatore-cerca-parole', anchorText: 'Generatore Cerca Parole' },
     { pageType: 'tool', slug: 'generatore-schede-intruso', anchorText: 'Generatore Schede Intruso' },
     { pageType: 'tool', slug: 'generatore-pagine-colorare', anchorText: 'Generatore Pagine da Colorare' },

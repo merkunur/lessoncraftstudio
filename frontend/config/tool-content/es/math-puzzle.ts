@@ -1,26 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'crear puzzles matemáticos para el aula',
+    primaryKeyword: 'crear puzzles matemáticos para venta en línea',
     secondaryKeywords: [
-      'puzzles matemáticos jigsaw para profesores',
+      'puzzles matemáticos jigsaw para vendedores',
       'creador de puzzles matemáticos para niños',
       'puzzles de matemáticas con imágenes para clase',
-      'fichas de puzzles matemáticos para alumnos',
+      'fichas de puzzles matemáticos para usuarios',
     ],
     lsiKeywords: [
-      'puzzle matemático con cuadrícula para el aula',
+      'puzzle matemático con cuadrícula para venta en línea',
       'actividad puzzle matemático jigsaw para niños',
       'creador de puzzles matemáticos configurable',
     ],
-    titleTag: 'Crear Puzzles Matemáticos — Para Profesores',
-    metaDescription: 'Crea puzzles matemáticos tipo rompecabezas para el aula. Cuadrículas con imágenes, tres modos de operación, clave de respuestas. Prueba con marca de agua.',
+    titleTag: 'Crear Puzzles Matemáticos — para vendedores',
+    metaDescription: 'Crea puzzles matemáticos tipo rompecabezas para venta en línea. Cuadrículas con imágenes, tres modos de operación, clave de respuestas. Prueba con marca de agua.',
     },
 
   hero: {
     title: 'Generador de Puzzles Matemáticos',
     tagline: 'Crea puzzles tipo rompecabezas con ecuaciones matemáticas en menos de 60 segundos',
-    description: 'Convierte la práctica de matemáticas en un puzzle visual que no se parece a ninguna ficha estándar. Esta herramienta divide una imagen elegida en una cuadrícula de celdas, cada una con una ecuación matemática. Las piezas desordenadas con números de respuesta aparecen debajo — los alumnos resuelven cada ecuación y colocan la pieza correcta para reconstruir la imagen. Elige entre tres modos de operación: Suma, Resta o Mixto (ambas operaciones combinadas aleatoriamente). Ajusta el tamaño de la cuadrícula desde 2×2 (4 piezas, más fácil) hasta 4×4 (16 piezas, más difícil) para adaptarte a cualquier nivel. Sube tus propias imágenes PNG o JPEG para puzzles personalizados, estacionales o de nicho, o explora la biblioteca integrada de más de 3.100 imágenes en 104 temas. El formato rompecabezas crea un producto visualmente reconocible que destaca en los resultados de búsqueda de marketplaces — los compradores que navegan filas de fichas idénticas se detendrán ante un puzzle de imágenes colorido. Descarga como PDF listo para imprimir o JPEG de alta resolución. La prueba gratuita incluye una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
+    description: 'Convierte la práctica de matemáticas en un puzzle visual que no se parece a ninguna ficha estándar. Esta herramienta divide una imagen elegida en una cuadrícula de celdas, cada una con una ecuación matemática. Las piezas desordenadas con números de respuesta aparecen debajo — los usuarios resuelven cada ecuación y colocan la pieza correcta para reconstruir la imagen. Elige entre tres modos de operación: Suma, Resta o Mixto (ambas operaciones combinadas aleatoriamente). Ajusta el tamaño de la cuadrícula desde 2×2 (4 piezas, más fácil) hasta 4×4 (16 piezas, más difícil) para adaptarte a cualquier nivel. Sube tus propias imágenes PNG o JPEG para puzzles personalizados, estacionales o de nicho, o explora la biblioteca integrada de más de 3.100 imágenes en 104 temas. El formato rompecabezas crea un producto visualmente reconocible que destaca en los resultados de búsqueda de marketplaces — los compradores que navegan filas de fichas idénticas se detendrán ante un puzzle de imágenes colorido. Descarga como PDF listo para imprimir o JPEG de alta resolución. La prueba gratuita incluye una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
   },
 
   tutorial: {
@@ -64,7 +64,7 @@ const content: ToolContent = {  seo: {
   whatYouCanCreate: [
     {
       title: 'Packs de Puzzles Matemáticos Temáticos',
-      description: 'Crea conjuntos de 15 a 20 puzzles usando imágenes temáticas de la biblioteca — dinosaurios, espacio, animales, vehículos. Cada puzzle usa una imagen diferente con ecuaciones de Suma o Resta en un tamaño de cuadrícula uniforme. Agrúpalos por tema y véndelos en Etsy o Teachers Pay Teachers. El formato rompecabezas hace que la miniatura de tu listing destaque instantáneamente frente a fichas de matemáticas estándar. Considera acompañar cada pack temático con un cuadernillo de claves de respuestas y una portada con el arte del tema. Los vendedores que incluyen portadas profesionales y un formato coherente en cada página reportan mejores reseñas de clientes y compras repetidas del mismo comprador.',
+      description: 'Crea conjuntos de 15 a 20 puzzles usando imágenes temáticas de la biblioteca — dinosaurios, espacio, animales, vehículos. Cada puzzle usa una imagen diferente con ecuaciones de Suma o Resta en un tamaño de cuadrícula uniforme. Agrúpalos por tema y véndelos en Etsy o Gumroad. El formato rompecabezas hace que la miniatura de tu listing destaque instantáneamente frente a fichas de matemáticas estándar. Considera acompañar cada pack temático con un cuadernillo de claves de respuestas y una portada con el arte del tema. Los vendedores que incluyen portadas profesionales y un formato coherente en cada página reportan mejores reseñas de clientes y compras repetidas del mismo comprador.',
     },
     {
       title: 'Cuadernos de Puzzles para KDP',
@@ -72,19 +72,19 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Puzzles Personalizados con Imagen Propia',
-      description: 'Sube tus propias imágenes — diseños de logotipo, ilustraciones hechas a mano o arte con licencia — para crear fichas de puzzles personalizados que ningún competidor puede replicar. Perfecto para profesores que quieren mascotas de clase, familias que personalizan el currículo de educación en casa o vendedores que construyen una marca visual distintiva.',
+      description: 'Sube tus propias imágenes — diseños de logotipo, ilustraciones hechas a mano o arte con licencia — para crear fichas de puzzles personalizados que ningún competidor puede replicar. Perfecto para vendedores que quieren mascotas de clase, familias que personalizan el catálogo de productos de trabajo desde casa o vendedores que construyen una marca visual distintiva.',
     },
     {
       title: 'Conjuntos de Dificultad Diferenciada',
-      description: 'Genera tres versiones del mismo puzzle temático a diferentes niveles: fácil (cuadrícula 2×2, solo Suma), medio (cuadrícula 3×3, Suma o Resta) y difícil (cuadrícula 4×4, operaciones mixtas). Los profesores pueden entregar el nivel adecuado a cada alumno. Véndelos como un pack diferenciado a un precio premium.',
+      description: 'Genera tres versiones del mismo puzzle temático a diferentes niveles: fácil (cuadrícula 2×2, solo Suma), medio (cuadrícula 3×3, Suma o Resta) y difícil (cuadrícula 4×4, operaciones mixtas). Los vendedores pueden entregar el nivel adecuado a cada usuario. Véndelos como un pack diferenciado a un precio premium.',
     },
     {
       title: 'Packs de Puzzles Estacionales y Festivos',
-      description: 'Usa temas de imágenes festivas y estacionales para crear packs de edición limitada. Un pack de «Puzzles Matemáticos de Navidad» con imágenes navideñas se vende muy bien en noviembre y diciembre. Halloween, San Valentín y la vuelta al cole tienen sus propias ventanas de ventas pico en Etsy y TpT.',
+      description: 'Usa temas de imágenes festivas y estacionales para crear packs de edición limitada. Un pack de «Puzzles Matemáticos de Navidad» con imágenes navideñas se vende muy bien en noviembre y diciembre. Halloween, San Valentín y la vuelta al cole tienen sus propias ventanas de ventas pico en Etsy y Gumroad.',
     },
     {
-      title: 'Puzzles de Calentamiento para el Aula',
-      description: 'Genera puzzles rápidos de 2×2 o 2×3 para calentamientos diarios de matemáticas. Los alumnos resuelven de 4 a 6 ecuaciones y reconstruyen una imagen divertida en menos de cinco minutos. Crea un conjunto de 30 puzzles (uno por día escolar) y véndelo como un pack «Un Mes de Puzzles Matemáticos de Calentamiento». El formato lúdico mantiene a los alumnos motivados desde el primer momento.',
+      title: 'Puzzles de Calentamiento para venta en línea',
+      description: 'Genera puzzles rápidos de 2×2 o 2×3 para calentamientos diarios de matemáticas. Los usuarios resuelven de 4 a 6 ecuaciones y reconstruyen una imagen divertida en menos de cinco minutos. Crea un conjunto de 30 puzzles (uno por día escolar) y véndelo como un pack «Un Mes de Puzzles Matemáticos de Calentamiento». El formato lúdico mantiene a los usuarios motivados desde el primer momento.',
     },
   ],
 
@@ -100,13 +100,13 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Packs Premium en Teachers Pay Teachers',
-      description: 'Sube packs de puzzles matemáticos diferenciados a TpT. Los profesores buscan constantemente «puzzles de matemáticas» y «juegos de matemáticas». Incluye los tres modos de operación, tres niveles de dificultad, claves de respuestas y una guía docente en cada listing. El formato rompecabezas añade valor percibido porque se siente como un juego, no como un ejercicio. Añade una hoja de instrucciones «Cómo Usar» explicando los niveles de dificultad de la cuadrícula, rangos de grado sugeridos y consejos para uso en el aula. Los compradores de TpT dejan sistemáticamente mejores calificaciones en recursos que incluyen documentación para el docente, lo que a su vez mejora la visibilidad de tu listing en los resultados de búsqueda de TpT.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Packs Premium en Gumroad',
+      description: 'Sube packs de puzzles matemáticos diferenciados a Gumroad. Los vendedores buscan constantemente «puzzles de matemáticas» y «juegos de matemáticas». Incluye los tres modos de operación, tres niveles de dificultad, claves de respuestas y una guía vendedor en cada listing. El formato rompecabezas añade valor percibido porque se siente como un juego, no como un ejercicio. Añade una hoja de instrucciones «Cómo Usar» explicando los niveles de dificultad de la cuadrícula, rangos de grado sugeridos y consejos para uso comercial. Los compradores de Gumroad dejan sistemáticamente mejores calificaciones en recursos que incluyen documentación para el vendedor, lo que a su vez mejora la visibilidad de tu listing en los resultados de búsqueda de Gumroad.',
+      platform: 'Gumroad',
     },
     {
       title: 'Kits de Puzzles con Imagen Personalizada en Gumroad',
-      description: 'Crea un kit premium de puzzles en Gumroad que incluya más de 30 puzzles usando imágenes seleccionadas a mano o subidas personalizadas. Dirígete a padres que educan en casa y buscan materiales de matemáticas visualmente atractivos. Incluye una guía explicando cómo usar los puzzles en cada nivel de dificultad para un currículo estructurado.',
+      description: 'Crea un kit premium de puzzles en Gumroad que incluya más de 30 puzzles usando imágenes seleccionadas a mano o subidas personalizadas. Dirígete a emprendedores y buscan materiales de matemáticas visualmente atractivos. Incluye una guía explicando cómo usar los puzzles en cada nivel de dificultad para un catálogo de productos estructurado.',
       platform: 'Gumroad',
     },
     {
@@ -128,7 +128,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Usa el Modo Mixto para Máxima Variedad',
-      description: 'El modo «Suma y Resta» mezcla aleatoriamente ambas operaciones en un solo puzzle. Esto crea fichas de repaso que evalúan ambas habilidades simultáneamente y evita que los alumnos caigan en un patrón repetitivo. Los puzzles en modo mixto también tienen mayor valor percibido en los listings de marketplaces. Los compradores de Etsy y TpT que buscan «repaso de matemáticas» o «evaluación de unidad» buscan específicamente recursos de operaciones mixtas, así que etiquetar tus listings con estos términos captura un segmento de compradores que los vendedores de una sola operación pasan por alto.',
+      description: 'El modo «Suma y Resta» mezcla aleatoriamente ambas operaciones en un solo puzzle. Esto crea fichas de repaso que evalúan ambas habilidades simultáneamente y evita que los usuarios caigan en un patrón repetitivo. Los puzzles en modo mixto también tienen mayor valor percibido en los listings de marketplaces. Los compradores de Etsy y Gumroad que buscan «repaso de matemáticas» o «evaluación de unidad» buscan específicamente recursos de operaciones mixtas, así que etiquetar tus listings con estos términos captura un segmento de compradores que los vendedores de una sola operación pasan por alto.',
     },
     {
       title: 'Sube Imágenes Propias para Reconocimiento de Marca',
@@ -144,11 +144,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Destaca el Formato Puzzle en las Miniaturas',
-      description: 'La cuadrícula rompecabezas es visualmente única e instantáneamente reconocible. Usa tus descargas JPEG como miniaturas de productos en Etsy y TpT. Una imagen colorida dividida en piezas numeradas capta la atención mucho más eficazmente que una vista previa de ficha simple.',
+      description: 'La cuadrícula rompecabezas es visualmente única e instantáneamente reconocible. Usa tus descargas JPEG como miniaturas de productos en Etsy y Gumroad. Una imagen colorida dividida en piezas numeradas capta la atención mucho más eficazmente que una vista previa de ficha simple.',
     },
     {
       title: 'Incluye Siempre la Clave de Respuestas',
-      description: 'Genera la clave de respuestas antes de descargar. La clave muestra cada pieza del puzzle colocada en su posición correcta de la cuadrícula con las ecuaciones resueltas. Los compradores en Etsy y TpT califican sistemáticamente mejor los productos que incluyen clave de respuestas — ahorra tiempo de corrección a los profesores.',
+      description: 'Genera la clave de respuestas antes de descargar. La clave muestra cada pieza del puzzle colocada en su posición correcta de la cuadrícula con las ecuaciones resueltas. Los compradores en Etsy y Gumroad califican sistemáticamente mejor los productos que incluyen clave de respuestas — ahorra valor percibido a los vendedores.',
     },
   ],
 
@@ -159,7 +159,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: '¿Cómo funciona el formato de puzzle matemático?',
-      answer: 'La herramienta divide una imagen elegida en una cuadrícula de celdas. Cada celda muestra una ecuación matemática (suma, resta o ambas). Debajo de la cuadrícula aparecen las piezas del puzzle desordenadas con números de respuesta. Los alumnos resuelven cada ecuación, encuentran la pieza correspondiente y la colocan en la celda correcta para reconstruir la imagen completa.',
+      answer: 'La herramienta divide una imagen elegida en una cuadrícula de celdas. Cada celda muestra una ecuación matemática (suma, resta o ambas). Debajo de la cuadrícula aparecen las piezas del puzzle desordenadas con números de respuesta. Los usuarios resuelven cada ecuación, encuentran la pieza correspondiente y la colocan en la celda correcta para reconstruir la imagen completa.',
     },
     {
       question: '¿Qué tamaños de cuadrícula están disponibles?',
@@ -167,7 +167,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: '¿Cuáles son los tres modos de operación?',
-      answer: 'El modo Suma llena cada celda con una ecuación de suma. El modo Resta usa ecuaciones de resta. El modo Suma y Resta mezcla aleatoriamente ambas operaciones en la cuadrícula, creando puzzles de repaso que evalúan ambas habilidades en una sola actividad. Para vendedores de productos, ofrecer los tres modos dentro de un solo pack aumenta el valor percibido porque los profesores obtienen fichas de práctica enfocada y fichas de repaso completo en una sola compra. Publicar cada modo como producto separado también funciona bien, dándote tres listings distintos a partir de la misma plantilla de diseño.',
+      answer: 'El modo Suma llena cada celda con una ecuación de suma. El modo Resta usa ecuaciones de resta. El modo Suma y Resta mezcla aleatoriamente ambas operaciones en la cuadrícula, creando puzzles de repaso que evalúan ambas habilidades en una sola actividad. Para vendedores de productos, ofrecer los tres modos dentro de un solo pack aumenta el valor percibido porque los vendedores obtienen fichas de práctica enfocada y fichas de repaso completo en una sola compra. Publicar cada modo como producto separado también funciona bien, dándote tres listings distintos a partir de la misma plantilla de diseño.',
     },
     {
       question: '¿Puedo subir mis propias imágenes?',
@@ -179,7 +179,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: '¿Puedo usar los puzzles con fines comerciales?',
-      answer: 'La prueba gratuita con marca de agua es solo para uso personal y educativo. Para vender puzzles en Etsy, Teachers Pay Teachers, Amazon KDP o cualquier otro marketplace, necesitas una licencia comercial. La licencia comercial elimina la marca de agua y otorga derechos completos de reventa para los puzzles que crees. No hay límite en la cantidad de puzzles que puedes generar o vender una vez licenciado. Eres dueño de los archivos generados y puedes publicarlos en múltiples plataformas simultáneamente — el mismo pack de puzzles puede aparecer en Etsy, TpT, Gumroad y KDP sin cargos adicionales.',
+      answer: 'La prueba gratuita con marca de agua es solo para uso personal y educativo. Para vender puzzles en Etsy, Gumroad, Amazon KDP o cualquier otro marketplace, necesitas una licencia comercial. La licencia comercial elimina la marca de agua y otorga derechos completos de reventa para los puzzles que crees. No hay límite en la cantidad de puzzles que puedes generar o vender una vez licenciado. Eres dueño de los archivos generados y puedes publicarlos en múltiples plataformas simultáneamente — el mismo pack de puzzles puede aparecer en Etsy, Gumroad, Gumroad y KDP sin cargos adicionales.',
     },
     {
       question: '¿Los puzzles funcionan en idiomas distintos del español?',
@@ -224,7 +224,7 @@ const content: ToolContent = {  seo: {
       },
       {
         src: '/samples/spanish/math puzzle/Rompecabezas Matemáticos 4.webp',
-        alt: 'Puzzle matemático mixto de suma y resta con cuadrícula grande para alumnos avanzados',
+        alt: 'Puzzle matemático mixto de suma y resta con cuadrícula grande para usuarios avanzados',
         caption: 'Operaciones mixtas — suma y resta en un solo puzzle',
       },
     ],

@@ -1,26 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'creare schede addizione codificata per la classe',
+    primaryKeyword: 'creare schede addizione codificata per il negozio',
     secondaryKeywords: [
-      'puzzle codice segreto matematica per insegnanti',
-      'schede addizione cifrata per la classe',
+      'puzzle codice segreto matematica per venditori',
+      'schede addizione cifrata per il negozio',
       'esercizi codice matematica per bambini',
       'creatore di schede addizione codificata',
     ],
     lsiKeywords: [
-      'puzzle cifrato matematica con immagini per la classe',
+      'puzzle cifrato matematica con immagini per il negozio',
       'scheda rivela parola codice segreto',
-      'attività codice numerico matematica per studenti',
+      'attività codice numerico matematica per utenti',
     ],
-    titleTag: 'Schede Addizione Codificata — Per la Classe',
-    metaDescription: 'Crea puzzle di addizione codificata per la classe. Simboli immagine, modalità Rivela Parola, 11 lingue. Prova gratuita con filigrana.',
+    titleTag: 'Schede Addizione Codificata — per il negozio',
+    metaDescription: 'Crea puzzle di addizione codificata per il negozio. Simboli immagine, modalità Rivela Parola, 11 lingue. Prova gratuita con filigrana.',
     },
 
   hero: {
     title: 'Generatore di Addizione Codificata',
-    tagline: 'Crea puzzle crittaritmetici in cui gli alunni decifrano codici segreti attraverso l\'addizione',
-    description: 'Questo non è un semplice foglio di addizioni — è una sfida di decrittazione. Ogni puzzle nasconde numeri dietro simboli-immagine e gli alunni devono risolvere equazioni di addizione per scoprire quale numero corrisponde a ciascuna figura. Nella Modalità Normale ogni simbolo rappresenta una cifra unica. Attiva la Modalità Rivela Parola e ogni equazione risolta svela una lettera di una parola segreta, mentre lettere distratrici tengono gli alunni sulle spine. Scegli tra oltre 100 temi con più di 3.100 illustrazioni, regola il numero di simboli e la complessità degli addendi e scarica PDF pronti per la stampa o JPEG ad alta risoluzione. Supporta 11 lingue con alfabeti specifici per ogni lingua — la modalità Rivela Parola in italiano funziona nativamente con accenti come à, è, é, ì, ò e ù. Perfetto per venditori Etsy che creano puzzle matematici di nicchia, editori Amazon KDP che pubblicano libri di attività crittaritmetiche e insegnanti che cercano esercizi coinvolgenti. La prova gratuita include una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere le tue creazioni su qualsiasi piattaforma.',
+    tagline: 'Crea puzzle crittaritmetici in cui gli utenti decifrano codici segreti attraverso l\'addizione',
+    description: 'Questo non è un semplice foglio di addizioni — è una sfida di decrittazione. Ogni puzzle nasconde numeri dietro simboli-immagine e gli utenti devono risolvere equazioni di addizione per scoprire quale numero corrisponde a ciascuna figura. Nella Modalità Normale ogni simbolo rappresenta una cifra unica. Attiva la Modalità Rivela Parola e ogni equazione risolta svela una lettera di una parola segreta, mentre lettere distratrici tengono gli utenti sulle spine. Scegli tra oltre 100 temi con più di 3.100 illustrazioni, regola il numero di simboli e la complessità degli addendi e scarica PDF pronti per la stampa o JPEG ad alta risoluzione. Supporta 11 lingue con alfabeti specifici per ogni lingua — la modalità Rivela Parola in italiano funziona nativamente con accenti come à, è, é, ì, ò e ù. Perfetto per venditori Etsy che creano puzzle matematici di nicchia, editori Amazon KDP che pubblicano libri di attività crittaritmetiche e venditori che cercano esercizi coinvolgenti. La prova gratuita include una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere le tue creazioni su qualsiasi piattaforma.',
   },
 
   tutorial: {
@@ -36,11 +36,11 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Scegliere gli addendi per equazione',
-        description: 'Seleziona quanti simboli compaiono in ciascuna equazione di addizione: 2, 3, 4 oppure Mix. Le equazioni a due addendi sono adatte agli alunni più piccoli. Tre e quattro addendi stimolano i più grandi a tenere traccia di più incognite contemporaneamente. Il Mix varia casualmente il numero di addendi per la massima varietà.',
+        description: 'Seleziona quanti simboli compaiono in ciascuna equazione di addizione: 2, 3, 4 oppure Mix. Le equazioni a due addendi sono adatte agli utenti più piccoli. Tre e quattro addendi stimolano i più grandi a tenere traccia di più incognite contemporaneamente. Il Mix varia casualmente il numero di addendi per la massima varietà.',
       },
       {
         title: 'Attivare la Modalità Rivela Parola (opzionale)',
-        description: 'Attiva la Modalità Rivela Parola per sbloccare un formato di puzzle completamente diverso. Digita una parola segreta (fino a 10 caratteri) e ogni equazione risolta correttamente svela una lettera. Lettere distratrici con somme errate tengono gli alunni sulle spine. In italiano la rivelazione funziona nativamente con lettere accentate come à, è, é, ì, ò e ù.',
+        description: 'Attiva la Modalità Rivela Parola per sbloccare un formato di puzzle completamente diverso. Digita una parola segreta (fino a 10 caratteri) e ogni equazione risolta correttamente svela una lettera. Lettere distratrici con somme errate tengono gli utenti sulle spine. In italiano la rivelazione funziona nativamente con lettere accentate come à, è, é, ì, ò e ù.',
       },
       {
         title: 'Selezionare le immagini dalla libreria tematica',
@@ -52,11 +52,11 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Aggiungere testo e branding',
-        description: 'Usa il pannello «Strumenti testo» per aggiungere un titolo come «Decifra il codice!» o «Sfida del codice segreto». Aggiungi un campo per il nome dell\'alunno, istruzioni o il logo del tuo negozio. Scegli tra font adatti ai bambini (Fredoka, Baloo 2, Quicksand, Nunito) e regola dimensione, colore e contorno del testo.',
+        description: 'Usa il pannello «Strumenti testo» per aggiungere un titolo come «Decifra il codice!» o «Sfida del codice segreto». Aggiungi un campo per il nome dell\'utente, istruzioni o il logo del tuo negozio. Scegli tra font accattivanti (Fredoka, Baloo 2, Quicksand, Nunito) e regola dimensione, colore e contorno del testo.',
       },
       {
         title: 'Generare e scaricare',
-        description: 'Fai clic su «Genera» per creare il tuo puzzle. L\'anteprima si aggiorna istantaneamente nell\'area di lavoro. Scarica come JPEG per i mockup dei prodotti o come PDF per i materiali pronti per la stampa. Genera e scarica anche la chiave di correzione corrispondente che mostra tutti i numeri segreti (o le lettere e la parola nella Modalità Rivela Parola).',
+        description: 'Fai clic su «Genera» per creare il tuo puzzle. L\'anteprima si aggiorna istantaneamente nell\'area di lavoro. Scarica come JPEG per i mockup dei prodotti o come PDF per i materiali pronti per la stampa. Genera e scarica anche la chiave di valore percepito corrispondente che mostra tutti i numeri segreti (o le lettere e la parola nella Modalità Rivela Parola).',
       },
     ],
   },
@@ -64,11 +64,11 @@ const content: ToolContent = {  seo: {
   whatYouCanCreate: [
     {
       title: 'Pacchetti di puzzle crittaritmetici',
-      description: 'Crea set tematici di 10–20 puzzle crittaritmetici con immagini di animali, spazio o festività. Ogni puzzle assegna numeri segreti diversi ai simboli, così ogni pagina è unica. Impacchetta come PDF e vendi su Etsy o Teachers Pay Teachers.',
+      description: 'Crea set tematici di 10–20 puzzle crittaritmetici con immagini di animali, spazio o festività. Ogni puzzle assegna numeri segreti diversi ai simboli, così ogni pagina è unica. Impacchetta come PDF e vendi su Etsy o Gumroad.',
     },
     {
       title: 'Libri di attività Rivela Parola',
-      description: 'Usa la Modalità Rivela Parola per creare libri di puzzle in cui gli alunni risolvono equazioni di addizione per svelare parole nascoste. Scegli parole di vocabolario, parole ad alta frequenza o termini stagionali come segreti. Le lettere distratrici integrate aggiungono un livello extra di sfida che mantiene gli alunni concentrati. Per gli editori KDP, un libro Rivela Parola con vocaboli per la scuola primaria è un prodotto di nicchia forte — i genitori che cercano «attività parole segrete» su Amazon trovano raramente puzzle crittaritmetici, il che significa meno concorrenza diretta.',
+      description: 'Usa la Modalità Rivela Parola per creare libri di puzzle in cui gli utenti risolvono equazioni di addizione per svelare parole nascoste. Scegli parole di vocabolario, parole ad alta frequenza o termini stagionali come segreti. Le lettere distratrici integrate aggiungono un livello extra di sfida che mantiene gli utenti concentrati. Per gli editori KDP, un libro Rivela Parola con vocaboli per la scuola primaria è un prodotto di nicchia forte — i genitori che cercano «attività parole segrete» su Amazon trovano raramente puzzle crittaritmetici, il che significa meno concorrenza diretta.',
     },
     {
       title: 'Quaderni crittaritmetici per KDP',
@@ -80,11 +80,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Schede di decrittazione differenziate',
-      description: 'Crea lo stesso concetto di puzzle a più livelli di difficoltà: 3 simboli con 2 addendi per principianti, 5 simboli con 3 addendi per intermedi e 8 simboli con addendi misti per avanzati. Gli insegnanti possono assegnare il livello giusto senza tempo di preparazione aggiuntivo.',
+      description: 'Crea lo stesso concetto di puzzle a più livelli di difficoltà: 3 simboli con 2 addendi per principianti, 5 simboli con 3 addendi per intermedi e 8 simboli con addendi misti per avanzati. i venditori possono assegnare il livello giusto senza tempo di preparazione aggiuntivo.',
     },
     {
-      title: 'Sfide di riscaldamento per la classe',
-      description: 'Genera rapidi puzzle decifra il codice di 5 minuti per l\'attività di inizio lezione. Usa 3–4 simboli per consentire agli alunni di finire velocemente, oppure aumenta a 6+ per una sfida da tutta la lezione. Includi la chiave di correzione per l\'autocorrezione degli alunni.',
+      title: 'Sfide di riscaldamento per il negozio',
+      description: 'Genera rapidi puzzle decifra il codice di 5 minuti per l\'attività di inizio lezione. Usa 3–4 simboli per consentire agli utenti di finire velocemente, oppure aumenta a 6+ per una sfida da tutta la lezione. Includi la chiave di valore percepito per l\'autoverifica degli utenti.',
     },
   ],
 
@@ -95,9 +95,9 @@ const content: ToolContent = {  seo: {
       platform: 'Etsy',
     },
     {
-      title: 'Puzzle premium su Teachers Pay Teachers',
-      description: 'Carica pacchetti differenziati di puzzle decifra il codice su TpT. Gli insegnanti cercano attività matematiche coinvolgenti che vadano oltre le schede ripetitive. Includi una guida docente che spiega la Modalità Normale e la Modalità Rivela Parola, più le chiavi di correzione per ogni puzzle. Prezzi premium (5–8 €) sono giustificati dal formato unico.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Puzzle premium su Gumroad',
+      description: 'Carica pacchetti scalati per livello di puzzle decifra il codice su Gumroad. i venditori cercano attività matematiche coinvolgenti che vadano oltre le schede ripetitive. Includi una guida venditore che spiega la Modalità Normale e la Modalità Rivela Parola, più le chiavi di valore percepito per ogni puzzle. Prezzi premium (5–8 €) sono giustificati dal formato unico.',
+      platform: 'Gumroad',
     },
     {
       title: 'Serie di libri puzzle su Amazon KDP',
@@ -105,8 +105,8 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Pacchetto curriculum digitale su Gumroad',
-      description: 'Crea un programma strutturato di 8 settimane «Codice Segreto Matematica» con set di puzzle settimanali. La settimana 1 inizia con 3 simboli, la settimana 8 finisce con addendi misti e sfide Rivela Parola. Vendi come download premium (12–15 €) su Gumroad. I genitori homeschooler pagano volentieri per programmi completi e strutturati. Includi una guida di una pagina che spiega come usare i puzzle di ogni settimana, quali competenze sviluppa ogni livello di difficoltà e come valutare i progressi degli alunni.',
+      title: 'Pacchetto catalogo prodotti digitale su Gumroad',
+      description: 'Crea un programma strutturato di 8 settimane «Codice Segreto Matematica» con set di puzzle settimanali. La settimana 1 inizia con 3 simboli, la settimana 8 finisce con addendi misti e sfide Rivela Parola. Vendi come download premium (12–15 €) su Gumroad. I genitori homeschooler pagano volentieri per programmi completi e strutturati. Includi una guida di una pagina che spiega come usare i puzzle di ogni settimana, quali competenze sviluppa ogni livello di difficoltà e come valutare i progressi degli utenti.',
       platform: 'Gumroad',
     },
     {
@@ -124,15 +124,15 @@ const content: ToolContent = {  seo: {
   proTips: [
     {
       title: 'Iniziare con pochi simboli per i principianti',
-      description: 'Tre o quattro simboli sono il punto ideale per gli alunni più piccoli e per chi affronta puzzle di decrittazione per la prima volta. Con meno incognite gli alunni possono applicare la logica di eliminazione più facilmente. Riserva i puzzle con 6+ simboli per i più grandi o per le sezioni di sfida avanzata nei tuoi pacchetti. Quando costruisci un annuncio prodotto, menziona il numero di simboli nella descrizione così gli acquirenti sanno quale livello di difficoltà stanno acquistando. Frasi come «puzzle da 3 simboli per principianti» o «sfide avanzate da 7 simboli» aiutano gli acquirenti a scegliere il prodotto giusto.',
+      description: 'Tre o quattro simboli sono il punto ideale per gli utenti più piccoli e per chi affronta puzzle di decrittazione per la prima volta. Con meno incognite gli utenti possono applicare la logica di eliminazione più facilmente. Riserva i puzzle con 6+ simboli per i più grandi o per le sezioni di sfida avanzata nei tuoi pacchetti. Quando costruisci un annuncio prodotto, menziona il numero di simboli nella descrizione così gli acquirenti sanno quale livello di difficoltà stanno acquistando. Frasi come «puzzle da 3 simboli per principianti» o «sfide avanzate da 7 simboli» aiutano gli acquirenti a scegliere il prodotto giusto.',
     },
     {
       title: 'Usare addendi Mix per la massima varietà',
-      description: 'L\'impostazione Mix varia casualmente se ogni equazione ha 2, 3 o 4 addendi. Questo crea una pagina di puzzle più coinvolgente perché gli alunni non possono affidarsi a un\'unica strategia. Quando crei prodotti da vendere, la modalità Mix fa sembrare ogni pagina diversa anche all\'interno dello stesso pacchetto. Questa variazione riduce anche le richieste di rimborso per contenuto ripetitivo.',
+      description: 'L\'impostazione Mix varia casualmente se ogni equazione ha 2, 3 o 4 addendi. Questo crea una pagina di puzzle più coinvolgente perché gli utenti non possono affidarsi a un\'unica strategia. Quando crei prodotti da vendere, la modalità Mix fa sembrare ogni pagina diversa anche all\'interno dello stesso pacchetto. Questa variazione riduce anche le richieste di rimborso per contenuto ripetitivo.',
     },
     {
       title: 'La Modalità Rivela Parola è il tuo differenziatore premium',
-      description: 'I puzzle codificati standard sono divertenti, ma la Modalità Rivela Parola è la funzione che fa risaltare il tuo prodotto. Usa parole stagionali (NATALE, PASQUA, ESTATE), parole ad alta frequenza per lettori principianti o vocaboli per integrazione interdisciplinare. Evidenzia questa funzione in modo prominente nei tuoi annunci. Su Etsy e TpT includi un\'immagine mockup che mostra il puzzle Rivela Parola accanto alla sua versione risolta, così gli acquirenti vedono immediatamente il concetto della parola nascosta.',
+      description: 'I puzzle codificati standard sono divertenti, ma la Modalità Rivela Parola è la funzione che fa risaltare il tuo prodotto. Usa parole stagionali (NATALE, PASQUA, ESTATE), parole ad alta frequenza per lettori principianti o vocaboli per integrazione interdisciplinare. Evidenzia questa funzione in modo prominente nei tuoi annunci. Su Etsy e Gumroad includi un\'immagine mockup che mostra il puzzle Rivela Parola accanto alla sua versione risolta, così gli acquirenti vedono immediatamente il concetto della parola nascosta.',
     },
     {
       title: 'Sfruttare gli alfabeti multilingue',
@@ -140,11 +140,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Abbinare con schede di addizione tradizionali',
-      description: 'Crea pacchetti che combinano schede di addizione standard con puzzle decifra il codice. Le schede di addizione sviluppano la fluidità nel calcolo; i puzzle codificati applicano quella fluidità in un contesto logico. I prodotti combinati hanno un valore percepito più alto e ottengono prezzi migliori su ogni piattaforma. Una struttura efficace potrebbe includere 20 pagine di addizione standard, 10 puzzle decifra il codice in Modalità Normale e 5 sfide Rivela Parola — tutto con chiavi di correzione.',
+      description: 'Crea pacchetti che combinano schede di addizione standard con puzzle decifra il codice. Le schede di addizione sviluppano la fluidità nel calcolo; i puzzle codificati applicano quella fluidità in un contesto logico. I prodotti combinati hanno un valore percepito più alto e ottengono prezzi migliori su ogni piattaforma. Una struttura efficace potrebbe includere 20 pagine di addizione standard, 10 puzzle decifra il codice in Modalità Normale e 5 sfide Rivela Parola — tutto con chiavi di valore percepito.',
     },
     {
-      title: 'Includere sempre la chiave di correzione',
-      description: 'I puzzle codificati possono essere impegnativi e gli acquirenti si aspettano le soluzioni. Genera la chiave di correzione per ogni puzzle prima di scaricare. Per i puzzle Rivela Parola la chiave mostra sia le assegnazioni dei numeri sia la parola svelata. Questo è essenziale per i prodotti destinati agli insegnanti. Senza chiavi di correzione, genitori e supplenti non possono verificare il lavoro degli alunni, il che porta a recensioni negative.',
+      title: 'Includere sempre la chiave di valore percepito',
+      description: 'I puzzle codificati possono essere impegnativi e gli acquirenti si aspettano le soluzioni. Genera la chiave di valore percepito per ogni puzzle prima di scaricare. Per i puzzle Rivela Parola la chiave mostra sia le assegnazioni dei numeri sia la parola svelata. Questo è essenziale per i prodotti destinati ai venditori. Senza chiavi di valore percepito, genitori e supplenti non possono verificare il lavoro degli utenti, il che porta a recensioni negative.',
     },
     {
       title: 'Scegliere immagini tematiche coerenti con la parola segreta',
@@ -155,11 +155,11 @@ const content: ToolContent = {  seo: {
   faq: [
     {
       question: 'Cos\'è un foglio di addizione codificata?',
-      answer: 'Un foglio di addizione codificata è un puzzle crittaritmetico in cui immagini o simboli sostituiscono i numeri nelle equazioni di addizione. Gli alunni risolvono le equazioni per scoprire quale numero rappresenta ciascun simbolo. Combina la pratica dell\'addizione con la deduzione logica, rendendolo molto più coinvolgente degli esercizi di matematica tradizionali. Il meccanismo di cifratura aggiunge un livello di sfida che trasforma la pratica di routine dell\'addizione in un\'indagine logica. Gli alunni devono prima decodificare quale numero rappresenta ogni immagine, poi risolvere l\'aritmetica — sviluppando simultaneamente fluidità matematica e capacità di ragionamento logico.',
+      answer: 'Un foglio di addizione codificata è un puzzle crittaritmetico in cui immagini o simboli sostituiscono i numeri nelle equazioni di addizione. gli utenti risolvono le equazioni per scoprire quale numero rappresenta ciascun simbolo. Combina la pratica dell\'addizione con la deduzione logica, rendendolo molto più coinvolgente degli esercizi di matematica tradizionali. Il meccanismo di cifratura aggiunge un livello di sfida che trasforma la pratica di routine dell\'addizione in un\'indagine logica. gli utenti devono prima decodificare quale numero rappresenta ogni immagine, poi risolvere l\'aritmetica — sviluppando simultaneamente fluidità matematica e capacità di ragionamento logico.',
     },
     {
       question: 'Qual è la differenza tra Modalità Normale e Modalità Rivela Parola?',
-      answer: 'Nella Modalità Normale ogni immagine nasconde un numero segreto unico e gli alunni risolvono equazioni di addizione per decifrare il codice. Nella Modalità Rivela Parola ogni equazione risolta svela una lettera di una parola nascosta, e lettere distratrici con somme errate tengono gli alunni sulle spine. La Modalità Rivela Parola è una funzione di upgrade premium. Dal punto di vista del venditore questa distinzione è importante perché ti dà due linee di prodotto diverse da un unico strumento: la Modalità Normale attira insegnanti di matematica che cercano pratica aritmetica basata sulla logica, mentre la Modalità Rivela Parola piace agli educatori focalizzati sull\'alfabetizzazione e ai genitori homeschooler che vogliono attività interdisciplinari.',
+      answer: 'Nella Modalità Normale ogni immagine nasconde un numero segreto unico e gli utenti risolvono equazioni di addizione per decifrare il codice. Nella Modalità Rivela Parola ogni equazione risolta svela una lettera di una parola nascosta, e lettere distratrici con somme errate tengono gli utenti sulle spine. La Modalità Rivela Parola è una funzione di upgrade premium. Dal punto di vista del venditore questa distinzione è importante perché ti dà due linee di prodotto diverse da un unico strumento: la Modalità Normale attira venditori di matematica che cercano pratica aritmetica basata sulla logica, mentre la Modalità Rivela Parola piace agli imprenditori focalizzati sull\'alfabetizzazione e ai genitori homeschooler che vogliono attività interdisciplinari.',
     },
     {
       question: 'È disponibile una prova gratuita?',
@@ -167,11 +167,11 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Come funziona l\'impostazione Numero di simboli?',
-      answer: 'Il Numero di simboli determina quanti simboli-immagine diversi compaiono nel tuo puzzle. Meno simboli (3–4) rendono il puzzle più facile perché ci sono meno incognite da dedurre. Più simboli (6–8) aumentano la difficoltà. Nella Modalità Normale ogni simbolo deve rappresentare un numero diverso all\'interno di ogni singola domanda. Per i venditori che creano pacchetti differenziati, il Numero di simboli è la leva principale per la difficoltà. Un pacchetto ben strutturato potrebbe includere tre livelli: facile (3 simboli), medio (5 simboli) e difficile (7–8 simboli). Etichettare chiaramente ogni livello nell\'annuncio aiuta gli acquirenti a scegliere il prodotto giusto per i propri alunni.',
+      answer: 'Il Numero di simboli determina quanti simboli-immagine diversi compaiono nel tuo puzzle. Meno simboli (3–4) rendono il puzzle più facile perché ci sono meno incognite da dedurre. Più simboli (6–8) aumentano la difficoltà. Nella Modalità Normale ogni simbolo deve rappresentare un numero diverso all\'interno di ogni singola domanda. Per i venditori che creano pacchetti scalati per livello, il Numero di simboli è la leva principale per la difficoltà. Un pacchetto ben strutturato potrebbe includere tre livelli: facile (3 simboli), medio (5 simboli) e difficile (7–8 simboli). Etichettare chiaramente ogni livello nell\'annuncio aiuta gli acquirenti a scegliere il prodotto giusto per i propri utenti.',
     },
     {
       question: 'Posso vendere le schede che creo?',
-      answer: 'La versione di prova gratuita con filigrana è solo per uso personale e didattico. Per vendere su Etsy, Teachers Pay Teachers, Amazon KDP, Gumroad o qualsiasi altra piattaforma, è necessaria una licenza commerciale. La licenza rimuove la filigrana e concede pieni diritti di vendita per tutti i puzzle che generi. Una volta ottenuta la licenza, non ci sono limiti per download né commissioni sui ricavi — mantieni il 100% delle tue vendite. La licenza copre tutti i materiali prodotti con questo specifico strumento.',
+      answer: 'La versione di prova gratuita con filigrana è solo per uso personale e didattico. Per vendere su Etsy, Gumroad, Amazon KDP, Gumroad o qualsiasi altra piattaforma, è necessaria una licenza commerciale. La licenza rimuove la filigrana e concede pieni diritti di vendita per tutti i puzzle che generi. Una volta ottenuta la licenza, non ci sono limiti per download né commissioni sui ricavi — mantieni il 100% delle tue vendite. La licenza copre tutti i materiali prodotti con questo specifico strumento.',
     },
     {
       question: 'Quali lingue sono supportate?',
@@ -179,7 +179,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Quali formati di file posso scaricare?',
-      answer: 'Puoi scaricare i puzzle come immagini JPEG ad alta risoluzione o file PDF ottimizzati per la stampa. Sia il foglio di lavoro sia la chiave di correzione corrispondente sono disponibili in entrambi i formati. Usa i JPEG per i mockup dei prodotti e i social media; usa i PDF come materiale consegnabile nei tuoi annunci.',
+      answer: 'Puoi scaricare i puzzle come immagini JPEG ad alta risoluzione o file PDF ottimizzati per la stampa. Sia il foglio di lavoro sia la chiave di valore percepito corrispondente sono disponibili in entrambi i formati. Usa i JPEG per i mockup dei prodotti e i social media; usa i PDF come materiale consegnabile nei tuoi annunci.',
     },
     {
       question: 'Devo installare un software?',
@@ -187,7 +187,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'In cosa si differenzia dalle schede di addizione normali?',
-      answer: 'Le schede di addizione normali mostrano i numeri direttamente. Le schede di addizione codificata nascondono i numeri dietro simboli-immagine, trasformando ogni pagina in un puzzle logico. Gli alunni devono usare i risultati delle equazioni per dedurre quale numero rappresenta ciascun simbolo. Questo sviluppa sia la fluidità nel calcolo sia il pensiero critico.',
+      answer: 'Le schede di addizione normali mostrano i numeri direttamente. Le schede di addizione codificata nascondono i numeri dietro simboli-immagine, trasformando ogni pagina in un puzzle logico. gli utenti devono usare i risultati delle equazioni per dedurre quale numero rappresenta ciascun simbolo. Questo sviluppa sia la fluidità nel calcolo sia il pensiero critico.',
     },
     {
       question: 'Qual è la vostra politica sui rimborsi?',

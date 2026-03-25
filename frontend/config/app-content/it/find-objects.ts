@@ -7,7 +7,7 @@ const content: AppContent = {
       'creatore schede cerca e trova stampabili per venditori Etsy',
       'generatore attività trova oggetti nascosti per editori KDP',
       'creatore schede cerca oggetti licenza commerciale',
-      'vendere schede trova l\'intruso su Teachers Pay Teachers',
+      'vendere schede trova l\'intruso su Gumroad',
     ],
     lsiKeywords: [
       'stampabili cerca oggetti nascosti digitali business online',
@@ -15,14 +15,14 @@ const content: AppContent = {
       'strumenti business attività ricerca visiva stampabili',
     ],
     titleTag: 'Generatore Schede Cerca Oggetti | Crea e Vendi Online',
-    metaDescription: 'Crea schede Cerca Oggetti da vendere su Etsy, KDP e TPT. Modalità Cerca e Trova e Trova l\'Intruso, chiave di risposta automatica.',
+    metaDescription: 'Crea schede Cerca Oggetti da vendere su Etsy, KDP e Gumroad. Modalità Cerca e Trova e Trova l\'Intruso, chiave di risposta automatica.',
   },
 
   hero: {
     title: 'Generatore di Schede Cerca Oggetti per Attività Cerca e Trova e Trova l\'Intruso',
     tagline: 'Due modalità di attività in un unico generatore — scene Cerca e Trova con posizionamento senza sovrapposizioni e Trova l\'Intruso con immagini appaiate in righe — con chiavi di risposta auto-generate, dimensionamento adattivo delle immagini, campi nome e data e una legenda che mostra gli oggetti da trovare.',
     description:
-      'Crea schede professionali di ricerca oggetti dove gli studenti esplorano una scena di immagini in formato libero per trovare e cerchiare oggetti specifici. Scegli tra due modalità di attività: la modalità Cerca e Trova usa un algoritmo di posizionamento senza sovrapposizioni per distribuire 1–5 oggetti nascosti tra 8–12 distrattori sulla pagina — nessuna griglia, nessuna riga e colonna, solo una scena visiva coerente generata dall\'algoritmo findBestPosition() che prova 50 posizioni casuali per immagine e riduce adattivamente le dimensioni quando lo spazio è limitato. Una legenda in fondo alla scheda mostra agli studenti esattamente quali oggetti cercare. La modalità Trova l\'Intruso dispone 8–12 immagini appaiate in righe con 1–5 elementi spaiati mescolati — gli studenti identificano le immagini che non hanno un partner corrispondente. Il sistema a doppio canvas genera sia una scheda attività che una chiave di risposta — la chiave di risposta disegna cerchi rossi attorno agli oggetti nascosti (Cerca e Trova) o agli elementi spaiati (Trova l\'Intruso) così non devi mai segnarli manualmente. Il Generatore Cerca Oggetti è solo visivo: la lingua influisce sulle etichette dell\'interfaccia ma NON sul contenuto delle schede, quindi ogni scheda funziona in qualsiasi lingua senza nomi di immagini localizzati. L\'Accesso Completo sblocca tutti i 104 temi con oltre 3.100 illustrazioni e tutte le 11 lingue per l\'interfaccia. Aggiungi temi di sfondo e temi di bordo con controlli di opacità indipendenti, attiva/disattiva i campi nome e data, personalizza l\'intestazione auto-dimensionata con 6 scelte di font ed esporta PDF e JPEG pronti da stampare a 300 DPI nei formati Letter, A4 o dimensioni personalizzate. Che tu venda pacchetti di attività Cerca e Trova su Etsy, compili quaderni di oggetti nascosti per Amazon KDP o crei attività di discriminazione visiva per TPT, questo generatore produce schede pronte per la produzione in pochi minuti — prova gratuita con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Crea schede professionali di ricerca oggetti dove gli utenti esplorano una scena di immagini in formato libero per trovare e cerchiare oggetti specifici. Scegli tra due modalità di attività: la modalità Cerca e Trova usa un algoritmo di posizionamento senza sovrapposizioni per distribuire 1–5 oggetti nascosti tra 8–12 distrattori sulla pagina — nessuna griglia, nessuna riga e colonna, solo una scena visiva coerente generata dall\'algoritmo findBestPosition() che prova 50 posizioni casuali per immagine e riduce adattivamente le dimensioni quando lo spazio è limitato. Una legenda in fondo alla scheda mostra agli utenti esattamente quali oggetti cercare. La modalità Trova l\'Intruso dispone 8–12 immagini appaiate in righe con 1–5 elementi spaiati mescolati — gli utenti identificano le immagini che non hanno un partner corrispondente. Il sistema a doppio canvas genera sia una scheda attività che una chiave di risposta — la chiave di risposta disegna cerchi rossi attorno agli oggetti nascosti (Cerca e Trova) o agli elementi spaiati (Trova l\'Intruso) così non devi mai segnarli manualmente. Il Generatore Cerca Oggetti è solo visivo: la lingua influisce sulle etichette dell\'interfaccia ma NON sul contenuto delle schede, quindi ogni scheda funziona in qualsiasi lingua senza nomi di immagini localizzati. L\'Accesso Completo sblocca tutti i 104 temi con oltre 3.100 illustrazioni e tutte le 11 lingue per l\'interfaccia. Aggiungi temi di sfondo e temi di bordo con controlli di opacità indipendenti, attiva/disattiva i campi nome e data, personalizza l\'intestazione auto-dimensionata con 6 scelte di font ed esporta PDF e JPEG pronti da stampare a 300 DPI nei formati Letter, A4 o dimensioni personalizzate. Che tu venda pacchetti di attività Cerca e Trova su Etsy, compili quaderni di oggetti nascosti per Amazon KDP o crei attività di discriminazione visiva per Gumroad, questo generatore produce schede pronte per la produzione in pochi minuti — prova gratuita con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {
@@ -46,12 +46,12 @@ const content: AppContent = {
       {
         title: 'Genera la Scena di Ricerca Oggetti',
         description:
-          'Clicca Genera per creare la scheda. In modalità Cerca e Trova, l\'algoritmo senza sovrapposizioni posiziona ogni immagine provando 50 posizioni casuali e selezionando quella con meno sovrapposizione, riducendo adattivamente le dimensioni dell\'immagine quando lo spazio è limitato. Una legenda appare in fondo mostrando agli studenti quali oggetti cercare. In modalità Trova l\'Intruso, le immagini sono disposte in righe con elementi appaiati e spaiati. L\'intestazione auto-dimensionata renderizza il titolo nel font Fredoka con contenitori decorativi a pillola — la dimensione del font si adatta automaticamente in base alla lunghezza del testo.',
+          'Clicca Genera per creare la scheda. In modalità Cerca e Trova, l\'algoritmo senza sovrapposizioni posiziona ogni immagine provando 50 posizioni casuali e selezionando quella con meno sovrapposizione, riducendo adattivamente le dimensioni dell\'immagine quando lo spazio è limitato. Una legenda appare in fondo mostrando agli utenti quali oggetti cercare. In modalità Trova l\'Intruso, le immagini sono disposte in righe con elementi appaiati e spaiati. L\'intestazione auto-dimensionata renderizza il titolo nel font Fredoka con contenitori decorativi a pillola — la dimensione del font si adatta automaticamente in base alla lunghezza del testo.',
       },
       {
         title: 'Genera la Chiave di Risposta e Scarica',
         description:
-          'Passa alla scheda Chiave di Risposta per vedere le annotazioni generate automaticamente: cerchi rossi disegnati attorno agli oggetti nascosti (modalità Cerca e Trova) o agli elementi spaiati (modalità Trova l\'Intruso), dimensionati 3–5px più grandi dell\'oggetto per una chiara visibilità. Scarica entrambe le versioni usando quattro pulsanti dedicati nel menu a tendina: Scheda JPEG, Chiave di Risposta JPEG, Scheda PDF e Chiave di Risposta PDF a 300 DPI. Attiva la scala di grigi per versioni a risparmio di inchiostro. Ogni esportazione è pronta per la produzione su Etsy, Amazon KDP e TPT.',
+          'Passa alla scheda Chiave di Risposta per vedere le annotazioni generate automaticamente: cerchi rossi disegnati attorno agli oggetti nascosti (modalità Cerca e Trova) o agli elementi spaiati (modalità Trova l\'Intruso), dimensionati 3–5px più grandi dell\'oggetto per una chiara visibilità. Scarica entrambe le versioni usando quattro pulsanti dedicati nel menu a tendina: Scheda JPEG, Chiave di Risposta JPEG, Scheda PDF e Chiave di Risposta PDF a 300 DPI. Attiva la scala di grigi per versioni a risparmio di inchiostro. Ogni esportazione è pronta per la produzione su Etsy, Amazon KDP e Gumroad.',
       },
     ],
   },
@@ -62,7 +62,7 @@ const content: AppContent = {
       {
         title: 'Due Modalità di Attività: Cerca e Trova Oggetti Nascosti e Trova l\'Intruso',
         description:
-          'Un unico generatore copre due formati di attività distinti. La modalità Cerca e Trova crea scene di oggetti nascosti in formato libero dove 1–5 oggetti bersaglio si nascondono tra 8–12 distrattori in una scena visiva sparsa — gli studenti esplorano la pagina e cerchiano ciò che trovano. La modalità Trova l\'Intruso dispone 8–12 immagini appaiate in righe con 1–5 elementi spaiati mescolati — gli studenti identificano le immagini senza un partner corrispondente. Le immagini in modalità Trova l\'Intruso sono renderizzate il 50% più grandi rispetto alla modalità Cerca e Trova per un confronto visivo più chiaro. Ogni modalità produce una sfida cognitiva diversa dalla stessa libreria di immagini.',
+          'Un unico generatore copre due formati di attività distinti. La modalità Cerca e Trova crea scene di oggetti nascosti in formato libero dove 1–5 oggetti bersaglio si nascondono tra 8–12 distrattori in una scena visiva sparsa — gli utenti esplorano la pagina e cerchiano ciò che trovano. La modalità Trova l\'Intruso dispone 8–12 immagini appaiate in righe con 1–5 elementi spaiati mescolati — gli utenti identificano le immagini senza un partner corrispondente. Le immagini in modalità Trova l\'Intruso sono renderizzate il 50% più grandi rispetto alla modalità Cerca e Trova per un confronto visivo più chiaro. Ogni modalità produce una sfida cognitiva diversa dalla stessa libreria di immagini.',
       },
       {
         title: 'Generazione di Scene Senza Sovrapposizioni con Dimensionamento Adattivo delle Immagini',
@@ -77,12 +77,12 @@ const content: AppContent = {
       {
         title: 'Visualizzazione della Legenda con gli Oggetti da Trovare in Modalità Cerca e Trova',
         description:
-          'In modalità Cerca e Trova, una legenda nel margine inferiore (120px) della scheda mostra gli oggetti bersaglio che gli studenti devono trovare. Questo riferimento visivo dice agli studenti esattamente cosa cercare senza istruzioni scritte — rendendo le schede accessibili ai pre-lettori e alle classi multilingue. La legenda viene generata automaticamente in base agli oggetti nascosti selezionati. La modalità Trova l\'Intruso usa un margine inferiore compatto di 50px poiché gli studenti scoprono gli elementi spaiati attraverso il confronto visivo piuttosto che una lista di riferimento.',
+          'In modalità Cerca e Trova, una legenda nel margine inferiore (120px) della scheda mostra gli oggetti bersaglio che gli utenti devono trovare. Questo riferimento visivo dice agli utenti esattamente cosa cercare senza istruzioni scritte — rendendo le schede accessibili ai pre-lettori e ai negozi multilingue. La legenda viene generata automaticamente in base agli oggetti nascosti selezionati. La modalità Trova l\'Intruso usa un margine inferiore compatto di 50px poiché gli utenti scoprono gli elementi spaiati attraverso il confronto visivo piuttosto che una lista di riferimento.',
       },
       {
         title: 'Campi Nome e Data con Controllo di Attivazione',
         description:
-          'Una casella di controllo nel pannello Testo e Contenuti aggiunge i campi "Nome:" e "Data:" alla scheda. Queste righe di identificazione studente garantiscono la responsabilità per l\'uso in classe e rendono le schede dall\'aspetto professionale per le inserzioni nei marketplace. Attivali per prodotti pronti per la classe o disattivali per pagine di quaderni di attività dove le informazioni studente appaiono sulla copertina. I campi si renderizzano in modo pulito accanto all\'intestazione auto-generata e alla legenda.',
+          'Una casella di controllo nel pannello Testo e Contenuti aggiunge i campi "Nome:" e "Data:" alla scheda. Queste righe di identificazione utente garantiscono la responsabilità per l\'uso online e rendono le schede dall\'aspetto professionale per le inserzioni nei marketplace. Attivali per prodotti pronti per il negozio o disattivali per pagine di quaderni di attività dove le informazioni utente appaiono sulla copertina. I campi si renderizzano in modo pulito accanto all\'intestazione auto-generata e alla legenda.',
       },
       {
         title: 'Libreria Immagini con 104 Collezioni Tematiche e Oltre 3.100 Illustrazioni',
@@ -92,7 +92,7 @@ const content: AppContent = {
       {
         title: 'Esportazione PDF e JPEG Pronti da Stampare a 300 DPI con Modalità Scala di Grigi',
         description:
-          'Scarica schede di ricerca oggetti e chiavi di risposta come immagini JPEG ad alta risoluzione o documenti PDF pronti da stampare renderizzati a 300 DPI (moltiplicatore 6×). Quattro pulsanti di download nel menu a tendina esportano Scheda JPEG, Chiave di Risposta JPEG, Scheda PDF e Chiave di Risposta PDF separatamente. I formati pagina includono Letter Verticale, Letter Orizzontale, A4 Verticale, A4 Orizzontale e dimensioni completamente personalizzate. Attiva la scala di grigi per versioni a risparmio di inchiostro che risparmiano toner. Ogni esportazione è pronta per la produzione per download digitali, quaderni stampati e materiale didattico.',
+          'Scarica schede di ricerca oggetti e chiavi di risposta come immagini JPEG ad alta risoluzione o documenti PDF pronti da stampare renderizzati a 300 DPI (moltiplicatore 6×). Quattro pulsanti di download nel menu a tendina esportano Scheda JPEG, Chiave di Risposta JPEG, Scheda PDF e Chiave di Risposta PDF separatamente. I formati pagina includono Letter Verticale, Letter Orizzontale, A4 Verticale, A4 Orizzontale e dimensioni completamente personalizzate. Attiva la scala di grigi per versioni a risparmio di inchiostro che risparmiano toner. Ogni esportazione è pronta per la produzione per download digitali, quaderni stampati e prodotto stampabile.',
       },
       {
         title: 'Editing Completo del Canvas con Strumenti Testo, Temi di Sfondo e Temi di Bordo',
@@ -118,22 +118,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Schede Trova l\'Intruso per la Discriminazione Visiva su TPT',
+        title: 'Schede Trova l\'Intruso per la Discriminazione Visiva su Gumroad',
         description:
-          'Crea schede Trova l\'Intruso pronte all\'uso dove gli studenti identificano immagini spaiati tra set appaiati. Gli insegnanti che cercano attività di discriminazione visiva su TPT apprezzano schede che sviluppano capacità di osservazione e ragionamento logico. Crea set allineati al curriculum: trova l\'intruso animali della fattoria, riconoscimento forme, ordinamento stagionale e classificazione habitat. Includi campi nome e data per la responsabilità degli studenti e fornisci chiavi di risposta che mostrano quali elementi erano spaiati. Ogni set si esporta in formato PDF e JPEG.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Crea schede Trova l\'Intruso pronte all\'uso dove gli utenti identificano immagini spaiati tra set appaiati. i venditori che cercano attività di discriminazione visiva su Gumroad apprezzano schede che sviluppano capacità di osservazione e ragionamento logico. Crea set allineati al mercato: trova l\'intruso animali della fattoria, riconoscimento forme, ordinamento stagionale e negozificazione habitat. Includi campi nome e data per la responsabilità degli utenti e fornisci chiavi di risposta che mostrano quali elementi erano spaiati. Ogni set si esporta in formato PDF e JPEG.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Collezioni Cerca Oggetti Stagionali',
         description:
           'Le 104 collezioni di immagini tematiche coprono ogni occasione stagionale e festiva — Natale, Halloween, Pasqua, San Valentino, ritorno a scuola, vacanze estive e altro. Crea collezioni di schede cerca oggetti a tempo limitato allineate ai periodi di punta degli acquisti. Pubblica pacchetti Cerca e Trova di Halloween a settembre, collezioni di oggetti nascosti natalizi a ottobre e pacchetti cerca-e-trova di San Valentino a gennaio. Includi sia schede Cerca e Trova che Trova l\'Intruso in ogni set stagionale per il massimo valore.',
-        platform: 'Etsy / Amazon KDP / TPT (stagionale)',
+        platform: 'Etsy / Amazon KDP / Gumroad (stagionale)',
       },
       {
         title: 'Pacchetti Misti Cerca e Trova e Trova l\'Intruso',
         description:
-          'Combina entrambe le modalità di attività in pacchetti varietà premium. Ogni pacchetto include scene Cerca e Trova dove gli studenti trovano oggetti specifici in una scena sparsa, più schede Trova l\'Intruso dove gli studenti identificano elementi spaiati tra set appaiati. Questa combinazione mira a due diverse abilità cognitive — ricerca visiva e discriminazione visiva — in un unico prodotto. I pacchetti a modalità mista raggiungono prezzi più alti perché offrono più varietà di attività e coprono più obiettivi di apprendimento rispetto ai prodotti a modalità singola.',
-        platform: 'Etsy / TPT (pacchetti varietà)',
+          'Combina entrambe le modalità di attività in pacchetti varietà premium. Ogni pacchetto include scene Cerca e Trova dove gli utenti trovano oggetti specifici in una scena sparsa, più schede Trova l\'Intruso dove gli utenti identificano elementi spaiati tra set appaiati. Questa combinazione mira a due diverse abilità cognitive — ricerca visiva e discriminazione visiva — in un unico prodotto. I pacchetti a modalità mista raggiungono prezzi più alti perché offrono più varietà di attività e coprono più obiettivi di apprendimento rispetto ai prodotti a modalità singola.',
+        platform: 'Etsy / Gumroad (pacchetti varietà)',
       },
     ],
   },
@@ -142,7 +142,7 @@ const content: AppContent = {
     {
       question: 'Quali sono le due modalità di attività e come si differenziano?',
       answer:
-        'Il generatore offre due modalità distinte. La modalità Cerca e Trova (predefinita) crea scene di oggetti nascosti in formato libero dove 1–5 oggetti bersaglio sono sparsi tra 8–12 distrattori usando un algoritmo di posizionamento senza sovrapposizioni — gli studenti esplorano la pagina e cerchiano ciò che trovano, guidati da una legenda in fondo che mostra gli oggetti da trovare. La modalità Trova l\'Intruso dispone 8–12 immagini appaiate in righe con 1–5 elementi spaiati mescolati — gli studenti identificano le immagini che non hanno un partner corrispondente. Le immagini in modalità Trova l\'Intruso sono il 50% più grandi rispetto alla modalità Cerca e Trova per un confronto visivo più chiaro.',
+        'Il generatore offre due modalità distinte. La modalità Cerca e Trova (predefinita) crea scene di oggetti nascosti in formato libero dove 1–5 oggetti bersaglio sono sparsi tra 8–12 distrattori usando un algoritmo di posizionamento senza sovrapposizioni — gli utenti esplorano la pagina e cerchiano ciò che trovano, guidati da una legenda in fondo che mostra gli oggetti da trovare. La modalità Trova l\'Intruso dispone 8–12 immagini appaiate in righe con 1–5 elementi spaiati mescolati — gli utenti identificano le immagini che non hanno un partner corrispondente. Le immagini in modalità Trova l\'Intruso sono il 50% più grandi rispetto alla modalità Cerca e Trova per un confronto visivo più chiaro.',
     },
     {
       question: 'Come funziona l\'algoritmo di posizionamento senza sovrapposizioni nella modalità Cerca e Trova?',
@@ -152,27 +152,27 @@ const content: AppContent = {
     {
       question: 'Quanti oggetti nascosti e distrattori posso usare nella modalità Cerca e Trova?',
       answer:
-        'Nella modalità Cerca e Trova, puoi configurare 1–5 oggetti nascosti (i bersagli che gli studenti devono trovare) e 8–12 oggetti distrattori (le immagini circostanti che riempiono la scena). Inizia con 1–2 oggetti nascosti e 8 distrattori per schede più facili, e aumenta a 5 oggetti nascosti tra 12 distrattori per scene impegnative. La legenda in fondo alla scheda mostra agli studenti quali oggetti cercare.',
+        'Nella modalità Cerca e Trova, puoi configurare 1–5 oggetti nascosti (i bersagli che gli utenti devono trovare) e 8–12 oggetti distrattori (le immagini circostanti che riempiono la scena). Inizia con 1–2 oggetti nascosti e 8 distrattori per schede più facili, e aumenta a 5 oggetti nascosti tra 12 distrattori per scene impegnative. La legenda in fondo alla scheda mostra agli utenti quali oggetti cercare.',
     },
     {
       question: 'Come funziona la modalità Trova l\'Intruso?',
       answer:
-        'La modalità Trova l\'Intruso dispone immagini in righe con elementi appaiati e spaiati. Configura 8–12 immagini appaiate (ciascuna appare due volte nel layout) e 1–5 elementi spaiati (intrusi) che appaiono una sola volta. Gli studenti esaminano ogni riga e identificano l\'immagine che non ha un partner corrispondente. Le immagini sono renderizzate il 50% più grandi rispetto alla modalità Cerca e Trova per un confronto visivo più chiaro. Non c\'è legenda in fondo poiché gli studenti scoprono gli elementi spaiati attraverso l\'analisi visiva piuttosto che una lista di riferimento.',
+        'La modalità Trova l\'Intruso dispone immagini in righe con elementi appaiati e spaiati. Configura 8–12 immagini appaiate (ciascuna appare due volte nel layout) e 1–5 elementi spaiati (intrusi) che appaiono una sola volta. gli utenti esaminano ogni riga e identificano l\'immagine che non ha un partner corrispondente. Le immagini sono renderizzate il 50% più grandi rispetto alla modalità Cerca e Trova per un confronto visivo più chiaro. Non c\'è legenda in fondo poiché gli utenti scoprono gli elementi spaiati attraverso l\'analisi visiva piuttosto che una lista di riferimento.',
     },
     {
       question: 'Cosa mostra la legenda in fondo alla scheda?',
       answer:
-        'Nella modalità Cerca e Trova, una legenda nel margine inferiore di 120px mostra gli oggetti bersaglio che gli studenti devono trovare. Questo riferimento visivo mostra ogni oggetto nascosto così gli studenti sanno esattamente cosa cercare — rendendo le schede accessibili ai pre-lettori e alle classi multilingue senza richiedere istruzioni scritte. La modalità Trova l\'Intruso non include una legenda poiché l\'attività è auto-esplicativa: trova l\'immagine senza un partner corrispondente.',
+        'Nella modalità Cerca e Trova, una legenda nel margine inferiore di 120px mostra gli oggetti bersaglio che gli utenti devono trovare. Questo riferimento visivo mostra ogni oggetto nascosto così gli utenti sanno esattamente cosa cercare — rendendo le schede accessibili ai pre-lettori e ai negozi multilingue senza richiedere istruzioni scritte. La modalità Trova l\'Intruso non include una legenda poiché l\'attività è auto-esplicativa: trova l\'immagine senza un partner corrispondente.',
     },
     {
       question: 'Come funziona la chiave di risposta auto-generata?',
       answer:
-        'Il generatore usa un sistema a doppio canvas con una scheda Scheda e una scheda Chiave di Risposta. La scheda mostra la scena di ricerca oggetti senza marcature — gli studenti cercano e cerchiano gli oggetti da soli. La chiave di risposta riproduce il layout identico e disegna cerchi rossi attorno agli oggetti corretti: bersagli nascosti in modalità Cerca e Trova ed elementi spaiati in modalità Trova l\'Intruso. I cerchi sono dimensionati 3–5px più grandi dell\'oggetto per una chiara visibilità. Entrambe le versioni si esportano separatamente usando quattro pulsanti dedicati: Scheda JPEG, Chiave di Risposta JPEG, Scheda PDF e Chiave di Risposta PDF.',
+        'Il generatore usa un sistema a doppio canvas con una scheda Scheda e una scheda Chiave di Risposta. La scheda mostra la scena di ricerca oggetti senza marcature — gli utenti cercano e cerchiano gli oggetti da soli. La chiave di risposta riproduce il layout identico e disegna cerchi rossi attorno agli oggetti corretti: bersagli nascosti in modalità Cerca e Trova ed elementi spaiati in modalità Trova l\'Intruso. I cerchi sono dimensionati 3–5px più grandi dell\'oggetto per una chiara visibilità. Entrambe le versioni si esportano separatamente usando quattro pulsanti dedicati: Scheda JPEG, Chiave di Risposta JPEG, Scheda PDF e Chiave di Risposta PDF.',
     },
     {
       question: 'Posso aggiungere campi nome e data alla scheda?',
       answer:
-        'Sì. Una casella di controllo nel pannello Testo e Contenuti aggiunge i campi "Nome:" e "Data:" alla scheda. Queste righe di identificazione studente garantiscono la responsabilità per l\'uso in classe e rendono le tue schede dall\'aspetto professionale per le inserzioni nei marketplace. Attivali per prodotti pronti per la classe o disattivali per pagine di quaderni di attività.',
+        'Sì. Una casella di controllo nel pannello Testo e Contenuti aggiunge i campi "Nome:" e "Data:" alla scheda. Queste righe di identificazione utente garantiscono la responsabilità per l\'uso online e rendono le tue schede dall\'aspetto professionale per le inserzioni nei marketplace. Attivali per prodotti pronti per il negozio o disattivali per pagine di quaderni di attività.',
     },
     {
       question: 'Come funziona l\'intestazione auto-generata?',
@@ -192,7 +192,7 @@ const content: AppContent = {
     {
       question: 'Posso vendere le schede cerca oggetti create con questo strumento su Etsy e Amazon KDP?',
       answer:
-        'Sì. Con una licenza commerciale, hai pieni diritti di vendere le tue schede di ricerca oggetti come download digitali su Etsy, come quaderni stampati su Amazon KDP, come risorse didattiche su TPT o attraverso qualsiasi altro canale di vendita. Le due modalità di attività, la generazione di scene senza sovrapposizioni e le 104 collezioni di immagini tematiche ti danno gli strumenti creativi per produrre prodotti di ricerca oggetti originali e vendibili.',
+        'Sì. Con una licenza commerciale, hai pieni diritti di vendere le tue schede di ricerca oggetti come download digitali su Etsy, come quaderni stampati su Amazon KDP, come prodotti stampabili su Gumroad o attraverso qualsiasi altro canale di vendita. Le due modalità di attività, la generazione di scene senza sovrapposizioni e le 104 collezioni di immagini tematiche ti danno gli strumenti creativi per produrre prodotti di ricerca oggetti originali e vendibili.',
     },
     {
       question: 'Qual è la politica di rimborso?',
@@ -219,8 +219,8 @@ const content: AppContent = {
     },
     {
       pageType: 'app',
-      slug: 'classificazione-immagini-schede',
-      anchorText: 'Generatore di Schede Classificazione Immagini',
+      slug: 'negozificazione-immagini-schede',
+      anchorText: 'Generatore di Schede negozificazione Immagini',
     },
     {
       pageType: 'app',

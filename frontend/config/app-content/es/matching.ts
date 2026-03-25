@@ -7,7 +7,7 @@ const content: AppContent = {
       'generador de fichas de asociación imprimibles para vendedores Etsy',
       'creador de fichas unir con líneas para editores Amazon KDP',
       'generador de fichas de asociación con licencia comercial',
-      'vender fichas de relacionar imprimibles en Teachers Pay Teachers',
+      'vender fichas de relacionar imprimibles en Gumroad',
     ],
     lsiKeywords: [
       'productos digitales de fichas de asociación para emprendedores',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Generador Fichas de Asociación | Crear y Vender',
     metaDescription:
-      'Crea fichas de asociación para Etsy, KDP y TPT. 4 modos de asociación, clave de respuesta auto, 104 temas, pares configurables.',
+      'Crea fichas de asociación para Etsy, KDP y Gumroad. 4 modos de asociación, clave de respuesta auto, 104 temas, pares configurables.',
   },
 
   hero: {
     title: 'Generador de Fichas de Asociación para Actividades de Unir con Líneas',
     tagline: 'Cuatro modos de asociación en un solo generador — Letra Inicial, Imagen+Palabra, Imagen/Palabra Mixto y Palabra Personalizada — con claves de respuesta generadas automáticamente, número de pares configurable y encabezado localizado «¡Asocia!» en 104 colecciones de imágenes temáticas.',
     description:
-      'Diseña fichas de asociación profesionales donde los alumnos conectan pares trazando líneas entre dos columnas. Elige entre cuatro modos de asociación distintos: Imagen ↔ Letra Inicial asocia las imágenes con su primera letra, Imagen+Palabra ↔ Imagen+Palabra empareja imágenes etiquetadas en ambos lados, Imagen/Palabra ↔ Imagen/Palabra Mixto mezcla imágenes y palabras por fila con selectores desplegables, e Imagen ↔ Palabra Personalizada te permite escribir tus propios términos de asociación. Configura 4, 5 o 6 pares por ficha y activa o desactiva los números de elemento y los puntos decorativos para un formato limpio. Cada ficha incluye un encabezado localizado «¡Asocia!» generado automáticamente, con título e instrucciones en los 11 idiomas soportados. El sistema de doble lienzo genera tanto una pestaña de ficha de trabajo como una pestaña de clave de respuesta — la clave de respuesta traza líneas de conexión entre las correspondencias correctas, sin ningún trabajo manual de tu parte. El Generador de Fichas de Asociación es sensible al idioma: los modos Letra Inicial e Imagen+Palabra usan los nombres localizados de las imágenes, por lo que cambiar de idioma modifica las palabras y primeras letras en la ficha. El Acceso Completo desbloquea los 104 temas con más de 3100 ilustraciones y los 11 idiomas de interfaz para contenido textual localizado. Añade temas de fondo y de borde con controles de opacidad independientes, incluye campos de nombre y fecha, y exporta PDF y JPEG listos para imprimir a 300 DPI en formato Carta, A4, Cuadrado o dimensiones personalizadas. Ya sea que vendas packs de actividades de asociación en Etsy, compiles cuadernos de alfabetización temprana para Amazon KDP o crees fichas para centros de asociación en TPT, este generador produce fichas listas para la producción en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Diseña fichas de asociación profesionales donde los usuarios conectan pares trazando líneas entre dos columnas. Elige entre cuatro modos de asociación distintos: Imagen ↔ Letra Inicial asocia las imágenes con su primera letra, Imagen+Palabra ↔ Imagen+Palabra empareja imágenes etiquetadas en ambos lados, Imagen/Palabra ↔ Imagen/Palabra Mixto mezcla imágenes y palabras por fila con selectores desplegables, e Imagen ↔ Palabra Personalizada te permite escribir tus propios términos de asociación. Configura 4, 5 o 6 pares por ficha y activa o desactiva los números de elemento y los puntos decorativos para un formato limpio. Cada ficha incluye un encabezado localizado «¡Asocia!» generado automáticamente, con título e instrucciones en los 11 idiomas soportados. El sistema de doble lienzo genera tanto una pestaña de ficha de trabajo como una pestaña de clave de respuesta — la clave de respuesta traza líneas de conexión entre las correspondencias correctas, sin ningún trabajo manual de tu parte. El Generador de Fichas de Asociación es sensible al idioma: los modos Letra Inicial e Imagen+Palabra usan los nombres localizados de las imágenes, por lo que cambiar de idioma modifica las palabras y primeras letras en la ficha. El Acceso Completo desbloquea los 104 temas con más de 3100 ilustraciones y los 11 idiomas de interfaz para contenido textual localizado. Añade temas de fondo y de borde con controles de opacidad independientes, incluye campos de nombre y fecha, y exporta PDF y JPEG listos para imprimir a 300 DPI en formato Carta, A4, Cuadrado o dimensiones personalizadas. Ya sea que vendas packs de actividades de asociación en Etsy, compiles cuadernos de alfabetización temprana para Amazon KDP o crees fichas para centros de asociación en Gumroad, este generador produce fichas listas para la producción en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Configura los Parámetros de la Ficha',
         description:
-          'Abre el panel Configuración de la Ficha y selecciona tu modo de asociación: Letra Inicial, Imagen+Palabra, Imagen/Palabra Mixto o Palabra Personalizada. Define el número máximo de pares a 4, 5 o 6 (el valor predeterminado es 6). Activa la casilla «Incluir campos de nombre/fecha» para agregar líneas de nombre del alumno y fecha en la parte inferior de la página. Activa «Incluir números de elemento» (activado por defecto) para añadir números delante de cada par, y «Mostrar viñetas/puntos» (activado por defecto) para mostrar puntos decorativos junto a los elementos. Para el modo Letra Inicial, elige entre visualización en mayúsculas y minúsculas, y selecciona un submodo: Tema e imágenes aleatorias, Aleatorio del tema elegido, o Seleccionar imágenes específicas.',
+          'Abre el panel Configuración de la Ficha y selecciona tu modo de asociación: Letra Inicial, Imagen+Palabra, Imagen/Palabra Mixto o Palabra Personalizada. Define el número máximo de pares a 4, 5 o 6 (el valor predeterminado es 6). Activa la casilla «Incluir campos de nombre/fecha» para agregar líneas de nombre y fecha en la parte inferior de la página. Activa «Incluir números de elemento» (activado por defecto) para añadir números delante de cada par, y «Mostrar viñetas/puntos» (activado por defecto) para mostrar puntos decorativos junto a los elementos. Para el modo Letra Inicial, elige entre visualización en mayúsculas y minúsculas, y selecciona un submodo: Tema e imágenes aleatorias, Aleatorio del tema elegido, o Seleccionar imágenes específicas.',
       },
       {
         title: 'Selecciona Imágenes de la Biblioteca',
@@ -47,12 +47,12 @@ const content: AppContent = {
       {
         title: 'Genera la Ficha de Asociación',
         description:
-          'Haz clic en Generar para crear el diseño de asociación a dos columnas. La aplicación organiza tus imágenes y textos seleccionados en las columnas izquierda y derecha con el número de pares configurado. Un encabezado estilizado «¡Asocia!» aparece en la parte superior con un fondo de pastilla amarilla (#FFD700), un marco de borde coral (#FF7F50), y título e instrucciones localizados en las fuentes Fredoka y Quicksand. Los números de elemento y los puntos decorativos aparecen según tus ajustes. La pestaña de ficha de trabajo muestra la versión para el alumno sin líneas de conexión — lista para que los alumnos tracen sus propias líneas.',
+          'Haz clic en Generar para crear el diseño de asociación a dos columnas. La aplicación organiza tus imágenes y textos seleccionados en las columnas izquierda y derecha con el número de pares configurado. Un encabezado estilizado «¡Asocia!» aparece en la parte superior con un fondo de pastilla amarilla (#FFD700), un marco de borde coral (#FF7F50), y título e instrucciones localizados en las fuentes Fredoka y Quicksand. Los números de elemento y los puntos decorativos aparecen según tus ajustes. La pestaña de ficha de trabajo muestra la versión para el usuario sin líneas de conexión — lista para que los usuarios tracen sus propias líneas.',
       },
       {
         title: 'Genera la Clave de Respuesta y Descarga',
         description:
-          'Cambia a la pestaña Clave de Respuesta para ver la clave de respuesta generada automáticamente con líneas de conexión horizontales (#555, grosor de trazo 2) trazadas entre cada correspondencia correcta. Descarga ambas versiones usando los cuatro botones dedicados: Ficha JPEG, Clave de Respuesta JPEG, Ficha PDF y Clave de Respuesta PDF. Los archivos se nombran worksheet.jpeg, worksheet.pdf, answer_key.jpeg y answer_key.pdf a 300 DPI. Activa el modo escala de grises para versiones que ahorran tinta. Cada exportación está lista para la producción, ya sea para fichas en Etsy, interiores de Amazon KDP o recursos de TPT.',
+          'Cambia a la pestaña Clave de Respuesta para ver la clave de respuesta generada automáticamente con líneas de conexión horizontales (#555, grosor de trazo 2) trazadas entre cada correspondencia correcta. Descarga ambas versiones usando los cuatro botones dedicados: Ficha JPEG, Clave de Respuesta JPEG, Ficha PDF y Clave de Respuesta PDF. Los archivos se nombran worksheet.jpeg, worksheet.pdf, answer_key.jpeg y answer_key.pdf a 300 DPI. Activa el modo escala de grises para versiones que ahorran tinta. Cada exportación está lista para la producción, ya sea para fichas en Etsy, interiores de Amazon KDP o recursos de Gumroad.',
       },
     ],
   },
@@ -73,7 +73,7 @@ const content: AppContent = {
       {
         title: 'Número de Pares Configurable con 4, 5 o 6 Pares de Asociación por Ficha',
         description:
-          'Define el número de pares de asociación a 4, 5 o 6 mediante el menú desplegable en el panel Configuración de la Ficha. El valor predeterminado es 6 pares, ideal para fichas estándar. Reduce a 4 o 5 pares para alumnos más jóvenes que necesitan imágenes más grandes y más espaciado, o para fichas con palabras personalizadas más largas que requieren más espacio. El número de pares se aplica de manera consistente en los cuatro modos de asociación, dándote control sobre la dificultad de la ficha y la densidad visual sin rediseñar el formato.',
+          'Define el número de pares de asociación a 4, 5 o 6 mediante el menú desplegable en el panel Configuración de la Ficha. El valor predeterminado es 6 pares, ideal para fichas estándar. Reduce a 4 o 5 pares para usuarios más jóvenes que necesitan imágenes más grandes y más espaciado, o para fichas con palabras personalizadas más largas que requieren más espacio. El número de pares se aplica de manera consistente en los cuatro modos de asociación, dándote control sobre la dificultad de la ficha y la densidad visual sin rediseñar el formato.',
       },
       {
         title: 'Encabezado Localizado «¡Asocia!» con Título e Instrucciones en 11 Idiomas',
@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: 'Números de Elemento y Viñetas Decorativas con Controles de Activación',
         description:
-          'Dos controles de activación en el panel Configuración de la Ficha controlan la estructura visual de cada columna de asociación. «Incluir números de elemento» (activado por defecto) añade números delante de cada par — los alumnos ven elementos numerados para una referencia fácil durante la corrección en clase. «Mostrar viñetas/puntos» (activado por defecto) añade puntos decorativos junto a los elementos para mayor claridad visual. Ambas opciones son independientes: puedes tener solo números, solo viñetas, ambos o ninguno, según tu público objetivo y estilo de producto.',
+          'Dos controles de activación en el panel Configuración de la Ficha controlan la estructura visual de cada columna de asociación. «Incluir números de elemento» (activado por defecto) añade números delante de cada par — los usuarios ven elementos numerados para una referencia fácil durante la corrección en línea. «Mostrar viñetas/puntos» (activado por defecto) añade puntos decorativos junto a los elementos para mayor claridad visual. Ambas opciones son independientes: puedes tener solo números, solo viñetas, ambos o ninguno, según tu público objetivo y estilo de producto.',
       },
       {
         title: 'Exportación PDF y JPEG Lista para Imprimir a 300 DPI con Modo Escala de Grises',
@@ -115,26 +115,26 @@ const content: AppContent = {
       {
         title: 'Cuadernos de Alfabetización Temprana en Amazon KDP',
         description:
-          'Compila de 40 a 80 fichas de asociación en un cuaderno impreso con formato Amazon KDP. El modo Letra Inicial es ideal para la alfabetización temprana — los alumnos asocian imágenes con su primera letra a través de múltiples temas, desarrollando la conciencia fonémica con cada página. Estructura tu cuaderno por dificultad: el Capítulo 1 usa 4 pares para principiantes, el Capítulo 2 usa 5 pares, y el Capítulo 3 usa 6 pares para alumnos avanzados. Incluye las claves de respuesta al final del cuaderno usando la función de clave de respuesta automática. El modo escala de grises produce páginas que ahorran tinta listas para interiores de libros en blanco y negro.',
+          'Compila de 40 a 80 fichas de asociación en un cuaderno impreso con formato Amazon KDP. El modo Letra Inicial es ideal para la alfabetización temprana — los usuarios asocian imágenes con su primera letra a través de múltiples temas, desarrollando la conciencia fonémica con cada página. Estructura tu cuaderno por dificultad: el Capítulo 1 usa 4 pares para principiantes, el Capítulo 2 usa 5 pares, y el Capítulo 3 usa 6 pares para usuarios avanzados. Incluye las claves de respuesta al final del cuaderno usando la función de clave de respuesta automática. El modo escala de grises produce páginas que ahorran tinta listas para interiores de libros en blanco y negro.',
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Fichas para Centros de Asociación en TPT',
+        title: 'Fichas para Centros de Asociación en Gumroad',
         description:
-          'Crea fichas de asociación listas para usar en centros de clase con campos de nombre/fecha, números de elemento y claves de respuesta impresas. Los profesores que buscan actividades de asociación en TPT valoran fichas que llegan listas para el aula — el campo de nombre asegura la responsabilidad del alumno, los números de elemento hacen eficiente la corrección durante las revisiones grupales, y la clave de respuesta generada automáticamente ahorra tiempo de preparación. Crea conjuntos alineados con el currículo: asociación de animales de granja, grupos alimenticios, vocabulario del clima y animales por hábitat. Cada conjunto incluye fichas de trabajo y claves de respuesta en formatos PDF y JPEG.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Crea fichas de asociación listas para usar en centros de clase con campos de nombre/fecha, números de elemento y claves de respuesta impresas. Los vendedores que buscan actividades de asociación en Gumroad valoran fichas que llegan listas para venta en línea — el campo de nombre asegura la responsabilidad del usuario, los números de elemento hacen eficiente la corrección durante las revisiones grupales, y la clave de respuesta generada automáticamente ahorra tiempo de preparación. Crea conjuntos alineados con el catálogo de productos: asociación de animales de granja, grupos alimenticios, vocabulario del clima y animales por hábitat. Cada conjunto incluye fichas de trabajo y claves de respuesta en formatos PDF y JPEG.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Fichas de Asociación de Vocabulario en Múltiples Idiomas',
         description:
-          'Aprovecha los modos Letra Inicial e Imagen+Palabra sensibles al idioma para crear fichas de asociación en 11 idiomas. Las mismas imágenes producen contenido de asociación diferente cuando cambias de idioma — los nombres de las imágenes, las primeras letras y el texto del encabezado se actualizan automáticamente. Crea packs de vocabulario multilingüe donde cada versión en un idioma usa las mismas imágenes temáticas pero con palabras localizadas. Esto es particularmente valioso para profesores de ELE, aulas bilingües y familias de educación en casa internacionales. Vende packs por idioma o mega-packs multilingües a precios premium.',
-        platform: 'Etsy / TPT (mercado multilingüe)',
+          'Aprovecha los modos Letra Inicial e Imagen+Palabra sensibles al idioma para crear fichas de asociación en 11 idiomas. Las mismas imágenes producen contenido de asociación diferente cuando cambias de idioma — los nombres de las imágenes, las primeras letras y el texto del encabezado se actualizan automáticamente. Crea packs de vocabulario multilingüe donde cada versión en un idioma usa las mismas imágenes temáticas pero con palabras localizadas. Esto es particularmente valioso para vendedores de ELE, tiendas bilingües y familias de trabajo desde casa internacionales. Vende packs por idioma o mega-packs multilingües a precios premium.',
+        platform: 'Etsy / Gumroad (mercado multilingüe)',
       },
       {
         title: 'Colecciones de Asociación Estacionales',
         description:
           'Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, San Valentín, vuelta al cole, vacaciones de verano y más. Crea colecciones de fichas de asociación de edición limitada alineadas con los picos de compra. Lanza packs de asociación de Halloween en septiembre, colecciones de Navidad en octubre y packs de San Valentín en enero. Incluye los cuatro modos de asociación en cada conjunto estacional para máximo valor. Los productos estacionales se venden a precios más altos durante sus periodos de pico y crean razones naturales para compras recurrentes.',
-        platform: 'Etsy / Amazon KDP / TPT (estacional)',
+        platform: 'Etsy / Amazon KDP / Gumroad (estacional)',
       },
     ],
   },
@@ -143,17 +143,17 @@ const content: AppContent = {
     {
       question: '¿Cuáles son los cuatro modos de asociación y en qué se diferencian?',
       answer:
-        'El generador ofrece cuatro modos distintos. El modo Letra Inicial coloca las imágenes a la izquierda y su primera letra a la derecha — los alumnos asocian cada imagen con la letra por la que empieza. El modo Imagen+Palabra muestra pares de imágenes etiquetadas en ambos lados para asociación de vocabulario. El modo Imagen/Palabra Mixto usa selectores desplegables por fila para que cada lado pueda mostrar independientemente una imagen o una palabra, creando dificultad variada dentro de una misma ficha. El modo Palabra Personalizada asocia las imágenes con tus propias palabras escritas para ortografía, vocabulario o ejercicios de idiomas extranjeros. Cada modo produce una actividad de aprendizaje diferente a partir de la misma biblioteca de imágenes.',
+        'El generador ofrece cuatro modos distintos. El modo Letra Inicial coloca las imágenes a la izquierda y su primera letra a la derecha — los usuarios asocian cada imagen con la letra por la que empieza. El modo Imagen+Palabra muestra pares de imágenes etiquetadas en ambos lados para asociación de vocabulario. El modo Imagen/Palabra Mixto usa selectores desplegables por fila para que cada lado pueda mostrar independientemente una imagen o una palabra, creando dificultad variada dentro de una misma ficha. El modo Palabra Personalizada asocia las imágenes con tus propias palabras escritas para ortografía, vocabulario o ejercicios de idiomas extranjeros. Cada modo produce una actividad de aprendizaje diferente a partir de la misma biblioteca de imágenes.',
     },
     {
       question: '¿Cómo funciona el número de pares configurable?',
       answer:
-        'En el panel Configuración de la Ficha, selecciona 4, 5 o 6 en el menú desplegable de número máximo de pares. El valor predeterminado es 6 pares. Menos pares crean fichas con imágenes más grandes y más espaciado — ideal para alumnos más jóvenes o fichas con palabras más largas. Más pares aumentan la dificultad y la densidad de contenido. El número de pares se aplica de manera consistente en los cuatro modos de asociación.',
+        'En el panel Configuración de la Ficha, selecciona 4, 5 o 6 en el menú desplegable de número máximo de pares. El valor predeterminado es 6 pares. Menos pares crean fichas con imágenes más grandes y más espaciado — ideal para usuarios más jóvenes o fichas con palabras más largas. Más pares aumentan la dificultad y la densidad de contenido. El número de pares se aplica de manera consistente en los cuatro modos de asociación.',
     },
     {
       question: '¿Cómo funciona la clave de respuesta generada automáticamente?',
       answer:
-        'El generador usa un sistema de doble lienzo con una pestaña de Ficha de Trabajo y una pestaña de Clave de Respuesta. La ficha de trabajo muestra el diseño a dos columnas sin líneas de conexión — los alumnos trazan sus propias líneas para asociar los pares. La clave de respuesta reproduce el mismo diseño y añade líneas de conexión horizontales (color #555, grosor de trazo 2) entre cada correspondencia correcta. Ambas versiones se exportan por separado mediante cuatro botones de descarga dedicados: worksheet.jpeg, worksheet.pdf, answer_key.jpeg y answer_key.pdf.',
+        'El generador usa un sistema de doble lienzo con una pestaña de Ficha de Trabajo y una pestaña de Clave de Respuesta. La ficha de trabajo muestra el diseño a dos columnas sin líneas de conexión — los usuarios trazan sus propias líneas para asociar los pares. La clave de respuesta reproduce el mismo diseño y añade líneas de conexión horizontales (color #555, grosor de trazo 2) entre cada correspondencia correcta. Ambas versiones se exportan por separado mediante cuatro botones de descarga dedicados: worksheet.jpeg, worksheet.pdf, answer_key.jpeg y answer_key.pdf.',
     },
     {
       question: '¿Cuáles son los submodos del modo Letra Inicial?',
@@ -168,7 +168,7 @@ const content: AppContent = {
     {
       question: '¿Cómo funcionan los números de elemento y las viñetas decorativas?',
       answer:
-        'Dos controles de activación en el panel Configuración de la Ficha controlan el formato. «Incluir números de elemento» (activado por defecto) añade números delante de cada par — útil para la corrección y discusión en clase. «Mostrar viñetas/puntos» (activado por defecto) añade puntos decorativos junto a los elementos para mayor claridad visual. Ambas opciones son independientes: puedes tener solo los números, solo las viñetas, ambos o ninguno, según tu estilo de ficha y tu público objetivo.',
+        'Dos controles de activación en el panel Configuración de la Ficha controlan el formato. «Incluir números de elemento» (activado por defecto) añade números delante de cada par — útil para la corrección y discusión en línea. «Mostrar viñetas/puntos» (activado por defecto) añade puntos decorativos junto a los elementos para mayor claridad visual. Ambas opciones son independientes: puedes tener solo los números, solo las viñetas, ambos o ninguno, según tu estilo de ficha y tu público objetivo.',
     },
     {
       question: '¿Cómo funciona el encabezado localizado?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender fichas de asociación creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de asociación como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos pedagógicos en TPT o a través de cualquier otro canal de venta. Los cuatro modos de asociación, las claves de respuesta generadas automáticamente y las 104 colecciones de imágenes temáticas te dan las herramientas creativas para producir productos de actividades de asociación originales y vendibles.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de asociación como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como productos imprimibles en Gumroad o a través de cualquier otro canal de venta. Los cuatro modos de asociación, las claves de respuesta generadas automáticamente y las 104 colecciones de imágenes temáticas te dan las herramientas creativas para producir productos de actividades de asociación originales y vendibles.',
     },
     {
       question: '¿Cuál es la política de reembolso?',
@@ -269,7 +269,7 @@ const content: AppContent = {
       {
         src: '/samples/spanish/matching/Encuentra Parejas 1.webp',
         alt: 'Ficha de asociación por letra inicial con imágenes a la izquierda y primeras letras a la derecha',
-        caption: 'Modo Letra Inicial — los alumnos asocian imágenes con su primera letra',
+        caption: 'Modo Letra Inicial — los usuarios asocian imágenes con su primera letra',
       },
       {
         src: '/samples/spanish/matching/Encuentra Parejas 2.webp',

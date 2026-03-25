@@ -3,14 +3,14 @@ import type { ToolContent } from '../types';
 const content: ToolContent = {  seo: {
     primaryKeyword: 'criar fichas trem do alfabeto para crianças',
     secondaryKeywords: [
-      'criador de trem do alfabeto para a classe',
+      'criador de trem do alfabeto para a loja',
       'fichas reconhecimento de letras para crianças',
       'trem do alfabeto imprimível para pré-escola',
-      'criador associação letra-imagem para professores',
+      'criador associação letra-imagem para vendedores',
     ],
     lsiKeywords: [
       'ficha trem associação letra-imagem para crianças',
-      'atividade alfabeto multilíngue para a classe',
+      'atividade alfabeto multilíngue para a loja',
       'trem do alfabeto colorido imprimível',
     ],
     titleTag: 'Fichas Trem do Alfabeto — Letras para Crianças',
@@ -20,7 +20,7 @@ const content: ToolContent = {  seo: {
   hero: {
     title: 'Gerador de Trem do Alfabeto',
     tagline: 'Crie fichas de trem de letras com associação letra-imagem em 11 idiomas',
-    description: 'Desenhe fichas do alfabeto que não se parecem com nenhuma página tradicional de traçado de letras. Esta ferramenta dispõe 11 vagões de trem coloridos ao longo da página, cada um com uma letra e uma ilustração correspondente. Imagens-pista dispersas aparecem junto ao trem — os alunos identificam com que letra começa cada imagem e associam-na ao vagão correto. Escolha entre o modo Criação Automática (a ferramenta seleciona aleatoriamente 11 letras e atribui imagens correspondentes) ou Modo Manual (escolha cada letra a partir de uma grelha do alfabeto completo e atribua cada imagem individualmente). Ajuste a dificuldade com o controlo de número de pistas: 3 pistas para principiantes, 5–7 para nível intermédio e 9–11 para alunos avançados que devem associar quase todos os vagões. A verdadeira potência é a sensibilidade linguística — selecione entre 11 alfabetos nativos incluindo alemão (Ä/Ö/Ü), sueco (Å/Ä/Ö), espanhol (Ñ) e mais. A mesma imagem associa-se com letras diferentes em cada idioma: «cão» associa-se com C em português mas com D em inglês (dog) e H em alemão (Hund). Um único modelo transforma-se em 11 produtos únicos. Explore mais de 3100 imagens em 104 temas, ou carregue as suas para designs personalizados. Escolha entre 7 famílias tipográficas e exporte como PDF pronto para imprimir ou JPEG de alta resolução. O teste grátis inclui uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    description: 'Desenhe fichas do alfabeto que não se parecem com nenhuma página tradicional de traçado de letras. Esta ferramenta dispõe 11 vagões de trem coloridos ao longo da página, cada um com uma letra e uma ilustração correspondente. Imagens-pista dispersas aparecem junto ao trem — os usuários identificam com que letra começa cada imagem e associam-na ao vagão correto. Escolha entre o modo Criação Automática (a ferramenta seleciona aleatoriamente 11 letras e atribui imagens correspondentes) ou Modo Manual (escolha cada letra a partir de uma grelha do alfabeto completo e atribua cada imagem individualmente). Ajuste a dificuldade com o controlo de número de pistas: 3 pistas para principiantes, 5–7 para nível intermédio e 9–11 para usuários avançados que devem associar quase todos os vagões. A verdadeira potência é a sensibilidade linguística — selecione entre 11 alfabetos nativos incluindo alemão (Ä/Ö/Ü), sueco (Å/Ä/Ö), espanhol (Ñ) e mais. A mesma imagem associa-se com letras diferentes em cada idioma: «cão» associa-se com C em português mas com D em inglês (dog) e H em alemão (Hund). Um único modelo transforma-se em 11 produtos únicos. Explore mais de 3100 imagens em 104 temas, ou carregue as suas para designs personalizados. Escolha entre 7 famílias tipográficas e exporte como PDF pronto para imprimir ou JPEG de alta resolução. O teste grátis inclui uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
   },
 
   tutorial: {
@@ -36,7 +36,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Escolher o Modo de Criação',
-        description: 'Selecione Criação Automática para que a ferramenta escolha aleatoriamente 11 letras e atribua automaticamente imagens do tema selecionado — ideal para produção rápida. Escolha Modo Manual para controlo total: selecione exatamente 11 letras da grelha do alfabeto e atribua cada imagem individualmente. O modo manual é perfeito para fichas alinhadas com o currículo que se focam em grupos específicos de letras.',
+        description: 'Selecione Criação Automática para que a ferramenta escolha aleatoriamente 11 letras e atribua automaticamente imagens do tema selecionado — ideal para produção rápida. Escolha Modo Manual para controlo total: selecione exatamente 11 letras da grelha do alfabeto e atribua cada imagem individualmente. O modo manual é perfeito para fichas alinhadas com o catálogo de produtos que se focam em grupos específicos de letras.',
       },
       {
         title: 'Selecionar Letras (Modo Manual)',
@@ -48,7 +48,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Configurar Número de Pistas e Campos de Nome/Data',
-        description: 'Use o controlo de número de pistas para definir quantas imagens de associação aparecem junto ao trem. Com 3 pistas, apenas 3 dos 11 vagões têm uma tarefa de associação — o nível mais fácil. Com 5–7 pistas, o nível intermédio. Com 9–11 pistas, o nível mais difícil, onde os alunos devem associar quase todos os vagões. Ative ou desative os campos de Nome e Data conforme a ficha seja para uso em sala de aula ou para download como produto digital.',
+        description: 'Use o controlo de número de pistas para definir quantas imagens de associação aparecem junto ao trem. Com 3 pistas, apenas 3 dos 11 vagões têm uma tarefa de associação — o nível mais fácil. Com 5–7 pistas, o nível intermédio. Com 9–11 pistas, o nível mais difícil, onde os usuários devem associar quase todos os vagões. Ative ou desative os campos de Nome e Data conforme a ficha seja para uso online ou para download como produto digital.',
       },
       {
         title: 'Personalizar Texto e Fontes',
@@ -64,7 +64,7 @@ const content: ToolContent = {  seo: {
   whatYouCanCreate: [
     {
       title: 'Pacotes Temáticos de Trem do Alfabeto',
-      description: 'Crie conjuntos de 10 a 15 fichas de trem do alfabeto usando coleções de imagens temáticas — animais, alimentos, veículos, natureza. Cada ficha usa letras e imagens diferentes com um número de pistas uniforme. Agrupe-os por tema e venda na Etsy ou Teachers Pay Teachers. O colorido formato de vagões de trem faz a miniatura do seu listing destacar-se das fichas planas de traçado de letras. Inclua gabaritos em cada conjunto para que os compradores recebam um recurso completo e pronto para a sala de aula que não requer preparação adicional por parte do professor.',
+      description: 'Crie conjuntos de 10 a 15 fichas de trem do alfabeto usando coleções de imagens temáticas — animais, alimentos, veículos, natureza. Cada ficha usa letras e imagens diferentes com um número de pistas uniforme. Agrupe-os por tema e venda na Etsy ou Gumroad. O colorido formato de vagões de trem faz a miniatura do seu listing destacar-se das fichas planas de traçado de letras. Inclua gabaritos em cada conjunto para que os compradores recebam um recurso completo e pronto para a loja que não requer preparação adicional por parte do vendedor.',
     },
     {
       title: 'Livros de Atividades do Alfabeto para KDP',
@@ -72,7 +72,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Conjuntos Diferenciados por Número de Pistas',
-      description: 'Gere três versões da mesma ficha temática a diferentes níveis de dificuldade: fácil (3 pistas), médio (7 pistas) e difícil (11 pistas). Os professores podem entregar a versão adequada a cada aluno conforme o seu nível de leitura. Venda-os como um pacote diferenciado a um preço premium na TPT ou Etsy.',
+      description: 'Gere três versões da mesma ficha temática a diferentes níveis de dificuldade: fácil (3 pistas), médio (7 pistas) e difícil (11 pistas). Os vendedores podem entregar a versão adequada a cada usuário conforme o seu nível de leitura. Venda-os como um pacote diferenciado a um preço premium na Gumroad ou Etsy.',
     },
     {
       title: 'Produtos Multilingues do Alfabeto',
@@ -80,11 +80,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Fichas Personalizadas com Imagem Própria',
-      description: 'Carregue as suas próprias ilustrações, mascotes ou arte com licença para criar trens do alfabeto que nenhum outro vendedor pode replicar. Os criadores de conteúdo para ensino doméstico podem usar fotos familiares, os professores podem usar mascotes escolares e os vendedores da Etsy podem construir uma identidade visual distintiva em toda a sua loja.',
+      description: 'Carregue as suas próprias ilustrações, mascotes ou arte com licença para criar trens do alfabeto que nenhum outro vendedor pode replicar. Os criadores de conteúdo para ensino doméstico podem usar fotos familiares, os vendedores podem usar mascotes escolares e os vendedores da Etsy podem construir uma identidade visual distintiva em toda a sua loja.',
     },
     {
       title: 'Pacotes Sazonais de Trem do Alfabeto',
-      description: 'Use temas de imagens festivas e sazonais para criar pacotes de edição limitada. Um pacote «Trem do Alfabeto de Natal» com ilustrações natalícias vende-se muito bem em novembro e dezembro. Regresso às aulas, Halloween, Dia dos Namorados e os temas de primavera têm as suas próprias janelas de vendas de pico na Etsy e TPT.',
+      description: 'Use temas de imagens festivas e sazonais para criar pacotes de edição limitada. Um pacote «Trem do Alfabeto de Natal» com ilustrações natalícias vende-se muito bem em novembro e dezembro. Regresso às aulas, Halloween, Dia dos Namorados e os temas de primavera têm as suas próprias janelas de vendas de pico na Etsy e Gumroad.',
     },
   ],
 
@@ -100,13 +100,13 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Pacotes de Alfabetização no Teachers Pay Teachers',
-      description: 'Carregue pacotes diferenciados de trem do alfabeto na TPT. Inclua fichas a três níveis de pistas, um guia para o professor explicando o formato do trem e gabaritos para cada página. Os professores procuram constantemente «atividades do alfabeto» e «fichas de reconhecimento de letras». O formato visual do trem acrescenta valor percebido porque parece um jogo, não um exercício. Ofereça pacotes de Criação Automática para variedade e pacotes de Modo Manual para grupos de letras alinhados com o currículo.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Pacotes de Alfabetização no Gumroad',
+      description: 'Carregue pacotes diferenciados de trem do alfabeto na Gumroad. Inclua fichas a três níveis de pistas, um guia para o vendedor explicando o formato do trem e gabaritos para cada página. Os vendedores procuram constantemente «atividades do alfabeto» e «fichas de reconhecimento de letras». O formato visual do trem acrescenta valor percebido porque parece um jogo, não um exercício. Ofereça pacotes de Criação Automática para variedade e pacotes de Modo Manual para grupos de letras alinhados com o catálogo de produtos.',
+      platform: 'Gumroad',
     },
     {
       title: 'Kits Multilingues do Alfabeto no Gumroad',
-      description: 'Crie kits premium do alfabeto no Gumroad que incluam os mesmos designs de fichas em 5 a 11 idiomas. Dirija-se a famílias bilingues, colégios internacionais e professores de idiomas que precisam de materiais de reconhecimento de letras em múltiplas línguas. A abordagem de idioma-como-multiplicador significa que cada kit tem de 5 a 11 vezes o conteúdo de um concorrente monolingue, justificando um preço mais elevado.',
+      description: 'Crie kits premium do alfabeto no Gumroad que incluam os mesmos designs de fichas em 5 a 11 idiomas. Dirija-se a famílias bilingues, colégios internacionais e vendedores de idiomas que precisam de materiais de reconhecimento de letras em múltiplas línguas. A abordagem de idioma-como-multiplicador significa que cada kit tem de 5 a 11 vezes o conteúdo de um concorrente monolingue, justificando um preço mais elevado.',
       platform: 'Gumroad',
     },
     {
@@ -124,11 +124,11 @@ const content: ToolContent = {  seo: {
   proTips: [
     {
       title: 'Comece com 3 Pistas para Principiantes',
-      description: 'Uma ficha com 3 pistas oferece uma introdução suave — os alunos só precisam de associar 3 imagens a vagões enquanto os 8 vagões restantes mostram letras sem tarefa de associação. Isto previne a frustração na pré-escola e no jardim de infância. Aumente para 7 ou 11 pistas à medida que ganham confiança. Os vendedores na Etsy e TPT podem empacotar versões fácil, média e difícil como um conjunto diferenciado, oferecendo aos professores exatamente o que procuram e justificando um preço de pacote mais elevado pela coleção completa.',
+      description: 'Uma ficha com 3 pistas oferece uma introdução suave — os usuários só precisam de associar 3 imagens a vagões enquanto os 8 vagões restantes mostram letras sem tarefa de associação. Isto previne a frustração na pré-escola e no jardim de infância. Aumente para 7 ou 11 pistas à medida que ganham confiança. Os vendedores na Etsy e Gumroad podem empacotar versões fácil, média e difícil como um conjunto diferenciado, oferecendo aos vendedores exatamente o que procuram e justificando um preço de pacote mais elevado pela coleção completa.',
     },
     {
       title: 'Use Criação Automática para Velocidade, Manual para Controlo',
-      description: 'O modo Criação Automática seleciona letras aleatoriamente e atribui imagens, permitindo-lhe gerar dezenas de fichas únicas em minutos. Mude para Modo Manual quando precisar de grupos específicos de letras — por exemplo, só vogais, só consoantes ou letras que os seus alunos estão a aprender atualmente em aula. Na perspetiva do vendedor, Criação Automática é ideal para pacotes de grande volume, enquanto Modo Manual permite criar produtos alinhados com o currículo direcionados a unidades fonéticas específicas que os professores procuram ativamente na TPT e Etsy.',
+      description: 'O modo Criação Automática seleciona letras aleatoriamente e atribui imagens, permitindo-lhe gerar dezenas de fichas únicas em minutos. Mude para Modo Manual quando precisar de grupos específicos de letras — por exemplo, só vogais, só consoantes ou letras que os seus usuários estão a aprender atualmente em aula. Na perspetiva do vendedor, Criação Automática é ideal para pacotes de grande volume, enquanto Modo Manual permite criar produtos alinhados com o catálogo de produtos direcionados a unidades fonéticas específicas que os vendedores procuram ativamente na Gumroad e Etsy.',
     },
     {
       title: 'Multiplique por 11 com o Modo Multilingue',
@@ -136,7 +136,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Use Escala de Cinzentos para KDP e Impressão em Massa',
-      description: 'Ative o modo escala de cinzentos para fichas destinadas a interiores de Amazon KDP ou impressão em massa na sala de aula. Os trens a preto e branco custam significativamente menos a imprimir. Reserve o modo a cores para pré-visualizações de listings na Etsy e downloads digitais onde os vagões vibrantes atraem cliques. Muitos vendedores KDP criam duas edições do mesmo livro — uma versão digital a cores e uma versão impressa em escala de cinzentos — duplicando o seu catálogo a partir de uma única sessão de design sem arte adicional.',
+      description: 'Ative o modo escala de cinzentos para fichas destinadas a interiores de Amazon KDP ou impressão em massa online. Os trens a preto e branco custam significativamente menos a imprimir. Reserve o modo a cores para pré-visualizações de listings na Etsy e downloads digitais onde os vagões vibrantes atraem cliques. Muitos vendedores KDP criam duas edições do mesmo livro — uma versão digital a cores e uma versão impressa em escala de cinzentos — duplicando o seu catálogo a partir de uma única sessão de design sem arte adicional.',
     },
     {
       title: 'Carregue Imagens Próprias para Marca Pessoal',
@@ -159,7 +159,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Como funciona o formato do trem do alfabeto?',
-      answer: 'A ferramenta cria 11 vagões de trem coloridos, cada um com uma letra e uma ilustração correspondente. Imagens-pista dispersas aparecem junto ao trem. Os alunos identificam com que letra começa cada imagem-pista e associam-na ao vagão correto. O número de imagens-pista é configurável de 3 a 11. É gerado um gabarito junto com cada ficha, mostrando as associações corretas imagem-letra para que professores e pais possam verificar o trabalho rapidamente sem resolver o exercício eles próprios.',
+      answer: 'A ferramenta cria 11 vagões de trem coloridos, cada um com uma letra e uma ilustração correspondente. Imagens-pista dispersas aparecem junto ao trem. Os usuários identificam com que letra começa cada imagem-pista e associam-na ao vagão correto. O número de imagens-pista é configurável de 3 a 11. É gerado um gabarito junto com cada ficha, mostrando as associações corretas imagem-letra para que vendedores e pais possam verificar o trabalho rapidamente sem resolver o exercício eles próprios.',
     },
     {
       question: 'Qual é a diferença entre Criação Automática e Modo Manual?',
@@ -183,7 +183,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Posso usar as fichas para fins comerciais?',
-      answer: 'O teste grátis com marca d\'água é apenas para uso pessoal e educativo. Para vender fichas na Etsy, Teachers Pay Teachers, Amazon KDP ou qualquer outro marketplace, precisa de uma licença comercial. A licença comercial remove a marca d\'água e concede direitos completos de revenda para as fichas que criar.',
+      answer: 'O teste grátis com marca d\'água é apenas para uso pessoal e educativo. Para vender fichas na Etsy, Gumroad, Amazon KDP ou qualquer outro marketplace, precisa de uma licença comercial. A licença comercial remove a marca d\'água e concede direitos completos de revenda para as fichas que criar.',
     },
     {
       question: 'Em que formatos de ficheiro posso descarregar?',
@@ -218,7 +218,7 @@ const content: ToolContent = {  seo: {
     sampleGallery: [
       {
         src: '/samples/portuguese/alphabet train/Comboio do Alfabeto 2.webp',
-        alt: 'Ficha colorida de trem do alfabeto com atividade de associação letra-imagem para alunos pequenos',
+        alt: 'Ficha colorida de trem do alfabeto com atividade de associação letra-imagem para usuários pequenos',
         caption: 'Formato de vagões de trem com associação letra-imagem',
       },
       {
@@ -229,7 +229,7 @@ const content: ToolContent = {  seo: {
       {
         src: '/samples/portuguese/alphabet train/Comboio do Alfabeto 4.webp',
         alt: 'Ficha avançada de trem do alfabeto com 11 pistas para máxima dificuldade em reconhecimento de letras',
-        caption: 'Dificuldade completa com 11 pistas para alunos avançados',
+        caption: 'Dificuldade completa com 11 pistas para usuários avançados',
       },
     ],
     youtubeId: '_dDQegRq9JQ',

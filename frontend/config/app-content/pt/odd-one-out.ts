@@ -7,7 +7,7 @@ const content: AppContent = {
       'gerador de fichas do intruso imprimíveis para vendedores Etsy',
       'criador de fichas de discriminação visual para editores Amazon KDP',
       'gerador de fichas encontre o diferente com licença comercial',
-      'vender fichas do intruso no Teachers Pay Teachers',
+      'vender fichas do intruso no Gumroad',
     ],
     lsiKeywords: [
       'produtos digitais de fichas do intruso para empreendedores',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Gerador Fichas Intruso | Criar e Vender',
     metaDescription:
-      'Crie fichas do intruso para Etsy, KDP e TPT. Dois modos de geração, gabarito automático com círculos vermelhos, 104 temas. Teste grátis com marca d\'água.',
+      'Crie fichas do intruso para Etsy, KDP e Gumroad. Dois modos de geração, gabarito automático com círculos vermelhos, 104 temas. Teste grátis com marca d\'água.',
   },
 
   hero: {
     title: 'Gerador de Fichas do Intruso para Puzzles de Discriminação Visual',
     tagline: 'Dois modos de geração — Idêntico e Similar — com substituição por exercício, de 5 a 10 exercícios configuráveis, gabaritos autogerados com marcadores de círculo vermelho e puzzles puramente visuais que funcionam nos 11 idiomas sem tradução.',
     description:
-      'Crie fichas profissionais de encontre o diferente onde os alunos identificam e rodeiam o elemento intruso em cada fila de quatro imagens. Escolha entre dois modos de geração: o modo Idêntico coloca três clones da mesma imagem junto a uma imagem diferente do mesmo tema para desafios de encontrar a diferença, enquanto o modo Similar utiliza três imagens do Tema A e uma imagem do Tema B para puzzles de discriminação entre categorias. Substitua o modo por exercício para misturar níveis de dificuldade numa única ficha. Configure de 5 a 10 exercícios por página com um valor predefinido de 6, e ative ou desative os campos opcionais de nome e data e os números de exercício para um formato pronto para a sala de aula. Cada ficha gera um gabarito complementar num separador de canvas separado — o gabarito desenha um círculo vermelho à volta do elemento intruso em cada fila para que nunca marque as respostas manualmente. O cabeçalho autogerado apresenta uma moldura exterior coral, uma moldura interior âmbar e um fundo turquesa com o título localizado «Encontra o Diferente» em Fredoka e as instruções em Quicksand nos 11 idiomas. Como os puzzles são totalmente visuais — não aparece nenhuma palavra na ficha — não são sensíveis ao idioma e funcionam identicamente em qualquer localização. O Acesso Completo desbloqueia todos os 104 temas com mais de 3100 ilustrações e os 11 idiomas de interface. Adicione temas de fundo e de moldura com controlos de opacidade independentes, e exporte PDF e JPEG prontos para impressão a 300 DPI em formato Carta, A4, Quadrado ou dimensões personalizadas. Quer venda packs de puzzles visuais na Etsy, compile cadernos de pensamento crítico para Amazon KDP ou crie atividades para a sala de aula no TPT, este gerador produz fichas do intruso prontas para produção em minutos — teste grátis com todas as funcionalidades, sem registo, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie fichas profissionais de encontre o diferente onde os usuários identificam e rodeiam o elemento intruso em cada fila de quatro imagens. Escolha entre dois modos de geração: o modo Idêntico coloca três clones da mesma imagem junto a uma imagem diferente do mesmo tema para desafios de encontrar a diferença, enquanto o modo Similar utiliza três imagens do Tema A e uma imagem do Tema B para puzzles de discriminação entre categorias. Substitua o modo por exercício para misturar níveis de dificuldade numa única ficha. Configure de 5 a 10 exercícios por página com um valor predefinido de 6, e ative ou desative os campos opcionais de nome e data e os números de exercício para um formato pronto para a loja. Cada ficha gera um gabarito complementar num separador de canvas separado — o gabarito desenha um círculo vermelho à volta do elemento intruso em cada fila para que nunca marque as respostas manualmente. O cabeçalho autogerado apresenta uma moldura exterior coral, uma moldura interior âmbar e um fundo turquesa com o título localizado «Encontra o Diferente» em Fredoka e as instruções em Quicksand nos 11 idiomas. Como os puzzles são totalmente visuais — não aparece nenhuma palavra na ficha — não são sensíveis ao idioma e funcionam identicamente em qualquer localização. O Acesso Completo desbloqueia todos os 104 temas com mais de 3100 ilustrações e os 11 idiomas de interface. Adicione temas de fundo e de moldura com controlos de opacidade independentes, e exporte PDF e JPEG prontos para impressão a 300 DPI em formato Carta, A4, Quadrado ou dimensões personalizadas. Quer venda packs de puzzles visuais na Etsy, compile cadernos de pensamento crítico para Amazon KDP ou crie atividades para a loja no Gumroad, este gerador produz fichas do intruso prontas para produção em minutos — teste grátis com todas as funcionalidades, sem registo, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Configure os Exercícios',
         description:
-          'Abra o painel de Configuração de Exercícios e defina a quantidade de exercícios de 5 a 10 (predefinido 6). Selecione um modo de geração global: o modo Idêntico usa três clones da mesma imagem mais uma imagem diferente do mesmo tema, enquanto o modo Similar utiliza três imagens do Tema A e uma imagem do Tema B. Substitua o modo por exercício usando seletores suspensos em cada fila — misture exercícios Idênticos e Similares numa única ficha para dificuldade progressiva. Ative a opção «Incluir Campos de Nome/Data» para adicionar linhas de nome e data do aluno, e ative «Incluir Números de Exercício» para mostrar numerais no lado esquerdo de cada cartão de exercício.',
+          'Abra o painel de Configuração de Exercícios e defina a quantidade de exercícios de 5 a 10 (predefinido 6). Selecione um modo de geração global: o modo Idêntico usa três clones da mesma imagem mais uma imagem diferente do mesmo tema, enquanto o modo Similar utiliza três imagens do Tema A e uma imagem do Tema B. Substitua o modo por exercício usando seletores suspensos em cada fila — misture exercícios Idênticos e Similares numa única ficha para dificuldade progressiva. Ative a opção «Incluir Campos de Nome/Data» para adicionar linhas de nome e data do usuário, e ative «Incluir Números de Exercício» para mostrar numerais no lado esquerdo de cada cartão de exercício.',
       },
       {
         title: 'Selecione Temas e Imagens',
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Gere o Gabarito e Descarregue',
         description:
-          'Mude para o separador de Gabarito para ver o gabarito autogerado com um círculo vermelho desenhado à volta do elemento intruso em cada fila de exercício. A espessura do traço do círculo escala com o tamanho da imagem (o maior entre tamanhoImagem × 0,04 ou 3px) para uma visibilidade consistente em todos os tamanhos de página. Descarregue ambas as versões usando os quatro botões dedicados: JPEG de Ficha, JPEG de Gabarito, PDF de Ficha e PDF de Gabarito a 300 DPI. Ative a escala de cinzentos para versões que poupam tinta. Cada exportação está pronta para produção em listagens da Etsy, interiores de Amazon KDP e ficheiros de produtos TPT.',
+          'Mude para o separador de Gabarito para ver o gabarito autogerado com um círculo vermelho desenhado à volta do elemento intruso em cada fila de exercício. A espessura do traço do círculo escala com o tamanho da imagem (o maior entre tamanhoImagem × 0,04 ou 3px) para uma visibilidade consistente em todos os tamanhos de página. Descarregue ambas as versões usando os quatro botões dedicados: JPEG de Ficha, JPEG de Gabarito, PDF de Ficha e PDF de Gabarito a 300 DPI. Ative a escala de cinzentos para versões que poupam tinta. Cada exportação está pronta para produção em listagens da Etsy, interiores de Amazon KDP e ficheiros de produtos Gumroad.',
       },
     ],
   },
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: 'Puzzles de Encontre o Diferente com Dois Modos de Geração',
         description:
-          'Cada exercício mostra quatro imagens num cartão horizontal — três elementos comuns e um elemento intruso — e os alunos rodeiam o que não pertence. O gerador oferece dois modos distintos. O modo Idêntico coloca três clones da mesma imagem junto a uma imagem diferente do mesmo tema, criando um desafio direto de encontrar a diferença. O modo Similar utiliza três imagens do Tema A (por exemplo, animais) e uma imagem do Tema B (por exemplo, comida), exigindo que os alunos identifiquem o intruso temático em vez de um duplicado visual. Cada modo produz um desafio cognitivo fundamentalmente diferente com a mesma biblioteca de imagens.',
+          'Cada exercício mostra quatro imagens num cartão horizontal — três elementos comuns e um elemento intruso — e os usuários rodeiam o que não pertence. O gerador oferece dois modos distintos. O modo Idêntico coloca três clones da mesma imagem junto a uma imagem diferente do mesmo tema, criando um desafio direto de encontrar a diferença. O modo Similar utiliza três imagens do Tema A (por exemplo, animais) e uma imagem do Tema B (por exemplo, comida), exigindo que os usuários identifiquem o intruso temático em vez de um duplicado visual. Cada modo produz um desafio cognitivo fundamentalmente diferente com a mesma biblioteca de imagens.',
       },
       {
         title: 'Substituição por Exercício para Fichas de Dificuldade Mista',
@@ -73,7 +73,7 @@ const content: AppContent = {
       {
         title: 'Quantidade de Exercícios Configurável de 5 a 10 por Ficha',
         description:
-          'Defina a quantidade de exercícios de 5 a 10 usando o painel de Configuração de Exercícios, com o valor predefinido em 6. Menos exercícios criam fichas com cartões de imagens maiores e mais espaço — ideal para alunos mais novos ou fichas destinadas a prática de motricidade fina onde rodear necessita de espaço. Mais exercícios aumentam a densidade de conteúdo e o desafio para alunos mais velhos. O layout adapta-se automaticamente — páginas verticais com 7 ou mais exercícios mudam para layout de 2 colunas, e as páginas horizontais usam sempre 2 colunas para um espaçamento ótimo.',
+          'Defina a quantidade de exercícios de 5 a 10 usando o painel de Configuração de Exercícios, com o valor predefinido em 6. Menos exercícios criam fichas com cartões de imagens maiores e mais espaço — ideal para usuários mais novos ou fichas destinadas a prática de motricidade fina onde rodear necessita de espaço. Mais exercícios aumentam a densidade de conteúdo e o desafio para usuários mais velhos. O layout adapta-se automaticamente — páginas verticais com 7 ou mais exercícios mudam para layout de 2 colunas, e as páginas horizontais usam sempre 2 colunas para um espaçamento ótimo.',
       },
       {
         title: 'Sistema de Dois Temas com Tema A (Comum) e Tema B (Intruso)',
@@ -93,12 +93,12 @@ const content: AppContent = {
       {
         title: 'Exportação PDF e JPEG Pronta para Impressão a 300 DPI com Escala de Cinzentos',
         description:
-          'Descarregue fichas do intruso e gabaritos como imagens JPEG de alta resolução ou documentos PDF prontos para impressão renderizados a 300 DPI (multiplicador 6×). Quatro botões de descarga dedicados exportam JPEG de Ficha, JPEG de Gabarito, PDF de Ficha e PDF de Gabarito separadamente. Os tamanhos de página incluem Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) e dimensões totalmente personalizadas. Ative a escala de cinzentos para versões que poupam tinta. Cada exportação está pronta para produção em downloads digitais, cadernos impressos e material para sala de aula.',
+          'Descarregue fichas do intruso e gabaritos como imagens JPEG de alta resolução ou documentos PDF prontos para impressão renderizados a 300 DPI (multiplicador 6×). Quatro botões de descarga dedicados exportam JPEG de Ficha, JPEG de Gabarito, PDF de Ficha e PDF de Gabarito separadamente. Os tamanhos de página incluem Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) e dimensões totalmente personalizadas. Ative a escala de cinzentos para versões que poupam tinta. Cada exportação está pronta para produção em downloads digitais, cadernos impressos e material para loja.',
       },
       {
         title: 'Edição Completa de Canvas com Ferramentas de Texto, Campos de Nome/Data e Números de Exercício',
         description:
-          'O canvas Fabric.js proporciona controlo total sobre cada elemento da sua ficha. Arraste, redimensione, rode e reposicione imagens, texto e conteúdo gerado livremente. Os controlos de camadas gerem a ordem de empilhamento, e bloqueie elementos terminados enquanto edita outros. Adicione texto personalizado com sete opções de fonte (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana), tamanho e cor ajustáveis, e espessura de contorno de texto de 0 a 10 com granularidade de 0,5. Ative os campos de nome e data para formato pronto para a sala de aula, e os números de exercício (25px de largura, 15px de espaçamento) para referência fácil durante a revisão. Zoom de 25% a 300% para trabalho detalhado. Desfazer e refazer até 20 estados de histórico com Ctrl+Z e Ctrl+Y.',
+          'O canvas Fabric.js proporciona controlo total sobre cada elemento da sua ficha. Arraste, redimensione, rode e reposicione imagens, texto e conteúdo gerado livremente. Os controlos de camadas gerem a ordem de empilhamento, e bloqueie elementos terminados enquanto edita outros. Adicione texto personalizado com sete opções de fonte (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana), tamanho e cor ajustáveis, e espessura de contorno de texto de 0 a 10 com granularidade de 0,5. Ative os campos de nome e data para formato pronto para a loja, e os números de exercício (25px de largura, 15px de espaçamento) para referência fácil durante a revisão. Zoom de 25% a 300% para trabalho detalhado. Desfazer e refazer até 20 estados de histórico com Ctrl+Z e Ctrl+Y.',
       },
     ],
   },
@@ -115,20 +115,20 @@ const content: AppContent = {
       {
         title: 'Cadernos de Discriminação Visual na Amazon KDP',
         description:
-          'Compile 40 a 80 fichas do intruso num caderno impresso formatado para Amazon KDP. Estruture o seu livro com dificuldade progressiva: os primeiros capítulos usam o modo Idêntico (encontrar o não-clone), os capítulos intermédios usam o modo Similar com contrastes de temas óbvios, e os capítulos avançados usam o modo Similar com distinções mais subtis. Use a substituição por exercício para criar páginas de dificuldade mista que desafiam os alunos a alternar entre estratégias visuais. Inclua os gabaritos no final usando o gabarito autogerado com círculos vermelhos. A opção de escala de cinzentos produz páginas que poupam tinta para interiores de livros a preto e branco.',
+          'Compile 40 a 80 fichas do intruso num caderno impresso formatado para Amazon KDP. Estruture o seu livro com dificuldade progressiva: os primeiros capítulos usam o modo Idêntico (encontrar o não-clone), os capítulos intermédios usam o modo Similar com contrastes de temas óbvios, e os capítulos avançados usam o modo Similar com distinções mais subtis. Use a substituição por exercício para criar páginas de dificuldade mista que desafiam os usuários a alternar entre estratégias visuais. Inclua os gabaritos no final usando o gabarito autogerado com círculos vermelhos. A opção de escala de cinzentos produz páginas que poupam tinta para interiores de livros a preto e branco.',
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Atividades de Pensamento Crítico para Sala de Aula no TPT',
+        title: 'Atividades de Pensamento Crítico para loja no Gumroad',
         description:
-          'Crie fichas do intruso prontas a usar com campos de nome e data, números de exercício e gabaritos impressos. Os professores que procuram atividades de pensamento crítico no TPT valorizam fichas que chegam prontas para a sala de aula — o campo de nome assegura a responsabilização do aluno, os números de exercício tornam a discussão em aula eficiente, e o gabarito com círculos vermelhos poupa tempo de correção. Crie conjuntos alinhados com o currículo: desafios de classificação animal, discriminação de grupos alimentares, identificação de ajudantes comunitários e puzzles de consciência sazonal. Cada conjunto inclui fichas do aluno e gabaritos em formatos PDF e JPEG.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Crie fichas do intruso prontas a usar com campos de nome e data, números de exercício e gabaritos impressos. Os vendedores que procuram atividades de pensamento crítico no Gumroad valorizam fichas que chegam prontas para a loja — o campo de nome assegura a responsabilização do usuário, os números de exercício tornam a discussão em aula eficiente, e o gabarito com círculos vermelhos poupa valor percebido. Crie conjuntos alinhados com o catálogo de produtos: desafios de classificação animal, discriminação de grupos alimentares, identificação de ajudantes comunitários e puzzles de consciência sazonal. Cada conjunto inclui fichas do usuário e gabaritos em formatos PDF e JPEG.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Coleções de Puzzles Sazonais e Festivos',
         description:
           'As 104 coleções de imagens temáticas cobrem cada ocasião sazonal e festiva — Natal, Halloween, Páscoa, Dia dos Namorados, regresso às aulas, férias de verão e mais. Crie coleções do intruso sazonais que se alinhem com os períodos de maior compra. Lance packs de puzzles de Halloween em setembro, coleções de Natal em outubro e packs de Dia dos Namorados em janeiro. Misture os modos Idêntico e Similar dentro de cada conjunto sazonal para variedade e valor percebido. Os produtos sazonais obtêm preços mais altos durante os seus períodos de pico e criam razões naturais para compras repetidas.',
-        platform: 'Etsy / Amazon KDP / TPT (sazonal)',
+        platform: 'Etsy / Amazon KDP / Gumroad (sazonal)',
       },
       {
         title: 'Alcance Global com Puzzles Puramente Visuais',
@@ -143,12 +143,12 @@ const content: AppContent = {
     {
       question: 'Como funciona a mecânica do intruso?',
       answer:
-        'Cada exercício mostra quatro imagens num cartão horizontal — três elementos comuns e um elemento intruso. Os alunos observam a fila, identificam qual imagem não pertence e rodeiam-na. A posição do elemento intruso é baralhada aleatoriamente dentro da fila, pelo que pode aparecer em qualquer das quatro posições. Os exercícios organizam-se verticalmente na página, com o layout a mudar para 2 colunas quando se usa orientação horizontal ou vertical com 7 ou mais exercícios.',
+        'Cada exercício mostra quatro imagens num cartão horizontal — três elementos comuns e um elemento intruso. Os usuários observam a fila, identificam qual imagem não pertence e rodeiam-na. A posição do elemento intruso é baralhada aleatoriamente dentro da fila, pelo que pode aparecer em qualquer das quatro posições. Os exercícios organizam-se verticalmente na página, com o layout a mudar para 2 colunas quando se usa orientação horizontal ou vertical com 7 ou mais exercícios.',
     },
     {
       question: 'Qual é a diferença entre os modos Idêntico e Similar?',
       answer:
-        'O modo Idêntico coloca três clones da mesma imagem junto a uma imagem diferente do mesmo tema — os alunos detetam o não-duplicado. O modo Similar utiliza três imagens do Tema A (por exemplo, animais) e uma imagem do Tema B (por exemplo, comida) — os alunos identificam o intruso temático. O modo Idêntico é mais fácil porque os alunos comparam duplicados visuais. O modo Similar é mais difícil porque as quatro imagens são diferentes e a distinção é categórica em vez de visual.',
+        'O modo Idêntico coloca três clones da mesma imagem junto a uma imagem diferente do mesmo tema — os usuários detetam o não-duplicado. O modo Similar utiliza três imagens do Tema A (por exemplo, animais) e uma imagem do Tema B (por exemplo, comida) — os usuários identificam o intruso temático. O modo Idêntico é mais fácil porque os usuários comparam duplicados visuais. O modo Similar é mais difícil porque as quatro imagens são diferentes e a distinção é categórica em vez de visual.',
     },
     {
       question: 'Como funciona a substituição de modo por exercício?',
@@ -168,17 +168,17 @@ const content: AppContent = {
     {
       question: 'Como funciona o gabarito autogerado com círculos vermelhos?',
       answer:
-        'O gerador usa um sistema de duplo canvas com um separador de Ficha e um separador de Gabarito. A ficha mostra os cartões de exercício sem nenhuma marca — os alunos rodeiam o elemento intruso sozinhos. O gabarito reproduz o layout idêntico e desenha um contorno de círculo vermelho à volta do elemento intruso em cada fila. A espessura do traço do círculo escala dinamicamente com o tamanho da imagem (o maior entre tamanhoImagem × 0,04 ou 3 píxeis). Ambas as versões são exportadas separadamente usando quatro botões de descarga dedicados.',
+        'O gerador usa um sistema de duplo canvas com um separador de Ficha e um separador de Gabarito. A ficha mostra os cartões de exercício sem nenhuma marca — os usuários rodeiam o elemento intruso sozinhos. O gabarito reproduz o layout idêntico e desenha um contorno de círculo vermelho à volta do elemento intruso em cada fila. A espessura do traço do círculo escala dinamicamente com o tamanho da imagem (o maior entre tamanhoImagem × 0,04 ou 3 píxeis). Ambas as versões são exportadas separadamente usando quatro botões de descarga dedicados.',
     },
     {
       question: 'Posso adicionar campos de nome e data às fichas do intruso?',
       answer:
-        'Sim. Ative a opção «Incluir Campos de Nome/Data» no painel de Configuração de Exercícios para adicionar linhas de nome e data do aluno. Estes campos posicionam-se de forma adaptável conforme o layout da página. Os campos de nome e data tornam as fichas prontas para a sala de aula — os professores podem acompanhar o trabalho do aluno e os pais podem organizar as atividades concluídas por data.',
+        'Sim. Ative a opção «Incluir Campos de Nome/Data» no painel de Configuração de Exercícios para adicionar linhas de nome e data do usuário. Estes campos posicionam-se de forma adaptável conforme o layout da página. Os campos de nome e data tornam as fichas prontas para a loja — os vendedores podem acompanhar o trabalho do usuário e os pais podem organizar as atividades concluídas por data.',
     },
     {
       question: 'Como funcionam os números de exercício?',
       answer:
-        'Ative a opção «Incluir Números de Exercício» no painel de Configuração de Exercícios para mostrar numerais no lado esquerdo de cada cartão de exercício. Os números usam uma largura de 25px com um espaçamento de 15px em relação ao conteúdo do cartão. Os números de exercício ajudam durante a revisão em aula e facilitam que os professores façam referência a exercícios específicos durante a discussão.',
+        'Ative a opção «Incluir Números de Exercício» no painel de Configuração de Exercícios para mostrar numerais no lado esquerdo de cada cartão de exercício. Os números usam uma largura de 25px com um espaçamento de 15px em relação ao conteúdo do cartão. Os números de exercício ajudam durante a revisão em aula e facilitam que os vendedores façam referência a exercícios específicos durante a discussão.',
     },
     {
       question: 'Existe um teste grátis?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Posso vender fichas do intruso criadas com esta ferramenta na Etsy e Amazon KDP?',
       answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas do intruso como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos para sala de aula no TPT ou através de qualquer outro canal de venda. Os dois modos de geração, as substituições por exercício e as 104 coleções de imagens temáticas proporcionam-lhe as ferramentas criativas para produzir produtos de discriminação visual originais e vendáveis.',
+        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas do intruso como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos para loja no Gumroad ou através de qualquer outro canal de venda. Os dois modos de geração, as substituições por exercício e as 104 coleções de imagens temáticas proporcionam-lhe as ferramentas criativas para produzir produtos de discriminação visual originais e vendáveis.',
     },
     {
       question: 'Qual é a política de reembolso?',

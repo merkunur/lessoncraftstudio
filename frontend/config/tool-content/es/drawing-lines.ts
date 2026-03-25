@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Generador de Fichas de Grafomotricidad',
     tagline: 'Ocho plantillas SVG de líneas con pares de imágenes, autocompletar desde 104 temas a color y orientación de página automática según la plantilla para fichas profesionales de trazado de líneas que se venden en todo el mundo',
-    description: 'Crea fichas profesionales de trazado de líneas donde los alumnos dibujan a lo largo de trazos guiados para conectar pares de imágenes coincidentes. Ocho plantillas basadas en SVG cubren una progresión completa de motricidad fina: una plantilla horizontal para trazado recto de izquierda a derecha (la más fácil), una plantilla vertical para trazos de arriba abajo, cuatro plantillas de curvas para movimientos fluidos de muñeca, y dos plantillas diagonales para coordinación bilateral (la más difícil). Cada plantilla coloca 4 o 5 pares de imágenes coincidentes en lados opuestos del trazo de la línea, dando a los alumnos un objetivo visual en cada extremo. La selección de plantilla establece automáticamente la orientación de página — las curvas se configuran en horizontal para arcos amplios, mientras que las plantillas diagonal, horizontal y vertical usan formato vertical para práctica concentrada. El autocompletar rellena instantáneamente cada espacio de par con imágenes aleatorias del tema seleccionado o de los 104 temas a la vez, haciendo la creación por lotes rápida. El contenido proviene de más de 3.100 ilustraciones a color en 104 colecciones temáticas — animales, vehículos, comida, naturaleza y docenas más. Cada ficha es puramente visual con cero texto en el resultado, haciendo los productos universalmente vendibles sin traducción. No se necesita clave de respuestas porque el trazo de la línea guía al alumno — una actividad autocorrectiva por diseño. Exporta PDF y JPEG listos para imprimir a 300 DPI en tamaño Carta, A4, Cuadrado (1200×1200) o dimensiones personalizadas. Edita todo en el lienzo completo de Fabric.js con fuentes como Lexend Deca, Baloo 2, Nunito, Quicksand y Fredoka. La prueba gratuita incluye todas las funciones con una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
+    description: 'Crea fichas profesionales de trazado de líneas donde los usuarios dibujan a lo largo de trazos guiados para conectar pares de imágenes coincidentes. Ocho plantillas basadas en SVG cubren una progresión completa de motricidad fina: una plantilla horizontal para trazado recto de izquierda a derecha (la más fácil), una plantilla vertical para trazos de arriba abajo, cuatro plantillas de curvas para movimientos fluidos de muñeca, y dos plantillas diagonales para coordinación bilateral (la más difícil). Cada plantilla coloca 4 o 5 pares de imágenes coincidentes en lados opuestos del trazo de la línea, dando a los usuarios un objetivo visual en cada extremo. La selección de plantilla establece automáticamente la orientación de página — las curvas se configuran en horizontal para arcos amplios, mientras que las plantillas diagonal, horizontal y vertical usan formato vertical para práctica concentrada. El autocompletar rellena instantáneamente cada espacio de par con imágenes aleatorias del tema seleccionado o de los 104 temas a la vez, haciendo la creación por lotes rápida. El contenido proviene de más de 3.100 ilustraciones a color en 104 colecciones temáticas — animales, vehículos, comida, naturaleza y docenas más. Cada ficha es puramente visual con cero texto en el resultado, haciendo los productos universalmente vendibles sin traducción. No se necesita clave de respuestas porque el trazo de la línea guía al usuario — una actividad autocorrectiva por diseño. Exporta PDF y JPEG listos para imprimir a 300 DPI en tamaño Carta, A4, Cuadrado (1200×1200) o dimensiones personalizadas. Edita todo en el lienzo completo de Fabric.js con fuentes como Lexend Deca, Baloo 2, Nunito, Quicksand y Fredoka. La prueba gratuita incluye todas las funciones con una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
   },
 
   tutorial: {
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Añade Texto y Activa los Campos de Nombre y Fecha',
-        description: 'Usa el panel de Herramientas de Texto para añadir un título de ficha, instrucciones o texto decorativo. Elige entre fuentes como Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito y Quicksand. Activa los campos de nombre y fecha para áreas de identificación del alumno. El encabezado autogenerado muestra un banner verde vibrante con "Práctica de Trazado de Líneas" localizado en los 11 idiomas compatibles. Arrastra, redimensiona, rota y reposiciona cada elemento en el lienzo completo de Fabric.js con herramientas de alineación, controles de bloquear y desbloquear, y deshacer y rehacer ilimitados.',
+        description: 'Usa el panel de Herramientas de Texto para añadir un título de ficha, instrucciones o texto decorativo. Elige entre fuentes como Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito y Quicksand. Activa los campos de nombre y fecha para áreas de identificación del usuario. El encabezado autogenerado muestra un banner verde vibrante con "Práctica de Trazado de Líneas" localizado en los 11 idiomas compatibles. Arrastra, redimensiona, rota y reposiciona cada elemento en el lienzo completo de Fabric.js con herramientas de alineación, controles de bloquear y desbloquear, y deshacer y rehacer ilimitados.',
       },
       {
         title: 'Previsualiza y Ajusta la Dificultad de las Líneas',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Exporta como PDF o JPEG a 300 DPI',
-        description: 'Descarga tu ficha terminada como JPEG de alta resolución o PDF listo para imprimir a 300 DPI. Activa la escala de grises para versiones con ahorro de tinta ideales para impresión en el aula e interiores de KDP. No se necesita clave de respuestas separada — el trazo de la línea guía al alumno, haciendo cada ficha una actividad autocorrectiva. Cada exportación está lista para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de TpT sin necesidad de posprocesamiento.',
+        description: 'Descarga tu ficha terminada como JPEG de alta resolución o PDF listo para imprimir a 300 DPI. Activa la escala de grises para versiones con ahorro de tinta ideales para impresión en volumen e interiores de KDP. No se necesita clave de respuestas separada — el trazo de la línea guía al usuario, haciendo cada ficha una actividad autocorrectiva. Cada exportación está lista para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Gumroad sin necesidad de posprocesamiento.',
       },
     ],
   },
@@ -69,15 +69,15 @@ const content: ToolContent = {
     },
     {
       title: 'Cuadernos de Motricidad Fina para KDP',
-      description: 'Compila 60–100 ejercicios de trazado de líneas en cuadernos impresos para Amazon KDP. Estructura un currículo de motricidad fina por capítulos: el Capítulo 1 cubre líneas horizontales para los fundamentos del control direccional. El Capítulo 2 introduce líneas verticales para trazos descendentes. El Capítulo 3 avanza a curvas para la flexibilidad de muñeca. El Capítulo 4 desafía a los lectores con diagonales que requieren coordinación bilateral. Los pares de imágenes a color se reproducen con viveza en impresión a color. El formato visual sin texto se publica de forma idéntica en todos los mercados internacionales de KDP sin traducción.',
+      description: 'Compila 60–100 ejercicios de trazado de líneas en cuadernos impresos para Amazon KDP. Estructura un catálogo de productos de motricidad fina por capítulos: el Capítulo 1 cubre líneas horizontales para los fundamentos del control direccional. El Capítulo 2 introduce líneas verticales para trazos descendentes. El Capítulo 3 avanza a curvas para la flexibilidad de muñeca. El Capítulo 4 desafía a los lectores con diagonales que requieren coordinación bilateral. Los pares de imágenes a color se reproducen con viveza en impresión a color. El formato visual sin texto se publica de forma idéntica en todos los mercados internacionales de KDP sin traducción.',
     },
     {
       title: 'Sets de Preparación para la Escritura y Preescritura',
-      description: 'Crea fichas de trazado de líneas diseñadas específicamente como preparación para la escritura. Las líneas horizontales practican el seguimiento de izquierda a derecha usado en lectura y escritura. Las líneas verticales desarrollan los trazos de arriba abajo esenciales para la formación de letras. Las curvas imitan los movimientos redondeados necesarios para letras como c, o, s y e. Las diagonales construyen los trazos angulados usados en letras como k, v, w y z. Empaqueta estos como sets de "Preparación para la Escritura" que conectan el desarrollo de la motricidad fina con las habilidades de lectoescritura — una categoría de productos con fuerte demanda durante todo el año entre maestros de preescolar y padres.',
+      description: 'Crea fichas de trazado de líneas diseñadas específicamente como preparación para la escritura. Las líneas horizontales practican el seguimiento de izquierda a derecha usado en lectura y escritura. Las líneas verticales desarrollan los trazos de arriba abajo esenciales para la formación de letras. Las curvas imitan los movimientos redondeados necesarios para letras como c, o, s y e. Las diagonales construyen los trazos angulados usados en letras como k, v, w y z. Empaqueta estos como sets de "Preparación para la Escritura" que conectan el desarrollo de la motricidad fina con las habilidades de lectoescritura — una categoría de productos con fuerte demanda durante todo el año entre vendedores de preescolar y padres.',
     },
     {
       title: 'Sets Temáticos de Asociación de Pares de Imágenes',
-      description: 'Aprovecha las 104 colecciones temáticas de imágenes para crear fichas de trazado donde los alumnos conectan imágenes coincidentes a través de trazos guiados. Cada tema se convierte en un listado de producto distinto: trazado de líneas con animales de granja, dibujo de curvas con dinosaurios, práctica de diagonales con criaturas marinas, líneas verticales de exploración espacial. El formato de asociación de pares de imágenes añade un elemento de identificación al ejercicio de motricidad fina — los alumnos deben encontrar la imagen coincidente al final de cada línea, combinando discriminación visual con control del lápiz en una sola actividad atractiva.',
+      description: 'Aprovecha las 104 colecciones temáticas de imágenes para crear fichas de trazado donde los usuarios conectan imágenes coincidentes a través de trazos guiados. Cada tema se convierte en un listado de producto distinto: trazado de líneas con animales de granja, dibujo de curvas con dinosaurios, práctica de diagonales con criaturas marinas, líneas verticales de exploración espacial. El formato de asociación de pares de imágenes añade un elemento de identificación al ejercicio de motricidad fina — los usuarios deben encontrar la imagen coincidente al final de cada línea, combinando discriminación visual con control del lápiz en una sola actividad atractiva.',
     },
     {
       title: 'Paquetes de Muestras con Tipos de Líneas Mixtos',
@@ -85,29 +85,29 @@ const content: ToolContent = {
     },
     {
       title: 'Paquetes de Aprendizaje Visual Multi-Formato',
-      description: 'Combina fichas de trazado de líneas con páginas para colorear, ejercicios de dibujo en cuadrícula, fichas de patrones y fichas de asociación usando temas coordinados. El trazado de líneas desarrolla el control del lápiz a lo largo de trazos guiados. El dibujo en cuadrícula construye la reproducción espacial. Las páginas para colorear entrenan el reconocimiento de colores y el control motor fino. Cada formato ejercita una habilidad visomotora diferente. Los paquetes multi-formato se venden por más que cualquier tipo de actividad individual y ofrecen a los alumnos práctica variada con un tema unificado en cada actividad.',
+      description: 'Combina fichas de trazado de líneas con páginas para colorear, ejercicios de dibujo en cuadrícula, fichas de patrones y fichas de asociación usando temas coordinados. El trazado de líneas desarrolla el control del lápiz a lo largo de trazos guiados. El dibujo en cuadrícula construye la reproducción espacial. Las páginas para colorear entrenan el reconocimiento de colores y el control motor fino. Cada formato ejercita una habilidad visomotora diferente. Los paquetes multi-formato se venden por más que cualquier tipo de actividad individual y ofrecen a los usuarios práctica variada con un tema unificado en cada actividad.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Tienda Etsy de Trazado de Líneas por Nivel de Dificultad',
-      description: 'Abre una tienda Etsy especializada en fichas de trazado de líneas organizadas por tipo de línea y dificultad. Los paquetes horizontales sirven a principiantes con líneas rectas de izquierda a derecha. Los paquetes verticales avanzan a trazos de arriba abajo. Los paquetes de curvas introducen movimientos fluidos. Los paquetes diagonales desafían a alumnos avanzados con coordinación angular. Las ocho plantillas distintas y los 104 temas de imágenes producen cientos de combinaciones únicas de fichas. El formato visual sin texto hace que cada producto se pueda vender en todo el mundo. Precio de paquetes temáticos individuales a $3–$5 y paquetes progresivos con múltiples tipos a $12–$18.',
+      description: 'Abre una tienda Etsy especializada en fichas de trazado de líneas organizadas por tipo de línea y dificultad. Los paquetes horizontales sirven a principiantes con líneas rectas de izquierda a derecha. Los paquetes verticales avanzan a trazos de arriba abajo. Los paquetes de curvas introducen movimientos fluidos. Los paquetes diagonales desafían a usuarios avanzados con coordinación angular. Las ocho plantillas distintas y los 104 temas de imágenes producen cientos de combinaciones únicas de fichas. El formato visual sin texto hace que cada producto se pueda vender en todo el mundo. Precio de paquetes temáticos individuales a $3–$5 y paquetes progresivos con múltiples tipos a $12–$18.',
       platform: 'Etsy',
     },
     {
       title: 'Serie de Cuadernos de Trazado de Líneas para Amazon KDP',
-      description: 'Compila más de 80 ejercicios de trazado de líneas en cuadernos temáticos para Amazon KDP. Estructura una serie por progresión: "Trazado de Líneas para Principiantes" cubre plantillas horizontales y verticales. "Trazado de Líneas Intermedio" introduce las cuatro variantes de curvas. "Trazado de Líneas Avanzado" presenta plantillas diagonales mezcladas con curvas. Las imágenes a color se imprimen con viveza para interiores atractivos y adaptados a niños. El formato sin texto se publica de forma idéntica en todos los mercados internacionales de KDP sin traducción. Los cuadernos de motricidad fina llenan un nicho específico de aprendizaje temprano con demanda constante durante todo el año.',
+      description: 'Compila más de 80 ejercicios de trazado de líneas en cuadernos temáticos para Amazon KDP. Estructura una serie por progresión: "Trazado de Líneas para Principiantes" cubre plantillas horizontales y verticales. "Trazado de Líneas Intermedio" introduce las cuatro variantes de curvas. "Trazado de Líneas Avanzado" presenta plantillas diagonales mezcladas con curvas. Las imágenes a color se imprimen con viveza para interiores atractivos y atractivos. El formato sin texto se publica de forma idéntica en todos los mercados internacionales de KDP sin traducción. Los cuadernos de motricidad fina llenan un nicho específico de aprendizaje temprano con demanda constante durante todo el año.',
       platform: 'Amazon KDP',
     },
     {
-      title: 'Centros de Preparación para la Escritura en Teachers Pay Teachers',
-      description: 'Crea estaciones de preparación para la escritura niveladas usando el tipo de línea como eje de progresión. La Estación 1 cubre líneas horizontales para seguimiento de izquierda a derecha. La Estación 2 apunta a líneas verticales para trazos de arriba abajo. La Estación 3 introduce curvas para los movimientos de formación de letras. La Estación 4 desafía a los alumnos con diagonales para las formas angulares de las letras. Cada estación apunta a una habilidad de preescritura que se transfiere directamente a la formación de letras. El formato visual sin texto funciona en cualquier aula independientemente del idioma de los alumnos, haciendo estos recursos valiosos para entornos inclusivos y multilingües.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Centros de Preparación para la Escritura en Gumroad',
+      description: 'Crea estaciones de preparación para la escritura niveladas usando el tipo de línea como eje de progresión. La Estación 1 cubre líneas horizontales para seguimiento de izquierda a derecha. La Estación 2 apunta a líneas verticales para trazos de arriba abajo. La Estación 3 introduce curvas para los movimientos de formación de letras. La Estación 4 desafía a los usuarios con diagonales para las formas angulares de las letras. Cada estación apunta a una habilidad de preescritura que se transfiere directamente a la formación de letras. El formato visual sin texto funciona en cualquier tienda independientemente del idioma de los usuarios, haciendo estos recursos valiosos para entornos inclusivos y multilingües.',
+      platform: 'Gumroad',
     },
     {
       title: 'Embudo Visual de Trazado de Líneas en Pinterest',
-      description: 'Las fichas de trazado de líneas con pares de imágenes a color y trazos SVG distintivos crean pines llamativos en Pinterest que destacan frente a pines de fichas con mucho texto. Publica fichas de ejemplo mostrando diferentes tipos de líneas con marca de agua, enlaza a tu tienda Etsy o página de destino, y construye tu lista de correo. Crea series de pines separadas para "trazado de líneas para niños", "fichas de motricidad fina" y "práctica de preescritura". El formato sin texto significa que los pines atraen a padres y maestros de todos los países del mundo.',
+      description: 'Las fichas de trazado de líneas con pares de imágenes a color y trazos SVG distintivos crean pines llamativos en Pinterest que destacan frente a pines de fichas con mucho texto. Publica fichas de ejemplo mostrando diferentes tipos de líneas con marca de agua, enlaza a tu tienda Etsy o página de destino, y construye tu lista de correo. Crea series de pines separadas para "trazado de líneas para niños", "fichas de motricidad fina" y "práctica de preescritura". El formato sin texto significa que los pines atraen a padres y vendedores de todos los países del mundo.',
       platform: 'Pinterest',
     },
     {
@@ -141,11 +141,11 @@ const content: ToolContent = {
     },
     {
       title: 'Destaca los Temas a Color como Ventaja de Atractivo Visual',
-      description: 'Grafomotricidad usa ilustraciones a color, no contornos en blanco y negro. Enfatiza esto en las descripciones de tus productos — los pares de imágenes a color hacen las fichas visualmente atractivas para alumnos pequeños y crean miniaturas de Etsy más atractivas que generan mayor tasa de clics en los resultados de búsqueda. Las imágenes vibrantes diferencian tus productos de fichas simples de trazado de líneas.',
+      description: 'Grafomotricidad usa ilustraciones a color, no contornos en blanco y negro. Enfatiza esto en las descripciones de tus productos — los pares de imágenes a color hacen las fichas visualmente atractivas para usuarios pequeños y crean miniaturas de Etsy más atractivas que generan mayor tasa de clics en los resultados de búsqueda. Las imágenes vibrantes diferencian tus productos de fichas simples de trazado de líneas.',
     },
     {
       title: 'Usa la Escala de Grises para Impresión Económica',
-      description: 'Activa la opción de escala de grises para fichas destinadas a interiores de Amazon KDP o impresión en volumen para el aula donde los costos de impresión a color son una preocupación. Incluso en escala de grises, los pares de imágenes permanecen visualmente distintos para la asociación, y los trazos SVG se reproducen perfectamente en blanco y negro. Reserva las versiones a color para listados de Etsy donde el atractivo visual impulsa los clics.',
+      description: 'Activa la opción de escala de grises para fichas destinadas a interiores de Amazon KDP o impresión en volumen para venta en línea donde los costos de impresión a color son una preocupación. Incluso en escala de grises, los pares de imágenes permanecen visualmente distintos para la asociación, y los trazos SVG se reproducen perfectamente en blanco y negro. Reserva las versiones a color para listados de Etsy donde el atractivo visual impulsa los clics.',
     },
     {
       title: 'Combina el Trazado de Líneas con Otras Herramientas Visuales para Paquetes Premium',
@@ -164,7 +164,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Cómo funciona la asociación de pares de imágenes?',
-      answer: 'Cada plantilla coloca pares de imágenes coincidentes en lados opuestos del trazo de la línea. Una imagen aparece al inicio de la línea y su pareja aparece al final. Los alumnos trazan a lo largo del camino guiado para conectar las imágenes que coinciden. Las plantillas contienen 4 o 5 pares dependiendo del tipo de línea. Las imágenes coincidentes dan a los alumnos un objetivo visual que los motiva a completar cada línea.',
+      answer: 'Cada plantilla coloca pares de imágenes coincidentes en lados opuestos del trazo de la línea. Una imagen aparece al inicio de la línea y su pareja aparece al final. Los usuarios trazan a lo largo del camino guiado para conectar las imágenes que coinciden. Las plantillas contienen 4 o 5 pares dependiendo del tipo de línea. Las imágenes coincidentes dan a los usuarios un objetivo visual que los motiva a completar cada línea.',
     },
     {
       question: '¿Cómo funciona autocompletar para la creación por lotes?',
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Por qué no hay clave de respuestas?',
-      answer: 'Las fichas de Grafomotricidad no necesitan una clave de respuestas separada porque el trazo de la línea guía al alumno. La plantilla SVG impresa en la ficha muestra exactamente dónde trazar — los alumnos siguen el camino visible desde una imagen hasta su pareja. El ejercicio es autocorrectivo: si la línea del alumno sigue el trazo y llega a la imagen coincidente, lo ha completado correctamente.',
+      answer: 'Las fichas de Grafomotricidad no necesitan una clave de respuestas separada porque el trazo de la línea guía al usuario. La plantilla SVG impresa en la ficha muestra exactamente dónde trazar — los usuarios siguen el camino visible desde una imagen hasta su pareja. El ejercicio es autocorrectivo: si la línea del usuario sigue el trazo y llega a la imagen coincidente, lo ha completado correctamente.',
     },
     {
       question: '¿Estas fichas dependen del idioma?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Puedo vender las fichas creadas con esta herramienta de forma comercial?',
-      answer: 'Sí. Con una licencia comercial, tienes derechos completos para vender fichas de trazado de líneas como descargas digitales en Etsy, cuadernos impresos en Amazon KDP, recursos para maestros en TpT o a través de cualquier otro canal de venta. Las ocho plantillas distintas, los 104 temas a color, el flujo de autocompletar y el formato visual sin texto crean fuerte diferenciación y vendibilidad global.',
+      answer: 'Sí. Con una licencia comercial, tienes derechos completos para vender fichas de trazado de líneas como descargas digitales en Etsy, cuadernos impresos en Amazon KDP, recursos para vendedores en Gumroad o a través de cualquier otro canal de venta. Las ocho plantillas distintas, los 104 temas a color, el flujo de autocompletar y el formato visual sin texto crean fuerte diferenciación y vendibilidad global.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

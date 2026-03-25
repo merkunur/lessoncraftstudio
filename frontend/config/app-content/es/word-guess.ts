@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'fichas de adivinar palabras imprimibles para vendedores Etsy',
       'generador de fichas de vocabulario estilo ahorcado para Amazon KDP',
-      'vender fichas de adivinar palabras en Teachers Pay Teachers',
+      'vender fichas de adivinar palabras en Gumroad',
       'fichas de adivinar palabras con pistas de imagen licencia comercial',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Generador Fichas Adivinar Palabras | Crear y Vender',
     metaDescription:
-      'Crea fichas de adivinar palabras para Etsy, KDP y TPT. Pistas de imagen, 4 dificultades, 3 fuentes de contenido, 11 idiomas. Prueba gratis con marca de agua.',
+      'Crea fichas de adivinar palabras para Etsy, KDP y Gumroad. Pistas de imagen, 4 dificultades, 3 fuentes de contenido, 11 idiomas. Prueba gratis con marca de agua.',
   },
 
   hero: {
     title: 'Generador de Fichas de Adivinar Palabras para Puzzles de Vocabulario con Pistas de Imagen',
     tagline: 'La deducción estilo ahorcado se combina con pistas visuales — cuatro niveles de dificultad convierten cada palabra en un puzzle gratificante.',
     description:
-      'Diseña fichas profesionales de adivinar palabras donde los alumnos ven una pista de imagen y deducen la palabra oculta rellenando casillas de letras vacías — un puzzle estilo ahorcado que desarrolla simultáneamente la ortografía, el vocabulario y el razonamiento deductivo. Elige entre tres fuentes de contenido: la Biblioteca de Imágenes integrada con más de 3100 ilustraciones en 104 temas, el Modo Edición Manual donde seleccionas imágenes y personalizas sus nombres de visualización, o el modo Lista de Palabras Personalizada para puzzles de solo texto con el vocabulario que tú elijas. Cuatro niveles de dificultad controlan cuántas letras se pre-revelan como pistas — desde Sin Pistas (ninguna letra revelada) hasta el modo Fácil mostrando la mitad de las letras — creando un andamiaje natural del principiante al avanzado. Coloca de 1 a 10 puzzles por ficha y alterna entre cuadrículas de letras en mayúsculas o minúsculas. El Acceso Completo desbloquea los 11 idiomas soportados donde la palabra objetivo cambia según el idioma — «dog» en inglés se convierte en «Hund» en alemán, «chien» en francés, «perro» en español — haciendo de cada idioma un producto distinto y vendible. Cada ficha genera una clave de respuesta automática, y puedes exportar PDF listos para imprimir y JPEG a más de 400 DPI en formato Carta, A4, Cuadrado o dimensiones personalizadas. Ya sea que vendas paquetes temáticos de vocabulario en Etsy, compiles libros de puzzles de palabras para Amazon KDP o crees centros de lectoescritura diferenciados para TPT, el Generador de Fichas de Adivinar Palabras produce resultados profesionales en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Diseña fichas profesionales de adivinar palabras donde los usuarios ven una pista de imagen y deducen la palabra oculta rellenando casillas de letras vacías — un puzzle estilo ahorcado que desarrolla simultáneamente la ortografía, el vocabulario y el razonamiento deductivo. Elige entre tres fuentes de contenido: la Biblioteca de Imágenes integrada con más de 3100 ilustraciones en 104 temas, el Modo Edición Manual donde seleccionas imágenes y personalizas sus nombres de visualización, o el modo Lista de Palabras Personalizada para puzzles de solo texto con el vocabulario que tú elijas. Cuatro niveles de dificultad controlan cuántas letras se pre-revelan como pistas — desde Sin Pistas (ninguna letra revelada) hasta el modo Fácil mostrando la mitad de las letras — creando un andamiaje natural del principiante al avanzado. Coloca de 1 a 10 puzzles por ficha y alterna entre cuadrículas de letras en mayúsculas o minúsculas. El Acceso Completo desbloquea los 11 idiomas soportados donde la palabra objetivo cambia según el idioma — «dog» en inglés se convierte en «Hund» en alemán, «chien» en francés, «perro» en español — haciendo de cada idioma un producto distinto y vendible. Cada ficha genera una clave de respuesta automática, y puedes exportar PDF listos para imprimir y JPEG a más de 400 DPI en formato Carta, A4, Cuadrado o dimensiones personalizadas. Ya sea que vendas paquetes temáticos de vocabulario en Etsy, compiles libros de puzzles de palabras para Amazon KDP o crees centros de lectoescritura diferenciados para Gumroad, el Generador de Fichas de Adivinar Palabras produce resultados profesionales en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
   },
 
   howItWorks: {
@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Elige el tipo de letra y añade toques personalizados',
         description:
-          'Elige entre cuadrículas de letras en mayúsculas (por defecto) y minúsculas para adaptarte al nivel de habilidad objetivo. Usa el panel de Herramientas de Texto para añadir un título de ficha, campos de nombre y fecha del alumno, instrucciones o cualquier texto personalizado. Elige entre siete fuentes, incluyendo Lexend Deca, Baloo 2, Fredoka y Quicksand. Ajusta el tamaño, color y contorno de la fuente para máxima legibilidad.',
+          'Elige entre cuadrículas de letras en mayúsculas (por defecto) y minúsculas para adaptarte al nivel de habilidad objetivo. Usa el panel de Herramientas de Texto para añadir un título de ficha, campos de nombre y fecha, instrucciones o cualquier texto personalizado. Elige entre siete fuentes, incluyendo Lexend Deca, Baloo 2, Fredoka y Quicksand. Ajusta el tamaño, color y contorno de la fuente para máxima legibilidad.',
       },
       {
         title: 'Genera la clave de respuesta y descarga',
@@ -63,12 +63,12 @@ const content: AppContent = {
       {
         title: 'Adivinación de palabras con pistas de imagen y cuadrícula de letras vacías',
         description:
-          'Cada puzzle presenta una pista de imagen junto a una fila de casillas de letras vacías que representan la palabra oculta. Los alumnos estudian la imagen, identifican lo que representa y rellenan las letras que faltan — un ejercicio de deducción estilo ahorcado que desarrolla simultáneamente el vocabulario visual, la precisión ortográfica y la correspondencia letra-sonido. Las expresiones de varias palabras se muestran como grupos de palabras separados con espaciado entre ellos, soportando de forma natural los sustantivos compuestos, los nombres de animales y los términos de vocabulario más largos.',
+          'Cada puzzle presenta una pista de imagen junto a una fila de casillas de letras vacías que representan la palabra oculta. Los usuarios estudian la imagen, identifican lo que representa y rellenan las letras que faltan — un ejercicio de deducción estilo ahorcado que desarrolla simultáneamente el vocabulario visual, la precisión ortográfica y la correspondencia letra-sonido. Las expresiones de varias palabras se muestran como grupos de palabras separados con espaciado entre ellos, soportando de forma natural los sustantivos compuestos, los nombres de animales y los términos de vocabulario más largos.',
       },
       {
         title: 'Cuatro niveles de dificultad con número ajustable de letras-pista',
         description:
-          'Controla exactamente cuánto andamiaje reciben los alumnos con cuatro niveles de dificultad integrados. El modo Sin Pistas deja cada casilla vacía para un desafío máximo. El modo Fácil pre-revela la mitad de las letras, perfecto para lectores principiantes. El modo Normal revela un cuarto de las letras para una práctica equilibrada. El modo Difícil revela solo un sexto — suficiente pista para empezar sin dar la respuesta. Mezclar niveles de dificultad en las fichas de un mismo paquete crea una progresión natural de fácil a difícil que justifica precios premium.',
+          'Controla exactamente cuánto andamiaje reciben los usuarios con cuatro niveles de dificultad integrados. El modo Sin Pistas deja cada casilla vacía para un desafío máximo. El modo Fácil pre-revela la mitad de las letras, perfecto para lectores principiantes. El modo Normal revela un cuarto de las letras para una práctica equilibrada. El modo Difícil revela solo un sexto — suficiente pista para empezar sin dar la respuesta. Mezclar niveles de dificultad en las fichas de un mismo paquete crea una progresión natural de fácil a difícil que justifica precios premium.',
       },
       {
         title: 'Tres fuentes de contenido: Biblioteca de Imágenes, Edición Manual y Lista de Palabras Personalizada',
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: 'Soporte de expresiones de varias palabras para vocabulario complejo',
         description:
-          'Los nombres de imágenes y las entradas personalizadas que contienen espacios se muestran como grupos de palabras separados en la cuadrícula del puzzle, con un espaciado claro entre cada palabra. Esto significa que términos compuestos como «oso polar» o «camión de bomberos» se muestran naturalmente como dos cuadrículas de palabras conectadas en lugar de una cadena larga. Los alumnos resuelven cada palabra de forma independiente mientras entienden que forman un solo concepto. Esta funcionalidad amplía el alcance de tu vocabulario mucho más allá de los sustantivos simples, incluyendo especies animales, platos de comida, nombres de lugares y expresiones descriptivas.',
+          'Los nombres de imágenes y las entradas personalizadas que contienen espacios se muestran como grupos de palabras separados en la cuadrícula del puzzle, con un espaciado claro entre cada palabra. Esto significa que términos compuestos como «oso polar» o «camión de bomberos» se muestran naturalmente como dos cuadrículas de palabras conectadas en lugar de una cadena larga. Los usuarios resuelven cada palabra de forma independiente mientras entienden que forman un solo concepto. Esta funcionalidad amplía el alcance de tu vocabulario mucho más allá de los sustantivos simples, incluyendo especies animales, platos de comida, nombres de lugares y expresiones descriptivas.',
       },
       {
         title: '104 temas visuales con más de 3100 imágenes',
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: 'Exportación lista para imprimir a 400+ DPI con opción escala de grises',
         description:
-          'Descarga fichas y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir. El motor de exportación renderiza con un multiplicador 6x, produciendo más de 400 DPI en tamaños estándar. Activa la exportación en escala de grises para versiones que ahorran tinta, perfectas para impresión en el aula o libros de actividades en blanco y negro. Los formatos Carta, A4, Cuadrado y dimensiones personalizadas están todos soportados para máxima flexibilidad en plataformas de impresión bajo demanda e impresoras domésticas.',
+          'Descarga fichas y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir. El motor de exportación renderiza con un multiplicador 6x, produciendo más de 400 DPI en tamaños estándar. Activa la exportación en escala de grises para versiones que ahorran tinta, perfectas para impresión en volumen o libros de actividades en blanco y negro. Los formatos Carta, A4, Cuadrado y dimensiones personalizadas están todos soportados para máxima flexibilidad en plataformas de impresión bajo demanda e impresoras domésticas.',
       },
       {
         title: 'Edición completa del lienzo con herramientas de texto, forma e imagen',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de lectoescritura diferenciados para TPT',
+        title: 'Centros de lectoescritura diferenciados para Gumroad',
         description:
-          'Construye conjuntos de práctica de adivinar palabras por niveles usando el nivel de dificultad como eje de diferenciación: Nivel 1 (Fácil, 4 puzzles por página, palabras simples), Nivel 2 (Normal, 6 puzzles, palabras medianas), Nivel 3 (Difícil, 8 puzzles, palabras más largas), y Nivel 4 (Sin Pistas, 10 puzzles, expresiones de varias palabras). Acompaña cada nivel con claves de respuesta y una hoja de seguimiento del progreso. Los compradores de Teachers Pay Teachers pagan precios premium por recursos de vocabulario diferenciados que pueden desplegar inmediatamente en múltiples niveles de lectura.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Construye conjuntos de práctica de adivinar palabras por niveles usando el nivel de dificultad como eje de diferenciación: Nivel 1 (Fácil, 4 puzzles por página, palabras simples), Nivel 2 (Normal, 6 puzzles, palabras medianas), Nivel 3 (Difícil, 8 puzzles, palabras más largas), y Nivel 4 (Sin Pistas, 10 puzzles, expresiones de varias palabras). Acompaña cada nivel con claves de respuesta y una hoja de seguimiento del progreso. Los compradores de Gumroad pagan precios premium por recursos de vocabulario diferenciados que pueden desplegar inmediatamente en múltiples niveles de lectura.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Productos de vocabulario multilingües con Acceso Completo',
         description:
           'El Acceso Completo desbloquea los 11 idiomas, y como Adivinar Palabras es sensible al idioma, la palabra objetivo cambia según el idioma. «Dog» en inglés se convierte en «Hund» en alemán, «chien» en francés, «perro» en español. Cada versión lingüística es un producto genuinamente diferente con palabras diferentes, números de letras diferentes y soluciones de puzzle diferentes. Crea series temáticas idénticas en múltiples idiomas y lista cada una como un producto de Etsy o un libro de KDP separado — once flujos de ingresos desde un solo flujo de trabajo.',
-        platform: 'Etsy / Amazon KDP / TPT (multilingüe)',
+        platform: 'Etsy / Amazon KDP / Gumroad (multilingüe)',
       },
       {
-        title: 'Herramienta de ortografía para el aula y tutoría',
+        title: 'Herramienta de ortografía para venta en línea y tutoría',
         description:
-          'Usa el modo Lista de Palabras Personalizada para crear fichas de adivinar palabras con cualquier lista de vocabulario — palabras del dictado semanal, términos de ciencias, vocabulario de estudios sociales o práctica de idiomas extranjeros. Escribe tus palabras directamente sin necesitar imágenes correspondientes. Ajusta el nivel de dificultad según la capacidad de cada alumno: Fácil para los que tienen dificultades con la ortografía, Sin Pistas para los alumnos avanzados. Imprime series personalizadas en minutos para grupos pequeños o clases enteras. La clave de respuesta automática ahorra tiempo de corrección, y el formato estilo ahorcado mantiene el interés de los alumnos en comparación con los ejercicios tradicionales de escribir la palabra cinco veces.',
-        platform: 'Aula / Tutoría / Educación en casa',
+          'Usa el modo Lista de Palabras Personalizada para crear fichas de adivinar palabras con cualquier lista de vocabulario — palabras del dictado semanal, términos de ciencias, vocabulario de estudios sociales o práctica de idiomas extranjeros. Escribe tus palabras directamente sin necesitar imágenes correspondientes. Ajusta el nivel de dificultad según la capacidad de cada usuario: Fácil para los que tienen dificultades con la ortografía, Sin Pistas para los usuarios avanzados. Imprime series personalizadas en minutos para grupos pequeños o clases enteras. La clave de respuesta automática ahorra valor percibido, y el formato estilo ahorcado mantiene el interés de los usuarios en comparación con los ejercicios tradicionales de escribir la palabra cinco veces.',
+        platform: 'Tienda / Tutoría / Educación en casa',
       },
     ],
   },
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: '¿Cómo funciona el puzzle de adivinar palabras?',
       answer:
-        'Cada puzzle muestra una pista de imagen junto a una fila de casillas de letras vacías. Los alumnos estudian la imagen para identificar lo que representa y luego rellenan las letras que faltan para deletrear la palabra. Las letras-pista pre-reveladas (controladas por el nivel de dificultad) proporcionan andamiaje. Funciona como el juego del ahorcado pero con una pista de imagen en lugar de una categoría — desarrollando simultáneamente el vocabulario visual, la ortografía y el razonamiento deductivo.',
+        'Cada puzzle muestra una pista de imagen junto a una fila de casillas de letras vacías. Los usuarios estudian la imagen para identificar lo que representa y luego rellenan las letras que faltan para deletrear la palabra. Las letras-pista pre-reveladas (controladas por el nivel de dificultad) proporcionan andamiaje. Funciona como el juego del ahorcado pero con una pista de imagen en lugar de una categoría — desarrollando simultáneamente el vocabulario visual, la ortografía y el razonamiento deductivo.',
     },
     {
       question: '¿Cuáles son los cuatro niveles de dificultad?',
@@ -158,12 +158,12 @@ const content: AppContent = {
     {
       question: '¿Cómo funciona el soporte de expresiones de varias palabras?',
       answer:
-        'Las palabras o nombres de imágenes que contienen espacios (como «oso polar» o «camión de bomberos») se muestran como grupos de palabras separados en la cuadrícula del puzzle con un espaciado claro entre ellos. Los alumnos resuelven cada palabra de forma independiente mientras entienden que forman un solo concepto. Esto funciona con las tres fuentes de contenido y los cuatro niveles de dificultad.',
+        'Las palabras o nombres de imágenes que contienen espacios (como «oso polar» o «camión de bomberos») se muestran como grupos de palabras separados en la cuadrícula del puzzle con un espaciado claro entre ellos. Los usuarios resuelven cada palabra de forma independiente mientras entienden que forman un solo concepto. Esto funciona con las tres fuentes de contenido y los cuatro niveles de dificultad.',
     },
     {
       question: '¿Puedo elegir entre mayúsculas y minúsculas?',
       answer:
-        'Sí. El selector de tipo de letra te permite alternar entre mayúsculas (por defecto) y minúsculas para la cuadrícula de adivinación. Las mayúsculas son ideales para alumnos pequeños que aprenden las letras capitales, mientras que las minúsculas son adecuadas para alumnos mayores que practican la escritura estándar. La configuración se aplica tanto a las letras-pista como a las casillas que los alumnos rellenan.',
+        'Sí. El selector de tipo de letra te permite alternar entre mayúsculas (por defecto) y minúsculas para la cuadrícula de adivinación. Las mayúsculas son ideales para usuarios pequeños que aprenden las letras capitales, mientras que las minúsculas son adecuadas para usuarios mayores que practican la escritura estándar. La configuración se aplica tanto a las letras-pista como a las casillas que los usuarios rellenan.',
     },
     {
       question: '¿Cuál es la diferencia entre el Modo Edición Manual y la Biblioteca de Imágenes?',
@@ -173,12 +173,12 @@ const content: AppContent = {
     {
       question: '¿Qué puedo hacer con el modo Lista de Palabras Personalizada?',
       answer:
-        'El modo Lista de Palabras Personalizada te permite escribir cualquier palabra o expresión directamente — sin imágenes necesarias. Es ideal para listas del dictado semanal, vocabulario específico de una asignatura (términos de ciencias, nombres geográficos), práctica de idiomas extranjeros o cualquier contenido personalizado. Los puzzles muestran cuadrículas de letras vacías sin pistas de imagen, así que los alumnos se basan en el contexto de los títulos de ficha, las instrucciones o sus conocimientos previos para resolver los enigmas.',
+        'El modo Lista de Palabras Personalizada te permite escribir cualquier palabra o expresión directamente — sin imágenes necesarias. Es ideal para listas del dictado semanal, vocabulario específico de una asignatura (términos de ciencias, nombres geográficos), práctica de idiomas extranjeros o cualquier contenido personalizado. Los puzzles muestran cuadrículas de letras vacías sin pistas de imagen, así que los usuarios se basan en el contexto de los títulos de ficha, las instrucciones o sus conocimientos previos para resolver los enigmas.',
     },
     {
       question: '¿El generador crea claves de respuesta automáticamente?',
       answer:
-        'Sí. Haz clic en el botón Generar Clave de Respuesta para crear una versión resuelta de tu ficha con cada casilla de letra rellena y ninguna casilla vacía restante. Puedes previsualizar la clave de respuesta en pantalla y descargarla como archivo JPEG o PDF separado. Activa la exportación en escala de grises para claves de respuesta que ahorran tinta, ideales para impresión en el aula.',
+        'Sí. Haz clic en el botón Generar Clave de Respuesta para crear una versión resuelta de tu ficha con cada casilla de letra rellena y ninguna casilla vacía restante. Puedes previsualizar la clave de respuesta en pantalla y descargarla como archivo JPEG o PDF separado. Activa la exportación en escala de grises para claves de respuesta que ahorran tinta, ideales para impresión en volumen.',
     },
     {
       question: '¿El generador de Adivinar Palabras es sensible al idioma?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de adivinar palabras como descargas digitales en Etsy, como libros de actividades impresos en Amazon KDP, como recursos educativos en TPT o a través de cualquier otro canal de venta. El formato de puzzle con pistas de imagen y la capacidad multilingüe te ofrecen una fuerte diferenciación en categorías de mercado competitivas.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de adivinar palabras como descargas digitales en Etsy, como libros de actividades impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. El formato de puzzle con pistas de imagen y la capacidad multilingüe te ofrecen una fuerte diferenciación en categorías de mercado competitivas.',
     },
     {
       question: '¿Cuál es la política de reembolso?',
@@ -236,7 +236,7 @@ const content: AppContent = {
     {
       pageType: 'guide',
       slug: 'vender-material-educativo-etsy',
-      anchorText: 'Guía para Vender Material Educativo en Etsy',
+      anchorText: 'Guía para Vender productos imprimibles en Etsy',
     },
     {
       pageType: 'start',
@@ -251,7 +251,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'educacion-en-casa-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles para educación en casa',
+      anchorText: 'Ideas de imprimibles para trabajo desde casa',
     },
     {
       pageType: 'guide',
@@ -274,7 +274,7 @@ const content: AppContent = {
       {
         src: '/samples/spanish/word guess/Adivina la Palabra 2.webp',
         alt: 'Ficha de adivinar palabras en dificultad Difícil con mínimas letras-pista y tema de animales',
-        caption: 'Dificultad Difícil — solo un sexto de las letras reveladas para alumnos avanzados en ortografía',
+        caption: 'Dificultad Difícil — solo un sexto de las letras reveladas para usuarios avanzados en ortografía',
       },
       {
         src: '/samples/spanish/word guess/Adivina la Palabra 1 answer-key.webp',

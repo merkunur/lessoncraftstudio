@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'schede di preposizioni stampabili per Etsy',
       'generatore schede vocabolario spaziale per Amazon KDP',
-      'vendere schede di preposizioni su Teachers Pay Teachers',
+      'vendere schede di preposizioni su Gumroad',
       'schede di preposizioni spaziali licenza commerciale',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Generatore Schede Preposizioni | Crea e Vendi Online',
     metaDescription:
-      'Crea schede di preposizioni da vendere su Etsy, KDP e TPT. 8 preposizioni spaziali, completa la frase e scelta multipla. Prova gratuita con filigrana.',
+      'Crea schede di preposizioni da vendere su Etsy, KDP e Gumroad. 8 preposizioni spaziali, completa la frase e scelta multipla. Prova gratuita con filigrana.',
   },
 
   hero: {
     title: 'Generatore di Schede di Preposizioni per la Pratica del Vocabolario Spaziale',
     tagline: 'Otto preposizioni spaziali combinate con esercizi di immagini e forme — costruendo il vocabolario spaziale frase dopo frase.',
     description:
-      'Crea schede di preposizioni professionali che insegnano le relazioni spaziali attraverso esercizi pratici con immagini e forme. Gli studenti praticano otto preposizioni fondamentali — in/dentro, su/sopra, sotto, accanto a, dietro, tra/fra, sopra e davanti a — attraverso due modalità di esercizio distinte: Completa la Frase, dove gli studenti scrivono la preposizione mancante, e Scelta Multipla, dove identificano l\'immagine che corrisponde a una descrizione spaziale. Seleziona quali preposizioni includere dalla lista integrata e configura da 1 a 8 esercizi per scheda. Esplora oltre 3100 illustrazioni selezionate in 104 temi per gli oggetti posizionati, e scegli tra 8 forme geometriche (cerchio, cubo, cilindro, cuore, esagono, quadrato, stella, triangolo) come punti di riferimento spaziale. L\'Accesso Completo sblocca tutte le 11 lingue supportate con preposizioni grammaticalmente corrette — tedesco con le preposizioni articolate come „im" e „am", francese con le regole di elisione per « l\' » davanti a vocali, italiano con le preposizioni articolate (nel, nella, sul, sulla, nello, nell\') — moltiplicando il tuo catalogo prodotti per undici da un unico flusso di lavoro. Ogni scheda genera una chiave di risposta automatica, e puoi esportare PDF pronti per la stampa e JPEG a oltre 400 DPI nei formati Lettera, A4, Quadrato o dimensioni personalizzate. Che tu venda pacchetti tematici di preposizioni su Etsy, compili libri di vocabolario spaziale per Amazon KDP o crei centri linguistici differenziati per il TPT, il Generatore di Schede di Preposizioni offre risultati professionali in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Crea schede di preposizioni professionali che insegnano le relazioni spaziali attraverso esercizi pratici con immagini e forme. gli utenti praticano otto preposizioni fondamentali — in/dentro, su/sopra, sotto, accanto a, dietro, tra/fra, sopra e davanti a — attraverso due modalità di esercizio distinte: Completa la Frase, dove gli utenti scrivono la preposizione mancante, e Scelta Multipla, dove identificano l\'immagine che corrisponde a una descrizione spaziale. Seleziona quali preposizioni includere dalla lista integrata e configura da 1 a 8 esercizi per scheda. Esplora oltre 3100 illustrazioni selezionate in 104 temi per gli oggetti posizionati, e scegli tra 8 forme geometriche (cerchio, cubo, cilindro, cuore, esagono, quadrato, stella, triangolo) come punti di riferimento spaziale. L\'Accesso Completo sblocca tutte le 11 lingue supportate con preposizioni grammaticalmente corrette — tedesco con le preposizioni articolate come „im" e „am", francese con le regole di elisione per « l\' » davanti a vocali, italiano con le preposizioni articolate (nel, nella, sul, sulla, nello, nell\') — moltiplicando il tuo catalogo prodotti per undici da un unico flusso di lavoro. Ogni scheda genera una chiave di risposta automatica, e puoi esportare PDF pronti per la stampa e JPEG a oltre 400 DPI nei formati Lettera, A4, Quadrato o dimensioni personalizzate. Che tu venda pacchetti tematici di preposizioni su Etsy, compili libri di vocabolario spaziale per Amazon KDP o crei centri linguistici differenziati per il Gumroad, il Generatore di Schede di Preposizioni offre risultati professionali in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Scegli la modalità e il numero di esercizi',
         description:
-          'Apri il pannello di Impostazione Esercizi e seleziona una delle due modalità. La modalità Completa la Frase presenta frasi come «[Immagine] è ____ il [forma]» dove gli studenti scrivono la preposizione corretta nello spazio vuoto. La modalità Scelta Multipla mostra una descrizione spaziale e chiede agli studenti di indicare l\'immagine corrispondente. Imposta il numero di esercizi per scheda da 1 a 8 per controllare la densità e la difficoltà.',
+          'Apri il pannello di Impostazione Esercizi e seleziona una delle due modalità. La modalità Completa la Frase presenta frasi come «[Immagine] è ____ il [forma]» dove gli utenti scrivono la preposizione corretta nello spazio vuoto. La modalità Scelta Multipla mostra una descrizione spaziale e chiede agli utenti di indicare l\'immagine corrispondente. Imposta il numero di esercizi per scheda da 1 a 8 per controllare la densità e la difficoltà.',
       },
       {
         title: 'Seleziona le preposizioni dalla lista',
@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Scegli gli oggetti e le forme dalla libreria',
         description:
-          'Apri il pannello della Libreria di Immagini ed esplora 104 temi per le immagini degli oggetti — gli elementi posizionati — e poi scegli tra 8 forme geometriche (cerchio, cubo, cilindro, cuore, esagono, quadrato, stella, triangolo) come punti di riferimento spaziale. Usa la barra di ricerca per trovare immagini specifiche istantaneamente. Configura lo stile del testo con sette font, tra cui Lexend Deca, Baloo 2 e Fredoka. Attiva i campi per nome e data dello studente, e carica le tue immagini personalizzate per schede con il tuo marchio.',
+          'Apri il pannello della Libreria di Immagini ed esplora 104 temi per le immagini degli oggetti — gli elementi posizionati — e poi scegli tra 8 forme geometriche (cerchio, cubo, cilindro, cuore, esagono, quadrato, stella, triangolo) come punti di riferimento spaziale. Usa la barra di ricerca per trovare immagini specifiche istantaneamente. Configura lo stile del testo con sette font, tra cui Lexend Deca, Baloo 2 e Fredoka. Attiva i campi per nome e data dell'utente, e carica le tue immagini personalizzate per schede con il tuo marchio.',
       },
       {
         title: 'Genera la chiave di risposta e scarica',
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: '8 preposizioni spaziali con modalità Completa la Frase e Scelta Multipla',
         description:
-          'Pratica otto preposizioni spaziali fondamentali — in/dentro, su/sopra, sotto, accanto a, dietro, tra/fra, sopra e davanti a — attraverso due tipi di esercizio distinti. La modalità Completa la Frase presenta frasi con immagini e forme con una preposizione mancante che gli studenti completano, sviluppando la scrittura e la memorizzazione. La modalità Scelta Multipla mostra una descrizione spaziale e chiede agli studenti di identificare l\'immagine corrispondente, rinforzando il riconoscimento e la comprensione. Usare entrambe le modalità in schede diverse crea una progressione naturale da facile a difficile all\'interno dello stesso pacchetto di prodotti.',
+          'Pratica otto preposizioni spaziali fondamentali — in/dentro, su/sopra, sotto, accanto a, dietro, tra/fra, sopra e davanti a — attraverso due tipi di esercizio distinti. La modalità Completa la Frase presenta frasi con immagini e forme con una preposizione mancante che gli utenti completano, sviluppando la scrittura e la memorizzazione. La modalità Scelta Multipla mostra una descrizione spaziale e chiede agli utenti di identificare l\'immagine corrispondente, rinforzando il riconoscimento e la comprensione. Usare entrambe le modalità in schede diverse crea una progressione naturale da facile a difficile all\'interno dello stesso pacchetto di prodotti.',
       },
       {
         title: 'Grammatica adattata per ogni lingua con preposizioni articolate, elisione e regole degli articoli',
@@ -73,12 +73,12 @@ const content: AppContent = {
       {
         title: 'Oggetti + Forme: due tipi di immagine per il contesto spaziale',
         description:
-          'Ogni esercizio posiziona un oggetto (un\'illustrazione tematica come un gatto, un\'auto o una mela) in relazione a una forma (cerchio, cubo, cilindro, cuore, esagono, quadrato, stella o triangolo). Questo sistema a doppia immagine crea relazioni spaziali chiare e inequivocabili che gli studenti possono interpretare immediatamente. Gli oggetti provengono dalla libreria di 104 temi con oltre 3100 illustrazioni, mentre le 8 forme geometriche servono anche come introduzione alla geometria. I nomi delle forme sono completamente tradotti nelle 11 lingue con le forme plurali corrette.',
+          'Ogni esercizio posiziona un oggetto (un\'illustrazione tematica come un gatto, un\'auto o una mela) in relazione a una forma (cerchio, cubo, cilindro, cuore, esagono, quadrato, stella o triangolo). Questo sistema a doppia immagine crea relazioni spaziali chiare e inequivocabili che gli utenti possono interpretare immediatamente. Gli oggetti provengono dalla libreria di 104 temi con oltre 3100 illustrazioni, mentre le 8 forme geometriche servono anche come introduzione alla geometria. I nomi delle forme sono completamente tradotti nelle 11 lingue con le forme plurali corrette.',
       },
       {
         title: 'Numero di esercizi configurabile da 1 a 8 per scheda',
         description:
-          'Imposta esattamente quanti esercizi appaiono in ogni pagina, da un singolo esercizio mirato per principianti fino a una pagina densa di otto esercizi per ripasso e valutazione. Meno esercizi lasciano spazio per immagini più grandi e più spazio bianco, ideale per prodotti di scuola dell\'infanzia e scuola primaria. Più esercizi massimizzano la densità di pratica per studenti più grandi o compiti a casa. Questa flessibilità ti permette di creare prodotti visivamente distinti dalla stessa applicazione senza modificare nessun altro parametro.',
+          'Imposta esattamente quanti esercizi appaiono in ogni pagina, da un singolo esercizio mirato per principianti fino a una pagina densa di otto esercizi per ripasso e valutazione. Meno esercizi lasciano spazio per immagini più grandi e più spazio bianco, ideale per prodotti di scuola dell\'infanzia e scuola primaria. Più esercizi massimizzano la densità di pratica per utenti più grandi o compiti a casa. Questa flessibilità ti permette di creare prodotti visivamente distinti dalla stessa applicazione senza modificare nessun altro parametro.',
       },
       {
         title: '104 temi visivi con oltre 3100 immagini e 8 forme geometriche',
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Generazione automatica della chiave di risposta',
         description:
-          'Clicca un pulsante per generare una chiave di risposta completa che riproduce il layout della tua scheda con ogni preposizione corretta compilata. Per gli esercizi Completa la Frase, la chiave di risposta mostra la frase completa. Per la Scelta Multipla, evidenzia l\'immagine corretta. Esporta la chiave di risposta come file JPEG o PDF separato, ideale per edizioni per insegnanti, guide per genitori o pacchetti di prodotti su Etsy senza alcun lavoro manuale.',
+          'Clicca un pulsante per generare una chiave di risposta completa che riproduce il layout della tua scheda con ogni preposizione corretta compilata. Per gli esercizi Completa la Frase, la chiave di risposta mostra la frase completa. Per la Scelta Multipla, evidenzia l\'immagine corretta. Esporta la chiave di risposta come file JPEG o PDF separato, ideale per edizioni per venditori, guide per genitori o pacchetti di prodotti su Etsy senza alcun lavoro manuale.',
       },
       {
         title: 'Esportazione pronta per la stampa a 400+ DPI con opzione scala di grigi',
         description:
-          'Scarica schede e chiavi di risposta come immagini JPEG ad alta risoluzione o documenti PDF pronti per la stampa. Il motore di esportazione renderizza con un moltiplicatore 6x, producendo oltre 400 DPI in formati standard. Attiva l\'esportazione in scala di grigi per versioni che risparmiano inchiostro, perfette per la stampa in classe o libri di attività in bianco e nero. I formati Lettera, A4, Quadrato e dimensioni personalizzate sono tutti supportati per la massima flessibilità su piattaforme di stampa su richiesta e stampanti domestiche.',
+          'Scarica schede e chiavi di risposta come immagini JPEG ad alta risoluzione o documenti PDF pronti per la stampa. Il motore di esportazione renderizza con un moltiplicatore 6x, producendo oltre 400 DPI in formati standard. Attiva l\'esportazione in scala di grigi per versioni che risparmiano inchiostro, perfette per la stampa in volume o libri di attività in bianco e nero. I formati Lettera, A4, Quadrato e dimensioni personalizzate sono tutti supportati per la massima flessibilità su piattaforme di stampa su richiesta e stampanti domestiche.',
       },
       {
         title: 'Modifica completa del canvas con annulla e ripristina',
@@ -109,7 +109,7 @@ const content: AppContent = {
       {
         title: 'Pacchetti tematici di schede di preposizioni su Etsy',
         description:
-          'Crea set di 10–20 schede di preposizioni raggruppate per tema — animali della fattoria, creature marine, veicoli, alimenti — e offrili come download istantaneo su Etsy. Alterna esercizi Completa la Frase e Scelta Multipla all\'interno di ogni pacchetto per maggiore varietà. Includi le chiavi di risposta come file extra. Il formato con immagini e forme è visivamente distintivo e si distingue nei risultati di ricerca di Etsy rispetto alle schede di grammatica classiche in testo semplice. Fissa il prezzo dei pacchetti tematici singoli tra 3–5 € e dei mega-pacchetti multi-tema tra 12–18 €.',
+          'Crea set di 10–20 schede di preposizioni raggruppate per tema — animali della fattoria, creature marine, veicoli, alimenti — e offrili come download istantaneo su Etsy. Alterna esercizi Completa la Frase e Scelta Multipla all\'interno di ogni pacchetto per maggiore varietà. Includi le chiavi di risposta come file extra. Il formato con immagini e forme è visivamente distintivo e si distingue nei risultati di ricerca di Etsy rispetto alle schede di grammatica negoziche in testo semplice. Fissa il prezzo dei pacchetti tematici singoli tra 3–5 € e dei mega-pacchetti multi-tema tra 12–18 €.',
         platform: 'Etsy (etsy.com)',
       },
       {
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centri linguistici differenziati per TPT',
+        title: 'Centri linguistici differenziati per Gumroad',
         description:
-          'Crea set di preposizioni per livelli usando la modalità di esercizio come asse di difficoltà: Livello 1 (Scelta Multipla, 2 preposizioni, 2 esercizi per pagina), Livello 2 (Scelta Multipla, 5 preposizioni, 4 esercizi), Livello 3 (Completa la Frase, 5 preposizioni, 6 esercizi) e Livello 4 (Completa la Frase, tutte le 8 preposizioni, 8 esercizi). Accompagna ogni livello con chiavi di risposta e un foglio di monitoraggio dei progressi. Gli acquirenti di Teachers Pay Teachers pagano prezzi premium per risorse di vocabolario spaziale differenziate che possono usare immediatamente in più gruppi di livello.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Crea set di preposizioni per livelli usando la modalità di esercizio come asse di difficoltà: Livello 1 (Scelta Multipla, 2 preposizioni, 2 esercizi per pagina), Livello 2 (Scelta Multipla, 5 preposizioni, 4 esercizi), Livello 3 (Completa la Frase, 5 preposizioni, 6 esercizi) e Livello 4 (Completa la Frase, tutte le 8 preposizioni, 8 esercizi). Accompagna ogni livello con chiavi di risposta e un foglio di monitoraggio dei progressi. Gli acquirenti di Gumroad pagano prezzi premium per risorse di vocabolario spaziale differenziate che possono usare immediatamente in più gruppi di livello.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Prodotti multilingue di preposizioni con Accesso Completo',
         description:
-          'L\'Accesso Completo sblocca tutte le 11 lingue con preposizioni grammaticalmente corrette, preposizioni articolate, contrazioni dative e regole di elisione. Crea schede di preposizioni in tedesco con „im" e „am", schede in francese con l\'elisione «l\'», schede in italiano con le preposizioni articolate (nel, nella, sul, sulla), schede in spagnolo con gli articoli el/la, e altro ancora. Ogni versione linguistica è un prodotto distinto che puoi pubblicare su Etsy, TPT o Amazon KDP — moltiplicando effettivamente il tuo catalogo per undici dallo stesso flusso di lavoro. I prodotti multilingue di vocabolario spaziale incontrano meno concorrenza e attraggono acquirenti internazionali che cercano nella loro lingua madre.',
-        platform: 'Etsy / Amazon KDP / TPT (multilingue)',
+          'L\'Accesso Completo sblocca tutte le 11 lingue con preposizioni grammaticalmente corrette, preposizioni articolate, contrazioni dative e regole di elisione. Crea schede di preposizioni in tedesco con „im" e „am", schede in francese con l\'elisione «l\'», schede in italiano con le preposizioni articolate (nel, nella, sul, sulla), schede in spagnolo con gli articoli el/la, e altro ancora. Ogni versione linguistica è un prodotto distinto che puoi pubblicare su Etsy, Gumroad o Amazon KDP — moltiplicando effettivamente il tuo catalogo per undici dallo stesso flusso di lavoro. I prodotti multilingue di vocabolario spaziale incontrano meno concorrenza e attraggono acquirenti internazionali che cercano nella loro lingua madre.',
+        platform: 'Etsy / Amazon KDP / Gumroad (multilingue)',
       },
       {
-        title: 'Strumento di vocabolario spaziale per la classe e le ripetizioni',
+        title: 'Strumento di vocabolario spaziale per il negozio e le ripetizioni',
         description:
-          'Genera schede di preposizioni personalizzate adattate al livello di vocabolario spaziale di ogni studente. Usa la lista delle preposizioni per concentrarti su quelle con cui uno studente ha difficoltà, e regola il numero di esercizi in base alla sua capacità di attenzione. Inizia con la Scelta Multipla per i principianti e avanza alla modalità Completa la Frase per studenti pronti a produrre linguaggio in modo autonomo. Stampa serie in pochi minuti per piccoli gruppi o classi intere. La chiave di risposta automatica risparmia tempo di correzione, e il formato con immagini e forme mantiene gli studenti giovani motivati con il ragionamento spaziale visivo.',
-        platform: 'Classe / Ripetizioni / Istruzione domiciliare',
+          'Genera schede di preposizioni personalizzate adattate al livello di vocabolario spaziale di ogni utente. Usa la lista delle preposizioni per concentrarti su quelle con cui un utente ha difficoltà, e regola il numero di esercizi in base alla sua capacità di attenzione. Inizia con la Scelta Multipla per i principianti e avanza alla modalità Completa la Frase per utenti pronti a produrre linguaggio in modo autonomo. Stampa serie in pochi minuti per piccoli gruppi o negozi intere. La chiave di risposta automatica risparmia valore percepito, e il formato con immagini e forme mantiene gli utenti giovani motivati con il ragionamento spaziale visivo.',
+        platform: 'Vendita Online / Marketplace / Uso Personale',
       },
     ],
   },
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Quali modalità di esercizio offre il Generatore di Schede di Preposizioni?',
       answer:
-        'Il generatore include due modalità: Completa la Frase e Scelta Multipla. Completa la Frase presenta frasi con una preposizione mancante che gli studenti completano (ad esempio, «Il gatto è ____ il cerchio»). Scelta Multipla mostra una descrizione spaziale e chiede agli studenti di indicare l\'immagine corrispondente. Entrambe le modalità funzionano con le otto preposizioni e tutti i temi.',
+        'Il generatore include due modalità: Completa la Frase e Scelta Multipla. Completa la Frase presenta frasi con una preposizione mancante che gli utenti completano (ad esempio, «Il gatto è ____ il cerchio»). Scelta Multipla mostra una descrizione spaziale e chiede agli utenti di indicare l\'immagine corrispondente. Entrambe le modalità funzionano con le otto preposizioni e tutti i temi.',
     },
     {
       question: 'Quali sono le 8 preposizioni disponibili?',
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: 'Quanti esercizi posso inserire in ogni scheda?',
       answer:
-        'Puoi impostare da 1 a 8 esercizi per scheda. Meno esercizi creano pagine più semplici e ariose, ideali per studenti più piccoli o pratica mirata. Più esercizi massimizzano la densità di pratica per sessioni di ripasso, valutazioni o compiti a casa. Variare il numero di esercizi nelle tue inserzioni ti aiuta anche a creare livelli di prezzo distinti — una scheda introduttiva con un singolo esercizio come punto di ingresso economico e un pacchetto di ripasso completo con otto esercizi a un prezzo premium.',
+        'Puoi impostare da 1 a 8 esercizi per scheda. Meno esercizi creano pagine più semplici e ariose, ideali per utenti più piccoli o pratica mirata. Più esercizi massimizzano la densità di pratica per sessioni di ripasso, valutazioni o compiti a casa. Variare il numero di esercizi nelle tue inserzioni ti aiuta anche a creare livelli di prezzo distinti — una scheda introduttiva con un singolo esercizio come punto di ingresso economico e un pacchetto di ripasso completo con otto esercizi a un prezzo premium.',
     },
     {
       question: 'Il Generatore di Schede di Preposizioni dipende dalla lingua?',
@@ -178,7 +178,7 @@ const content: AppContent = {
     {
       question: 'Il generatore crea chiavi di risposta automaticamente?',
       answer:
-        'Sì. Clicca sul pulsante Genera Chiave di Risposta per creare una versione risolta della tua scheda. Per gli esercizi Completa la Frase, la chiave di risposta mostra ogni spazio vuoto compilato con la preposizione corretta. Per la Scelta Multipla, indica l\'immagine corretta. Esporta la chiave di risposta come file JPEG o PDF separato insieme alla scheda dello studente.',
+        'Sì. Clicca sul pulsante Genera Chiave di Risposta per creare una versione risolta della tua scheda. Per gli esercizi Completa la Frase, la chiave di risposta mostra ogni spazio vuoto compilato con la preposizione corretta. Per la Scelta Multipla, indica l\'immagine corretta. Esporta la chiave di risposta come file JPEG o PDF separato insieme alla scheda dell'utente.',
     },
     {
       question: 'Esiste una prova gratuita?',
@@ -188,12 +188,12 @@ const content: AppContent = {
     {
       question: 'Cosa include la licenza commerciale?',
       answer:
-        'La Licenza Commerciale offre esportazioni in inglese senza filigrana con diritti completi di vendita. La licenza Accesso Completo aggiunge tutte le 11 lingue con preposizioni, articoli e regole grammaticali corrette, moltiplicando il tuo catalogo di prodotti. Entrambi i livelli concedono diritti illimitati per vendere su Etsy, Amazon KDP, Teachers Pay Teachers, sul tuo sito o su qualsiasi altra piattaforma — nessuna royalty per vendita, nessuna tariffa mensile e nessun limite di produzione.',
+        'La Licenza Commerciale offre esportazioni in inglese senza filigrana con diritti completi di vendita. La licenza Accesso Completo aggiunge tutte le 11 lingue con preposizioni, articoli e regole grammaticali corrette, moltiplicando il tuo catalogo di prodotti. Entrambi i livelli concedono diritti illimitati per vendere su Etsy, Amazon KDP, Gumroad, sul tuo sito o su qualsiasi altra piattaforma — nessuna royalty per vendita, nessuna tariffa mensile e nessun limite di produzione.',
     },
     {
       question: 'Posso vendere schede create con questo strumento su Etsy e Amazon KDP?',
       answer:
-        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede di preposizioni come download digitali su Etsy, come libri di attività stampati su Amazon KDP, come risorse educative su TPT o attraverso qualsiasi altro canale di vendita. Il formato con immagini e forme e la capacità multilingue ti offrono una forte differenziazione in categorie di mercato molto competitive.',
+        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede di preposizioni come download digitali su Etsy, come libri di attività stampati su Amazon KDP, come risorse educative su Gumroad o attraverso qualsiasi altro canale di vendita. Il formato con immagini e forme e la capacità multilingue ti offrono una forte differenziazione in categorie di mercato molto competitive.',
     },
     {
       question: 'Qual è la politica di rimborso?',
@@ -264,12 +264,12 @@ const content: AppContent = {
       {
         src: '/samples/italian/prepositions/Preposizioni 2.webp',
         alt: 'Scheda di preposizioni completa la frase con tema animali e forme geometriche',
-        caption: 'Modalità Completa la Frase — gli studenti completano le frasi con la preposizione corretta',
+        caption: 'Modalità Completa la Frase — gli utenti completano le frasi con la preposizione corretta',
       },
       {
         src: '/samples/italian/prepositions/Preposizioni 3.webp',
         alt: 'Scheda di preposizioni scelta multipla con tema veicoli che mostra descrizioni spaziali',
-        caption: 'Modalità Scelta Multipla — gli studenti identificano l\'immagine che corrisponde alla descrizione spaziale',
+        caption: 'Modalità Scelta Multipla — gli utenti identificano l\'immagine che corrisponde alla descrizione spaziale',
       },
       {
         src: '/samples/italian/prepositions/Preposizioni 4.webp',

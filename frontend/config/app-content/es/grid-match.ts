@@ -7,7 +7,7 @@ const content: AppContent = {
       'generador de puzzles de cuadrícula imprimibles para vendedores Etsy',
       'creador de puzzles de casillas de imágenes para editores Amazon KDP',
       'generador de puzzles de cuadrícula con licencia comercial',
-      'vender puzzles de cuadrícula de imágenes en Teachers Pay Teachers',
+      'vender puzzles de cuadrícula de imágenes en Gumroad',
     ],
     lsiKeywords: [
       'productos digitales de puzzles de cuadrícula para emprendedores',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Generador Puzzles Cuadrícula | Crear y Vender',
     metaDescription:
-      'Crea puzzles de cuadrícula para Etsy, KDP y TPT. Cuadrícula configurable, casillas-pista, clave de respuesta auto, 104 temas. Prueba gratis con marca de agua.',
+      'Crea puzzles de cuadrícula para Etsy, KDP y Gumroad. Cuadrícula configurable, casillas-pista, clave de respuesta auto, 104 temas. Prueba gratis con marca de agua.',
   },
 
   hero: {
     title: 'Generador de Puzzles de Cuadrícula para Actividades de Correspondencia de Casillas de Imágenes',
     tagline: 'Transforma cualquier imagen en un puzzle basado en cuadrícula — divídela en casillas, revela casillas-pista configurables, mezcla las casillas restantes en una paleta numerada y genera automáticamente una clave de respuesta con círculos numerados superpuestos en 104 colecciones de imágenes temáticas.',
     description:
-      'Diseña puzzles de cuadrícula profesionales donde una imagen única se divide en una cuadrícula de casillas y los alumnos asocian las casillas numeradas a sus posiciones correctas. Configura la cuadrícula de 2×2 a 4×4 (2–4 filas × 2–4 columnas) y define 1–5 casillas-pista que permanecen visibles como pistas — menos pistas significa un puzzle más difícil. La aplicación mezcla las casillas restantes mediante el algoritmo Fisher-Yates y las muestra en una paleta numerada junto a o debajo de la cuadrícula. Los alumnos estudian las casillas-pista reveladas, examinan las casillas numeradas y escriben qué número corresponde a cada celda vacía. El sistema de doble lienzo genera tanto una pestaña de ficha de trabajo como una pestaña de clave de respuesta — la clave de respuesta muestra la imagen completa con círculos numerados superpuestos en cada celda indicando la colocación correcta de las casillas, sin necesidad de crear claves de respuesta manualmente. El Puzzle de Cuadrícula NO es sensible al idioma: el resultado del puzzle es puramente visual, sin contenido textual localizado en la ficha. El Acceso Completo desbloquea los 104 temas con más de 3100 ilustraciones y los 11 idiomas de interfaz. Añade temas de fondo y de borde con controles de opacidad independientes, incluye texto personalizado con siete opciones de fuente, y exporta PDF y JPEG listos para imprimir a 300 DPI en formato Carta, A4 o dimensiones personalizadas. Ya sea que vendas packs de puzzles de imágenes en Etsy, compiles cuadernos de percepción visual para Amazon KDP o crees actividades de puzzles rápidos para TPT, este generador produce puzzles de cuadrícula listos para la producción en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Diseña puzzles de cuadrícula profesionales donde una imagen única se divide en una cuadrícula de casillas y los usuarios asocian las casillas numeradas a sus posiciones correctas. Configura la cuadrícula de 2×2 a 4×4 (2–4 filas × 2–4 columnas) y define 1–5 casillas-pista que permanecen visibles como pistas — menos pistas significa un puzzle más difícil. La aplicación mezcla las casillas restantes mediante el algoritmo Fisher-Yates y las muestra en una paleta numerada junto a o debajo de la cuadrícula. Los usuarios estudian las casillas-pista reveladas, examinan las casillas numeradas y escriben qué número corresponde a cada celda vacía. El sistema de doble lienzo genera tanto una pestaña de ficha de trabajo como una pestaña de clave de respuesta — la clave de respuesta muestra la imagen completa con círculos numerados superpuestos en cada celda indicando la colocación correcta de las casillas, sin necesidad de crear claves de respuesta manualmente. El Puzzle de Cuadrícula NO es sensible al idioma: el resultado del puzzle es puramente visual, sin contenido textual localizado en la ficha. El Acceso Completo desbloquea los 104 temas con más de 3100 ilustraciones y los 11 idiomas de interfaz. Añade temas de fondo y de borde con controles de opacidad independientes, incluye texto personalizado con siete opciones de fuente, y exporta PDF y JPEG listos para imprimir a 300 DPI en formato Carta, A4 o dimensiones personalizadas. Ya sea que vendas packs de puzzles de imágenes en Etsy, compiles cuadernos de percepción visual para Amazon KDP o crees actividades de puzzles rápidos para Gumroad, este generador produce puzzles de cuadrícula listos para la producción en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Configura la Cuadrícula',
         description:
-          'Abre el panel de Opciones de Cuadrícula y define el número de filas (2–4, por defecto 3) y columnas (2–4, por defecto 3) para tu cuadrícula de puzzle. Luego define el número de casillas-pista (1–5, por defecto 1) — son las casillas que permanecen visibles en la ficha como pistas para los alumnos. Una cuadrícula 3×3 con 1 pista crea un puzzle estimulante con 8 casillas por asociar, mientras que una cuadrícula 2×2 con 3 pistas crea un ejercicio fácil con solo 1 casilla por colocar. Esta dificultad configurable facilita la creación de conjuntos de puzzles progresivos.',
+          'Abre el panel de Opciones de Cuadrícula y define el número de filas (2–4, por defecto 3) y columnas (2–4, por defecto 3) para tu cuadrícula de puzzle. Luego define el número de casillas-pista (1–5, por defecto 1) — son las casillas que permanecen visibles en la ficha como pistas para los usuarios. Una cuadrícula 3×3 con 1 pista crea un puzzle estimulante con 8 casillas por asociar, mientras que una cuadrícula 2×2 con 3 pistas crea un ejercicio fácil con solo 1 casilla por colocar. Esta dificultad configurable facilita la creación de conjuntos de puzzles progresivos.',
       },
       {
         title: 'Selecciona una Imagen',
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Genera la Clave de Respuesta y Descarga',
         description:
-          'Cambia a la pestaña Clave de Respuesta para ver la clave de respuesta generada automáticamente. Muestra la imagen completa, sin recortar, con círculos numerados superpuestos en cada celda de la cuadrícula — círculos con fondo amarillo (#ffffe0) y contorno negro que indican qué número de la paleta corresponde a cada posición. Descarga ambas versiones con los cuatro botones dedicados: JPEG Ficha de Trabajo, JPEG Clave de Respuesta, PDF Ficha de Trabajo y PDF Clave de Respuesta a 300 DPI. Activa el modo escala de grises para versiones que ahorran tinta. Cada exportación está lista para la producción en anuncios de Etsy, interiores de Amazon KDP y archivos de productos TPT.',
+          'Cambia a la pestaña Clave de Respuesta para ver la clave de respuesta generada automáticamente. Muestra la imagen completa, sin recortar, con círculos numerados superpuestos en cada celda de la cuadrícula — círculos con fondo amarillo (#ffffe0) y contorno negro que indican qué número de la paleta corresponde a cada posición. Descarga ambas versiones con los cuatro botones dedicados: JPEG Ficha de Trabajo, JPEG Clave de Respuesta, PDF Ficha de Trabajo y PDF Clave de Respuesta a 300 DPI. Activa el modo escala de grises para versiones que ahorran tinta. Cada exportación está lista para la producción en anuncios de Etsy, interiores de Amazon KDP y archivos de productos Gumroad.',
       },
     ],
   },
@@ -63,22 +63,22 @@ const content: AppContent = {
       {
         title: 'Puzzle de Cuadrícula con Imagen Única y Filas y Columnas Configurables (2–4 × 2–4)',
         description:
-          'Cada puzzle comienza con una sola imagen dividida en una cuadrícula de casillas. Define 2–4 filas y 2–4 columnas de forma independiente, creando cuadrículas desde 2×2 (4 casillas) hasta 4×4 (16 casillas). La cuadrícula por defecto 3×3 produce 9 casillas — un nivel de dificultad equilibrado para la mayoría de edades. Las cuadrículas más pequeñas funcionan bien para puzzles introductorios y alumnos más jóvenes, mientras que las cuadrículas más grandes desafían a alumnos mayores y crean productos de puzzles premium. A diferencia de las fichas de asociación con múltiples imágenes, el puzzle de cuadrícula evalúa el razonamiento espacial y el análisis visual de una sola imagen completa.',
+          'Cada puzzle comienza con una sola imagen dividida en una cuadrícula de casillas. Define 2–4 filas y 2–4 columnas de forma independiente, creando cuadrículas desde 2×2 (4 casillas) hasta 4×4 (16 casillas). La cuadrícula por defecto 3×3 produce 9 casillas — un nivel de dificultad equilibrado para la mayoría de edades. Las cuadrículas más pequeñas funcionan bien para puzzles introductorios y usuarios más jóvenes, mientras que las cuadrículas más grandes desafían a usuarios mayores y crean productos de puzzles premium. A diferencia de las fichas de asociación con múltiples imágenes, el puzzle de cuadrícula evalúa el razonamiento espacial y el análisis visual de una sola imagen completa.',
       },
       {
         title: 'Número de Casillas-Pista Ajustable para Dificultad Escalable (1–5 Celdas Reveladas)',
         description:
-          'Controla la dificultad del puzzle definiendo 1–5 casillas-pista que permanecen visibles en la ficha como pistas. Con una cuadrícula 3×3 y 1 pista, los alumnos deben asociar 8 casillas mezcladas — un verdadero desafío. Con 5 pistas en la misma cuadrícula, solo 4 casillas necesitan ser asociadas — un ejercicio accesible de calentamiento. Este simple deslizador transforma la misma imagen en puzzles que van de fácil a avanzado, permitiéndote crear conjuntos de dificultad progresiva a partir de una sola imagen y una sola configuración de cuadrícula. El valor por defecto es 1 casilla-pista para máximo desafío.',
+          'Controla la dificultad del puzzle definiendo 1–5 casillas-pista que permanecen visibles en la ficha como pistas. Con una cuadrícula 3×3 y 1 pista, los usuarios deben asociar 8 casillas mezcladas — un verdadero desafío. Con 5 pistas en la misma cuadrícula, solo 4 casillas necesitan ser asociadas — un ejercicio accesible de calentamiento. Este simple deslizador transforma la misma imagen en puzzles que van de fácil a avanzado, permitiéndote crear conjuntos de dificultad progresiva a partir de una sola imagen y una sola configuración de cuadrícula. El valor por defecto es 1 casilla-pista para máximo desafío.',
       },
       {
         title: 'Paleta de Casillas Numeradas Mezcladas con Algoritmo Fisher-Yates',
         description:
-          'Las casillas ocultas se mezclan mediante el algoritmo Fisher-Yates y se muestran en una paleta numerada junto a la cuadrícula. Cada casilla recibe un número único que los alumnos usan como referencia al escribir sus respuestas. El algoritmo garantiza que cada puzzle generado tiene un orden de casillas diferente, incluso usando la misma imagen y los mismos parámetros de cuadrícula. Esto significa que puedes producir múltiples fichas de puzzles únicas a partir de una sola imagen simplemente regenerando — valioso para crear packs variados sin necesitar imágenes fuente diferentes.',
+          'Las casillas ocultas se mezclan mediante el algoritmo Fisher-Yates y se muestran en una paleta numerada junto a la cuadrícula. Cada casilla recibe un número único que los usuarios usan como referencia al escribir sus respuestas. El algoritmo garantiza que cada puzzle generado tiene un orden de casillas diferente, incluso usando la misma imagen y los mismos parámetros de cuadrícula. Esto significa que puedes producir múltiples fichas de puzzles únicas a partir de una sola imagen simplemente regenerando — valioso para crear packs variados sin necesitar imágenes fuente diferentes.',
       },
       {
         title: 'Clave de Respuesta Generada Automáticamente con Círculos Numerados sobre la Imagen Completa',
         description:
-          'Cada puzzle de cuadrícula genera automáticamente una clave de respuesta complementaria en una pestaña de lienzo separada. La clave de respuesta muestra la imagen completa, sin recortar, con círculos numerados superpuestos en cada celda — círculos con fondo amarillo (#ffffe0), contorno negro y texto en fuente Fredoka. Cada número corresponde al orden mezclado de la paleta de la ficha de trabajo, mostrando a alumnos y profesores exactamente qué casilla va en cada posición. Sin creación manual de claves de respuesta, sin archivo separado — la clave de respuesta se mantiene perfectamente sincronizada con la ficha.',
+          'Cada puzzle de cuadrícula genera automáticamente una clave de respuesta complementaria en una pestaña de lienzo separada. La clave de respuesta muestra la imagen completa, sin recortar, con círculos numerados superpuestos en cada celda — círculos con fondo amarillo (#ffffe0), contorno negro y texto en fuente Fredoka. Cada número corresponde al orden mezclado de la paleta de la ficha de trabajo, mostrando a usuarios y vendedores exactamente qué casilla va en cada posición. Sin creación manual de claves de respuesta, sin archivo separado — la clave de respuesta se mantiene perfectamente sincronizada con la ficha.',
       },
       {
         title: 'Biblioteca de Imágenes con 104 Colecciones Temáticas y Más de 3100 Ilustraciones',
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: 'Exportación PDF y JPEG Lista para Imprimir a 300 DPI con Modo Escala de Grises',
         description:
-          'Descarga puzzles de cuadrícula y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir renderizados a 300 DPI (multiplicador 6×, calidad JPEG 1.0). Cuatro botones de descarga dedicados exportan los archivos de ficha de trabajo y clave de respuesta por separado. Los tamaños de página incluyen Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal y dimensiones totalmente personalizadas. La orientación del PDF se detecta automáticamente. Activa la escala de grises para versiones que ahorran tinta mientras preservan la estructura de la cuadrícula. Cada exportación está lista para la producción en descargas digitales, cuadernos impresos y materiales de aula.',
+          'Descarga puzzles de cuadrícula y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir renderizados a 300 DPI (multiplicador 6×, calidad JPEG 1.0). Cuatro botones de descarga dedicados exportan los archivos de ficha de trabajo y clave de respuesta por separado. Los tamaños de página incluyen Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal y dimensiones totalmente personalizadas. La orientación del PDF se detecta automáticamente. Activa la escala de grises para versiones que ahorran tinta mientras preservan la estructura de la cuadrícula. Cada exportación está lista para la producción en descargas digitales, cuadernos impresos y materiales del mercado.',
       },
       {
         title: 'Edición Completa del Lienzo con Herramientas de Texto, Alineación y Controles de Capas',
@@ -119,21 +119,21 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Actividades de Puzzles para el Aula en TPT',
+        title: 'Actividades de Puzzles para venta en línea en Gumroad',
         description:
-          'Diseña actividades de puzzles de cuadrícula listas para usar en rellenos de fin de clase, trabajo matutino o centros de enriquecimiento. Los profesores que buscan en TPT actividades de percepción visual valoran los puzzles que llegan listos para imprimir con claves de respuesta. Crea conjuntos vinculados al currículo: puzzles de imágenes de animales para ciencias, puzzles de monumentos para estudios sociales, puzzles de alimentos para nutrición. La dificultad configurable te permite diferenciar dentro de un mismo producto — incluye versiones fáciles, medias y difíciles de los mismos puzzles temáticos para que los profesores puedan asignar según el nivel del alumno.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Diseña actividades de puzzles de cuadrícula listas para usar en rellenos de fin de clase, trabajo matutino o centros de enriquecimiento. Los vendedores que buscan en Gumroad actividades de percepción visual valoran los puzzles que llegan listos para imprimir con claves de respuesta. Crea conjuntos vinculados al catálogo de productos: puzzles de imágenes de animales para ciencias, puzzles de monumentos para estudios sociales, puzzles de alimentos para nutrición. La dificultad configurable te permite diferenciar dentro de un mismo producto — incluye versiones fáciles, medias y difíciles de los mismos puzzles temáticos para que los vendedores puedan asignar según el nivel del usuario.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Colecciones de Puzzles de Cuadrícula de Temporada',
         description:
           'Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, San Valentín, vuelta al cole, vacaciones de verano y más. Crea colecciones de puzzles de cuadrícula por disponible ahora alineadas con los períodos de mayor demanda. Lanza packs de puzzles de Halloween en septiembre, colecciones de Navidad en octubre y packs de San Valentín en enero. Incluye múltiples tamaños de cuadrícula y niveles de dificultad en cada conjunto estacional para máximo valor. Los productos estacionales pueden venderse a precios más altos durante sus períodos pico y crean razones naturales para compras repetidas.',
-        platform: 'Etsy / Amazon KDP / TPT (estacional)',
+        platform: 'Etsy / Amazon KDP / Gumroad (estacional)',
       },
       {
         title: 'Puzzles de Cuadrícula con Fotos Personalizadas para Productos a Medida',
         description:
-          'Usa la función Subir Imágenes Personalizadas para crear puzzles de cuadrícula a partir de cualquier foto o ilustración. Los puzzles con fotos familiares son regalos personalizados únicos. Los profesores pueden subir fotos de clase para actividades de fin de curso. Los puzzles con fotos de mascotas, de vacaciones y de equipo crean productos irrepetibles. Ofrece la creación de puzzles de cuadrícula personalizados como servicio premium en Etsy donde los clientes envían sus fotos y tú entregas fichas de puzzles impresas con claves de respuesta — un producto personalizado de alto margen con tiempo de producción mínimo.',
+          'Usa la función Subir Imágenes Personalizadas para crear puzzles de cuadrícula a partir de cualquier foto o ilustración. Los puzzles con fotos familiares son regalos personalizados únicos. Los vendedores pueden subir fotos de clase para actividades de fin de curso. Los puzzles con fotos de mascotas, de vacaciones y de equipo crean productos irrepetibles. Ofrece la creación de puzzles de cuadrícula personalizados como servicio premium en Etsy donde los clientes envían sus fotos y tú entregas fichas de puzzles impresas con claves de respuesta — un producto personalizado de alto margen con tiempo de producción mínimo.',
         platform: 'Etsy (productos personalizados)',
       },
     ],
@@ -143,17 +143,17 @@ const content: AppContent = {
     {
       question: '¿Qué tamaños de cuadrícula están disponibles para los puzzles de cuadrícula?',
       answer:
-        'El generador admite 2–4 filas y 2–4 columnas, configuradas de forma independiente. Esto crea cuadrículas desde 2×2 (4 casillas) hasta 4×4 (16 casillas). El valor por defecto es 3×3 (9 casillas). Las cuadrículas más pequeñas son más fáciles y funcionan bien para alumnos más jóvenes; las cuadrículas más grandes aumentan la dificultad y la complejidad visual. Puedes definir filas y columnas con valores diferentes — por ejemplo, 2 filas × 4 columnas crea un puzzle rectangular ancho.',
+        'El generador admite 2–4 filas y 2–4 columnas, configuradas de forma independiente. Esto crea cuadrículas desde 2×2 (4 casillas) hasta 4×4 (16 casillas). El valor por defecto es 3×3 (9 casillas). Las cuadrículas más pequeñas son más fáciles y funcionan bien para usuarios más jóvenes; las cuadrículas más grandes aumentan la dificultad y la complejidad visual. Puedes definir filas y columnas con valores diferentes — por ejemplo, 2 filas × 4 columnas crea un puzzle rectangular ancho.',
     },
     {
       question: '¿Cómo controlan las casillas-pista la dificultad del puzzle?',
       answer:
-        'Las casillas-pista son posiciones de la cuadrícula donde la pieza de imagen permanece visible como pista. Define 1–5 casillas-pista con el deslizador en el panel de Opciones de Cuadrícula (el valor por defecto es 1). Más pistas hacen el puzzle más fácil porque los alumnos tienen más puntos de referencia. Para una cuadrícula 3×3 con 1 pista, los alumnos deben asociar 8 casillas — bastante difícil. Con 5 pistas, solo 4 casillas necesitan ser asociadas — mucho más accesible. Este simple control te permite crear conjuntos de dificultad progresiva a partir de la misma imagen.',
+        'Las casillas-pista son posiciones de la cuadrícula donde la pieza de imagen permanece visible como pista. Define 1–5 casillas-pista con el deslizador en el panel de Opciones de Cuadrícula (el valor por defecto es 1). Más pistas hacen el puzzle más fácil porque los usuarios tienen más puntos de referencia. Para una cuadrícula 3×3 con 1 pista, los usuarios deben asociar 8 casillas — bastante difícil. Con 5 pistas, solo 4 casillas necesitan ser asociadas — mucho más accesible. Este simple control te permite crear conjuntos de dificultad progresiva a partir de la misma imagen.',
     },
     {
-      question: '¿Cómo funciona el puzzle de cuadrícula para los alumnos?',
+      question: '¿Cómo funciona el puzzle de cuadrícula para los usuarios?',
       answer:
-        'La ficha de trabajo muestra una cuadrícula donde algunas celdas muestran la pieza de imagen real (casillas-pista) y las celdas restantes muestran indicadores «?». Debajo o junto a la cuadrícula, una paleta numerada muestra todas las casillas ocultas en orden aleatorio. Los alumnos examinan las casillas-pista, estudian las casillas numeradas y determinan qué número corresponde a cada posición vacía de la cuadrícula. El ejercicio requiere razonamiento espacial — asociar el contenido de la casilla con su ubicación correcta en la imagen completa.',
+        'La ficha de trabajo muestra una cuadrícula donde algunas celdas muestran la pieza de imagen real (casillas-pista) y las celdas restantes muestran indicadores «?». Debajo o junto a la cuadrícula, una paleta numerada muestra todas las casillas ocultas en orden aleatorio. Los usuarios examinan las casillas-pista, estudian las casillas numeradas y determinan qué número corresponde a cada posición vacía de la cuadrícula. El ejercicio requiere razonamiento espacial — asociar el contenido de la casilla con su ubicación correcta en la imagen completa.',
     },
     {
       question: '¿Cómo funciona la clave de respuesta generada automáticamente?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender puzzles de cuadrícula creados con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus puzzles de cuadrícula como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para el aula en TPT, o a través de cualquier otro canal de venta. Los tamaños de cuadrícula configurables, las casillas-pista ajustables, las claves de respuesta generadas automáticamente y las 104 colecciones de imágenes temáticas te dan las herramientas creativas para producir productos de puzzles de cuadrícula originales y vendibles.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus puzzles de cuadrícula como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para venta en línea en Gumroad, o a través de cualquier otro canal de venta. Los tamaños de cuadrícula configurables, las casillas-pista ajustables, las claves de respuesta generadas automáticamente y las 104 colecciones de imágenes temáticas te dan las herramientas creativas para producir productos de puzzles de cuadrícula originales y vendibles.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

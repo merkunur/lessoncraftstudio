@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'fichas tren alfabético imprimibles para Etsy',
       'generador de fichas de reconocimiento de letras para Amazon KDP',
-      'vender fichas de abecedario en Teachers Pay Teachers',
+      'vender fichas de abecedario en Gumroad',
       'fichas tren del abecedario licencia comercial',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Generador Tren del Abecedario | Crear y Vender',
     metaDescription:
-      'Crea fichas tren del abecedario para vender en Etsy, KDP y TPT. Vagones con letras e imágenes, 11 idiomas, 104 temas. Prueba gratis con marca de agua.',
+      'Crea fichas tren del abecedario para vender en Etsy, KDP y Gumroad. Vagones con letras e imágenes, 11 idiomas, 104 temas. Prueba gratis con marca de agua.',
   },
 
   hero: {
     title: 'Generador de Fichas Tren del Abecedario para la Práctica de Reconocimiento de Letras',
     tagline: 'Cada vagón lleva una letra y una imagen correspondiente — construyendo el reconocimiento de letras vagón tras vagón.',
     description:
-      'Diseña fichas de tren del abecedario llamativas donde 11 vagones coloridos recorren la página, cada uno llevando una letra asociada a una ilustración correspondiente. Elige el modo Creación Automática para una selección aleatoria instantánea de letras o el Modo Manual para seleccionar exactamente 11 letras del abecedario para práctica específica. Añade de 3 a 11 pistas configurables por ficha — imágenes-pista que los alumnos asocian al vagón-letra correcto — transformando el reconocimiento pasivo de letras en un ejercicio activo de resolución de problemas. Explora más de 3100 ilustraciones seleccionadas en 104 temas para encontrar la imagen perfecta para cada letra. El Acceso Completo desbloquea los 11 idiomas con sus alfabetos nativos — el alemán con Ä/Ö/Ü, el sueco con Å/Ä/Ö, el español con Ñ para 27 letras, y más — multiplicando tu catálogo de productos por once desde un solo flujo de trabajo. Cada ficha genera una clave de respuesta automática, y puedes exportar PDF listos para imprimir y JPEG a más de 400 DPI en tamaños Carta, A4 o Cuadrado. Ya sea que vendas paquetes de abecedario temáticos en Etsy, compiles libros de alfabetización progresivos para Amazon KDP o crees centros de letras diferenciados para TPT, el Generador Tren del Abecedario produce resultados profesionales en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Diseña fichas de tren del abecedario llamativas donde 11 vagones coloridos recorren la página, cada uno llevando una letra asociada a una ilustración correspondiente. Elige el modo Creación Automática para una selección aleatoria instantánea de letras o el Modo Manual para seleccionar exactamente 11 letras del abecedario para práctica específica. Añade de 3 a 11 pistas configurables por ficha — imágenes-pista que los usuarios asocian al vagón-letra correcto — transformando el reconocimiento pasivo de letras en un ejercicio activo de resolución de problemas. Explora más de 3100 ilustraciones seleccionadas en 104 temas para encontrar la imagen perfecta para cada letra. El Acceso Completo desbloquea los 11 idiomas con sus alfabetos nativos — el alemán con Ä/Ö/Ü, el sueco con Å/Ä/Ö, el español con Ñ para 27 letras, y más — multiplicando tu catálogo de productos por once desde un solo flujo de trabajo. Cada ficha genera una clave de respuesta automática, y puedes exportar PDF listos para imprimir y JPEG a más de 400 DPI en tamaños Carta, A4 o Cuadrado. Ya sea que vendas paquetes de abecedario temáticos en Etsy, compiles libros de alfabetización progresivos para Amazon KDP o crees centros de letras diferenciados para Gumroad, el Generador Tren del Abecedario produce resultados profesionales en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
   },
 
   howItWorks: {
@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Configura las pistas y el estilo del texto',
         description:
-          'Establece el número de pistas de 3 a 11 — estas son imágenes-pista mostradas por separado que los alumnos asocian al vagón-letra correcto. Menos pistas crean una ficha más fácil; más pistas aumentan la dificultad. Activa o desactiva los campos de nombre y fecha del alumno. Usa el panel de Herramientas de Texto para añadir un título, instrucciones o texto personalizado. Elige entre siete fuentes incluyendo Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial y Verdana con tamaño, color y contorno ajustables.',
+          'Establece el número de pistas de 3 a 11 — estas son imágenes-pista mostradas por separado que los usuarios asocian al vagón-letra correcto. Menos pistas crean una ficha más fácil; más pistas aumentan la dificultad. Activa o desactiva los campos de nombre y fecha. Usa el panel de Herramientas de Texto para añadir un título, instrucciones o texto personalizado. Elige entre siete fuentes incluyendo Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial y Verdana con tamaño, color y contorno ajustables.',
       },
       {
         title: 'Genera la clave de respuesta y descarga',
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: 'Sistema de pistas configurable para dificultad ajustable',
         description:
-          'Establece de 3 a 11 pistas por ficha. Las pistas son imágenes mostradas por separado del tren — los alumnos deben identificar a qué vagón-letra pertenece cada imagen-pista. Menos pistas crean un ejercicio de asociación más sencillo para preescolar, mientras que las 11 pistas completas desafían a los alumnos de infantil y primer grado a asociar cada vagón. Este control de dificultad integrado facilita la creación de líneas de productos diferenciadas o recursos de clase por niveles desde la misma aplicación.',
+          'Establece de 3 a 11 pistas por ficha. Las pistas son imágenes mostradas por separado del tren — los usuarios deben identificar a qué vagón-letra pertenece cada imagen-pista. Menos pistas crean un ejercicio de asociación más sencillo para preescolar, mientras que las 11 pistas completas desafían a los usuarios de infantil y primer grado a asociar cada vagón. Este control de dificultad integrado facilita la creación de líneas de productos diferenciadas o recursos de clase por niveles desde la misma aplicación.',
       },
       {
         title: '104 temas visuales con más de 3100 imágenes para asociación letra-imagen',
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Generación automática de clave de respuesta',
         description:
-          'Haz clic en un botón para generar una clave de respuesta completa que muestra cada vagón-tren con su asociación letra-imagen correcta y todas las pistas resueltas. La pestaña de clave de respuesta muestra una vista previa en vivo para verificar la exactitud antes de descargar. Exporta la clave de respuesta como archivo JPEG o PDF separado, ideal para ediciones del profesor, guías para padres o paquetes de productos en Etsy sin ningún trabajo manual.',
+          'Haz clic en un botón para generar una clave de respuesta completa que muestra cada vagón-tren con su asociación letra-imagen correcta y todas las pistas resueltas. La pestaña de clave de respuesta muestra una vista previa en vivo para verificar la exactitud antes de descargar. Exporta la clave de respuesta como archivo JPEG o PDF separado, ideal para ediciones del vendedor, guías para padres o paquetes de productos en Etsy sin ningún trabajo manual.',
       },
       {
         title: 'Exportación lista para imprimir a 400+ DPI con opción escala de grises',
         description:
-          'Descarga fichas y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir. El motor de exportación renderiza con un multiplicador 6x, produciendo más de 400 DPI en tamaños estándar. Activa la exportación en escala de grises para versiones económicas en tinta, perfectas para impresión en el aula o libros de actividades en blanco y negro. Los tamaños Carta, A4 y Cuadrado están todos soportados para máxima flexibilidad en plataformas de impresión bajo demanda e impresoras domésticas.',
+          'Descarga fichas y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir. El motor de exportación renderiza con un multiplicador 6x, produciendo más de 400 DPI en tamaños estándar. Activa la exportación en escala de grises para versiones económicas en tinta, perfectas para impresión en volumen o libros de actividades en blanco y negro. Los tamaños Carta, A4 y Cuadrado están todos soportados para máxima flexibilidad en plataformas de impresión bajo demanda e impresoras domésticas.',
       },
       {
         title: 'Edición completa del lienzo con deshacer y rehacer',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de alfabetización diferenciados para TPT',
+        title: 'Centros de alfabetización diferenciados para Gumroad',
         description:
-          'Crea conjuntos de tren del abecedario por niveles usando el número de pistas como eje de dificultad: Nivel 1 (3 pistas, letras comunes), Nivel 2 (5 pistas, letras mixtas), Nivel 3 (8 pistas, incluyendo letras poco comunes como Q, X, Z), y Nivel 4 (11 pistas, desafío de asociación completo). Acompaña cada nivel con claves de respuesta y una hoja de seguimiento del progreso. Los compradores de Teachers Pay Teachers pagan precios premium por recursos de alfabetización diferenciados que pueden usar inmediatamente en múltiples grupos de lectura.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Crea conjuntos de tren del abecedario por niveles usando el número de pistas como eje de dificultad: Nivel 1 (3 pistas, letras comunes), Nivel 2 (5 pistas, letras mixtas), Nivel 3 (8 pistas, incluyendo letras poco comunes como Q, X, Z), y Nivel 4 (11 pistas, desafío de asociación completo). Acompaña cada nivel con claves de respuesta y una hoja de seguimiento del progreso. Los compradores de Gumroad pagan precios premium por recursos de alfabetización diferenciados que pueden usar inmediatamente en múltiples grupos de lectura.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Productos de abecedario multilingües con Acceso Completo',
         description:
-          'El Acceso Completo desbloquea los 11 idiomas con sus alfabetos nativos. Crea trenes del abecedario en alemán con vagones Ä/Ö/Ü, trenes en sueco con Å/Ä/Ö, trenes en español con la Ñ, y más. Cada versión en un idioma es un producto distinto que puedes publicar en Etsy, TPT o Amazon KDP — multiplicando efectivamente tu catálogo por once desde el mismo flujo de trabajo. Los productos de alfabetización multilingüe enfrentan menos competencia y atraen compradores internacionales que buscan en su idioma nativo.',
-        platform: 'Etsy / Amazon KDP / TPT (multilingüe)',
+          'El Acceso Completo desbloquea los 11 idiomas con sus alfabetos nativos. Crea trenes del abecedario en alemán con vagones Ä/Ö/Ü, trenes en sueco con Å/Ä/Ö, trenes en español con la Ñ, y más. Cada versión en un idioma es un producto distinto que puedes publicar en Etsy, Gumroad o Amazon KDP — multiplicando efectivamente tu catálogo por once desde el mismo flujo de trabajo. Los productos de alfabetización multilingüe enfrentan menos competencia y atraen compradores internacionales que buscan en su idioma nativo.',
+        platform: 'Etsy / Amazon KDP / Gumroad (multilingüe)',
       },
       {
-        title: 'Herramienta de reconocimiento de letras para el aula y tutoría',
+        title: 'Herramienta de reconocimiento de letras para venta en línea y tutoría',
         description:
-          'Genera fichas de tren del abecedario personalizadas adaptadas al conocimiento de letras actual de cada alumno. Usa el Modo Manual para seleccionar las letras específicas que un alumno está trabajando, ajustando el número de pistas según su nivel. Imprime trenes rápidos de 3 pistas para lectores principiantes y trenes completos de 11 pistas para alumnos listos para un desafío — todo en la misma sesión. El formato de tren transforma el repaso de letras en un juego de asociación que mantiene a los pequeños aprendices motivados, y la clave de respuesta automática ahorra tiempo de corrección.',
-        platform: 'Aula / Tutoría / Educación en casa',
+          'Genera fichas de tren del abecedario personalizadas adaptadas al conocimiento de letras actual de cada usuario. Usa el Modo Manual para seleccionar las letras específicas que un usuario está trabajando, ajustando el número de pistas según su nivel. Imprime trenes rápidos de 3 pistas para lectores principiantes y trenes completos de 11 pistas para usuarios listos para un desafío — todo en la misma sesión. El formato de tren transforma el repaso de letras en un juego de asociación que mantiene a los pequeños aprendices motivados, y la clave de respuesta automática ahorra valor percibido.',
+        platform: 'Tienda / Tutoría / Educación en casa',
       },
     ],
   },
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: '¿Qué es el formato de ficha tren del abecedario?',
       answer:
-        'Cada ficha presenta 11 vagones de tren coloridos. Cada vagón contiene una letra asociada a una imagen correspondiente cuyo nombre empieza por esa letra. Debajo o junto al tren, se muestran imágenes-pista para que los alumnos las asocien al vagón correcto. El formato combina el reconocimiento de letras con la asociación visual, haciéndolo más motivador que las fichas de repaso de abecedario tradicionales.',
+        'Cada ficha presenta 11 vagones de tren coloridos. Cada vagón contiene una letra asociada a una imagen correspondiente cuyo nombre empieza por esa letra. Debajo o junto al tren, se muestran imágenes-pista para que los usuarios las asocien al vagón correcto. El formato combina el reconocimiento de letras con la asociación visual, haciéndolo más motivador que las fichas de repaso de abecedario tradicionales.',
     },
     {
       question: '¿Cuáles son los dos modos de creación?',
@@ -153,12 +153,12 @@ const content: AppContent = {
     {
       question: '¿Cómo funciona el sistema de pistas?',
       answer:
-        'Las pistas son imágenes mostradas por separado de los vagones del tren. Los alumnos miran cada imagen-pista, identifican lo que representa, determinan su letra inicial y la asocian al vagón correcto. Puedes establecer de 3 a 11 pistas por ficha — menos pistas hacen la actividad más fácil, mientras que más pistas aumentan la dificultad. Para los vendedores, este rango de pistas ajustable permite crear paquetes de dificultad graduada desde una sola herramienta — agrupa las versiones fácil, media y difícil y cobra un precio premium por el conjunto diferenciado.',
+        'Las pistas son imágenes mostradas por separado de los vagones del tren. Los usuarios miran cada imagen-pista, identifican lo que representa, determinan su letra inicial y la asocian al vagón correcto. Puedes establecer de 3 a 11 pistas por ficha — menos pistas hacen la actividad más fácil, mientras que más pistas aumentan la dificultad. Para los vendedores, este rango de pistas ajustable permite crear paquetes de dificultad graduada desde una sola herramienta — agrupa las versiones fácil, media y difícil y cobra un precio premium por el conjunto diferenciado.',
     },
     {
       question: '¿Por qué siempre hay 11 letras por ficha?',
       answer:
-        'El formato de tren usa 11 vagones para equilibrar el impacto visual con la legibilidad en una sola página. Once letras ofrecen práctica sustancial sin sobrecargar la página, y el número impar impide que los alumnos resuelvan por simple eliminación al final. Cada ficha cubre casi la mitad del abecedario español (que tiene 27 letras incluyendo la Ñ), así que dos fichas complementarias pueden cubrir todas las letras.',
+        'El formato de tren usa 11 vagones para equilibrar el impacto visual con la legibilidad en una sola página. Once letras ofrecen práctica sustancial sin sobrecargar la página, y el número impar impide que los usuarios resuelvan por simple eliminación al final. Cada ficha cubre casi la mitad del abecedario español (que tiene 27 letras incluyendo la Ñ), así que dos fichas complementarias pueden cubrir todas las letras.',
     },
     {
       question: '¿La aplicación Tren del Abecedario depende del idioma?',
@@ -178,7 +178,7 @@ const content: AppContent = {
     {
       question: '¿El generador crea claves de respuesta automáticamente?',
       answer:
-        'Sí. Haz clic en el botón Generar Clave de Respuesta para crear una versión resuelta mostrando cada vagón con su asociación letra-imagen correcta y todas las pistas resueltas. Puedes previsualizarla en pantalla y descargarla como archivo JPEG o PDF separado para incluir en ediciones del profesor o paquetes de productos. Tener una clave de respuesta lista añade valor percibido a tus anuncios y te permite indicar «clave de respuesta incluida» — un detalle que los compradores de Etsy y TPT filtran específicamente al comparar productos de la competencia.',
+        'Sí. Haz clic en el botón Generar Clave de Respuesta para crear una versión resuelta mostrando cada vagón con su asociación letra-imagen correcta y todas las pistas resueltas. Puedes previsualizarla en pantalla y descargarla como archivo JPEG o PDF separado para incluir en ediciones del vendedor o paquetes de productos. Tener una clave de respuesta lista añade valor percibido a tus anuncios y te permite indicar «clave de respuesta incluida» — un detalle que los compradores de Etsy y Gumroad filtran específicamente al comparar productos de la competencia.',
     },
     {
       question: '¿Hay una prueba gratuita?',
@@ -188,12 +188,12 @@ const content: AppContent = {
     {
       question: '¿Qué incluye la licencia comercial?',
       answer:
-        'La Licencia Comercial proporciona exportaciones en inglés sin marca de agua con derechos completos de venta. La licencia Acceso Completo añade los 11 idiomas con sus alfabetos nativos, multiplicando tu catálogo de productos. Ambos niveles otorgan derechos ilimitados para vender en Etsy, Amazon KDP, Teachers Pay Teachers, tu propio sitio web o cualquier otra plataforma — sin regalías por venta, sin cuotas mensuales y sin límites de producción.',
+        'La Licencia Comercial proporciona exportaciones en inglés sin marca de agua con derechos completos de venta. La licencia Acceso Completo añade los 11 idiomas con sus alfabetos nativos, multiplicando tu catálogo de productos. Ambos niveles otorgan derechos ilimitados para vender en Etsy, Amazon KDP, Gumroad, tu propio sitio web o cualquier otra plataforma — sin regalías por venta, sin cuotas mensuales y sin límites de producción.',
     },
     {
       question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de tren del abecedario como descargas digitales en Etsy, como libros de actividades impresos en Amazon KDP, como recursos educativos en TPT o a través de cualquier otro canal de venta. El formato de tren único y la capacidad multilingüe te ofrecen una fuerte diferenciación en categorías de mercado muy competidas.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de tren del abecedario como descargas digitales en Etsy, como libros de actividades impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. El formato de tren único y la capacidad multilingüe te ofrecen una fuerte diferenciación en categorías de mercado muy competidas.',
     },
     {
       question: '¿Cuál es la política de reembolso?',
@@ -251,7 +251,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'educacion-en-casa-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles para educación en casa',
+      anchorText: 'Ideas de imprimibles para trabajo desde casa',
     },
   ],
 

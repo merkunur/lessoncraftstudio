@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'fichas de sudoku infantil imprimíveis para vendedores Etsy',
       'gerador de sudoku com imagens para editores Amazon KDP',
-      'vender fichas de sudoku infantil no Teachers Pay Teachers',
+      'vender fichas de sudoku infantil no Gumroad',
       'fichas de sudoku com imagens licença comercial',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Gerador Fichas Sudoku Imagens | Criar e Vender',
     metaDescription:
-      'Crie fichas de sudoku com imagens para Etsy, KDP e TPT. Quadrícula 4×4, três dificuldades, 104 temas, gabarito automático. Teste grátis com marca d\'água.',
+      'Crie fichas de sudoku com imagens para Etsy, KDP e Gumroad. Quadrícula 4×4, três dificuldades, 104 temas, gabarito automático. Teste grátis com marca d\'água.',
   },
 
   hero: {
     title: 'Gerador de Fichas de Sudoku com Imagens para Puzzles Lógicos 4×4',
     tagline: 'Sudoku visual com imagens em vez de números — três níveis de dificuldade de 4 a 8 células vazias, gabaritos automáticos com quadrículas completas e seleção de imagens por tema em 104 coleções para puzzles vendíveis em todo o mundo sem tradução.',
     description:
-      'Crie fichas profissionais de sudoku com imagens numa quadrícula 4×4 onde os alunos completam as células vazias com a imagem correta usando lógica de linhas e colunas. Cada puzzle usa exatamente 4 imagens únicas que devem aparecer uma vez em cada linha e uma vez em cada coluna — as mesmas regras do sudoku clássico, mas com ilustrações coloridas em vez de números. Escolha entre três níveis de dificuldade: Fácil elimina 4 células, Médio elimina 6 e Difícil elimina 8 — metade da quadrícula. Selecione imagens através da seleção por tema que escolhe 4 imagens aleatórias de qualquer uma das 104 coleções temáticas, ou selecione manualmente exatamente 4 imagens da biblioteca, da pesquisa ou das suas próprias imagens carregadas. O design premium da quadrícula apresenta cores de bloco alternadas em azul claro e rosa claro, sombras multicamada e uma borda exterior índigo com cantos arredondados. Cada puzzle inclui um cabeçalho «Sudoku de Imagens» localizado nos 11 idiomas e um gabarito de canvas duplo que mostra a quadrícula completa com as 16 células preenchidas. Adicione temas de fundo e de borda com controlos de opacidade independentes, e exporte PDFs e JPEGs prontos para impressão a 300 DPI nos formatos Carta, A4 ou personalizado. Como o sudoku com imagens é completamente visual — nenhuma palavra aparece na quadrícula do puzzle — cada ficha funciona de forma idêntica nos 11 idiomas, tornando os seus produtos vendíveis em todo o mundo sem qualquer modificação. O Acesso Completo desbloqueia os 104 temas com mais de 3100 ilustrações e os 11 idiomas de interface. Quer venda pacotes temáticos de sudoku na Etsy, compile cadernos de lógica para a Amazon KDP ou crie atividades de raciocínio para o TPT, este gerador produz puzzles prontos para venda em minutos — teste grátis com todas as funcionalidades, sem registo, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie fichas profissionais de sudoku com imagens numa quadrícula 4×4 onde os usuários completam as células vazias com a imagem correta usando lógica de linhas e colunas. Cada puzzle usa exatamente 4 imagens únicas que devem aparecer uma vez em cada linha e uma vez em cada coluna — as mesmas regras do sudoku clássico, mas com ilustrações coloridas em vez de números. Escolha entre três níveis de dificuldade: Fácil elimina 4 células, Médio elimina 6 e Difícil elimina 8 — metade da quadrícula. Selecione imagens através da seleção por tema que escolhe 4 imagens aleatórias de qualquer uma das 104 coleções temáticas, ou selecione manualmente exatamente 4 imagens da biblioteca, da pesquisa ou das suas próprias imagens carregadas. O design premium da quadrícula apresenta cores de bloco alternadas em azul claro e rosa claro, sombras multicamada e uma borda exterior índigo com cantos arredondados. Cada puzzle inclui um cabeçalho «Sudoku de Imagens» localizado nos 11 idiomas e um gabarito de canvas duplo que mostra a quadrícula completa com as 16 células preenchidas. Adicione temas de fundo e de borda com controlos de opacidade independentes, e exporte PDFs e JPEGs prontos para impressão a 300 DPI nos formatos Carta, A4 ou personalizado. Como o sudoku com imagens é completamente visual — nenhuma palavra aparece na quadrícula do puzzle — cada ficha funciona de forma idêntica nos 11 idiomas, tornando os seus produtos vendíveis em todo o mundo sem qualquer modificação. O Acesso Completo desbloqueia os 104 temas com mais de 3100 ilustrações e os 11 idiomas de interface. Quer venda pacotes temáticos de sudoku na Etsy, compile cadernos de lógica para a Amazon KDP ou crie atividades de raciocínio para o Gumroad, este gerador produz puzzles prontos para venda em minutos — teste grátis com todas as funcionalidades, sem registo, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Escolha o nível de dificuldade',
         description:
-          'Abra o painel de Sudoku Infantil e selecione uma dificuldade no menu suspenso: Fácil, Médio ou Difícil. Fácil elimina 4 células da quadrícula 4×4, deixando 12 preenchidas e 4 para o aluno resolver. Médio elimina 6 células para um desafio moderado. Difícil elimina 8 células — exatamente metade da quadrícula — exigindo raciocínio lógico mais avançado. O sistema seleciona aleatoriamente quais células ficam vazias, pelo que regenerar a mesma dificuldade produz configurações de puzzle diferentes de cada vez.',
+          'Abra o painel de Sudoku Infantil e selecione uma dificuldade no menu suspenso: Fácil, Médio ou Difícil. Fácil elimina 4 células da quadrícula 4×4, deixando 12 preenchidas e 4 para o usuário resolver. Médio elimina 6 células para um desafio moderado. Difícil elimina 8 células — exatamente metade da quadrícula — exigindo raciocínio lógico mais avançado. O sistema seleciona aleatoriamente quais células ficam vazias, pelo que regenerar a mesma dificuldade produz configurações de puzzle diferentes de cada vez.',
       },
       {
         title: 'Selecione exatamente 4 imagens',
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Gere o gabarito e descarregue',
         description:
-          'Mude para o separador Gabarito para ver a quadrícula completa com as 16 células preenchidas — sem espaços vazios. Descarregue ambas as versões com quatro botões dedicados: Ficha JPEG, Gabarito JPEG, Ficha PDF e Gabarito PDF. Os ficheiros são exportados como sudoku_worksheet.jpeg/pdf e sudoku_answer_key.jpeg/pdf a 300 DPI. Ative a escala de cinzentos para versões económicas em tinta. Cada exportação está pronta para publicação em lojas Etsy, interiores Amazon KDP e ficheiros de produtos TPT.',
+          'Mude para o separador Gabarito para ver a quadrícula completa com as 16 células preenchidas — sem espaços vazios. Descarregue ambas as versões com quatro botões dedicados: Ficha JPEG, Gabarito JPEG, Ficha PDF e Gabarito PDF. Os ficheiros são exportados como sudoku_worksheet.jpeg/pdf e sudoku_answer_key.jpeg/pdf a 300 DPI. Ative a escala de cinzentos para versões económicas em tinta. Cada exportação está pronta para publicação em lojas Etsy, interiores Amazon KDP e ficheiros de produtos Gumroad.',
       },
     ],
   },
@@ -63,12 +63,12 @@ const content: AppContent = {
       {
         title: 'Sudoku 4×4 com imagens em vez de números',
         description:
-          'Cada puzzle usa uma quadrícula 4×4 com 4 imagens coloridas únicas que substituem os números tradicionais. Os alunos aplicam as mesmas regras lógicas do sudoku clássico — cada imagem deve aparecer exatamente uma vez em cada linha e uma vez em cada coluna — mas o formato visual torna os puzzles acessíveis a pré-leitores e alunos mais novos que ainda não dominam os números. O formato baseado em imagens também torna cada puzzle universalmente compreensível independentemente do idioma, já que nenhum texto aparece dentro da quadrícula. Este design exclusivamente visual é o diferenciador-chave que abre mercados mundiais para os seus produtos imprimíveis.',
+          'Cada puzzle usa uma quadrícula 4×4 com 4 imagens coloridas únicas que substituem os números tradicionais. Os usuários aplicam as mesmas regras lógicas do sudoku clássico — cada imagem deve aparecer exatamente uma vez em cada linha e uma vez em cada coluna — mas o formato visual torna os puzzles acessíveis a pré-leitores e usuários mais novos que ainda não dominam os números. O formato baseado em imagens também torna cada puzzle universalmente compreensível independentemente do idioma, já que nenhum texto aparece dentro da quadrícula. Este design exclusivamente visual é o diferenciador-chave que abre mercados mundiais para os seus produtos imprimíveis.',
       },
       {
         title: 'Três níveis de dificuldade: Fácil, Médio e Difícil',
         description:
-          'Controle a complexidade do puzzle com três definições de dificuldade distintas. Fácil elimina 4 células da quadrícula de 16 células, deixando 12 pistas — os alunos resolvem uma célula de cada vez com eliminação direta de linhas e colunas. Médio elimina 6 células, exigindo que os alunos considerem múltiplas restrições em simultâneo. Difícil elimina 8 células — exatamente metade da quadrícula — requerendo raciocínio lógico em vários passos. O sistema determina aleatoriamente quais células ficam vazias, pelo que regenerar o mesmo nível de dificuldade produz uma configuração de puzzle diferente de cada vez.',
+          'Controle a complexidade do puzzle com três definições de dificuldade distintas. Fácil elimina 4 células da quadrícula de 16 células, deixando 12 pistas — os usuários resolvem uma célula de cada vez com eliminação direta de linhas e colunas. Médio elimina 6 células, exigindo que os usuários considerem múltiplas restrições em simultâneo. Difícil elimina 8 células — exatamente metade da quadrícula — requerendo raciocínio lógico em vários passos. O sistema determina aleatoriamente quais células ficam vazias, pelo que regenerar o mesmo nível de dificuldade produz uma configuração de puzzle diferente de cada vez.',
       },
       {
         title: 'Seleção de imagens por tema e manual para exatamente 4 imagens',
@@ -78,12 +78,12 @@ const content: AppContent = {
       {
         title: 'Design premium da quadrícula com cores de bloco alternadas e sombras multicamada',
         description:
-          'A quadrícula de sudoku apresenta um design polido que eleva os seus produtos imprimíveis acima dos geradores de puzzles básicos. Os blocos 2×2 alternados usam fundos azul claro (#F8F9FC) e rosa claro (#FFF5F7) para ajudar os alunos a identificar visualmente os limites dos blocos. Divisores centrais a negrito (#7C8DB5, traço de 3 px) separam os quatro quadrantes enquanto linhas internas mais finas (#D1D9E6, 1,5 px) definem as células individuais. Uma borda exterior índigo (#667EEA) com cantos arredondados de 18 px emoldura toda a quadrícula, e três sombras multicamada adicionam profundidade. As imagens são exibidas a 65 % do tamanho da célula para uma separação visual clara.',
+          'A quadrícula de sudoku apresenta um design polido que eleva os seus produtos imprimíveis acima dos geradores de puzzles básicos. Os blocos 2×2 alternados usam fundos azul claro (#F8F9FC) e rosa claro (#FFF5F7) para ajudar os usuários a identificar visualmente os limites dos blocos. Divisores centrais a negrito (#7C8DB5, traço de 3 px) separam os quatro quadrantes enquanto linhas internas mais finas (#D1D9E6, 1,5 px) definem as células individuais. Uma borda exterior índigo (#667EEA) com cantos arredondados de 18 px emoldura toda a quadrícula, e três sombras multicamada adicionam profundidade. As imagens são exibidas a 65 % do tamanho da célula para uma separação visual clara.',
       },
       {
         title: 'Gabarito automático com quadrícula completa',
         description:
-          'Cada puzzle de sudoku gera automaticamente um gabarito complementar num separador de canvas separado. O gabarito mostra a quadrícula 4×4 completa com as 16 células preenchidas — cada célula vazia da ficha está preenchida com a imagem correta. Sem resolução manual, sem criação de ficheiros separados — o gabarito permanece sempre sincronizado com o puzzle. Esta abordagem de canvas duplo poupa um tempo de produção significativo para vendedores que criam pacotes de sudoku onde cada puzzle precisa da sua própria página de solução. Descarregue o gabarito como sudoku_answer_key.jpeg ou sudoku_answer_key.pdf juntamente com a ficha do aluno.',
+          'Cada puzzle de sudoku gera automaticamente um gabarito complementar num separador de canvas separado. O gabarito mostra a quadrícula 4×4 completa com as 16 células preenchidas — cada célula vazia da ficha está preenchida com a imagem correta. Sem resolução manual, sem criação de ficheiros separados — o gabarito permanece sempre sincronizado com o puzzle. Esta abordagem de canvas duplo poupa um tempo de produção significativo para vendedores que criam pacotes de sudoku onde cada puzzle precisa da sua própria página de solução. Descarregue o gabarito como sudoku_answer_key.jpeg ou sudoku_answer_key.pdf juntamente com a ficha do usuário.',
       },
       {
         title: 'Biblioteca de imagens com 104 coleções temáticas e mais de 3100 ilustrações',
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: 'Exportação pronta para impressão em PDF e JPEG a 300 DPI com modo escala de cinzentos',
         description:
-          'Descarregue fichas de sudoku e gabaritos como imagens JPEG de alta resolução ou documentos PDF prontos para impressão renderizados a 300 DPI (multiplicador de canvas 6×). Quatro botões de descarga dedicados exportam sudoku_worksheet.jpeg, sudoku_worksheet.pdf, sudoku_answer_key.jpeg e sudoku_answer_key.pdf separadamente. Os formatos de página incluem Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal e dimensões completamente personalizadas. Ative a escala de cinzentos para versões económicas em tinta mantendo a clareza das imagens. Cada exportação está pronta para downloads digitais, cadernos impressos e material para a sala de aula.',
+          'Descarregue fichas de sudoku e gabaritos como imagens JPEG de alta resolução ou documentos PDF prontos para impressão renderizados a 300 DPI (multiplicador de canvas 6×). Quatro botões de descarga dedicados exportam sudoku_worksheet.jpeg, sudoku_worksheet.pdf, sudoku_answer_key.jpeg e sudoku_answer_key.pdf separadamente. Os formatos de página incluem Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal e dimensões completamente personalizadas. Ative a escala de cinzentos para versões económicas em tinta mantendo a clareza das imagens. Cada exportação está pronta para downloads digitais, cadernos impressos e material para a loja.',
       },
       {
         title: 'Edição completa do canvas com ferramentas de texto e histórico de 50 estados de anulação',
@@ -119,16 +119,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Atividades de lógica e raciocínio para o TPT',
+        title: 'Atividades de lógica e raciocínio para o Gumroad',
         description:
-          'Crie fichas de raciocínio lógico prontas para usar com gabaritos impressos para utilização em sala de aula. Os professores que procuram atividades de pensamento crítico no TPT valorizam o sudoku com imagens porque desenvolve a dedução lógica num formato acessível para alunos mais novos. Crie conjuntos alinhados com o currículo organizados por tema: puzzles lógicos de animais da quinta, atividades de raciocínio de grupos de alimentos, fichas de resolução de problemas de profissões. Cada conjunto inclui fichas para alunos em múltiplos níveis de dificuldade e gabaritos para o professor nos formatos PDF e JPEG.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Crie fichas de raciocínio lógico prontas para usar com gabaritos impressos para utilização online. Os vendedores que procuram atividades de pensamento crítico no Gumroad valorizam o sudoku com imagens porque desenvolve a dedução lógica num formato acessível para usuários mais novos. Crie conjuntos alinhados com o catálogo de produtos organizados por tema: puzzles lógicos de animais da quinta, atividades de raciocínio de grupos de alimentos, fichas de resolução de problemas de profissões. Cada conjunto inclui fichas para usuários em múltiplos níveis de dificuldade e gabaritos para o vendedor nos formatos PDF e JPEG.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Coleções de sudoku sazonais e de festividades',
         description:
           'As 104 coleções de imagens temáticas cobrem cada ocasião sazonal e festiva — Natal, Halloween, Páscoa, Dia dos Namorados, regresso às aulas, férias de verão e mais. Crie coleções de puzzles de sudoku de época limitada que se alinhem com os períodos de maior procura. Lance pacotes de sudoku de Halloween em setembro, coleções de Natal em outubro e pacotes do Dia dos Namorados em janeiro. Inclua os três níveis de dificuldade em cada conjunto sazonal para máximo valor. Os produtos sazonais alcançam preços mais altos durante as janelas de pico e criam razões naturais para compras recorrentes ao longo do ano.',
-        platform: 'Etsy / Amazon KDP / TPT (sazonal)',
+        platform: 'Etsy / Amazon KDP / Gumroad (sazonal)',
       },
       {
         title: 'Alcance global com puzzles exclusivamente visuais',
@@ -143,17 +143,17 @@ const content: AppContent = {
     {
       question: 'Como funciona um puzzle de sudoku com imagens 4×4?',
       answer:
-        'Um sudoku com imagens 4×4 usa uma quadrícula de 16 células dispostas em 4 linhas e 4 colunas. Quatro imagens únicas substituem os números tradicionais. A regra é a mesma do sudoku clássico: cada imagem deve aparecer exatamente uma vez em cada linha e exatamente uma vez em cada coluna. Algumas células começam preenchidas com imagens (pistas), e o aluno completa as células vazias usando eliminação lógica — verificando qual imagem falta em cada linha e coluna para determinar a colocação correta.',
+        'Um sudoku com imagens 4×4 usa uma quadrícula de 16 células dispostas em 4 linhas e 4 colunas. Quatro imagens únicas substituem os números tradicionais. A regra é a mesma do sudoku clássico: cada imagem deve aparecer exatamente uma vez em cada linha e exatamente uma vez em cada coluna. Algumas células começam preenchidas com imagens (pistas), e o usuário completa as células vazias usando eliminação lógica — verificando qual imagem falta em cada linha e coluna para determinar a colocação correta.',
     },
     {
       question: 'Porquê usar imagens em vez de números no sudoku?',
       answer:
-        'As imagens tornam o sudoku acessível a pré-leitores e alunos mais novos que ainda não dominam os números. O formato visual cativa os alunos com ilustrações temáticas coloridas enquanto desenvolve as mesmas competências de raciocínio lógico que o sudoku baseado em números. Os puzzles com imagens também são universalmente compreensíveis — não é necessário conhecimento de idioma ou sistema numérico — o que torna os seus produtos vendíveis em todo o mundo sem tradução.',
+        'As imagens tornam o sudoku acessível a pré-leitores e usuários mais novos que ainda não dominam os números. O formato visual cativa os usuários com ilustrações temáticas coloridas enquanto desenvolve as mesmas competências de raciocínio lógico que o sudoku baseado em números. Os puzzles com imagens também são universalmente compreensíveis — não é necessário conhecimento de idioma ou sistema numérico — o que torna os seus produtos vendíveis em todo o mundo sem tradução.',
     },
     {
       question: 'O que controlam os três níveis de dificuldade?',
       answer:
-        'A dificuldade determina quantas células ficam vazias para o aluno resolver. Fácil elimina 4 células da quadrícula de 16 células, deixando 12 pistas para uma resolução direta. Médio elimina 6 células, exigindo uma dedução lógica mais cuidadosa. Difícil elimina 8 células — exatamente metade da quadrícula — requerendo raciocínio em vários passos. O sistema seleciona aleatoriamente quais células ficam vazias, pelo que regenerar a mesma dificuldade cria um layout de puzzle diferente de cada vez.',
+        'A dificuldade determina quantas células ficam vazias para o usuário resolver. Fácil elimina 4 células da quadrícula de 16 células, deixando 12 pistas para uma resolução direta. Médio elimina 6 células, exigindo uma dedução lógica mais cuidadosa. Difícil elimina 8 células — exatamente metade da quadrícula — requerendo raciocínio em vários passos. O sistema seleciona aleatoriamente quais células ficam vazias, pelo que regenerar a mesma dificuldade cria um layout de puzzle diferente de cada vez.',
     },
     {
       question: 'Porquê exatamente 4 imagens no gerador?',
@@ -168,12 +168,12 @@ const content: AppContent = {
     {
       question: 'Como funciona o gabarito do sudoku com imagens?',
       answer:
-        'O gerador usa um sistema de canvas duplo com um separador de Ficha e um separador de Gabarito. A ficha mostra a quadrícula 4×4 com células vazias onde os alunos devem determinar as imagens corretas. O gabarito mostra exatamente a mesma quadrícula mas com as 16 células preenchidas — cada célula vazia está preenchida com a imagem correta. Ambas as versões exportam-se separadamente através de quatro botões dedicados: sudoku_worksheet.jpeg, sudoku_worksheet.pdf, sudoku_answer_key.jpeg e sudoku_answer_key.pdf.',
+        'O gerador usa um sistema de canvas duplo com um separador de Ficha e um separador de Gabarito. A ficha mostra a quadrícula 4×4 com células vazias onde os usuários devem determinar as imagens corretas. O gabarito mostra exatamente a mesma quadrícula mas com as 16 células preenchidas — cada célula vazia está preenchida com a imagem correta. Ambas as versões exportam-se separadamente através de quatro botões dedicados: sudoku_worksheet.jpeg, sudoku_worksheet.pdf, sudoku_answer_key.jpeg e sudoku_answer_key.pdf.',
     },
     {
       question: 'O que torna o design da quadrícula premium?',
       answer:
-        'A quadrícula de sudoku apresenta fundos de blocos 2×2 alternados em azul claro (#F8F9FC) e rosa claro (#FFF5F7) que ajudam os alunos a identificar os limites dos blocos. Divisores centrais a negrito (#7C8DB5, traço de 3 px) separam os quatro quadrantes enquanto linhas internas mais finas (#D1D9E6, 1,5 px) definem as células individuais. Uma borda exterior índigo (#667EEA) com cantos arredondados de 18 px emoldura toda a quadrícula, e três sombras multicamada a diferentes deslocamentos adicionam profundidade profissional. As imagens são exibidas a 65 % do tamanho da célula para uma separação visual clara.',
+        'A quadrícula de sudoku apresenta fundos de blocos 2×2 alternados em azul claro (#F8F9FC) e rosa claro (#FFF5F7) que ajudam os usuários a identificar os limites dos blocos. Divisores centrais a negrito (#7C8DB5, traço de 3 px) separam os quatro quadrantes enquanto linhas internas mais finas (#D1D9E6, 1,5 px) definem as células individuais. Uma borda exterior índigo (#667EEA) com cantos arredondados de 18 px emoldura toda a quadrícula, e três sombras multicamada a diferentes deslocamentos adicionam profundidade profissional. As imagens são exibidas a 65 % do tamanho da célula para uma separação visual clara.',
     },
     {
       question: 'Os puzzles são únicos de cada vez que gero um?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Posso vender fichas de sudoku com imagens criadas com esta ferramenta na Etsy e Amazon KDP?',
       answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas de sudoku com imagens como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos educativos no TPT ou através de qualquer outro canal de venda. Os três níveis de dificuldade, as 104 coleções de imagens temáticas e o formato exclusivamente visual dão-lhe as ferramentas criativas para produzir produtos de sudoku originais e vendíveis globalmente.',
+        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas de sudoku com imagens como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos educativos no Gumroad ou através de qualquer outro canal de venda. Os três níveis de dificuldade, as 104 coleções de imagens temáticas e o formato exclusivamente visual dão-lhe as ferramentas criativas para produzir produtos de sudoku originais e vendíveis globalmente.',
     },
     {
       question: 'Qual é a política de reembolso?',

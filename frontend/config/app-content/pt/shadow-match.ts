@@ -7,7 +7,7 @@ const content: AppContent = {
       'gerador de fichas de associação de sombras para vendedores Etsy',
       'criador de puzzles de siluetas imprimíveis para editores Amazon KDP',
       'gerador de fichas de discriminação visual com licença comercial',
-      'vender fichas de associação de sombras no Teachers Pay Teachers',
+      'vender fichas de associação de sombras no Gumroad',
     ],
     lsiKeywords: [
       'produtos digitais de discriminação visual para empreendedores',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Gerador Fichas Associação Sombras | Siluetas',
     metaDescription:
-      'Crie fichas de associação de sombras para Etsy, KDP e TPT. Modos Sombra e Complete a Imagem, siluetas auto, 104 temas em PDF. Teste grátis com marca d\'água.',
+      'Crie fichas de associação de sombras para Etsy, KDP e Gumroad. Modos Sombra e Complete a Imagem, siluetas auto, 104 temas em PDF. Teste grátis com marca d\'água.',
   },
 
   hero: {
     title: 'Gerador de Fichas de Associação de Sombras para Atividades de Correspondência de Siluetas e Imagens Divididas',
     tagline: 'Dois modos de correspondência num só gerador — Associação de Sombras cria siluetas negras geradas automaticamente a partir de qualquer imagem, Complete a Imagem divide as imagens em metades — ambos com algoritmo de derangement Fisher-Yates que garante zero correspondências triviais, gabaritos autogerados e 104 coleções de imagens temáticas.',
     description:
-      'Crie fichas profissionais de associação de sombras onde os alunos associam imagens coloridas às suas siluetas ou reconectam metades de imagens separadas. O modo Associação de Sombras coloca 4 imagens coloridas etiquetadas A, B, C, D na linha superior e 4 siluetas negras autogeradas etiquetadas 1, 2, 3, 4 na linha inferior — as siluetas são criadas através de processamento de imagens a nível de píxel que converte cada píxel com alpha > 10 em preto puro, produzindo contornos precisos que preservam o perfil de transparência exato de cada imagem. O modo Complete a Imagem divide as imagens em metades com direção de corte horizontal ou vertical, etiqueta as primeiras metades A–D e as segundas metades 1–4, e adapta o layout conforme a orientação. Ambos os modos utilizam um algoritmo de derangement Fisher-Yates para garantir que nenhum elemento aparece na sua posição original, criando verdadeiros desafios de correspondência em cada geração. Ative ou desative a visualização das etiquetas A/B/C/D e 1/2/3/4, adicione campos opcionais de nome e data para uso em sala de aula, e gere gabaritos automáticos que mostram cada emparelhamento correto letra-número. O Gerador de Associação de Sombras NÃO é sensível ao idioma: o resultado é puramente visual, sem conteúdo textual localizado na ficha. O Acesso Completo desbloqueia os 104 temas com mais de 3100 ilustrações e os 11 idiomas de interface. Adicione temas de fundo e de borda com controlos de opacidade independentes, inclua texto personalizado com sete opções de fontes, e exporte PDFs e JPEGs prontos para impressão a 300 DPI nos formatos Carta, A4, Quadrado (1200×1200) ou dimensões personalizadas. Quer venda pacotes de puzzles de siluetas na Etsy, compile cadernos de perceção visual para a Amazon KDP ou crie atividades rápidas de fim de aula para o TPT, este gerador produz fichas prontas para produção em minutos — teste grátis com todas as funcionalidades, sem registo, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie fichas profissionais de associação de sombras onde os usuários associam imagens coloridas às suas siluetas ou reconectam metades de imagens separadas. O modo Associação de Sombras coloca 4 imagens coloridas etiquetadas A, B, C, D na linha superior e 4 siluetas negras autogeradas etiquetadas 1, 2, 3, 4 na linha inferior — as siluetas são criadas através de processamento de imagens a nível de píxel que converte cada píxel com alpha > 10 em preto puro, produzindo contornos precisos que preservam o perfil de transparência exato de cada imagem. O modo Complete a Imagem divide as imagens em metades com direção de corte horizontal ou vertical, etiqueta as primeiras metades A–D e as segundas metades 1–4, e adapta o layout conforme a orientação. Ambos os modos utilizam um algoritmo de derangement Fisher-Yates para garantir que nenhum elemento aparece na sua posição original, criando verdadeiros desafios de correspondência em cada geração. Ative ou desative a visualização das etiquetas A/B/C/D e 1/2/3/4, adicione campos opcionais de nome e data para uso online, e gere gabaritos automáticos que mostram cada emparelhamento correto letra-número. O Gerador de Associação de Sombras NÃO é sensível ao idioma: o resultado é puramente visual, sem conteúdo textual localizado na ficha. O Acesso Completo desbloqueia os 104 temas com mais de 3100 ilustrações e os 11 idiomas de interface. Adicione temas de fundo e de borda com controlos de opacidade independentes, inclua texto personalizado com sete opções de fontes, e exporte PDFs e JPEGs prontos para impressão a 300 DPI nos formatos Carta, A4, Quadrado (1200×1200) ou dimensões personalizadas. Quer venda pacotes de puzzles de siluetas na Etsy, compile cadernos de perceção visual para a Amazon KDP ou crie atividades rápidas de fim de aula para o Gumroad, este gerador produz fichas prontas para produção em minutos — teste grátis com todas as funcionalidades, sem registo, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Escolha o Modo de Exercício e Configure as Opções',
         description:
-          'Abra o painel Configuração do Exercício e selecione o seu modo: Associação de Sombras ou Complete a Imagem. O modo Associação de Sombras gera siluetas negras a partir das suas imagens selecionadas mediante processamento a nível de píxel. O modo Complete a Imagem divide as imagens em metades — escolha a direção de corte horizontal (cima/baixo) ou vertical (esquerda/direita) com os botões de rádio que aparecem neste modo. Ative ou desative a caixa «Mostrar Etiquetas» (ativa por predefinição) para mostrar os identificadores A/B/C/D e 1/2/3/4 na ficha. Ative «Incluir Campos Nome/Data» para adicionar linhas de nome e data para os alunos.',
+          'Abra o painel Configuração do Exercício e selecione o seu modo: Associação de Sombras ou Complete a Imagem. O modo Associação de Sombras gera siluetas negras a partir das suas imagens selecionadas mediante processamento a nível de píxel. O modo Complete a Imagem divide as imagens em metades — escolha a direção de corte horizontal (cima/baixo) ou vertical (esquerda/direita) com os botões de rádio que aparecem neste modo. Ative ou desative a caixa «Mostrar Etiquetas» (ativa por predefinição) para mostrar os identificadores A/B/C/D e 1/2/3/4 na ficha. Ative «Incluir Campos Nome/Data» para adicionar linhas de nome e data para os usuários.',
       },
       {
         title: 'Selecione 4 Imagens da Biblioteca',
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Gere o Gabarito e Descarregue',
         description:
-          'Mude para o separador Gabarito para ver o gabarito autogerado. No modo Associação de Sombras, cada célula mostra a imagem original junto à sua silueta com uma etiqueta como «A → 2» indicando a correspondência correta. No modo Complete a Imagem, cada célula mostra a imagem original completa com a sua etiqueta de correspondência. Descarregue ambas as versões com os quatro botões dedicados: Ficha JPEG, Gabarito JPEG, Ficha PDF e Gabarito PDF a 300 DPI. Ative a escala de cinzentos para versões económicas em tinta. Cada exportação está pronta para produção: listagens da Etsy, interiores da Amazon KDP e ficheiros de produtos TPT.',
+          'Mude para o separador Gabarito para ver o gabarito autogerado. No modo Associação de Sombras, cada célula mostra a imagem original junto à sua silueta com uma etiqueta como «A → 2» indicando a correspondência correta. No modo Complete a Imagem, cada célula mostra a imagem original completa com a sua etiqueta de correspondência. Descarregue ambas as versões com os quatro botões dedicados: Ficha JPEG, Gabarito JPEG, Ficha PDF e Gabarito PDF a 300 DPI. Ative a escala de cinzentos para versões económicas em tinta. Cada exportação está pronta para produção: listagens da Etsy, interiores da Amazon KDP e ficheiros de produtos Gumroad.',
       },
     ],
   },
@@ -68,7 +68,7 @@ const content: AppContent = {
       {
         title: 'Dois Modos de Exercício: Associação de Sombras e Complete a Imagem com Opções de Direção de Corte',
         description:
-          'Um só gerador oferece duas atividades de correspondência visual distintas. O modo Associação de Sombras coloca 4 imagens coloridas na linha superior e 4 siluetas autogeradas na linha inferior — os alunos identificam cada imagem apenas pela forma do seu contorno. O modo Complete a Imagem divide 4 imagens em metades e apresenta as primeiras e segundas metades separadamente — os alunos reconectam as peças para completar cada imagem. No modo Complete a Imagem, escolha a direção de corte horizontal (metades cima/baixo) ou vertical (metades esquerda/direita). O layout adapta-se automaticamente: as páginas horizontais usam 2 linhas × 4 elementos, as páginas verticais usam 2 colunas × 4 elementos.',
+          'Um só gerador oferece duas atividades de correspondência visual distintas. O modo Associação de Sombras coloca 4 imagens coloridas na linha superior e 4 siluetas autogeradas na linha inferior — os usuários identificam cada imagem apenas pela forma do seu contorno. O modo Complete a Imagem divide 4 imagens em metades e apresenta as primeiras e segundas metades separadamente — os usuários reconectam as peças para completar cada imagem. No modo Complete a Imagem, escolha a direção de corte horizontal (metades cima/baixo) ou vertical (metades esquerda/direita). O layout adapta-se automaticamente: as páginas horizontais usam 2 linhas × 4 elementos, as páginas verticais usam 2 colunas × 4 elementos.',
       },
       {
         title: 'Algoritmo de Derangement que Garante Zero Correspondências Triviais',
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: 'Gabarito Autogerado com Etiquetas de Correspondência Letra-Número',
         description:
-          'Cada ficha de associação de sombras gera automaticamente um gabarito complementar num separador de canvas separado. O gabarito usa um layout de grelha onde cada célula mostra a imagem original junto à sua silueta ou imagem completa, etiquetada com a correspondência correta como «A → 2». A grelha usa 4 colunas com um espaço de 50 px antes da segunda linha e 15 px de espaçamento vertical entre elementos. Sem criação manual de gabarito — o gabarito mantém-se sincronizado com a ficha. Descarregue-o separadamente como answer_key.jpeg ou answer_key.pdf junto à ficha do aluno.',
+          'Cada ficha de associação de sombras gera automaticamente um gabarito complementar num separador de canvas separado. O gabarito usa um layout de grelha onde cada célula mostra a imagem original junto à sua silueta ou imagem completa, etiquetada com a correspondência correta como «A → 2». A grelha usa 4 colunas com um espaço de 50 px antes da segunda linha e 15 px de espaçamento vertical entre elementos. Sem criação manual de gabarito — o gabarito mantém-se sincronizado com a ficha. Descarregue-o separadamente como answer_key.jpeg ou answer_key.pdf junto à ficha do usuário.',
       },
       {
         title: 'Biblioteca de Imagens com 104 Coleções Temáticas e Mais de 3100 Ilustrações',
@@ -86,14 +86,14 @@ const content: AppContent = {
           'Explore 104 coleções de imagens temáticas que cobrem animais, alimentos, veículos, natureza, profissões, festividades, desportos, estações e dezenas mais. Cada tema fornece ilustrações coloridas que produzem siluetas distintivas com contornos reconhecíveis — formas de animais, perfis de veículos e contornos de objetos que estimulam a perceção visual. Filtre por tema usando o menu suspenso ou pesquise imagens específicas por palavra-chave. A Licença Comercial inclui 10 temas coloridos para começar; o Acesso Completo desbloqueia os 104 temas para máxima variedade criativa em ambos os modos de exercício.',
       },
       {
-        title: 'Etiquetas Opcionais e Campos Nome/Data para Alunos',
+        title: 'Etiquetas Opcionais e Campos Nome/Data para usuários',
         description:
-          'Ative ou desative a caixa «Mostrar Etiquetas» (ativa por predefinição) para mostrar os identificadores A, B, C, D nas imagens ou primeiras metades e 1, 2, 3, 4 nas siluetas ou segundas metades. Quando as etiquetas estão ocultas, a ficha torna-se um desafio de correspondência puramente visual sem apoio alfanumérico — ideal para atividades avançadas ou cadernos de puzzles onde não são necessárias respostas escritas. A caixa «Incluir Campos Nome/Data» adiciona linhas de nome e data na parte inferior da página para responsabilidade e organização na sala de aula.',
+          'Ative ou desative a caixa «Mostrar Etiquetas» (ativa por predefinição) para mostrar os identificadores A, B, C, D nas imagens ou primeiras metades e 1, 2, 3, 4 nas siluetas ou segundas metades. Quando as etiquetas estão ocultas, a ficha torna-se um desafio de correspondência puramente visual sem apoio alfanumérico — ideal para atividades avançadas ou cadernos de puzzles onde não são necessárias respostas escritas. A caixa «Incluir Campos Nome/Data» adiciona linhas de nome e data na parte inferior da página para responsabilidade e organização online.',
       },
       {
         title: 'Exportação PDF e JPEG Pronta para Impressão a 300 DPI com Modo Escala de Cinzentos',
         description:
-          'Descarregue fichas de associação de sombras e gabaritos como imagens JPEG de alta resolução ou documentos PDF prontos para impressão renderizados a 300 DPI (multiplicador 6×, qualidade JPEG 1.0). Quatro botões de descarga dedicados exportam os ficheiros de ficha de trabalho e gabarito separadamente. Os formatos de página incluem Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) e dimensões totalmente personalizadas. A orientação do PDF é detetada automaticamente. Ative a escala de cinzentos para versões económicas em tinta. Cada exportação está pronta para produção: downloads digitais, cadernos impressos e materiais de sala de aula.',
+          'Descarregue fichas de associação de sombras e gabaritos como imagens JPEG de alta resolução ou documentos PDF prontos para impressão renderizados a 300 DPI (multiplicador 6×, qualidade JPEG 1.0). Quatro botões de descarga dedicados exportam os ficheiros de ficha de trabalho e gabarito separadamente. Os formatos de página incluem Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) e dimensões totalmente personalizadas. A orientação do PDF é detetada automaticamente. Ative a escala de cinzentos para versões económicas em tinta. Cada exportação está pronta para produção: downloads digitais, cadernos impressos e materiais de loja.',
       },
       {
         title: 'Edição Completa do Canvas com Ferramentas de Texto, Alinhamento e Controlos de Camadas',
@@ -119,16 +119,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Atividades Rápidas de Fim de Aula para o TPT',
+        title: 'Atividades Rápidas de Fim de Aula para o Gumroad',
         description:
-          'Crie atividades de associação de sombras prontas para usar com campos de nome/data e gabaritos impressos para uso em sala de aula. Os professores que procuram exercícios de discriminação visual valorizam fichas que chegam prontas para imprimir. Crie conjuntos vinculados ao currículo: correspondência de sombras de animais para ciências, siluetas de profissões para estudos sociais, puzzles de sombras de alimentos para nutrição. A opção de etiquetas permite-lhe criar versões guiadas (com etiquetas A/B/C/D e 1/2/3/4) e versões desafio (etiquetas ocultas) no mesmo produto para instrução diferenciada.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Crie atividades de associação de sombras prontas para usar com campos de nome/data e gabaritos impressos para uso online. Os vendedores que procuram exercícios de discriminação visual valorizam fichas que chegam prontas para imprimir. Crie conjuntos vinculados ao catálogo de produtos: correspondência de sombras de animais para ciências, siluetas de profissões para estudos sociais, puzzles de sombras de alimentos para nutrição. A opção de etiquetas permite-lhe criar versões guiadas (com etiquetas A/B/C/D e 1/2/3/4) e versões desafio (etiquetas ocultas) no mesmo produto para pacotes escalonados por nível.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Coleções de Associação de Sombras Sazonais',
         description:
           'As 104 coleções de imagens temáticas cobrem cada ocasião sazonal e festiva — Natal, Halloween, Páscoa, Dia dos Namorados, regresso às aulas, férias de verão e mais. As atividades de siluetas têm um apelo especial durante o Halloween quando os temas de sombras e mistério são naturalmente populares. Crie coleções de associação de sombras por época alinhadas com os picos de compra. Inclua fichas de Associação de Sombras e Complete a Imagem em cada conjunto sazonal para máximo valor e variedade. Os produtos sazonais alcançam preços mais altos durante as suas janelas de máxima procura.',
-        platform: 'Etsy / Amazon KDP / TPT (sazonal)',
+        platform: 'Etsy / Amazon KDP / Gumroad (sazonal)',
       },
       {
         title: 'Pacotes de Puzzles Multi-Modo como Produtos Premium',
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Quais são os dois modos de exercício e em que diferem?',
       answer:
-        'O gerador oferece dois modos distintos. O modo Associação de Sombras coloca 4 imagens coloridas na linha superior e 4 siluetas negras autogeradas na linha inferior — os alunos associam cada imagem à sua sombra emparelhando letras (A–D) com números (1–4). O modo Complete a Imagem divide 4 imagens em metades e apresenta as primeiras metades (A–D) e as segundas metades (1–4) separadamente — os alunos associam as metades para completar cada imagem. Associação de Sombras avalia o reconhecimento de siluetas enquanto Complete a Imagem desenvolve a consciência espacial e o raciocínio parte-todo.',
+        'O gerador oferece dois modos distintos. O modo Associação de Sombras coloca 4 imagens coloridas na linha superior e 4 siluetas negras autogeradas na linha inferior — os usuários associam cada imagem à sua sombra emparelhando letras (A–D) com números (1–4). O modo Complete a Imagem divide 4 imagens em metades e apresenta as primeiras metades (A–D) e as segundas metades (1–4) separadamente — os usuários associam as metades para completar cada imagem. Associação de Sombras avalia o reconhecimento de siluetas enquanto Complete a Imagem desenvolve a consciência espacial e o raciocínio parte-todo.',
     },
     {
       question: 'Como são geradas as siluetas?',
@@ -158,22 +158,22 @@ const content: AppContent = {
     {
       question: 'Como funciona o algoritmo de derangement?',
       answer:
-        'Ambos os modos utilizam um algoritmo de derangement Fisher-Yates que garante que nenhum elemento aparece na sua posição original. No modo Associação de Sombras, nenhuma silueta se situa diretamente abaixo da sua imagem correspondente. No modo Complete a Imagem, nenhuma segunda metade aparece adjacente à sua primeira metade correspondente. Isto garante que cada ficha apresenta um verdadeiro desafio de correspondência — os alunos não podem adivinhar corretamente apenas pela posição. O derangement recalcula-se em cada geração, produzindo disposições diferentes a partir das mesmas imagens.',
+        'Ambos os modos utilizam um algoritmo de derangement Fisher-Yates que garante que nenhum elemento aparece na sua posição original. No modo Associação de Sombras, nenhuma silueta se situa diretamente abaixo da sua imagem correspondente. No modo Complete a Imagem, nenhuma segunda metade aparece adjacente à sua primeira metade correspondente. Isto garante que cada ficha apresenta um verdadeiro desafio de correspondência — os usuários não podem adivinhar corretamente apenas pela posição. O derangement recalcula-se em cada geração, produzindo disposições diferentes a partir das mesmas imagens.',
     },
     {
       question: 'Posso ativar ou desativar as etiquetas A/B/C/D e 1/2/3/4?',
       answer:
-        'Sim. A caixa «Mostrar Etiquetas» no painel Configuração do Exercício (ativa por predefinição) controla se as etiquetas A, B, C, D aparecem nas imagens ou primeiras metades e se as etiquetas 1, 2, 3, 4 aparecem nas siluetas ou segundas metades. Quando as etiquetas estão ativas, os alunos escrevem pares letra-número como respostas. Quando as etiquetas estão desativas, a ficha torna-se um desafio de correspondência puramente visual sem apoio alfanumérico — útil para cadernos de puzzles ou atividades avançadas.',
+        'Sim. A caixa «Mostrar Etiquetas» no painel Configuração do Exercício (ativa por predefinição) controla se as etiquetas A, B, C, D aparecem nas imagens ou primeiras metades e se as etiquetas 1, 2, 3, 4 aparecem nas siluetas ou segundas metades. Quando as etiquetas estão ativas, os usuários escrevem pares letra-número como respostas. Quando as etiquetas estão desativas, a ficha torna-se um desafio de correspondência puramente visual sem apoio alfanumérico — útil para cadernos de puzzles ou atividades avançadas.',
     },
     {
       question: 'Por que há sempre exatamente 4 problemas por ficha?',
       answer:
-        'A ficha usa um número fixo de 4 problemas de correspondência (SELECT_COUNT = 4). Isto não é configurável. Quatro elementos oferecem o equilíbrio ótimo para a correspondência de siluetas e imagens divididas: variedade suficiente para criar um verdadeiro desafio de correspondência com o derangement, mantendo cada imagem suficientemente grande para que os alunos estudem os detalhes finos das siluetas e das metades divididas. O formato constante de 4 elementos também funciona bem para produtos em pacote onde cada página tem uma densidade de conteúdo previsível.',
+        'A ficha usa um número fixo de 4 problemas de correspondência (SELECT_COUNT = 4). Isto não é configurável. Quatro elementos oferecem o equilíbrio ótimo para a correspondência de siluetas e imagens divididas: variedade suficiente para criar um verdadeiro desafio de correspondência com o derangement, mantendo cada imagem suficientemente grande para que os usuários estudem os detalhes finos das siluetas e das metades divididas. O formato constante de 4 elementos também funciona bem para produtos em pacote onde cada página tem uma densidade de conteúdo previsível.',
     },
     {
       question: 'Como funcionam os campos de nome e data?',
       answer:
-        'Ative a caixa «Incluir Campos Nome/Data» no painel Configuração do Exercício para adicionar linhas de nome e data na parte inferior da ficha. Quando ativa, os alunos podem escrever o seu nome e a data diretamente na página impressa — essencial para a responsabilidade na sala de aula e a organização das avaliações. Quando desativa, a ficha utiliza toda a área da página para o conteúdo de correspondência. Esta opção funciona com ambos os modos, Associação de Sombras e Complete a Imagem.',
+        'Ative a caixa «Incluir Campos Nome/Data» no painel Configuração do Exercício para adicionar linhas de nome e data na parte inferior da ficha. Quando ativa, os usuários podem escrever o seu nome e a data diretamente na página impressa — essencial para a responsabilidade online e a organização das avaliações. Quando desativa, a ficha utiliza toda a área da página para o conteúdo de correspondência. Esta opção funciona com ambos os modos, Associação de Sombras e Complete a Imagem.',
     },
     {
       question: 'Como funciona o gabarito autogerado?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Posso vender fichas de associação de sombras criadas com esta ferramenta na Etsy e Amazon KDP?',
       answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas de associação de sombras como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos educativos no TPT ou através de qualquer outro canal de venda. Os dois modos de exercício, as siluetas autogeradas, o algoritmo de derangement, os gabaritos automáticos e as 104 coleções de imagens temáticas dão-lhe as ferramentas criativas para produzir produtos de correspondência visual originais e vendáveis.',
+        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas de associação de sombras como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos educativos no Gumroad ou através de qualquer outro canal de venda. Os dois modos de exercício, as siluetas autogeradas, o algoritmo de derangement, os gabaritos automáticos e as 104 coleções de imagens temáticas dão-lhe as ferramentas criativas para produzir produtos de correspondência visual originais e vendáveis.',
     },
     {
       question: 'Qual é a política de reembolso?',
@@ -269,12 +269,12 @@ const content: AppContent = {
       {
         src: '/samples/portuguese/shadow match/Combine as Sombras 2.webp',
         alt: 'Ficha de associação de sombras mostrando quatro imagens coloridas associadas a quatro siluetas negras com etiquetas de letras e números',
-        caption: 'Modo Associação de Sombras — os alunos associam imagens às suas siluetas autogeradas',
+        caption: 'Modo Associação de Sombras — os usuários associam imagens às suas siluetas autogeradas',
       },
       {
         src: '/samples/portuguese/shadow match/Combine as Sombras 3.webp',
-        alt: 'Ficha Complete a Imagem com metades de imagens divididas que os alunos reconectam associando primeiras e segundas metades',
-        caption: 'Modo Complete a Imagem — os alunos associam metades de imagens para completar as ilustrações',
+        alt: 'Ficha Complete a Imagem com metades de imagens divididas que os usuários reconectam associando primeiras e segundas metades',
+        caption: 'Modo Complete a Imagem — os usuários associam metades de imagens para completar as ilustrações',
       },
       {
         src: '/samples/portuguese/shadow match/Combine as Sombras 4.webp',

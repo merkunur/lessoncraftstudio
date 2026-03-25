@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'fichas de puzzles matemáticos imprimibles para Etsy',
       'generador de puzzles de imágenes para Amazon KDP',
-      'vender fichas de puzzles matemáticos en Teachers Pay Teachers',
+      'vender fichas de puzzles matemáticos en Gumroad',
       'fichas de puzzles matemáticos licencia comercial',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Generador de Puzzles Matemáticos | Crear y Vender',
     metaDescription:
-      'Crea fichas de puzzles matemáticos para vender en Etsy, KDP y TPT. Puzzles con imágenes, suma y resta, cuadrículas ajustables. Prueba gratis con marca de.',
+      'Crea fichas de puzzles matemáticos para vender en Etsy, KDP y Gumroad. Puzzles con imágenes, suma y resta, cuadrículas ajustables. Prueba gratis con marca de.',
   },
 
   hero: {
     title: 'Generador de Fichas de Puzzles Matemáticos con Resolución Visual',
     tagline: 'Combina la práctica matemática con la emoción de resolver puzzles — cada pieza contiene un problema, cada solución revela la imagen.',
     description:
-      'Crea fichas de puzzles matemáticos cautivantes donde una imagen completa se divide en una cuadrícula de piezas, cada una con un problema de suma o resta. Los alumnos resuelven las operaciones y luego emparejan las respuestas numeradas con las piezas desordenadas que aparecen debajo de la cuadrícula — transformando la aritmética rutinaria en un misterio visual. Configura cuadrículas desde 2×2 hasta 4×4 para crear puzzles de 4 a 16 piezas, y elige suma, resta u operaciones mixtas para adaptarte a cualquier nivel. Selecciona entre más de 3100 ilustraciones en 104 temas como animales de granja, espacio, dinosaurios y festividades para hacer cada puzzle único. Cada ficha genera una clave de respuesta automática mostrando la cuadrícula resuelta junto a la imagen completa. Exporta PDF y JPEG listos para imprimir a más de 400 DPI en formato Carta, A4 o personalizado. Ya sea que vendas paquetes temáticos de puzzles en Etsy, compiles cuadernos de actividades progresivos para Amazon KDP o crees centros de matemáticas interactivos para tu aula, el Generador de Puzzles Matemáticos produce resultados profesionales en minutos. Prueba gratis con todas las funciones — sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Crea fichas de puzzles matemáticos cautivantes donde una imagen completa se divide en una cuadrícula de piezas, cada una con un problema de suma o resta. Los usuarios resuelven las operaciones y luego emparejan las respuestas numeradas con las piezas desordenadas que aparecen debajo de la cuadrícula — transformando la aritmética rutinaria en un misterio visual. Configura cuadrículas desde 2×2 hasta 4×4 para crear puzzles de 4 a 16 piezas, y elige suma, resta u operaciones mixtas para adaptarte a cualquier nivel. Selecciona entre más de 3100 ilustraciones en 104 temas como animales de granja, espacio, dinosaurios y festividades para hacer cada puzzle único. Cada ficha genera una clave de respuesta automática mostrando la cuadrícula resuelta junto a la imagen completa. Exporta PDF y JPEG listos para imprimir a más de 400 DPI en formato Carta, A4 o personalizado. Ya sea que vendas paquetes temáticos de puzzles en Etsy, compiles cuadernos de actividades progresivos para Amazon KDP o crees centros de matemáticas interactivos para tu tienda, el Generador de Puzzles Matemáticos produce resultados profesionales en minutos. Prueba gratis con todas las funciones — sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
   },
 
   howItWorks: {
@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Añade texto, títulos y personalización',
         description:
-          'Usa el panel de Herramientas de Texto para añadir un título a la ficha, campos de nombre y fecha del alumno, instrucciones o cualquier texto personalizado. Elige entre siete fuentes, incluyendo Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial y Verdana. Ajusta tamaño, color y contorno para máxima legibilidad. Usa el lienzo Fabric.js para arrastrar, redimensionar y reposicionar cada elemento con precisión — con controles de capas, guías de alineación, bloqueo/desbloqueo, y deshacer y rehacer ilimitados.',
+          'Usa el panel de Herramientas de Texto para añadir un título a la ficha, campos de nombre y fecha, instrucciones o cualquier texto personalizado. Elige entre siete fuentes, incluyendo Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial y Verdana. Ajusta tamaño, color y contorno para máxima legibilidad. Usa el lienzo Fabric.js para arrastrar, redimensionar y reposicionar cada elemento con precisión — con controles de capas, guías de alineación, bloqueo/desbloqueo, y deshacer y rehacer ilimitados.',
       },
       {
         title: 'Genera la clave de respuesta y descarga',
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: 'Formato puzzle-imagen con problemas de matemáticas',
         description:
-          'Cada ficha presenta una imagen seleccionada dividida en una cuadrícula de celdas, con cada celda conteniendo un problema de matemáticas. Debajo de la cuadrícula, las piezas del puzzle aparecen desordenadas y numeradas para que los alumnos las emparejen resolviendo cada problema. Este formato en dos fases — resolver las operaciones y luego ensamblar el puzzle — transforma la aritmética básica en un desafío visual motivador que mantiene a los alumnos comprometidos para completar cada problema de la página.',
+          'Cada ficha presenta una imagen seleccionada dividida en una cuadrícula de celdas, con cada celda conteniendo un problema de matemáticas. Debajo de la cuadrícula, las piezas del puzzle aparecen desordenadas y numeradas para que los usuarios las emparejen resolviendo cada problema. Este formato en dos fases — resolver las operaciones y luego ensamblar el puzzle — transforma la aritmética básica en un desafío visual motivador que mantiene a los usuarios comprometidos para completar cada problema de la página.',
       },
       {
         title: 'Tamaño de cuadrícula configurable de 4 a 16 piezas',
@@ -78,22 +78,22 @@ const content: AppContent = {
       {
         title: '104 temas visuales con más de 3100 imágenes',
         description:
-          'Explora una biblioteca de más de 3100 ilustraciones en alta resolución organizadas en 104 temas que incluyen animales de granja, vida marina, vehículos, espacio, comida, deportes, dinosaurios, festividades y más. Selecciona cualquier imagen como imagen del puzzle — el generador se encarga de la división automáticamente. Como el formato es completamente visual, tus fichas funcionan perfectamente en cualquier idioma y en cualquier aula del mundo sin necesidad de modificación.',
+          'Explora una biblioteca de más de 3100 ilustraciones en alta resolución organizadas en 104 temas que incluyen animales de granja, vida marina, vehículos, espacio, comida, deportes, dinosaurios, festividades y más. Selecciona cualquier imagen como imagen del puzzle — el generador se encarga de la división automáticamente. Como el formato es completamente visual, tus fichas funcionan perfectamente en cualquier idioma y en cualquier tienda del mundo sin necesidad de modificación.',
       },
       {
         title: 'Generación automática de clave de respuesta',
         description:
-          'Haz clic en un botón para generar una clave de respuesta completa que muestra la cuadrícula resuelta con todos los problemas correctamente respondidos junto a la imagen completamente ensamblada. La clave de respuesta proporciona verificación visual instantánea — alumnos y profesores pueden ver tanto las soluciones matemáticas como la imagen completada de un vistazo. Exporta la clave de respuesta como un archivo JPEG o PDF separado para ediciones del profesor, guías para padres o paquetes de productos en Etsy.',
+          'Haz clic en un botón para generar una clave de respuesta completa que muestra la cuadrícula resuelta con todos los problemas correctamente respondidos junto a la imagen completamente ensamblada. La clave de respuesta proporciona verificación visual instantánea — usuarios y vendedores pueden ver tanto las soluciones matemáticas como la imagen completada de un vistazo. Exporta la clave de respuesta como un archivo JPEG o PDF separado para ediciones del vendedor, guías para padres o paquetes de productos en Etsy.',
       },
       {
         title: 'Exportación lista para imprimir a 400+ DPI con opción de escala de grises',
         description:
-          'Descarga fichas y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir. El motor de exportación renderiza a un multiplicador 6x, produciendo una salida superior a 400 DPI en tamaños de página estándar. Activa la exportación en escala de grises para versiones que ahorran tinta, perfectas para impresión en el aula o cuadernos de actividades en blanco y negro. Los formatos Carta, A4, Ficha por defecto, Cuadrado y personalizados están todos disponibles para máxima flexibilidad.',
+          'Descarga fichas y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir. El motor de exportación renderiza a un multiplicador 6x, produciendo una salida superior a 400 DPI en tamaños de página estándar. Activa la exportación en escala de grises para versiones que ahorran tinta, perfectas para impresión en volumen o cuadernos de actividades en blanco y negro. Los formatos Carta, A4, Ficha por defecto, Cuadrado y personalizados están todos disponibles para máxima flexibilidad.',
       },
       {
         title: 'Subir imágenes personalizadas para puzzles únicos',
         description:
-          'Ve más allá de la biblioteca integrada subiendo tus propias imágenes PNG o JPEG directamente al generador. Esto es ideal para fichas de puzzles de marca, contenido de temporada, mascotas del aula o clipart personalizado que diferencie tus productos imprimibles de la competencia. Las imágenes subidas se integran perfectamente con el sistema de cuadrícula, dividiéndose según la configuración de filas y columnas que elijas.',
+          'Ve más allá de la biblioteca integrada subiendo tus propias imágenes PNG o JPEG directamente al generador. Esto es ideal para fichas de puzzles de marca, contenido de temporada, mascotas del mercado o clipart personalizado que diferencie tus productos imprimibles de la competencia. Las imágenes subidas se integran perfectamente con el sistema de cuadrícula, dividiéndose según la configuración de filas y columnas que elijas.',
       },
       {
         title: 'Edición completa del lienzo con deshacer y rehacer',
@@ -109,7 +109,7 @@ const content: AppContent = {
       {
         title: 'Paquetes temáticos de puzzles matemáticos en Etsy',
         description:
-          'Crea conjuntos de 10 a 20 fichas de puzzles matemáticos agrupadas por tema — animales de granja, dinosaurios, vida marina, festividades — y publícalas como descargas instantáneas en Etsy. Incluye las claves de respuesta como archivos adicionales. El formato puzzle destaca frente a las fichas de ejercicios estándar, atrayendo a padres que buscan práctica matemática motivadora y profesores que buscan actividades creativas para el aula. Fija los paquetes temáticos individuales entre 3 $ y 5 $ y los mega-paquetes entre 12 $ y 18 $. Las colecciones de temporada en torno a la vuelta al cole, Halloween y las vacaciones de primavera suelen disparar el tráfico de búsqueda, así que planifica tu calendario de publicaciones en torno a estas ventanas de alta demanda para maximizar la visibilidad y las conversiones.',
+          'Crea conjuntos de 10 a 20 fichas de puzzles matemáticos agrupadas por tema — animales de granja, dinosaurios, vida marina, festividades — y publícalas como descargas instantáneas en Etsy. Incluye las claves de respuesta como archivos adicionales. El formato puzzle destaca frente a las fichas de ejercicios estándar, atrayendo a padres que buscan práctica matemática motivadora y vendedores que buscan actividades creativas para venta en línea. Fija los paquetes temáticos individuales entre 3 $ y 5 $ y los mega-paquetes entre 12 $ y 18 $. Las colecciones de temporada en torno a la vuelta al cole, Halloween y las vacaciones de primavera suelen disparar el tráfico de búsqueda, así que planifica tu calendario de publicaciones en torno a estas ventanas de alta demanda para maximizar la visibilidad y las conversiones.',
         platform: 'Etsy (etsy.com)',
       },
       {
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de matemáticas diferenciados para TPT',
+        title: 'Centros de matemáticas diferenciados para Gumroad',
         description:
-          'Crea conjuntos de puzzles por niveles usando el tamaño de cuadrícula como eje de dificultad: Nivel 1 (2×2 suma, 4 piezas), Nivel 2 (2×3 suma, 6 piezas), Nivel 3 (3×3 resta, 9 piezas) y Nivel 4 (4×4 mixto, 16 piezas). Empaqueta cada nivel con claves de respuesta y una hoja de seguimiento. Los compradores de Teachers Pay Teachers pagan precios premium por recursos diferenciados que se ajustan directamente a grupos de habilidades y pueden usarse inmediatamente como rotaciones en centros de matemáticas.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Crea conjuntos de puzzles por niveles usando el tamaño de cuadrícula como eje de dificultad: Nivel 1 (2×2 suma, 4 piezas), Nivel 2 (2×3 suma, 6 piezas), Nivel 3 (3×3 resta, 9 piezas) y Nivel 4 (4×4 mixto, 16 piezas). Empaqueta cada nivel con claves de respuesta y una hoja de seguimiento. Los compradores de Gumroad pagan precios premium por recursos diferenciados que se ajustan directamente a grupos de habilidades y pueden usarse inmediatamente como rotaciones en centros de matemáticas.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Contenido de suscripción para tu propia tienda',
         description:
-          'Usa el generador para producir paquetes semanales de puzzles matemáticos y distribúyelos a través de tu propia tienda en Shopify, Gumroad o Payhip. Un modelo de suscripción — nuevo paquete temático de puzzles cada semana — genera ingresos recurrentes y fideliza una base de clientes de familias que educan en casa y centros de tutoría. Con tres operaciones, tamaños de cuadrícula variables y 104 temas, tienes suficientes combinaciones para años de contenido único sin repetir. Ofrecer un paquete de muestra de prueba gratis en la página de tu tienda permite a los suscriptores potenciales experimentar la calidad del puzzle antes de comprometerse, lo que mejora significativamente las tasas de conversión.',
+          'Usa el generador para producir paquetes semanales de puzzles matemáticos y distribúyelos a través de tu propia tienda en Shopify, Gumroad o Payhip. Un modelo de suscripción — nuevo paquete temático de puzzles cada semana — genera ingresos recurrentes y fideliza una base de clientes de emprendedores y centros de tutoría. Con tres operaciones, tamaños de cuadrícula variables y 104 temas, tienes suficientes combinaciones para años de contenido único sin repetir. Ofrecer un paquete de muestra de prueba gratis en la página de tu tienda permite a los suscriptores potenciales experimentar la calidad del puzzle antes de comprometerse, lo que mejora significativamente las tasas de conversión.',
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: 'Herramienta de participación para el aula y tutoría',
+        title: 'Herramienta de participación para venta en línea y tutoría',
         description:
-          'Genera puzzles matemáticos personalizados adaptados al nivel actual de cada alumno. Imprime puzzles sencillos 2×2 de suma para principiantes y puzzles complejos 4×4 con operaciones mixtas para alumnos avanzados — todo en la misma sesión. La mecánica de revelación de la imagen motiva a los alumnos a completar cada problema para ver la imagen completa, reduciendo la resistencia que muchos niños sienten ante las fichas de ejercicios repetitivas. La clave de respuesta automática ahorra tiempo de corrección.',
-        platform: 'Aula / Tutoría / Educación en casa',
+          'Genera puzzles matemáticos personalizados adaptados al nivel actual de cada usuario. Imprime puzzles sencillos 2×2 de suma para principiantes y puzzles complejos 4×4 con operaciones mixtas para usuarios avanzados — todo en la misma sesión. La mecánica de revelación de la imagen motiva a los usuarios a completar cada problema para ver la imagen completa, reduciendo la resistencia que muchos niños sienten ante las fichas de ejercicios repetitivas. La clave de respuesta automática ahorra valor percibido.',
+        platform: 'Tienda / Tutoría / Educación en casa',
       },
     ],
   },
@@ -143,12 +143,12 @@ const content: AppContent = {
     {
       question: '¿Cómo funciona el formato de puzzle matemático?',
       answer:
-        'Una imagen seleccionada se divide en una cuadrícula de celdas. Cada celda contiene un problema de matemáticas (suma, resta o mixto). Debajo de la cuadrícula, las mismas piezas de la imagen aparecen desordenadas y numeradas. Los alumnos resuelven cada problema y luego emparejan la respuesta con la pieza correcta — cuando todas las piezas están correctamente emparejadas, el puzzle se resuelve y la imagen completa se revela. Esta mecánica de revelación añade una capa de motivación que las fichas de ejercicios estándar no tienen, haciendo que los alumnos estén ansiosos por completar cada problema en lugar de abandonar la ficha a mitad de camino.',
+        'Una imagen seleccionada se divide en una cuadrícula de celdas. Cada celda contiene un problema de matemáticas (suma, resta o mixto). Debajo de la cuadrícula, las mismas piezas de la imagen aparecen desordenadas y numeradas. Los usuarios resuelven cada problema y luego emparejan la respuesta con la pieza correcta — cuando todas las piezas están correctamente emparejadas, el puzzle se resuelve y la imagen completa se revela. Esta mecánica de revelación añade una capa de motivación que las fichas de ejercicios estándar no tienen, haciendo que los usuarios estén ansiosos por completar cada problema en lugar de abandonar la ficha a mitad de camino.',
     },
     {
       question: '¿Qué tamaños de cuadrícula están disponibles para los puzzles?',
       answer:
-        'Puedes establecer las filas de 2 a 4 y las columnas de 2 a 4, creando puzzles con entre 4 piezas (2×2) y 16 piezas (4×4). Las cuadrículas pequeñas son ideales para alumnos más jóvenes o actividades rápidas, mientras que las cuadrículas grandes proporcionan más problemas y un mayor desafío de resolución de puzzles. Esta variedad de opciones de cuadrícula también facilita la creación de paquetes de productos por niveles — agrupa puzzles fáciles, medios y difíciles en un solo listado que atraiga a compradores de múltiples grupos de edad y niveles de habilidad.',
+        'Puedes establecer las filas de 2 a 4 y las columnas de 2 a 4, creando puzzles con entre 4 piezas (2×2) y 16 piezas (4×4). Las cuadrículas pequeñas son ideales para usuarios más jóvenes o actividades rápidas, mientras que las cuadrículas grandes proporcionan más problemas y un mayor desafío de resolución de puzzles. Esta variedad de opciones de cuadrícula también facilita la creación de paquetes de productos por niveles — agrupa puzzles fáciles, medios y difíciles en un solo listado que atraiga a compradores de múltiples grupos de edad y niveles de habilidad.',
     },
     {
       question: '¿Qué operaciones matemáticas soporta el Generador de Puzzles?',
@@ -168,7 +168,7 @@ const content: AppContent = {
     {
       question: '¿El generador crea claves de respuesta para los puzzles?',
       answer:
-        'Sí. Haz clic en el botón Generar Clave de Respuesta para crear una versión resuelta que muestra la cuadrícula completada con todas las respuestas junto a la imagen completamente ensamblada. Puedes previsualizarla en pantalla y descargarla como archivo JPEG o PDF separado para incluirla en ediciones del profesor o paquetes de productos.',
+        'Sí. Haz clic en el botón Generar Clave de Respuesta para crear una versión resuelta que muestra la cuadrícula completada con todas las respuestas junto a la imagen completamente ensamblada. Puedes previsualizarla en pantalla y descargarla como archivo JPEG o PDF separado para incluirla en ediciones del vendedor o paquetes de productos.',
     },
     {
       question: '¿Las fichas de puzzles matemáticos dependen del idioma?',
@@ -178,12 +178,12 @@ const content: AppContent = {
     {
       question: '¿Puedo subir mis propias imágenes para los puzzles?',
       answer:
-        'Por supuesto. La función de subir imágenes personalizadas te permite añadir tus propios archivos PNG o JPEG directamente al generador. Tu imagen subida se dividirá en la cuadrícula del puzzle igual que las imágenes de la biblioteca, dándote puzzles completamente únicos para productos de marca, contenido de temporada o temas específicos del aula.',
+        'Por supuesto. La función de subir imágenes personalizadas te permite añadir tus propios archivos PNG o JPEG directamente al generador. Tu imagen subida se dividirá en la cuadrícula del puzzle igual que las imágenes de la biblioteca, dándote puzzles completamente únicos para productos de marca, contenido de temporada o temas específicos del mercado.',
     },
     {
       question: '¿Puedo exportar los puzzles en escala de grises para ahorrar tinta?',
       answer:
-        'Sí. Activa la opción de escala de grises antes de exportar para producir versiones en blanco y negro perfectas para impresión en el aula, paquetes de tareas o cuadernos de actividades donde la impresión a color no es práctica. Tanto las exportaciones JPEG como PDF soportan el modo escala de grises. Muchos editores de Amazon KDP crean tanto una edición digital a todo color como una edición impresa en escala de grises del mismo conjunto de puzzles, duplicando su catálogo de productos con mínimo trabajo adicional.',
+        'Sí. Activa la opción de escala de grises antes de exportar para producir versiones en blanco y negro perfectas para impresión en volumen, paquetes de tareas o cuadernos de actividades donde la impresión a color no es práctica. Tanto las exportaciones JPEG como PDF soportan el modo escala de grises. Muchos editores de Amazon KDP crean tanto una edición digital a todo color como una edición impresa en escala de grises del mismo conjunto de puzzles, duplicando su catálogo de productos con mínimo trabajo adicional.',
     },
     {
       question: '¿Hay una prueba gratis?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Qué incluye la licencia comercial?',
       answer:
-        'La licencia comercial elimina la marca de agua de todas las descargas y te otorga derechos ilimitados para vender las fichas que crees — en Etsy, Amazon KDP, Teachers Pay Teachers, tu propio sitio web o cualquier otra plataforma. Sin regalías por venta, sin cuotas mensuales y sin límites en cuántos puzzles produces o vendes. Conservas la propiedad total de cada ficha que generes, y puedes publicar productos en múltiples plataformas simultáneamente sin costes ni restricciones adicionales de licencia.',
+        'La licencia comercial elimina la marca de agua de todas las descargas y te otorga derechos ilimitados para vender las fichas que crees — en Etsy, Amazon KDP, Gumroad, tu propio sitio web o cualquier otra plataforma. Sin regalías por venta, sin cuotas mensuales y sin límites en cuántos puzzles produces o vendes. Conservas la propiedad total de cada ficha que generes, y puedes publicar productos en múltiples plataformas simultáneamente sin costes ni restricciones adicionales de licencia.',
     },
     {
       question: '¿Cuál es la política de reembolso?',
@@ -236,7 +236,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'bases-matematicas-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles de matemáticas para educadores y vendedores',
+      anchorText: 'Ideas de imprimibles de matemáticas para emprendedores y vendedores',
     },
     {
       pageType: 'idea',

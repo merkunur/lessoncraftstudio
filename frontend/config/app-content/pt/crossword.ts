@@ -7,7 +7,7 @@ const content: AppContent = {
       'palavras cruzadas ilustradas imprimíveis para vendedores Etsy',
       'gerador de palavras cruzadas com pistas visuais para Amazon KDP',
       'fichas de palavras cruzadas com imagens licença comercial',
-      'vender palavras cruzadas ilustradas no Teachers Pay Teachers',
+      'vender palavras cruzadas ilustradas no Gumroad',
     ],
     lsiKeywords: [
       'produtos digitais de palavras cruzadas com imagens para empreendedores',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Gerador Palavras Cruzadas com Imagens | Criar e Vender',
     metaDescription:
-      'Crie palavras cruzadas com imagens para vender na Etsy, KDP e TPT. Pistas visuais em grelha 15×15, 4 métodos, gabarito auto. Teste grátis com marca d\'água.',
+      'Crie palavras cruzadas com imagens para vender na Etsy, KDP e Gumroad. Pistas visuais em grelha 15×15, 4 métodos, gabarito auto. Teste grátis com marca d\'água.',
   },
 
   hero: {
     title: 'Gerador de Palavras Cruzadas com Imagens para Puzzles de Palavras Cruzadas Ilustradas',
     tagline: 'Substitua as pistas de texto tradicionais por pistas com imagens numa grelha de 15×15 — quatro métodos de entrada (seleção automática por tema, edição manual de nomes, lista personalizada de palavras com pistas e carregamento de imagens próprias), gabarito autogerado com grelha preenchida e cabeçalho localizado «Palavras Cruzadas Ilustradas» em 104 coleções temáticas de imagens.',
     description:
-      'Crie palavras cruzadas profissionais onde imagens coloridas substituem as pistas de texto dos puzzles tradicionais. Oito imagens geram oito palavras numa grelha fixa de 15×15 — o algoritmo extrai as palavras dos nomes das imagens, ordena-as por comprimento para colocação ótima e preenche a grelha com posições de pista numeradas. Escolha entre quatro métodos de entrada: a Geração Rápida por Tema seleciona automaticamente 8 imagens aleatórias de qualquer tema e gera instantaneamente; a Edição Manual de Nomes de Imagem permite clicar em imagens individuais e renomeá-las antes de gerar; a Lista Personalizada de Palavras com Pistas muda para palavras cruzadas tradicionais com pistas de texto no formato PALAVRA: pista; e Carregar Imagens Próprias permite adicionar os seus próprios ficheiros JPEG, PNG, GIF ou WebP junto ao conteúdo da biblioteca. O Gerador de Palavras Cruzadas com Imagens é sensível ao idioma: as palavras do puzzle provêm de nomes de imagens localizados através do sistema de Vocabulário de Imagens, portanto mudar o idioma altera as palavras reais do puzzle. O sistema de duplo canvas gera tanto um separador de puzzle como um separador de gabarito — o gabarito mostra a grelha preenchida com todas as respostas visíveis. Cada puzzle inclui um cabeçalho localizado autogerado com fundo azul (#5B9BD5), título em Fredoka e descrição em Quicksand renderizados nos 11 idiomas suportados. O Acesso Completo desbloqueia todos os 104 temas com mais de 3100 ilustrações e os 11 idiomas para palavras de puzzle localizadas. Adicione temas de fundo e temas de borda com controles de opacidade independentes, e exporte PDFs e JPEGs prontos para impressão a 300 DPI em tamanhos Carta, A4 ou personalizados. Quer venda pacotes de palavras cruzadas com imagens na Etsy, compile cadernos de palavras cruzadas para Amazon KDP ou crie atividades de vocabulário para TPT, este gerador produz puzzles prontos para produção em minutos — teste grátis com todas as funcionalidades — sem registo, sem cartão de crédito. Os downloads incluem marca d\'água; compre uma licença para removê-la.',
+      'Crie palavras cruzadas profissionais onde imagens coloridas substituem as pistas de texto dos puzzles tradicionais. Oito imagens geram oito palavras numa grelha fixa de 15×15 — o algoritmo extrai as palavras dos nomes das imagens, ordena-as por comprimento para colocação ótima e preenche a grelha com posições de pista numeradas. Escolha entre quatro métodos de entrada: a Geração Rápida por Tema seleciona automaticamente 8 imagens aleatórias de qualquer tema e gera instantaneamente; a Edição Manual de Nomes de Imagem permite clicar em imagens individuais e renomeá-las antes de gerar; a Lista Personalizada de Palavras com Pistas muda para palavras cruzadas tradicionais com pistas de texto no formato PALAVRA: pista; e Carregar Imagens Próprias permite adicionar os seus próprios ficheiros JPEG, PNG, GIF ou WebP junto ao conteúdo da biblioteca. O Gerador de Palavras Cruzadas com Imagens é sensível ao idioma: as palavras do puzzle provêm de nomes de imagens localizados através do sistema de Vocabulário de Imagens, portanto mudar o idioma altera as palavras reais do puzzle. O sistema de duplo canvas gera tanto um separador de puzzle como um separador de gabarito — o gabarito mostra a grelha preenchida com todas as respostas visíveis. Cada puzzle inclui um cabeçalho localizado autogerado com fundo azul (#5B9BD5), título em Fredoka e descrição em Quicksand renderizados nos 11 idiomas suportados. O Acesso Completo desbloqueia todos os 104 temas com mais de 3100 ilustrações e os 11 idiomas para palavras de puzzle localizadas. Adicione temas de fundo e temas de borda com controles de opacidade independentes, e exporte PDFs e JPEGs prontos para impressão a 300 DPI em tamanhos Carta, A4 ou personalizados. Quer venda pacotes de palavras cruzadas com imagens na Etsy, compile cadernos de palavras cruzadas para Amazon KDP ou crie atividades de vocabulário para Gumroad, este gerador produz puzzles prontos para produção em minutos — teste grátis com todas as funcionalidades — sem registo, sem cartão de crédito. Os downloads incluem marca d\'água; compre uma licença para removê-la.',
   },
 
   howItWorks: {
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Gere o Gabarito e Descarregue',
         description:
-          'Mude para o separador de Gabarito para ver a grelha preenchida com todas as respostas das palavras cruzadas visíveis. Descarregue ambas as versões usando os quatro botões dedicados no menu suspenso: JPEG da Ficha, JPEG do Gabarito, PDF da Ficha e PDF do Gabarito. Os ficheiros são exportados a 300 DPI para qualidade pronta para impressão. Ative a escala de cinza para versões que poupam tinta. Cada exportação está pronta para produção em listagens da Etsy, interiores de Amazon KDP e ficheiros de produtos TPT.',
+          'Mude para o separador de Gabarito para ver a grelha preenchida com todas as respostas das palavras cruzadas visíveis. Descarregue ambas as versões usando os quatro botões dedicados no menu suspenso: JPEG da Ficha, JPEG do Gabarito, PDF da Ficha e PDF do Gabarito. Os ficheiros são exportados a 300 DPI para qualidade pronta para impressão. Ative a escala de cinza para versões que poupam tinta. Cada exportação está pronta para produção em listagens da Etsy, interiores de Amazon KDP e ficheiros de produtos Gumroad.',
       },
     ],
   },
@@ -73,7 +73,7 @@ const content: AppContent = {
       {
         title: 'Gabarito Autogerado com Grelha de Palavras Cruzadas Preenchida',
         description:
-          'Cada puzzle de palavras cruzadas com imagens gera automaticamente um gabarito complementar num separador de canvas separado. O gabarito reproduz o layout exato do puzzle e preenche a grelha com todas as respostas corretas visíveis nas células. Sem criação manual de respostas, sem ficheiro separado — o gabarito mantém-se perfeitamente sincronizado com o puzzle. Esta abordagem de duplo canvas poupa tempo de produção significativo para vendedores que criam pacotes de palavras cruzadas onde cada puzzle precisa do seu próprio gabarito. Descarregue o gabarito como crossword_answer_key.jpeg ou image-crossword-answer-key.pdf junto ao puzzle do aluno.',
+          'Cada puzzle de palavras cruzadas com imagens gera automaticamente um gabarito complementar num separador de canvas separado. O gabarito reproduz o layout exato do puzzle e preenche a grelha com todas as respostas corretas visíveis nas células. Sem criação manual de respostas, sem ficheiro separado — o gabarito mantém-se perfeitamente sincronizado com o puzzle. Esta abordagem de duplo canvas poupa tempo de produção significativo para vendedores que criam pacotes de palavras cruzadas onde cada puzzle precisa do seu próprio gabarito. Descarregue o gabarito como crossword_answer_key.jpeg ou image-crossword-answer-key.pdf junto ao puzzle do usuário.',
       },
       {
         title: 'Palavras do Puzzle Localizadas em 11 Idiomas via Vocabulário de Imagens',
@@ -83,7 +83,7 @@ const content: AppContent = {
       {
         title: 'Lista Personalizada de Palavras com Pistas de Texto para Palavras Cruzadas Tradicionais',
         description:
-          'Ative a caixa Lista Personalizada de Palavras com Pistas para mudar de palavras cruzadas com imagens para palavras cruzadas tradicionais com pistas de texto. Introduza as suas palavras e pistas no formato PALAVRA: texto da pista, uma por linha, com um mínimo de 8 entradas. O mesmo algoritmo de grelha 15×15 coloca as suas palavras personalizadas com cruzamento ótimo, e as pistas de texto aparecem junto à grelha em vez das pistas com imagens. Este modo permite criar palavras cruzadas de vocabulário, de ortografia ou de qualquer tema específico com conteúdo definido pelo professor — sem necessidade de biblioteca de imagens.',
+          'Ative a caixa Lista Personalizada de Palavras com Pistas para mudar de palavras cruzadas com imagens para palavras cruzadas tradicionais com pistas de texto. Introduza as suas palavras e pistas no formato PALAVRA: texto da pista, uma por linha, com um mínimo de 8 entradas. O mesmo algoritmo de grelha 15×15 coloca as suas palavras personalizadas com cruzamento ótimo, e as pistas de texto aparecem junto à grelha em vez das pistas com imagens. Este modo permite criar palavras cruzadas de vocabulário, de ortografia ou de qualquer tema específico com conteúdo definido pelo vendedor — sem necessidade de biblioteca de imagens.',
       },
       {
         title: 'Edição Manual de Nomes de Imagem Antes de Gerar o Puzzle',
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: 'Exportação PDF e JPEG Pronta para Impressão a 300 DPI com Escala de Cinza',
         description:
-          'Descarregue palavras cruzadas e gabaritos como imagens JPEG de alta resolução ou documentos PDF prontos para impressão renderizados a 300 DPI (multiplicador 6×). Quatro botões de download dedicados no menu suspenso exportam crossword_worksheet.jpeg, crossword_answer_key.jpeg, image-crossword-worksheet.pdf e image-crossword-answer-key.pdf separadamente. Os tamanhos de página incluem Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal e dimensões totalmente personalizadas. Ative a escala de cinza para versões que poupam tinta e tóner. Cada exportação está pronta para downloads digitais, cadernos impressos e material para sala de aula.',
+          'Descarregue palavras cruzadas e gabaritos como imagens JPEG de alta resolução ou documentos PDF prontos para impressão renderizados a 300 DPI (multiplicador 6×). Quatro botões de download dedicados no menu suspenso exportam crossword_worksheet.jpeg, crossword_answer_key.jpeg, image-crossword-worksheet.pdf e image-crossword-answer-key.pdf separadamente. Os tamanhos de página incluem Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal e dimensões totalmente personalizadas. Ative a escala de cinza para versões que poupam tinta e tóner. Cada exportação está pronta para downloads digitais, cadernos impressos e material para loja.',
       },
     ],
   },
@@ -116,20 +116,20 @@ const content: AppContent = {
       {
         title: 'Palavras Cruzadas Multilingues Usando Geração Sensível ao Idioma',
         description:
-          'Aproveite a geração de palavras sensível ao idioma para criar palavras cruzadas com imagens em 11 idiomas. As mesmas imagens produzem grelhas de palavras cruzadas completamente diferentes ao mudar de idioma — uma imagem de gato cria «CAT» em inglês, «KATZE» em alemão e «GATTO» em italiano. Crie pacotes de palavras cruzadas multilingues onde cada versão de idioma usa as mesmas imagens temáticas mas produz puzzles únicos com palavras localizadas. Isto é valioso para professores de ESL/EFL, salas de aula bilingues e famílias de ensino doméstico internacionais. Venda pacotes por idioma ou mega-pacotes multilingues a preços premium.',
-        platform: 'Etsy / TPT (mercado multilingue)',
+          'Aproveite a geração de palavras sensível ao idioma para criar palavras cruzadas com imagens em 11 idiomas. As mesmas imagens produzem grelhas de palavras cruzadas completamente diferentes ao mudar de idioma — uma imagem de gato cria «CAT» em inglês, «KATZE» em alemão e «GATTO» em italiano. Crie pacotes de palavras cruzadas multilingues onde cada versão de idioma usa as mesmas imagens temáticas mas produz puzzles únicos com palavras localizadas. Isto é valioso para vendedores de ESL/EFL, salas de aula bilingues e famílias de ensino doméstico internacionais. Venda pacotes por idioma ou mega-pacotes multilingues a preços premium.',
+        platform: 'Etsy / Gumroad (mercado multilingue)',
       },
       {
-        title: 'Palavras Cruzadas de Vocabulário Personalizado para TPT',
+        title: 'Palavras Cruzadas de Vocabulário Personalizado para Gumroad',
         description:
-          'Use o modo Lista Personalizada de Palavras com Pistas para criar palavras cruzadas alinhadas com o currículo com vocabulário definido pelo professor. Introduza termos e definições específicos por disciplina no formato PALAVRA: pista — vocabulário de ciências, termos de estudos sociais, palavras de compreensão de leitura ou listas de ortografia. Os professores que procuram atividades de palavras cruzadas no TPT valorizam puzzles que correspondam ao seu currículo exato. Crie conjuntos de palavras cruzadas de vocabulário por nível com gabaritos em formatos PDF e JPEG. O modo de pistas de texto permite criar palavras cruzadas para qualquer disciplina sem depender da biblioteca de imagens.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Use o modo Lista Personalizada de Palavras com Pistas para criar palavras cruzadas alinhadas com o catálogo de produtos com vocabulário definido pelo vendedor. Introduza termos e definições específicos por disciplina no formato PALAVRA: pista — vocabulário de ciências, termos de estudos sociais, palavras de compreensão de leitura ou listas de ortografia. Os vendedores que procuram atividades de palavras cruzadas no Gumroad valorizam puzzles que correspondam ao seu catálogo de produtos exato. Crie conjuntos de palavras cruzadas de vocabulário por nível com gabaritos em formatos PDF e JPEG. O modo de pistas de texto permite criar palavras cruzadas para qualquer disciplina sem depender da biblioteca de imagens.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Coleções de Palavras Cruzadas com Imagens Sazonais',
         description:
           'As 104 coleções temáticas de imagens cobrem todas as ocasiões sazonais e festivas — Natal, Halloween, Páscoa, Dia dos Namorados, regresso às aulas, férias de verão e mais. Crie coleções de palavras cruzadas com imagens sazonais alinhadas com os períodos de maior venda. Lance pacotes de palavras cruzadas de Halloween em setembro, coleções de Natal em outubro e pacotes de Dia dos Namorados em janeiro. A natureza visual das palavras cruzadas com imagens torna os temas sazonais particularmente atrativos — imagens festivas como pistas criam um apelo sazonal imediato. Os produtos sazonais têm preços mais altos durante os seus períodos de pico e geram compras recorrentes.',
-        platform: 'Etsy / Amazon KDP / TPT (sazonal)',
+        platform: 'Etsy / Amazon KDP / Gumroad (sazonal)',
       },
     ],
   },
@@ -138,7 +138,7 @@ const content: AppContent = {
     {
       question: 'O que é uma palavra cruzada com imagens e como difere de uma palavra cruzada tradicional?',
       answer:
-        'Uma palavra cruzada com imagens substitui as pistas de texto tradicionais por pistas com imagens. Em vez de ler uma definição escrita e preencher a resposta, os solucionadores olham para uma imagem colorida e escrevem a palavra que ela representa na grelha das palavras cruzadas. O gerador coloca 8 palavras derivadas de imagens numa grelha fixa de 15×15 com posições numeradas que vinculam cada imagem à sua célula inicial. Este formato torna as palavras cruzadas acessíveis para solucionadores mais jovens e estudantes de idiomas, mantendo o desafio de colocação de palavras dos puzzles tradicionais.',
+        'Uma palavra cruzada com imagens substitui as pistas de texto tradicionais por pistas com imagens. Em vez de ler uma definição escrita e preencher a resposta, os solucionadores olham para uma imagem colorida e escrevem a palavra que ela representa na grelha das palavras cruzadas. O gerador coloca 8 palavras derivadas de imagens numa grelha fixa de 15×15 com posições numeradas que vinculam cada imagem à sua célula inicial. Este formato torna as palavras cruzadas acessíveis para solucionadores mais jovens e compradores de idiomas, mantendo o desafio de colocação de palavras dos puzzles tradicionais.',
     },
     {
       question: 'Por que a grelha é fixa em 15×15 células?',
@@ -188,7 +188,7 @@ const content: AppContent = {
     {
       question: 'Posso vender palavras cruzadas com imagens feitas com esta ferramenta na Etsy e Amazon KDP?',
       answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas palavras cruzadas com imagens como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos para sala de aula no TPT ou através de qualquer outro canal de venda. Os quatro métodos de entrada, os gabaritos autogerados, a geração de palavras sensível ao idioma e as 104 coleções temáticas de imagens fornecem as ferramentas criativas para produzir produtos de palavras cruzadas originais e vendáveis.',
+        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas palavras cruzadas com imagens como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos para loja no Gumroad ou através de qualquer outro canal de venda. Os quatro métodos de entrada, os gabaritos autogerados, a geração de palavras sensível ao idioma e as 104 coleções temáticas de imagens fornecem as ferramentas criativas para produzir produtos de palavras cruzadas originais e vendáveis.',
     },
     {
       question: 'Qual é a política de reembolso?',

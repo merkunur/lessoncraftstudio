@@ -20,8 +20,8 @@ const content: ToolContent = {
 
   hero: {
     title: 'Generatore Schede Crittogramma',
-    tagline: 'Crea puzzle con cifrario illustrato dove ogni lettera è associata a un\'immagine e gli studenti decodificano intere frasi segrete attraverso il riconoscimento di pattern',
-    description: 'Progetta schede crittogramma professionali basate su un meccanismo di cifrario illustrato: ogni lettera dell\'alfabeto è associata a un\'immagine unica e la tua frase segreta viene resa come una sequenza di immagini che gli studenti devono decodificare per risalire al testo originale. A differenza dei cerca parole o delle parole mescolate che lavorano con singole parole, il generatore di crittogrammi codifica intere frasi e periodi — gli studenti decifrano il codice deducendo quale immagine rappresenta quale lettera, usando indizi contestuali da parole comuni come "il", "e", "è" per accelerare la decodifica. Il cursore Lettere da Rivelare (0–10) è il controllo di difficoltà principale: impostalo a zero per una sfida di decodifica pura senza informazioni iniziali, oppure scorri fino a dieci per un supporto intenso dove molte associazioni lettera-immagine sono già rivelate come suggerimenti. L\'Assegnazione Automatica preleva immagini casuali da una qualsiasi delle 104 collezioni tematiche (oltre 3.100 illustrazioni) per completare l\'intero cifrario con un solo clic, mentre l\'Assegnazione Manuale ti permette di scegliere manualmente immagini specifiche per lettere specifiche con un\'anteprima visiva completa di tutte le associazioni. Carica immagini personalizzate per un controllo creativo totale. La chiave di risposta include una legenda lettere che mostra ogni lettera dell\'alfabeto abbinata alla sua immagine assegnata in ordine alfabetico — il riferimento definitivo per la soluzione. La sensibilità linguistica è integrata: cambiando lingua cambiano sia il testo della frase segreta sia l\'alfabeto disponibile. I crittogrammi tedeschi codificano frasi tedesche con ä, ö, ü, ß nell\'alfabeto; i crittogrammi francesi usano é, è, ç, à. Ogni versione linguistica è un prodotto cifrario genuinamente diverso. Esporta PDF pronti per la stampa e JPEG a oltre 400 DPI in formato Letter, A4 o dimensioni personalizzate. Scegli tra 5 font, attiva la scala di grigi per output ottimizzato per l\'inchiostro e usa il canvas Fabric.js completo per riposizionare ogni elemento. La prova gratuita include una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    tagline: 'Crea puzzle con cifrario illustrato dove ogni lettera è associata a un\'immagine e gli utenti decodificano intere frasi segrete attraverso il riconoscimento di pattern',
+    description: 'Progetta schede crittogramma professionali basate su un meccanismo di cifrario illustrato: ogni lettera dell\'alfabeto è associata a un\'immagine unica e la tua frase segreta viene resa come una sequenza di immagini che gli utenti devono decodificare per risalire al testo originale. A differenza dei cerca parole o delle parole mescolate che lavorano con singole parole, il generatore di crittogrammi codifica intere frasi e periodi — gli utenti decifrano il codice deducendo quale immagine rappresenta quale lettera, usando indizi contestuali da parole comuni come "il", "e", "è" per accelerare la decodifica. Il cursore Lettere da Rivelare (0–10) è il controllo di difficoltà principale: impostalo a zero per una sfida di decodifica pura senza informazioni iniziali, oppure scorri fino a dieci per un supporto intenso dove molte associazioni lettera-immagine sono già rivelate come suggerimenti. L\'Assegnazione Automatica preleva immagini casuali da una qualsiasi delle 104 collezioni tematiche (oltre 3.100 illustrazioni) per completare l\'intero cifrario con un solo clic, mentre l\'Assegnazione Manuale ti permette di scegliere manualmente immagini specifiche per lettere specifiche con un\'anteprima visiva completa di tutte le associazioni. Carica immagini personalizzate per un controllo creativo totale. La chiave di risposta include una legenda lettere che mostra ogni lettera dell\'alfabeto abbinata alla sua immagine assegnata in ordine alfabetico — il riferimento definitivo per la soluzione. La sensibilità linguistica è integrata: cambiando lingua cambiano sia il testo della frase segreta sia l\'alfabeto disponibile. I crittogrammi tedeschi codificano frasi tedesche con ä, ö, ü, ß nell\'alfabeto; i crittogrammi francesi usano é, è, ç, à. Ogni versione linguistica è un prodotto cifrario genuinamente diverso. Esporta PDF pronti per la stampa e JPEG a oltre 400 DPI in formato Letter, A4 o dimensioni personalizzate. Scegli tra 5 font, attiva la scala di grigi per output ottimizzato per l\'inchiostro e usa il canvas Fabric.js completo per riposizionare ogni elemento. La prova gratuita include una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
   },
 
   tutorial: {
@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: 'Inserisci la frase segreta e seleziona la lingua',
-        description: 'Digita la frase o il periodo che vuoi far decodificare agli studenti. Questo è il messaggio segreto che verrà codificato come cifrario illustrato. Seleziona la lingua di destinazione tra le 11 lingue supportate — il set di lettere dell\'alfabeto disponibile si adatta automaticamente alla lingua selezionata. L\'italiano usa il suo set standard di lettere, il tedesco aggiunge ä, ö, ü, ß, e il francese aggiunge caratteri accentati come é, è, ç, à. Ogni lettera della tua frase verrà associata a un\'immagine.',
+        description: 'Digita la frase o il periodo che vuoi far decodificare agli utenti. Questo è il messaggio segreto che verrà codificato come cifrario illustrato. Seleziona la lingua di destinazione tra le 11 lingue supportate — il set di lettere dell\'alfabeto disponibile si adatta automaticamente alla lingua selezionata. L\'italiano usa il suo set standard di lettere, il tedesco aggiunge ä, ö, ü, ß, e il francese aggiunge caratteri accentati come é, è, ç, à. Ogni lettera della tua frase verrà associata a un\'immagine.',
       },
       {
         title: 'Assegna immagini alle lettere con Assegnazione Automatica o Manuale',
@@ -45,15 +45,15 @@ const content: ToolContent = {
       },
       {
         title: 'Scegli un tema e il filtro Colore o B/N',
-        description: 'Sfoglia 104 collezioni di immagini tematiche con oltre 3.100 illustrazioni — animali, cibo, veicoli, natura, festività, professioni e dozzine di altre categorie. Usa il filtro Colore vs B/N per passare tra illustrazioni a colori per prodotti digitali vivaci e disegni in bianco e nero per stampe ottimizzate per l\'inchiostro in classe e interni di libri puzzle KDP.',
+        description: 'Sfoglia 104 collezioni di immagini tematiche con oltre 3.100 illustrazioni — animali, cibo, veicoli, natura, festività, professioni e dozzine di altre categorie. Usa il filtro Colore vs B/N per passare tra illustrazioni a colori per prodotti digitali vivaci e disegni in bianco e nero per stampe ottimizzate per l\'inchiostro online e interni di libri puzzle KDP.',
       },
       {
         title: 'Imposta la difficoltà con Lettere da Rivelare',
-        description: 'Regola il cursore Lettere da Rivelare da 0 a 10 per controllare quante associazioni lettera-immagine vengono pre-risolte come suggerimenti sulla scheda. Zero rivelazioni crea una sfida di decodifica pura dove gli studenti partono senza alcuna informazione. Dieci rivelazioni fornisce un supporto intenso per risolutori più giovani o meno esperti. Questo singolo controllo crea un gradiente di difficoltà progressivo e serve come asse principale di differenziazione per pacchetti di prodotti a livelli.',
+        description: 'Regola il cursore Lettere da Rivelare da 0 a 10 per controllare quante associazioni lettera-immagine vengono pre-risolte come suggerimenti sulla scheda. Zero rivelazioni crea una sfida di decodifica pura dove gli utenti partono senza alcuna informazione. Dieci rivelazioni fornisce un supporto intenso per risolutori più giovani o meno esperti. Questo singolo controllo crea un gradiente di difficoltà progressivo e serve come asse principale di differenziazione per pacchetti di prodotti a livelli.',
       },
       {
         title: 'Personalizza font, testo e canvas',
-        description: 'Scegli tra 5 famiglie di font: Lexend Deca, Baloo 2, Nunito, Quicksand e Fredoka. Aggiungi un titolo alla scheda, campi nome e data dello studente, istruzioni personalizzate o qualsiasi testo sovrapposto. Usa gli strumenti del canvas Fabric.js per trascinare, ridimensionare, ruotare e riposizionare ogni elemento sulla pagina. Strumenti di allineamento, controlli di blocco/sblocco e annulla/ripristina illimitati ti permettono di perfezionare il layout con precisione.',
+        description: 'Scegli tra 5 famiglie di font: Lexend Deca, Baloo 2, Nunito, Quicksand e Fredoka. Aggiungi un titolo alla scheda, campi nome e data dell'utente, istruzioni personalizzate o qualsiasi testo sovrapposto. Usa gli strumenti del canvas Fabric.js per trascinare, ridimensionare, ruotare e riposizionare ogni elemento sulla pagina. Strumenti di allineamento, controlli di blocco/sblocco e annulla/ripristina illimitati ti permettono di perfezionare il layout con precisione.',
       },
       {
         title: 'Genera la legenda lettere con chiave di risposta e scarica',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Pacchetti puzzle cifrario illustrato tematici',
-      description: 'Crea set di 10–20 schede crittogramma raggruppate per tema di immagini — animali della fattoria, creature marine, veicoli, cibo, festività e altro. Usa l\'Assegnazione Automatica per associare immagini tematiche all\'alfabeto e varia l\'impostazione Lettere da Rivelare nel set per difficoltà progressiva: inizia con 8 rivelazioni per puzzle di riscaldamento e scendi fino a 0 rivelazioni per sfide esperte. Includi le chiavi di risposta con legenda lettere per ogni puzzle. Il formato cifrario visivo con immagini tematiche si distingue dai classici cruciverba o cerca parole su Etsy e Teachers Pay Teachers.',
+      description: 'Crea set di 10–20 schede crittogramma raggruppate per tema di immagini — animali della fattoria, creature marine, veicoli, cibo, festività e altro. Usa l\'Assegnazione Automatica per associare immagini tematiche all\'alfabeto e varia l\'impostazione Lettere da Rivelare nel set per difficoltà progressiva: inizia con 8 rivelazioni per puzzle di riscaldamento e scendi fino a 0 rivelazioni per sfide esperte. Includi le chiavi di risposta con legenda lettere per ogni puzzle. Il formato cifrario visivo con immagini tematiche si distingue dai negozici cruciverba o cerca parole su Etsy e Gumroad.',
     },
     {
       title: 'Libri puzzle crittogramma per KDP',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Centri di decodifica differenziati',
-      description: 'Costruisci set di pratica crittogramma a livelli usando Lettere da Rivelare come asse di differenziazione. Livello 1: 8 rivelazioni, frasi brevi, immagini tematiche per lettori emergenti. Livello 2: 5 rivelazioni, frasi medie per decodificatori in sviluppo. Livello 3: 2 rivelazioni, frasi più lunghe per risolutori sicuri. Livello 4: 0 rivelazioni, sfida di decodifica completa per studenti avanzati. Confeziona ogni livello con chiavi di risposta e guida al monitoraggio dei progressi. Gli insegnanti pagano prezzi premium per risorse differenziate applicabili a più livelli di abilità.',
+      description: 'Costruisci set di pratica crittogramma a livelli usando Lettere da Rivelare come asse di differenziazione. Livello 1: 8 rivelazioni, frasi brevi, immagini tematiche per lettori emergenti. Livello 2: 5 rivelazioni, frasi medie per decodificatori in sviluppo. Livello 3: 2 rivelazioni, frasi più lunghe per risolutori sicuri. Livello 4: 0 rivelazioni, sfida di decodifica completa per utenti avanzati. Confeziona ogni livello con chiavi di risposta e guida al monitoraggio dei progressi. i venditori pagano prezzi premium per risorse differenziate applicabili a più livelli di abilità.',
     },
     {
       title: 'Prodotti cifrario multilingue',
@@ -81,18 +81,18 @@ const content: ToolContent = {
     },
     {
       title: 'Schede cifrario con vocabolario personalizzato',
-      description: 'Codifica frasi specifiche per materia come puzzle crittogramma per apprendimento mirato: definizioni scientifiche, fatti storici, citazioni motivazionali, parole della settimana organizzate in una frase, o frasi di pratica in lingua straniera. Digita qualsiasi frase come messaggio segreto e lo strumento costruisce automaticamente il cifrario illustrato. Il formato decodifica trasforma la revisione meccanica del vocabolario in un\'attività puzzle coinvolgente che gli studenti vogliono attivamente risolvere.',
+      description: 'Codifica frasi specifiche per materia come puzzle crittogramma per apprendimento mirato: definizioni scientifiche, fatti storici, citazioni motivazionali, parole della settimana organizzate in una frase, o frasi di pratica in lingua straniera. Digita qualsiasi frase come messaggio segreto e lo strumento costruisce automaticamente il cifrario illustrato. Il formato decodifica trasforma la revisione meccanica del vocabolario in un\'attività puzzle coinvolgente che gli utenti vogliono attivamente risolvere.',
     },
     {
       title: 'Pacchetti cifrario stagionali e festivi',
-      description: 'Usa temi di immagini festive e stagionali per creare pacchetti crittogramma a tempo limitato. Un pacchetto "Messaggi Segreti di Halloween" con immagini cifrario a tema spaventoso vende bene in ottobre. Natale, ritorno a scuola, San Valentino e temi estivi hanno ciascuno le proprie finestre di picco delle vendite su Etsy e TpT. Combina puzzle guidati a 6–8 rivelazioni per studenti più giovani con puzzle esperti a zero rivelazioni per ragazzi più grandi in un singolo pacchetto stagionale per massimizzare il tuo pubblico di acquirenti.',
+      description: 'Usa temi di immagini festive e stagionali per creare pacchetti crittogramma a tempo limitato. Un pacchetto "Messaggi Segreti di Halloween" con immagini cifrario a tema spaventoso vende bene in ottobre. Natale, ritorno a scuola, San Valentino e temi estivi hanno ciascuno le proprie finestre di picco delle vendite su Etsy e Gumroad. Combina puzzle guidati a 6–8 rivelazioni per utenti più giovani con puzzle esperti a zero rivelazioni per ragazzi più grandi in un singolo pacchetto stagionale per massimizzare il tuo pubblico di acquirenti.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Negozio Etsy di cifrari graduati per difficoltà',
-      description: 'Apri un negozio Etsy specializzato in schede crittogramma organizzate per livello di difficoltà usando Lettere da Rivelare come asse di classificazione. Pacchetti principianti (7–10 rivelazioni) forniscono supporto intenso per giovani decodificatori. Pacchetti intermedi (3–6 rivelazioni) sfidano risolutori in sviluppo. Pacchetti esperti (0–2 rivelazioni) offrono sfide di decodifica pure. La maggior parte dei venditori di puzzle offre prodotti generici a difficoltà unica — i crittogrammi graduati per difficoltà permettono agli acquirenti di trovare esattamente il livello di sfida giusto per i loro studenti, con migliori recensioni e acquisti ripetuti.',
+      description: 'Apri un negozio Etsy specializzato in schede crittogramma organizzate per livello di difficoltà usando Lettere da Rivelare come asse di negozificazione. Pacchetti principianti (7–10 rivelazioni) forniscono supporto intenso per giovani decodificatori. Pacchetti intermedi (3–6 rivelazioni) sfidano risolutori in sviluppo. Pacchetti esperti (0–2 rivelazioni) offrono sfide di decodifica pure. La maggior parte dei venditori di puzzle offre prodotti generici a difficoltà unica — i crittogrammi graduati per difficoltà permettono agli acquirenti di trovare esattamente il livello di sfida giusto per i loro utenti, con migliori recensioni e acquisti ripetuti.',
       platform: 'Etsy',
     },
     {
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Centri di decodifica su Teachers Pay Teachers',
-      description: 'Carica pacchetti schede crittogramma su TpT organizzati per tema e livello di difficoltà. Includi quattro livelli di difficoltà per tema usando Lettere da Rivelare come asse di differenziazione. Confeziona con chiavi di risposta con legenda lettere e schede di monitoraggio progressi studente. Il meccanismo cifrario è intrinsecamente coinvolgente — gli studenti provano l\'emozione genuina della decodifica mentre ogni lettera decifrata rivela sempre più del messaggio segreto. Gli insegnanti cercano "attività decodifica codice" e "schede cifrario" e trovano pochissime opzioni di qualità.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Centri di decodifica su Gumroad',
+      description: 'Carica pacchetti schede crittogramma su Gumroad organizzati per tema e livello di difficoltà. Includi quattro livelli di difficoltà per tema usando Lettere da Rivelare come asse di differenziazione. Confeziona con chiavi di risposta con legenda lettere e schede di monitoraggio progressi utente. Il meccanismo cifrario è intrinsecamente coinvolgente — gli utenti provano l\'emozione genuina della decodifica mentre ogni lettera decifrata rivela sempre più del messaggio segreto. i venditori cercano "attività decodifica codice" e "schede cifrario" e trovano pochissime opzioni di qualità.',
+      platform: 'Gumroad',
     },
     {
       title: 'Negozio cifrario multilingue',
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Kit completo decodifica su Gumroad',
-      description: 'Combina schede crittogramma con cerca parole, parole mescolate, indovina parole e schede di abbinamento per creare un kit puzzle di alfabetizzazione completo su Gumroad. Ogni formato esercita un\'abilità cognitiva diversa: il crittogramma sviluppa deduzione e riconoscimento di pattern attraverso la decodifica, il cerca parole esercita la scansione visiva, le parole mescolate praticano il riordinamento delle lettere, l\'indovina parole testa il richiamo ortografico. Un kit puzzle multi-formato giustifica un prezzo premium e offre agli studenti pratica variegata con gli stessi temi di vocabolario.',
+      description: 'Combina schede crittogramma con cerca parole, parole mescolate, indovina parole e schede di abbinamento per creare un kit puzzle di alfabetizzazione completo su Gumroad. Ogni formato esercita un\'abilità cognitiva diversa: il crittogramma sviluppa deduzione e riconoscimento di pattern attraverso la decodifica, il cerca parole esercita la scansione visiva, le parole mescolate praticano il riordinamento delle lettere, l\'indovina parole testa il richiamo ortografico. Un kit puzzle multi-formato giustifica un prezzo premium e offre agli utenti pratica variegata con gli stessi temi di vocabolario.',
       platform: 'Gumroad',
     },
   ],
@@ -125,7 +125,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Usa Lettere da Rivelare come controllo di difficoltà principale',
-      description: 'Lettere da Rivelare è l\'impostazione più potente per controllare la difficoltà del crittogramma. A 0, gli studenti affrontano una sfida di decodifica pura senza informazioni iniziali. A 5, circa metà del cifrario è pre-decodificato, offrendo una sfida equilibrata. A 10, il puzzle diventa un esercizio guidato per principianti. Usa questo cursore per creare intere linee di prodotti graduate per difficoltà da un singolo design.',
+      description: 'Lettere da Rivelare è l\'impostazione più potente per controllare la difficoltà del crittogramma. A 0, gli utenti affrontano una sfida di decodifica pura senza informazioni iniziali. A 5, circa metà del cifrario è pre-decodificato, offrendo una sfida equilibrata. A 10, il puzzle diventa un esercizio guidato per principianti. Usa questo cursore per creare intere linee di prodotti graduate per difficoltà da un singolo design.',
     },
     {
       title: 'Codifica frasi complete per indizi contestuali',
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Alterna Colore e B/N per raddoppiare i prodotti',
-      description: 'Ogni collezione tematica è disponibile in varianti a colori e in bianco e nero. Crea un\'edizione a colori per download digitali e inserzioni Etsy vivaci, poi rigenera lo stesso design in B/N per stampe ottimizzate per l\'inchiostro in classe e interni di libri puzzle KDP. Due varianti di prodotto da una singola sessione di design senza lavoro aggiuntivo sui contenuti.',
+      description: 'Ogni collezione tematica è disponibile in varianti a colori e in bianco e nero. Crea un\'edizione a colori per download digitali e inserzioni Etsy vivaci, poi rigenera lo stesso design in B/N per stampe ottimizzate per l\'inchiostro online e interni di libri puzzle KDP. Due varianti di prodotto da una singola sessione di design senza lavoro aggiuntivo sui contenuti.',
     },
     {
       title: 'Vai multilingue per 11 volte la gamma di prodotti',
@@ -145,7 +145,7 @@ const content: ToolContent = {
     },
     {
       title: 'Usa la scala di grigi per KDP e stampe in serie',
-      description: 'Attiva la scala di grigi per schede destinate agli interni Amazon KDP o alla stampa in serie per la classe. L\'output in bianco e nero costa significativamente meno da stampare. Riserva la modalità colore per anteprime delle inserzioni Etsy e download digitali dove immagini tematiche vivaci attirano clic e generano conversioni.',
+      description: 'Attiva la scala di grigi per schede destinate agli interni Amazon KDP o alla stampa in serie per il negozio. L\'output in bianco e nero costa significativamente meno da stampare. Riserva la modalità colore per anteprime delle inserzioni Etsy e download digitali dove immagini tematiche vivaci attirano clic e generano conversioni.',
     },
     {
       title: 'Abbina con altri strumenti di alfabetizzazione per pacchetti premium',
@@ -160,11 +160,11 @@ const content: ToolContent = {
     },
     {
       question: 'Come funziona il cifrario illustrato del crittogramma?',
-      answer: 'Ogni lettera dell\'alfabeto è associata a un\'immagine unica. La tua frase segreta viene resa come una sequenza di immagini che sostituiscono ogni lettera. Gli studenti studiano la sequenza di immagini, deducono quale immagine rappresenta quale lettera usando il riconoscimento di pattern e indizi contestuali, e scrivono le lettere decodificate per rivelare il messaggio originale. Spazi e punteggiatura sono preservati, quindi i confini delle parole sono visibili.',
+      answer: 'Ogni lettera dell\'alfabeto è associata a un\'immagine unica. La tua frase segreta viene resa come una sequenza di immagini che sostituiscono ogni lettera. gli utenti studiano la sequenza di immagini, deducono quale immagine rappresenta quale lettera usando il riconoscimento di pattern e indizi contestuali, e scrivono le lettere decodificate per rivelare il messaggio originale. Spazi e punteggiatura sono preservati, quindi i confini delle parole sono visibili.',
     },
     {
       question: 'Cosa fa il cursore Lettere da Rivelare (0–10)?',
-      answer: 'Lettere da Rivelare controlla quante associazioni lettera-immagine vengono pre-risolte come suggerimenti sulla scheda. A 0, gli studenti partono senza lettere decodificate e devono decifrare l\'intero codice da zero. A 10, dieci associazioni sono già rivelate, fornendo supporto intenso per principianti. Questa impostazione è il controllo di difficoltà principale e l\'asse naturale di differenziazione per pacchetti di prodotti a livelli.',
+      answer: 'Lettere da Rivelare controlla quante associazioni lettera-immagine vengono pre-risolte come suggerimenti sulla scheda. A 0, gli utenti partono senza lettere decodificate e devono decifrare l\'intero codice da zero. A 10, dieci associazioni sono già rivelate, fornendo supporto intenso per principianti. Questa impostazione è il controllo di difficoltà principale e l\'asse naturale di differenziazione per pacchetti di prodotti a livelli.',
     },
     {
       question: 'Qual è la differenza tra Assegnazione Automatica e Manuale?',
@@ -172,11 +172,11 @@ const content: ToolContent = {
     },
     {
       question: 'Posso codificare frasi complete, non solo singole parole?',
-      answer: 'Sì. Il generatore di crittogrammi codifica intere frasi e periodi. Gli studenti decodificano un messaggio leggibile completo, il che fornisce indizi contestuali naturali — parole brevi comuni come "il" e "e" aiutano i risolutori a decifrare il codice più velocemente. La codifica a livello di frase rende i puzzle più soddisfacenti e più educativi rispetto alle sfide con singole parole.',
+      answer: 'Sì. Il generatore di crittogrammi codifica intere frasi e periodi. gli utenti decodificano un messaggio leggibile completo, il che fornisce indizi contestuali naturali — parole brevi comuni come "il" e "e" aiutano i risolutori a decifrare il codice più velocemente. La codifica a livello di frase rende i puzzle più soddisfacenti e più educativi rispetto alle sfide con singole parole.',
     },
     {
       question: 'In cosa differisce il crittogramma dal cerca parole, parole mescolate e indovina parole?',
-      answer: 'Il crittogramma è un cifrario illustrato — gli studenti decodificano una sequenza di immagini riconvertendola in testo deducendo le associazioni lettera-immagine attraverso un\'intera frase. Il cerca parole fa trovare parole nascoste in una griglia di lettere. Le parole mescolate danno tessere di lettere mescolate da riordinare. L\'indovina parole mostra spazi vuoti da completare. Il crittogramma è l\'unico formato che esercita deduzione e logica di decodifica, rendendolo un\'aggiunta unica a qualsiasi pacchetto di prodotti di alfabetizzazione.',
+      answer: 'Il crittogramma è un cifrario illustrato — gli utenti decodificano una sequenza di immagini riconvertendola in testo deducendo le associazioni lettera-immagine attraverso un\'intera frase. Il cerca parole fa trovare parole nascoste in una griglia di lettere. Le parole mescolate danno tessere di lettere mescolate da riordinare. L\'indovina parole mostra spazi vuoti da completare. Il crittogramma è l\'unico formato che esercita deduzione e logica di decodifica, rendendolo un\'aggiunta unica a qualsiasi pacchetto di prodotti di alfabetizzazione.',
     },
     {
       question: 'Come funziona l\'alfabeto sensibile alla lingua?',
@@ -184,11 +184,11 @@ const content: ToolContent = {
     },
     {
       question: 'Cosa mostra la chiave di risposta con legenda lettere?',
-      answer: 'La chiave di risposta include una legenda lettere completa che mostra ogni lettera dell\'alfabeto abbinata alla sua immagine assegnata in ordine alfabetico. Questo è il riferimento definitivo per verificare le soluzioni — studenti o insegnanti possono cercare qualsiasi immagine per confermare quale lettera rappresenta. La chiave di risposta mostra anche la frase completamente decodificata per una verifica rapida.',
+      answer: 'La chiave di risposta include una legenda lettere completa che mostra ogni lettera dell\'alfabeto abbinata alla sua immagine assegnata in ordine alfabetico. Questo è il riferimento definitivo per verificare le soluzioni — utenti o venditori possono cercare qualsiasi immagine per confermare quale lettera rappresenta. La chiave di risposta mostra anche la frase completamente decodificata per una verifica rapida.',
     },
     {
       question: 'Posso vendere commercialmente le schede create con questo strumento?',
-      answer: 'La prova gratuita con filigrana è solo per uso personale e scolastico. Per vendere schede su Etsy, Teachers Pay Teachers, Amazon KDP o qualsiasi altro marketplace, serve una licenza commerciale. La licenza commerciale rimuove la filigrana e concede pieni diritti di rivendita per le schede crittogramma che crei.',
+      answer: 'La prova gratuita con filigrana è solo per uso personale e scolastico. Per vendere schede su Etsy, Gumroad, Amazon KDP o qualsiasi altro marketplace, serve una licenza commerciale. La licenza commerciale rimuove la filigrana e concede pieni diritti di rivendita per le schede crittogramma che crei.',
     },
     {
       question: 'Quali formati di file posso scaricare?',

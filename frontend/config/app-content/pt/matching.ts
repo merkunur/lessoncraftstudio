@@ -7,7 +7,7 @@ const content: AppContent = {
       'gerador de fichas de associação imprimíveis para vendedores Etsy',
       'criador de fichas unir com linhas para editores Amazon KDP',
       'gerador de fichas de associação com licença comercial',
-      'vender fichas de associação imprimíveis no Teachers Pay Teachers',
+      'vender fichas de associação imprimíveis no Gumroad',
     ],
     lsiKeywords: [
       'produtos digitais fichas de associação para empreendedores',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Gerador Fichas de Associação | Criar e Vender',
     metaDescription:
-      'Crie fichas de associação para Etsy, KDP e TPT. 4 modos de associação, gabarito automático, 104 temas, pares configuráveis. Teste grátis com marca d\'água.',
+      'Crie fichas de associação para Etsy, KDP e Gumroad. 4 modos de associação, gabarito automático, 104 temas, pares configuráveis. Teste grátis com marca d\'água.',
   },
 
   hero: {
     title: 'Gerador de Fichas de Associação para Atividades de Ligar com Linhas',
     tagline: 'Quatro modos de associação num único gerador — Letra Inicial, Imagem+Palavra, Imagem/Palavra Misto e Palavra Personalizada — com gabaritos gerados automaticamente, número de pares configurável e cabeçalho localizado «Liga!» em 104 coleções de imagens temáticas.',
     description:
-      'Crie fichas de associação profissionais onde os alunos ligam pares desenhando linhas entre duas colunas. Escolha entre quatro modos de associação distintos: Imagem ↔ Letra Inicial associa as imagens com a sua primeira letra, Imagem+Palavra ↔ Imagem+Palavra emparelha imagens legendadas em ambos os lados, Imagem/Palavra ↔ Imagem/Palavra Misto mistura imagens e palavras por linha com menus suspensos, e Imagem ↔ Palavra Personalizada permite-lhe escrever os seus próprios termos de associação. Configure 4, 5 ou 6 pares por ficha e ative ou desative os números dos itens e os pontos decorativos para uma formatação limpa. Cada ficha inclui um cabeçalho localizado «Liga!» gerado automaticamente, com título e instruções nos 11 idiomas suportados. O sistema de canvas duplo gera tanto um separador de ficha de trabalho como um separador de gabarito — o gabarito traça linhas de ligação entre as correspondências corretas, sem nenhum trabalho manual da sua parte. O Gerador de Fichas de Associação é sensível ao idioma: os modos Letra Inicial e Imagem+Palavra usam os nomes localizados das imagens, pelo que mudar de idioma altera as palavras e primeiras letras na ficha. O Acesso Completo desbloqueia os 104 temas com mais de 3100 ilustrações e os 11 idiomas de interface para conteúdo textual localizado. Adicione temas de fundo e de borda com controlos de opacidade independentes, inclua campos de nome e data, e exporte PDFs e JPEGs prontos para impressão a 300 DPI nos formatos Carta, A4, Quadrado ou dimensões personalizadas. Quer venda pacotes de atividades de associação na Etsy, compile cadernos de literacia inicial para a Amazon KDP ou crie fichas para centros de associação no TPT, este gerador produz fichas prontas para produção em minutos — teste grátis com todas as funcionalidades, sem registo, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie fichas de associação profissionais onde os usuários ligam pares desenhando linhas entre duas colunas. Escolha entre quatro modos de associação distintos: Imagem ↔ Letra Inicial associa as imagens com a sua primeira letra, Imagem+Palavra ↔ Imagem+Palavra emparelha imagens legendadas em ambos os lados, Imagem/Palavra ↔ Imagem/Palavra Misto mistura imagens e palavras por linha com menus suspensos, e Imagem ↔ Palavra Personalizada permite-lhe escrever os seus próprios termos de associação. Configure 4, 5 ou 6 pares por ficha e ative ou desative os números dos itens e os pontos decorativos para uma formatação limpa. Cada ficha inclui um cabeçalho localizado «Liga!» gerado automaticamente, com título e instruções nos 11 idiomas suportados. O sistema de canvas duplo gera tanto um separador de ficha de trabalho como um separador de gabarito — o gabarito traça linhas de ligação entre as correspondências corretas, sem nenhum trabalho manual da sua parte. O Gerador de Fichas de Associação é sensível ao idioma: os modos Letra Inicial e Imagem+Palavra usam os nomes localizados das imagens, pelo que mudar de idioma altera as palavras e primeiras letras na ficha. O Acesso Completo desbloqueia os 104 temas com mais de 3100 ilustrações e os 11 idiomas de interface para conteúdo textual localizado. Adicione temas de fundo e de borda com controlos de opacidade independentes, inclua campos de nome e data, e exporte PDFs e JPEGs prontos para impressão a 300 DPI nos formatos Carta, A4, Quadrado ou dimensões personalizadas. Quer venda pacotes de atividades de associação na Etsy, compile cadernos de literacia inicial para a Amazon KDP ou crie fichas para centros de associação no Gumroad, este gerador produz fichas prontas para produção em minutos — teste grátis com todas as funcionalidades, sem registo, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Configure os Parâmetros da Ficha',
         description:
-          'Abra o painel Configuração da Ficha e selecione o seu modo de associação: Letra Inicial, Imagem+Palavra, Imagem/Palavra Misto ou Palavra Personalizada. Defina o número máximo de pares para 4, 5 ou 6 (o valor predefinido é 6). Marque a caixa «Incluir campos de nome/data» para adicionar linhas de nome do aluno e data na parte inferior da página. Ative «Incluir números dos itens» (ativado por predefinição) para adicionar numerais antes de cada par, e «Mostrar pontos/marcadores» (ativado por predefinição) para apresentar pontos decorativos junto aos itens. Para o modo Letra Inicial, escolha entre visualização em maiúsculas e minúsculas, e selecione um sub-modo: Tema e imagens aleatórias, Aleatório do tema escolhido, ou Selecionar imagens específicas.',
+          'Abra o painel Configuração da Ficha e selecione o seu modo de associação: Letra Inicial, Imagem+Palavra, Imagem/Palavra Misto ou Palavra Personalizada. Defina o número máximo de pares para 4, 5 ou 6 (o valor predefinido é 6). Marque a caixa «Incluir campos de nome/data» para adicionar linhas de nome e data na parte inferior da página. Ative «Incluir números dos itens» (ativado por predefinição) para adicionar numerais antes de cada par, e «Mostrar pontos/marcadores» (ativado por predefinição) para apresentar pontos decorativos junto aos itens. Para o modo Letra Inicial, escolha entre visualização em maiúsculas e minúsculas, e selecione um sub-modo: Tema e imagens aleatórias, Aleatório do tema escolhido, ou Selecionar imagens específicas.',
       },
       {
         title: 'Selecione Imagens da Biblioteca',
@@ -47,12 +47,12 @@ const content: AppContent = {
       {
         title: 'Gere a Ficha de Associação',
         description:
-          'Clique em Gerar para criar o layout de associação a duas colunas. A aplicação organiza as suas imagens e textos selecionados nas colunas esquerda e direita com o número de pares configurado. Um cabeçalho estilizado «Liga!» aparece no topo com um fundo de pastilha amarela (#FFD700), uma moldura de borda coral (#FF7F50), e título e instruções localizados nas fontes Fredoka e Quicksand. Os números dos itens e os pontos decorativos aparecem conforme as suas definições. O separador de ficha de trabalho mostra a versão do aluno sem linhas de ligação — pronta para os alunos desenharem as suas próprias linhas.',
+          'Clique em Gerar para criar o layout de associação a duas colunas. A aplicação organiza as suas imagens e textos selecionados nas colunas esquerda e direita com o número de pares configurado. Um cabeçalho estilizado «Liga!» aparece no topo com um fundo de pastilha amarela (#FFD700), uma moldura de borda coral (#FF7F50), e título e instruções localizados nas fontes Fredoka e Quicksand. Os números dos itens e os pontos decorativos aparecem conforme as suas definições. O separador de ficha de trabalho mostra a versão do usuário sem linhas de ligação — pronta para os usuários desenharem as suas próprias linhas.',
       },
       {
         title: 'Gere o Gabarito e Descarregue',
         description:
-          'Mude para o separador Gabarito para ver o gabarito gerado automaticamente com linhas de ligação horizontais (#555, largura de traço 2) desenhadas entre cada correspondência correta. Descarregue ambas as versões usando os quatro botões dedicados: Ficha JPEG, Gabarito JPEG, Ficha PDF e Gabarito PDF. Os ficheiros são guardados como worksheet.jpeg, worksheet.pdf, answer_key.jpeg e answer_key.pdf a 300 DPI. Ative o modo escala de cinzentos para versões económicas em tinta. Cada exportação está pronta para produção: listagens da Etsy, interiores da Amazon KDP e ficheiros de produtos TPT.',
+          'Mude para o separador Gabarito para ver o gabarito gerado automaticamente com linhas de ligação horizontais (#555, largura de traço 2) desenhadas entre cada correspondência correta. Descarregue ambas as versões usando os quatro botões dedicados: Ficha JPEG, Gabarito JPEG, Ficha PDF e Gabarito PDF. Os ficheiros são guardados como worksheet.jpeg, worksheet.pdf, answer_key.jpeg e answer_key.pdf a 300 DPI. Ative o modo escala de cinzentos para versões económicas em tinta. Cada exportação está pronta para produção: listagens da Etsy, interiores da Amazon KDP e ficheiros de produtos Gumroad.',
       },
     ],
   },
@@ -73,7 +73,7 @@ const content: AppContent = {
       {
         title: 'Número de Pares Configurável com 4, 5 ou 6 Pares de Associação por Ficha',
         description:
-          'Defina o número de pares de associação para 4, 5 ou 6 através do menu suspenso no painel Configuração da Ficha. O valor predefinido é 6 pares, ideal para fichas padrão. Reduza para 4 ou 5 pares para alunos mais novos que precisam de imagens maiores e mais espaçamento, ou para fichas com palavras personalizadas mais longas que requerem mais espaço. O número de pares aplica-se de forma consistente nos quatro modos de associação, dando-lhe controlo sobre a dificuldade da ficha e a densidade visual sem redesenhar o formato.',
+          'Defina o número de pares de associação para 4, 5 ou 6 através do menu suspenso no painel Configuração da Ficha. O valor predefinido é 6 pares, ideal para fichas padrão. Reduza para 4 ou 5 pares para usuários mais novos que precisam de imagens maiores e mais espaçamento, ou para fichas com palavras personalizadas mais longas que requerem mais espaço. O número de pares aplica-se de forma consistente nos quatro modos de associação, dando-lhe controlo sobre a dificuldade da ficha e a densidade visual sem redesenhar o formato.',
       },
       {
         title: 'Cabeçalho Localizado «Liga!» com Título e Instruções em 11 Idiomas',
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Números dos Itens e Pontos Decorativos com Controlos de Ativação',
         description:
-          'Dois controlos de ativação no painel Configuração da Ficha controlam a estrutura visual de cada coluna de associação. «Incluir números dos itens» (ativado por predefinição) adiciona numerais antes de cada par — os alunos veem itens numerados para referência fácil durante a correção em aula. «Mostrar pontos/marcadores» (ativado por predefinição) adiciona pontos decorativos junto aos itens para maior clareza visual. Ambas as opções são independentes: pode ter apenas números, apenas pontos, ambos ou nenhum, conforme o seu público-alvo e estilo de produto.',
+          'Dois controlos de ativação no painel Configuração da Ficha controlam a estrutura visual de cada coluna de associação. «Incluir números dos itens» (ativado por predefinição) adiciona numerais antes de cada par — os usuários veem itens numerados para referência fácil durante o valor percebido em aula. «Mostrar pontos/marcadores» (ativado por predefinição) adiciona pontos decorativos junto aos itens para maior clareza visual. Ambas as opções são independentes: pode ter apenas números, apenas pontos, ambos ou nenhum, conforme o seu público-alvo e estilo de produto.',
       },
       {
         title: 'Exportação PDF e JPEG Pronta para Impressão a 300 DPI com Modo Escala de Cinzentos',
         description:
-          'Descarregue fichas de associação e gabaritos como imagens JPEG de alta resolução ou documentos PDF prontos para impressão renderizados a 300 DPI. Quatro botões de descarga dedicados exportam worksheet.jpeg, worksheet.pdf, answer_key.jpeg e answer_key.pdf separadamente. Os formatos de página incluem Carta Vertical (612×792), Carta Horizontal (792×612), A4 Vertical (595×842), A4 Horizontal (842×595), Quadrado (1200×1200) e dimensões completamente personalizadas. Ative o modo escala de cinzentos para versões económicas em tinta que poupam toner. Cada exportação está pronta para produção: downloads digitais, cadernos impressos e materiais de sala de aula.',
+          'Descarregue fichas de associação e gabaritos como imagens JPEG de alta resolução ou documentos PDF prontos para impressão renderizados a 300 DPI. Quatro botões de descarga dedicados exportam worksheet.jpeg, worksheet.pdf, answer_key.jpeg e answer_key.pdf separadamente. Os formatos de página incluem Carta Vertical (612×792), Carta Horizontal (792×612), A4 Vertical (595×842), A4 Horizontal (842×595), Quadrado (1200×1200) e dimensões completamente personalizadas. Ative o modo escala de cinzentos para versões económicas em tinta que poupam toner. Cada exportação está pronta para produção: downloads digitais, cadernos impressos e materiais de loja.',
       },
       {
         title: 'Edição Completa do Canvas com Ferramentas de Texto, Alinhamento e Controlos de Camadas',
@@ -115,26 +115,26 @@ const content: AppContent = {
       {
         title: 'Cadernos de Literacia Inicial na Amazon KDP',
         description:
-          'Compile 40 a 80 fichas de associação num caderno impresso formatado para a Amazon KDP. O modo Letra Inicial é ideal para a literacia inicial — os alunos associam imagens com a sua primeira letra através de múltiplos temas, desenvolvendo a consciência fonémica a cada página. Estruture o seu caderno por dificuldade: o Capítulo 1 usa 4 pares para iniciantes, o Capítulo 2 usa 5 pares, e o Capítulo 3 usa 6 pares para alunos avançados. Inclua os gabaritos no final do caderno usando a função de gabarito automático. O modo escala de cinzentos produz páginas económicas em tinta prontas para interiores de livros a preto e branco.',
+          'Compile 40 a 80 fichas de associação num caderno impresso formatado para a Amazon KDP. O modo Letra Inicial é ideal para a literacia inicial — os usuários associam imagens com a sua primeira letra através de múltiplos temas, desenvolvendo a consciência fonémica a cada página. Estruture o seu caderno por dificuldade: o Capítulo 1 usa 4 pares para iniciantes, o Capítulo 2 usa 5 pares, e o Capítulo 3 usa 6 pares para usuários avançados. Inclua os gabaritos no final do caderno usando a função de gabarito automático. O modo escala de cinzentos produz páginas económicas em tinta prontas para interiores de livros a preto e branco.',
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Fichas para Centros de Associação no TPT',
+        title: 'Fichas para Centros de Associação no Gumroad',
         description:
-          'Crie fichas de associação prontas para uso em centros de aula com campos de nome/data, números dos itens e gabaritos impressos. Os professores que procuram atividades de associação no TPT valorizam fichas que chegam prontas para a sala de aula — o campo de nome assegura a responsabilidade do aluno, os números dos itens tornam a correção eficiente durante as revisões em grupo, e o gabarito gerado automaticamente poupa tempo de preparação. Crie conjuntos alinhados com o currículo: associação de animais da quinta, grupos alimentares, vocabulário do tempo e animais por habitat. Cada conjunto inclui fichas de trabalho e gabaritos nos formatos PDF e JPEG.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Crie fichas de associação prontas para uso em centros de aula com campos de nome/data, números dos itens e gabaritos impressos. Os vendedores que procuram atividades de associação no Gumroad valorizam fichas que chegam prontas para a loja — o campo de nome assegura a responsabilidade do usuário, os números dos itens tornam o valor percebido eficiente durante as revisões em grupo, e o gabarito gerado automaticamente poupa tempo de preparação. Crie conjuntos alinhados com o catálogo de produtos: associação de animais da quinta, grupos alimentares, vocabulário do tempo e animais por habitat. Cada conjunto inclui fichas de trabalho e gabaritos nos formatos PDF e JPEG.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Fichas de Associação de Vocabulário em Múltiplos Idiomas',
         description:
-          'Aproveite os modos Letra Inicial e Imagem+Palavra sensíveis ao idioma para criar fichas de associação em 11 idiomas. As mesmas imagens produzem conteúdo de associação diferente quando muda de idioma — os nomes das imagens, as primeiras letras e o texto do cabeçalho atualizam-se automaticamente. Crie pacotes de vocabulário multilingue onde cada versão num idioma usa as mesmas imagens temáticas mas com palavras localizadas. Isto é particularmente valioso para professores de PLE, salas de aula bilingues e famílias de ensino doméstico internacionais. Venda pacotes por idioma ou megapacotes multilingues a preços premium.',
-        platform: 'Etsy / TPT (mercado multilingue)',
+          'Aproveite os modos Letra Inicial e Imagem+Palavra sensíveis ao idioma para criar fichas de associação em 11 idiomas. As mesmas imagens produzem conteúdo de associação diferente quando muda de idioma — os nomes das imagens, as primeiras letras e o texto do cabeçalho atualizam-se automaticamente. Crie pacotes de vocabulário multilingue onde cada versão num idioma usa as mesmas imagens temáticas mas com palavras localizadas. Isto é particularmente valioso para vendedores de PLE, salas de aula bilingues e famílias de ensino doméstico internacionais. Venda pacotes por idioma ou megapacotes multilingues a preços premium.',
+        platform: 'Etsy / Gumroad (mercado multilingue)',
       },
       {
         title: 'Coleções de Associação Sazonais',
         description:
           'As 104 coleções de imagens temáticas cobrem cada ocasião sazonal e festiva — Natal, Halloween, Páscoa, Dia dos Namorados, regresso às aulas, férias de verão e mais. Crie coleções de fichas de associação por época alinhadas com os picos de compra. Lance pacotes de associação de Halloween em setembro, coleções de Natal em outubro e pacotes do Dia dos Namorados em janeiro. Inclua os quatro modos de associação em cada conjunto sazonal para máximo valor. Os produtos sazonais alcançam preços mais altos durante as suas janelas de máxima procura e criam razões naturais para compras recorrentes.',
-        platform: 'Etsy / Amazon KDP / TPT (sazonal)',
+        platform: 'Etsy / Amazon KDP / Gumroad (sazonal)',
       },
     ],
   },
@@ -143,17 +143,17 @@ const content: AppContent = {
     {
       question: 'Quais são os quatro modos de associação e como diferem entre si?',
       answer:
-        'O gerador oferece quatro modos distintos. O modo Letra Inicial coloca as imagens à esquerda e a sua primeira letra à direita — os alunos associam cada imagem com a letra por que começa. O modo Imagem+Palavra mostra pares de imagens legendadas em ambos os lados para associação de vocabulário. O modo Imagem/Palavra Misto usa menus suspensos por linha para que cada lado possa apresentar independentemente uma imagem ou uma palavra, criando dificuldade variada dentro da mesma ficha. O modo Palavra Personalizada associa as imagens com as suas próprias palavras escritas para ortografia, vocabulário ou exercícios de línguas estrangeiras. Cada modo produz uma atividade de aprendizagem diferente a partir da mesma biblioteca de imagens.',
+        'O gerador oferece quatro modos distintos. O modo Letra Inicial coloca as imagens à esquerda e a sua primeira letra à direita — os usuários associam cada imagem com a letra por que começa. O modo Imagem+Palavra mostra pares de imagens legendadas em ambos os lados para associação de vocabulário. O modo Imagem/Palavra Misto usa menus suspensos por linha para que cada lado possa apresentar independentemente uma imagem ou uma palavra, criando dificuldade variada dentro da mesma ficha. O modo Palavra Personalizada associa as imagens com as suas próprias palavras escritas para ortografia, vocabulário ou exercícios de línguas estrangeiras. Cada modo produz uma atividade de aprendizagem diferente a partir da mesma biblioteca de imagens.',
     },
     {
       question: 'Como funciona o número de pares configurável?',
       answer:
-        'No painel Configuração da Ficha, selecione 4, 5 ou 6 no menu suspenso de número máximo de pares. O valor predefinido é 6 pares. Menos pares criam fichas com imagens maiores e mais espaçamento — ideal para alunos mais novos ou fichas com palavras mais longas. Mais pares aumentam a dificuldade e a densidade de conteúdo. O número de pares aplica-se de forma consistente nos quatro modos de associação.',
+        'No painel Configuração da Ficha, selecione 4, 5 ou 6 no menu suspenso de número máximo de pares. O valor predefinido é 6 pares. Menos pares criam fichas com imagens maiores e mais espaçamento — ideal para usuários mais novos ou fichas com palavras mais longas. Mais pares aumentam a dificuldade e a densidade de conteúdo. O número de pares aplica-se de forma consistente nos quatro modos de associação.',
     },
     {
       question: 'Como funciona o gabarito gerado automaticamente?',
       answer:
-        'O gerador usa um sistema de canvas duplo com um separador de Ficha de Trabalho e um separador de Gabarito. A ficha de trabalho mostra o layout a duas colunas sem linhas de ligação — os alunos desenham as suas próprias linhas para ligar os pares. O gabarito reproduz o layout idêntico e adiciona linhas de ligação horizontais (cor #555, largura de traço 2) entre cada correspondência correta. Ambas as versões exportam-se separadamente através de quatro botões de descarga dedicados: worksheet.jpeg, worksheet.pdf, answer_key.jpeg e answer_key.pdf.',
+        'O gerador usa um sistema de canvas duplo com um separador de Ficha de Trabalho e um separador de Gabarito. A ficha de trabalho mostra o layout a duas colunas sem linhas de ligação — os usuários desenham as suas próprias linhas para ligar os pares. O gabarito reproduz o layout idêntico e adiciona linhas de ligação horizontais (cor #555, largura de traço 2) entre cada correspondência correta. Ambas as versões exportam-se separadamente através de quatro botões de descarga dedicados: worksheet.jpeg, worksheet.pdf, answer_key.jpeg e answer_key.pdf.',
     },
     {
       question: 'Quais são os sub-modos do modo Letra Inicial?',
@@ -168,7 +168,7 @@ const content: AppContent = {
     {
       question: 'Como funcionam os números dos itens e os pontos decorativos?',
       answer:
-        'Dois controlos de ativação no painel Configuração da Ficha controlam a formatação. «Incluir números dos itens» (ativado por predefinição) adiciona numerais antes de cada par — útil para a correção e discussão em aula. «Mostrar pontos/marcadores» (ativado por predefinição) adiciona pontos decorativos junto aos itens para maior clareza visual. Ambas as opções são independentes: pode ter apenas os números, apenas os pontos, ambos ou nenhum, conforme o seu estilo de ficha e público-alvo.',
+        'Dois controlos de ativação no painel Configuração da Ficha controlam a formatação. «Incluir números dos itens» (ativado por predefinição) adiciona numerais antes de cada par — útil para o valor percebido e discussão em aula. «Mostrar pontos/marcadores» (ativado por predefinição) adiciona pontos decorativos junto aos itens para maior clareza visual. Ambas as opções são independentes: pode ter apenas os números, apenas os pontos, ambos ou nenhum, conforme o seu estilo de ficha e público-alvo.',
     },
     {
       question: 'Como funciona o cabeçalho localizado?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Posso vender fichas de associação criadas com esta ferramenta na Etsy e Amazon KDP?',
       answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas de associação como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos educativos no TPT ou através de qualquer outro canal de venda. Os quatro modos de associação, os gabaritos gerados automaticamente e as 104 coleções de imagens temáticas dão-lhe as ferramentas criativas para produzir produtos de atividades de associação originais e vendáveis.',
+        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas de associação como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos educativos no Gumroad ou através de qualquer outro canal de venda. Os quatro modos de associação, os gabaritos gerados automaticamente e as 104 coleções de imagens temáticas dão-lhe as ferramentas criativas para produzir produtos de atividades de associação originais e vendáveis.',
     },
     {
       question: 'Qual é a política de reembolso?',
@@ -269,7 +269,7 @@ const content: AppContent = {
       {
         src: '/samples/portuguese/matching/Encontre os Pares 2.webp',
         alt: 'Ficha de associação por letra inicial com imagens à esquerda e primeiras letras à direita',
-        caption: 'Modo Letra Inicial — os alunos associam imagens com a sua primeira letra',
+        caption: 'Modo Letra Inicial — os usuários associam imagens com a sua primeira letra',
       },
       {
         src: '/samples/portuguese/matching/Encontre os Pares 3.webp',

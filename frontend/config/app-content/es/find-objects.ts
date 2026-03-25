@@ -7,7 +7,7 @@ const content: AppContent = {
       'generador de fichas busca y encuentra imprimibles para vendedores Etsy',
       'creador de fichas de objetos ocultos para editores Amazon KDP',
       'generador de fichas yo espío con licencia comercial',
-      'vender fichas encuentra el diferente en Teachers Pay Teachers',
+      'vender fichas encuentra el diferente en Gumroad',
     ],
     lsiKeywords: [
       'productos digitales de fichas de objetos ocultos para emprendedores',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Generador Fichas Objetos Ocultos | para Vender',
     metaDescription:
-      'Crea fichas de objetos ocultos para Etsy, KDP y TPT. Modos Yo Espío y Encuentra el Diferente, escenas sin superposición, clave de respuestas. Prueba gratis.',
+      'Crea fichas de objetos ocultos para Etsy, KDP y Gumroad. Modos Yo Espío y Encuentra el Diferente, escenas sin superposición, clave de respuestas. Prueba gratis.',
   },
 
   hero: {
     title: 'Generador de Fichas de Objetos Ocultos para Actividades Yo Espío y Encuentra el Diferente',
     tagline: 'Dos modos de actividad en un solo generador — escenas Yo Espío con posicionamiento sin superposición e imágenes dispersas y fichas Encuentra el Diferente con imágenes emparejadas — con claves de respuestas autogeneradas, tamaño de imagen adaptativo, campos de nombre y fecha, y leyenda que muestra los objetos a encontrar.',
     description:
-      'Diseña fichas profesionales de objetos ocultos donde los estudiantes buscan en una escena de imágenes dispersas para encontrar y rodear objetos específicos. Elige entre dos modos de actividad: el modo Yo Espío usa un algoritmo de posicionamiento sin superposición para dispersar de 1 a 5 objetos ocultos entre 8 a 12 distractores por toda la página — sin cuadrícula, sin filas ni columnas, solo una escena visual cohesiva generada por el algoritmo findBestPosition() que prueba 50 posiciones aleatorias por imagen y reduce el tamaño adaptativamente cuando el espacio es limitado. Una leyenda en la parte inferior de la ficha muestra a los estudiantes exactamente qué objetos deben encontrar. El modo Encuentra el Diferente organiza de 8 a 12 imágenes emparejadas en filas con 1 a 5 elementos sin pareja mezclados — los estudiantes identifican las imágenes que no tienen un par correspondiente. El sistema de doble lienzo genera tanto una pestaña de ficha como una pestaña de clave de respuestas — la clave de respuestas dibuja círculos rojos alrededor de los objetos ocultos (Yo Espío) o los elementos sin pareja (Encuentra el Diferente) para que nunca tengas que marcarlos manualmente. El generador de objetos ocultos es puramente visual: el idioma afecta solo a las etiquetas de la interfaz, NO al contenido de la ficha, así que cada ficha funciona en cualquier idioma sin nombres de imagen localizados. El Acceso Completo desbloquea los 104 temas con más de 3100 ilustraciones y los 11 idiomas de interfaz. Añade temas de fondo y de borde con controles de opacidad independientes, activa o desactiva los campos de nombre y fecha, personaliza el encabezado autoajustable con 6 opciones de fuente, y exporta PDF y JPEG listos para imprimir a 300 DPI en formato Carta, A4 o dimensiones personalizadas. Ya sea que vendas paquetes de actividades de objetos ocultos en Etsy, compiles cuadernos de Yo Espío para Amazon KDP o crees actividades de discriminación visual para TPT, este generador produce fichas listas para la producción en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Diseña fichas profesionales de objetos ocultos donde los usuarios buscan en una escena de imágenes dispersas para encontrar y rodear objetos específicos. Elige entre dos modos de actividad: el modo Yo Espío usa un algoritmo de posicionamiento sin superposición para dispersar de 1 a 5 objetos ocultos entre 8 a 12 distractores por toda la página — sin cuadrícula, sin filas ni columnas, solo una escena visual cohesiva generada por el algoritmo findBestPosition() que prueba 50 posiciones aleatorias por imagen y reduce el tamaño adaptativamente cuando el espacio es limitado. Una leyenda en la parte inferior de la ficha muestra a los usuarios exactamente qué objetos deben encontrar. El modo Encuentra el Diferente organiza de 8 a 12 imágenes emparejadas en filas con 1 a 5 elementos sin pareja mezclados — los usuarios identifican las imágenes que no tienen un par correspondiente. El sistema de doble lienzo genera tanto una pestaña de ficha como una pestaña de clave de respuestas — la clave de respuestas dibuja círculos rojos alrededor de los objetos ocultos (Yo Espío) o los elementos sin pareja (Encuentra el Diferente) para que nunca tengas que marcarlos manualmente. El generador de objetos ocultos es puramente visual: el idioma afecta solo a las etiquetas de la interfaz, NO al contenido de la ficha, así que cada ficha funciona en cualquier idioma sin nombres de imagen localizados. El Acceso Completo desbloquea los 104 temas con más de 3100 ilustraciones y los 11 idiomas de interfaz. Añade temas de fondo y de borde con controles de opacidad independientes, activa o desactiva los campos de nombre y fecha, personaliza el encabezado autoajustable con 6 opciones de fuente, y exporta PDF y JPEG listos para imprimir a 300 DPI en formato Carta, A4 o dimensiones personalizadas. Ya sea que vendas paquetes de actividades de objetos ocultos en Etsy, compiles cuadernos de Yo Espío para Amazon KDP o crees actividades de discriminación visual para Gumroad, este generador produce fichas listas para la producción en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
   },
 
   howItWorks: {
@@ -47,12 +47,12 @@ const content: AppContent = {
       {
         title: 'Genera la Escena de Objetos Ocultos',
         description:
-          'Haz clic en Generar para crear la ficha. En el modo Yo Espío, el algoritmo sin superposición coloca cada imagen probando 50 posiciones aleatorias y seleccionando la que tiene menor superposición, reduciendo adaptativamente el tamaño de la imagen cuando el espacio es limitado. Una leyenda aparece en la parte inferior mostrando a los estudiantes qué objetos deben encontrar. En el modo Encuentra el Diferente, las imágenes se organizan en filas con elementos emparejados y sin pareja. El encabezado autoajustable muestra tu título en fuente Fredoka con contenedores decorativos tipo píldora — el tamaño de fuente se ajusta automáticamente según la longitud del texto.',
+          'Haz clic en Generar para crear la ficha. En el modo Yo Espío, el algoritmo sin superposición coloca cada imagen probando 50 posiciones aleatorias y seleccionando la que tiene menor superposición, reduciendo adaptativamente el tamaño de la imagen cuando el espacio es limitado. Una leyenda aparece en la parte inferior mostrando a los usuarios qué objetos deben encontrar. En el modo Encuentra el Diferente, las imágenes se organizan en filas con elementos emparejados y sin pareja. El encabezado autoajustable muestra tu título en fuente Fredoka con contenedores decorativos tipo píldora — el tamaño de fuente se ajusta automáticamente según la longitud del texto.',
       },
       {
         title: 'Genera la Clave de Respuestas y Descarga',
         description:
-          'Cambia a la pestaña Clave de Respuestas para ver las anotaciones autogeneradas: círculos rojos dibujados alrededor de los objetos ocultos (modo Yo Espío) o los elementos sin pareja (modo Encuentra el Diferente), de 3 a 5 px más grandes que el objeto para mayor visibilidad. Descarga ambas versiones usando cuatro botones dedicados en el menú desplegable: JPEG de Ficha, JPEG de Clave, PDF de Ficha y PDF de Clave a 300 DPI. Activa la escala de grises para versiones que ahorran tinta. Cada exportación está lista para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de TPT.',
+          'Cambia a la pestaña Clave de Respuestas para ver las anotaciones autogeneradas: círculos rojos dibujados alrededor de los objetos ocultos (modo Yo Espío) o los elementos sin pareja (modo Encuentra el Diferente), de 3 a 5 px más grandes que el objeto para mayor visibilidad. Descarga ambas versiones usando cuatro botones dedicados en el menú desplegable: JPEG de Ficha, JPEG de Clave, PDF de Ficha y PDF de Clave a 300 DPI. Activa la escala de grises para versiones que ahorran tinta. Cada exportación está lista para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Gumroad.',
       },
     ],
   },
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: 'Dos Modos de Actividad: Yo Espío y Encuentra el Diferente',
         description:
-          'Un solo generador cubre dos formatos de actividad distintos. El modo Yo Espío crea escenas de objetos ocultos en forma libre donde de 1 a 5 objetos objetivo se ocultan entre 8 a 12 distractores en una escena visual dispersa — los estudiantes buscan en la página y rodean lo que encuentran. El modo Encuentra el Diferente organiza de 8 a 12 imágenes emparejadas en filas con 1 a 5 elementos sin pareja mezclados — los estudiantes identifican las imágenes sin un par correspondiente. Las imágenes en el modo Encuentra el Diferente se muestran un 50% más grandes que en el modo Yo Espío para una comparación visual más clara. Cada modo produce un desafío cognitivo diferente a partir de la misma biblioteca de imágenes.',
+          'Un solo generador cubre dos formatos de actividad distintos. El modo Yo Espío crea escenas de objetos ocultos en forma libre donde de 1 a 5 objetos objetivo se ocultan entre 8 a 12 distractores en una escena visual dispersa — los usuarios buscan en la página y rodean lo que encuentran. El modo Encuentra el Diferente organiza de 8 a 12 imágenes emparejadas en filas con 1 a 5 elementos sin pareja mezclados — los usuarios identifican las imágenes sin un par correspondiente. Las imágenes en el modo Encuentra el Diferente se muestran un 50% más grandes que en el modo Yo Espío para una comparación visual más clara. Cada modo produce un desafío cognitivo diferente a partir de la misma biblioteca de imágenes.',
       },
       {
         title: 'Generación de Escenas sin Superposición con Tamaño de Imagen Adaptativo',
@@ -78,12 +78,12 @@ const content: AppContent = {
       {
         title: 'Leyenda que Muestra los Objetos a Encontrar en Modo Yo Espío',
         description:
-          'En el modo Yo Espío, una leyenda en el margen inferior de 120 px muestra los objetos objetivo que los estudiantes necesitan encontrar. Esta referencia visual indica a los estudiantes exactamente qué buscar sin instrucciones escritas — haciendo las fichas accesibles para prelectores y aulas multilingües. La leyenda se genera automáticamente basándose en los objetos ocultos seleccionados. El modo Encuentra el Diferente usa un margen inferior compacto de 50 px ya que los estudiantes descubren los elementos sin pareja mediante comparación visual en lugar de una lista de referencia.',
+          'En el modo Yo Espío, una leyenda en el margen inferior de 120 px muestra los objetos objetivo que los usuarios necesitan encontrar. Esta referencia visual indica a los usuarios exactamente qué buscar sin instrucciones escritas — haciendo las fichas accesibles para prelectores y tiendas multilingües. La leyenda se genera automáticamente basándose en los objetos ocultos seleccionados. El modo Encuentra el Diferente usa un margen inferior compacto de 50 px ya que los usuarios descubren los elementos sin pareja mediante comparación visual en lugar de una lista de referencia.',
       },
       {
         title: 'Campos de Nombre y Fecha con Control de Activación',
         description:
-          'Una casilla de verificación en el panel Texto y Contenido añade campos de «Nombre:» y «Fecha:» a la ficha. Estas líneas de identificación del estudiante aseguran la responsabilidad para uso en el aula y dan a las fichas un aspecto profesional para listados en marketplaces. Actívalos para productos listos para el aula o desactívalos para páginas de cuadernos de actividades donde la información del estudiante aparece en la portada. Los campos se integran limpiamente con el encabezado autogenerado y la leyenda.',
+          'Una casilla de verificación en el panel Texto y Contenido añade campos de «Nombre:» y «Fecha:» a la ficha. Estas líneas de identificación del usuario aseguran la responsabilidad para uso comercial y dan a las fichas un aspecto profesional para listados en marketplaces. Actívalos para productos listos para vender o desactívalos para páginas de cuadernos de actividades donde la información del usuario aparece en la portada. Los campos se integran limpiamente con el encabezado autogenerado y la leyenda.',
       },
       {
         title: 'Biblioteca de Imágenes con 104 Colecciones Temáticas y Más de 3100 Ilustraciones',
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: 'Exportación PDF y JPEG Lista para Imprimir a 300 DPI con Escala de Grises',
         description:
-          'Descarga fichas de objetos ocultos y claves de respuestas como imágenes JPEG de alta resolución o documentos PDF listos para imprimir a 300 DPI (multiplicador 6×). Cuatro botones de descarga en el menú desplegable exportan JPEG de Ficha, JPEG de Clave, PDF de Ficha y PDF de Clave por separado. Los tamaños de página incluyen Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal y dimensiones totalmente personalizadas. Activa la escala de grises para versiones que ahorran tinta. Cada exportación está lista para producción en descargas digitales, cuadernos impresos y materiales para el aula.',
+          'Descarga fichas de objetos ocultos y claves de respuestas como imágenes JPEG de alta resolución o documentos PDF listos para imprimir a 300 DPI (multiplicador 6×). Cuatro botones de descarga en el menú desplegable exportan JPEG de Ficha, JPEG de Clave, PDF de Ficha y PDF de Clave por separado. Los tamaños de página incluyen Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal y dimensiones totalmente personalizadas. Activa la escala de grises para versiones que ahorran tinta. Cada exportación está lista para producción en descargas digitales, cuadernos impresos y materiales para venta en línea.',
       },
       {
         title: 'Edición Completa del Lienzo con Herramientas de Texto, Temas de Fondo y Temas de Borde',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Fichas de Discriminación Visual Encuentra el Diferente para TPT',
+        title: 'Fichas de Discriminación Visual Encuentra el Diferente para Gumroad',
         description:
-          'Diseña fichas listas para usar de Encuentra el Diferente donde los estudiantes identifican elementos sin pareja entre conjuntos emparejados. Los profesores que buscan actividades de discriminación visual en TPT valoran fichas que desarrollan habilidades de observación y razonamiento lógico. Crea conjuntos alineados con el currículo: encuentra el diferente de animales de granja, reconocimiento de formas, clasificación estacional y clasificación por hábitats. Incluye campos de nombre y fecha para responsabilidad del estudiante, y proporciona claves de respuestas que muestran qué elementos no tenían pareja. Cada conjunto se exporta en formato PDF y JPEG.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Diseña fichas listas para usar de Encuentra el Diferente donde los usuarios identifican elementos sin pareja entre conjuntos emparejados. Los vendedores que buscan actividades de discriminación visual en Gumroad valoran fichas que desarrollan habilidades de observación y razonamiento lógico. Crea conjuntos alineados con el catálogo de productos: encuentra el diferente de animales de granja, reconocimiento de formas, clasificación estacional y clasificación por hábitats. Incluye campos de nombre y fecha para responsabilidad del usuario, y proporciona claves de respuestas que muestran qué elementos no tenían pareja. Cada conjunto se exporta en formato PDF y JPEG.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Colecciones Estacionales de Actividades de Objetos Ocultos',
         description:
           'Las 104 colecciones temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, San Valentín, vuelta al cole, vacaciones de verano y más. Crea colecciones de fichas de objetos ocultos por disponible ahora que se alineen con los períodos de mayor demanda. Publica paquetes de Yo Espío de Halloween en septiembre, colecciones de objetos ocultos de Navidad en octubre, y paquetes de busca y encuentra de San Valentín en enero. Incluye fichas tanto de Yo Espío como de Encuentra el Diferente en cada conjunto estacional para máximo valor.',
-        platform: 'Etsy / Amazon KDP / TPT (estacional)',
+        platform: 'Etsy / Amazon KDP / Gumroad (estacional)',
       },
       {
         title: 'Paquetes Mixtos de Yo Espío y Encuentra el Diferente',
         description:
-          'Combina ambos modos de actividad en paquetes variados premium. Cada paquete incluye escenas de Yo Espío donde los estudiantes encuentran objetos específicos en una escena dispersa, más fichas de Encuentra el Diferente donde los estudiantes identifican elementos sin pareja entre conjuntos emparejados. Esta combinación trabaja dos habilidades cognitivas diferentes — búsqueda visual y discriminación visual — en un solo producto. Los paquetes mixtos tienen precios más altos porque ofrecen más variedad de actividades y cubren más objetivos de aprendizaje que los productos de un solo modo.',
-        platform: 'Etsy / TPT (paquetes variados)',
+          'Combina ambos modos de actividad en paquetes variados premium. Cada paquete incluye escenas de Yo Espío donde los usuarios encuentran objetos específicos en una escena dispersa, más fichas de Encuentra el Diferente donde los usuarios identifican elementos sin pareja entre conjuntos emparejados. Esta combinación trabaja dos habilidades cognitivas diferentes — búsqueda visual y discriminación visual — en un solo producto. Los paquetes mixtos tienen precios más altos porque ofrecen más variedad de actividades y cubren más objetivos de aprendizaje que los productos de un solo modo.',
+        platform: 'Etsy / Gumroad (paquetes variados)',
       },
     ],
   },
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: '¿Cuáles son los dos modos de actividad y en qué se diferencian?',
       answer:
-        'El generador ofrece dos modos distintos. El modo Yo Espío (predeterminado) crea escenas de objetos ocultos en forma libre donde de 1 a 5 objetos objetivo se dispersan entre 8 a 12 distractores usando un algoritmo de posicionamiento sin superposición — los estudiantes buscan en la página y rodean lo que encuentran, guiados por una leyenda en la parte inferior que muestra los objetos a localizar. El modo Encuentra el Diferente organiza de 8 a 12 imágenes emparejadas en filas con 1 a 5 elementos sin pareja mezclados — los estudiantes identifican las imágenes que no tienen un par correspondiente. Las imágenes en el modo Encuentra el Diferente son un 50% más grandes que en el modo Yo Espío para una comparación visual más clara.',
+        'El generador ofrece dos modos distintos. El modo Yo Espío (predeterminado) crea escenas de objetos ocultos en forma libre donde de 1 a 5 objetos objetivo se dispersan entre 8 a 12 distractores usando un algoritmo de posicionamiento sin superposición — los usuarios buscan en la página y rodean lo que encuentran, guiados por una leyenda en la parte inferior que muestra los objetos a localizar. El modo Encuentra el Diferente organiza de 8 a 12 imágenes emparejadas en filas con 1 a 5 elementos sin pareja mezclados — los usuarios identifican las imágenes que no tienen un par correspondiente. Las imágenes en el modo Encuentra el Diferente son un 50% más grandes que en el modo Yo Espío para una comparación visual más clara.',
     },
     {
       question: '¿Cómo funciona el algoritmo de posicionamiento sin superposición en el modo Yo Espío?',
@@ -153,27 +153,27 @@ const content: AppContent = {
     {
       question: '¿Cuántos objetos ocultos y distractores puedo usar en el modo Yo Espío?',
       answer:
-        'En el modo Yo Espío, puedes configurar de 1 a 5 objetos ocultos (los objetivos que los estudiantes necesitan encontrar) y de 8 a 12 objetos distractores (las imágenes circundantes que llenan la escena). Comienza con 1–2 objetos ocultos y 8 distractores para fichas más fáciles, y aumenta a 5 objetos ocultos entre 12 distractores para escenas desafiantes. La leyenda en la parte inferior de la ficha muestra a los estudiantes qué objetos deben encontrar.',
+        'En el modo Yo Espío, puedes configurar de 1 a 5 objetos ocultos (los objetivos que los usuarios necesitan encontrar) y de 8 a 12 objetos distractores (las imágenes circundantes que llenan la escena). Comienza con 1–2 objetos ocultos y 8 distractores para fichas más fáciles, y aumenta a 5 objetos ocultos entre 12 distractores para escenas desafiantes. La leyenda en la parte inferior de la ficha muestra a los usuarios qué objetos deben encontrar.',
     },
     {
       question: '¿Cómo funciona el modo Encuentra el Diferente?',
       answer:
-        'El modo Encuentra el Diferente organiza imágenes en filas con elementos emparejados y sin pareja. Configura de 8 a 12 imágenes emparejadas (cada una aparece dos veces en el diseño) y de 1 a 5 elementos sin pareja que aparecen solo una vez. Los estudiantes examinan cada fila e identifican la imagen que no tiene un par correspondiente. Las imágenes se muestran un 50% más grandes que en el modo Yo Espío para una comparación visual más clara. No hay leyenda en la parte inferior ya que los estudiantes descubren los elementos sin pareja mediante análisis visual en lugar de una lista de referencia.',
+        'El modo Encuentra el Diferente organiza imágenes en filas con elementos emparejados y sin pareja. Configura de 8 a 12 imágenes emparejadas (cada una aparece dos veces en el diseño) y de 1 a 5 elementos sin pareja que aparecen solo una vez. Los usuarios examinan cada fila e identifican la imagen que no tiene un par correspondiente. Las imágenes se muestran un 50% más grandes que en el modo Yo Espío para una comparación visual más clara. No hay leyenda en la parte inferior ya que los usuarios descubren los elementos sin pareja mediante análisis visual en lugar de una lista de referencia.',
     },
     {
       question: '¿Qué muestra la leyenda en la parte inferior de la ficha?',
       answer:
-        'En el modo Yo Espío, una leyenda en el margen inferior de 120 px muestra los objetos objetivo que los estudiantes necesitan encontrar. Esta referencia visual indica a cada estudiante exactamente qué buscar — haciendo las fichas accesibles para prelectores y aulas multilingües sin necesidad de instrucciones escritas. El modo Encuentra el Diferente no incluye leyenda ya que la actividad se explica por sí sola: encontrar la imagen sin un par correspondiente.',
+        'En el modo Yo Espío, una leyenda en el margen inferior de 120 px muestra los objetos objetivo que los usuarios necesitan encontrar. Esta referencia visual indica a cada usuario exactamente qué buscar — haciendo las fichas accesibles para prelectores y tiendas multilingües sin necesidad de instrucciones escritas. El modo Encuentra el Diferente no incluye leyenda ya que la actividad se explica por sí sola: encontrar la imagen sin un par correspondiente.',
     },
     {
       question: '¿Cómo funciona la clave de respuestas autogenerada?',
       answer:
-        'El generador usa un sistema de doble lienzo con una pestaña de Ficha y una pestaña de Clave de Respuestas. La ficha muestra la escena de objetos ocultos sin marcas — los estudiantes buscan y rodean los objetos por sí mismos. La clave de respuestas reproduce el diseño idéntico y dibuja círculos rojos alrededor de los objetos correctos: objetivos ocultos en el modo Yo Espío y elementos sin pareja en el modo Encuentra el Diferente. Los círculos son de 3 a 5 px más grandes que el objeto para mayor visibilidad. Ambas versiones se exportan por separado usando cuatro botones de descarga: JPEG de Ficha, JPEG de Clave, PDF de Ficha y PDF de Clave.',
+        'El generador usa un sistema de doble lienzo con una pestaña de Ficha y una pestaña de Clave de Respuestas. La ficha muestra la escena de objetos ocultos sin marcas — los usuarios buscan y rodean los objetos por sí mismos. La clave de respuestas reproduce el diseño idéntico y dibuja círculos rojos alrededor de los objetos correctos: objetivos ocultos en el modo Yo Espío y elementos sin pareja en el modo Encuentra el Diferente. Los círculos son de 3 a 5 px más grandes que el objeto para mayor visibilidad. Ambas versiones se exportan por separado usando cuatro botones de descarga: JPEG de Ficha, JPEG de Clave, PDF de Ficha y PDF de Clave.',
     },
     {
       question: '¿Puedo añadir campos de nombre y fecha a la ficha?',
       answer:
-        'Sí. Una casilla de verificación en el panel Texto y Contenido añade campos de «Nombre:» y «Fecha:» a la ficha. Estas líneas de identificación del estudiante aseguran la responsabilidad para uso en el aula y dan a tus fichas un aspecto profesional para listados en marketplaces. Actívalos para productos listos para el aula o desactívalos para páginas de cuadernos de actividades.',
+        'Sí. Una casilla de verificación en el panel Texto y Contenido añade campos de «Nombre:» y «Fecha:» a la ficha. Estas líneas de identificación del usuario aseguran la responsabilidad para uso comercial y dan a tus fichas un aspecto profesional para listados en marketplaces. Actívalos para productos listos para vender o desactívalos para páginas de cuadernos de actividades.',
     },
     {
       question: '¿Cómo funciona el encabezado autogenerado?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender fichas de objetos ocultos creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes plenos derechos para vender tus fichas de objetos ocultos como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para el aula en TPT, o a través de cualquier otro canal de ventas. Los dos modos de actividad, la generación de escenas sin superposición y las 104 colecciones temáticas de imágenes te dan las herramientas creativas para producir productos de objetos ocultos originales y vendibles.',
+        'Sí. Con una licencia comercial, tienes plenos derechos para vender tus fichas de objetos ocultos como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para venta en línea en Gumroad, o a través de cualquier otro canal de ventas. Los dos modos de actividad, la generación de escenas sin superposición y las 104 colecciones temáticas de imágenes te dan las herramientas creativas para producir productos de objetos ocultos originales y vendibles.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

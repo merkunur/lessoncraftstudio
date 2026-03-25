@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'gerador de fichas de gráfico de imagens para vendedores Etsy',
       'criador de fichas de pictograma para editores Amazon KDP',
-      'vender atividades de gráfico pictórico no Teachers Pay Teachers',
+      'vender atividades de gráfico pictórico no Gumroad',
       'gerador de fichas de representação de dados licença comercial',
     ],
     lsiKeywords: [
@@ -16,23 +16,23 @@ const content: AppContent = {
     ],
     titleTag: 'Gerador Fichas Gráfico Pictórico | Criar e Vender',
     metaDescription:
-      'Crie fichas de gráfico pictórico para Etsy, KDP e TPT. Gabarito automático, 104 temas, 6 tipos de imagens por ficha em PDF. Teste grátis com marca d\'água.',
+      'Crie fichas de gráfico pictórico para Etsy, KDP e Gumroad. Gabarito automático, 104 temas, 6 tipos de imagens por ficha em PDF. Teste grátis com marca d\'água.',
   },
 
   hero: {
     title: 'Gerador de Fichas de Gráfico Pictórico para Atividades de Contagem Imprimíveis',
     tagline: 'Gerador de pictogramas com canvas duplo — crie grelhas de imagens dispersas com 6 tipos de imagens, gabaritos em gráfico de barras gerados automaticamente, cabeçalhos localizados em 11 idiomas e 104 coleções de imagens temáticas para fichas de representação de dados.',
     description:
-      'Transforme a contagem visual numa atividade completa de competências de dados com o único gerador de fichas concebido especificamente para gráficos pictóricos. Cada ficha apresenta uma grelha de imagens dispersas com 20 ícones de 6 tipos diferentes dispostos num formato 4×5 — os alunos contam quantos de cada tipo aparecem e depois colorem as células correspondentes no gráfico de barras abaixo. A aplicação gera simultaneamente um gabarito com células destacadas a amarelo mostrando as contagens corretas, permitindo aos professores verificar o trabalho dos alunos instantaneamente. Escolha as imagens automaticamente selecionando um tema no menu suspenso Fonte de Imagens da Ficha, ou selecione manualmente exatamente 6 imagens a partir da Biblioteca de Imagens com mais de 3100 ilustrações em 104 coleções. Cada ficha inclui um cabeçalho autogerado com um título localizado «Gráfico Pictórico» e instruções de contagem — o cabeçalho adapta-se automaticamente aos 11 idiomas suportados. Adicione campos de nome e data do aluno com uma única caixa de verificação, aplique temas de fundo e borda com controlos de opacidade independentes, e personalize com ferramentas de texto e edição direta no canvas. O Gerador de Gráficos de Contagem não é sensível ao idioma — a contagem visual usa números e imagens universais, pelo que as fichas funcionam de forma idêntica em todos os idiomas. O Acesso Completo desbloqueia os 104 temas e os 11 idiomas de interface. Exporte PDFs e JPEGs prontos para impressão a 300 DPI nos formatos Carta, A4, Quadrado (1200×1200) ou dimensões personalizadas. Descarregue os quatro ficheiros — ficha JPEG, ficha PDF, gabarito JPEG e gabarito PDF — numa única sessão. Quer venda pacotes de gráficos pictóricos na Etsy, compile cadernos de competências de dados para a Amazon KDP ou crie atividades de centro de matemática para o TPT, o Gerador de Gráficos de Contagem oferece resultados prontos para a sala de aula em minutos — teste grátis com todas as funcionalidades, sem registo, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Transforme a contagem visual numa atividade completa de competências de dados com o único gerador de fichas concebido especificamente para gráficos pictóricos. Cada ficha apresenta uma grelha de imagens dispersas com 20 ícones de 6 tipos diferentes dispostos num formato 4×5 — os usuários contam quantos de cada tipo aparecem e depois colorem as células correspondentes no gráfico de barras abaixo. A aplicação gera simultaneamente um gabarito com células destacadas a amarelo mostrando as contagens corretas, permitindo aos vendedores verificar o trabalho dos usuários instantaneamente. Escolha as imagens automaticamente selecionando um tema no menu suspenso Fonte de Imagens da Ficha, ou selecione manualmente exatamente 6 imagens a partir da Biblioteca de Imagens com mais de 3100 ilustrações em 104 coleções. Cada ficha inclui um cabeçalho autogerado com um título localizado «Gráfico Pictórico» e instruções de contagem — o cabeçalho adapta-se automaticamente aos 11 idiomas suportados. Adicione campos de nome e data do usuário com uma única caixa de verificação, aplique temas de fundo e borda com controlos de opacidade independentes, e personalize com ferramentas de texto e edição direta no canvas. O Gerador de Gráficos de Contagem não é sensível ao idioma — a contagem visual usa números e imagens universais, pelo que as fichas funcionam de forma idêntica em todos os idiomas. O Acesso Completo desbloqueia os 104 temas e os 11 idiomas de interface. Exporte PDFs e JPEGs prontos para impressão a 300 DPI nos formatos Carta, A4, Quadrado (1200×1200) ou dimensões personalizadas. Descarregue os quatro ficheiros — ficha JPEG, ficha PDF, gabarito JPEG e gabarito PDF — numa única sessão. Quer venda pacotes de gráficos pictóricos na Etsy, compile cadernos de competências de dados para a Amazon KDP ou crie atividades de centro de matemática para o Gumroad, o Gerador de Gráficos de Contagem oferece resultados prontos para a loja em minutos — teste grátis com todas as funcionalidades, sem registo, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
   },
 
   howItWorks: {
     title: 'Como Criar Fichas de Gráfico Pictórico em 5 Passos',
     steps: [
       {
-        title: 'Configure o layout da página e os campos do aluno',
+        title: 'Configure o layout da página e os campos do usuário',
         description:
-          'Abra o painel de Configuração de Página e escolha um formato: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) ou qualquer dimensão personalizada. Selecione uma cor de página com o seletor de cores — o branco é o valor predefinido para fichas limpas. Marque a caixa Incluir Nome/Data para adicionar campos formatados «Nome: ____» e «Data: ____» na parte inferior da página, para que os alunos identifiquem o seu trabalho. Escolha um tema de fundo e um tema de borda a partir da biblioteca integrada, cada um com um controlo deslizante de opacidade independente (0 a 1, passo de 0,05) para um enquadramento decorativo subtil ou pronunciado.',
+          'Abra o painel de Configuração de Página e escolha um formato: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) ou qualquer dimensão personalizada. Selecione uma cor de página com o seletor de cores — o branco é o valor predefinido para fichas limpas. Marque a caixa Incluir Nome/Data para adicionar campos formatados «Nome: ____» e «Data: ____» na parte inferior da página, para que os usuários identifiquem o seu trabalho. Escolha um tema de fundo e um tema de borda a partir da biblioteca integrada, cada um com um controlo deslizante de opacidade independente (0 a 1, passo de 0,05) para um enquadramento decorativo subtil ou pronunciado.',
       },
       {
         title: 'Escolha a fonte de imagens',
@@ -42,7 +42,7 @@ const content: AppContent = {
       {
         title: 'Gere a ficha de gráfico pictórico',
         description:
-          'Clique em Gerar para criar a ficha. A aplicação distribui 20 ícones dispersos dos seus 6 tipos de imagens selecionados numa grelha 4×5 com uma borda tracejada na parte superior da página. Abaixo da grelha, aparece um gráfico de barras de 6 colunas × 5 linhas com cada coluna rotulada por um dos 6 tipos de imagens. As linhas são numeradas de 1 a 5 de baixo para cima. Um cabeçalho autogerado apresenta um título localizado «Gráfico Pictórico» e instruções de contagem numa pastilha amarela estilizada com moldura de borda laranja. O canvas da ficha mostra células vazias prontas para os alunos preencherem.',
+          'Clique em Gerar para criar a ficha. A aplicação distribui 20 ícones dispersos dos seus 6 tipos de imagens selecionados numa grelha 4×5 com uma borda tracejada na parte superior da página. Abaixo da grelha, aparece um gráfico de barras de 6 colunas × 5 linhas com cada coluna rotulada por um dos 6 tipos de imagens. As linhas são numeradas de 1 a 5 de baixo para cima. Um cabeçalho autogerado apresenta um título localizado «Gráfico Pictórico» e instruções de contagem numa pastilha amarela estilizada com moldura de borda laranja. O canvas da ficha mostra células vazias prontas para os usuários preencherem.',
       },
       {
         title: 'Personalize com ferramentas de texto e edição no canvas',
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Gere o gabarito e descarregue tudo',
         description:
-          'Mude para o separador Gabarito para ver a solução autogerada — as células do gráfico de barras estão preenchidas com um destaque amarelo (#FFC857) mostrando a contagem correta para cada tipo de imagem. Ative a opção de escala de cinzentos para versões económicas em tinta. Descarregue os quatro ficheiros: ficha JPEG, ficha PDF, gabarito JPEG e gabarito PDF — todos renderizados a 300 DPI. Os ficheiros são guardados como worksheet.jpeg, worksheet.pdf, answer_key.jpeg e answer_key.pdf para organização fácil. Cada exportação está pronta para produção: listagens da Etsy, interiores da Amazon KDP e ficheiros de produtos TPT.',
+          'Mude para o separador Gabarito para ver a solução autogerada — as células do gráfico de barras estão preenchidas com um destaque amarelo (#FFC857) mostrando a contagem correta para cada tipo de imagem. Ative a opção de escala de cinzentos para versões económicas em tinta. Descarregue os quatro ficheiros: ficha JPEG, ficha PDF, gabarito JPEG e gabarito PDF — todos renderizados a 300 DPI. Os ficheiros são guardados como worksheet.jpeg, worksheet.pdf, answer_key.jpeg e answer_key.pdf para organização fácil. Cada exportação está pronta para produção: listagens da Etsy, interiores da Amazon KDP e ficheiros de produtos Gumroad.',
       },
     ],
   },
@@ -63,12 +63,12 @@ const content: AppContent = {
       {
         title: 'Gerador de fichas de gráfico pictórico com grelha de imagens dispersas e gráfico de barras',
         description:
-          'Cada ficha gerada combina dois elementos interligados: uma grelha 4×5 contendo 20 ícones dispersos de 6 tipos de imagens diferentes, e um gráfico de barras de 6 colunas × 5 linhas onde cada coluna corresponde a um tipo de imagem. Cada tipo de imagem aparece de 1 a 5 vezes na grelha (máximo 5 por tipo, distribuídos aleatoriamente), criando um desafio de contagem único de cada vez que gera. Os alunos contam quantos de cada tipo de imagem aparecem na grelha, depois colorem o número correspondente de células no gráfico abaixo. Este formato em duas partes ensina simultaneamente a recolha de dados e a representação de dados — o núcleo das competências gráficas básicas.',
+          'Cada ficha gerada combina dois elementos interligados: uma grelha 4×5 contendo 20 ícones dispersos de 6 tipos de imagens diferentes, e um gráfico de barras de 6 colunas × 5 linhas onde cada coluna corresponde a um tipo de imagem. Cada tipo de imagem aparece de 1 a 5 vezes na grelha (máximo 5 por tipo, distribuídos aleatoriamente), criando um desafio de contagem único de cada vez que gera. Os usuários contam quantos de cada tipo de imagem aparecem na grelha, depois colorem o número correspondente de células no gráfico abaixo. Este formato em duas partes ensina simultaneamente a recolha de dados e a representação de dados — o núcleo das competências gráficas básicas.',
       },
       {
         title: 'Gabarito autogerado com células do gráfico preenchidas',
         description:
-          'Cada ficha gera simultaneamente um gabarito correspondente num separador de canvas separado. O gabarito mostra a mesma grelha de imagens e o mesmo gráfico de barras, mas com as células corretas preenchidas com um destaque amarelo (#FFC857). Os professores veem de relance quantos de cada tipo de imagem devem aparecer no gráfico. Alterne entre os separadores Ficha e Gabarito para comparar. Descarregue ambas as versões de forma independente — ficha JPEG/PDF e gabarito JPEG/PDF — obtendo quatro ficheiros prontos para produção a partir de uma única geração. O gabarito automático elimina a contagem manual e garante a precisão em grandes lotes de fichas.',
+          'Cada ficha gera simultaneamente um gabarito correspondente num separador de canvas separado. O gabarito mostra a mesma grelha de imagens e o mesmo gráfico de barras, mas com as células corretas preenchidas com um destaque amarelo (#FFC857). Os vendedores veem de relance quantos de cada tipo de imagem devem aparecer no gráfico. Alterne entre os separadores Ficha e Gabarito para comparar. Descarregue ambas as versões de forma independente — ficha JPEG/PDF e gabarito JPEG/PDF — obtendo quatro ficheiros prontos para produção a partir de uma única geração. O gabarito automático elimina a contagem manual e garante a precisão em grandes lotes de fichas.',
       },
       {
         title: 'Modos de seleção de imagens automático e manual',
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: 'Cabeçalho localizado do gráfico pictórico com título e instruções',
         description:
-          'Cada ficha gerada inclui um cabeçalho autogerado com um fundo em forma de pastilha amarela (#FFD93D), uma pastilha interior branca e uma moldura de borda laranja (exterior #FF8C42, interior #FFD6A5). O cabeçalho apresenta um título localizado — «Picture Graph» em inglês, «Bilddiagramm» em alemão, «Graphique en Images» em francês, e traduções equivalentes nos 11 idiomas suportados. Abaixo do título, instruções de contagem localizadas orientam os alunos ao longo da atividade. O cabeçalho adapta-se automaticamente quando muda o idioma da interface, tornando as fichas prontas para a sala de aula em qualquer idioma sem edição manual do texto.',
+          'Cada ficha gerada inclui um cabeçalho autogerado com um fundo em forma de pastilha amarela (#FFD93D), uma pastilha interior branca e uma moldura de borda laranja (exterior #FF8C42, interior #FFD6A5). O cabeçalho apresenta um título localizado — «Picture Graph» em inglês, «Bilddiagramm» em alemão, «Graphique en Images» em francês, e traduções equivalentes nos 11 idiomas suportados. Abaixo do título, instruções de contagem localizadas orientam os usuários ao longo da atividade. O cabeçalho adapta-se automaticamente quando muda o idioma da interface, tornando as fichas prontas para a loja em qualquer idioma sem edição manual do texto.',
       },
       {
         title: 'Biblioteca de Imagens com 104 coleções temáticas e mais de 3100 ilustrações',
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: 'Exportação PDF e JPEG pronta para impressão a 300 DPI com modo escala de cinzentos',
         description:
-          'Descarregue fichas de gráfico pictórico e gabaritos como imagens JPEG de alta resolução ou documentos PDF prontos para impressão renderizados a 300 DPI através de um multiplicador 6× para uma saída nítida. Os formatos de página incluem Carta Vertical (612×792), Carta Horizontal (792×612), A4 Vertical (595×842), A4 Horizontal (842×595), Quadrado (1200×1200) e dimensões completamente personalizadas. Ative a escala de cinzentos para versões económicas em tinta ideais para impressão na sala de aula e interiores de livros KDP. Quatro botões de descarga fornecem ficha JPEG, gabarito JPEG, ficha PDF e gabarito PDF — um conjunto de produtos completo a partir de uma única geração.',
+          'Descarregue fichas de gráfico pictórico e gabaritos como imagens JPEG de alta resolução ou documentos PDF prontos para impressão renderizados a 300 DPI através de um multiplicador 6× para uma saída nítida. Os formatos de página incluem Carta Vertical (612×792), Carta Horizontal (792×612), A4 Vertical (595×842), A4 Horizontal (842×595), Quadrado (1200×1200) e dimensões completamente personalizadas. Ative a escala de cinzentos para versões económicas em tinta ideais para impressão online e interiores de livros KDP. Quatro botões de descarga fornecem ficha JPEG, gabarito JPEG, ficha PDF e gabarito PDF — um conjunto de produtos completo a partir de uma única geração.',
       },
       {
         title: 'Edição completa do canvas com ferramentas de texto e controlos de camadas',
@@ -109,32 +109,32 @@ const content: AppContent = {
       {
         title: 'Pacotes temáticos de gráficos pictóricos na Etsy',
         description:
-          'Crie pacotes de fichas de gráfico pictórico temáticas usando as 104 coleções de imagens — gráficos de contagem de animais, gráficos de dados de alimentos, fichas de contagem de veículos, gráficos de observação da natureza e dezenas mais. Cada tema fornece imagens suficientes para 10 a 20 fichas únicas com distribuições aleatórias diferentes. Inclua o gabarito autogerado com cada ficha para conveniência dos professores. Ofereça temas como pacotes individuais a $3–$5 cada, ou combine vários temas em megapacotes a $12–$18. A grelha de imagens dispersas com 6 tipos por ficha garante que cada ficha é única e impossível de recriar manualmente, dando aos seus produtos uma originalidade autêntica.',
+          'Crie pacotes de fichas de gráfico pictórico temáticas usando as 104 coleções de imagens — gráficos de contagem de animais, gráficos de dados de alimentos, fichas de contagem de veículos, gráficos de observação da natureza e dezenas mais. Cada tema fornece imagens suficientes para 10 a 20 fichas únicas com distribuições aleatórias diferentes. Inclua o gabarito autogerado com cada ficha para conveniência dos vendedores. Ofereça temas como pacotes individuais a $3–$5 cada, ou combine vários temas em megapacotes a $12–$18. A grelha de imagens dispersas com 6 tipos por ficha garante que cada ficha é única e impossível de recriar manualmente, dando aos seus produtos uma originalidade autêntica.',
         platform: 'Etsy (etsy.com)',
       },
       {
         title: 'Cadernos de competências de dados na Amazon KDP',
         description:
-          'Compile 60 a 100 fichas de gráfico pictórico num caderno impresso de competências de dados formatado para a Amazon KDP. Estruture os capítulos por tema: o capítulo 1 cobre contagem de animais, o capítulo 2 gráficos de alimentos, o capítulo 3 dados de veículos, e assim por diante. Ative a exportação em escala de cinzentos para páginas económicas em tinta prontas para interiores a preto e branco. Inclua as páginas de gabarito no final de cada capítulo para referência de pais e professores. A geração com canvas duplo produz automaticamente ficha e gabarito, pelo que construir um caderno de 100 páginas com soluções completas demora uma fração do tempo comparado com a criação manual.',
+          'Compile 60 a 100 fichas de gráfico pictórico num caderno impresso de competências de dados formatado para a Amazon KDP. Estruture os capítulos por tema: o capítulo 1 cobre contagem de animais, o capítulo 2 gráficos de alimentos, o capítulo 3 dados de veículos, e assim por diante. Ative a exportação em escala de cinzentos para páginas económicas em tinta prontas para interiores a preto e branco. Inclua as páginas de gabarito no final de cada capítulo para referência de pais e vendedores. A geração com canvas duplo produz automaticamente ficha e gabarito, pelo que construir um caderno de 100 páginas com soluções completas demora uma fração do tempo comparado com a criação manual.',
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Fichas de atividades de centro de matemática para TPT',
+        title: 'Fichas de atividades de centro de matemática para Gumroad',
         description:
-          'Construa atividades de centro de matemática prontas para uso com gráficos pictóricos que incluem campos de nome e data do aluno. Os professores que procuram atividades de gráficos no TPT valorizam fichas com identificação integrada do aluno — a caixa de nome/data torna o seu produto imediatamente pronto para a sala de aula sem formatação adicional. Crie conjuntos temáticos ligados a unidades curriculares: contagem de animais da quinta para ciências da vida, gráficos de ícones meteorológicos para ciências da terra, ou contagem de veículos de ajudantes comunitários para educação cívica. Cada ficha vem com o seu próprio gabarito, eliminando o tempo de preparação do professor.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Construa atividades de centro de matemática prontas para uso com gráficos pictóricos que incluem campos de nome e data do usuário. Os vendedores que procuram atividades de gráficos no Gumroad valorizam fichas com identificação integrada do usuário — a caixa de nome/data torna o seu produto imediatamente pronto para a loja sem formatação adicional. Crie conjuntos temáticos ligados a unidades curriculares: contagem de animais da quinta para ciências da vida, gráficos de ícones meteorológicos para ciências da terra, ou contagem de veículos de ajudantes comunitários para educação cívica. Cada ficha vem com o seu próprio gabarito, eliminando o tempo de preparação do vendedor.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Atividades de dados interdisciplinares',
         description:
-          'Os gráficos pictóricos ligam naturalmente a matemática a outras disciplinas. Use os temas de animais para unidades de ciências sobre habitats e classificação. Use os temas de alimentos para lições de saúde e nutrição. Use os temas de veículos para tópicos sobre a comunidade e os transportes. As 104 coleções temáticas cobrem virtualmente todas as disciplinas do ensino básico, permitindo-lhe criar fichas de representação de dados que reforçam o vocabulário do conteúdo enquanto ensinam competências gráficas. Venda pacotes interdisciplinares que atraiam professores à procura de atividades integradas — um nicho em crescimento nas três principais plataformas.',
-        platform: 'Etsy / Amazon KDP / TPT',
+          'Os gráficos pictóricos ligam naturalmente a matemática a outras disciplinas. Use os temas de animais para unidades de ciências sobre habitats e classificação. Use os temas de alimentos para lições de saúde e nutrição. Use os temas de veículos para tópicos sobre a comunidade e os transportes. As 104 coleções temáticas cobrem virtualmente todas as disciplinas do ensino básico, permitindo-lhe criar fichas de representação de dados que reforçam o vocabulário do conteúdo enquanto ensinam competências gráficas. Venda pacotes interdisciplinares que atraiam vendedores à procura de atividades integradas — um nicho em crescimento nas três principais plataformas.',
+        platform: 'Etsy / Amazon KDP / Gumroad',
       },
       {
         title: 'Coleções sazonais de contagem e gráficos',
         description:
-          'As 104 coleções de imagens temáticas cobrem cada ocasião sazonal e festiva — enfeites de Natal, ícones de Halloween, objetos de Páscoa, corações de Dia dos Namorados, materiais de regresso às aulas, atividades de verão e cenas de inverno. Crie coleções de gráficos pictóricos por época alinhadas com os picos de compra. Lance os pacotes de contagem de Halloween em setembro, os pacotes de gráficos de Natal em outubro e as atividades de dados do Dia dos Namorados em janeiro. Inclua gabaritos com cada conjunto para produtos docentes completos. Os produtos sazonais alcançam preços mais altos durante as suas janelas de máxima procura e criam razões naturais para compras recorrentes.',
-        platform: 'Etsy / Amazon KDP / TPT (sazonal)',
+          'As 104 coleções de imagens temáticas cobrem cada ocasião sazonal e festiva — enfeites de Natal, ícones de Halloween, objetos de Páscoa, corações de Dia dos Namorados, materiais de regresso às aulas, atividades de verão e cenas de inverno. Crie coleções de gráficos pictóricos por época alinhadas com os picos de compra. Lance os pacotes de contagem de Halloween em setembro, os pacotes de gráficos de Natal em outubro e as atividades de dados do Dia dos Namorados em janeiro. Inclua gabaritos com cada conjunto para produtos vendedores completos. Os produtos sazonais alcançam preços mais altos durante as suas janelas de máxima procura e criam razões naturais para compras recorrentes.',
+        platform: 'Etsy / Amazon KDP / Gumroad (sazonal)',
       },
     ],
   },
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Como funciona a ficha de gráfico pictórico?',
       answer:
-        'Cada ficha tem duas partes. A secção superior apresenta uma grelha 4×5 contendo 20 ícones dispersos de 6 tipos de imagens diferentes — cada tipo aparece de 1 a 5 vezes, distribuídos aleatoriamente. A secção inferior mostra um gráfico de barras de 6 colunas × 5 linhas com as colunas rotuladas por cada tipo de imagem e as linhas numeradas de 1 a 5 de baixo para cima. Os alunos contam quantos de cada tipo de imagem aparecem na grelha, depois colorem ou preenchem o número correspondente de células na coluna correspondente. Isto ensina tanto a recolha de dados (contagem) como a representação de dados (criação de gráficos) numa única atividade.',
+        'Cada ficha tem duas partes. A secção superior apresenta uma grelha 4×5 contendo 20 ícones dispersos de 6 tipos de imagens diferentes — cada tipo aparece de 1 a 5 vezes, distribuídos aleatoriamente. A secção inferior mostra um gráfico de barras de 6 colunas × 5 linhas com as colunas rotuladas por cada tipo de imagem e as linhas numeradas de 1 a 5 de baixo para cima. Os usuários contam quantos de cada tipo de imagem aparecem na grelha, depois colorem ou preenchem o número correspondente de células na coluna correspondente. Isto ensina tanto a recolha de dados (contagem) como a representação de dados (criação de gráficos) numa única atividade.',
     },
     {
       question: 'Como funciona a seleção automática de imagens?',
@@ -163,7 +163,7 @@ const content: AppContent = {
     {
       question: 'Como funcionam os campos de nome e data?',
       answer:
-        'No painel de Configuração de Página, marque a caixa Incluir Nome/Data para adicionar campos formatados «Nome: ____» e «Data: ____» na parte inferior da página da ficha. Os campos usam a fonte Fredoka a 18 px na cor #333. Os alunos escrevem o seu nome e a data antes de começar a atividade de contagem. Isto torna as fichas imediatamente prontas para a sala de aula sem formatação adicional. Desmarque a caixa para remover os campos em produtos que não necessitam de identificação do aluno.',
+        'No painel de Configuração de Página, marque a caixa Incluir Nome/Data para adicionar campos formatados «Nome: ____» e «Data: ____» na parte inferior da página da ficha. Os campos usam a fonte Fredoka a 18 px na cor #333. Os usuários escrevem o seu nome e a data antes de começar a atividade de contagem. Isto torna as fichas imediatamente prontas para a loja sem formatação adicional. Desmarque a caixa para remover os campos em produtos que não necessitam de identificação do usuário.',
     },
     {
       question: 'Como funcionam os temas de fundo e borda?',
@@ -173,12 +173,12 @@ const content: AppContent = {
     {
       question: 'Como funciona o modo escala de cinzentos?',
       answer:
-        'O modo escala de cinzentos no painel Descarregar converte toda a sua ficha ou gabarito para escala de cinzentos no momento da exportação. O seu canvas permanece a cores para edição visual fácil — a escala de cinzentos é aplicada apenas ao ficheiro exportado. Isto produz uma saída económica em tinta para impressão na sala de aula onde a tinta a cores é cara ou indisponível, e para interiores de livros da Amazon KDP que requerem páginas a preto e branco. O modo escala de cinzentos funciona de forma independente para as exportações de ficha e gabarito.',
+        'O modo escala de cinzentos no painel Descarregar converte toda a sua ficha ou gabarito para escala de cinzentos no momento da exportação. O seu canvas permanece a cores para edição visual fácil — a escala de cinzentos é aplicada apenas ao ficheiro exportado. Isto produz uma saída económica em tinta para impressão online onde a tinta a cores é cara ou indisponível, e para interiores de livros da Amazon KDP que requerem páginas a preto e branco. O modo escala de cinzentos funciona de forma independente para as exportações de ficha e gabarito.',
     },
     {
       question: 'Como alternar entre a ficha e o gabarito?',
       answer:
-        'A área do canvas tem dois separadores: Ficha e Gabarito. Clique no separador Gabarito para ver a solução autogerada com as células do gráfico preenchidas a amarelo. Clique no separador Ficha para voltar à versão do aluno com células vazias. Cada separador tem o seu próprio par de botões de descarga (JPEG e PDF), dando-lhe quatro opções de descarga no total. As edições dos elementos do canvas como texto, fundo e bordas aplicam-se a ambos os separadores — a única diferença entre eles é o estado de preenchimento do gráfico de barras.',
+        'A área do canvas tem dois separadores: Ficha e Gabarito. Clique no separador Gabarito para ver a solução autogerada com as células do gráfico preenchidas a amarelo. Clique no separador Ficha para voltar à versão do usuário com células vazias. Cada separador tem o seu próprio par de botões de descarga (JPEG e PDF), dando-lhe quatro opções de descarga no total. As edições dos elementos do canvas como texto, fundo e bordas aplicam-se a ambos os separadores — a única diferença entre eles é o estado de preenchimento do gráfico de barras.',
     },
     {
       question: 'Existe um teste grátis?',
@@ -188,12 +188,12 @@ const content: AppContent = {
     {
       question: 'O Gerador de Gráficos de Contagem é sensível ao idioma?',
       answer:
-        'Não. O Gerador de Gráficos de Contagem produz fichas de contagem visual onde os alunos contam imagens e preenchem células de gráfico de barras — os números e as imagens são universais. Mudar o idioma apenas afeta as etiquetas da interface do gerador, o título e instruções do cabeçalho autogerado, e as etiquetas de conteúdo da biblioteca de imagens. A ficha em si funciona de forma idêntica em todos os idiomas. A Licença Comercial inclui 10 temas coloridos; o Acesso Completo desbloqueia os 104 temas e os 11 idiomas de interface.',
+        'Não. O Gerador de Gráficos de Contagem produz fichas de contagem visual onde os usuários contam imagens e preenchem células de gráfico de barras — os números e as imagens são universais. Mudar o idioma apenas afeta as etiquetas da interface do gerador, o título e instruções do cabeçalho autogerado, e as etiquetas de conteúdo da biblioteca de imagens. A ficha em si funciona de forma idêntica em todos os idiomas. A Licença Comercial inclui 10 temas coloridos; o Acesso Completo desbloqueia os 104 temas e os 11 idiomas de interface.',
     },
     {
       question: 'Posso vender fichas de gráfico pictórico criadas com esta ferramenta na Etsy e Amazon KDP?',
       answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas de gráfico pictórico como downloads digitais na Etsy, como cadernos de competências de dados impressos na Amazon KDP, como recursos educativos no TPT ou através de qualquer outro canal de venda. A geração com canvas duplo, o gabarito automático e as 104 coleções de imagens temáticas oferecem-lhe as ferramentas para produzir produtos de gráficos pictóricos originais e vendáveis em escala.',
+        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas de gráfico pictórico como downloads digitais na Etsy, como cadernos de competências de dados impressos na Amazon KDP, como recursos educativos no Gumroad ou através de qualquer outro canal de venda. A geração com canvas duplo, o gabarito automático e as 104 coleções de imagens temáticas oferecem-lhe as ferramentas para produzir produtos de gráficos pictóricos originais e vendáveis em escala.',
     },
     {
       question: 'Qual é a política de reembolso?',
@@ -263,7 +263,7 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/portuguese/chart count/Gráfico de Figuras 1.webp',
-      primaryAlt: 'Ficha de gráfico pictórico com grelha de ícones dispersos e gráfico de barras para os alunos contarem e representarem 6 tipos de imagens',
+      primaryAlt: 'Ficha de gráfico pictórico com grelha de ícones dispersos e gráfico de barras para os usuários contarem e representarem 6 tipos de imagens',
     },
     sampleGallery: [
       {

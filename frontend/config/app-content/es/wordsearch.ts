@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'fichas de sopa de letras imprimibles para vendedores Etsy',
       'generador de cuadrículas de palabras ocultas para Amazon KDP',
-      'vender fichas de sopa de letras en Teachers Pay Teachers',
+      'vender fichas de sopa de letras en Gumroad',
       'fichas de sopa de letras con clave de respuesta código de colores licencia comercial',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Generador Fichas Sopa de Letras | Crear y Vender',
     metaDescription:
-      'Crea fichas de sopa de letras para Etsy, KDP y TPT. Cuadrícula 5×5 a 30×30, direcciones diagonales, letras adaptadas al idioma.',
+      'Crea fichas de sopa de letras para Etsy, KDP y Gumroad. Cuadrícula 5×5 a 30×30, direcciones diagonales, letras adaptadas al idioma.',
   },
 
   hero: {
     title: 'Generador de Fichas de Sopa de Letras para Puzzles de Palabras Ocultas en Cuadrícula',
     tagline: 'Cuadrículas ajustables de 5×5 a 30×30 con controles de dirección diagonal e invertida — construye el nivel de dificultad perfecto para cada audiencia.',
     description:
-      'Diseña fichas profesionales de sopa de letras donde las palabras ocultas están incrustadas en una cuadrícula de letras de relleno aleatorias y los alumnos escanean filas, columnas y diagonales para encontrarlas — el formato de puzzle clásico que nunca pasa de moda. Elige entre tres fuentes de contenido: la Biblioteca de Imágenes integrada con más de 3100 ilustraciones en 104 temas, el Modo Edición Manual donde seleccionas imágenes y personalizas los nombres de visualización, o el modo Lista de Palabras Personalizada para puzzles de solo texto con hasta 8 palabras que escribes directamente. Ajusta la cuadrícula de 5×5 para calentamientos rápidos a 30×30 para desafíos serios, y activa o desactiva las palabras en diagonal y las palabras invertidas (al revés) para afinar la dificultad en cuatro a ocho direcciones de colocación posibles. Tres modos de visualización — palabras más imágenes, solo imágenes o solo palabras — controlan cómo aparecen las pistas junto a la cuadrícula. El Acceso Completo desbloquea los 11 idiomas soportados donde tanto las palabras ocultas COMO las letras de relleno de la cuadrícula cambian según el idioma: las cuadrículas en alemán incluyen ä, ö, ü con frecuencias naturales ponderadas, las cuadrículas en francés incluyen é, è, ç, à, las cuadrículas en español incluyen ñ, á, é, í, ó, ú, y cada idioma usa su conjunto de caracteres auténtico. Una clave de respuesta con código de colores resalta cada palabra encontrada en uno de seis colores alternados para verificación visual instantánea. Exporta PDF listos para imprimir y JPEG a más de 400 DPI en formato Carta, A4 o dimensiones personalizadas. Ya sea que vendas paquetes de puzzles temáticos en Etsy, compiles libros de sopa de letras para Amazon KDP o crees centros de vocabulario diferenciados para TPT, el Generador de Fichas de Sopa de Letras produce resultados profesionales en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Diseña fichas profesionales de sopa de letras donde las palabras ocultas están incrustadas en una cuadrícula de letras de relleno aleatorias y los usuarios escanean filas, columnas y diagonales para encontrarlas — el formato de puzzle clásico que nunca pasa de moda. Elige entre tres fuentes de contenido: la Biblioteca de Imágenes integrada con más de 3100 ilustraciones en 104 temas, el Modo Edición Manual donde seleccionas imágenes y personalizas los nombres de visualización, o el modo Lista de Palabras Personalizada para puzzles de solo texto con hasta 8 palabras que escribes directamente. Ajusta la cuadrícula de 5×5 para calentamientos rápidos a 30×30 para desafíos serios, y activa o desactiva las palabras en diagonal y las palabras invertidas (al revés) para afinar la dificultad en cuatro a ocho direcciones de colocación posibles. Tres modos de visualización — palabras más imágenes, solo imágenes o solo palabras — controlan cómo aparecen las pistas junto a la cuadrícula. El Acceso Completo desbloquea los 11 idiomas soportados donde tanto las palabras ocultas COMO las letras de relleno de la cuadrícula cambian según el idioma: las cuadrículas en alemán incluyen ä, ö, ü con frecuencias naturales ponderadas, las cuadrículas en francés incluyen é, è, ç, à, las cuadrículas en español incluyen ñ, á, é, í, ó, ú, y cada idioma usa su conjunto de caracteres auténtico. Una clave de respuesta con código de colores resalta cada palabra encontrada en uno de seis colores alternados para verificación visual instantánea. Exporta PDF listos para imprimir y JPEG a más de 400 DPI en formato Carta, A4 o dimensiones personalizadas. Ya sea que vendas paquetes de puzzles temáticos en Etsy, compiles libros de sopa de letras para Amazon KDP o crees centros de vocabulario diferenciados para Gumroad, el Generador de Fichas de Sopa de Letras produce resultados profesionales en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
   },
 
   howItWorks: {
@@ -42,12 +42,12 @@ const content: AppContent = {
       {
         title: 'Configura el tamaño de cuadrícula y las direcciones de las palabras',
         description:
-          'Establece las dimensiones de la cuadrícula ajustando filas y columnas de forma independiente de 5 a 30 (por defecto 12×12). Las cuadrículas pequeñas como 5×5 o 6×6 funcionan bien para principiantes; las cuadrículas grandes como 20×20 o 30×30 crean desafíos serios. Luego activa o desactiva las palabras en diagonal y las palabras invertidas (al revés). Con ambas activadas, las palabras pueden colocarse en ocho direcciones — horizontal, vertical, diagonal y sus inversiones. Desactivar las diagonales limita la colocación solo a horizontal y vertical, creando puzzles más fáciles para alumnos más jóvenes o menos experimentados.',
+          'Establece las dimensiones de la cuadrícula ajustando filas y columnas de forma independiente de 5 a 30 (por defecto 12×12). Las cuadrículas pequeñas como 5×5 o 6×6 funcionan bien para principiantes; las cuadrículas grandes como 20×20 o 30×30 crean desafíos serios. Luego activa o desactiva las palabras en diagonal y las palabras invertidas (al revés). Con ambas activadas, las palabras pueden colocarse en ocho direcciones — horizontal, vertical, diagonal y sus inversiones. Desactivar las diagonales limita la colocación solo a horizontal y vertical, creando puzzles más fáciles para usuarios más jóvenes o menos experimentados.',
       },
       {
         title: 'Elige el modo de visualización y añade toques personalizados',
         description:
-          'Elige entre tres modos de visualización de palabras/imágenes: Mostrar Palabras e Imágenes (por defecto), Mostrar Solo Imágenes o Mostrar Solo Palabras. Cada modo controla qué aparece junto a la cuadrícula como pistas. Usa el panel de Herramientas de Texto para añadir un título de ficha, campos de nombre y fecha del alumno, instrucciones o cualquier texto personalizado. Elige entre siete fuentes, incluyendo Lexend Deca, Baloo 2, Fredoka y Quicksand. Ajusta el tamaño de fuente, el color y el contorno para máxima legibilidad. Usa el lienzo Fabric.js para arrastrar, redimensionar y reposicionar cada elemento.',
+          'Elige entre tres modos de visualización de palabras/imágenes: Mostrar Palabras e Imágenes (por defecto), Mostrar Solo Imágenes o Mostrar Solo Palabras. Cada modo controla qué aparece junto a la cuadrícula como pistas. Usa el panel de Herramientas de Texto para añadir un título de ficha, campos de nombre y fecha, instrucciones o cualquier texto personalizado. Elige entre siete fuentes, incluyendo Lexend Deca, Baloo 2, Fredoka y Quicksand. Ajusta el tamaño de fuente, el color y el contorno para máxima legibilidad. Usa el lienzo Fabric.js para arrastrar, redimensionar y reposicionar cada elemento.',
       },
       {
         title: 'Genera la clave de respuesta con código de colores y descarga',
@@ -63,12 +63,12 @@ const content: AppContent = {
       {
         title: 'Puzzle de palabras ocultas en cuadrícula con pistas de imagen',
         description:
-          'Cada puzzle incrusta palabras ocultas dentro de una cuadrícula de letras de relleno aleatorias. Los alumnos escanean filas, columnas y diagonales para encontrar cada palabra — el formato clásico de sopa de letras que estimula simultáneamente el escaneo visual, el reconocimiento de patrones y el recuerdo de vocabulario. En modo Biblioteca de Imágenes o Edición Manual, las imágenes aparecen junto a la cuadrícula como pistas visuales, conectando el reconocimiento de imágenes con la identificación de palabras. El modo Lista de Palabras Personalizada crea sopas de letras puramente textuales sin imágenes, ampliando el formato a cualquier tema o conjunto de vocabulario.',
+          'Cada puzzle incrusta palabras ocultas dentro de una cuadrícula de letras de relleno aleatorias. Los usuarios escanean filas, columnas y diagonales para encontrar cada palabra — el formato clásico de sopa de letras que estimula simultáneamente el escaneo visual, el reconocimiento de patrones y el recuerdo de vocabulario. En modo Biblioteca de Imágenes o Edición Manual, las imágenes aparecen junto a la cuadrícula como pistas visuales, conectando el reconocimiento de imágenes con la identificación de palabras. El modo Lista de Palabras Personalizada crea sopas de letras puramente textuales sin imágenes, ampliando el formato a cualquier tema o conjunto de vocabulario.',
       },
       {
         title: 'Tamaño de cuadrícula personalizable de 5×5 a 30×30',
         description:
-          'Ajusta filas y columnas de forma independiente de 5 a 30, creando cuadrículas tan compactas como 5×5 (25 casillas) o tan expansivas como 30×30 (900 casillas). Las cuadrículas pequeñas crean puzzles rápidos y accesibles, ideales para alumnos más jóvenes o actividades de calentamiento. Las cuadrículas grandes crean búsquedas densas y desafiantes que mantienen ocupados a los resolvedores experimentados durante más tiempo. La cuadrícula por defecto de 12×12 equilibra la dificultad y el espacio de página para la mayoría de audiencias. Esta gama te permite crear paquetes con dificultad progresiva — desde cuadrículas pequeñas de iniciación hasta desafíos masivos de nivel experto — todo con la misma herramienta.',
+          'Ajusta filas y columnas de forma independiente de 5 a 30, creando cuadrículas tan compactas como 5×5 (25 casillas) o tan expansivas como 30×30 (900 casillas). Las cuadrículas pequeñas crean puzzles rápidos y accesibles, ideales para usuarios más jóvenes o actividades de calentamiento. Las cuadrículas grandes crean búsquedas densas y desafiantes que mantienen ocupados a los resolvedores experimentados durante más tiempo. La cuadrícula por defecto de 12×12 equilibra la dificultad y el espacio de página para la mayoría de audiencias. Esta gama te permite crear paquetes con dificultad progresiva — desde cuadrículas pequeñas de iniciación hasta desafíos masivos de nivel experto — todo con la misma herramienta.',
       },
       {
         title: 'Controles de dirección de palabras: activadores de diagonal e invertida',
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Clave de respuesta con código de colores y 6 colores de resaltado',
         description:
-          'La clave de respuesta resalta cada palabra encontrada en uno de seis colores alternados: rosa, azul, verde, dorado, coral y lavanda. Cada palabra recibe un color distinto para identificación visual instantánea, facilitando la auto-verificación por los alumnos o la corrección rápida por los profesores. El formato con código de colores es visualmente atractivo y profesional — un claro paso adelante frente a las simples claves de «rodea la palabra». Activa la exportación en escala de grises cuando necesites versiones económicas en tinta para impresión en blanco y negro.',
+          'La clave de respuesta resalta cada palabra encontrada en uno de seis colores alternados: rosa, azul, verde, dorado, coral y lavanda. Cada palabra recibe un color distinto para identificación visual instantánea, facilitando la auto-verificación por los usuarios o la corrección rápida por los vendedores. El formato con código de colores es visualmente atractivo y profesional — un claro paso adelante frente a las simples claves de «rodea la palabra». Activa la exportación en escala de grises cuando necesites versiones económicas en tinta para impresión en blanco y negro.',
       },
       {
         title: 'Exportación PDF y JPEG lista para imprimir a más de 400 DPI',
         description:
-          'Descarga fichas y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir. El motor de exportación usa un multiplicador 6x, produciendo más de 400 DPI en tamaños de página estándar. Los formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal y dimensiones personalizadas están todos soportados. Activa la exportación en escala de grises para versiones económicas en tinta ideales para impresión en el aula o libros de puzzles en blanco y negro. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos TPT.',
+          'Descarga fichas y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir. El motor de exportación usa un multiplicador 6x, produciendo más de 400 DPI en tamaños de página estándar. Los formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal y dimensiones personalizadas están todos soportados. Activa la exportación en escala de grises para versiones económicas en tinta ideales para impresión en volumen o libros de puzzles en blanco y negro. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad.',
       },
       {
         title: 'Edición completa del lienzo con herramientas de texto e imagen',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de vocabulario diferenciados para TPT',
+        title: 'Centros de vocabulario diferenciados para Gumroad',
         description:
-          'Construye conjuntos de práctica de sopa de letras por niveles usando el tamaño de cuadrícula y los controles de dirección como ejes de diferenciación: Nivel 1 (8×8, solo horizontal, 4 palabras), Nivel 2 (12×12, horizontal y vertical, 6 palabras), Nivel 3 (16×16, diagonales activadas, 8 palabras) y Nivel 4 (20×20, diagonales e invertidas, 8 palabras). Acompaña cada nivel con claves de respuesta con código de colores y una hoja de seguimiento del progreso. Los compradores de Teachers Pay Teachers pagan precios premium por recursos de vocabulario diferenciados que pueden desplegar inmediatamente en múltiples niveles de capacidad.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Construye conjuntos de práctica de sopa de letras por niveles usando el tamaño de cuadrícula y los controles de dirección como ejes de diferenciación: Nivel 1 (8×8, solo horizontal, 4 palabras), Nivel 2 (12×12, horizontal y vertical, 6 palabras), Nivel 3 (16×16, diagonales activadas, 8 palabras) y Nivel 4 (20×20, diagonales e invertidas, 8 palabras). Acompaña cada nivel con claves de respuesta con código de colores y una hoja de seguimiento del progreso. Los compradores de Gumroad pagan precios premium por recursos de vocabulario diferenciados que pueden desplegar inmediatamente en múltiples niveles de capacidad.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Productos de sopa de letras multilingües con Acceso Completo',
         description:
           'El Acceso Completo desbloquea los 11 idiomas, y como la Sopa de Letras es sensible al idioma, las palabras ocultas Y las letras de relleno de la cuadrícula cambian según el idioma. «Dog» en inglés se convierte en «Hund» en una cuadrícula rellena de caracteres alemanes como ä, ö, ü; «chien» en francés aparece en una cuadrícula con é, è, ç, à; «perro» en español aparece en una cuadrícula con ñ, á, é, í, ó, ú. Cada versión lingüística es un producto verdaderamente diferente con palabras diferentes, letras de relleno diferentes y una experiencia de resolución diferente. Crea series temáticas idénticas en múltiples idiomas y lista cada una como un producto de Etsy o un libro de KDP separado — once flujos de ingresos desde un solo flujo de trabajo.',
-        platform: 'Etsy / Amazon KDP / TPT (multilingüe)',
+        platform: 'Etsy / Amazon KDP / Gumroad (multilingüe)',
       },
       {
-        title: 'Herramienta de vocabulario para el aula y tutoría',
+        title: 'Herramienta de vocabulario para venta en línea y tutoría',
         description:
-          'Usa el modo Lista de Palabras Personalizada para crear fichas de sopa de letras con cualquier lista de vocabulario — palabras del dictado semanal, términos de ciencias, vocabulario de estudios sociales o práctica de idiomas extranjeros. Escribe hasta 8 palabras directamente sin necesitar imágenes correspondientes. Ajusta el tamaño de cuadrícula y los activadores de dirección según la capacidad de cada alumno: cuadrículas pequeñas solo horizontal para lectores con dificultades, cuadrículas grandes con diagonales e inversiones para los más avanzados. Imprime series personalizadas en minutos para grupos pequeños o clases enteras. La clave de respuesta con código de colores ahorra tiempo de corrección, y el formato clásico de sopa de letras mantiene el interés de los alumnos.',
-        platform: 'Aula / Tutoría / Educación en casa',
+          'Usa el modo Lista de Palabras Personalizada para crear fichas de sopa de letras con cualquier lista de vocabulario — palabras del dictado semanal, términos de ciencias, vocabulario de estudios sociales o práctica de idiomas extranjeros. Escribe hasta 8 palabras directamente sin necesitar imágenes correspondientes. Ajusta el tamaño de cuadrícula y los activadores de dirección según la capacidad de cada usuario: cuadrículas pequeñas solo horizontal para lectores con dificultades, cuadrículas grandes con diagonales e inversiones para los más avanzados. Imprime series personalizadas en minutos para grupos pequeños o clases enteras. La clave de respuesta con código de colores ahorra valor percibido, y el formato clásico de sopa de letras mantiene el interés de los usuarios.',
+        platform: 'Tienda / Tutoría / Educación en casa',
       },
     ],
   },
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: '¿Cómo funciona el puzzle de sopa de letras?',
       answer:
-        'Las palabras ocultas están incrustadas dentro de una cuadrícula de letras de relleno aleatorias. Los alumnos escanean filas, columnas y opcionalmente diagonales para encontrar cada palabra. Una vez encontrada, los alumnos rodean o resaltan la palabra en la cuadrícula. Las letras de relleno se generan aleatoriamente cada vez, así que cada puzzle es único incluso con la misma lista de palabras. Se pueden colocar hasta 8 palabras en una sola cuadrícula.',
+        'Las palabras ocultas están incrustadas dentro de una cuadrícula de letras de relleno aleatorias. Los usuarios escanean filas, columnas y opcionalmente diagonales para encontrar cada palabra. Una vez encontrada, los usuarios rodean o resaltan la palabra en la cuadrícula. Las letras de relleno se generan aleatoriamente cada vez, así que cada puzzle es único incluso con la misma lista de palabras. Se pueden colocar hasta 8 palabras en una sola cuadrícula.',
     },
     {
       question: '¿Qué tamaños de cuadrícula están disponibles?',
@@ -163,7 +163,7 @@ const content: AppContent = {
     {
       question: '¿Cuáles son los tres modos de visualización?',
       answer:
-        'Mostrar Palabras e Imágenes (por defecto) muestra tanto las pistas de imagen como las etiquetas de palabras junto a la cuadrícula. Mostrar Solo Imágenes muestra las pistas de imagen sin etiquetas de texto, requiriendo que los alumnos identifiquen la imagen y encuentren la palabra ellos mismos. Mostrar Solo Palabras muestra las etiquetas de texto sin imágenes, creando una experiencia de sopa de letras puramente textual. Cada modo controla qué aparece como referencia de pistas junto a la cuadrícula.',
+        'Mostrar Palabras e Imágenes (por defecto) muestra tanto las pistas de imagen como las etiquetas de palabras junto a la cuadrícula. Mostrar Solo Imágenes muestra las pistas de imagen sin etiquetas de texto, requiriendo que los usuarios identifiquen la imagen y encuentren la palabra ellos mismos. Mostrar Solo Palabras muestra las etiquetas de texto sin imágenes, creando una experiencia de sopa de letras puramente textual. Cada modo controla qué aparece como referencia de pistas junto a la cuadrícula.',
     },
     {
       question: '¿Cómo funciona el relleno alfabético adaptado al idioma?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de sopa de letras como descargas digitales en Etsy, como libros de puzzles impresos en Amazon KDP, como recursos educativos en TPT o a través de cualquier otro canal de venta. Los tamaños de cuadrícula ajustables, los controles de dirección y la capacidad multilingüe te ofrecen una fuerte diferenciación en categorías de mercado competitivas.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de sopa de letras como descargas digitales en Etsy, como libros de puzzles impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. Los tamaños de cuadrícula ajustables, los controles de dirección y la capacidad multilingüe te ofrecen una fuerte diferenciación en categorías de mercado competitivas.',
     },
     {
       question: '¿Cuál es la política de reembolso?',
@@ -236,7 +236,7 @@ const content: AppContent = {
     {
       pageType: 'guide',
       slug: 'vender-material-educativo-etsy',
-      anchorText: 'Guía para Vender Material Educativo en Etsy',
+      anchorText: 'Guía para Vender productos imprimibles en Etsy',
     },
     {
       pageType: 'start',
@@ -251,7 +251,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'educacion-en-casa-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles para educación en casa',
+      anchorText: 'Ideas de imprimibles para trabajo desde casa',
     },
     {
       pageType: 'guide',

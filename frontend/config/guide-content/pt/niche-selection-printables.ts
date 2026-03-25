@@ -24,10 +24,10 @@ const content: GuideContent = {
   hero: {
     title: 'Guia de seleção de nicho para negócios de imprimíveis',
     tagline: 'Um enquadramento completo para escolher, validar e planear em torno do nicho certo para o seu negócio de imprimíveis — abrangendo por que a seleção de nicho determina o sucesso, identificar as suas vantagens iniciais, pesquisar a procura do mercado, analisar a concorrência, avaliar a rentabilidade, validar antes de se comprometer, escolher entre nichos perenes e sazonais, e planear a sua estratégia de expansão',
-    description: 'A diferença entre vendedores de imprimíveis que constroem negócios sustentáveis e os que lutam durante anos resume-se muitas vezes a uma única decisão inicial: a seleção de nicho. Escolher o nicho certo determina a sua audiência, o seu poder de fixação de preços, o seu nível de concorrência e o seu potencial de crescimento a longo prazo. Este guia fornece um enquadramento sistemático para avaliar, escolher e validar um nicho de imprimíveis — quer venda no Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad ou qualquer outra plataforma.',
+    description: 'A diferença entre vendedores de imprimíveis que constroem negócios sustentáveis e os que lutam durante anos resume-se muitas vezes a uma única decisão inicial: a seleção de nicho. Escolher o nicho certo determina a sua audiência, o seu poder de fixação de preços, o seu nível de concorrência e o seu potencial de crescimento a longo prazo. Este guia fornece um enquadramento sistemático para avaliar, escolher e validar um nicho de imprimíveis — quer venda no Etsy, Amazon KDP, Gumroad, Gumroad ou qualquer outra plataforma.',
   },
 
-  introduction: 'A diferença entre vendedores de imprimíveis que constroem negócios sustentáveis e os que lutam durante anos resume-se muitas vezes a uma única decisão inicial: a seleção de nicho. Escolher o nicho certo determina a sua audiência, o seu poder de fixação de preços, o seu nível de concorrência e o seu potencial de crescimento a longo prazo.\n\nEste guia fornece um enquadramento sistemático para avaliar, escolher e validar um nicho de imprimíveis — quer venda no Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad ou qualquer outra plataforma. Vai aprender a identificar as suas vantagens iniciais, pesquisar a procura do mercado, analisar a concorrência, avaliar a rentabilidade, validar antes de se comprometer e planear a sua estratégia de expansão.\n\nTodas as ferramentas mencionadas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar fichas de exemplo para múltiplos nichos, testar diferentes tipos de produtos e avaliar a qualidade do resultado antes de comprar uma licença comercial.',
+  introduction: 'A diferença entre vendedores de imprimíveis que constroem negócios sustentáveis e os que lutam durante anos resume-se muitas vezes a uma única decisão inicial: a seleção de nicho. Escolher o nicho certo determina a sua audiência, o seu poder de fixação de preços, o seu nível de concorrência e o seu potencial de crescimento a longo prazo.\n\nEste guia fornece um enquadramento sistemático para avaliar, escolher e validar um nicho de imprimíveis — quer venda no Etsy, Amazon KDP, Gumroad, Gumroad ou qualquer outra plataforma. Vai aprender a identificar as suas vantagens iniciais, pesquisar a procura do mercado, analisar a concorrência, avaliar a rentabilidade, validar antes de se comprometer e planear a sua estratégia de expansão.\n\nTodas as ferramentas mencionadas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar fichas de exemplo para múltiplos nichos, testar diferentes tipos de produtos e avaliar a qualidade do resultado antes de comprar uma licença comercial.',
 
   tutorial: [
     {
@@ -42,7 +42,7 @@ A questão mais importante que precisa responder antes de criar o seu primeiro p
       heading: 'Identificar as suas vantagens iniciais',
       content: `Antes de pesquisar a procura do mercado, faça um inventário do que já traz consigo. O nicho mais rentável do mundo é inútil se não tiver capacidade de criar produtos competitivos nele. A seleção de nicho ideal encontra-se na interseção entre procura do mercado e as suas capacidades pessoais.
 
-Comece por listar os seus conhecimentos específicos. Ensina ou ensinou numa escola? Tem filhos de uma determinada faixa etária? Trabalhou numa área específica como terapia da fala, educação especial ou ensino de línguas? Essas experiências dão-lhe uma perspetiva que criadores genéricos não possuem. Sabe que exercícios realmente funcionam, que formatos os alunos preferem e que lacunas existem nos materiais disponíveis.
+Comece por listar os seus conhecimentos específicos. Ensina ou ensinou numa escola? Tem filhos de uma determinada faixa etária? Trabalhou numa área específica como terapia da fala, educação especial ou ensino de línguas? Essas experiências dão-lhe uma perspetiva que criadores genéricos não possuem. Sabe que exercícios realmente funcionam, que formatos os usuários preferem e que lacunas existem nos materiais disponíveis.
 
 Depois, considere as suas capacidades técnicas. Consegue criar ilustrações originais ou depende de clipart? Tem experiência com design gráfico? Domina ferramentas como o LessonCraft Studio que permitem gerar fichas profissionais rapidamente? As suas capacidades técnicas determinam que tipos de produtos pode criar de forma realista — e com que rapidez.
 
@@ -52,7 +52,7 @@ Finalmente, considere os seus interesses a longo prazo. A seleção de nicho nã
       heading: 'Pesquisar a procura do mercado',
       content: `A pesquisa de mercado para imprimíveis é diferente da pesquisa para produtos físicos. Não precisa de inventário, armazém ou cadeia de abastecimento — mas precisa de compreender onde os compradores procuram e o que sinaliza verdadeira procura.
 
-**Pesquisa de palavras-chave em marketplaces.** Comece pelo Etsy, Amazon KDP e Teachers Pay Teachers. Escreva os seus temas de nicho potenciais na barra de pesquisa e observe as sugestões automáticas. Estas sugestões refletem pesquisas reais de compradores. Se "fichas de matemática pré-escolar" aparece como sugestão, há procura. Se "fichas de topologia algébrica" não aparece, provavelmente não há.
+**Pesquisa de palavras-chave em marketplaces.** Comece pelo Etsy, Amazon KDP e Gumroad. Escreva os seus temas de nicho potenciais na barra de pesquisa e observe as sugestões automáticas. Estas sugestões refletem pesquisas reais de compradores. Se "fichas de matemática pré-escolar" aparece como sugestão, há procura. Se "fichas de topologia algébrica" não aparece, provavelmente não há.
 
 **Analisar resultados existentes.** Para cada nicho potencial, observe os primeiros 20 resultados. Quantas avaliações têm os produtos mais vendidos? Produtos com centenas ou milhares de avaliações confirmam procura forte. Produtos com poucas ou nenhumas avaliações sugerem um mercado fraco ou um mercado tão saturado que novos vendedores não conseguem ganhar tração.
 
@@ -78,7 +78,7 @@ Finalmente, considere os seus interesses a longo prazo. A seleção de nicho nã
 
 **Calcular o valor médio de encomenda.** Observe os preços dos produtos mais vendidos no seu nicho e estime o preço médio. Nichos onde os produtos mais vendidos custam 2–3 € exigem volume muito alto para gerar rendimento significativo. Nichos onde pacotes de 15–25 € vendem regularmente precisam de muito menos vendas.
 
-**Estimar o potencial de vendas recorrentes.** Alguns nichos naturalmente geram compras repetidas. Um professor que compra fichas de matemática para o 1.º ano provavelmente precisa de fichas para diferentes temas ao longo do ano. Um pai que compra páginas para colorir para uma festa de aniversário pode nunca voltar. Nichos com potencial de compra recorrente são mais valiosos a longo prazo.
+**Estimar o potencial de vendas recorrentes.** Alguns nichos naturalmente geram compras repetidas. Um vendedor que compra fichas de matemática para o 1.º ano provavelmente precisa de fichas para diferentes temas ao longo do ano. Um pai que compra páginas para colorir para uma festa de aniversário pode nunca voltar. Nichos com potencial de compra recorrente são mais valiosos a longo prazo.
 
 **Considerar a facilidade de criação de pacotes.** A rentabilidade dos imprimíveis depende frequentemente de pacotes — agrupar vários produtos relacionados por um preço superior. Nichos que se prestam naturalmente a pacotes (por tema, por nível escolar, por disciplina) são mais rentáveis do que nichos onde cada produto é isolado.
 
@@ -118,7 +118,7 @@ Finalmente, considere os seus interesses a longo prazo. A seleção de nicho nã
 
 **Expansão vertical: aprofundar o nicho.** Se começou com fichas de adição para pré-escolar, expanda para mais conteúdo dentro do mesmo nicho. Mais temas, mais níveis de dificuldade, mais formatos (fichas individuais, pacotes, cadernos de atividades). Cada novo produto aproveita o posicionamento e a audiência que já construiu.
 
-**Expansão horizontal: nichos adjacentes.** Uma vez que domina fichas de adição para pré-escolar, expanda para subtração, depois formas geométricas, depois padrões. Cada nicho adjacente partilha o mesmo público-alvo (professores e pais de crianças em idade pré-escolar) mas aborda uma necessidade diferente. Isto é mais eficiente do que saltar para um nicho completamente diferente.
+**Expansão horizontal: nichos adjacentes.** Uma vez que domina fichas de adição para pré-escolar, expanda para subtração, depois formas geométricas, depois padrões. Cada nicho adjacente partilha o mesmo público-alvo (vendedores e pais de crianças em idade pré-escolar) mas aborda uma necessidade diferente. Isto é mais eficiente do que saltar para um nicho completamente diferente.
 
 **Expansão por nível escolar.** Se os seus produtos funcionam para o pré-escolar, adapte-os para o 1.º ano, depois para o 2.º ano. O formato e o estilo mantêm-se — apenas o conteúdo e a dificuldade mudam. Com ferramentas como o LessonCraft Studio, esta adaptação é rápida porque pode ajustar parâmetros de dificuldade sem redesenhar do zero.
 
@@ -146,7 +146,7 @@ Finalmente, considere os seus interesses a longo prazo. A seleção de nicho nã
   faq: [
     {
       question: 'Como sei se o meu nicho de imprimíveis tem procura suficiente?',
-      answer: 'Pesquise o seu nicho nos principais marketplaces (Etsy, Amazon KDP, Teachers Pay Teachers) e observe as sugestões automáticas, o número de resultados e as avaliações dos produtos mais vendidos. Sugestões automáticas indicam pesquisas reais. Produtos com centenas de avaliações confirmam procura forte. Ferramentas como eRank (Etsy) ou Publisher Rocket (KDP) fornecem dados de volume de pesquisa específicos.',
+      answer: 'Pesquise o seu nicho nos principais marketplaces (Etsy, Amazon KDP, Gumroad) e observe as sugestões automáticas, o número de resultados e as avaliações dos produtos mais vendidos. Sugestões automáticas indicam pesquisas reais. Produtos com centenas de avaliações confirmam procura forte. Ferramentas como eRank (Etsy) ou Publisher Rocket (KDP) fornecem dados de volume de pesquisa específicos.',
     },
     {
       question: 'Devo começar com um nicho perene ou sazonal?',

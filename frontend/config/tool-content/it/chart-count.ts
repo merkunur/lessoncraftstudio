@@ -1,26 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'creare schede grafico con immagini per la classe',
+    primaryKeyword: 'creare schede grafico con immagini per il negozio',
     secondaryKeywords: [
-      'creatore di pittogrammi per la classe',
+      'creatore di pittogrammi per il negozio',
       'schede conteggio e grafico per bambini',
       'schede grafici dati per la scuola',
-      'attività grafico con immagini per insegnanti',
+      'attività grafico con immagini per venditori',
     ],
     lsiKeywords: [
       'griglia immagini sparse per contare',
       'chiave di risposta automatica grafico pittorico',
-      'scheda rappresentazione dati per la classe',
+      'scheda rappresentazione dati per il negozio',
     ],
-    titleTag: 'Schede Grafico con Immagini — Per la Classe',
-    metaDescription: 'Crea schede grafico con immagini per la classe. Griglia 4x5, 6 tipi di icone, chiave di risposta automatica, 11 lingue. Prova gratuita con filigrana.',
+    titleTag: 'Schede Grafico con Immagini — per il negozio',
+    metaDescription: 'Crea schede grafico con immagini per il negozio. Griglia 4x5, 6 tipi di icone, chiave di risposta automatica, 11 lingue. Prova gratuita con filigrana.',
     },
 
   hero: {
     title: 'Creatore di Schede Grafico con Immagini',
     tagline: 'Generatore di schede grafico con immagini con griglie di icone sparse, chiave di risposta automatica con grafico a barre, intestazioni localizzate in 11 lingue e 104 collezioni tematiche per schede di rappresentazione dati vendibili in tutto il mondo',
-    description: 'Crea schede professionali con grafico a immagini dove gli studenti contano icone sparse e compilano un grafico a barre sottostante — insegnando raccolta dati e rappresentazione dati in un\'unica attività. Ogni scheda presenta una griglia 4×5 contenente 20 icone di 6 diversi tipi di immagini, ciascun tipo presente da 1 a 5 volte con distribuzione casuale che rende ogni generazione unica. Sotto la griglia, un grafico a barre con 6 colonne × 5 righe etichettate per tipo di immagine e numerate da 1 a 5 offre agli studenti uno spazio strutturato per registrare i conteggi. L\'app genera simultaneamente una chiave di risposta su una scheda canvas separata con celle evidenziate in giallo (#FFC857) che mostrano i conteggi corretti, così gli insegnanti verificano il lavoro degli studenti istantaneamente senza conteggio manuale. Scegli le immagini automaticamente selezionando un tema dal menu a tendina Fonte Immagini — l\'app seleziona casualmente 6 immagini dalla collezione — oppure manualmente sfogliando la Libreria Immagini con oltre 3.100 illustrazioni in 104 collezioni tematiche e cliccando esattamente 6 immagini con striscia di anteprima. Ogni scheda include un\'intestazione auto-generata con titolo localizzato "Grafico con Immagini" e istruzioni di conteggio visualizzate in una pillola gialla stilizzata (#FFD93D) con cornice arancione, adattandosi automaticamente a tutte le 11 lingue supportate. Aggiungi campi nome e data studente con una singola casella di spunta (Fredoka 18px #333). Applica sia temi di sfondo che temi di bordo con cursori di opacità indipendenti (0–1, passo 0,05). Il Generatore Grafici con Immagini non è sensibile alla lingua — il conteggio visivo utilizza numeri e immagini universali, rendendo le schede identicamente utilizzabili in ogni lingua senza modifiche. Scarica quattro file per sessione: scheda JPEG, scheda PDF, chiave di risposta JPEG e chiave di risposta PDF — tutto a 300 DPI. Esporta in formato Letter, A4, Quadrato (1200×1200) o dimensioni personalizzate con opzione scala di grigi per stampa a risparmio d\'inchiostro. Modifica tutto sul canvas Fabric.js completo con font tra cui Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana, larghezza contorno testo 0–10 con granularità a passi di 0,5, annulla/ripristina fino a 20 stati e zoom dal 25% al 300%. La prova gratuita include ogni funzionalità con una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Crea schede professionali con grafico a immagini dove gli utenti contano icone sparse e compilano un grafico a barre sottostante — insegnando raccolta dati e rappresentazione dati in un\'unica attività. Ogni scheda presenta una griglia 4×5 contenente 20 icone di 6 diversi tipi di immagini, ciascun tipo presente da 1 a 5 volte con distribuzione casuale che rende ogni generazione unica. Sotto la griglia, un grafico a barre con 6 colonne × 5 righe etichettate per tipo di immagine e numerate da 1 a 5 offre agli utenti uno spazio strutturato per registrare i conteggi. L\'app genera simultaneamente una chiave di risposta su una scheda canvas separata con celle evidenziate in giallo (#FFC857) che mostrano i conteggi corretti, così i venditori verificano il lavoro degli utenti istantaneamente senza conteggio manuale. Scegli le immagini automaticamente selezionando un tema dal menu a tendina Fonte Immagini — l\'app seleziona casualmente 6 immagini dalla collezione — oppure manualmente sfogliando la Libreria Immagini con oltre 3.100 illustrazioni in 104 collezioni tematiche e cliccando esattamente 6 immagini con striscia di anteprima. Ogni scheda include un\'intestazione auto-generata con titolo localizzato "Grafico con Immagini" e istruzioni di conteggio visualizzate in una pillola gialla stilizzata (#FFD93D) con cornice arancione, adattandosi automaticamente a tutte le 11 lingue supportate. Aggiungi campi nome e data utente con una singola casella di spunta (Fredoka 18px #333). Applica sia temi di sfondo che temi di bordo con cursori di opacità indipendenti (0–1, passo 0,05). Il Generatore Grafici con Immagini non è sensibile alla lingua — il conteggio visivo utilizza numeri e immagini universali, rendendo le schede identicamente utilizzabili in ogni lingua senza modifiche. Scarica quattro file per sessione: scheda JPEG, scheda PDF, chiave di risposta JPEG e chiave di risposta PDF — tutto a 300 DPI. Esporta in formato Letter, A4, Quadrato (1200×1200) o dimensioni personalizzate con opzione scala di grigi per stampa a risparmio d\'inchiostro. Modifica tutto sul canvas Fabric.js completo con font tra cui Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana, larghezza contorno testo 0–10 con granularità a passi di 0,5, annulla/ripristina fino a 20 stati e zoom dal 25% al 300%. La prova gratuita include ogni funzionalità con una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
   },
 
   tutorial: {
@@ -40,15 +40,15 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Genera la Scheda Grafico con Immagini',
-        description: 'Clicca Genera per creare la scheda. L\'app dispone 20 icone sparse dai 6 tipi di immagini selezionati in una griglia 4×5 con bordo tratteggiato nella parte superiore della pagina — ogni tipo appare da 1 a 5 volte con distribuzione casuale, così ogni generazione produce una sfida di conteggio unica. Sotto la griglia, appare un grafico a barre con 6 colonne × 5 righe con colonne etichettate per tipo di immagine e righe numerate da 1 a 5. Un\'intestazione auto-generata mostra il titolo localizzato "Grafico con Immagini" e le istruzioni di conteggio in una pillola gialla stilizzata con cornice arancione. Gli studenti contano le immagini nella griglia e colorano il numero corrispondente di celle in ogni colonna.',
+        description: 'Clicca Genera per creare la scheda. L\'app dispone 20 icone sparse dai 6 tipi di immagini selezionati in una griglia 4×5 con bordo tratteggiato nella parte superiore della pagina — ogni tipo appare da 1 a 5 volte con distribuzione casuale, così ogni generazione produce una sfida di conteggio unica. Sotto la griglia, appare un grafico a barre con 6 colonne × 5 righe con colonne etichettate per tipo di immagine e righe numerate da 1 a 5. Un\'intestazione auto-generata mostra il titolo localizzato "Grafico con Immagini" e le istruzioni di conteggio in una pillola gialla stilizzata con cornice arancione. gli utenti contano le immagini nella griglia e colorano il numero corrispondente di celle in ogni colonna.',
       },
       {
         title: 'Controlla la Chiave di Risposta Auto-Generata',
-        description: 'Clicca la scheda Chiave di Risposta per vedere la soluzione auto-generata. La chiave di risposta mostra la stessa griglia di immagini e grafico a barre, ma le celle corrette sono riempite con evidenziazione gialla (#FFC857) che mostra esattamente quante icone di ogni tipo appaiono. Gli insegnanti vedono a colpo d\'occhio quali celle gli studenti dovrebbero riempire. Passa da una scheda all\'altra tra Foglio di Lavoro e Chiave di Risposta per confrontare. La chiave di risposta si genera simultaneamente al foglio di lavoro — nessun conteggio manuale, nessun passaggio di creazione separato, nessuna possibilità di errore.',
+        description: 'Clicca la scheda Chiave di Risposta per vedere la soluzione auto-generata. La chiave di risposta mostra la stessa griglia di immagini e grafico a barre, ma le celle corrette sono riempite con evidenziazione gialla (#FFC857) che mostra esattamente quante icone di ogni tipo appaiono. i venditori vedono a colpo d\'occhio quali celle gli utenti dovrebbero riempire. Passa da una scheda all\'altra tra Foglio di Lavoro e Chiave di Risposta per confrontare. La chiave di risposta si genera simultaneamente al foglio di lavoro — nessun conteggio manuale, nessun passaggio di creazione separato, nessuna possibilità di errore.',
       },
       {
-        title: 'Aggiungi Campi Studente e Intestazione Localizzata',
-        description: 'Spunta la casella Includi Nome/Data per aggiungere i campi formattati "Nome: ____" e "Data: ____" in fondo alla scheda (Fredoka 18px #333). L\'intestazione auto-generata mostra automaticamente il titolo "Grafico con Immagini" e le istruzioni di conteggio nella lingua dell\'interfaccia attiva — inglese, tedesco, francese, spagnolo, portoghese, italiano, olandese, svedese, danese, norvegese o finlandese. Le schede diventano pronte per la classe in qualsiasi località senza modifiche manuali al testo.',
+        title: 'Aggiungi Campi utente e Intestazione Localizzata',
+        description: 'Spunta la casella Includi Nome/Data per aggiungere i campi formattati "Nome: ____" e "Data: ____" in fondo alla scheda (Fredoka 18px #333). L\'intestazione auto-generata mostra automaticamente il titolo "Grafico con Immagini" e le istruzioni di conteggio nella lingua dell\'interfaccia attiva — inglese, tedesco, francese, spagnolo, portoghese, italiano, olandese, svedese, danese, norvegese o finlandese. Le schede diventano pronte per il negozio in qualsiasi località senza modifiche manuali al testo.',
       },
       {
         title: 'Personalizza con Strumenti di Testo e Modifica Canvas',
@@ -56,7 +56,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Scarica Tutti e Quattro i File',
-        description: 'Attiva la scala di grigi per versioni a risparmio d\'inchiostro ideali per stampa in classe e interni KDP. Scarica tutti e quattro i file da una singola sessione: scheda JPEG, scheda PDF, chiave di risposta JPEG e chiave di risposta PDF — tutti renderizzati a 300 DPI. Ogni scheda ha la propria coppia di pulsanti di download. I file sono pronti per la produzione per inserzioni Etsy, interni Amazon KDP e risorse TpT senza bisogno di post-elaborazione. Ripeti con temi diversi dalle 104 collezioni disponibili per una creazione rapida di prodotti.',
+        description: 'Attiva la scala di grigi per versioni a risparmio d\'inchiostro ideali per stampa in volume e interni KDP. Scarica tutti e quattro i file da una singola sessione: scheda JPEG, scheda PDF, chiave di risposta JPEG e chiave di risposta PDF — tutti renderizzati a 300 DPI. Ogni scheda ha la propria coppia di pulsanti di download. I file sono pronti per la produzione per inserzioni Etsy, interni Amazon KDP e risorse Gumroad senza bisogno di post-elaborazione. Ripeti con temi diversi dalle 104 collezioni disponibili per una creazione rapida di prodotti.',
       },
     ],
   },
@@ -64,15 +64,15 @@ const content: ToolContent = {  seo: {
   whatYouCanCreate: [
     {
       title: 'Pacchetti Tematici di Schede Grafico con Immagini',
-      description: 'Crea pacchetti tematici di grafici con immagini con 15–25 schede uniche per set utilizzando le 104 collezioni di immagini come catalogo. Animali, cibo, veicoli, natura, festività, professioni e decine di altri temi diventano ciascuno inserzioni di prodotto distinte. La distribuzione casuale di 20 icone nella griglia 4×5 significa che ogni generazione produce una sfida di conteggio diversa anche all\'interno dello stesso tema — nessuna scheda è uguale all\'altra. Includi la chiave di risposta auto-generata con ogni scheda per comodità dell\'insegnante. Il sistema a doppio canvas produce quattro file pronti per la produzione per generazione, così costruire un pacchetto completo con chiavi di risposta richiede una frazione del tempo rispetto alla creazione manuale.',
+      description: 'Crea pacchetti tematici di grafici con immagini con 15–25 schede uniche per set utilizzando le 104 collezioni di immagini come catalogo. Animali, cibo, veicoli, natura, festività, professioni e decine di altri temi diventano ciascuno inserzioni di prodotto distinte. La distribuzione casuale di 20 icone nella griglia 4×5 significa che ogni generazione produce una sfida di conteggio diversa anche all\'interno dello stesso tema — nessuna scheda è uguale all\'altra. Includi la chiave di risposta auto-generata con ogni scheda per comodità dell\'venditore. Il sistema a doppio canvas produce quattro file pronti per la produzione per generazione, così costruire un pacchetto completo con chiavi di risposta richiede una frazione del tempo rispetto alla creazione manuale.',
     },
     {
       title: 'Quaderni KDP di Competenze sui Dati',
-      description: 'Compila 60–100 schede grafico con immagini in quaderni stampati sulle competenze dati per Amazon KDP. Struttura i capitoli per tema: conteggio animali nel Capitolo 1, grafici alimentari nel Capitolo 2, conteggio veicoli nel Capitolo 3, e così via. Posiziona le pagine con chiave di risposta in fondo a ogni capitolo come riferimento per genitori e insegnanti. Attiva l\'esportazione in scala di grigi per pagine a risparmio d\'inchiostro che si riproducono perfettamente in stampa bianco e nero. Il formato di conteggio visivo con numeri e immagini universali si pubblica identicamente su tutti i marketplace internazionali KDP senza traduzione — un singolo interno serve ogni paese.',
+      description: 'Compila 60–100 schede grafico con immagini in quaderni stampati sulle competenze dati per Amazon KDP. Struttura i capitoli per tema: conteggio animali nel Capitolo 1, grafici alimentari nel Capitolo 2, conteggio veicoli nel Capitolo 3, e così via. Posiziona le pagine con chiave di risposta in fondo a ogni capitolo come riferimento per genitori e venditori. Attiva l\'esportazione in scala di grigi per pagine a risparmio d\'inchiostro che si riproducono perfettamente in stampa bianco e nero. Il formato di conteggio visivo con numeri e immagini universali si pubblica identicamente su tutti i marketplace internazionali KDP senza traduzione — un singolo interno serve ogni paese.',
     },
     {
       title: 'Schede per Centri di Attività Matematica',
-      description: 'Crea attività pronte per centri matematici in classe con grafici a immagini che includono campi nome e data studente. Gli insegnanti che cercano attività sui grafici apprezzano schede con identificazione studente integrata — la casella nome/data rende il tuo prodotto immediatamente pronto per la classe. Crea set specifici per tema legati alle unità curricolari: contare animali della fattoria per scienze della vita, fare grafici di icone meteo per scienze della terra, o contare mestieri della comunità per studi sociali. Ogni scheda include la propria chiave di risposta auto-generata, eliminando il tempo di preparazione dell\'insegnante e garantendo accuratezza.',
+      description: 'Crea attività pronte per centri matematici online con grafici a immagini che includono campi nome e data utente. i venditori che cercano attività sui grafici apprezzano schede con identificazione utente integrata — la casella nome/data rende il tuo prodotto immediatamente pronto per il negozio. Crea set specifici per tema legati alle unità curricolari: contare animali della fattoria per scienze della vita, fare grafici di icone meteo per scienze della terra, o contare mestieri della comunità per studi sociali. Ogni scheda include la propria chiave di risposta auto-generata, eliminando il tempo di preparazione dell\'venditore e garantendo accuratezza.',
     },
     {
       title: 'Collezioni Stagionali di Conteggio e Grafici',
@@ -80,18 +80,18 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Attività Interdisciplinari di Rappresentazione Dati',
-      description: 'I grafici con immagini collegano naturalmente matematica e altre materie. Usa temi animali per unità scientifiche su habitat e classificazione. Usa temi alimentari per lezioni di salute e nutrizione. Usa temi sui veicoli per argomenti su comunità e trasporti. Il formato grafico a barre insegna sia la raccolta dati (contare immagini sparse) che la rappresentazione dati (riempire celle del grafico) simultaneamente, rafforzando le competenze sui grafici coprendo contenuti disciplinari. I pacchetti interdisciplinari attraggono insegnanti che desiderano attività integrate — una nicchia in crescita su tutte le principali piattaforme marketplace.',
+      description: 'I grafici con immagini collegano naturalmente matematica e altre materie. Usa temi animali per unità scientifiche su habitat e negozificazione. Usa temi alimentari per lezioni di salute e nutrizione. Usa temi sui veicoli per argomenti su comunità e trasporti. Il formato grafico a barre insegna sia la raccolta dati (contare immagini sparse) che la rappresentazione dati (riempire celle del grafico) simultaneamente, rafforzando le competenze sui grafici coprendo contenuti disciplinari. I pacchetti interdisciplinari attraggono venditori che desiderano attività integrate — una nicchia in crescita su tutte le principali piattaforme marketplace.',
     },
     {
       title: 'Pacchetti di Apprendimento Visivo Multi-Formato',
-      description: 'Abbina schede grafico con immagini ad attività di abbinamento, schede di sequenze, esercizi grande-piccolo e pagine da colorare usando temi coordinati. I grafici con immagini insegnano raccolta dati e rappresentazione con grafico a barre. Le schede di abbinamento sviluppano discriminazione visiva. Le attività sulle sequenze sviluppano il ragionamento sequenziale. Ogni formato esercita una competenza cognitiva diversa mantenendo coerenza tematica. I pacchetti multi-formato si vendono a prezzi significativamente più alti dei pacchetti a formato singolo e offrono agli studenti pratica variata su un tema unificato.',
+      description: 'Abbina schede grafico con immagini ad attività di abbinamento, schede di sequenze, esercizi grande-piccolo e pagine da colorare usando temi coordinati. I grafici con immagini insegnano raccolta dati e rappresentazione con grafico a barre. Le schede di abbinamento sviluppano discriminazione visiva. Le attività sulle sequenze sviluppano il ragionamento sequenziale. Ogni formato esercita una competenza cognitiva diversa mantenendo coerenza tematica. I pacchetti multi-formato si vendono a prezzi significativamente più alti dei pacchetti a formato singolo e offrono agli utenti pratica variata su un tema unificato.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Negozio Etsy di Grafici con Immagini Tematici',
-      description: 'Apri un negozio Etsy specializzato in pacchetti di schede grafico con immagini organizzati per tema usando le 104 collezioni di immagini. Animali, cibo, veicoli, natura, festività e professioni diventano ciascuno inserzioni separate. Ogni scheda include la chiave di risposta auto-generata con celle evidenziate in giallo — un punto di vendita fondamentale per gli insegnanti. La distribuzione casuale della griglia 4×5 di immagini sparse garantisce che ogni scheda sia unica e impossibile da ricreare manualmente. Prezza pacchetti tematici singoli a 3–5 € per 15–20 schede con chiavi di risposta e collezioni premium multi-tema a 12–18 € per oltre 50 schede.',
+      description: 'Apri un negozio Etsy specializzato in pacchetti di schede grafico con immagini organizzati per tema usando le 104 collezioni di immagini. Animali, cibo, veicoli, natura, festività e professioni diventano ciascuno inserzioni separate. Ogni scheda include la chiave di risposta auto-generata con celle evidenziate in giallo — un punto di vendita fondamentale per i venditori. La distribuzione casuale della griglia 4×5 di immagini sparse garantisce che ogni scheda sia unica e impossibile da ricreare manualmente. Prezza pacchetti tematici singoli a 3–5 € per 15–20 schede con chiavi di risposta e collezioni premium multi-tema a 12–18 € per oltre 50 schede.',
       platform: 'Etsy',
     },
     {
@@ -100,13 +100,13 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Pacchetti TpT per Centri Matematici sui Grafici',
-      description: 'Carica pacchetti di attività grafico con immagini su TpT con i campi nome/data come punto di vendita chiave. Gli insegnanti che cercano attività per centri matematici apprezzano schede immediatamente pronte per la classe con identificazione studente integrata. Organizza per argomento curricolare: animali della fattoria per unità di scienze della vita, icone meteo per scienze della terra, mestieri della comunità per studi sociali. Ogni scheda include la propria chiave di risposta auto-generata, eliminando il tempo di preparazione dell\'insegnante. L\'intestazione localizzata si adatta a 11 lingue, rendendo i tuoi prodotti utilizzabili in classi bilingui e internazionali.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Pacchetti Gumroad per Centri Matematici sui Grafici',
+      description: 'Carica pacchetti di attività grafico con immagini su Gumroad con i campi nome/data come punto di vendita chiave. i venditori che cercano attività per centri matematici apprezzano schede immediatamente pronte per il negozio con identificazione utente integrata. Organizza per argomento curricolare: animali della fattoria per unità di scienze della vita, icone meteo per scienze della terra, mestieri della comunità per studi sociali. Ogni scheda include la propria chiave di risposta auto-generata, eliminando il tempo di preparazione dell\'venditore. L\'intestazione localizzata si adatta a 11 lingue, rendendo i tuoi prodotti utilizzabili in negozi bilingui e internazionali.',
+      platform: 'Gumroad',
     },
     {
       title: 'Funnel Pinterest per Grafici con Immagini',
-      description: 'Le schede grafico con immagini creano pin visivamente accattivanti su Pinterest — la griglia colorata di immagini sparse e il grafico a barre strutturato creano un formato educativo immediatamente riconoscibile. Pubblica schede campione che mostrano temi diversi con la chiave di risposta auto-generata affiancata. Crea serie di pin separate per "grafici di conteggio animali", "schede grafici per le feste" e "attività dati per centri matematici". Il formato visivo attira genitori e insegnanti in ogni paese. Collega ogni pin alle tue inserzioni Etsy o TpT.',
+      description: 'Le schede grafico con immagini creano pin visivamente accattivanti su Pinterest — la griglia colorata di immagini sparse e il grafico a barre strutturato creano un formato educativo immediatamente riconoscibile. Pubblica schede campione che mostrano temi diversi con la chiave di risposta auto-generata affiancata. Crea serie di pin separate per "grafici di conteggio animali", "schede grafici per le feste" e "attività dati per centri matematici". Il formato visivo attira genitori e venditori in ogni paese. Collega ogni pin alle tue inserzioni Etsy o Gumroad.',
       platform: 'Pinterest',
     },
     {
@@ -116,7 +116,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Linea di Prodotti di Conteggio Visivo Globale',
-      description: 'Il Generatore Grafici con Immagini produce schede di conteggio visivo dove gli studenti contano immagini e riempiono celle del grafico a barre — numeri e immagini sono universali. Gli stessi file di prodotto funzionano in ogni paese senza traduzione o modifiche. Una singola sessione di creazione produce un catalogo vendibile globalmente. Vendi file identici su negozi Etsy che puntano a paesi diversi, pubblica gli stessi interni KDP su tutti i marketplace internazionali Amazon e inserisci su TpT per insegnanti internazionali. Nessuna inserzione separata, nessun costo di traduzione, nessuna manutenzione per lingua.',
+      description: 'Il Generatore Grafici con Immagini produce schede di conteggio visivo dove gli utenti contano immagini e riempiono celle del grafico a barre — numeri e immagini sono universali. Gli stessi file di prodotto funzionano in ogni paese senza traduzione o modifiche. Una singola sessione di creazione produce un catalogo vendibile globalmente. Vendi file identici su negozi Etsy che puntano a paesi diversi, pubblica gli stessi interni KDP su tutti i marketplace internazionali Amazon e inserisci su Gumroad per venditori internazionali. Nessuna inserzione separata, nessun costo di traduzione, nessuna manutenzione per lingua.',
       platform: 'Etsy / Amazon KDP',
     },
   ],
@@ -124,7 +124,7 @@ const content: ToolContent = {  seo: {
   proTips: [
     {
       title: 'Sfrutta il Sistema a Doppio Canvas per Prodotti Premium',
-      description: 'La generazione simultanea di foglio di lavoro e chiave di risposta è il tuo più grande vantaggio competitivo. Ogni scheda grafico con immagini include automaticamente una chiave di risposta corrispondente con celle evidenziate in giallo e conteggi corretti. Includi le chiavi di risposta con ogni inserzione di prodotto — gli insegnanti cercano specificamente schede con soluzioni incluse. L\'output a quattro file (scheda JPEG, scheda PDF, chiave di risposta JPEG, chiave di risposta PDF) significa che ogni sessione di generazione produce un set di prodotto completo e vendibile.',
+      description: 'La generazione simultanea di foglio di lavoro e chiave di risposta è il tuo più grande vantaggio competitivo. Ogni scheda grafico con immagini include automaticamente una chiave di risposta corrispondente con celle evidenziate in giallo e conteggi corretti. Includi le chiavi di risposta con ogni inserzione di prodotto — i venditori cercano specificamente schede con soluzioni incluse. L\'output a quattro file (scheda JPEG, scheda PDF, chiave di risposta JPEG, chiave di risposta PDF) significa che ogni sessione di generazione produce un set di prodotto completo e vendibile.',
     },
     {
       title: 'Sfrutta la Distribuzione Casuale per Schede Uniche',
@@ -136,19 +136,19 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Punta alla Nicchia Curricolare della Rappresentazione Dati',
-      description: 'I grafici con immagini sono uno standard matematico specifico nei curricoli della scuola primaria in tutto il mondo. Gli insegnanti cercano attivamente risorse su grafici e rappresentazione dati. Posiziona i tuoi prodotti usando parole chiave allineate al curricolo: "grafico con immagini", "scheda grafico a barre", "attività rappresentazione dati" e "conteggio e grafici". Il formato grafico a barre insegna sia la raccolta dati (contare immagini sparse) che la rappresentazione dati (riempire celle del grafico) in un\'unica scheda — un\'attività a doppia competenza che gli acquirenti orientati al curricolo apprezzano.',
+      description: 'I grafici con immagini sono uno standard matematico specifico nei curricoli della scuola primaria in tutto il mondo. i venditori cercano attivamente risorse su grafici e rappresentazione dati. Posiziona i tuoi prodotti usando parole chiave allineate al curricolo: "grafico con immagini", "scheda grafico a barre", "attività rappresentazione dati" e "conteggio e grafici". Il formato grafico a barre insegna sia la raccolta dati (contare immagini sparse) che la rappresentazione dati (riempire celle del grafico) in un\'unica scheda — un\'attività a doppia competenza che gli acquirenti orientati al curricolo apprezzano.',
     },
     {
       title: 'Crea Collezioni Stagionali per Entrate Ricorrenti',
       description: 'Crea pacchetti di grafici con immagini per festività e stagioni usando le collezioni tematiche dalla libreria di 104 temi. Pubblica ogni pacchetto 4–6 settimane prima della festività pertinente per massima visibilità sui marketplace. Natale, Halloween, Pasqua, San Valentino, ritorno a scuola, estate e inverno supportano ciascuno inserzioni di prodotto dedicate. I prodotti stagionali generano entrate annuali ricorrenti poiché gli acquirenti ritornano ogni anno, e pubblicare in anticipo cattura il traffico di ricerca prima che la concorrenza raggiunga il picco.',
     },
     {
-      title: 'Includi Campi Nome/Data per Prodotti Pronti per la Classe',
-      description: 'La singola casella di spunta che aggiunge i campi "Nome: ____" e "Data: ____" trasforma le schede grafico con immagini da stampabili generici in attività strutturate per la classe. Gli insegnanti su TpT cercano specificamente risorse "pronte per la classe" e "stampa e usa" con aree di identificazione studente. Questa aggiunta con un clic non richiede sforzo extra ma eleva i tuoi prodotti sopra i concorrenti che vendono schede non formattate senza campi studente.',
+      title: 'Includi Campi Nome/Data per Prodotti Pronti per il negozio',
+      description: 'La singola casella di spunta che aggiunge i campi "Nome: ____" e "Data: ____" trasforma le schede grafico con immagini da stampabili generici in attività strutturate per il negozio. i venditori su Gumroad cercano specificamente risorse "pronte per il negozio" e "stampa e usa" con aree di identificazione utente. Questa aggiunta con un clic non richiede sforzo extra ma eleva i tuoi prodotti sopra i concorrenti che vendono schede non formattate senza campi utente.',
     },
     {
       title: 'Vendi in Tutto il Mondo Senza Lavoro di Traduzione',
-      description: 'Le schede grafico con immagini usano elementi visivi universali — immagini sparse che gli studenti contano e celle del grafico a barre che riempiono con numeri. Nessuna traduzione del testo è necessaria perché il contenuto della scheda funzioni in qualsiasi lingua. L\'intestazione localizzata traduce automaticamente titolo e istruzioni in 11 lingue quando cambi la lingua dell\'interfaccia. Crea un solo set di schede e vendi gli stessi file su tutti i negozi Etsy internazionali, marketplace KDP e TpT. Ogni scheda che generi serve istantaneamente un mercato globale con zero sforzo aggiuntivo.',
+      description: 'Le schede grafico con immagini usano elementi visivi universali — immagini sparse che gli utenti contano e celle del grafico a barre che riempiono con numeri. Nessuna traduzione del testo è necessaria perché il contenuto della scheda funzioni in qualsiasi lingua. L\'intestazione localizzata traduce automaticamente titolo e istruzioni in 11 lingue quando cambi la lingua dell\'interfaccia. Crea un solo set di schede e vendi gli stessi file su tutti i negozi Etsy internazionali, marketplace KDP e Gumroad. Ogni scheda che generi serve istantaneamente un mercato globale con zero sforzo aggiuntivo.',
     },
   ],
 
@@ -159,7 +159,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Come funziona la scheda grafico con immagini?',
-      answer: 'Ogni scheda ha due parti interconnesse. La sezione superiore mostra una griglia 4×5 contenente 20 icone sparse di 6 diversi tipi di immagini — ogni tipo appare da 1 a 5 volte con distribuzione casuale. La sezione inferiore mostra un grafico a barre con 6 colonne × 5 righe con colonne etichettate per tipo di immagine e righe numerate da 1 a 5 dal basso verso l\'alto. Gli studenti contano quante icone di ogni tipo appaiono nella griglia, poi colorano o riempiono il numero corrispondente di celle nella colonna corrispondente. Questo insegna sia la raccolta dati (conteggio) che la rappresentazione dati (creazione grafici) in un\'unica attività.',
+      answer: 'Ogni scheda ha due parti interconnesse. La sezione superiore mostra una griglia 4×5 contenente 20 icone sparse di 6 diversi tipi di immagini — ogni tipo appare da 1 a 5 volte con distribuzione casuale. La sezione inferiore mostra un grafico a barre con 6 colonne × 5 righe con colonne etichettate per tipo di immagine e righe numerate da 1 a 5 dal basso verso l\'alto. gli utenti contano quante icone di ogni tipo appaiono nella griglia, poi colorano o riempiono il numero corrispondente di celle nella colonna corrispondente. Questo insegna sia la raccolta dati (conteggio) che la rappresentazione dati (creazione grafici) in un\'unica attività.',
     },
     {
       question: 'Come funziona la chiave di risposta auto-generata?',
@@ -171,7 +171,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Cos\'è l\'intestazione localizzata su ogni scheda?',
-      answer: 'Ogni scheda generata include un\'intestazione stilizzata con sfondo a pillola gialla (#FFD93D), pillola interna bianca e cornice con bordo arancione. L\'intestazione mostra il titolo "Grafico con Immagini" e le istruzioni di conteggio che si traducono automaticamente nella lingua attiva dell\'interfaccia — inglese, tedesco, francese, spagnolo, portoghese, italiano, olandese, svedese, danese, norvegese o finlandese. L\'intestazione si adatta automaticamente quando cambi lingua, rendendo le schede pronte per la classe in qualsiasi località senza modifiche manuali al testo.',
+      answer: 'Ogni scheda generata include un\'intestazione stilizzata con sfondo a pillola gialla (#FFD93D), pillola interna bianca e cornice con bordo arancione. L\'intestazione mostra il titolo "Grafico con Immagini" e le istruzioni di conteggio che si traducono automaticamente nella lingua attiva dell\'interfaccia — inglese, tedesco, francese, spagnolo, portoghese, italiano, olandese, svedese, danese, norvegese o finlandese. L\'intestazione si adatta automaticamente quando cambi lingua, rendendo le schede pronte per il negozio in qualsiasi località senza modifiche manuali al testo.',
     },
     {
       question: 'Come funzionano i temi di sfondo e bordo?',
@@ -179,7 +179,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Le schede sono sensibili alla lingua?',
-      answer: 'No. Il Generatore Grafici con Immagini produce schede di conteggio visivo dove gli studenti contano immagini e riempiono celle del grafico a barre — numeri e immagini sono universali. Cambiare la lingua influisce solo sulle etichette dell\'interfaccia nel generatore e sul titolo e le istruzioni dell\'intestazione auto-generata. L\'output della scheda funziona identicamente in ogni lingua. Un solo set di schede serve un mercato globale senza traduzione o modifiche.',
+      answer: 'No. Il Generatore Grafici con Immagini produce schede di conteggio visivo dove gli utenti contano immagini e riempiono celle del grafico a barre — numeri e immagini sono universali. Cambiare la lingua influisce solo sulle etichette dell\'interfaccia nel generatore e sul titolo e le istruzioni dell\'intestazione auto-generata. L\'output della scheda funziona identicamente in ogni lingua. Un solo set di schede serve un mercato globale senza traduzione o modifiche.',
     },
     {
       question: 'Quali temi di immagini e formati di file sono disponibili?',
@@ -187,7 +187,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Posso vendere commercialmente le schede grafico con immagini create con questo strumento?',
-      answer: 'Sì. Con una licenza commerciale, hai pieni diritti di vendere schede grafico con immagini come download digitali su Etsy, quaderni stampati sulle competenze dati su Amazon KDP, risorse per la classe su TpT o attraverso qualsiasi altro canale di vendita. La generazione a doppio canvas, la chiave di risposta automatica con celle evidenziate in giallo e le 104 collezioni tematiche ti danno tutto il necessario per creare prodotti professionali competitivi nelle categorie di schede su grafici e dati su ogni principale marketplace.',
+      answer: 'Sì. Con una licenza commerciale, hai pieni diritti di vendere schede grafico con immagini come download digitali su Etsy, quaderni stampati sulle competenze dati su Amazon KDP, risorse per il negozio su Gumroad o attraverso qualsiasi altro canale di vendita. La generazione a doppio canvas, la chiave di risposta automatica con celle evidenziate in giallo e le 104 collezioni tematiche ti danno tutto il necessario per creare prodotti professionali competitivi nelle categorie di schede su grafici e dati su ogni principale marketplace.',
     },
     {
       question: 'Posso caricare le mie immagini?',

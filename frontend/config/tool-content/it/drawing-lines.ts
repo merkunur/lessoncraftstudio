@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Creatore di Schede Pregrafismo — Tracciamento Linee',
     tagline: 'Otto modelli SVG per tracciamento linee con coppie di immagini abbinate, riempimento automatico da 104 temi colorati e orientamento pagina automatico per schede pregrafismo professionali vendibili in tutto il mondo',
-    description: 'Crea schede professionali di tracciamento linee dove gli studenti disegnano lungo percorsi guidati per collegare coppie di immagini abbinate. Otto modelli basati su SVG coprono una progressione completa di motricità fine: un modello orizzontale per il tracciamento rettilineo da sinistra a destra (il più facile), un modello verticale per i tratti dall\'alto verso il basso, quattro modelli curva per movimenti fluidi del polso e due modelli diagonale per la coordinazione crociata (il più difficile). Ogni modello posiziona 4 o 5 coppie di immagini abbinate sui lati opposti del percorso della linea, dando agli studenti un obiettivo visivo a ciascuna estremità. La selezione del modello guida automaticamente l\'orientamento della pagina — le curve passano al formato orizzontale per archi ampi, mentre i modelli diagonale, orizzontale e verticale usano il formato verticale per la pratica focalizzata. Il riempimento automatico popola istantaneamente ogni slot di coppia con immagini casuali dal tema selezionato o da tutti i 104 temi contemporaneamente, rendendo la creazione in serie velocissima. I contenuti provengono da oltre 3.100 illustrazioni colorate in 104 collezioni tematiche — animali, veicoli, cibo, natura e decine di altri. Ogni scheda è puramente visiva con zero testo sul foglio stampato, rendendo i prodotti vendibili universalmente senza traduzione. Non è necessaria una chiave di risposta separata perché il percorso della linea stesso guida lo studente — un\'attività autocorrettiva per natura. Esporta PDF e JPEG pronti per la stampa a 300 DPI nei formati Letter, A4, Quadrato (1200×1200) o dimensioni personalizzate. Modifica tutto sul canvas Fabric.js completo con font tra cui Lexend Deca, Baloo 2, Nunito, Quicksand e Fredoka. La prova gratuita include ogni funzionalità con una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Crea schede professionali di tracciamento linee dove gli utenti disegnano lungo percorsi guidati per collegare coppie di immagini abbinate. Otto modelli basati su SVG coprono una progressione completa di motricità fine: un modello orizzontale per il tracciamento rettilineo da sinistra a destra (il più facile), un modello verticale per i tratti dall\'alto verso il basso, quattro modelli curva per movimenti fluidi del polso e due modelli diagonale per la coordinazione crociata (il più difficile). Ogni modello posiziona 4 o 5 coppie di immagini abbinate sui lati opposti del percorso della linea, dando agli utenti un obiettivo visivo a ciascuna estremità. La selezione del modello guida automaticamente l\'orientamento della pagina — le curve passano al formato orizzontale per archi ampi, mentre i modelli diagonale, orizzontale e verticale usano il formato verticale per la pratica focalizzata. Il riempimento automatico popola istantaneamente ogni slot di coppia con immagini casuali dal tema selezionato o da tutti i 104 temi contemporaneamente, rendendo la creazione in serie velocissima. I contenuti provengono da oltre 3.100 illustrazioni colorate in 104 collezioni tematiche — animali, veicoli, cibo, natura e decine di altri. Ogni scheda è puramente visiva con zero testo sul foglio stampato, rendendo i prodotti vendibili universalmente senza traduzione. Non è necessaria una chiave di risposta separata perché il percorso della linea stesso guida l'utente — un\'attività autocorrettiva per natura. Esporta PDF e JPEG pronti per la stampa a 300 DPI nei formati Letter, A4, Quadrato (1200×1200) o dimensioni personalizzate. Modifica tutto sul canvas Fabric.js completo con font tra cui Lexend Deca, Baloo 2, Nunito, Quicksand e Fredoka. La prova gratuita include ogni funzionalità con una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
   },
 
   tutorial: {
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Aggiungi Testo e Attiva i Campi Nome/Data',
-        description: 'Usa il pannello Strumenti Testo per aggiungere un titolo, istruzioni o testo decorativo. Scegli tra font come Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito e Quicksand. Attiva o disattiva i campi nome e data per le aree di identificazione dello studente. L\'intestazione auto-generata mostra un banner verde vivace con "Pratica Disegno Linee" localizzato in tutte le 11 lingue supportate. Trascina, ridimensiona, ruota e riposiziona ogni elemento sul canvas Fabric.js completo con strumenti di allineamento, controlli blocco/sblocco e annulla/ripristina illimitati.',
+        description: 'Usa il pannello Strumenti Testo per aggiungere un titolo, istruzioni o testo decorativo. Scegli tra font come Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito e Quicksand. Attiva o disattiva i campi nome e data per le aree di identificazione dell'utente. L\'intestazione auto-generata mostra un banner verde vivace con "Pratica Disegno Linee" localizzato in tutte le 11 lingue supportate. Trascina, ridimensiona, ruota e riposiziona ogni elemento sul canvas Fabric.js completo con strumenti di allineamento, controlli blocco/sblocco e annulla/ripristina illimitati.',
       },
       {
         title: 'Anteprima e Regolazione della Difficoltà delle Linee',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Esporta come PDF o JPEG a 300 DPI',
-        description: 'Scarica la scheda finita come JPEG ad alta risoluzione o PDF pronto per la stampa a 300 DPI. Attiva la scala di grigi per versioni ottimizzate per il risparmio d\'inchiostro, ideali per la stampa in classe e gli interni KDP. Non è necessaria una chiave di risposta separata — il percorso della linea stesso guida lo studente, rendendo ogni scheda un\'attività autocorrettiva. Ogni esportazione è pronta per la vendita su Etsy, interni Amazon KDP e file prodotto TpT senza alcuna post-elaborazione.',
+        description: 'Scarica la scheda finita come JPEG ad alta risoluzione o PDF pronto per la stampa a 300 DPI. Attiva la scala di grigi per versioni ottimizzate per il risparmio d\'inchiostro, ideali per la stampa in volume e gli interni KDP. Non è necessaria una chiave di risposta separata — il percorso della linea stesso guida l'utente, rendendo ogni scheda un\'attività autocorrettiva. Ogni esportazione è pronta per la vendita su Etsy, interni Amazon KDP e file prodotto Gumroad senza alcuna post-elaborazione.',
       },
     ],
   },
@@ -69,15 +69,15 @@ const content: ToolContent = {
     },
     {
       title: 'Quaderni di Motricità Fine per KDP',
-      description: 'Compila 60–100 esercizi di tracciamento linee in quaderni stampati per Amazon KDP. Struttura un curriculum di motricità fine attraverso capitoli: il Capitolo 1 copre le linee orizzontali per le basi del controllo direzionale. Il Capitolo 2 introduce le linee verticali per i tratti discendenti. Il Capitolo 3 avanza alle curve per la flessibilità del polso. Il Capitolo 4 sfida i lettori con le diagonali che richiedono coordinazione crociata. Le coppie di immagini colorate si riproducono in modo vivido nella stampa a colori. Il formato visivo a zero testo si pubblica identicamente su tutti i marketplace KDP internazionali senza alcuna traduzione.',
+      description: 'Compila 60–100 esercizi di tracciamento linee in quaderni stampati per Amazon KDP. Struttura un catalogo prodotti di motricità fine attraverso capitoli: il Capitolo 1 copre le linee orizzontali per le basi del controllo direzionale. Il Capitolo 2 introduce le linee verticali per i tratti discendenti. Il Capitolo 3 avanza alle curve per la flessibilità del polso. Il Capitolo 4 sfida i lettori con le diagonali che richiedono coordinazione crociata. Le coppie di immagini colorate si riproducono in modo vivido nella stampa a colori. Il formato visivo a zero testo si pubblica identicamente su tutti i marketplace KDP internazionali senza alcuna traduzione.',
     },
     {
       title: 'Set di Preparazione alla Scrittura',
-      description: 'Costruisci schede pregrafismo progettate specificamente come preparazione alla scrittura. Le linee orizzontali praticano la direzione di tracciamento da sinistra a destra usata nella lettura e nella scrittura. Le linee verticali sviluppano i tratti dall\'alto al basso essenziali per la formazione delle lettere. Le curve imitano i movimenti arrotondati necessari per lettere come c, o, s ed e. Le diagonali costruiscono i tratti angolati usati in lettere come k, v, w e z. Confeziona questi come bundle "Preparazione alla Scrittura" che collegano lo sviluppo della motricità fine alle competenze di alfabetizzazione — una categoria di prodotto con forte domanda durante tutto l\'anno da parte di insegnanti della scuola dell\'infanzia e genitori.',
+      description: 'Costruisci schede pregrafismo progettate specificamente come preparazione alla scrittura. Le linee orizzontali praticano la direzione di tracciamento da sinistra a destra usata nella lettura e nella scrittura. Le linee verticali sviluppano i tratti dall\'alto al basso essenziali per la formazione delle lettere. Le curve imitano i movimenti arrotondati necessari per lettere come c, o, s ed e. Le diagonali costruiscono i tratti angolati usati in lettere come k, v, w e z. Confeziona questi come bundle "Preparazione alla Scrittura" che collegano lo sviluppo della motricità fine alle competenze di alfabetizzazione — una categoria di prodotto con forte domanda durante tutto l\'anno da parte di venditori della scuola dell\'infanzia e genitori.',
     },
     {
       title: 'Set di Attività con Coppie di Immagini Abbinate per Tema',
-      description: 'Sfrutta le 104 collezioni tematiche per creare schede pregrafismo dove gli studenti collegano immagini abbinate lungo percorsi guidati. Ogni tema diventa un\'inserzione prodotto distinta: tracciamento linee con animali della fattoria, disegno curve con dinosauri, pratica diagonali con creature marine, linee verticali con esplorazione spaziale. Il formato con coppie di immagini abbinate aggiunge un elemento di identificazione all\'esercizio di motricità fine — gli studenti devono trovare l\'immagine corrispondente alla fine di ogni linea, combinando discriminazione visiva e controllo della matita in un\'unica attività coinvolgente.',
+      description: 'Sfrutta le 104 collezioni tematiche per creare schede pregrafismo dove gli utenti collegano immagini abbinate lungo percorsi guidati. Ogni tema diventa un\'inserzione prodotto distinta: tracciamento linee con animali della fattoria, disegno curve con dinosauri, pratica diagonali con creature marine, linee verticali con esplorazione spaziale. Il formato con coppie di immagini abbinate aggiunge un elemento di identificazione all\'esercizio di motricità fine — gli utenti devono trovare l\'immagine corrispondente alla fine di ogni linea, combinando discriminazione visiva e controllo della matita in un\'unica attività coinvolgente.',
     },
     {
       title: 'Bundle Campionario con Tipi di Linea Misti',
@@ -85,29 +85,29 @@ const content: ToolContent = {
     },
     {
       title: 'Bundle di Apprendimento Visivo Multi-Formato',
-      description: 'Abbina le schede pregrafismo con pagine da colorare, esercizi disegno su griglia, schede di sequenze e attività di abbinamento usando temi coordinati. Il tracciamento linee sviluppa il controllo della matita lungo percorsi guidati. Il disegno su griglia costruisce la riproduzione spaziale. Le pagine da colorare allenano il riconoscimento dei colori e il controllo motorio fine. Ogni formato esercita un\'abilità visuo-motoria diversa. I bundle multi-formato si vendono a più di qualsiasi singolo tipo di attività e offrono agli studenti una pratica variata con un tema unificato in ogni attività.',
+      description: 'Abbina le schede pregrafismo con pagine da colorare, esercizi disegno su griglia, schede di sequenze e attività di abbinamento usando temi coordinati. Il tracciamento linee sviluppa il controllo della matita lungo percorsi guidati. Il disegno su griglia costruisce la riproduzione spaziale. Le pagine da colorare allenano il riconoscimento dei colori e il controllo motorio fine. Ogni formato esercita un\'abilità visuo-motoria diversa. I bundle multi-formato si vendono a più di qualsiasi singolo tipo di attività e offrono agli utenti una pratica variata con un tema unificato in ogni attività.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Negozio Etsy Specializzato per Difficoltà di Linea',
-      description: 'Apri un negozio Etsy specializzato in schede pregrafismo organizzate per difficoltà del tipo di linea. I pacchetti orizzontali servono i principianti con linee rettilinee da sinistra a destra. I pacchetti verticali avanzano ai tratti dall\'alto al basso. I pacchetti curve introducono movimenti fluidi. I pacchetti diagonali sfidano gli studenti avanzati con coordinazione angolata. Gli otto modelli distinti e i 104 temi di immagini producono centinaia di combinazioni uniche di schede. Il formato visivo a zero testo rende ogni prodotto vendibile in tutto il mondo. Prezza i pacchetti tematici singoli a 3–5 € e i bundle progressivi multi-tipo a 12–18 €.',
+      description: 'Apri un negozio Etsy specializzato in schede pregrafismo organizzate per difficoltà del tipo di linea. I pacchetti orizzontali servono i principianti con linee rettilinee da sinistra a destra. I pacchetti verticali avanzano ai tratti dall\'alto al basso. I pacchetti curve introducono movimenti fluidi. I pacchetti diagonali sfidano gli utenti avanzati con coordinazione angolata. Gli otto modelli distinti e i 104 temi di immagini producono centinaia di combinazioni uniche di schede. Il formato visivo a zero testo rende ogni prodotto vendibile in tutto il mondo. Prezza i pacchetti tematici singoli a 3–5 € e i bundle progressivi multi-tipo a 12–18 €.',
       platform: 'Etsy',
     },
     {
       title: 'Serie di Quaderni Pregrafismo per Amazon KDP',
-      description: 'Compila oltre 80 esercizi di tracciamento linee in quaderni tematici per Amazon KDP. Struttura una serie per progressione: "Tracciamento Linee Base" copre modelli orizzontali e verticali. "Tracciamento Linee Intermedio" introduce tutte e quattro le varianti di curve. "Tracciamento Linee Avanzato" presenta modelli diagonali misti a curve. Le immagini colorate si stampano in modo vivido per interni coinvolgenti e adatti ai bambini. Il formato a zero testo si pubblica identicamente su tutti i marketplace KDP internazionali senza traduzione. I quaderni di motricità fine occupano una nicchia specifica dell\'apprendimento precoce con domanda costante durante tutto l\'anno.',
+      description: 'Compila oltre 80 esercizi di tracciamento linee in quaderni tematici per Amazon KDP. Struttura una serie per progressione: "Tracciamento Linee Base" copre modelli orizzontali e verticali. "Tracciamento Linee Intermedio" introduce tutte e quattro le varianti di curve. "Tracciamento Linee Avanzato" presenta modelli diagonali misti a curve. Le immagini colorate si stampano in modo vivido per interni coinvolgenti e accattivanti. Il formato a zero testo si pubblica identicamente su tutti i marketplace KDP internazionali senza traduzione. I quaderni di motricità fine occupano una nicchia specifica dell\'apprendimento precoce con domanda costante durante tutto l\'anno.',
       platform: 'Amazon KDP',
     },
     {
-      title: 'Centri di Preparazione alla Scrittura per Teachers Pay Teachers',
-      description: 'Costruisci stazioni di preparazione alla scrittura livellate usando il tipo di linea come asse di progressione. La Stazione 1 copre le linee orizzontali per il tracciamento da sinistra a destra. La Stazione 2 si concentra sulle linee verticali per i tratti dall\'alto al basso. La Stazione 3 introduce le curve per i movimenti di formazione delle lettere. La Stazione 4 sfida gli studenti con le diagonali per le forme angolari delle lettere. Ogni stazione mira a una specifica abilità di prescrittura che si trasferisce direttamente alla formazione delle lettere. Il formato visivo a zero testo funziona in qualsiasi aula indipendentemente dalla lingua degli studenti, rendendo queste risorse preziose per contesti inclusivi e multilingue.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Centri di Preparazione alla Scrittura per Gumroad',
+      description: 'Costruisci stazioni di preparazione alla scrittura livellate usando il tipo di linea come asse di progressione. La Stazione 1 copre le linee orizzontali per il tracciamento da sinistra a destra. La Stazione 2 si concentra sulle linee verticali per i tratti dall\'alto al basso. La Stazione 3 introduce le curve per i movimenti di formazione delle lettere. La Stazione 4 sfida gli utenti con le diagonali per le forme angolari delle lettere. Ogni stazione mira a una specifica abilità di prescrittura che si trasferisce direttamente alla formazione delle lettere. Il formato visivo a zero testo funziona in qualsiasi negozio indipendentemente dalla lingua degli utenti, rendendo queste risorse preziose per contesti inclusivi e multilingue.',
+      platform: 'Gumroad',
     },
     {
       title: 'Funnel Visivo su Pinterest per Pregrafismo',
-      description: 'Le schede pregrafismo con coppie di immagini colorate e percorsi SVG distintivi creano pin accattivanti su Pinterest che si distinguono dai pin di schede pieni di testo. Pubblica schede campione con diversi tipi di linea con filigrana, collega al tuo negozio Etsy o alla tua landing page e costruisci la tua mailing list. Crea serie di pin separate per "tracciamento linee per bambini", "schede motricità fine" e "pratica di prescrittura". Il formato a zero testo significa che i pin attraggono genitori e insegnanti in ogni paese del mondo.',
+      description: 'Le schede pregrafismo con coppie di immagini colorate e percorsi SVG distintivi creano pin accattivanti su Pinterest che si distinguono dai pin di schede pieni di testo. Pubblica schede campione con diversi tipi di linea con filigrana, collega al tuo negozio Etsy o alla tua landing page e costruisci la tua mailing list. Crea serie di pin separate per "tracciamento linee per bambini", "schede motricità fine" e "pratica di prescrittura". Il formato a zero testo significa che i pin attraggono genitori e venditori in ogni paese del mondo.',
       platform: 'Pinterest',
     },
     {
@@ -141,15 +141,15 @@ const content: ToolContent = {
     },
     {
       title: 'Evidenzia i Temi Colorati come Vantaggio di Coinvolgimento Visivo',
-      description: 'Pregrafismo usa illustrazioni colorate, non contorni in bianco e nero. Sottolinea questo nelle tue inserzioni prodotto — le coppie di immagini colorate rendono le schede visivamente coinvolgenti per i piccoli studenti e creano miniature Etsy più attraenti che generano tassi di clic più alti nei risultati di ricerca. Le immagini vivaci differenziano i tuoi prodotti dalle schede pregrafismo semplici.',
+      description: 'Pregrafismo usa illustrazioni colorate, non contorni in bianco e nero. Sottolinea questo nelle tue inserzioni prodotto — le coppie di immagini colorate rendono le schede visivamente coinvolgenti per i piccoli utenti e creano miniature Etsy più attraenti che generano tassi di clic più alti nei risultati di ricerca. Le immagini vivaci differenziano i tuoi prodotti dalle schede pregrafismo semplici.',
     },
     {
       title: 'Usa la Scala di Grigi per la Stampa Economica',
-      description: 'Attiva l\'opzione scala di grigi per le schede destinate agli interni Amazon KDP o alla stampa in serie in classe dove i costi di stampa a colori sono un problema. Anche in scala di grigi, le coppie di immagini rimangono visivamente distinguibili per l\'abbinamento e i percorsi SVG si riproducono perfettamente in bianco e nero. Riserva le versioni a colori per le inserzioni Etsy dove l\'appeal visivo guida i clic.',
+      description: 'Attiva l\'opzione scala di grigi per le schede destinate agli interni Amazon KDP o alla stampa in serie online dove i costi di stampa a colori sono un problema. Anche in scala di grigi, le coppie di immagini rimangono visivamente distinguibili per l\'abbinamento e i percorsi SVG si riproducono perfettamente in bianco e nero. Riserva le versioni a colori per le inserzioni Etsy dove l\'appeal visivo guida i clic.',
     },
     {
       title: 'Combina il Tracciamento Linee con Altri Strumenti Visivi per Bundle Premium',
-      description: 'Abbina le schede pregrafismo con pagine da colorare, esercizi disegno su griglia, abbinamento e discriminazione visiva usando temi coordinati. Ogni strumento esercita un\'abilità visuo-motoria diversa. I bundle visivi multi-formato si vendono a più di qualsiasi singolo tipo di attività e offrono agli studenti una pratica variata attraverso motricità fine, ragionamento spaziale e discriminazione visiva.',
+      description: 'Abbina le schede pregrafismo con pagine da colorare, esercizi disegno su griglia, abbinamento e discriminazione visiva usando temi coordinati. Ogni strumento esercita un\'abilità visuo-motoria diversa. I bundle visivi multi-formato si vendono a più di qualsiasi singolo tipo di attività e offrono agli utenti una pratica variata attraverso motricità fine, ragionamento spaziale e discriminazione visiva.',
     },
   ],
 
@@ -164,7 +164,7 @@ const content: ToolContent = {
     },
     {
       question: 'Come funziona l\'abbinamento delle coppie di immagini?',
-      answer: 'Ogni modello posiziona coppie di immagini abbinate sui lati opposti del percorso della linea. Un\'immagine appare all\'inizio della linea e la sua corrispondente alla fine. Gli studenti tracciano lungo il percorso guidato per collegare le immagini corrispondenti. I modelli contengono 4 o 5 coppie a seconda del tipo di linea. Le immagini abbinate danno agli studenti un obiettivo visivo che li motiva a completare ogni linea.',
+      answer: 'Ogni modello posiziona coppie di immagini abbinate sui lati opposti del percorso della linea. Un\'immagine appare all\'inizio della linea e la sua corrispondente alla fine. gli utenti tracciano lungo il percorso guidato per collegare le immagini corrispondenti. I modelli contengono 4 o 5 coppie a seconda del tipo di linea. Le immagini abbinate danno agli utenti un obiettivo visivo che li motiva a completare ogni linea.',
     },
     {
       question: 'Come funziona il riempimento automatico per la creazione in serie?',
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'Perché non c\'è una chiave di risposta?',
-      answer: 'Le schede Pregrafismo non necessitano di una chiave di risposta separata perché il percorso della linea stesso guida lo studente. Il modello SVG stampato sulla scheda mostra esattamente dove tracciare — gli studenti seguono il percorso visibile da un\'immagine alla sua corrispondente. L\'esercizio è autocorrettivo: se la linea dello studente segue il percorso e raggiunge l\'immagine corrispondente, l\'esercizio è completato correttamente.',
+      answer: 'Le schede Pregrafismo non necessitano di una chiave di risposta separata perché il percorso della linea stesso guida l'utente. Il modello SVG stampato sulla scheda mostra esattamente dove tracciare — gli utenti seguono il percorso visibile da un\'immagine alla sua corrispondente. L\'esercizio è autocorrettivo: se la linea dell'utente segue il percorso e raggiunge l\'immagine corrispondente, l\'esercizio è completato correttamente.',
     },
     {
       question: 'Queste schede sono sensibili alla lingua?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Posso vendere commercialmente le schede create con questo strumento?',
-      answer: 'Sì. Con una licenza commerciale, hai pieni diritti di vendere schede pregrafismo come download digitali su Etsy, quaderni stampati su Amazon KDP, risorse per insegnanti su TpT o attraverso qualsiasi altro canale di vendita. Gli otto modelli distinti, i 104 temi colorati, il flusso di riempimento automatico e il formato visivo a zero testo creano una forte differenziazione e vendibilità globale.',
+      answer: 'Sì. Con una licenza commerciale, hai pieni diritti di vendere schede pregrafismo come download digitali su Etsy, quaderni stampati su Amazon KDP, risorse per venditori su Gumroad o attraverso qualsiasi altro canale di vendita. Gli otto modelli distinti, i 104 temi colorati, il flusso di riempimento automatico e il formato visivo a zero testo creano una forte differenziazione e vendibilità globale.',
     },
     {
       question: 'Qual è la politica di rimborso?',

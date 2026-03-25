@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Generador de Fichas de Preposiciones',
     tagline: 'Crea fichas de preposiciones espaciales con dos modos de ejercicio en 11 idiomas',
-    description: 'Enseña palabras de posición mediante ejercicios basados en imágenes que los alumnos realmente disfrutan. Esta herramienta genera fichas de preposiciones donde los estudiantes identifican relaciones espaciales — sobre, debajo, encima, al lado, entre, dentro, fuera — estudiando escenas con imágenes y completando o seleccionando la preposición correcta. Elige entre dos modos de ejercicio: Rellenar Espacios en Blanco, donde los alumnos escriben la preposición correcta, u Opción Múltiple, donde eligen entre varias opciones con una línea de instrucción personalizable. Configura de 1 a 8 ejercicios por ficha y selecciona exactamente qué preposiciones incluir usando la cuadrícula de casillas. La función destacada de la herramienta es el Reemplazo de Formas — una capa de imagen independiente te permite intercambiar las formas de la escena de manera autónoma, creando muchas más combinaciones visuales de lo que un solo conjunto de imágenes podría ofrecer. La sensibilidad idiomática está integrada: cambia del español a cualquiera de los 11 idiomas compatibles y cada palabra de preposición se actualiza a su equivalente nativo. El alemán usa «auf, unter, über, neben, zwischen, drinnen, draußen»; el francés usa «sur, sous, au-dessus, à côté, entre, dedans, dehors». Un solo diseño de ficha se convierte en 11 productos únicos en diferentes idiomas. Explora más de 3.100 imágenes en 104 temas, sube tus propias imágenes PNG o JPEG para diseños personalizados y elige entre múltiples plantillas y 7 familias de fuentes. Exporta como PDF listo para imprimir o JPEG de alta resolución. La prueba gratuita incluye una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
+    description: 'Enseña palabras de posición mediante ejercicios basados en imágenes que los usuarios realmente disfrutan. Esta herramienta genera fichas de preposiciones donde los usuarios identifican relaciones espaciales — sobre, debajo, encima, al lado, entre, dentro, fuera — estudiando escenas con imágenes y completando o seleccionando la preposición correcta. Elige entre dos modos de ejercicio: Rellenar Espacios en Blanco, donde los usuarios escriben la preposición correcta, u Opción Múltiple, donde eligen entre varias opciones con una línea de instrucción personalizable. Configura de 1 a 8 ejercicios por ficha y selecciona exactamente qué preposiciones incluir usando la cuadrícula de casillas. La función destacada de la herramienta es el Reemplazo de Formas — una capa de imagen independiente te permite intercambiar las formas de la escena de manera autónoma, creando muchas más combinaciones visuales de lo que un solo conjunto de imágenes podría ofrecer. La sensibilidad idiomática está integrada: cambia del español a cualquiera de los 11 idiomas compatibles y cada palabra de preposición se actualiza a su equivalente nativo. El alemán usa «auf, unter, über, neben, zwischen, drinnen, draußen»; el francés usa «sur, sous, au-dessus, à côté, entre, dedans, dehors». Un solo diseño de ficha se convierte en 11 productos únicos en diferentes idiomas. Explora más de 3.100 imágenes en 104 temas, sube tus propias imágenes PNG o JPEG para diseños personalizados y elige entre múltiples plantillas y 7 familias de fuentes. Exporta como PDF listo para imprimir o JPEG de alta resolución. La prueba gratuita incluye una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
   },
 
   tutorial: {
@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: 'Elegir el Modo de Ejercicio',
-        description: 'Selecciona Rellenar Espacios en Blanco u Opción Múltiple. El modo Rellenar Espacios en Blanco presenta una escena con imagen y una línea vacía donde los alumnos escriben la preposición correcta. El modo Opción Múltiple muestra opciones para que los alumnos seleccionen, con una línea de descripción personalizable que puedes editar según tu estilo de enseñanza. Rellenar es ideal para alumnos mayores; Opción Múltiple funciona mejor para principiantes.',
+        description: 'Selecciona Rellenar Espacios en Blanco u Opción Múltiple. El modo Rellenar Espacios en Blanco presenta una escena con imagen y una línea vacía donde los usuarios escriben la preposición correcta. El modo Opción Múltiple muestra opciones para que los usuarios seleccionen, con una línea de descripción personalizable que puedes editar según tu estilo de enseñanza. Rellenar es ideal para usuarios mayores; Opción Múltiple funciona mejor para principiantes.',
       },
       {
         title: 'Seleccionar Preposiciones',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Packs de Preposiciones Temáticos',
-      description: 'Crea conjuntos de 10 a 15 fichas de preposiciones usando colecciones de imágenes temáticas — animales, vehículos, objetos del hogar, escenas de la naturaleza. Cada ficha usa diferentes combinaciones de imágenes y formas a un nivel de dificultad uniforme. Agrúpalos por tema y véndelos en Etsy o Teachers Pay Teachers. El formato basado en escenas con imágenes hace que las miniaturas de tus listings sean visualmente atractivas comparadas con fichas de gramática basadas en texto. Los packs temáticos también fomentan compras repetidas: un comprador que disfruta tu pack de preposiciones de animales probablemente volverá por el de vehículos o festividades, creando fidelidad a largo plazo en tu tienda.',
+      description: 'Crea conjuntos de 10 a 15 fichas de preposiciones usando colecciones de imágenes temáticas — animales, vehículos, objetos del hogar, escenas de la naturaleza. Cada ficha usa diferentes combinaciones de imágenes y formas a un nivel de dificultad uniforme. Agrúpalos por tema y véndelos en Etsy o Gumroad. El formato basado en escenas con imágenes hace que las miniaturas de tus listings sean visualmente atractivas comparadas con fichas de gramática basadas en texto. Los packs temáticos también fomentan compras repetidas: un comprador que disfruta tu pack de preposiciones de animales probablemente volverá por el de vehículos o festividades, creando fidelidad a largo plazo en tu tienda.',
     },
     {
       title: 'Cuadernos de Lenguaje Espacial para KDP',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Conjuntos Diferenciados por Modo de Ejercicio',
-      description: 'Genera dos versiones de cada ficha temática: Opción Múltiple para alumnos más pequeños o con dificultades, y Rellenar Espacios en Blanco para estudiantes preparados para la recuperación activa. Los profesores pueden entregar la versión adecuada a cada alumno según su nivel. Véndelos como un pack diferenciado a un precio premium en TpT o Etsy.',
+      description: 'Genera dos versiones de cada ficha temática: Opción Múltiple para usuarios más pequeños o con dificultades, y Rellenar Espacios en Blanco para usuarios preparados para la recuperación activa. Los vendedores pueden entregar la versión adecuada a cada usuario según su nivel. Véndelos como un pack diferenciado a un precio premium en Gumroad o Etsy.',
     },
     {
       title: 'Productos de Preposiciones Multilingües',
@@ -81,11 +81,11 @@ const content: ToolContent = {
     },
     {
       title: 'Fichas Personalizadas con Imagen Propia',
-      description: 'Sube tus propias ilustraciones, mascotas o arte con licencia para crear fichas de preposiciones que ningún otro vendedor puede replicar. Combina imágenes principales personalizadas con reemplazos de formas personalizados para una identidad visual completamente única. Los creadores de contenido para educación en casa pueden usar objetos familiares, y los vendedores de Etsy pueden construir una estética de tienda distintiva en toda su línea de productos.',
+      description: 'Sube tus propias ilustraciones, mascotas o arte con licencia para crear fichas de preposiciones que ningún otro vendedor puede replicar. Combina imágenes principales personalizadas con reemplazos de formas personalizados para una identidad visual completamente única. Los creadores de contenido para trabajo desde casa pueden usar objetos familiares, y los vendedores de Etsy pueden construir una estética de tienda distintiva en toda su línea de productos.',
     },
     {
       title: 'Packs de Preposiciones Estacionales',
-      description: 'Usa temas de imágenes festivas y estacionales para crear packs de edición limitada. Un pack de «Preposiciones de Navidad» con escenas festivas — regalos debajo del árbol, estrellas encima de la casa, dulces dentro del calcetín — se vende muy bien en noviembre y diciembre. La vuelta al cole, Halloween y la primavera tienen sus propias ventanas de ventas pico en Etsy y TpT.',
+      description: 'Usa temas de imágenes festivas y estacionales para crear packs de edición limitada. Un pack de «Preposiciones de Navidad» con escenas festivas — regalos debajo del árbol, estrellas encima de la casa, dulces dentro del calcetín — se vende muy bien en noviembre y diciembre. La vuelta al cole, Halloween y la primavera tienen sus propias ventanas de ventas pico en Etsy y Gumroad.',
     },
   ],
 
@@ -101,13 +101,13 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Packs de Gramática en Teachers Pay Teachers',
-      description: 'Sube packs de fichas de preposiciones a TpT organizados por dificultad y modo de ejercicio. Incluye conjuntos de Rellenar Espacios en Blanco, conjuntos de Opción Múltiple y packs de modo mixto con claves de respuestas para cada página. Los profesores buscan «fichas de preposiciones» y «actividades de lenguaje espacial» con frecuencia. El formato de escena con imágenes añade valor percibido porque los alumnos interactúan con contexto visual en lugar de frases abstractas para completar.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Packs de Gramática en Gumroad',
+      description: 'Sube packs de fichas de preposiciones a Gumroad organizados por dificultad y modo de ejercicio. Incluye conjuntos de Rellenar Espacios en Blanco, conjuntos de Opción Múltiple y packs de modo mixto con claves de respuestas para cada página. Los vendedores buscan «fichas de preposiciones» y «actividades de lenguaje espacial» con frecuencia. El formato de escena con imágenes añade valor percibido porque los usuarios interactúan con contexto visual en lugar de frases abstractas para completar.',
+      platform: 'Gumroad',
     },
     {
       title: 'Kits de Preposiciones de Doble Modo en Gumroad',
-      description: 'Crea kits premium de preposiciones en Gumroad que incluyan versiones de Rellenar Espacios en Blanco y Opción Múltiple de cada ficha, más claves de respuestas y una guía de uso. Agrupa versiones en 5 a 11 idiomas en un solo producto multilingüe. Dirígete a profesores de ESL, familias bilingües y escuelas internacionales que necesitan materiales de lenguaje espacial en múltiples idiomas.',
+      description: 'Crea kits premium de preposiciones en Gumroad que incluyan versiones de Rellenar Espacios en Blanco y Opción Múltiple de cada ficha, más claves de respuestas y una guía de uso. Agrupa versiones en 5 a 11 idiomas en un solo producto multilingüe. Dirígete a vendedores de ESL, familias bilingües y escuelas internacionales que necesitan materiales de lenguaje espacial en múltiples idiomas.',
       platform: 'Gumroad',
     },
     {
@@ -117,19 +117,19 @@ const content: ToolContent = {
     },
     {
       title: 'Packs de Variedad con Reemplazo de Formas en Etsy',
-      description: 'Aprovecha la función de Reemplazo de Formas para crear packs de gran volumen. Combina 10 imágenes principales con 10 formas diferentes para producir 100 escenas de ejercicio únicas a partir de solo 20 imágenes de origen. Véndelos como «Mega Packs de Preposiciones de 100 Páginas» en Etsy — el volumen justifica un precio premium, y la variedad visual mantiene a los alumnos motivados durante todo el cuaderno.',
+      description: 'Aprovecha la función de Reemplazo de Formas para crear packs de gran volumen. Combina 10 imágenes principales con 10 formas diferentes para producir 100 escenas de ejercicio únicas a partir de solo 20 imágenes de origen. Véndelos como «Mega Packs de Preposiciones de 100 Páginas» en Etsy — el volumen justifica un precio premium, y la variedad visual mantiene a los usuarios motivados durante todo el cuaderno.',
       platform: 'Etsy',
     },
   ],
 
   proTips: [
     {
-      title: 'Usa Rellenar para Alumnos Mayores',
-      description: 'El modo Rellenar Espacios en Blanco requiere recuperación activa — los alumnos deben producir la preposición correcta de memoria, no solo reconocerla. Esto es ideal para segundo grado en adelante y estudiantes de ESL que ya conocen las palabras de posición pero necesitan práctica de escritura. También hace que las fichas sean más difíciles de adivinar, aumentando el valor educativo. En Etsy y TpT, los listings que enfatizan el aprendizaje basado en recuperación atraen consistentemente a compradores docentes que buscan práctica rigurosa de lenguaje espacial en lugar de ejercicios simples de reconocimiento, así que destacar este modo en tus descripciones de producto puede mejorar las conversiones.',
+      title: 'Usa Rellenar para Usuarios Mayores',
+      description: 'El modo Rellenar Espacios en Blanco requiere recuperación activa — los usuarios deben producir la preposición correcta de memoria, no solo reconocerla. Esto es ideal para segundo grado en adelante y usuarios de ESL que ya conocen las palabras de posición pero necesitan práctica de escritura. También hace que las fichas sean más difíciles de adivinar, aumentando el valor educativo. En Etsy y Gumroad, los listings que enfatizan el aprendizaje basado en recuperación atraen consistentemente a compradores vendedores que buscan práctica rigurosa de lenguaje espacial en lugar de ejercicios simples de reconocimiento, así que destacar este modo en tus descripciones de producto puede mejorar las conversiones.',
     },
     {
       title: 'Usa Opción Múltiple para Principiantes',
-      description: 'El modo Opción Múltiple ofrece a los alumnos más pequeños o estudiantes de ESL iniciales una experiencia guiada. Ven la respuesta correcta entre las opciones, reduciendo la frustración. Personaliza el texto de instrucción según tu estilo de enseñanza. Comienza con 3 a 4 ejercicios por página para no abrumar a los nuevos estudiantes. Este formato guiado es especialmente popular entre los padres que compran imprimibles para uso en casa, convirtiéndolo en un producto fuerte en Etsy donde los materiales educativos familiares rankean consistentemente bien en los resultados de búsqueda.',
+      description: 'El modo Opción Múltiple ofrece a los usuarios más pequeños o usuarios de ESL iniciales una experiencia guiada. Ven la respuesta correcta entre las opciones, reduciendo la frustración. Personaliza el texto de instrucción según tu estilo de enseñanza. Comienza con 3 a 4 ejercicios por página para no abrumar a los nuevos usuarios. Este formato guiado es especialmente popular entre los padres que compran imprimibles para uso en casa, convirtiéndolo en un producto fuerte en Etsy donde los productos imprimibles familiares rankean consistentemente bien en los resultados de búsqueda.',
     },
     {
       title: 'Multiplica por 11 con el Modo Multilingüe',
@@ -137,11 +137,11 @@ const content: ToolContent = {
     },
     {
       title: 'Agrupa Ambos Modos en un Solo Producto',
-      description: 'Combina fichas de Rellenar Espacios en Blanco y Opción Múltiple en un solo pack. Los profesores adoran los packs diferenciados que pueden entregar a alumnos de diferentes niveles. Un «Pack Completo de Preposiciones» con ambos modos, claves de respuestas y una guía docente alcanza un precio más alto que cualquier modo vendido por separado. Los packs de doble modo también reducen las solicitudes de reembolso porque los compradores sienten que obtienen cobertura completa, y las claves de respuestas incluidas ahorran tiempo de corrección a los profesores — un punto de venta que vale la pena destacar en tu texto de listing.',
+      description: 'Combina fichas de Rellenar Espacios en Blanco y Opción Múltiple en un solo pack. Los vendedores adoran los packs diferenciados que pueden entregar a usuarios de diferentes niveles. Un «Pack Completo de Preposiciones» con ambos modos, claves de respuestas y una guía vendedor alcanza un precio más alto que cualquier modo vendido por separado. Los packs de doble modo también reducen las solicitudes de reembolso porque los compradores sienten que obtienen cobertura completa, y las claves de respuestas incluidas ahorran valor percibido a los vendedores — un punto de venta que vale la pena destacar en tu texto de listing.',
     },
     {
       title: 'Usa Escala de Grises para KDP e Impresión Masiva',
-      description: 'Activa el interruptor de escala de grises para fichas destinadas a interiores de Amazon KDP o impresión masiva en el aula. Las escenas en blanco y negro cuestan significativamente menos de imprimir. Reserva el modo a color para vistas previas de listings en Etsy y descargas digitales donde las imágenes vibrantes atraen clics. Muchos vendedores experimentados de KDP publican una edición digital a color y una edición impresa en escala de grises del mismo cuaderno, duplicando efectivamente su catálogo desde una sola sesión de diseño sin crear contenido nuevo.',
+      description: 'Activa el interruptor de escala de grises para fichas destinadas a interiores de Amazon KDP o impresión masiva en línea. Las escenas en blanco y negro cuestan significativamente menos de imprimir. Reserva el modo a color para vistas previas de listings en Etsy y descargas digitales donde las imágenes vibrantes atraen clics. Muchos vendedores experimentados de KDP publican una edición digital a color y una edición impresa en escala de grises del mismo cuaderno, duplicando efectivamente su catálogo desde una sola sesión de diseño sin crear contenido nuevo.',
     },
     {
       title: 'Sube Imágenes Propias para Personalización',
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Cómo funcionan los dos modos de ejercicio?',
-      answer: 'El modo Rellenar Espacios en Blanco muestra una escena con imagen y una línea vacía donde los alumnos escriben la preposición correcta (sobre, debajo, encima, etc.). El modo Opción Múltiple presenta la misma escena pero con opciones seleccionables para que los alumnos elijan la respuesta correcta. Puedes personalizar el texto de instrucción en el modo Opción Múltiple para adaptarlo a tu estilo de enseñanza.',
+      answer: 'El modo Rellenar Espacios en Blanco muestra una escena con imagen y una línea vacía donde los usuarios escriben la preposición correcta (sobre, debajo, encima, etc.). El modo Opción Múltiple presenta la misma escena pero con opciones seleccionables para que los usuarios elijan la respuesta correcta. Puedes personalizar el texto de instrucción en el modo Opción Múltiple para adaptarlo a tu estilo de enseñanza.',
     },
     {
       question: '¿Cómo funciona la selección de preposiciones?',
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Cuántos ejercicios puedo poner en una página?',
-      answer: 'Puedes configurar de 1 a 8 ejercicios por ficha. Menos ejercicios por página dan a cada escena más espacio visual, lo que funciona bien para alumnos más pequeños. Más ejercicios por página crean fichas más densas adecuadas para alumnos mayores o práctica cronometrada. El diseño se adapta automáticamente al número de ejercicios y tamaño de página. Los vendedores a menudo crean dos versiones del mismo pack — un diseño espacioso de 3 ejercicios para grados inferiores y un diseño compacto de 6 ejercicios para alumnos mayores — y luego agrupan ambas versiones a un precio premium.',
+      answer: 'Puedes configurar de 1 a 8 ejercicios por ficha. Menos ejercicios por página dan a cada escena más espacio visual, lo que funciona bien para usuarios más pequeños. Más ejercicios por página crean fichas más densas adecuadas para usuarios mayores o práctica cronometrada. El diseño se adapta automáticamente al número de ejercicios y tamaño de página. Los vendedores a menudo crean dos versiones del mismo pack — un diseño espacioso de 3 ejercicios para grados inferiores y un diseño compacto de 6 ejercicios para usuarios mayores — y luego agrupan ambas versiones a un precio premium.',
     },
     {
       question: '¿Puedo subir mis propias imágenes?',
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Puedo usar las fichas con fines comerciales?',
-      answer: 'La prueba gratuita con marca de agua es solo para uso personal y educativo. Para vender fichas en Etsy, Teachers Pay Teachers, Amazon KDP o cualquier otro marketplace, necesitas una licencia comercial. La licencia comercial elimina la marca de agua y otorga derechos completos de reventa para las fichas que crees.',
+      answer: 'La prueba gratuita con marca de agua es solo para uso personal y educativo. Para vender fichas en Etsy, Gumroad, Amazon KDP o cualquier otro marketplace, necesitas una licencia comercial. La licencia comercial elimina la marca de agua y otorga derechos completos de reventa para las fichas que crees.',
     },
     {
       question: '¿En qué formatos de archivo puedo descargar?',

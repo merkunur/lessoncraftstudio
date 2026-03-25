@@ -7,7 +7,7 @@ const content: AppContent = {
       'generador de fichas de clasificación a dos categorías para vendedores Etsy',
       'creador de actividades de clasificación de imágenes para editores Amazon KDP',
       'generador de fichas de clasificación de imágenes con licencia comercial',
-      'vender fichas de clasificación imprimibles en Teachers Pay Teachers',
+      'vender fichas de clasificación imprimibles en Gumroad',
     ],
     lsiKeywords: [
       'productos digitales de clasificación de imágenes para emprendedores',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Generador Fichas Clasificación Imágenes | Crear',
     metaDescription:
-      'Crea fichas de clasificación para Etsy, KDP y TPT. Dos categorías, clave de respuestas auto, 104 temas, 4–12 imágenes. Prueba gratis con marca de agua.',
+      'Crea fichas de clasificación para Etsy, KDP y Gumroad. Dos categorías, clave de respuestas auto, 104 temas, 4–12 imágenes. Prueba gratis con marca de agua.',
   },
 
   hero: {
     title: 'Generador de Fichas de Clasificación de Imágenes para Actividades de Clasificación a Dos Categorías',
     tagline: 'Clasificación a dos categorías en un solo generador potente — modo de tema o selección manual de imágenes — con claves de respuestas auto-generadas, 4 a 12 imágenes configurables, un encabezado localizado «Clasificación de Imágenes» en 11 idiomas y 104 colecciones de imágenes temáticas.',
     description:
-      'Diseña fichas de clasificación profesionales donde los alumnos clasifican imágenes en dos categorías colocando las imágenes recortadas en el grupo correcto izquierdo o derecho. Elige el modo de tema para rellenar automáticamente las categorías desde la biblioteca de imágenes — selecciona un tema a la izquierda y otro a la derecha, y la aplicación genera 4 a 6 imágenes aleatorias por tema — o cambia al modo manual para seleccionar imágenes individualmente y asignar cada una a una categoría. Cada ficha presenta dos marcos de categoría con borde discontinuo en la parte superior como destinos de clasificación y una cuadrícula de recortes mezclada debajo con imágenes mixtas listas para recortar y clasificar. El sistema de doble lienzo genera tanto una pestaña de ficha de trabajo como una pestaña de clave de respuestas con imágenes 6× más grandes organizadas en cajas de categorías, por lo que nunca necesitas crear claves de respuestas manualmente. El Generador de Clasificación de Imágenes es sensible al idioma: las etiquetas de categoría utilizan nombres de imágenes localizados, por lo que cambiar el idioma modifica el texto en la ficha. Un encabezado localizado «Clasificación de Imágenes» con fondo verde menta y título verde azulado se muestra automáticamente en los 11 idiomas compatibles. El Acceso Completo desbloquea los 104 temas con más de 3100 ilustraciones y los 11 idiomas de interfaz para etiquetas de categoría localizadas. Añade temas de fondo y de borde con controles de opacidad independientes, incluye campos de nombre y fecha para la responsabilidad en el aula, y exporta PDF y JPEG listos para imprimir a 300 DPI en formato Carta, A4, Cuadrado (1200×1200) o dimensiones personalizadas. Ya sea que vendas packs de actividades de clasificación en Etsy, compiles cuadernos de clasificación para Amazon KDP o crees actividades de clasificación para TPT, este generador produce fichas listas para la producción en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Diseña fichas de clasificación profesionales donde los usuarios clasifican imágenes en dos categorías colocando las imágenes recortadas en el grupo correcto izquierdo o derecho. Elige el modo de tema para rellenar automáticamente las categorías desde la biblioteca de imágenes — selecciona un tema a la izquierda y otro a la derecha, y la aplicación genera 4 a 6 imágenes aleatorias por tema — o cambia al modo manual para seleccionar imágenes individualmente y asignar cada una a una categoría. Cada ficha presenta dos marcos de categoría con borde discontinuo en la parte superior como destinos de clasificación y una cuadrícula de recortes mezclada debajo con imágenes mixtas listas para recortar y clasificar. El sistema de doble lienzo genera tanto una pestaña de ficha de trabajo como una pestaña de clave de respuestas con imágenes 6× más grandes organizadas en cajas de categorías, por lo que nunca necesitas crear claves de respuestas manualmente. El Generador de Clasificación de Imágenes es sensible al idioma: las etiquetas de categoría utilizan nombres de imágenes localizados, por lo que cambiar el idioma modifica el texto en la ficha. Un encabezado localizado «Clasificación de Imágenes» con fondo verde menta y título verde azulado se muestra automáticamente en los 11 idiomas compatibles. El Acceso Completo desbloquea los 104 temas con más de 3100 ilustraciones y los 11 idiomas de interfaz para etiquetas de categoría localizadas. Añade temas de fondo y de borde con controles de opacidad independientes, incluye campos de nombre y fecha para la responsabilidad en línea, y exporta PDF y JPEG listos para imprimir a 300 DPI en formato Carta, A4, Cuadrado (1200×1200) o dimensiones personalizadas. Ya sea que vendas packs de actividades de clasificación en Etsy, compiles cuadernos de clasificación para Amazon KDP o crees actividades de clasificación para Gumroad, este generador produce fichas listas para la producción en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
   },
 
   howItWorks: {
@@ -32,12 +32,12 @@ const content: AppContent = {
       {
         title: 'Configura el Diseño de Página',
         description:
-          'Abre el panel de Configuración de Página y elige un tamaño de página: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) o cualquier dimensión personalizada. Selecciona un color de fondo con el selector de color. Elige un tema de fondo y ajusta su opacidad (de 0 a 1 en pasos de 0,05), luego elige un tema de borde con su propio control de opacidad independiente. Marca «Incluir Campos de Nombre/Fecha» para añadir líneas de nombre y fecha para los alumnos. Estas opciones de diseño enmarcan tu ficha de clasificación antes de configurar el contenido.',
+          'Abre el panel de Configuración de Página y elige un tamaño de página: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) o cualquier dimensión personalizada. Selecciona un color de fondo con el selector de color. Elige un tema de fondo y ajusta su opacidad (de 0 a 1 en pasos de 0,05), luego elige un tema de borde con su propio control de opacidad independiente. Marca «Incluir Campos de Nombre/Fecha» para añadir líneas de nombre y fecha para los usuarios. Estas opciones de diseño enmarcan tu ficha de clasificación antes de configurar el contenido.',
       },
       {
         title: 'Elige Tus Categorías de Clasificación',
         description:
-          'Abre el panel de Categorías de Clasificación y selecciona dos temas — uno para la categoría izquierda y otro para la categoría derecha. La aplicación genera automáticamente 4 a 6 imágenes aleatorias por tema desde la biblioteca de imágenes. Por ejemplo, elige Animales a la izquierda y Comida a la derecha para crear una ficha de clasificación donde los alumnos clasifiquen las imágenes en el grupo correcto. También puedes cambiar al modo manual para seleccionar imágenes individualmente y asignar cada una a la categoría izquierda o derecha.',
+          'Abre el panel de Categorías de Clasificación y selecciona dos temas — uno para la categoría izquierda y otro para la categoría derecha. La aplicación genera automáticamente 4 a 6 imágenes aleatorias por tema desde la biblioteca de imágenes. Por ejemplo, elige Animales a la izquierda y Comida a la derecha para crear una ficha de clasificación donde los usuarios clasifiquen las imágenes en el grupo correcto. También puedes cambiar al modo manual para seleccionar imágenes individualmente y asignar cada una a la categoría izquierda o derecha.',
       },
       {
         title: 'Selecciona Imágenes de la Biblioteca o Sube las Tuyas',
@@ -47,12 +47,12 @@ const content: AppContent = {
       {
         title: 'Genera la Ficha de Clasificación',
         description:
-          'Haz clic en Generar para crear el diseño de clasificación en dos partes. La aplicación organiza tu contenido en marcos de categoría en la parte superior (dos marcos lado a lado con borde discontinuo y relleno #FAFAFA) y una cuadrícula de recortes mezclada debajo (celdas blancas con bordes discontinuos #666). Un encabezado estilizado «Clasificación de Imágenes» aparece en la parte superior con un fondo verde menta (#4DB6AC), título verde azulado (#00796B) en fuente Fredoka y descripción naranja (#FF7043) en fuente Quicksand. Un borde exterior verde azulado (#26A69A, 8 px) enmarca toda la página. La cuadrícula de recortes muestra todas las imágenes en orden aleatorio — los alumnos las recortan y clasifican en el marco de categoría correcto.',
+          'Haz clic en Generar para crear el diseño de clasificación en dos partes. La aplicación organiza tu contenido en marcos de categoría en la parte superior (dos marcos lado a lado con borde discontinuo y relleno #FAFAFA) y una cuadrícula de recortes mezclada debajo (celdas blancas con bordes discontinuos #666). Un encabezado estilizado «Clasificación de Imágenes» aparece en la parte superior con un fondo verde menta (#4DB6AC), título verde azulado (#00796B) en fuente Fredoka y descripción naranja (#FF7043) en fuente Quicksand. Un borde exterior verde azulado (#26A69A, 8 px) enmarca toda la página. La cuadrícula de recortes muestra todas las imágenes en orden aleatorio — los usuarios las recortan y clasifican en el marco de categoría correcto.',
       },
       {
         title: 'Genera la Clave de Respuestas y Descarga',
         description:
-          'Cambia a la pestaña Clave de Respuestas para ver la solución auto-generada con imágenes 6× más grandes organizadas en sus cajas de categorías correctas, mostradas en un máximo de 2 columnas por caja. Descarga ambas versiones con cuatro botones dedicados: Ficha JPEG, Clave de Respuestas JPEG, Ficha PDF y Clave de Respuestas PDF. Los archivos se exportan a 300 DPI con calidad JPEG de 1.0. Activa el modo escala de grises para versiones que ahorran tinta. Cada exportación está lista para la producción en tiendas Etsy, interiores Amazon KDP y archivos TPT.',
+          'Cambia a la pestaña Clave de Respuestas para ver la solución auto-generada con imágenes 6× más grandes organizadas en sus cajas de categorías correctas, mostradas en un máximo de 2 columnas por caja. Descarga ambas versiones con cuatro botones dedicados: Ficha JPEG, Clave de Respuestas JPEG, Ficha PDF y Clave de Respuestas PDF. Los archivos se exportan a 300 DPI con calidad JPEG de 1.0. Activa el modo escala de grises para versiones que ahorran tinta. Cada exportación está lista para la producción en tiendas Etsy, interiores Amazon KDP y archivos Gumroad.',
       },
     ],
   },
@@ -86,9 +86,9 @@ const content: AppContent = {
           'Explora 104 colecciones de imágenes temáticas que cubren animales, comida, vehículos, naturaleza, profesiones, fiestas, deportes, estaciones y muchos más. Cada tema proporciona un conjunto coordinado de ilustraciones coloridas que funcionan como categorías de clasificación. Filtra por tema usando el menú desplegable o busca imágenes específicas por palabra clave. La selección de categorías por tema facilita la creación de fichas de clasificación con pares de categorías naturales — animales terrestres vs animales marinos, comida saludable vs comida chatarra, artículos de verano vs artículos de invierno. La Licencia Comercial incluye 10 temas coloridos; el Acceso Completo desbloquea los 104 temas para máxima variedad creativa.',
       },
       {
-        title: 'Campos de Nombre y Fecha para Responsabilidad en el Aula',
+        title: 'Campos de Nombre y Fecha para Responsabilidad en línea',
         description:
-          'Marca la casilla «Incluir Campos de Nombre/Fecha» en el panel de Configuración de Página para añadir líneas de nombre y fecha a la ficha de clasificación. Estos campos aseguran la responsabilidad de los alumnos en el aula y hacen que las fichas estén listas para la recogida y calificación sin ninguna preparación adicional. Los profesores que buscan actividades de clasificación valoran las fichas que llegan listas para usar, y la opción de nombre/fecha hace que tus productos sean más atractivos para el mercado educativo en TPT y Etsy.',
+          'Marca la casilla «Incluir Campos de Nombre/Fecha» en el panel de Configuración de Página para añadir líneas de nombre y fecha a la ficha de clasificación. Estos campos aseguran la responsabilidad de los usuarios en línea y hacen que las fichas estén listas para la recogida y valor percibido sin ninguna preparación adicional. Los vendedores que buscan actividades de clasificación valoran las fichas que llegan listas para usar, y la opción de nombre/fecha hace que tus productos sean más atractivos para el mercado educativo en Gumroad y Etsy.',
       },
       {
         title: 'Exportación PDF y JPEG Lista para Imprimir a 300 DPI con Modo Escala de Grises',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Actividades de Clasificación para el Aula en TPT',
+        title: 'Actividades de Clasificación para venta en línea en Gumroad',
         description:
-          'Crea fichas de clasificación listas para usar con campos de nombre/fecha y claves de respuestas impresas. Los profesores que buscan actividades de clasificación en TPT valoran las fichas que llegan listas para el aula — el campo de nombre asegura la responsabilidad del alumno, los marcos de categoría proporcionan destinos de clasificación claros, y la clave de respuestas auto-generada ahorra tiempo de preparación. Crea conjuntos alineados con el currículo: vivo vs no vivo, comida saludable vs comida chatarra, animales diurnos vs nocturnos, ropa de clima cálido vs frío. Cada conjunto incluye fichas para alumnos y claves de respuestas en formatos PDF y JPEG.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Crea fichas de clasificación listas para usar con campos de nombre/fecha y claves de respuestas impresas. Los vendedores que buscan actividades de clasificación en Gumroad valoran las fichas que llegan listas para venta en línea — el campo de nombre asegura la responsabilidad del usuario, los marcos de categoría proporcionan destinos de clasificación claros, y la clave de respuestas auto-generada ahorra tiempo de preparación. Crea conjuntos alineados con el catálogo de productos: vivo vs no vivo, comida saludable vs comida chatarra, animales diurnos vs nocturnos, ropa de clima cálido vs frío. Cada conjunto incluye fichas para usuarios y claves de respuestas en formatos PDF y JPEG.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Colecciones de Clasificación Estacionales y de Fiestas',
         description:
-          'Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y de fiestas — Navidad, Halloween, Pascua, San Valentín, vuelta al cole, vacaciones de verano y muchos más. Crea fichas de clasificación estacionales donde los alumnos clasifiquen artículos de fiestas en categorías: decoraciones de Navidad vs comida de Navidad, disfraces de Halloween vs dulces de Halloween, actividades de verano vs actividades de invierno. Lanza packs de clasificación de Halloween en septiembre, colecciones de Navidad en octubre y packs de San Valentín en enero. Los productos estacionales consiguen precios más altos durante las ventanas de temporada alta y crean motivos naturales para compras recurrentes.',
-        platform: 'Etsy / Amazon KDP / TPT (estacional)',
+          'Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y de fiestas — Navidad, Halloween, Pascua, San Valentín, vuelta al cole, vacaciones de verano y muchos más. Crea fichas de clasificación estacionales donde los usuarios clasifiquen artículos de fiestas en categorías: decoraciones de Navidad vs comida de Navidad, disfraces de Halloween vs dulces de Halloween, actividades de verano vs actividades de invierno. Lanza packs de clasificación de Halloween en septiembre, colecciones de Navidad en octubre y packs de San Valentín en enero. Los productos estacionales consiguen precios más altos durante las ventanas de temporada alta y crean motivos naturales para compras recurrentes.',
+        platform: 'Etsy / Amazon KDP / Gumroad (estacional)',
       },
       {
         title: 'Fichas de Clasificación Multilingües para los Mercados ESL y Bilingüe',
         description:
-          'Aprovecha las etiquetas de categoría sensibles al idioma para crear fichas de clasificación en 11 idiomas. Las mismas imágenes producen etiquetas de categoría diferentes al cambiar de idioma — los nombres de las imágenes y el encabezado «Clasificación de Imágenes» se actualizan automáticamente. Crea packs de clasificación multilingües donde cada versión lingüística usa las mismas imágenes temáticas pero con texto localizado. Esto es particularmente valioso para profesores de ESL/ELE, aulas bilingües y familias de educación en casa internacionales. Vende packs por idioma o mega-packs multilingües a precios premium en Etsy y TPT.',
-        platform: 'Etsy / TPT (mercado multilingüe)',
+          'Aprovecha las etiquetas de categoría sensibles al idioma para crear fichas de clasificación en 11 idiomas. Las mismas imágenes producen etiquetas de categoría diferentes al cambiar de idioma — los nombres de las imágenes y el encabezado «Clasificación de Imágenes» se actualizan automáticamente. Crea packs de clasificación multilingües donde cada versión lingüística usa las mismas imágenes temáticas pero con texto localizado. Esto es particularmente valioso para vendedores de ESL/ELE, tiendas bilingües y familias de trabajo desde casa internacionales. Vende packs por idioma o mega-packs multilingües a precios premium en Etsy y Gumroad.',
+        platform: 'Etsy / Gumroad (mercado multilingüe)',
       },
     ],
   },
@@ -143,12 +143,12 @@ const content: AppContent = {
     {
       question: '¿Cómo funciona el mecanismo de clasificación a dos categorías?',
       answer:
-        'Cada ficha de clasificación tiene exactamente dos categorías — izquierda y derecha. La ficha muestra dos marcos de categoría con borde discontinuo en la parte superior donde los alumnos clasifican sus imágenes, y una cuadrícula de recortes mezclada debajo con todas las imágenes mezcladas. Los alumnos recortan las imágenes de la cuadrícula y colocan cada una en el marco de categoría correcto. El formato de dos categorías crea un ejercicio de clasificación binaria claro que funciona para cualquier tema — animales vs comida, tierra vs agua, vivo vs no vivo, y miles de otras combinaciones.',
+        'Cada ficha de clasificación tiene exactamente dos categorías — izquierda y derecha. La ficha muestra dos marcos de categoría con borde discontinuo en la parte superior donde los usuarios clasifican sus imágenes, y una cuadrícula de recortes mezclada debajo con todas las imágenes mezcladas. Los usuarios recortan las imágenes de la cuadrícula y colocan cada una en el marco de categoría correcto. El formato de dos categorías crea un ejercicio de clasificación binaria claro que funciona para cualquier tema — animales vs comida, tierra vs agua, vivo vs no vivo, y miles de otras combinaciones.',
     },
     {
       question: '¿Cuál es la diferencia entre el modo de tema y el modo manual?',
       answer:
-        'El modo de tema te permite elegir un tema para la categoría izquierda y un tema diferente para la categoría derecha. La aplicación selecciona automáticamente 4 a 6 imágenes aleatorias por tema desde la biblioteca de imágenes, creando fichas con 8 a 12 imágenes en total. El modo manual te da control total: seleccionas individualmente las imágenes de cualquier tema y asignas cada una a la categoría izquierda o derecha. El modo de tema es más rápido para la producción en masa; el modo manual es ideal para crear actividades de clasificación específicas alineadas con el currículo.',
+        'El modo de tema te permite elegir un tema para la categoría izquierda y un tema diferente para la categoría derecha. La aplicación selecciona automáticamente 4 a 6 imágenes aleatorias por tema desde la biblioteca de imágenes, creando fichas con 8 a 12 imágenes en total. El modo manual te da control total: seleccionas individualmente las imágenes de cualquier tema y asignas cada una a la categoría izquierda o derecha. El modo de tema es más rápido para la producción en masa; el modo manual es ideal para crear actividades de clasificación específicas alineadas con el catálogo de productos.',
     },
     {
       question: '¿Cuántas imágenes puedo incluir en cada ficha de clasificación?',
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: '¿Cómo funciona la cuadrícula de recortes mezclada?',
       answer:
-        'La cuadrícula de recortes ocupa el 55 % inferior del área de contenido y muestra todas las imágenes seleccionadas en orden aleatorio. Las imágenes aparecen en celdas blancas con bordes discontinuos #666 y esquinas redondeadas de 4 px, dispuestas en 3 a 4 columnas según el número total de imágenes. Cada imagen ocupa el 85 % de su celda. Los alumnos recortan las imágenes a lo largo de las líneas discontinuas y las clasifican en el marco de categoría correcto de arriba. La mezcla aleatoria garantiza que los alumnos realmente clasifiquen cada imagen en lugar de copiar un patrón.',
+        'La cuadrícula de recortes ocupa el 55 % inferior del área de contenido y muestra todas las imágenes seleccionadas en orden aleatorio. Las imágenes aparecen en celdas blancas con bordes discontinuos #666 y esquinas redondeadas de 4 px, dispuestas en 3 a 4 columnas según el número total de imágenes. Cada imagen ocupa el 85 % de su celda. Los usuarios recortan las imágenes a lo largo de las líneas discontinuas y las clasifican en el marco de categoría correcto de arriba. La mezcla aleatoria garantiza que los usuarios realmente clasifiquen cada imagen en lugar de copiar un patrón.',
     },
     {
       question: '¿Cómo funciona la clave de respuestas auto-generada?',
@@ -178,7 +178,7 @@ const content: AppContent = {
     {
       question: '¿Puedo incluir campos de nombre y fecha en las fichas de clasificación?',
       answer:
-        'Sí. Marca la casilla «Incluir Campos de Nombre/Fecha» en el panel de Configuración de Página para añadir líneas de nombre y fecha a la ficha. Estos campos aseguran la responsabilidad de los alumnos en el aula y hacen que tus fichas de clasificación estén listas para la recogida y calificación sin ninguna preparación adicional.',
+        'Sí. Marca la casilla «Incluir Campos de Nombre/Fecha» en el panel de Configuración de Página para añadir líneas de nombre y fecha a la ficha. Estos campos aseguran la responsabilidad de los usuarios en línea y hacen que tus fichas de clasificación estén listas para la recogida y valor percibido sin ninguna preparación adicional.',
     },
     {
       question: '¿Hay una prueba gratis?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender fichas de clasificación creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de clasificación como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos pedagógicos en TPT, o a través de cualquier otro canal de ventas. El mecanismo de clasificación a dos categorías, las claves de respuestas auto-generadas y las 104 colecciones de imágenes temáticas te dan las herramientas creativas para producir productos de actividades de clasificación originales y vendibles.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de clasificación como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como productos imprimibles en Gumroad, o a través de cualquier otro canal de ventas. El mecanismo de clasificación a dos categorías, las claves de respuestas auto-generadas y las 104 colecciones de imágenes temáticas te dan las herramientas creativas para producir productos de actividades de clasificación originales y vendibles.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

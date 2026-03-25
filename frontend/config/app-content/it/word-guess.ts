@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'schede indovina la parola stampabili per venditori Etsy',
       'generatore schede vocabolario stile impiccato per Amazon KDP',
-      'vendere schede indovina la parola su Teachers Pay Teachers',
+      'vendere schede indovina la parola su Gumroad',
       'schede indovina la parola con indizi immagine licenza commerciale',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Generatore Schede Indovina la Parola | Creare e Vendere',
     metaDescription:
-      'Crea schede indovina la parola per Etsy, KDP e TPT. Indizi immagine, 4 livelli di difficoltà, 3 fonti di contenuto, 11 lingue. Prova gratuita con filigrana.',
+      'Crea schede indovina la parola per Etsy, KDP e Gumroad. Indizi immagine, 4 livelli di difficoltà, 3 fonti di contenuto, 11 lingue. Prova gratuita con filigrana.',
   },
 
   hero: {
     title: 'Generatore di Schede Indovina la Parola per Puzzle di Vocabolario con Indizi Immagine',
     tagline: 'La deduzione stile impiccato incontra gli indizi visivi — quattro livelli di difficoltà trasformano ogni parola in un puzzle gratificante.',
     description:
-      'Crea schede professionali indovina la parola dove gli studenti vedono un indizio immagine e deducono la parola nascosta riempiendo caselle di lettere vuote — un puzzle stile impiccato che sviluppa contemporaneamente ortografia, vocabolario e ragionamento deduttivo. Scegli tra tre fonti di contenuto: la Libreria di Immagini integrata con oltre 3100 illustrazioni in 104 temi, la Modalità Modifica Manuale dove selezioni immagini e personalizzi i nomi visualizzati, o la Lista di Parole Personalizzata per puzzle di solo testo con il vocabolario che preferisci. Quattro livelli di difficoltà controllano quante lettere vengono pre-rivelate come indizi — da Senza Indizi (nessuna lettera rivelata) alla modalità Facile che mostra metà delle lettere — creando una progressione naturale dal principiante all\'avanzato. Inserisci da 1 a 10 puzzle per scheda e alterna tra griglie di lettere in maiuscolo o minuscolo. L\'Accesso Completo sblocca tutte le 11 lingue supportate dove la parola-obiettivo cambia in base alla lingua — «dog» in inglese diventa «cane» in italiano, «Hund» in tedesco, «chien» in francese — rendendo ogni lingua un prodotto distinto e commercializzabile. Ogni scheda genera un foglio risposte automatico, e puoi esportare PDF pronti per la stampa e JPEG a oltre 400 DPI nei formati Letter, A4, Quadrato o dimensioni personalizzate. Che tu venda pacchetti tematici di vocabolario su Etsy, compili libri di puzzle per Amazon KDP o crei centri di alfabetizzazione differenziati per TPT, il Generatore di Schede Indovina la Parola produce risultati professionali in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Crea schede professionali indovina la parola dove gli utenti vedono un indizio immagine e deducono la parola nascosta riempiendo caselle di lettere vuote — un puzzle stile impiccato che sviluppa contemporaneamente ortografia, vocabolario e ragionamento deduttivo. Scegli tra tre fonti di contenuto: la Libreria di Immagini integrata con oltre 3100 illustrazioni in 104 temi, la Modalità Modifica Manuale dove selezioni immagini e personalizzi i nomi visualizzati, o la Lista di Parole Personalizzata per puzzle di solo testo con il vocabolario che preferisci. Quattro livelli di difficoltà controllano quante lettere vengono pre-rivelate come indizi — da Senza Indizi (nessuna lettera rivelata) alla modalità Facile che mostra metà delle lettere — creando una progressione naturale dal principiante all\'avanzato. Inserisci da 1 a 10 puzzle per scheda e alterna tra griglie di lettere in maiuscolo o minuscolo. L\'Accesso Completo sblocca tutte le 11 lingue supportate dove la parola-obiettivo cambia in base alla lingua — «dog» in inglese diventa «cane» in italiano, «Hund» in tedesco, «chien» in francese — rendendo ogni lingua un prodotto distinto e commercializzabile. Ogni scheda genera un foglio risposte automatico, e puoi esportare PDF pronti per la stampa e JPEG a oltre 400 DPI nei formati Letter, A4, Quadrato o dimensioni personalizzate. Che tu venda pacchetti tematici di vocabolario su Etsy, compili libri di puzzle per Amazon KDP o crei centri di alfabetizzazione differenziati per Gumroad, il Generatore di Schede Indovina la Parola produce risultati professionali in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {
@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Imposta il tipo di carattere e aggiungi tocchi personalizzati',
         description:
-          'Scegli tra griglie di lettere in maiuscolo (predefinito) e minuscolo per adattarti al livello di competenza desiderato. Usa il pannello Strumenti di Testo per aggiungere un titolo alla scheda, campi per nome e data dello studente, istruzioni o qualsiasi testo personalizzato. Scegli tra sette font, tra cui Lexend Deca, Baloo 2, Fredoka e Quicksand. Regola dimensione, colore e contorno del carattere per la massima leggibilità.',
+          'Scegli tra griglie di lettere in maiuscolo (predefinito) e minuscolo per adattarti al livello di competenza desiderato. Usa il pannello Strumenti di Testo per aggiungere un titolo alla scheda, campi per nome e data dell'utente, istruzioni o qualsiasi testo personalizzato. Scegli tra sette font, tra cui Lexend Deca, Baloo 2, Fredoka e Quicksand. Regola dimensione, colore e contorno del carattere per la massima leggibilità.',
       },
       {
         title: 'Genera il foglio risposte e scarica',
@@ -63,12 +63,12 @@ const content: AppContent = {
       {
         title: 'Indovinare parole con indizio immagine e griglia di lettere vuota',
         description:
-          'Ogni puzzle presenta un indizio immagine accanto a una fila di caselle di lettere vuote che rappresentano la parola nascosta. Gli studenti studiano l\'immagine, identificano cosa rappresenta e riempiono le lettere mancanti — un esercizio di deduzione stile impiccato che sviluppa contemporaneamente il vocabolario visivo, la precisione ortografica e la corrispondenza lettera-suono. Le espressioni composte da più parole vengono presentate come gruppi di parole separati con spaziatura tra loro, supportando naturalmente i sostantivi composti, i nomi di animali e i termini di vocabolario più lunghi.',
+          'Ogni puzzle presenta un indizio immagine accanto a una fila di caselle di lettere vuote che rappresentano la parola nascosta. gli utenti studiano l\'immagine, identificano cosa rappresenta e riempiono le lettere mancanti — un esercizio di deduzione stile impiccato che sviluppa contemporaneamente il vocabolario visivo, la precisione ortografica e la corrispondenza lettera-suono. Le espressioni composte da più parole vengono presentate come gruppi di parole separati con spaziatura tra loro, supportando naturalmente i sostantivi composti, i nomi di animali e i termini di vocabolario più lunghi.',
       },
       {
         title: 'Quattro livelli di difficoltà con numero regolabile di lettere-indizio',
         description:
-          'Controlla esattamente quanto supporto ricevono gli studenti con quattro livelli di difficoltà integrati. La modalità Senza Indizi lascia ogni casella vuota per la massima sfida. La modalità Facile pre-rivela metà delle lettere, perfetta per i lettori principianti. La modalità Normale rivela un quarto delle lettere per una pratica equilibrata. La modalità Difficile rivela solo un sesto — indizio sufficiente per iniziare senza svelare la risposta. Mescolare i livelli di difficoltà nelle schede di uno stesso pacchetto crea una progressione naturale dal facile al difficile che giustifica prezzi premium.',
+          'Controlla esattamente quanto supporto ricevono gli utenti con quattro livelli di difficoltà integrati. La modalità Senza Indizi lascia ogni casella vuota per la massima sfida. La modalità Facile pre-rivela metà delle lettere, perfetta per i lettori principianti. La modalità Normale rivela un quarto delle lettere per una pratica equilibrata. La modalità Difficile rivela solo un sesto — indizio sufficiente per iniziare senza svelare la risposta. Mescolare i livelli di difficoltà nelle schede di uno stesso pacchetto crea una progressione naturale dal facile al difficile che giustifica prezzi premium.',
       },
       {
         title: 'Tre fonti di contenuto: Libreria di Immagini, Modifica Manuale e Lista Personalizzata',
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: 'Supporto espressioni composte per vocabolario complesso',
         description:
-          'I nomi delle immagini e le voci personalizzate che contengono spazi vengono presentati come gruppi di parole separati nella griglia del puzzle, con una spaziatura chiara tra ogni parola. Questo significa che termini composti come «orso polare» o «camion dei pompieri» vengono visualizzati naturalmente come due griglie di parole collegate invece di una catena lunga. Gli studenti risolvono ogni parola in modo indipendente comprendendo che formano un unico concetto. Questa funzionalità amplia la portata del vocabolario ben oltre i semplici sostantivi, includendo specie animali, piatti culinari, nomi di luoghi ed espressioni descrittive.',
+          'I nomi delle immagini e le voci personalizzate che contengono spazi vengono presentati come gruppi di parole separati nella griglia del puzzle, con una spaziatura chiara tra ogni parola. Questo significa che termini composti come «orso polare» o «camion dei pompieri» vengono visualizzati naturalmente come due griglie di parole collegate invece di una catena lunga. gli utenti risolvono ogni parola in modo indipendente comprendendo che formano un unico concetto. Questa funzionalità amplia la portata del vocabolario ben oltre i semplici sostantivi, includendo specie animali, piatti culinari, nomi di luoghi ed espressioni descrittive.',
       },
       {
         title: '104 temi visivi con oltre 3100 immagini',
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: 'Esportazione pronta per la stampa a 400+ DPI con opzione scala di grigi',
         description:
-          'Scarica schede e fogli risposte come immagini JPEG ad alta risoluzione o documenti PDF pronti per la stampa. Il motore di esportazione renderizza con un moltiplicatore 6x, producendo oltre 400 DPI nei formati standard. Attiva l\'esportazione in scala di grigi per versioni economiche in inchiostro, perfette per la stampa in classe o libri di attività in bianco e nero. I formati Letter, A4, Quadrato e dimensioni personalizzate sono tutti supportati per la massima flessibilità su piattaforme print-on-demand e stampanti domestiche.',
+          'Scarica schede e fogli risposte come immagini JPEG ad alta risoluzione o documenti PDF pronti per la stampa. Il motore di esportazione renderizza con un moltiplicatore 6x, producendo oltre 400 DPI nei formati standard. Attiva l\'esportazione in scala di grigi per versioni economiche in inchiostro, perfette per la stampa in volume o libri di attività in bianco e nero. I formati Letter, A4, Quadrato e dimensioni personalizzate sono tutti supportati per la massima flessibilità su piattaforme print-on-demand e stampanti domestiche.',
       },
       {
         title: 'Modifica completa del canvas con strumenti testo, forma e immagine',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centri di alfabetizzazione differenziati per TPT',
+        title: 'Centri di alfabetizzazione differenziati per Gumroad',
         description:
-          'Costruisci set di pratica indovina la parola per livelli usando il livello di difficoltà come asse di differenziazione: Livello 1 (Facile, 4 puzzle per pagina, parole semplici), Livello 2 (Normale, 6 puzzle, parole medie), Livello 3 (Difficile, 8 puzzle, parole più lunghe), e Livello 4 (Senza Indizi, 10 puzzle, espressioni composte). Accompagna ogni livello con fogli risposte e un foglio di monitoraggio dei progressi. Gli acquirenti di Teachers Pay Teachers pagano prezzi premium per risorse di vocabolario differenziate che possono usare immediatamente su più livelli di lettura.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Costruisci set di pratica indovina la parola per livelli usando il livello di difficoltà come asse di differenziazione: Livello 1 (Facile, 4 puzzle per pagina, parole semplici), Livello 2 (Normale, 6 puzzle, parole medie), Livello 3 (Difficile, 8 puzzle, parole più lunghe), e Livello 4 (Senza Indizi, 10 puzzle, espressioni composte). Accompagna ogni livello con fogli risposte e un foglio di monitoraggio dei progressi. Gli acquirenti di Gumroad pagano prezzi premium per risorse di vocabolario differenziate che possono usare immediatamente su più livelli di lettura.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Prodotti di vocabolario multilingue con Accesso Completo',
         description:
           'L\'Accesso Completo sblocca tutte le 11 lingue, e poiché Indovina la Parola è sensibile alla lingua, la parola-obiettivo cambia in base alla lingua. «Dog» in inglese diventa «cane» in italiano, «Hund» in tedesco, «chien» in francese, «perro» in spagnolo. Ogni versione linguistica è un prodotto genuinamente diverso con parole diverse, numeri di lettere diversi e soluzioni di puzzle diverse. Crea serie tematiche identiche in più lingue e pubblica ciascuna come prodotto Etsy separato o libro KDP — undici flussi di ricavo da un unico flusso di lavoro.',
-        platform: 'Etsy / Amazon KDP / TPT (multilingue)',
+        platform: 'Etsy / Amazon KDP / Gumroad (multilingue)',
       },
       {
-        title: 'Strumento di ortografia per la classe e le ripetizioni',
+        title: 'Strumento di ortografia per il negozio e le ripetizioni',
         description:
-          'Usa la modalità Lista di Parole Personalizzata per creare schede indovina la parola con qualsiasi lista di vocabolario — parole del dettato settimanale, termini scientifici, vocabolario di studi sociali o pratica di lingue straniere. Scrivi le tue parole direttamente senza bisogno di immagini corrispondenti. Regola il livello di difficoltà in base alla capacità di ogni studente: Facile per chi ha difficoltà con l\'ortografia, Senza Indizi per gli studenti avanzati. Stampa serie personalizzate in pochi minuti per piccoli gruppi o classi intere. Il foglio risposte automatico fa risparmiare tempo nella correzione, e il formato stile impiccato mantiene gli studenti motivati rispetto ai tradizionali esercizi di scrivere la parola cinque volte.',
-        platform: 'Classe / Ripetizioni / Istruzione domiciliare',
+          'Usa la modalità Lista di Parole Personalizzata per creare schede indovina la parola con qualsiasi lista di vocabolario — parole del dettato settimanale, termini scientifici, vocabolario di studi sociali o pratica di lingue straniere. Scrivi le tue parole direttamente senza bisogno di immagini corrispondenti. Regola il livello di difficoltà in base alla capacità di ogni utente: Facile per chi ha difficoltà con l\'ortografia, Senza Indizi per gli utenti avanzati. Stampa serie personalizzate in pochi minuti per piccoli gruppi o negozi intere. Il foglio risposte automatico fa risparmiare tempo nel valore percepito, e il formato stile impiccato mantiene gli utenti motivati rispetto ai tradizionali esercizi di scrivere la parola cinque volte.',
+        platform: 'Vendita Online / Marketplace / Uso Personale',
       },
     ],
   },
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Come funziona il puzzle indovina la parola?',
       answer:
-        'Ogni puzzle mostra un indizio immagine accanto a una fila di caselle di lettere vuote. Gli studenti studiano l\'immagine per identificare cosa rappresenta e poi riempiono le lettere mancanti per comporre la parola. Le lettere-indizio pre-rivelate (controllate dal livello di difficoltà) forniscono supporto. Funziona come il gioco dell\'impiccato ma con un indizio immagine invece di una categoria — sviluppando contemporaneamente il vocabolario visivo, l\'ortografia e il ragionamento deduttivo.',
+        'Ogni puzzle mostra un indizio immagine accanto a una fila di caselle di lettere vuote. gli utenti studiano l\'immagine per identificare cosa rappresenta e poi riempiono le lettere mancanti per comporre la parola. Le lettere-indizio pre-rivelate (controllate dal livello di difficoltà) forniscono supporto. Funziona come il gioco dell\'impiccato ma con un indizio immagine invece di una categoria — sviluppando contemporaneamente il vocabolario visivo, l\'ortografia e il ragionamento deduttivo.',
     },
     {
       question: 'Quali sono i quattro livelli di difficoltà?',
@@ -158,12 +158,12 @@ const content: AppContent = {
     {
       question: 'Come funziona il supporto per espressioni composte?',
       answer:
-        'Le parole o i nomi di immagini che contengono spazi (come «orso polare» o «camion dei pompieri») vengono presentati come gruppi di parole separati nella griglia del puzzle con una spaziatura chiara tra loro. Gli studenti risolvono ogni parola in modo indipendente comprendendo che formano un unico concetto. Questo funziona con tutte e tre le fonti di contenuto e i quattro livelli di difficoltà.',
+        'Le parole o i nomi di immagini che contengono spazi (come «orso polare» o «camion dei pompieri») vengono presentati come gruppi di parole separati nella griglia del puzzle con una spaziatura chiara tra loro. gli utenti risolvono ogni parola in modo indipendente comprendendo che formano un unico concetto. Questo funziona con tutte e tre le fonti di contenuto e i quattro livelli di difficoltà.',
     },
     {
       question: 'Posso scegliere tra maiuscolo e minuscolo?',
       answer:
-        'Sì. Il selettore del tipo di carattere ti permette di alternare tra maiuscolo (predefinito) e minuscolo per la griglia di indovinamento. Il maiuscolo è ideale per gli studenti più giovani che imparano le lettere capitali, mentre il minuscolo è adatto per gli studenti più grandi che praticano la scrittura standard. L\'impostazione si applica sia alle lettere-indizio che alle caselle che gli studenti compilano.',
+        'Sì. Il selettore del tipo di carattere ti permette di alternare tra maiuscolo (predefinito) e minuscolo per la griglia di indovinamento. Il maiuscolo è ideale per gli utenti più giovani che imparano le lettere capitali, mentre il minuscolo è adatto per gli utenti più grandi che praticano la scrittura standard. L\'impostazione si applica sia alle lettere-indizio che alle caselle che gli utenti compilano.',
     },
     {
       question: 'Qual è la differenza tra la Modalità Modifica Manuale e la Libreria di Immagini?',
@@ -173,12 +173,12 @@ const content: AppContent = {
     {
       question: 'Cosa posso fare con la modalità Lista di Parole Personalizzata?',
       answer:
-        'La modalità Lista di Parole Personalizzata ti permette di scrivere qualsiasi parola o espressione direttamente — senza bisogno di immagini. È ideale per le liste del dettato settimanale, vocabolario specifico di una materia (termini scientifici, nomi geografici), pratica di lingue straniere o qualsiasi contenuto personalizzato. I puzzle mostrano griglie di lettere vuote senza indizi immagine, quindi gli studenti si basano sul contesto dei titoli della scheda, sulle istruzioni o sulle loro conoscenze pregresse per risolvere gli enigmi.',
+        'La modalità Lista di Parole Personalizzata ti permette di scrivere qualsiasi parola o espressione direttamente — senza bisogno di immagini. È ideale per le liste del dettato settimanale, vocabolario specifico di una materia (termini scientifici, nomi geografici), pratica di lingue straniere o qualsiasi contenuto personalizzato. I puzzle mostrano griglie di lettere vuote senza indizi immagine, quindi gli utenti si basano sul contesto dei titoli della scheda, sulle istruzioni o sulle loro conoscenze pregresse per risolvere gli enigmi.',
     },
     {
       question: 'Il generatore crea fogli risposte automaticamente?',
       answer:
-        'Sì. Clicca sul pulsante Genera Foglio Risposte per creare una versione risolta della tua scheda con ogni casella di lettera compilata e nessuna casella vuota rimanente. Puoi visualizzare l\'anteprima del foglio risposte sullo schermo e scaricarlo come file JPEG o PDF separato. Attiva l\'esportazione in scala di grigi per versioni del foglio risposte economiche in inchiostro, ideali per la stampa in classe.',
+        'Sì. Clicca sul pulsante Genera Foglio Risposte per creare una versione risolta della tua scheda con ogni casella di lettera compilata e nessuna casella vuota rimanente. Puoi visualizzare l\'anteprima del foglio risposte sullo schermo e scaricarlo come file JPEG o PDF separato. Attiva l\'esportazione in scala di grigi per versioni del foglio risposte economiche in inchiostro, ideali per la stampa in volume.',
     },
     {
       question: 'Il generatore Indovina la Parola è sensibile alla lingua?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Posso vendere schede create con questo strumento su Etsy e Amazon KDP?',
       answer:
-        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede indovina la parola come download digitali su Etsy, come libri di attività stampati su Amazon KDP, come risorse educative su TPT o attraverso qualsiasi altro canale di vendita. Il formato puzzle con indizi immagine e la capacità multilingue ti offrono una forte differenziazione in categorie di mercato molto competitive.',
+        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede indovina la parola come download digitali su Etsy, come libri di attività stampati su Amazon KDP, come risorse educative su Gumroad o attraverso qualsiasi altro canale di vendita. Il formato puzzle con indizi immagine e la capacità multilingue ti offrono una forte differenziazione in categorie di mercato molto competitive.',
     },
     {
       question: 'Qual è la politica di rimborso?',
@@ -236,7 +236,7 @@ const content: AppContent = {
     {
       pageType: 'guide',
       slug: 'vendere-materiale-didattico-etsy',
-      anchorText: 'Guida per Vendere Materiale Didattico su Etsy',
+      anchorText: 'Guida per Vendere prodotto stampabile su Etsy',
     },
     {
       pageType: 'start',
@@ -274,12 +274,12 @@ const content: AppContent = {
       {
         src: '/samples/italian/word guess/Indovina la Parola 3.webp',
         alt: 'Scheda indovina la parola in difficoltà Difficile con minime lettere-indizio e tema animali',
-        caption: 'Difficoltà Difficile — solo un sesto delle lettere rivelate per studenti avanzati in ortografia',
+        caption: 'Difficoltà Difficile — solo un sesto delle lettere rivelate per utenti avanzati in ortografia',
       },
       {
         src: '/samples/italian/word guess/Indovina la Parola 4.webp',
         alt: 'Foglio risposte indovina la parola con tutte le lettere compilate e nessuna casella vuota',
-        caption: 'Foglio risposte — tutte le lettere rivelate per correzione e autoverifica facili',
+        caption: 'Foglio risposte — tutte le lettere rivelate per verifica e autoverifica facili',
       },
     ],
     youtubeId: 'DSwX_p4dRNM',

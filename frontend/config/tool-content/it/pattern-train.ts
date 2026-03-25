@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Generatore Treno delle Sequenze',
     tagline: 'Genera schede con sequenze ripetitive disposte su 11 vagoni tematici del treno con cinque tipi di schema, conteggio indizi regolabile e output completamente visivo senza testo che si vende in tutto il mondo senza traduzione',
-    description: 'Crea schede professionali per il riconoscimento di sequenze in cui gli alunni identificano e completano schemi ripetitivi visualizzati come immagini su un treno tematico con 11 vagoni. Cinque tipi distinti di schema coprono ogni livello di complessità delle sequenze: AB alterna due elementi, AAB raggruppa due di un tipo seguiti da uno di un altro, ABB inverte quel raggruppamento, ABC ruota tre elementi diversi e AABB accoppia due di ciascuno prima di ripetere. Il treno dispone 11 vagoni su tre righe (5 + 3 + 3), con ogni vagone che contiene un\'immagine dalla sequenza ripetitiva. Un vagone è lasciato vuoto — gli alunni identificano lo schema e determinano l\'elemento mancante. Regola il conteggio degli indizi da 4 a 10 per controllare la difficoltà: mostrare 10 indizi rende lo schema evidente, mentre mostrarne solo 4 richiede un vero ragionamento sulle sequenze poiché i primi 3 vagoni sono sempre visibili. Il distintivo formato a vagoni del treno è un differenziatore visivo rispetto alle classiche schede a griglia — gli acquirenti che sfogliano Etsy o TpT vedono immediatamente qualcosa di diverso dai tipici esercizi a righe e colonne. Scegli tra oltre 3.100 illustrazioni in 104 collezioni tematiche o carica le tue immagini. Una scheda chiave di risposta separata mostra tutti gli 11 vagoni completati con la sequenza corretta per la verifica istantanea. Ogni scheda è completamente visiva con solo immagini sui vagoni del treno e zero testo sull\'output. Nessuna parola appare sulla pagina generata — solo immagini. Questo rende le tue schede vendibili universalmente senza traduzione: un singolo annuncio serve ogni mercato nel mondo. Esporta PDF pronti per la stampa e JPEG ad alta risoluzione in formato Letter, A4, Quadrato (1200×1200) o dimensioni personalizzate. Attiva la scala di grigi per un output ottimizzato per l\'inchiostro. Modifica tutto sul canvas completo Fabric.js con font tra cui Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. La prova gratuita include tutte le funzionalità con una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Crea schede professionali per il riconoscimento di sequenze in cui gli utenti identificano e completano schemi ripetitivi visualizzati come immagini su un treno tematico con 11 vagoni. Cinque tipi distinti di schema coprono ogni livello di complessità delle sequenze: AB alterna due elementi, AAB raggruppa due di un tipo seguiti da uno di un altro, ABB inverte quel raggruppamento, ABC ruota tre elementi diversi e AABB accoppia due di ciascuno prima di ripetere. Il treno dispone 11 vagoni su tre righe (5 + 3 + 3), con ogni vagone che contiene un\'immagine dalla sequenza ripetitiva. Un vagone è lasciato vuoto — gli utenti identificano lo schema e determinano l\'elemento mancante. Regola il conteggio degli indizi da 4 a 10 per controllare la difficoltà: mostrare 10 indizi rende lo schema evidente, mentre mostrarne solo 4 richiede un vero ragionamento sulle sequenze poiché i primi 3 vagoni sono sempre visibili. Il distintivo formato a vagoni del treno è un differenziatore visivo rispetto ai negoziche schede a griglia — gli acquirenti che sfogliano Etsy o Gumroad vedono immediatamente qualcosa di diverso dai tipici esercizi a righe e colonne. Scegli tra oltre 3.100 illustrazioni in 104 collezioni tematiche o carica le tue immagini. Una scheda chiave di risposta separata mostra tutti gli 11 vagoni completati con la sequenza corretta per la verifica istantanea. Ogni scheda è completamente visiva con solo immagini sui vagoni del treno e zero testo sull\'output. Nessuna parola appare sulla pagina generata — solo immagini. Questo rende le tue schede vendibili universalmente senza traduzione: un singolo annuncio serve ogni mercato nel mondo. Esporta PDF pronti per la stampa e JPEG ad alta risoluzione in formato Letter, A4, Quadrato (1200×1200) o dimensioni personalizzate. Attiva la scala di grigi per un output ottimizzato per l\'inchiostro. Modifica tutto sul canvas completo Fabric.js con font tra cui Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. La prova gratuita include tutte le funzionalità con una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
   },
 
   tutorial: {
@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Imposta il Conteggio Indizi per il Controllo della Difficoltà',
-        description: 'Regola il cursore del conteggio indizi da 4 a 10 per controllare la difficoltà della scheda. I primi 3 vagoni sono sempre visibili per stabilire lo schema. Con 10 indizi, solo 1 vagone è vuoto tra 10 pieni — lo schema è altamente evidente ed ideale per i principianti. Con 4 indizi, gli alunni vedono informazioni minime e devono ragionare attentamente per identificare la sequenza. Il vagone vuoto è posizionato dinamicamente tra le posizioni 3 e 10, assicurando che l\'elemento mancante cada sempre nella sezione ripetitiva piuttosto che all\'inizio prevedibile.',
+        description: 'Regola il cursore del conteggio indizi da 4 a 10 per controllare la difficoltà della scheda. I primi 3 vagoni sono sempre visibili per stabilire lo schema. Con 10 indizi, solo 1 vagone è vuoto tra 10 pieni — lo schema è altamente evidente ed ideale per i principianti. Con 4 indizi, gli utenti vedono informazioni minime e devono ragionare attentamente per identificare la sequenza. Il vagone vuoto è posizionato dinamicamente tra le posizioni 3 e 10, assicurando che l\'elemento mancante cada sempre nella sezione ripetitiva piuttosto che all\'inizio prevedibile.',
       },
       {
         title: 'Sfoglia i Temi o Carica Immagini Personalizzate',
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Attiva Campi Nome/Data e Opzioni Esercizio',
-        description: 'Attiva i campi opzionali nome e data ritagliabili per l\'identificazione dello studente sulle schede stampate. Questi campi appaiono come aree con linee tratteggiate che gli alunni compilano prima di iniziare. Attiva o disattiva numeri di esercizio ed elementi decorativi. Ogni opzione perfeziona il layout della scheda per il tuo pubblico target — le schede per la classe beneficiano dei campi nome, mentre gli annunci per download digitali possono ometterli.',
+        description: 'Attiva i campi opzionali nome e data ritagliabili per l\'identificazione dell'utente sulle schede stampate. Questi campi appaiono come aree con linee tratteggiate che gli utenti compilano prima di iniziare. Attiva o disattiva numeri di esercizio ed elementi decorativi. Ogni opzione perfeziona il layout della scheda per il tuo pubblico target — le schede per il negozio beneficiano dei campi nome, mentre gli annunci per download digitali possono ometterli.',
       },
       {
         title: 'Aggiungi Testo e Personalizza il Canvas',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Rivedi la Chiave di Risposta e Scarica',
-        description: 'Passa alla scheda Chiave di Risposta per vedere il treno completo con tutti gli 11 vagoni riempiti — la posizione mancante ora mostra l\'elemento corretto dello schema. Sia la scheda che la chiave di risposta sono modificabili indipendentemente su canvas separati. Attiva la scala di grigi per un output ottimizzato per l\'inchiostro. Scarica ciascuno come JPEG ad alta risoluzione o PDF pronto per la stampa a 300 DPI. Ogni esportazione è pronta per la produzione per annunci Etsy, interni Amazon KDP e file prodotto TpT.',
+        description: 'Passa alla scheda Chiave di Risposta per vedere il treno completo con tutti gli 11 vagoni riempiti — la posizione mancante ora mostra l\'elemento corretto dello schema. Sia la scheda che la chiave di risposta sono modificabili indipendentemente su canvas separati. Attiva la scala di grigi per un output ottimizzato per l\'inchiostro. Scarica ciascuno come JPEG ad alta risoluzione o PDF pronto per la stampa a 300 DPI. Ogni esportazione è pronta per la produzione per annunci Etsy, interni Amazon KDP e file prodotto Gumroad.',
       },
     ],
   },
@@ -73,19 +73,19 @@ const content: ToolContent = {
     },
     {
       title: 'Centri di Riconoscimento Schemi Differenziati',
-      description: 'Costruisci set di pratica a livelli usando la complessità dello schema e il conteggio indizi come due assi di differenziazione. Livello 1: schemi AB con 8–10 indizi. Livello 2: schemi AAB e ABB con 6–8 indizi. Livello 3: schemi ABC con 5–6 indizi. Livello 4: schemi AABB con 4–5 indizi. Ogni livello mira a una richiesta cognitiva progressivamente più difficile — dal riconoscere la semplice alternanza all\'identificare sequenze multi-elemento complesse da informazioni limitate. Il formato a vagoni del treno coinvolge gli alunni che trovano monotone le schede a griglia.',
+      description: 'Costruisci set di pratica a livelli usando la complessità dello schema e il conteggio indizi come due assi di differenziazione. Livello 1: schemi AB con 8–10 indizi. Livello 2: schemi AAB e ABB con 6–8 indizi. Livello 3: schemi ABC con 5–6 indizi. Livello 4: schemi AABB con 4–5 indizi. Ogni livello mira a una richiesta cognitiva progressivamente più difficile — dal riconoscere la semplice alternanza all\'identificare sequenze multi-elemento complesse da informazioni limitate. Il formato a vagoni del treno coinvolge gli utenti che trovano monotone le schede a griglia.',
     },
     {
       title: 'Set Treno Sequenze Stagionali e Festivi',
-      description: 'Usa temi stagionali e festivi per creare pacchetti treno delle sequenze a tempo limitato. Un pacchetto "Treno delle Sequenze di Halloween" con immagini a tema spettrale si vende ad ottobre. Natale, ritorno a scuola, San Valentino e temi estivi raggiungono ciascuno i propri picchi di vendita su Etsy e TpT. Combina riscaldamenti semplici AB con sfide avanzate AABB in ogni set stagionale per coprire più livelli di abilità e massimizzare il tuo pubblico di acquirenti.',
+      description: 'Usa temi stagionali e festivi per creare pacchetti treno delle sequenze a tempo limitato. Un pacchetto "Treno delle Sequenze di Halloween" con immagini a tema spettrale si vende ad ottobre. Natale, ritorno a scuola, San Valentino e temi estivi raggiungono ciascuno i propri picchi di vendita su Etsy e Gumroad. Combina riscaldamenti semplici AB con sfide avanzate AABB in ogni set stagionale per coprire più livelli di abilità e massimizzare il tuo pubblico di acquirenti.',
     },
     {
       title: 'Bundle di Apprendimento Visivo Multi-Formato',
-      description: 'Abbina schede treno delle sequenze con schede sequenze a griglia, schede di abbinamento, trova l\'intruso e attività di discriminazione visiva usando temi coordinati. Ogni formato esercita un\'abilità cognitiva visiva diversa: il Treno delle Sequenze costruisce il riconoscimento degli schemi in un distintivo layout a treno, le griglie usano il formato standard a righe e colonne, l\'abbinamento costruisce l\'accoppiamento visivo, trova l\'intruso costruisce la classificazione. I bundle visivi multi-formato si vendono a più dei singoli tipi di attività e offrono agli alunni pratica variegata.',
+      description: 'Abbina schede treno delle sequenze con schede sequenze a griglia, schede di abbinamento, trova l\'intruso e attività di discriminazione visiva usando temi coordinati. Ogni formato esercita un\'abilità cognitiva visiva diversa: il Treno delle Sequenze costruisce il riconoscimento degli schemi in un distintivo layout a treno, le griglie usano il formato standard a righe e colonne, l\'abbinamento costruisce l\'accoppiamento visivo, trova l\'intruso costruisce la negozificazione. I bundle visivi multi-formato si vendono a più dei singoli tipi di attività e offrono agli utenti pratica variegata.',
     },
     {
       title: 'Treni Sequenze con Immagini Personalizzate per Argomenti Specifici',
-      description: 'Carica immagini personalizzate per creare schede treno delle sequenze per pubblici specializzati oltre la libreria integrata. Usa fasi di crescita delle piante per una lezione di scienze, simboli di note musicali per una classe di musica, forme geometriche per un\'unità di matematica o immagini di manufatti storici per studi sociali. I cinque tipi di schema e il conteggio indizi regolabile ti permettono di adattare l\'esercizio a qualsiasi obiettivo didattico. Le immagini personalizzate ti consentono di mirare nicchie specifiche su Etsy e TpT dove le immagini della libreria tematica da sole potrebbero non bastare.',
+      description: 'Carica immagini personalizzate per creare schede treno delle sequenze per pubblici specializzati oltre la libreria integrata. Usa fasi di crescita delle piante per una lezione di scienze, simboli di note musicali per un negozio di musica, forme geometriche per un\'unità di matematica o immagini di manufatti storici per studi sociali. I cinque tipi di schema e il conteggio indizi regolabile ti permettono di adattare l\'esercizio a qualsiasi obiettivo didattico. Le immagini personalizzate ti consentono di mirare nicchie specifiche su Etsy e Gumroad dove le immagini della libreria tematica da sole potrebbero non bastare.',
     },
   ],
 
@@ -97,22 +97,22 @@ const content: ToolContent = {
     },
     {
       title: 'Serie Quaderni Matematica Iniziale per Amazon KDP',
-      description: 'Compila oltre 80 esercizi treno delle sequenze in quaderni tematici per Amazon KDP. Struttura una serie per tema: "Treni Sequenze Animali", "Treni Sequenze Veicoli", "Riconoscimento Schemi Alimentari". Ogni libro progredisce da semplici schemi AB a complesse sequenze AABB con chiavi di risposta in fondo. Il formato visivo senza testo si pubblica identicamente su tutti i marketplace KDP internazionali senza traduzione. I quaderni treno delle sequenze riempiono una nicchia specifica di apprendimento precoce con domanda costante tutto l\'anno da genitori e insegnanti della scuola dell\'infanzia.',
+      description: 'Compila oltre 80 esercizi treno delle sequenze in quaderni tematici per Amazon KDP. Struttura una serie per tema: "Treni Sequenze Animali", "Treni Sequenze Veicoli", "Riconoscimento Schemi Alimentari". Ogni libro progredisce da semplici schemi AB a complesse sequenze AABB con chiavi di risposta in fondo. Il formato visivo senza testo si pubblica identicamente su tutti i marketplace KDP internazionali senza traduzione. I quaderni treno delle sequenze riempiono una nicchia specifica di apprendimento precoce con domanda costante tutto l\'anno da genitori e venditori della scuola dell\'infanzia.',
       platform: 'Amazon KDP',
     },
     {
-      title: 'Centri Sequenze su Teachers Pay Teachers',
-      description: 'Carica pacchetti schede treno delle sequenze su TpT organizzati per livello di abilità e tema. Includi quattro livelli di difficoltà per tema usando il tipo di schema e il conteggio indizi come assi di differenziazione. Confeziona con chiavi di risposta auto-generate e schede di monitoraggio progressi. Il formato a vagoni del treno crea un tema visivo coinvolgente che funziona come attività per centri in classe. Gli insegnanti cercano "attività riconoscimento schemi" e "schede sequenze ripetitive" e trovano opzioni limitate in formato treno — i tuoi prodotti colmano un vuoto reale.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Centri Sequenze su Gumroad',
+      description: 'Carica pacchetti schede treno delle sequenze su Gumroad organizzati per livello di abilità e tema. Includi quattro livelli di difficoltà per tema usando il tipo di schema e il conteggio indizi come assi di differenziazione. Confeziona con chiavi di risposta auto-generate e schede di monitoraggio progressi. Il formato a vagoni del treno crea un tema visivo coinvolgente che funziona come attività per centri online. i venditori cercano "attività riconoscimento schemi" e "schede sequenze ripetitive" e trovano opzioni limitate in formato treno — i tuoi prodotti colmano un vuoto reale.',
+      platform: 'Gumroad',
     },
     {
       title: 'Funnel Visivo Pinterest Treno Sequenze',
-      description: 'Le schede treno delle sequenze con immagini tematiche colorate sui vagoni sono intrinsecamente "pinnabili" — il distintivo layout a treno cattura l\'attenzione nei feed di Pinterest dove la maggior parte dei pin sulle sequenze mostra generiche righe e griglie. Pubblica schede di esempio mostrando diversi tipi di schema con filigrana, collega al tuo negozio o landing page e raccogli indirizzi email per la tua lista iscritti. Il formato senza testo significa che i pin attraggono genitori e insegnanti in ogni paese, non solo italofoni.',
+      description: 'Le schede treno delle sequenze con immagini tematiche colorate sui vagoni sono intrinsecamente "pinnabili" — il distintivo layout a treno cattura l\'attenzione nei feed di Pinterest dove la maggior parte dei pin sulle sequenze mostra generiche righe e griglie. Pubblica schede di esempio mostrando diversi tipi di schema con filigrana, collega al tuo negozio o landing page e raccogli indirizzi email per la tua lista iscritti. Il formato senza testo significa che i pin attraggono genitori e venditori in ogni paese, non solo italofoni.',
       platform: 'Pinterest',
     },
     {
       title: 'Toolkit Completo Apprendimento Schemi su Gumroad',
-      description: 'Combina schede treno delle sequenze con schede sequenze a griglia, schede di abbinamento e attività di completamento sequenze per creare un toolkit completo per l\'apprendimento degli schemi su Gumroad. Ogni formato esercita il riconoscimento degli schemi in modo diverso: il Treno delle Sequenze usa il distintivo layout a 11 vagoni, le griglie usano righe e colonne standard, l\'abbinamento accoppia elementi correlati, il completamento estende le sequenze. Un toolkit multi-formato giustifica un prezzo premium e offre agli alunni pratica variegata con immagini tematiche coordinate in ogni tipo di attività.',
+      description: 'Combina schede treno delle sequenze con schede sequenze a griglia, schede di abbinamento e attività di completamento sequenze per creare un toolkit completo per l\'apprendimento degli schemi su Gumroad. Ogni formato esercita il riconoscimento degli schemi in modo diverso: il Treno delle Sequenze usa il distintivo layout a 11 vagoni, le griglie usano righe e colonne standard, l\'abbinamento accoppia elementi correlati, il completamento estende le sequenze. Un toolkit multi-formato giustifica un prezzo premium e offre agli utenti pratica variegata con immagini tematiche coordinate in ogni tipo di attività.',
       platform: 'Gumroad',
     },
     {
@@ -125,11 +125,11 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Usa Tipo di Schema e Conteggio Indizi come Due Assi di Difficoltà Indipendenti',
-      description: 'Il tipo di schema controlla la complessità della sequenza (AB è il più semplice, AABB il più difficile). Il conteggio indizi controlla il supporto visivo (10 indizi è il più facile, 4 il più difficile). Combinare entrambi crea un\'ampia matrice di difficoltà: AB con 10 indizi per principianti assoluti, AABB con 4 indizi per alunni avanzati. Questo approccio a doppio asse moltiplica la varietà dei tuoi prodotti dallo stesso set di temi.',
+      description: 'Il tipo di schema controlla la complessità della sequenza (AB è il più semplice, AABB il più difficile). Il conteggio indizi controlla il supporto visivo (10 indizi è il più facile, 4 il più difficile). Combinare entrambi crea un\'ampia matrice di difficoltà: AB con 10 indizi per principianti assoluti, AABB con 4 indizi per utenti avanzati. Questo approccio a doppio asse moltiplica la varietà dei tuoi prodotti dallo stesso set di temi.',
     },
     {
       title: 'Enfatizza il Formato Treno come Tuo Differenziatore di Mercato',
-      description: 'La maggior parte delle schede sequenze su Etsy e TpT usa layout a griglia standard con righe e colonne. Il formato a 11 vagoni del treno è visivamente distintivo e immediatamente riconoscibile nei risultati di ricerca. Menziona "formato a vagoni del treno" e "layout a 11 vagoni" nei titoli e descrizioni dei tuoi prodotti per evidenziare cosa rende i tuoi annunci diversi dalla concorrenza a griglia.',
+      description: 'La maggior parte delle schede sequenze su Etsy e Gumroad usa layout a griglia standard con righe e colonne. Il formato a 11 vagoni del treno è visivamente distintivo e immediatamente riconoscibile nei risultati di ricerca. Menziona "formato a vagoni del treno" e "layout a 11 vagoni" nei titoli e descrizioni dei tuoi prodotti per evidenziare cosa rende i tuoi annunci diversi dalla concorrenza a griglia.',
     },
     {
       title: 'Evidenzia Zero Testo per la Vendibilità Globale',
@@ -145,11 +145,11 @@ const content: ToolContent = {
     },
     {
       title: 'Usa la Scala di Grigi per KDP e Stampa in Blocco',
-      description: 'Attiva l\'opzione scala di grigi per le schede destinate agli interni Amazon KDP o alla stampa in blocco per la classe. L\'output in bianco e nero costa significativamente meno da stampare e soddisfa i requisiti degli interni KDP per i libri standard (non colore premium). Riserva la modalità colore per le anteprime degli annunci Etsy e i download digitali dove le immagini tematiche vivaci attirano clic.',
+      description: 'Attiva l\'opzione scala di grigi per le schede destinate agli interni Amazon KDP o alla stampa in blocco per il negozio. L\'output in bianco e nero costa significativamente meno da stampare e soddisfa i requisiti degli interni KDP per i libri standard (non colore premium). Riserva la modalità colore per le anteprime degli annunci Etsy e i download digitali dove le immagini tematiche vivaci attirano clic.',
     },
     {
       title: 'Carica Immagini Personalizzate per Mercati di Nicchia',
-      description: 'Usa il caricamento immagini personalizzate per creare schede treno delle sequenze per pubblici di nicchia oltre la libreria integrata. Fasi di crescita delle piante per scienze, note musicali per la classe di musica, forme geometriche per matematica — le immagini personalizzate ti permettono di mirare nicchie specifiche su Etsy e TpT dove le immagini della libreria tematica da sole potrebbero non bastare.',
+      description: 'Usa il caricamento immagini personalizzate per creare schede treno delle sequenze per pubblici di nicchia oltre la libreria integrata. Fasi di crescita delle piante per scienze, note musicali per il negozio di musica, forme geometriche per matematica — le immagini personalizzate ti permettono di mirare nicchie specifiche su Etsy e Gumroad dove le immagini della libreria tematica da sole potrebbero non bastare.',
     },
   ],
 
@@ -160,19 +160,19 @@ const content: ToolContent = {
     },
     {
       question: 'Quali sono i cinque tipi di schema?',
-      answer: 'AB alterna due elementi (A-B-A-B) per la sequenza ripetitiva più semplice. AAB raggruppa due di un elemento poi uno di un altro (A-A-B-A-A-B). ABB inverte quel raggruppamento (A-B-B-A-B-B). ABC ruota tre elementi diversi (A-B-C-A-B-C), richiedendo agli alunni di seguire un\'unità ripetitiva più lunga. AABB accoppia due di ciascun elemento (A-A-B-B-A-A-B-B) in un ciclo esteso. La progressione da AB ad AABB crea una scala naturale di difficoltà.',
+      answer: 'AB alterna due elementi (A-B-A-B) per la sequenza ripetitiva più semplice. AAB raggruppa due di un elemento poi uno di un altro (A-A-B-A-A-B). ABB inverte quel raggruppamento (A-B-B-A-B-B). ABC ruota tre elementi diversi (A-B-C-A-B-C), richiedendo agli utenti di seguire un\'unità ripetitiva più lunga. AABB accoppia due di ciascun elemento (A-A-B-B-A-A-B-B) in un ciclo esteso. La progressione da AB ad AABB crea una scala naturale di difficoltà.',
     },
     {
       question: 'Come controlla la difficoltà il conteggio degli indizi?',
-      answer: 'Il conteggio indizi stabilisce quanti degli 11 vagoni del treno mostrano immagini. I primi 3 vagoni sono sempre visibili per stabilire lo schema. Con 10 indizi, solo 1 vagone è vuoto tra 10 pieni — lo schema è altamente evidente. Con 4 indizi, gli alunni vedono informazioni minime e devono ragionare attentamente per identificare la sequenza. Questa singola impostazione trasforma qualsiasi tipo di schema da un esercizio semplice a una sfida di ragionamento genuina.',
+      answer: 'Il conteggio indizi stabilisce quanti degli 11 vagoni del treno mostrano immagini. I primi 3 vagoni sono sempre visibili per stabilire lo schema. Con 10 indizi, solo 1 vagone è vuoto tra 10 pieni — lo schema è altamente evidente. Con 4 indizi, gli utenti vedono informazioni minime e devono ragionare attentamente per identificare la sequenza. Questa singola impostazione trasforma qualsiasi tipo di schema da un esercizio semplice a una sfida di ragionamento genuina.',
     },
     {
       question: 'Come sono disposti gli 11 vagoni del treno sulla pagina?',
-      answer: 'Il treno visualizza 11 vagoni su tre righe: 5 vagoni sulla riga superiore, 3 al centro-sinistra e 3 al centro-destra. Ogni vagone contiene un\'immagine dalla sequenza ripetitiva. La grafica tematica del treno collega i vagoni visivamente, creando un layout distintivo che si distingue dalle classiche schede sequenze a griglia negli annunci dei marketplace.',
+      answer: 'Il treno visualizza 11 vagoni su tre righe: 5 vagoni sulla riga superiore, 3 al centro-sinistra e 3 al centro-destra. Ogni vagone contiene un\'immagine dalla sequenza ripetitiva. La grafica tematica del treno collega i vagoni visivamente, creando un layout distintivo che si distingue dai negoziche schede sequenze a griglia negli annunci dei marketplace.',
     },
     {
       question: 'In cosa differisce il Treno delle Sequenze dalle schede sequenze a griglia?',
-      answer: 'Il Treno delle Sequenze visualizza le sequenze su 11 vagoni tematici in un formato visivo distintivo con una singola posizione mancante. Le schede sequenze a griglia usano righe e colonne standard per esercizi di completamento. Il formato treno è visivamente più coinvolgente e crea prodotti che si distinguono immediatamente nei risultati di ricerca su Etsy e TpT. Il Treno delle Sequenze offre anche un conteggio indizi regolabile (4–10) per un controllo preciso della difficoltà e posizionamento dinamico della posizione mancante.',
+      answer: 'Il Treno delle Sequenze visualizza le sequenze su 11 vagoni tematici in un formato visivo distintivo con una singola posizione mancante. Le schede sequenze a griglia usano righe e colonne standard per esercizi di completamento. Il formato treno è visivamente più coinvolgente e crea prodotti che si distinguono immediatamente nei risultati di ricerca su Etsy e Gumroad. Il Treno delle Sequenze offre anche un conteggio indizi regolabile (4–10) per un controllo preciso della difficoltà e posizionamento dinamico della posizione mancante.',
     },
     {
       question: 'Perché le schede non hanno testo?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Posso vendere commercialmente le schede create con questo strumento?',
-      answer: 'La prova gratuita con filigrana è solo per uso personale e didattico. Per vendere schede treno delle sequenze su Etsy, Teachers Pay Teachers, Amazon KDP o qualsiasi altro marketplace, serve una licenza commerciale. La licenza rimuove la filigrana e concede pieni diritti di rivendita per le schede che crei.',
+      answer: 'La prova gratuita con filigrana è solo per uso personale e didattico. Per vendere schede treno delle sequenze su Etsy, Gumroad, Amazon KDP o qualsiasi altro marketplace, serve una licenza commerciale. La licenza rimuove la filigrana e concede pieni diritti di rivendita per le schede che crei.',
     },
     {
       question: 'Qual è la vostra politica di rimborso?',
@@ -220,7 +220,7 @@ const content: ToolContent = {
       {
         src: '/samples/italian/pattern train/Treno dei Modelli 2.webp',
         alt: 'Scheda treno delle sequenze in modalità schema AB alternato con immagini di animali su 11 vagoni tematici',
-        caption: 'Schema AB con tema animali — gli alunni identificano la sequenza alternata e completano il vagone mancante',
+        caption: 'Schema AB con tema animali — gli utenti identificano la sequenza alternata e completano il vagone mancante',
       },
       {
         src: '/samples/italian/pattern train/Treno dei Modelli 3.webp',
@@ -230,7 +230,7 @@ const content: ToolContent = {
       {
         src: '/samples/italian/pattern train/Treno dei Modelli 4.webp',
         alt: 'Chiave di risposta treno delle sequenze con tutti gli 11 vagoni riempiti con la sequenza corretta',
-        caption: 'Vista chiave di risposta — tutti gli 11 vagoni riempiti con lo schema corretto per la verifica dell\'insegnante',
+        caption: 'Vista chiave di risposta — tutti gli 11 vagoni riempiti con lo schema corretto per la verifica dell\'venditore',
       },
     ],
     youtubeId: '5A4aHvcC5u4',

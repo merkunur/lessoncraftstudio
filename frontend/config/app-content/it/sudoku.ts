@@ -7,7 +7,7 @@ const content: AppContent = {
       'creatore di schede sudoku illustrato stampabili per venditori Etsy',
       'generatore di puzzle sudoku con immagini per editori Amazon KDP',
       'creatore di sudoku illustrato per bambini con licenza commerciale',
-      'vendere schede di sudoku con immagini su Teachers Pay Teachers',
+      'vendere schede di sudoku con immagini su Gumroad',
     ],
     lsiKeywords: [
       'prodotti digitali di sudoku illustrato per imprenditori',
@@ -15,14 +15,14 @@ const content: AppContent = {
       'stampabili di sudoku con immagini per business online',
     ],
     titleTag: 'Generatore Sudoku con Immagini | Crea e Vendi Stampabili',
-    metaDescription: 'Crea schede sudoku con immagini da vendere su Etsy, KDP e TPT. Griglia 4×4, tre difficoltà, foglio risposte automatico, 104 temi.',
+    metaDescription: 'Crea schede sudoku con immagini da vendere su Etsy, KDP e Gumroad. Griglia 4×4, tre difficoltà, foglio risposte automatico, 104 temi.',
   },
 
   hero: {
     title: 'Generatore di Schede di Sudoku con Immagini per Puzzle Logici 4×4',
     tagline: 'Puzzle sudoku 4×4 puramente visivi con immagini al posto dei numeri — tre livelli di difficoltà da 4 a 8 celle vuote, fogli risposte autogenerati con griglie complete, e selezione di immagini tematiche tra 104 collezioni per puzzle vendibili in tutto il mondo senza traduzione.',
     description:
-      'Crea schede professionali di sudoku 4×4 con immagini dove gli alunni riempiono le celle vuote con le immagini corrette usando la logica righe-colonne. Ogni puzzle utilizza esattamente 4 immagini uniche che devono comparire una volta in ogni riga e una volta in ogni colonna — le stesse regole del sudoku classico, ma con illustrazioni colorate al posto dei numeri. Scegli tra tre livelli di difficoltà: Facile rimuove 4 celle, Medio rimuove 6 e Difficile rimuove 8 — metà della griglia. Seleziona le immagini attraverso la selezione automatica per tema che sceglie casualmente 4 immagini da una qualsiasi delle 104 collezioni tematiche, oppure scegli manualmente esattamente 4 immagini dalla libreria, dalla ricerca o dai tuoi caricamenti personalizzati. Il design premium della griglia presenta colori alternati nei blocchi 2×2 in azzurro e rosa chiaro, ombre multilivello e un bordo esterno indaco con angoli arrotondati. Ogni puzzle include un\'intestazione «Sudoku con Immagini» autogenerata e localizzata in tutte le 11 lingue e un foglio risposte a doppio canvas che mostra la griglia completa con tutte le 16 celle riempite. Aggiungi temi di sfondo e temi di bordo con controlli di opacità indipendenti, ed esporta PDF e JPEG pronti per la stampa a 300 DPI nei formati Lettera, A4 o personalizzato. Poiché il sudoku con immagini è interamente visivo — nessuna parola compare sulla griglia del puzzle — ogni scheda funziona in modo identico in tutte le 11 lingue, rendendo i tuoi prodotti vendibili in tutto il mondo senza alcuna modifica. L\'Accesso Completo sblocca tutti i 104 temi con oltre 3100 illustrazioni e tutte le 11 lingue di interfaccia. Che tu venda pacchetti di sudoku tematici su Etsy, compili quaderni di logica per Amazon KDP o crei attività di ragionamento per TPT, questo generatore produce puzzle pronti per la produzione in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Crea schede professionali di sudoku 4×4 con immagini dove gli utenti riempiono le celle vuote con le immagini corrette usando la logica righe-colonne. Ogni puzzle utilizza esattamente 4 immagini uniche che devono comparire una volta in ogni riga e una volta in ogni colonna — le stesse regole del sudoku negozico, ma con illustrazioni colorate al posto dei numeri. Scegli tra tre livelli di difficoltà: Facile rimuove 4 celle, Medio rimuove 6 e Difficile rimuove 8 — metà della griglia. Seleziona le immagini attraverso la selezione automatica per tema che sceglie casualmente 4 immagini da una qualsiasi delle 104 collezioni tematiche, oppure scegli manualmente esattamente 4 immagini dalla libreria, dalla ricerca o dai tuoi caricamenti personalizzati. Il design premium della griglia presenta colori alternati nei blocchi 2×2 in azzurro e rosa chiaro, ombre multilivello e un bordo esterno indaco con angoli arrotondati. Ogni puzzle include un\'intestazione «Sudoku con Immagini» autogenerata e localizzata in tutte le 11 lingue e un foglio risposte a doppio canvas che mostra la griglia completa con tutte le 16 celle riempite. Aggiungi temi di sfondo e temi di bordo con controlli di opacità indipendenti, ed esporta PDF e JPEG pronti per la stampa a 300 DPI nei formati Lettera, A4 o personalizzato. Poiché il sudoku con immagini è interamente visivo — nessuna parola compare sulla griglia del puzzle — ogni scheda funziona in modo identico in tutte le 11 lingue, rendendo i tuoi prodotti vendibili in tutto il mondo senza alcuna modifica. L\'Accesso Completo sblocca tutti i 104 temi con oltre 3100 illustrazioni e tutte le 11 lingue di interfaccia. Che tu venda pacchetti di sudoku tematici su Etsy, compili quaderni di logica per Amazon KDP o crei attività di ragionamento per Gumroad, questo generatore produce puzzle pronti per la produzione in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {
@@ -51,7 +51,7 @@ const content: AppContent = {
       {
         title: 'Genera il Foglio Risposte e Scarica',
         description:
-          'Passa alla scheda Foglio Risposte per visualizzare la griglia completa con tutte le 16 celle riempite — nessuna cella vuota. Scarica entrambe le versioni con i quattro pulsanti dedicati: Scheda JPEG, Foglio Risposte JPEG, Scheda PDF e Foglio Risposte PDF. I file vengono esportati come sudoku_worksheet.jpeg/pdf e sudoku_answer_key.jpeg/pdf a 300 DPI. Attiva la scala di grigi per versioni a risparmio d\'inchiostro. Ogni esportazione è pronta per la produzione: inserzioni Etsy, interni Amazon KDP e file prodotto TPT.',
+          'Passa alla scheda Foglio Risposte per visualizzare la griglia completa con tutte le 16 celle riempite — nessuna cella vuota. Scarica entrambe le versioni con i quattro pulsanti dedicati: Scheda JPEG, Foglio Risposte JPEG, Scheda PDF e Foglio Risposte PDF. I file vengono esportati come sudoku_worksheet.jpeg/pdf e sudoku_answer_key.jpeg/pdf a 300 DPI. Attiva la scala di grigi per versioni a risparmio d\'inchiostro. Ogni esportazione è pronta per la produzione: inserzioni Etsy, interni Amazon KDP e file prodotto Gumroad.',
       },
     ],
   },
@@ -62,12 +62,12 @@ const content: AppContent = {
       {
         title: 'Sudoku 4×4 con Immagini al Posto dei Numeri',
         description:
-          'Ogni puzzle utilizza una griglia 4×4 con 4 immagini uniche e colorate che sostituiscono i numeri tradizionali. Gli alunni applicano le stesse regole logiche del sudoku classico — ogni immagine deve comparire esattamente una volta in ogni riga e una volta in ogni colonna — ma il formato visivo rende i puzzle accessibili ai pre-lettori e ai bambini che non hanno ancora padroneggiato i numeri. Il formato basato su immagini rende inoltre ogni puzzle universalmente comprensibile indipendentemente dalla lingua, poiché nessun testo compare all\'interno della griglia stessa. Questo design puramente visivo è il differenziatore chiave che apre i mercati mondiali per i tuoi prodotti stampabili.',
+          'Ogni puzzle utilizza una griglia 4×4 con 4 immagini uniche e colorate che sostituiscono i numeri tradizionali. gli utenti applicano le stesse regole logiche del sudoku negozico — ogni immagine deve comparire esattamente una volta in ogni riga e una volta in ogni colonna — ma il formato visivo rende i puzzle accessibili ai pre-lettori e ai bambini che non hanno ancora padroneggiato i numeri. Il formato basato su immagini rende inoltre ogni puzzle universalmente comprensibile indipendentemente dalla lingua, poiché nessun testo compare all\'interno della griglia stessa. Questo design puramente visivo è il differenziatore chiave che apre i mercati mondiali per i tuoi prodotti stampabili.',
       },
       {
         title: 'Tre Livelli di Difficoltà: Facile, Medio e Difficile',
         description:
-          'Controlla la complessità del puzzle con tre impostazioni di difficoltà distinte. Facile rimuove 4 celle dalla griglia di 16 celle, lasciando 12 indizi — gli alunni risolvono una cella alla volta con semplice eliminazione per riga e colonna. Medio rimuove 6 celle, richiedendo agli alunni di considerare vincoli multipli simultaneamente. Difficile rimuove 8 celle — esattamente metà della griglia — richiedendo ragionamento logico a più passaggi. Il sistema determina casualmente quali celle vengono svuotate, quindi rigenerare lo stesso livello di difficoltà produce una configurazione di puzzle diversa ogni volta.',
+          'Controlla la complessità del puzzle con tre impostazioni di difficoltà distinte. Facile rimuove 4 celle dalla griglia di 16 celle, lasciando 12 indizi — gli utenti risolvono una cella alla volta con semplice eliminazione per riga e colonna. Medio rimuove 6 celle, richiedendo agli utenti di considerare vincoli multipli simultaneamente. Difficile rimuove 8 celle — esattamente metà della griglia — richiedendo ragionamento logico a più passaggi. Il sistema determina casualmente quali celle vengono svuotate, quindi rigenerare lo stesso livello di difficoltà produce una configurazione di puzzle diversa ogni volta.',
       },
       {
         title: 'Selezione per Tema e Manuale per Esattamente 4 Immagini',
@@ -77,12 +77,12 @@ const content: AppContent = {
       {
         title: 'Design Premium della Griglia con Colori Alternati nei Blocchi e Ombre Multilivello',
         description:
-          'La griglia del sudoku presenta un design raffinato che eleva i tuoi prodotti stampabili rispetto ai generatori di puzzle di base. I blocchi 2×2 alternati usano sfondi in azzurro (#F8F9FC) e rosa chiaro (#FFF5F7) per aiutare gli alunni a identificare visivamente i confini dei blocchi. Divisori centrali in grassetto (#7C8DB5, tratto da 3px) separano i quattro quadranti mentre linee interne più leggere (#D1D9E6, 1,5px) definiscono le singole celle. Un bordo esterno indaco (#667EEA) con angoli arrotondati da 18px incornicia l\'intera griglia, e tre ombre multilivello aggiungono profondità. Le immagini vengono visualizzate al 65% della dimensione della cella per una chiara separazione visiva.',
+          'La griglia del sudoku presenta un design raffinato che eleva i tuoi prodotti stampabili rispetto ai generatori di puzzle di base. I blocchi 2×2 alternati usano sfondi in azzurro (#F8F9FC) e rosa chiaro (#FFF5F7) per aiutare gli utenti a identificare visivamente i confini dei blocchi. Divisori centrali in grassetto (#7C8DB5, tratto da 3px) separano i quattro quadranti mentre linee interne più leggere (#D1D9E6, 1,5px) definiscono le singole celle. Un bordo esterno indaco (#667EEA) con angoli arrotondati da 18px incornicia l\'intera griglia, e tre ombre multilivello aggiungono profondità. Le immagini vengono visualizzate al 65% della dimensione della cella per una chiara separazione visiva.',
       },
       {
         title: 'Foglio Risposte Autogenerato con Griglia Completa',
         description:
-          'Ogni puzzle sudoku genera automaticamente un foglio risposte complementare in una scheda canvas separata. Il foglio risposte mostra la griglia 4×4 completa con tutte le 16 celle riempite — ogni cella vuota della scheda viene riempita con l\'immagine corretta. Nessuna risoluzione manuale, nessuna creazione di file separati — il foglio risposte è sempre sincronizzato con il puzzle. Questo approccio a doppio canvas risparmia tempo di produzione significativo per i venditori che creano pacchetti di sudoku dove ogni puzzle necessita della propria pagina di soluzione. Scarica il foglio risposte come sudoku_answer_key.jpeg o sudoku_answer_key.pdf insieme alla scheda per gli alunni.',
+          'Ogni puzzle sudoku genera automaticamente un foglio risposte complementare in una scheda canvas separata. Il foglio risposte mostra la griglia 4×4 completa con tutte le 16 celle riempite — ogni cella vuota della scheda viene riempita con l\'immagine corretta. Nessuna risoluzione manuale, nessuna creazione di file separati — il foglio risposte è sempre sincronizzato con il puzzle. Questo approccio a doppio canvas risparmia tempo di produzione significativo per i venditori che creano pacchetti di sudoku dove ogni puzzle necessita della propria pagina di soluzione. Scarica il foglio risposte come sudoku_answer_key.jpeg o sudoku_answer_key.pdf insieme alla scheda per gli utenti.',
       },
       {
         title: 'Libreria Immagini con 104 Collezioni Tematiche e Oltre 3100 Illustrazioni',
@@ -92,7 +92,7 @@ const content: AppContent = {
       {
         title: 'Esportazione PDF e JPEG Pronta per la Stampa a 300 DPI con Scala di Grigi',
         description:
-          'Scarica schede di sudoku e fogli risposte come immagini JPEG ad alta risoluzione o documenti PDF pronti per la stampa renderizzati a 300 DPI (moltiplicatore 6×). Quattro pulsanti di download dedicati esportano sudoku_worksheet.jpeg, sudoku_worksheet.pdf, sudoku_answer_key.jpeg e sudoku_answer_key.pdf separatamente. I formati di pagina includono Lettera Verticale, Lettera Orizzontale, A4 Verticale, A4 Orizzontale e dimensioni completamente personalizzate. Attiva la scala di grigi per versioni a risparmio d\'inchiostro che preservano la chiarezza delle immagini. Ogni esportazione è pronta per la produzione: download digitali, quaderni stampati e materiali per la classe.',
+          'Scarica schede di sudoku e fogli risposte come immagini JPEG ad alta risoluzione o documenti PDF pronti per la stampa renderizzati a 300 DPI (moltiplicatore 6×). Quattro pulsanti di download dedicati esportano sudoku_worksheet.jpeg, sudoku_worksheet.pdf, sudoku_answer_key.jpeg e sudoku_answer_key.pdf separatamente. I formati di pagina includono Lettera Verticale, Lettera Orizzontale, A4 Verticale, A4 Orizzontale e dimensioni completamente personalizzate. Attiva la scala di grigi per versioni a risparmio d\'inchiostro che preservano la chiarezza delle immagini. Ogni esportazione è pronta per la produzione: download digitali, quaderni stampati e materiali per il negozio.',
       },
       {
         title: 'Modifica Completa del Canvas con Strumenti di Testo e Cronologia di 50 Stati',
@@ -118,16 +118,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.it)',
       },
       {
-        title: 'Attività di Logica e Ragionamento per la Classe su TPT',
+        title: 'Attività di Logica e Ragionamento per il negozio su Gumroad',
         description:
-          'Crea schede di ragionamento logico pronte all\'uso con fogli risposte stampati per l\'uso in classe. Gli insegnanti che cercano attività di pensiero critico su TPT apprezzano il sudoku con immagini perché sviluppa la deduzione logica in un formato accessibile ai bambini. Crea set allineati al curriculum organizzati per tema: puzzle logici con animali della fattoria, attività di ragionamento con gruppi alimentari, schede di problem solving con mestieri. Ogni set include schede per gli alunni a diversi livelli di difficoltà e fogli risposte per gli insegnanti nei formati PDF e JPEG.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Crea schede di ragionamento logico pronte all\'uso con fogli risposte stampati per l\'uso online. i venditori che cercano attività di pensiero critico su Gumroad apprezzano il sudoku con immagini perché sviluppa la deduzione logica in un formato accessibile ai bambini. Crea set allineati al mercato organizzati per tema: puzzle logici con animali della fattoria, attività di ragionamento con gruppi alimentari, schede di problem solving con mestieri. Ogni set include schede per gli utenti a diversi livelli di difficoltà e fogli risposte per i venditori nei formati PDF e JPEG.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Collezioni di Sudoku Stagionali e Festivi',
         description:
           'Le 104 collezioni di immagini tematiche coprono ogni occasione stagionale e festiva — Natale, Halloween, Pasqua, San Valentino, ritorno a scuola, vacanze estive e altro. Crea collezioni di puzzle sudoku stagionali a disponibilità limitata che si allineino ai periodi di massima domanda. Pubblica pacchetti sudoku di Halloween a settembre, collezioni di Natale a ottobre e pacchetti di San Valentino a gennaio. Includi tutti e tre i livelli di difficoltà in ogni set stagionale per massimo valore. I prodotti stagionali raggiungono prezzi più alti durante le finestre di massima domanda e creano ragioni naturali per acquisti ricorrenti nel corso dell\'anno.',
-        platform: 'Etsy / Amazon KDP / TPT (stagionale)',
+        platform: 'Etsy / Amazon KDP / Gumroad (stagionale)',
       },
       {
         title: 'Portata Globale con Puzzle Puramente Visivi',
@@ -142,17 +142,17 @@ const content: AppContent = {
     {
       question: 'Come funziona un puzzle sudoku 4×4 con immagini?',
       answer:
-        'Un sudoku 4×4 con immagini usa una griglia di 16 celle disposte in 4 righe e 4 colonne. Quattro immagini uniche sostituiscono i numeri tradizionali. La regola è la stessa del sudoku classico: ogni immagine deve comparire esattamente una volta in ogni riga ed esattamente una volta in ogni colonna. Alcune celle iniziano riempite con immagini (indizi), e l\'alunno riempie le celle vuote usando l\'eliminazione logica — controllando quale immagine manca da ogni riga e colonna per determinare il posizionamento corretto.',
+        'Un sudoku 4×4 con immagini usa una griglia di 16 celle disposte in 4 righe e 4 colonne. Quattro immagini uniche sostituiscono i numeri tradizionali. La regola è la stessa del sudoku negozico: ogni immagine deve comparire esattamente una volta in ogni riga ed esattamente una volta in ogni colonna. Alcune celle iniziano riempite con immagini (indizi), e l\'utente riempie le celle vuote usando l\'eliminazione logica — controllando quale immagine manca da ogni riga e colonna per determinare il posizionamento corretto.',
     },
     {
       question: 'Perché usare immagini al posto dei numeri per il sudoku?',
       answer:
-        'Le immagini rendono il sudoku accessibile ai pre-lettori e ai bambini che non hanno ancora padroneggiato i numeri. Il formato visivo coinvolge gli alunni con illustrazioni colorate tematiche sviluppando le stesse capacità di ragionamento logico del sudoku basato sui numeri. I puzzle basati su immagini sono anche universalmente comprensibili — non è richiesta conoscenza di lingua o sistema numerico — il che rende i tuoi prodotti vendibili in tutto il mondo senza traduzione.',
+        'Le immagini rendono il sudoku accessibile ai pre-lettori e ai bambini che non hanno ancora padroneggiato i numeri. Il formato visivo coinvolge gli utenti con illustrazioni colorate tematiche sviluppando le stesse capacità di ragionamento logico del sudoku basato sui numeri. I puzzle basati su immagini sono anche universalmente comprensibili — non è richiesta conoscenza di lingua o sistema numerico — il che rende i tuoi prodotti vendibili in tutto il mondo senza traduzione.',
     },
     {
       question: 'Cosa controllano i tre livelli di difficoltà?',
       answer:
-        'La difficoltà determina quante celle vengono lasciate vuote per l\'alunno. Facile rimuove 4 celle dalla griglia di 16 celle, lasciando 12 indizi per una risoluzione semplice. Medio rimuove 6 celle, richiedendo una deduzione logica più attenta. Difficile rimuove 8 celle — esattamente metà della griglia — richiedendo ragionamento a più passaggi. Il sistema seleziona casualmente quali celle vengono svuotate, quindi rigenerare la stessa difficoltà crea un layout di puzzle diverso ogni volta.',
+        'La difficoltà determina quante celle vengono lasciate vuote per l\'utente. Facile rimuove 4 celle dalla griglia di 16 celle, lasciando 12 indizi per una risoluzione semplice. Medio rimuove 6 celle, richiedendo una deduzione logica più attenta. Difficile rimuove 8 celle — esattamente metà della griglia — richiedendo ragionamento a più passaggi. Il sistema seleziona casualmente quali celle vengono svuotate, quindi rigenerare la stessa difficoltà crea un layout di puzzle diverso ogni volta.',
     },
     {
       question: 'Perché il generatore richiede esattamente 4 immagini?',
@@ -167,12 +167,12 @@ const content: AppContent = {
     {
       question: 'Come funziona il foglio risposte per il sudoku con immagini?',
       answer:
-        'Il generatore utilizza un sistema a doppio canvas con una scheda Scheda di Lavoro e una scheda Foglio Risposte. La scheda di lavoro mostra la griglia 4×4 con le celle vuote dove gli alunni devono determinare le immagini corrette. Il foglio risposte mostra la stessa griglia con tutte le 16 celle riempite — ogni cella vuota è riempita con l\'immagine corretta. Entrambe le versioni vengono esportate separatamente usando quattro pulsanti dedicati: sudoku_worksheet.jpeg, sudoku_worksheet.pdf, sudoku_answer_key.jpeg e sudoku_answer_key.pdf.',
+        'Il generatore utilizza un sistema a doppio canvas con una scheda Scheda di Lavoro e una scheda Foglio Risposte. La scheda di lavoro mostra la griglia 4×4 con le celle vuote dove gli utenti devono determinare le immagini corrette. Il foglio risposte mostra la stessa griglia con tutte le 16 celle riempite — ogni cella vuota è riempita con l\'immagine corretta. Entrambe le versioni vengono esportate separatamente usando quattro pulsanti dedicati: sudoku_worksheet.jpeg, sudoku_worksheet.pdf, sudoku_answer_key.jpeg e sudoku_answer_key.pdf.',
     },
     {
       question: 'Cosa rende il design della griglia premium?',
       answer:
-        'La griglia del sudoku presenta sfondi alternati nei blocchi 2×2 in azzurro (#F8F9FC) e rosa chiaro (#FFF5F7) che aiutano gli alunni a identificare i confini dei blocchi. Divisori centrali in grassetto (#7C8DB5, tratto da 3px) separano i quattro quadranti mentre linee interne più leggere (#D1D9E6, 1,5px) definiscono le singole celle. Un bordo esterno indaco (#667EEA) con angoli arrotondati da 18px incornicia l\'intera griglia, e tre ombre multilivello a diversi offset aggiungono profondità professionale. Le immagini vengono visualizzate al 65% della dimensione della cella per una chiara separazione visiva.',
+        'La griglia del sudoku presenta sfondi alternati nei blocchi 2×2 in azzurro (#F8F9FC) e rosa chiaro (#FFF5F7) che aiutano gli utenti a identificare i confini dei blocchi. Divisori centrali in grassetto (#7C8DB5, tratto da 3px) separano i quattro quadranti mentre linee interne più leggere (#D1D9E6, 1,5px) definiscono le singole celle. Un bordo esterno indaco (#667EEA) con angoli arrotondati da 18px incornicia l\'intera griglia, e tre ombre multilivello a diversi offset aggiungono profondità professionale. Le immagini vengono visualizzate al 65% della dimensione della cella per una chiara separazione visiva.',
     },
     {
       question: 'I puzzle sono unici ogni volta che ne genero uno?',
@@ -192,7 +192,7 @@ const content: AppContent = {
     {
       question: 'Posso vendere schede di sudoku con immagini create con questo strumento su Etsy e Amazon KDP?',
       answer:
-        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede di sudoku con immagini come download digitali su Etsy, come quaderni stampati su Amazon KDP, come risorse per la classe su TPT o attraverso qualsiasi altro canale di vendita. I tre livelli di difficoltà, le 104 collezioni di immagini tematiche e il formato puramente visivo ti forniscono gli strumenti creativi per produrre prodotti di sudoku originali e vendibili a livello globale.',
+        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede di sudoku con immagini come download digitali su Etsy, come quaderni stampati su Amazon KDP, come risorse per il negozio su Gumroad o attraverso qualsiasi altro canale di vendita. I tre livelli di difficoltà, le 104 collezioni di immagini tematiche e il formato puramente visivo ti forniscono gli strumenti creativi per produrre prodotti di sudoku originali e vendibili a livello globale.',
     },
     {
       question: 'Qual è la politica di rimborso?',

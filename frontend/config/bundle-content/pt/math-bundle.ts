@@ -16,39 +16,39 @@ const content: BundleContent = {
       'ferramenta de criação em massa de fichas de matemática',
     ],
     titleTag: 'Pacote Fichas de Matemática | para Vender',
-    metaDescription: '6 geradores de fichas de matemática num pacote: adição, subtração, código, comparação, puzzles e álgebra. Venda no Etsy, KDP e TPT com licença comercial.',
+    metaDescription: '6 geradores de fichas de matemática num pacote: adição, subtração, código, comparação, puzzles e álgebra. Venda no Etsy, KDP e Gumroad com licença comercial.',
   },
 
   hero: {
     title: 'Pacote Domínio de Matemática',
     tagline: 'Seis geradores profissionais de fichas de matemática num pacote com desconto',
-    description: 'Construa uma linha completa de produtos de matemática imprimíveis sem alternar entre ferramentas separadas. O Pacote Domínio de Matemática reúne seis geradores especializados que cobrem adição, subtração, puzzles criptaritméticos de adição codificada, comparação de maior e menor, puzzles matemáticos de grelha e equações algébricas visuais com imagens. Cada gerador produz ficheiros PDF prontos a imprimir e JPEG de alta resolução com gabaritos automáticos, dificuldade configurável e bibliotecas de imagens temáticas. Cinco das seis apps são completamente visuais — as fichas que produzem funcionam em qualquer idioma porque usam imagens e números em vez de texto. A sexta, Adição Codificada, acrescenta um modo Palavra Revelada sensível ao idioma que suporta os 11 idiomas da interface. Escolha entre mais de 100 conjuntos de imagens temáticas ou carregue os seus próprios ficheiros PNG e JPEG para produtos personalizados e específicos de nicho. Quer venda no Etsy, Amazon KDP ou Teachers Pay Teachers, este pacote dá-lhe a variedade que os compradores esperam e a velocidade que os vendedores precisam. Cada gerador inclui um teste grátis com marca de água para que possa experimentar todas as funcionalidades antes de comprar uma licença.',
+    description: 'Construa uma linha completa de produtos de matemática imprimíveis sem alternar entre ferramentas separadas. O Pacote Domínio de Matemática reúne seis geradores especializados que cobrem adição, subtração, puzzles criptaritméticos de adição codificada, comparação de maior e menor, puzzles matemáticos de grelha e equações algébricas visuais com imagens. Cada gerador produz ficheiros PDF prontos a imprimir e JPEG de alta resolução com gabaritos automáticos, dificuldade configurável e bibliotecas de imagens temáticas. Cinco das seis apps são completamente visuais — as fichas que produzem funcionam em qualquer idioma porque usam imagens e números em vez de texto. A sexta, Adição Codificada, acrescenta um modo Palavra Revelada sensível ao idioma que suporta os 11 idiomas da interface. Escolha entre mais de 100 conjuntos de imagens temáticas ou carregue os seus próprios ficheiros PNG e JPEG para produtos personalizados e específicos de nicho. Quer venda no Etsy, Amazon KDP ou Gumroad, este pacote dá-lhe a variedade que os compradores esperam e a velocidade que os vendedores precisam. Cada gerador inclui um teste grátis com marca de água para que possa experimentar todas as funcionalidades antes de comprar uma licença.',
   },
 
   appsIncluded: [
     {
       title: 'Gerador de Fichas de Adição',
-      description: 'Crie fichas de adição baseadas em imagens em quatro modos distintos: Imagem + Imagem para contagem, Imagem + Número para problemas híbridos, Encontrar o Parcela para desafios de valor em falta e modo Misto que combina os três numa única página. Os alunos contam imagens temáticas para resolver cada equação, tornando a adição abstrata concreta e envolvente. Defina o intervalo numérico de 1 a 99, escolha entre 4, 6, 8 ou 12 problemas por página e selecione imagens de mais de 100 conjuntos temáticos que incluem animais, comida, veículos e categorias sazonais. Cada ficha gera um gabarito automático. Escolha entre vários tamanhos de página, adicione molduras decorativas e fundos temáticos e descarregue como PDF ou JPEG prontos a imprimir.',
+      description: 'Crie fichas de adição baseadas em imagens em quatro modos distintos: Imagem + Imagem para contagem, Imagem + Número para problemas híbridos, Encontrar o Parcela para desafios de valor em falta e modo Misto que combina os três numa única página. Os usuários contam imagens temáticas para resolver cada equação, tornando a adição abstrata concreta e envolvente. Defina o intervalo numérico de 1 a 99, escolha entre 4, 6, 8 ou 12 problemas por página e selecione imagens de mais de 100 conjuntos temáticos que incluem animais, comida, veículos e categorias sazonais. Cada ficha gera um gabarito automático. Escolha entre vários tamanhos de página, adicione molduras decorativas e fundos temáticos e descarregue como PDF ou JPEG prontos a imprimir.',
     },
     {
       title: 'Gerador de Fichas de Subtração',
-      description: 'Gere fichas visuais de subtração com quatro modos, incluindo a abordagem exclusiva de Riscar — os alunos marcam fisicamente as imagens para encontrar a diferença, construindo uma compreensão intuitiva da subtração como eliminação. Os modos adicionais cobrem Imagem − Imagem, Imagem − Número e formatos Mistos. Intervalos numéricos configuráveis, quantidade de problemas e conjuntos de imagens temáticas dão-lhe a mesma flexibilidade que o gerador de adição, com pedagogia específica de subtração incorporada. O modo Riscar é especialmente popular entre educadores de primeira infância porque transforma a subtração numa atividade prática com a qual os alunos podem interagir fisicamente na página impressa.',
+      description: 'Gere fichas visuais de subtração com quatro modos, incluindo a abordagem exclusiva de Riscar — os usuários marcam fisicamente as imagens para encontrar a diferença, construindo uma compreensão intuitiva da subtração como eliminação. Os modos adicionais cobrem Imagem − Imagem, Imagem − Número e formatos Mistos. Intervalos numéricos configuráveis, quantidade de problemas e conjuntos de imagens temáticas dão-lhe a mesma flexibilidade que o gerador de adição, com pedagogia específica de subtração incorporada. O modo Riscar é especialmente popular entre vendedores de primeira infância porque transforma a subtração numa atividade prática com a qual os usuários podem interagir fisicamente na página impressa.',
     },
     {
       title: 'Gerador de Fichas de Adição Codificada',
-      description: 'Produza puzzles criptaritméticos de decifrar código onde os alunos resolvem equações de adição para descodificar letras e revelar palavras ocultas. Esta é a única app do pacote com uma funcionalidade sensível ao idioma: o modo Palavra Revelada recorre a listas de vocabulário nos 11 idiomas suportados, de modo que as palavras descodificadas coincidem com o idioma da ficha. O modo Código padrão usa uma simples atribuição letra-número e funciona de forma idêntica em todos os idiomas. Ajuste a dificuldade com intervalos numéricos e quantidade de equações por puzzle. O formato de decifrar código combina prática matemática com descoberta de palavras, tornando-o num produto destacado em qualquer loja de fichas de matemática — os compradores avaliam consistentemente as fichas tipo puzzle acima das folhas de exercícios padrão.',
+      description: 'Produza puzzles criptaritméticos de decifrar código onde os usuários resolvem equações de adição para descodificar letras e revelar palavras ocultas. Esta é a única app do pacote com uma funcionalidade sensível ao idioma: o modo Palavra Revelada recorre a listas de vocabulário nos 11 idiomas suportados, de modo que as palavras descodificadas coincidem com o idioma da ficha. O modo Código padrão usa uma simples atribuição letra-número e funciona de forma idêntica em todos os idiomas. Ajuste a dificuldade com intervalos numéricos e quantidade de equações por puzzle. O formato de decifrar código combina prática matemática com descoberta de palavras, tornando-o num produto destacado em qualquer loja de fichas de matemática — os compradores avaliam consistentemente as fichas tipo puzzle acima das folhas de exercícios padrão.',
     },
     {
       title: 'Gerador de Fichas Maior ou Menor',
-      description: 'Construa fichas de comparação de maior que, menor que e igual a em três modos. O modo Comparar Grupos mostra dois conjuntos de imagens para comparação visual por contagem. O modo Comparar Números apresenta números sem imagens para prática mais rápida e abstrata. O exclusivo modo Marcar e Riscar Grupos pede aos alunos que marquem o grupo maior e risquem o menor — um exercício tátil, comprovado em sala de aula, que reforça os conceitos de comparação através da interação física com a página. Intervalos numéricos configuráveis e imagens temáticas mantêm as fichas variadas entre listagens de produtos. As fichas de comparação são um produto essencial de pré-escolar e primeiro ano que toda loja de fichas de matemática deve ter.',
+      description: 'Construa fichas de comparação de maior que, menor que e igual a em três modos. O modo Comparar Grupos mostra dois conjuntos de imagens para comparação visual por contagem. O modo Comparar Números apresenta números sem imagens para prática mais rápida e abstrata. O exclusivo modo Marcar e Riscar Grupos pede aos usuários que marquem o grupo maior e risquem o menor — um exercício tátil, comprovado online, que reforça os conceitos de comparação através da interação física com a página. Intervalos numéricos configuráveis e imagens temáticas mantêm as fichas variadas entre listagens de produtos. As fichas de comparação são um produto essencial de pré-escolar e primeiro ano que toda loja de fichas de matemática deve ter.',
     },
     {
       title: 'Gerador de Fichas de Puzzles Matemáticos',
-      description: 'Crie puzzles de grelha com imagem onde os alunos resolvem uma equação matemática em cada peça do puzzle para montar a imagem completa. As grelhas escalam desde 2×2 (4 peças) para iniciantes até 4×4 (16 peças) para alunos avançados. Cada peça mostra uma equação — a resposta indica aos alunos onde colocá-la. Escolha adição, subtração ou operações mistas e defina o intervalo numérico conforme o nível escolar alvo. A imagem revelada provém da biblioteca temática ou dos seus próprios carregamentos. O formato de puzzle faz com que a matemática pareça um jogo em vez de um exercício — os alunos ficam motivados a resolver cada equação porque a recompensa é ver a imagem completa.',
+      description: 'Crie puzzles de grelha com imagem onde os usuários resolvem uma equação matemática em cada peça do puzzle para montar a imagem completa. As grelhas escalam desde 2×2 (4 peças) para iniciantes até 4×4 (16 peças) para usuários avançados. Cada peça mostra uma equação — a resposta indica aos usuários onde colocá-la. Escolha adição, subtração ou operações mistas e defina o intervalo numérico conforme o nível escolar alvo. A imagem revelada provém da biblioteca temática ou dos seus próprios carregamentos. O formato de puzzle faz com que a matemática pareça um jogo em vez de um exercício — os usuários ficam motivados a resolver cada equação porque a recompensa é ver a imagem completa.',
     },
     {
       title: 'Gerador de Fichas de Puzzles Algébricos',
-      description: 'Gere puzzles visuais de álgebra com imagens onde ilustrações temáticas substituem variáveis desconhecidas em sistemas de equações interligadas. Os alunos determinam o valor numérico que cada imagem representa. Quatro níveis de dificuldade avançam desde dois símbolos com adição simples até quatro incógnitas simultâneas com operações mistas. Um resolutor algébrico incorporado garante que cada puzzle tem exatamente uma solução correta — sem ambiguidade, sem puzzles insolúveis. Escolha entre modo Só Adição ou Adição e Subtração, ative resultados negativos para alunos mais velhos e controle os puzzles por página de 1 a 6. Este gerador liga a aritmética básica ao pensamento algébrico, tornando-o num produto de alto valor para vendedores que visam o segundo ano em diante.',
+      description: 'Gere puzzles visuais de álgebra com imagens onde ilustrações temáticas substituem variáveis desconhecidas em sistemas de equações interligadas. Os usuários determinam o valor numérico que cada imagem representa. Quatro níveis de dificuldade avançam desde dois símbolos com adição simples até quatro incógnitas simultâneas com operações mistas. Um resolutor algébrico incorporado garante que cada puzzle tem exatamente uma solução correta — sem ambiguidade, sem puzzles insolúveis. Escolha entre modo Só Adição ou Adição e Subtração, ative resultados negativos para usuários mais velhos e controle os puzzles por página de 1 a 6. Este gerador liga a aritmética básica ao pensamento algébrico, tornando-o num produto de alto valor para vendedores que visam o segundo ano em diante.',
     },
   ],
 
@@ -63,7 +63,7 @@ const content: BundleContent = {
     },
     {
       title: 'Gabaritos automáticos',
-      description: 'Cada gerador do pacote produz um gabarito correspondente com cada ficha. Os gabaritos são uma expectativa principal dos compradores no Etsy e TPT — este pacote entrega-os automaticamente, poupando-lhe horas de trabalho manual.',
+      description: 'Cada gerador do pacote produz um gabarito correspondente com cada ficha. Os gabaritos são uma expectativa principal dos compradores no Etsy e Gumroad — este pacote entrega-os automaticamente, poupando-lhe horas de trabalho manual.',
     },
     {
       title: 'Qualidade profissional consistente',
@@ -83,7 +83,7 @@ const content: BundleContent = {
     },
     {
       title: 'Saída pronta a imprimir',
-      description: 'Descarregue fichas como PDF ou JPEG de alta resolução em formato Carta, A4, Paisagem, Quadrado ou tamanhos personalizados. Os ficheiros estão prontos para publicar no Etsy, carregar no KDP ou enviar para o TPT sem pós-processamento em software de design. Adicione molduras decorativas da biblioteca de molduras integrada, defina cores de fundo de página e aplique imagens de fundo temáticas com opacidade ajustável para resultados polidos e profissionais em cada ocasião.',
+      description: 'Descarregue fichas como PDF ou JPEG de alta resolução em formato Carta, A4, Paisagem, Quadrado ou tamanhos personalizados. Os ficheiros estão prontos para publicar no Etsy, carregar no KDP ou enviar para o Gumroad sem pós-processamento em software de design. Adicione molduras decorativas da biblioteca de molduras integrada, defina cores de fundo de página e aplique imagens de fundo temáticas com opacidade ajustável para resultados polidos e profissionais em cada ocasião.',
     },
   ],
 
@@ -99,13 +99,13 @@ const content: BundleContent = {
       platform: 'Amazon KDP (kdp.amazon.com)',
     },
     {
-      title: 'Pacotes de recursos para Teachers Pay Teachers',
-      description: 'Os compradores de TPT esperam gabaritos, múltiplos níveis de dificuldade e alinhamento curricular. Cada gerador entrega os três automaticamente. Agrupe fichas em pacotes por nível escolar — contagem de pré-escolar, adição e subtração do primeiro ano, comparação e puzzles do segundo — e atribua-lhes preço como recursos premium. Os quatro níveis de dificuldade de cada gerador permitem-lhe criar materiais de instrução diferenciada que os docentes procuram especificamente.',
-      platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+      title: 'Pacotes de recursos para Gumroad',
+      description: 'Os compradores de Gumroad esperam gabaritos, múltiplos níveis de dificuldade e alinhamento curricular. Cada gerador entrega os três automaticamente. Agrupe fichas em pacotes por nível escolar — contagem de pré-escolar, adição e subtração do primeiro ano, comparação e puzzles do segundo — e atribua-lhes preço como recursos premium. Os quatro níveis de dificuldade de cada gerador permitem-lhe criar materiais de pacotes escalonados por nível que os vendedores procuram especificamente.',
+      platform: 'Gumroad (teacherspayteachers.com)',
     },
     {
       title: 'Materiais de explicações e ensino doméstico',
-      description: 'Gere fichas novas para cada sessão de explicação ou semana de ensino doméstico. Varie a dificuldade, o tema e o tipo de problema para que os alunos nunca vejam a mesma página duas vezes. Os gabaritos permitem a pais e explicadores verificar o trabalho instantaneamente sem calcular soluções manualmente. Comece com contagem simples de adição para alunos mais novos e progrida através de subtração, comparação e puzzles algébricos com imagens à medida que as competências se desenvolvem — tudo a partir do mesmo pacote. Os explicadores que atendem múltiplos alunos podem gerar conjuntos de fichas personalizados adaptados ao nível de competência e interesses atuais de cada aluno, criando uma abordagem de instrução diferenciada que os pais valorizam. As famílias que ensinam em casa beneficiam da variedade entre seis geradores porque previne a fadiga de fichas repetitivas que frequentemente descarrila a instrução de matemática no lar.',
+      description: 'Gere fichas novas para cada sessão de explicação ou semana de ensino doméstico. Varie a dificuldade, o tema e o tipo de problema para que os usuários nunca vejam a mesma página duas vezes. Os gabaritos permitem a pais e explicadores verificar o trabalho instantaneamente sem calcular soluções manualmente. Comece com contagem simples de adição para usuários mais novos e progrida através de subtração, comparação e puzzles algébricos com imagens à medida que as competências se desenvolvem — tudo a partir do mesmo pacote. Os explicadores que atendem múltiplos usuários podem gerar conjuntos de fichas personalizados adaptados ao nível de competência e interesses atuais de cada usuário, criando uma abordagem de pacotes escalonados por nível que os pais valorizam. As famílias que ensinam em casa beneficiam da variedade entre seis geradores porque previne a fadiga de fichas repetitivas que frequentemente descarrila a instrução de matemática no lar.',
     },
     {
       title: 'Venda de materiais complementares para escolas',
@@ -136,12 +136,12 @@ const content: BundleContent = {
       description: 'Vende transferências digitais no Etsy ou publica cadernos no Amazon KDP e quer uma forma rápida e fiável de produzir fichas de matemática profissionais em escala. O pacote dá-lhe seis geradores e centenas de combinações temáticas para construir um catálogo de produtos diversificado sem competências de design nem software dispendioso. Crie novas listagens em minutos em vez de horas e mantenha a sua loja abastecida com conteúdo fresco e sazonal durante todo o ano. A abordagem de seis geradores significa que nunca fica sem ideias — quando um gerador já produziu fichas de adição suficientes para o seu catálogo, mude para subtração, puzzles ou atividades de comparação e crie listagens de produtos totalmente novas com esforço mínimo. As rotações de temas sazonais usando a biblioteca de imagens integrada permitem-lhe refrescar a aparência da sua loja mensalmente sem criar produtos de raiz.',
     },
     {
-      title: 'Autores de Teachers Pay Teachers',
-      description: 'Cria e vende recursos educativos no TPT e precisa de ferramentas que cumpram as expectativas da plataforma. Cada gerador produz fichas alinhadas com o currículo com gabaritos automáticos e múltiplas configurações de dificuldade — exatamente o que os revisores e compradores de TPT esperam de recursos premium de matemática. Os quatro níveis de dificuldade por gerador facilitam a criação de pacotes de instrução diferenciada que os docentes procuram por nível escolar e competência. Os compradores de TPT esperam materiais de sala de aula polidos e prontos a usar com apresentação visual consistente em toda uma linha de produtos — o motor de design partilhado entre os seis geradores assegura que os seus recursos de matemática mantêm uma aparência profissional coesa que constrói credibilidade de marca e gera compras repetidas de docentes que confiam na sua qualidade.',
+      title: 'Autores de Gumroad',
+      description: 'Cria e vende recursos educativos no Gumroad e precisa de ferramentas que cumpram as expectativas da plataforma. Cada gerador produz fichas alinhadas com o catálogo de produtos com gabaritos automáticos e múltiplas configurações de dificuldade — exatamente o que os revisores e compradores de Gumroad esperam de recursos premium de matemática. Os quatro níveis de dificuldade por gerador facilitam a criação de pacotes de pacotes escalonados por nível que os vendedores procuram por nível escolar e competência. Os compradores de Gumroad esperam materiais de loja polidos e prontos a usar com apresentação visual consistente em toda uma linha de produtos — o motor de design partilhado entre os seis geradores assegura que os seus recursos de matemática mantêm uma aparência profissional coesa que constrói credibilidade de marca e gera compras repetidas de vendedores que confiam na sua qualidade.',
     },
     {
       title: 'Explicadores e pais que ensinam em casa',
-      description: 'Precisa de materiais de prática de matemática frescos e variados todas as semanas. Em vez de procurar fichas genéricas que nunca se ajustam completamente, gere exatamente o que os seus alunos precisam — a dificuldade certa, o tema certo, o motivo certo — em menos de um minuto. Cada gerador oferece um teste grátis com marca de água para que possa avaliar antes de comprar.',
+      description: 'Precisa de materiais de prática de matemática frescos e variados todas as semanas. Em vez de procurar fichas genéricas que nunca se ajustam completamente, gere exatamente o que os seus usuários precisam — a dificuldade certa, o tema certo, o motivo certo — em menos de um minuto. Cada gerador oferece um teste grátis com marca de água para que possa avaliar antes de comprar.',
     },
     {
       title: 'Criadores de conteúdo educativo',
@@ -156,11 +156,11 @@ const content: BundleContent = {
     },
     {
       question: 'Em que formatos posso descarregar?',
-      answer: 'Cada gerador produz ficheiros PDF prontos a imprimir e JPEG de alta resolução. Pode escolher entre Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado ou introduzir um tamanho personalizado. PDF é ideal para pacotes de fichas multipágina no Etsy e TPT. JPEG funciona bem para páginas interiores de KDP e pré-visualizações em redes sociais. Todos os ficheiros são descarregados em resolução de impressão — sem necessidade de escalar nem pós-processar.',
+      answer: 'Cada gerador produz ficheiros PDF prontos a imprimir e JPEG de alta resolução. Pode escolher entre Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado ou introduzir um tamanho personalizado. PDF é ideal para pacotes de fichas multipágina no Etsy e Gumroad. JPEG funciona bem para páginas interiores de KDP e pré-visualizações em redes sociais. Todos os ficheiros são descarregados em resolução de impressão — sem necessidade de escalar nem pós-processar.',
     },
     {
       question: 'As fichas incluem gabaritos?',
-      answer: 'Sim. Os seis geradores criam automaticamente um gabarito correspondente para cada ficha. Os gabaritos são uma expectativa principal dos compradores no Etsy e TPT, e poupam-lhe o tempo de resolver cada problema manualmente.',
+      answer: 'Sim. Os seis geradores criam automaticamente um gabarito correspondente para cada ficha. Os gabaritos são uma expectativa principal dos compradores no Etsy e Gumroad, e poupam-lhe o tempo de resolver cada problema manualmente.',
     },
     {
       question: 'Posso usar as minhas próprias imagens em vez dos temas integrados?',
@@ -176,7 +176,7 @@ const content: BundleContent = {
     },
     {
       question: 'Posso vender as fichas que crio?',
-      answer: 'Sim. Tanto a licença Comercial como a de Acesso Completo incluem direitos de venda comercial. Pode vender as fichas que gerar no Etsy, Amazon KDP, Teachers Pay Teachers, o seu próprio site ou qualquer outra plataforma. Vende as fichas — a ferramenta geradora em si não é transferível.',
+      answer: 'Sim. Tanto a licença Comercial como a de Acesso Completo incluem direitos de venda comercial. Pode vender as fichas que gerar no Etsy, Amazon KDP, Gumroad, o seu próprio site ou qualquer outra plataforma. Vende as fichas — a ferramenta geradora em si não é transferível.',
     },
     {
       question: 'Quantas fichas posso criar?',
@@ -188,7 +188,7 @@ const content: BundleContent = {
     },
     {
       question: 'Quanto tempo demora a criar uma linha completa de produtos de matemática com este pacote?',
-      answer: 'A maioria dos vendedores constrói o seu catálogo inicial de produtos de matemática num único fim de semana usando o pacote. Cada gerador produz uma ficha terminada e pronta a imprimir com gabarito em menos de um minuto. Uma sessão de produção típica implica selecionar um tema, configurar as definições de dificuldade e gerar um lote de dez a vinte fichas que se tornam numa listagem de produto temático. Com seis geradores, pode criar de seis a doze listagens de produtos distintos num só dia — suficiente para lançar uma loja credível de fichas de matemática no Etsy ou TPT. Os vendedores experientes reportam que após aprender a interface durante a sua primeira sessão, conseguem produzir um pacote temático completo de matemática com fichas dos seis geradores em menos de duas horas.',
+      answer: 'A maioria dos vendedores constrói o seu catálogo inicial de produtos de matemática num único fim de semana usando o pacote. Cada gerador produz uma ficha terminada e pronta a imprimir com gabarito em menos de um minuto. Uma sessão de produção típica implica selecionar um tema, configurar as definições de dificuldade e gerar um lote de dez a vinte fichas que se tornam numa listagem de produto temático. Com seis geradores, pode criar de seis a doze listagens de produtos distintos num só dia — suficiente para lançar uma loja credível de fichas de matemática no Etsy ou Gumroad. Os vendedores experientes reportam que após aprender a interface durante a sua primeira sessão, conseguem produzir um pacote temático completo de matemática com fichas dos seis geradores em menos de duas horas.',
     },
     {
       question: 'Posso atualizar de Comercial para Acesso Completo mais tarde?',
@@ -210,7 +210,7 @@ const content: BundleContent = {
     { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: 'Guia para vender fichas de matemática na Etsy' },
     { pageType: 'guide', slug: 'livros-atividades-matematica-kdp', anchorText: 'Livros de atividades de matemática na Amazon KDP' },
     { pageType: 'start', slug: 'criar-fichas-que-vendem', anchorText: 'Como criar fichas que vendem' },
-    { pageType: 'idea', slug: 'bases-matematica-ideias-imprimiveis', anchorText: 'Ideias de imprimíveis de matemática para educadores e vendedores' },
+    { pageType: 'idea', slug: 'bases-matematica-ideias-imprimiveis', anchorText: 'Ideias de imprimíveis de matemática para vendedores e vendedores' },
   ],
 
   visuals: {

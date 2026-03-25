@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Gerador de Fichas de Trem de Padrões',
     tagline: 'Crie fichas de padrões repetitivos com 11 vagões temáticos, cinco tipos de padrões, número de pistas ajustável e um resultado completamente visual com zero texto que se vende em todo o mundo sem necessidade de tradução',
-    description: 'Desenhe fichas profissionais de reconhecimento de padrões onde os alunos identificam e completam sequências repetitivas apresentadas como imagens num trem temático com 11 vagões. Cinco tipos de padrões cobrem cada nível de complexidade de sequências: AB alterna dois elementos, AAB agrupa dois de um seguido de um de outro, ABB inverte esse agrupamento, ABC rota três elementos diferentes, e AABB emparelha dois de cada antes de repetir. A disposição do trem organiza 11 vagões em três filas (5 + 3 + 3), com cada vagão a conter uma imagem da sequência repetitiva. Um vagão fica em branco — os alunos identificam o padrão e determinam o elemento em falta. Ajuste o número de pistas de 4 a 10 para controlar a dificuldade: mostrar 10 pistas torna o padrão evidente, enquanto mostrar apenas 4 exige um verdadeiro raciocínio lógico, já que os 3 primeiros vagões são sempre revelados. O distintivo formato de vagões de trem é um diferenciador visual face às fichas de grelha padrão — os compradores que navegam na Etsy ou no TPT veem imediatamente algo diferente dos exercícios típicos de padrões em linhas e colunas. Escolha entre mais de 3100 ilustrações em 104 coleções temáticas ou carregue as suas próprias imagens. Um separador de gabarito mostra os 11 vagões preenchidos com a sequência correta do padrão para verificação instantânea. Cada ficha é completamente visual com apenas imagens nos vagões e zero texto na saída. Nenhuma palavra aparece na página gerada — apenas imagens. Isto torna as suas fichas universalmente vendíveis sem tradução: um único produto serve todos os mercados do mundo. Exporte PDF e imagens JPEG prontos para impressão em alta resolução nos formatos Carta, A4, Quadrado (1200×1200) ou dimensões personalizadas. Ative a escala de cinzentos para impressão económica. Edite tudo no canvas completo Fabric.js com fontes como Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. O teste grátis inclui todas as funcionalidades com uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    description: 'Desenhe fichas profissionais de reconhecimento de padrões onde os usuários identificam e completam sequências repetitivas apresentadas como imagens num trem temático com 11 vagões. Cinco tipos de padrões cobrem cada nível de complexidade de sequências: AB alterna dois elementos, AAB agrupa dois de um seguido de um de outro, ABB inverte esse agrupamento, ABC rota três elementos diferentes, e AABB emparelha dois de cada antes de repetir. A disposição do trem organiza 11 vagões em três filas (5 + 3 + 3), com cada vagão a conter uma imagem da sequência repetitiva. Um vagão fica em branco — os usuários identificam o padrão e determinam o elemento em falta. Ajuste o número de pistas de 4 a 10 para controlar a dificuldade: mostrar 10 pistas torna o padrão evidente, enquanto mostrar apenas 4 exige um verdadeiro raciocínio lógico, já que os 3 primeiros vagões são sempre revelados. O distintivo formato de vagões de trem é um diferenciador visual face às fichas de grelha padrão — os compradores que navegam na Etsy ou no Gumroad veem imediatamente algo diferente dos exercícios típicos de padrões em linhas e colunas. Escolha entre mais de 3100 ilustrações em 104 coleções temáticas ou carregue as suas próprias imagens. Um separador de gabarito mostra os 11 vagões preenchidos com a sequência correta do padrão para verificação instantânea. Cada ficha é completamente visual com apenas imagens nos vagões e zero texto na saída. Nenhuma palavra aparece na página gerada — apenas imagens. Isto torna as suas fichas universalmente vendíveis sem tradução: um único produto serve todos os mercados do mundo. Exporte PDF e imagens JPEG prontos para impressão em alta resolução nos formatos Carta, A4, Quadrado (1200×1200) ou dimensões personalizadas. Ative a escala de cinzentos para impressão económica. Edite tudo no canvas completo Fabric.js com fontes como Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. O teste grátis inclui todas as funcionalidades com uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
   },
 
   tutorial: {
@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Ajustar o Número de Pistas para Controlar a Dificuldade',
-        description: 'Ajuste o controlo deslizante do número de pistas de 4 a 10 para controlar a dificuldade da ficha. Os 3 primeiros vagões são sempre visíveis para estabelecer o padrão. Com 10 pistas, apenas um vagão fica em branco entre 10 preenchidos — o padrão é muito evidente e ideal para principiantes. Com 4 pistas, os alunos veem informação mínima e devem raciocinar cuidadosamente para identificar a sequência. O vagão em branco é colocado dinamicamente entre as posições 3 e 10, garantindo que o elemento em falta caia sempre dentro da secção repetitiva e não no início previsível.',
+        description: 'Ajuste o controlo deslizante do número de pistas de 4 a 10 para controlar a dificuldade da ficha. Os 3 primeiros vagões são sempre visíveis para estabelecer o padrão. Com 10 pistas, apenas um vagão fica em branco entre 10 preenchidos — o padrão é muito evidente e ideal para principiantes. Com 4 pistas, os usuários veem informação mínima e devem raciocinar cuidadosamente para identificar a sequência. O vagão em branco é colocado dinamicamente entre as posições 3 e 10, garantindo que o elemento em falta caia sempre dentro da secção repetitiva e não no início previsível.',
       },
       {
         title: 'Explorar Temas ou Carregar Imagens Próprias',
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Ativar Campos de Nome/Data e Opções de Exercício',
-        description: 'Ative os campos opcionais de nome e data com linha de pontos para identificação do aluno nas fichas impressas. Estes campos aparecem como áreas pontilhadas que os alunos preenchem antes de começar. Ative ou desative os números de exercício e os elementos decorativos. Cada opção ajusta o design da ficha conforme o seu público — as fichas para a sala de aula beneficiam de campos de nome, enquanto os produtos de download digital podem omiti-los.',
+        description: 'Ative os campos opcionais de nome e data com linha de pontos para identificação do usuário nas fichas impressas. Estes campos aparecem como áreas pontilhadas que os usuários preenchem antes de começar. Ative ou desative os números de exercício e os elementos decorativos. Cada opção ajusta o design da ficha conforme o seu público — as fichas para a loja beneficiam de campos de nome, enquanto os produtos de download digital podem omiti-los.',
       },
       {
         title: 'Adicionar Texto e Personalizar o Canvas',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Rever o Gabarito e Descarregar',
-        description: 'Mude para o separador Gabarito para ver o trem completo com os 11 vagões preenchidos — a posição em branco agora mostra o elemento correto do padrão. A ficha e o gabarito são editáveis de forma independente em canvas separados. Ative a escala de cinzentos para impressão económica. Descarregue cada um como JPEG de alta resolução ou PDF pronto para impressão a 300 DPI. Cada exportação está pronta para produção: listagens da Etsy, interiores da Amazon KDP e ficheiros de produtos no TPT.',
+        description: 'Mude para o separador Gabarito para ver o trem completo com os 11 vagões preenchidos — a posição em branco agora mostra o elemento correto do padrão. A ficha e o gabarito são editáveis de forma independente em canvas separados. Ative a escala de cinzentos para impressão económica. Descarregue cada um como JPEG de alta resolução ou PDF pronto para impressão a 300 DPI. Cada exportação está pronta para produção: listagens da Etsy, interiores da Amazon KDP e ficheiros de produtos no Gumroad.',
       },
     ],
   },
@@ -73,19 +73,19 @@ const content: ToolContent = {
     },
     {
       title: 'Centros Diferenciados de Reconhecimento de Padrões',
-      description: 'Construa conjuntos de prática de padrões por níveis usando a complexidade do padrão e o número de pistas como dois eixos de diferenciação. Nível 1: padrões AB com 8–10 pistas. Nível 2: padrões AAB e ABB com 6–8 pistas. Nível 3: padrões ABC com 5–6 pistas. Nível 4: padrões AABB com 4–5 pistas. Cada nível trabalha uma exigência cognitiva progressivamente mais difícil — desde reconhecer a alternância simples até identificar sequências complexas de múltiplos elementos a partir de informação limitada. O formato de vagões de trem motiva os alunos que consideram as fichas de grelha monótonas.',
+      description: 'Construa conjuntos de prática de padrões por níveis usando a complexidade do padrão e o número de pistas como dois eixos de diferenciação. Nível 1: padrões AB com 8–10 pistas. Nível 2: padrões AAB e ABB com 6–8 pistas. Nível 3: padrões ABC com 5–6 pistas. Nível 4: padrões AABB com 4–5 pistas. Cada nível trabalha uma exigência cognitiva progressivamente mais difícil — desde reconhecer a alternância simples até identificar sequências complexas de múltiplos elementos a partir de informação limitada. O formato de vagões de trem motiva os usuários que consideram as fichas de grelha monótonas.',
     },
     {
       title: 'Conjuntos Sazonais e de Festividades de Trem de Padrões',
-      description: 'Use temas de imagens sazonais e de festividades para criar pacotes de trem de padrões de edição limitada. Um pacote de «Trem de Padrões de Halloween» com imagens temáticas de terror vende-se em outubro. Natal, regresso às aulas, Dia dos Namorados e temas de verão têm cada um as suas próprias épocas de pico de vendas na Etsy e no TPT. Combine aquecimentos simples de AB com desafios avançados de AABB em cada conjunto sazonal para cobrir múltiplos níveis de competência e maximizar a sua audiência de compradores.',
+      description: 'Use temas de imagens sazonais e de festividades para criar pacotes de trem de padrões de edição limitada. Um pacote de «Trem de Padrões de Halloween» com imagens temáticas de terror vende-se em outubro. Natal, regresso às aulas, Dia dos Namorados e temas de verão têm cada um as suas próprias épocas de pico de vendas na Etsy e no Gumroad. Combine aquecimentos simples de AB com desafios avançados de AABB em cada conjunto sazonal para cobrir múltiplos níveis de competência e maximizar a sua audiência de compradores.',
     },
     {
       title: 'Pacotes de Aprendizagem Visual Multiformato',
-      description: 'Combine fichas de trem de padrões com fichas de grelha de padrões, fichas de associação, fichas do intruso e atividades de discriminação visual usando temas coordenados. Cada formato exercita uma competência cognitiva visual diferente: o Trem de Padrões desenvolve o reconhecimento de sequências num formato distintivo, as grelhas de padrões usam o formato padrão de linhas e colunas, a associação desenvolve o emparelhamento visual e o intruso desenvolve a classificação. Os pacotes visuais multiformato vendem-se por mais do que qualquer tipo de atividade individual e oferecem prática variada aos alunos.',
+      description: 'Combine fichas de trem de padrões com fichas de grelha de padrões, fichas de associação, fichas do intruso e atividades de discriminação visual usando temas coordenados. Cada formato exercita uma competência cognitiva visual diferente: o Trem de Padrões desenvolve o reconhecimento de sequências num formato distintivo, as grelhas de padrões usam o formato padrão de linhas e colunas, a associação desenvolve o emparelhamento visual e o intruso desenvolve a classificação. Os pacotes visuais multiformato vendem-se por mais do que qualquer tipo de atividade individual e oferecem prática variada aos usuários.',
     },
     {
       title: 'Trens de Padrões com Imagens Próprias',
-      description: 'Carregue imagens personalizadas para criar fichas de trem de padrões para audiências específicas além da biblioteca integrada. Use etapas de crescimento de plantas para uma aula de ciências, símbolos de notas musicais para aulas de música, formas geométricas para uma unidade de matemática ou imagens de artefactos históricos para ciências sociais. Os cinco tipos de padrões e o número de pistas ajustável permitem-lhe adaptar o exercício a qualquer objetivo de aprendizagem. As imagens personalizadas permitem-lhe apontar a nichos de compradores específicos na Etsy e no TPT onde as imagens temáticas da biblioteca por si só podem não ser suficientes.',
+      description: 'Carregue imagens personalizadas para criar fichas de trem de padrões para audiências específicas além da biblioteca integrada. Use etapas de crescimento de plantas para uma aula de ciências, símbolos de notas musicais para aulas de música, formas geométricas para uma unidade de matemática ou imagens de artefactos históricos para ciências sociais. Os cinco tipos de padrões e o número de pistas ajustável permitem-lhe adaptar o exercício a qualquer objetivo de aprendizagem. As imagens personalizadas permitem-lhe apontar a nichos de compradores específicos na Etsy e no Gumroad onde as imagens temáticas da biblioteca por si só podem não ser suficientes.',
     },
   ],
 
@@ -97,17 +97,17 @@ const content: ToolContent = {
     },
     {
       title: 'Série de Cadernos de Matemática Precoce para Amazon KDP',
-      description: 'Compile mais de 80 exercícios de trem de padrões em cadernos temáticos para Amazon KDP. Estruture uma série por tema: «Trens de Padrões de Animais», «Trens de Sequências de Veículos», «Reconhecimento de Padrões com Alimentos». Cada livro progride desde padrões simples AB até sequências complexas AABB, com gabaritos no final. O formato visual sem texto publica-se de forma idêntica em todos os mercados internacionais do KDP sem tradução. Os cadernos de trem de padrões preenchem um nicho específico de aprendizagem precoce com procura constante ao longo do ano por parte de pais e educadores de pré-escolar.',
+      description: 'Compile mais de 80 exercícios de trem de padrões em cadernos temáticos para Amazon KDP. Estruture uma série por tema: «Trens de Padrões de Animais», «Trens de Sequências de Veículos», «Reconhecimento de Padrões com Alimentos». Cada livro progride desde padrões simples AB até sequências complexas AABB, com gabaritos no final. O formato visual sem texto publica-se de forma idêntica em todos os mercados internacionais do KDP sem tradução. Os cadernos de trem de padrões preenchem um nicho específico de aprendizagem precoce com procura constante ao longo do ano por parte de pais e vendedores de pré-escolar.',
       platform: 'Amazon KDP',
     },
     {
-      title: 'Centros de Padrões no Teachers Pay Teachers',
-      description: 'Carregue pacotes de fichas de trem de padrões no TPT organizados por nível de competência e tema. Inclua quatro níveis de dificuldade por tema usando o tipo de padrão e o número de pistas como eixos de diferenciação. Inclua gabaritos gerados automaticamente e folhas de acompanhamento do progresso do aluno. O formato de vagões de trem cria um tema visual atrativo que funciona como atividade de centro na sala de aula. Os professores procuram «atividades de reconhecimento de padrões» e «fichas de padrões repetitivos» e encontram opções de qualidade limitadas no formato de trem — os seus produtos preenchem essa lacuna.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Centros de Padrões no Gumroad',
+      description: 'Carregue pacotes de fichas de trem de padrões no Gumroad organizados por nível de competência e tema. Inclua quatro níveis de dificuldade por tema usando o tipo de padrão e o número de pistas como eixos de diferenciação. Inclua gabaritos gerados automaticamente e folhas de acompanhamento do progresso do usuário. O formato de vagões de trem cria um tema visual atrativo que funciona como atividade de centro online. Os vendedores procuram «atividades de reconhecimento de padrões» e «fichas de padrões repetitivos» e encontram opções de qualidade limitadas no formato de trem — os seus produtos preenchem essa lacuna.',
+      platform: 'Gumroad',
     },
     {
       title: 'Funil Visual de Trem de Padrões no Pinterest',
-      description: 'As fichas de trem de padrões com imagens temáticas coloridas nos vagões são inerentemente atrativas para o Pinterest — o distintivo formato de trem capta a atenção nos feeds onde a maioria dos pines de fichas de padrões mostra linhas e grelhas genéricas. Publique fichas de exemplo mostrando diferentes tipos de padrões com marca d\'água, faça ligação à sua loja ou página de destino e recolha endereços de email para a sua lista de subscritores. O formato sem texto significa que os pines atraem pais e professores de todos os países, não apenas falantes de português.',
+      description: 'As fichas de trem de padrões com imagens temáticas coloridas nos vagões são inerentemente atrativas para o Pinterest — o distintivo formato de trem capta a atenção nos feeds onde a maioria dos pines de fichas de padrões mostra linhas e grelhas genéricas. Publique fichas de exemplo mostrando diferentes tipos de padrões com marca d\'água, faça ligação à sua loja ou página de destino e recolha endereços de email para a sua lista de subscritores. O formato sem texto significa que os pines atraem pais e vendedores de todos os países, não apenas falantes de português.',
       platform: 'Pinterest',
     },
     {
@@ -125,11 +125,11 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Use o Tipo de Padrão e o Número de Pistas como Dois Eixos de Dificuldade Independentes',
-      description: 'O tipo de padrão controla a complexidade da sequência (AB é o mais simples, AABB é o mais difícil). O número de pistas controla o suporte visual (10 pistas é o mais fácil, 4 é o mais difícil). Combinar ambos cria uma ampla matriz de dificuldade: AB com 10 pistas para principiantes absolutos, AABB com 4 pistas para alunos avançados. Este enfoque de duplo eixo multiplica a variedade dos seus produtos a partir do mesmo conjunto de temas.',
+      description: 'O tipo de padrão controla a complexidade da sequência (AB é o mais simples, AABB é o mais difícil). O número de pistas controla o suporte visual (10 pistas é o mais fácil, 4 é o mais difícil). Combinar ambos cria uma ampla matriz de dificuldade: AB com 10 pistas para principiantes absolutos, AABB com 4 pistas para usuários avançados. Este enfoque de duplo eixo multiplica a variedade dos seus produtos a partir do mesmo conjunto de temas.',
     },
     {
       title: 'Destaque o Formato de Trem como o Seu Diferenciador no Mercado',
-      description: 'A maioria das fichas de padrões na Etsy e no TPT usa formatos de grelha padrão com linhas e colunas. O formato de 11 vagões de trem é visualmente distintivo e imediatamente reconhecível nos resultados de pesquisa. Mencione «formato de vagões de trem» e «disposição de 11 vagões» nos títulos e descrições dos seus produtos para realçar o que diferencia as suas listagens dos concorrentes baseados em grelha.',
+      description: 'A maioria das fichas de padrões na Etsy e no Gumroad usa formatos de grelha padrão com linhas e colunas. O formato de 11 vagões de trem é visualmente distintivo e imediatamente reconhecível nos resultados de pesquisa. Mencione «formato de vagões de trem» e «disposição de 11 vagões» nos títulos e descrições dos seus produtos para realçar o que diferencia as suas listagens dos concorrentes baseados em grelha.',
     },
     {
       title: 'Destaque o Formato Sem Texto para Venda Global',
@@ -141,15 +141,15 @@ const content: ToolContent = {
     },
     {
       title: 'Ajuste o Número de Pistas Conforme a Idade Alvo',
-      description: 'Para pré-escolares (3–4 anos), use padrões AB com 8–10 pistas para máximo suporte visual. Para alunos do jardim de infância (4–6 anos), use padrões AAB/ABB com 6–8 pistas. Para o primeiro ano e acima, os padrões ABC e AABB com 4–6 pistas criam verdadeiros desafios de raciocínio. Especifique a idade alvo nos títulos dos seus produtos para melhor segmentação de pesquisa nos marketplaces.',
+      description: 'Para pré-escolares (3–4 anos), use padrões AB com 8–10 pistas para máximo suporte visual. Para usuários do jardim de infância (4–6 anos), use padrões AAB/ABB com 6–8 pistas. Para o primeiro ano e acima, os padrões ABC e AABB com 4–6 pistas criam verdadeiros desafios de raciocínio. Especifique a idade alvo nos títulos dos seus produtos para melhor segmentação de pesquisa nos marketplaces.',
     },
     {
       title: 'Use Escala de Cinzentos para KDP e Impressão em Grande Quantidade',
-      description: 'Ative a opção de escala de cinzentos para fichas destinadas a interiores da Amazon KDP ou impressão em massa na sala de aula. A impressão a preto e branco custa significativamente menos e cumpre os requisitos de interior do KDP para livros padrão (sem cor premium). Reserve o modo a cores para pré-visualizações de listagens da Etsy e downloads digitais onde as imagens temáticas vibrantes atraem cliques.',
+      description: 'Ative a opção de escala de cinzentos para fichas destinadas a interiores da Amazon KDP ou impressão em massa online. A impressão a preto e branco custa significativamente menos e cumpre os requisitos de interior do KDP para livros padrão (sem cor premium). Reserve o modo a cores para pré-visualizações de listagens da Etsy e downloads digitais onde as imagens temáticas vibrantes atraem cliques.',
     },
     {
       title: 'Carregue Imagens Próprias para Nichos de Mercado',
-      description: 'Use o carregamento de imagens personalizadas para criar fichas de trem de padrões para audiências de nicho além da biblioteca integrada. Etapas de crescimento de plantas para ciências, notas musicais para aulas de música, formas geométricas para matemática — as imagens personalizadas permitem-lhe apontar a nichos de compradores específicos na Etsy e no TPT onde as imagens temáticas da biblioteca por si só podem não ser suficientes.',
+      description: 'Use o carregamento de imagens personalizadas para criar fichas de trem de padrões para audiências de nicho além da biblioteca integrada. Etapas de crescimento de plantas para ciências, notas musicais para aulas de música, formas geométricas para matemática — as imagens personalizadas permitem-lhe apontar a nichos de compradores específicos na Etsy e no Gumroad onde as imagens temáticas da biblioteca por si só podem não ser suficientes.',
     },
   ],
 
@@ -160,11 +160,11 @@ const content: ToolContent = {
     },
     {
       question: 'Quais são os cinco tipos de padrões?',
-      answer: 'AB alterna dois elementos (A-B-A-B) para o padrão repetitivo mais simples. AAB agrupa dois de um elemento seguido de um de outro (A-A-B-A-A-B). ABB inverte esse agrupamento (A-B-B-A-B-B). ABC rota três elementos diferentes (A-B-C-A-B-C), obrigando os alunos a acompanhar uma unidade de repetição mais longa. AABB emparelha dois de cada elemento (A-A-B-B-A-A-B-B) num ciclo alargado. A progressão de AB a AABB cria uma escala de dificuldade natural.',
+      answer: 'AB alterna dois elementos (A-B-A-B) para o padrão repetitivo mais simples. AAB agrupa dois de um elemento seguido de um de outro (A-A-B-A-A-B). ABB inverte esse agrupamento (A-B-B-A-B-B). ABC rota três elementos diferentes (A-B-C-A-B-C), obrigando os usuários a acompanhar uma unidade de repetição mais longa. AABB emparelha dois de cada elemento (A-A-B-B-A-A-B-B) num ciclo alargado. A progressão de AB a AABB cria uma escala de dificuldade natural.',
     },
     {
       question: 'Como é que o número de pistas controla a dificuldade?',
-      answer: 'O número de pistas determina quantos dos 11 vagões do trem mostram imagens. Os 3 primeiros vagões são sempre visíveis para estabelecer o padrão. Com 10 pistas, apenas um vagão fica em branco entre 10 preenchidos — o padrão é muito evidente. Com 4 pistas, os alunos veem informação mínima e devem raciocinar cuidadosamente para identificar a sequência. Esta única definição transforma qualquer tipo de padrão de um exercício simples num verdadeiro desafio de raciocínio.',
+      answer: 'O número de pistas determina quantos dos 11 vagões do trem mostram imagens. Os 3 primeiros vagões são sempre visíveis para estabelecer o padrão. Com 10 pistas, apenas um vagão fica em branco entre 10 preenchidos — o padrão é muito evidente. Com 4 pistas, os usuários veem informação mínima e devem raciocinar cuidadosamente para identificar a sequência. Esta única definição transforma qualquer tipo de padrão de um exercício simples num verdadeiro desafio de raciocínio.',
     },
     {
       question: 'Como se dispõem os 11 vagões do trem na página?',
@@ -172,7 +172,7 @@ const content: ToolContent = {
     },
     {
       question: 'Em que diferem as fichas trem de padrões das fichas de padrões em grelha?',
-      answer: 'O Trem de Padrões apresenta as sequências num trem temático com 11 vagões num formato visual distintivo com uma única posição em falta. As fichas de padrões em grelha usam linhas e colunas padrão para exercícios de completar padrões. O formato de trem é mais visualmente atrativo e cria produtos que se destacam imediatamente nos resultados de pesquisa da Etsy e do TPT. O Trem de Padrões também oferece número de pistas ajustável (4–10) para um controlo preciso da dificuldade e colocação dinâmica da posição em falta.',
+      answer: 'O Trem de Padrões apresenta as sequências num trem temático com 11 vagões num formato visual distintivo com uma única posição em falta. As fichas de padrões em grelha usam linhas e colunas padrão para exercícios de completar padrões. O formato de trem é mais visualmente atrativo e cria produtos que se destacam imediatamente nos resultados de pesquisa da Etsy e do Gumroad. O Trem de Padrões também oferece número de pistas ajustável (4–10) para um controlo preciso da dificuldade e colocação dinâmica da posição em falta.',
     },
     {
       question: 'Por que é que as fichas não têm texto?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Posso vender as fichas criadas com esta ferramenta para fins comerciais?',
-      answer: 'O teste grátis com marca d\'água é apenas para uso pessoal e educativo. Para vender fichas de trem de padrões na Etsy, Teachers Pay Teachers, Amazon KDP ou qualquer outro marketplace, precisa de uma licença comercial. A licença remove a marca d\'água e concede direitos completos de revenda para as fichas que criar.',
+      answer: 'O teste grátis com marca d\'água é apenas para uso pessoal e educativo. Para vender fichas de trem de padrões na Etsy, Gumroad, Amazon KDP ou qualquer outro marketplace, precisa de uma licença comercial. A licença remove a marca d\'água e concede direitos completos de revenda para as fichas que criar.',
     },
     {
       question: 'Qual é a política de reembolso?',
@@ -214,13 +214,13 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/portuguese/pattern train/Comboio de Padrões 1.webp',
-      primaryAlt: 'Ficha de trem de padrões com vagões temáticos mostrando uma sequência de padrão repetitivo com um vagão em branco para os alunos completarem',
+      primaryAlt: 'Ficha de trem de padrões com vagões temáticos mostrando uma sequência de padrão repetitivo com um vagão em branco para os usuários completarem',
     },
     sampleGallery: [
       {
         src: '/samples/portuguese/pattern train/Comboio de Padrões 2.webp',
         alt: 'Ficha de trem de padrões em modo padrão AB alternante com imagens de animais em 11 vagões temáticos',
-        caption: 'Padrão AB com tema animais — os alunos identificam a sequência alternante e completam o vagão em falta',
+        caption: 'Padrão AB com tema animais — os usuários identificam a sequência alternante e completam o vagão em falta',
       },
       {
         src: '/samples/portuguese/pattern train/Comboio de Padrões 3.webp',
@@ -230,7 +230,7 @@ const content: ToolContent = {
       {
         src: '/samples/portuguese/pattern train/Comboio de Padrões 4.webp',
         alt: 'Gabarito do trem de padrões mostrando os 11 vagões preenchidos com a sequência correta do padrão',
-        caption: 'Vista do gabarito — os 11 vagões preenchidos com o padrão correto para verificação pelo professor',
+        caption: 'Vista do gabarito — os 11 vagões preenchidos com o padrão correto para verificação pelo vendedor',
       },
     ],
     youtubeId: '5A4aHvcC5u4',

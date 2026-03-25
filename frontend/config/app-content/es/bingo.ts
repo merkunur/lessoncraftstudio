@@ -7,7 +7,7 @@ const content: AppContent = {
       'generador de tarjetas de bingo imprimibles para vendedores Etsy',
       'creador de tarjetas de bingo con imágenes para editores Amazon KDP',
       'generador de tarjetas de bingo con licencia comercial',
-      'vender tarjetas de bingo imprimibles en Teachers Pay Teachers',
+      'vender tarjetas de bingo imprimibles en Gumroad',
     ],
     lsiKeywords: [
       'productos digitales de tarjetas de bingo para emprendedores',
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Generador Tarjetas Bingo con Imágenes | Crear',
     metaDescription:
-      'Crea tarjetas de bingo con imágenes para Etsy, KDP y TPT. Lotes de tarjetas únicas, export ZIP, hojas de cantado, 104 temas. Prueba gratis con marca de agua.',
+      'Crea tarjetas de bingo con imágenes para Etsy, KDP y Gumroad. Lotes de tarjetas únicas, export ZIP, hojas de cantado, 104 temas. Prueba gratis con marca de agua.',
   },
 
   hero: {
     title: 'Generador de Tarjetas de Bingo con Imágenes para Actividades de Bingo Imprimibles',
     tagline: 'Genera de 1 a 10 tarjetas de bingo únicas por lote con cuadrículas configurables de 3×3 a 5×5 — relleno de imagen o de palabras para las celdas y las fichas circulares, una hoja de cantado dedicada para el cantador, exportación ZIP por lotes de todas las tarjetas, y 104 colecciones de imágenes temáticas.',
     description:
-      'Diseña tarjetas de bingo profesionales donde los jugadores marcan las imágenes o palabras correspondientes en sus cuadrículas únicas. Configura las filas de 3 a 5 y las columnas de 3 a 5 de forma independiente, creando cuadrículas de 3×3 (9 celdas) hasta 5×5 (25 celdas) con un valor predeterminado de 4×4 (16 celdas). Elige el relleno de imagen o de palabras de forma independiente para las celdas de la tarjeta y las fichas circulares — las fichas presentan bordes discontinuos y un ordenamiento Fisher-Yates para un juego de bingo auténtico. Genera de 1 a 10 tarjetas de bingo únicas por lote, cada una con una selección aleatoria diferente del banco de imágenes. Una hoja de cantado dedicada en una pestaña separada muestra una cuadrícula dinámica de palabras para el cantador, con columnas calculadas según la longitud de la palabra más larga y un tamaño de fuente uniforme. Selecciona manualmente imágenes específicas para la selección personalizada de cantado o deja que la aplicación elija de tu tema. El Generador de Tarjetas de Bingo con Imágenes es sensible al idioma: el relleno de palabras utiliza los nombres localizados de las imágenes de la Biblioteca de Imágenes, por lo que cambiar el idioma modifica las palabras en las tarjetas, las fichas y la hoja de cantado. El Acceso Completo desbloquea los 104 temas con más de 3100 ilustraciones y los 11 idiomas de interfaz para contenido textual localizado. Añade temas de fondo y de borde con controles de opacidad independientes, incluye texto personalizado con siete opciones de fuente, y exporta PDF y JPEG listos para imprimir a 300 DPI en formato Carta, A4, Cuadrado (1200×1200) o dimensiones personalizadas. Exporta por lotes todas las tarjetas generadas como archivos JPEG individuales en un solo archivo ZIP. Ya sea que vendas packs de tarjetas de bingo en Etsy, compiles cuadernos de actividades de bingo para Amazon KDP o crees sets de bingo para el aula en TPT, este generador produce tarjetas de bingo listas para la producción en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Diseña tarjetas de bingo profesionales donde los jugadores marcan las imágenes o palabras correspondientes en sus cuadrículas únicas. Configura las filas de 3 a 5 y las columnas de 3 a 5 de forma independiente, creando cuadrículas de 3×3 (9 celdas) hasta 5×5 (25 celdas) con un valor predeterminado de 4×4 (16 celdas). Elige el relleno de imagen o de palabras de forma independiente para las celdas de la tarjeta y las fichas circulares — las fichas presentan bordes discontinuos y un ordenamiento Fisher-Yates para un juego de bingo auténtico. Genera de 1 a 10 tarjetas de bingo únicas por lote, cada una con una selección aleatoria diferente del banco de imágenes. Una hoja de cantado dedicada en una pestaña separada muestra una cuadrícula dinámica de palabras para el cantador, con columnas calculadas según la longitud de la palabra más larga y un tamaño de fuente uniforme. Selecciona manualmente imágenes específicas para la selección personalizada de cantado o deja que la aplicación elija de tu tema. El Generador de Tarjetas de Bingo con Imágenes es sensible al idioma: el relleno de palabras utiliza los nombres localizados de las imágenes de la Biblioteca de Imágenes, por lo que cambiar el idioma modifica las palabras en las tarjetas, las fichas y la hoja de cantado. El Acceso Completo desbloquea los 104 temas con más de 3100 ilustraciones y los 11 idiomas de interfaz para contenido textual localizado. Añade temas de fondo y de borde con controles de opacidad independientes, incluye texto personalizado con siete opciones de fuente, y exporta PDF y JPEG listos para imprimir a 300 DPI en formato Carta, A4, Cuadrado (1200×1200) o dimensiones personalizadas. Exporta por lotes todas las tarjetas generadas como archivos JPEG individuales en un solo archivo ZIP. Ya sea que vendas packs de tarjetas de bingo en Etsy, compiles cuadernos de actividades de bingo para Amazon KDP o crees sets de bingo para venta en línea en Gumroad, este generador produce tarjetas de bingo listas para la producción en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
   },
 
   howItWorks: {
@@ -52,7 +52,7 @@ const content: AppContent = {
       {
         title: 'Descargar tarjetas y hoja de cantado',
         description:
-          'Alterna entre la pestaña Tarjetas + Fichas y la pestaña Cantado para previsualizar ambas salidas. La hoja de cantado muestra una cuadrícula dinámica de palabras con un tamaño de fuente uniforme y columnas calculadas según la longitud de la palabra más larga. Descarga tarjetas individuales en JPEG o PDF con los botones dedicados, o exporta por lotes todas las tarjetas generadas como archivos JPEG individuales en un solo archivo bingo_cards.zip. Activa el modo escala de grises para versiones que ahorran tinta. Cada exportación se renderiza a 300 DPI y está lista para la producción: listados de Etsy, interiores de Amazon KDP y archivos de productos TPT.',
+          'Alterna entre la pestaña Tarjetas + Fichas y la pestaña Cantado para previsualizar ambas salidas. La hoja de cantado muestra una cuadrícula dinámica de palabras con un tamaño de fuente uniforme y columnas calculadas según la longitud de la palabra más larga. Descarga tarjetas individuales en JPEG o PDF con los botones dedicados, o exporta por lotes todas las tarjetas generadas como archivos JPEG individuales en un solo archivo bingo_cards.zip. Activa el modo escala de grises para versiones que ahorran tinta. Cada exportación se renderiza a 300 DPI y está lista para la producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad.',
       },
     ],
   },
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Biblioteca de imágenes con 104 colecciones temáticas y más de 3100 ilustraciones',
         description:
-          'Explora 104 colecciones de imágenes temáticas que cubren animales, comida, vehículos, naturaleza, profesiones, festividades, deportes, estaciones y decenas más. Cada tema proporciona un conjunto coordinado de ilustraciones coloridas que funcionan juntas en actividades de bingo — las tarjetas de bingo temáticas están entre los productos imprimibles más populares en Etsy y TPT. Filtra por tema con el menú desplegable o busca imágenes específicas por palabra clave. La Licencia Comercial incluye 10 temas en color para empezar; el Acceso Completo desbloquea los 104 temas para la máxima variedad creativa en todos los tamaños de cuadrícula y modos de relleno.',
+          'Explora 104 colecciones de imágenes temáticas que cubren animales, comida, vehículos, naturaleza, profesiones, festividades, deportes, estaciones y decenas más. Cada tema proporciona un conjunto coordinado de ilustraciones coloridas que funcionan juntas en actividades de bingo — las tarjetas de bingo temáticas están entre los productos imprimibles más populares en Etsy y Gumroad. Filtra por tema con el menú desplegable o busca imágenes específicas por palabra clave. La Licencia Comercial incluye 10 temas en color para empezar; el Acceso Completo desbloquea los 104 temas para la máxima variedad creativa en todos los tamaños de cuadrícula y modos de relleno.',
       },
       {
         title: 'Exportación PDF y JPEG lista para imprimir a 300 DPI con modo escala de grises',
         description:
-          'Descarga tarjetas de bingo y hojas de cantado como imágenes JPEG de alta resolución o documentos PDF listos para imprimir renderizados a 300 DPI (multiplicador 6×, calidad JPEG 1.0). Cuatro botones dedicados exportan por separado el JPEG de la Ficha, el JPEG de Cantado, el PDF de la Ficha y el PDF de Cantado. Los tamaños de página incluyen Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) y dimensiones completamente personalizadas. La orientación del PDF se detecta automáticamente. Activa el modo escala de grises para versiones que ahorran tinta. Cada exportación está lista para la producción: descargas digitales, juegos impresos y materiales para el aula.',
+          'Descarga tarjetas de bingo y hojas de cantado como imágenes JPEG de alta resolución o documentos PDF listos para imprimir renderizados a 300 DPI (multiplicador 6×, calidad JPEG 1.0). Cuatro botones dedicados exportan por separado el JPEG de la Ficha, el JPEG de Cantado, el PDF de la Ficha y el PDF de Cantado. Los tamaños de página incluyen Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) y dimensiones completamente personalizadas. La orientación del PDF se detecta automáticamente. Activa el modo escala de grises para versiones que ahorran tinta. Cada exportación está lista para la producción: descargas digitales, juegos impresos y materiales para venta en línea.',
       },
       {
         title: 'Edición completa del lienzo con herramientas de texto, alineación y controles de capas',
@@ -119,16 +119,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Actividades de bingo para el aula en TPT',
+        title: 'Actividades de bingo para venta en línea en Gumroad',
         description:
-          'Construye sets de bingo listos para jugar con tarjetas únicas para cada jugador y hojas de cantado para el profesor. Los profesores que buscan actividades de bingo en TPT valoran los productos listos para usar — imprime las tarjetas, repártelas y empieza a jugar inmediatamente. Crea sets alineados con el currículo: bingo de vocabulario con el modo relleno de palabras, bingo de reconocimiento de imágenes con el modo relleno de imagen, y bingo en modo mixto para instrucción diferenciada. Incluye 10 tarjetas únicas por set (suficiente para un grupo pequeño) con una hoja de cantado. El modo relleno de palabras con los nombres localizados de las imágenes convierte el bingo en una actividad de repaso de vocabulario.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Construye sets de bingo listos para jugar con tarjetas únicas para cada jugador y hojas de cantado para el vendedor. Los vendedores que buscan actividades de bingo en Gumroad valoran los productos listos para usar — imprime las tarjetas, repártelas y empieza a jugar inmediatamente. Crea sets alineados con el catálogo de productos: bingo de vocabulario con el modo relleno de palabras, bingo de reconocimiento de imágenes con el modo relleno de imagen, y bingo en modo mixto para paquetes escalonados por nivel. Incluye 10 tarjetas únicas por set (suficiente para un grupo pequeño) con una hoja de cantado. El modo relleno de palabras con los nombres localizados de las imágenes convierte el bingo en una actividad de repaso de vocabulario.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Colecciones de bingo estacionales y de festividades',
         description:
-          'Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, San Valentín, vuelta al colegio, vacaciones de verano y más. El bingo es un juego naturalmente social que tiene picos durante las festividades cuando las familias y las aulas buscan actividades grupales. Publica los sets de bingo de Halloween en septiembre, las colecciones de Navidad en octubre y los packs de San Valentín en enero. Cada set estacional incluye múltiples tamaños de cuadrícula, variantes de relleno de imagen y de palabras, y hojas de cantado. Los productos de bingo estacionales obtienen precios premium durante sus ventanas de mayor demanda.',
-        platform: 'Etsy / Amazon KDP / TPT (estacional)',
+          'Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, San Valentín, vuelta al colegio, vacaciones de verano y más. El bingo es un juego naturalmente social que tiene picos durante las festividades cuando las familias y las tiendas buscan actividades grupales. Publica los sets de bingo de Halloween en septiembre, las colecciones de Navidad en octubre y los packs de San Valentín en enero. Cada set estacional incluye múltiples tamaños de cuadrícula, variantes de relleno de imagen y de palabras, y hojas de cantado. Los productos de bingo estacionales obtienen precios premium durante sus ventanas de mayor demanda.',
+        platform: 'Etsy / Amazon KDP / Gumroad (estacional)',
       },
       {
         title: 'Tarjetas de bingo para eventos, fiestas y ocasiones especiales',
@@ -168,7 +168,7 @@ const content: AppContent = {
     {
       question: '¿Qué es la selección personalizada de cantado?',
       answer:
-        'Activa la casilla «Usar selección personalizada» en el panel Ajustes de la Tarjeta de Bingo para elegir manualmente qué imágenes específicas aparecen en el banco de cantado. Cuando está activada, haz clic en las imágenes en la Biblioteca de Imágenes para añadirlas a tu selección personalizada — un contador en tiempo real muestra «Seleccionados para cantado personalizado: X» a medida que eliges. Esto te da un control preciso sobre qué elementos aparecen en el juego de bingo, útil para actividades alineadas con el currículo o eventos temáticos que requieren vocabulario específico.',
+        'Activa la casilla «Usar selección personalizada» en el panel Ajustes de la Tarjeta de Bingo para elegir manualmente qué imágenes específicas aparecen en el banco de cantado. Cuando está activada, haz clic en las imágenes en la Biblioteca de Imágenes para añadirlas a tu selección personalizada — un contador en tiempo real muestra «Seleccionados para cantado personalizado: X» a medida que eliges. Esto te da un control preciso sobre qué elementos aparecen en el juego de bingo, útil para actividades alineadas con el catálogo de productos o eventos temáticos que requieren vocabulario específico.',
     },
     {
       question: '¿Es el Generador de Tarjetas de Bingo con Imágenes sensible al idioma?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender tarjetas de bingo creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus tarjetas de bingo como descargas digitales en Etsy, como cuadernos de actividades impresos en Amazon KDP, como recursos educativos en TPT o a través de cualquier otro canal de venta. Los tamaños de cuadrícula configurables, la generación por lotes, la exportación ZIP, los dobles modos de relleno, las hojas de cantado y las 104 colecciones de imágenes temáticas te dan las herramientas creativas para producir productos de bingo originales y vendibles a gran escala.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus tarjetas de bingo como descargas digitales en Etsy, como cuadernos de actividades impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. Los tamaños de cuadrícula configurables, la generación por lotes, la exportación ZIP, los dobles modos de relleno, las hojas de cantado y las 104 colecciones de imágenes temáticas te dan las herramientas creativas para producir productos de bingo originales y vendibles a gran escala.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

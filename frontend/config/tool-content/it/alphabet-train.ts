@@ -3,14 +3,14 @@ import type { ToolContent } from '../types';
 const content: ToolContent = {  seo: {
     primaryKeyword: 'creare schede treno alfabeto per bambini',
     secondaryKeywords: [
-      'creatore di treno alfabeto per la classe',
+      'creatore di treno alfabeto per il negozio',
       'schede riconoscimento lettere per bambini',
       'treno alfabeto stampabile per scuola materna',
-      'creatore abbinamento lettera-immagine per insegnanti',
+      'creatore abbinamento lettera-immagine per venditori',
     ],
     lsiKeywords: [
       'scheda treno abbinamento lettera-immagine per bambini',
-      'attività alfabeto multilingue per la classe',
+      'attività alfabeto multilingue per il negozio',
       'treno alfabeto colorato stampabile',
     ],
     titleTag: 'Schede Treno Alfabeto — Lettere per Bambini',
@@ -20,7 +20,7 @@ const content: ToolContent = {  seo: {
   hero: {
     title: 'Generatore Treno dell\'Alfabeto',
     tagline: 'Crea schede colorate con treno e lettere con abbinamento immagine-lettera in 11 lingue',
-    description: 'Costruisci schede per l\'alfabeto completamente diverse dalle classiche pagine di ricalco lettere. Questo strumento dispone 11 vagoni colorati lungo la pagina, ciascuno con una lettera e un\'illustrazione corrispondente. Immagini indizio sparse appaiono accanto al treno — gli alunni identificano con quale lettera inizia ogni immagine e la abbinano al vagone corretto. Scegli tra la modalità Creazione Automatica (lo strumento sceglie casualmente 11 lettere e assegna immagini corrispondenti) o Selezione Manuale (scegli ogni lettera dalla griglia alfabetica completa e assegni ciascuna immagine tu stesso). Regola la difficoltà con il cursore del numero di indizi: 3 indizi per principianti, 5–7 per livello intermedio e 9–11 per studenti avanzati che devono abbinare quasi ogni vagone. La vera forza è la sensibilità linguistica — seleziona tra 11 alfabeti nativi inclusi tedesco (Ä/Ö/Ü), svedese (Å/Ä/Ö), spagnolo (Ñ) e altri. La stessa immagine si abbina a lettere diverse in ogni lingua: "cane" corrisponde a C in italiano ma D in inglese (Dog) e H in tedesco (Hund). Un modello di scheda diventa 11 prodotti unici. Sfoglia oltre 3.100 immagini in 104 temi, oppure carica le tue per design personalizzati. Scegli tra 7 famiglie di font ed esporta in PDF pronto per la stampa o JPEG ad alta risoluzione. La prova gratuita include una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
+    description: 'Costruisci schede per l\'alfabeto completamente diverse dai negoziche pagine di ricalco lettere. Questo strumento dispone 11 vagoni colorati lungo la pagina, ciascuno con una lettera e un\'illustrazione corrispondente. Immagini indizio sparse appaiono accanto al treno — gli utenti identificano con quale lettera inizia ogni immagine e la abbinano al vagone corretto. Scegli tra la modalità Creazione Automatica (lo strumento sceglie casualmente 11 lettere e assegna immagini corrispondenti) o Selezione Manuale (scegli ogni lettera dalla griglia alfabetica completa e assegni ciascuna immagine tu stesso). Regola la difficoltà con il cursore del numero di indizi: 3 indizi per principianti, 5–7 per livello intermedio e 9–11 per utenti avanzati che devono abbinare quasi ogni vagone. La vera forza è la sensibilità linguistica — seleziona tra 11 alfabeti nativi inclusi tedesco (Ä/Ö/Ü), svedese (Å/Ä/Ö), spagnolo (Ñ) e altri. La stessa immagine si abbina a lettere diverse in ogni lingua: "cane" corrisponde a C in italiano ma D in inglese (Dog) e H in tedesco (Hund). Un modello di scheda diventa 11 prodotti unici. Sfoglia oltre 3.100 immagini in 104 temi, oppure carica le tue per design personalizzati. Scegli tra 7 famiglie di font ed esporta in PDF pronto per la stampa o JPEG ad alta risoluzione. La prova gratuita include una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere commercialmente.',
   },
 
   tutorial: {
@@ -36,7 +36,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Scegli la modalità di creazione',
-        description: 'Seleziona Creazione Automatica per lasciare che lo strumento scelga casualmente 11 lettere e assegni automaticamente immagini corrispondenti dal tema selezionato — ideale per una produzione rapida. Scegli Selezione Manuale per il controllo totale: selezioni esattamente 11 lettere dalla griglia alfabetica e assegni ogni immagine individualmente. La modalità manuale è ideale per schede allineate al curriculum che puntano a gruppi specifici di lettere.',
+        description: 'Seleziona Creazione Automatica per lasciare che lo strumento scelga casualmente 11 lettere e assegni automaticamente immagini corrispondenti dal tema selezionato — ideale per una produzione rapida. Scegli Selezione Manuale per il controllo totale: selezioni esattamente 11 lettere dalla griglia alfabetica e assegni ogni immagine individualmente. La modalità manuale è ideale per schede allineate al mercato che puntano a gruppi specifici di lettere.',
       },
       {
         title: 'Seleziona le lettere (Modalità Manuale)',
@@ -48,7 +48,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Configura numero di indizi e campi Nome/Data',
-        description: 'Usa il cursore del numero di indizi per impostare quante immagini corrispondenti appaiono accanto al treno. Imposta 3 indizi per il livello più facile (la maggior parte dei vagoni senza abbinamento), 5–7 per difficoltà media, o 9–11 per studenti avanzati che devono abbinare quasi ogni vagone. Attiva o disattiva i campi Nome e Data a seconda che la scheda sia per distribuzione in classe o download di prodotti digitali.',
+        description: 'Usa il cursore del numero di indizi per impostare quante immagini corrispondenti appaiono accanto al treno. Imposta 3 indizi per il livello più facile (la maggior parte dei vagoni senza abbinamento), 5–7 per difficoltà media, o 9–11 per utenti avanzati che devono abbinare quasi ogni vagone. Attiva o disattiva i campi Nome e Data a seconda che la scheda sia per distribuzione online o download di prodotti digitali.',
       },
       {
         title: 'Personalizza testo e font',
@@ -64,7 +64,7 @@ const content: ToolContent = {  seo: {
   whatYouCanCreate: [
     {
       title: 'Pacchetti treno dell\'alfabeto tematici',
-      description: 'Crea set di 10–15 schede con treno dell\'alfabeto usando collezioni di immagini tematiche — animali, cibo, veicoli, natura. Ogni scheda usa lettere e immagini diverse con un numero di indizi costante. Raggruppa per tema e vendi su Etsy o Teachers Pay Teachers. Il formato colorato con vagoni del treno fa risaltare la miniatura del tuo annuncio rispetto alle piatte schede di ricalco lettere. Includi fogli delle risposte con ogni set così gli acquirenti ricevono una risorsa completa, pronta per la classe, che non richiede preparazione aggiuntiva da parte dell\'insegnante.',
+      description: 'Crea set di 10–15 schede con treno dell\'alfabeto usando collezioni di immagini tematiche — animali, cibo, veicoli, natura. Ogni scheda usa lettere e immagini diverse con un numero di indizi costante. Raggruppa per tema e vendi su Etsy o Gumroad. Il formato colorato con vagoni del treno fa risaltare la miniatura del tuo annuncio rispetto alle piatte schede di ricalco lettere. Includi fogli delle risposte con ogni set così gli acquirenti ricevono una risorsa completa, pronta per il negozio, che non richiede preparazione aggiuntiva da parte dell\'venditore.',
     },
     {
       title: 'Quaderni attività alfabeto per KDP',
@@ -72,7 +72,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Set differenziati per numero di indizi',
-      description: 'Genera tre versioni dello stesso treno dell\'alfabeto tematico a diversi livelli di difficoltà: facile (3 indizi), medio (7 indizi) e difficile (11 indizi). Gli insegnanti possono distribuire la versione giusta a ogni alunno in base al livello di lettura. Vendi come pacchetto differenziato a un prezzo premium su TpT o Etsy.',
+      description: 'Genera tre versioni dello stesso treno dell\'alfabeto tematico a diversi livelli di difficoltà: facile (3 indizi), medio (7 indizi) e difficile (11 indizi). i venditori possono distribuire la versione giusta a ogni utente in base al livello di lettura. Vendi come pacchetto scalato per livello a un prezzo premium su Gumroad o Etsy.',
     },
     {
       title: 'Prodotti alfabeto multilingue',
@@ -80,11 +80,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Schede personalizzate con immagini proprie',
-      description: 'Carica le tue illustrazioni, mascotte o grafiche con licenza per creare treni dell\'alfabeto che nessun altro venditore può replicare. I creatori di contenuti per homeschool possono usare foto di famiglia, gli insegnanti possono usare mascotte scolastiche e i venditori Etsy possono costruire un\'identità visiva distintiva in tutto il negozio.',
+      description: 'Carica le tue illustrazioni, mascotte o grafiche con licenza per creare treni dell\'alfabeto che nessun altro venditore può replicare. I creatori di contenuti per homeschool possono usare foto di famiglia, i venditori possono usare mascotte scolastiche e i venditori Etsy possono costruire un\'identità visiva distintiva in tutto il negozio.',
     },
     {
       title: 'Pacchetti treno dell\'alfabeto stagionali',
-      description: 'Usa temi festivi e stagionali per creare pacchetti a tempo limitato. Un pacchetto "Treno dell\'Alfabeto di Natale" con illustrazioni festive vende benissimo a novembre–dicembre. Rientro a scuola, Halloween, San Valentino e temi primaverili hanno ciascuno i propri picchi di vendita su Etsy e TpT.',
+      description: 'Usa temi festivi e stagionali per creare pacchetti a tempo limitato. Un pacchetto "Treno dell\'Alfabeto di Natale" con illustrazioni festive vende benissimo a novembre–dicembre. Rientro a scuola, Halloween, San Valentino e temi primaverili hanno ciascuno i propri picchi di vendita su Etsy e Gumroad.',
     },
   ],
 
@@ -100,13 +100,13 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Pacchetti alfabeto su Teachers Pay Teachers',
-      description: 'Carica pacchetti differenziati con treno dell\'alfabeto su TpT. Includi schede a tre livelli di indizi, una guida per l\'insegnante che spiega il formato treno e fogli delle risposte per ogni pagina. Gli insegnanti cercano costantemente "attività alfabeto" e "schede riconoscimento lettere". Il formato visivo del treno aggiunge valore percepito perché sembra un gioco, non un esercizio. Offri pacchetti con Creazione Automatica per varietà e Selezione Manuale per gruppi di lettere allineati al curriculum.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Pacchetti alfabeto su Gumroad',
+      description: 'Carica pacchetti scalati per livello con treno dell\'alfabeto su Gumroad. Includi schede a tre livelli di indizi, una guida per l\'venditore che spiega il formato treno e fogli delle risposte per ogni pagina. i venditori cercano costantemente "attività alfabeto" e "schede riconoscimento lettere". Il formato visivo del treno aggiunge valore percepito perché sembra un gioco, non un esercizio. Offri pacchetti con Creazione Automatica per varietà e Selezione Manuale per gruppi di lettere allineati al mercato.',
+      platform: 'Gumroad',
     },
     {
       title: 'Kit alfabeto multilingue su Gumroad',
-      description: 'Crea kit alfabetici premium su Gumroad che includono gli stessi design di schede in 5–11 lingue. Rivolgiti a famiglie bilingui, scuole internazionali e insegnanti di italiano L2 che necessitano di materiali per il riconoscimento delle lettere in più lingue. L\'approccio lingua-come-moltiplicatore significa che ogni kit ha 5–11 volte il contenuto di un concorrente monolingue, giustificando un prezzo più alto.',
+      description: 'Crea kit alfabetici premium su Gumroad che includono gli stessi design di schede in 5–11 lingue. Rivolgiti a famiglie bilingui, scuole internazionali e venditori di italiano L2 che necessitano di materiali per il riconoscimento delle lettere in più lingue. L\'approccio lingua-come-moltiplicatore significa che ogni kit ha 5–11 volte il contenuto di un concorrente monolingue, giustificando un prezzo più alto.',
       platform: 'Gumroad',
     },
     {
@@ -124,11 +124,11 @@ const content: ToolContent = {  seo: {
   proTips: [
     {
       title: 'Inizia con 3 indizi per i principianti',
-      description: 'Una scheda con 3 indizi offre ai piccoli studenti un\'introduzione graduale — devono abbinare solo 3 immagini ai vagoni mentre i restanti 8 vagoni mostrano lettere senza compito di abbinamento. Questo previene il sovraccarico per bambini della scuola dell\'infanzia e del primo anno di primaria. Aumenta a 7 o 11 indizi man mano che gli alunni acquisiscono sicurezza. I venditori su Etsy e TpT possono confezionare versioni facile, media e difficile insieme come set differenziato, offrendo agli insegnanti esattamente ciò che cercano e giustificando un prezzo di pacchetto più alto per la collezione completa.',
+      description: 'Una scheda con 3 indizi offre ai piccoli utenti un\'introduzione graduale — devono abbinare solo 3 immagini ai vagoni mentre i restanti 8 vagoni mostrano lettere senza compito di abbinamento. Questo previene il sovraccarico per bambini della scuola dell\'infanzia e del primo anno di primaria. Aumenta a 7 o 11 indizi man mano che gli utenti acquisiscono sicurezza. I venditori su Etsy e Gumroad possono confezionare versioni facile, media e difficile insieme come set differenziato, offrendo ai venditori esattamente ciò che cercano e giustificando un prezzo di pacchetto più alto per la collezione completa.',
     },
     {
       title: 'Usa Creazione Automatica per velocità, Manuale per controllo',
-      description: 'La modalità Creazione Automatica seleziona lettere casualmente e assegna immagini, permettendoti di generare dozzine di schede uniche in pochi minuti. Passa alla Selezione Manuale quando hai bisogno di gruppi di lettere specifici — ad esempio, solo vocali, solo consonanti, o le lettere che i tuoi alunni stanno imparando in classe. Dal punto di vista del venditore, la Creazione Automatica è ideale per costruire rapidamente pacchetti ad alto volume, mentre la Selezione Manuale ti permette di creare prodotti allineati al curriculum che puntano a unità di fonetica specifiche ricercate attivamente su TpT ed Etsy.',
+      description: 'La modalità Creazione Automatica seleziona lettere casualmente e assegna immagini, permettendoti di generare dozzine di schede uniche in pochi minuti. Passa alla Selezione Manuale quando hai bisogno di gruppi di lettere specifici — ad esempio, solo vocali, solo consonanti, o le lettere che i tuoi utenti stanno imparando online. Dal punto di vista del venditore, la Creazione Automatica è ideale per costruire rapidamente pacchetti ad alto volume, mentre la Selezione Manuale ti permette di creare prodotti allineati al mercato che puntano a unità di fonetica specifiche ricercate attivamente su Gumroad ed Etsy.',
     },
     {
       title: 'Vai multilingue per 11 volte più prodotti',
@@ -136,7 +136,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Usa la scala di grigi per KDP e stampa in blocco',
-      description: 'Attiva il toggle scala di grigi per schede destinate agli interni Amazon KDP o alla stampa in blocco per la classe. I treni in bianco e nero costano significativamente meno da stampare. Riserva la modalità colore per le anteprime degli annunci Etsy e i download digitali dove vagoni vivaci attirano clic. Molti venditori KDP creano due edizioni dello stesso libro — una versione digitale a colori e una versione stampata in scala di grigi — raddoppiando il catalogo da una singola sessione di design senza lavoro grafico aggiuntivo.',
+      description: 'Attiva il toggle scala di grigi per schede destinate agli interni Amazon KDP o alla stampa in blocco per il negozio. I treni in bianco e nero costano significativamente meno da stampare. Riserva la modalità colore per le anteprime degli annunci Etsy e i download digitali dove vagoni vivaci attirano clic. Molti venditori KDP creano due edizioni dello stesso libro — una versione digitale a colori e una versione stampata in scala di grigi — raddoppiando il catalogo da una singola sessione di design senza lavoro grafico aggiuntivo.',
     },
     {
       title: 'Carica immagini personalizzate per il branding',
@@ -159,7 +159,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Come funziona il formato treno dell\'alfabeto?',
-      answer: 'Lo strumento crea 11 vagoni colorati, ciascuno con una lettera e un\'illustrazione corrispondente. Immagini indizio sparse appaiono accanto al treno. Gli alunni identificano con quale lettera inizia ogni immagine indizio e la abbinano al vagone corretto. Il numero di immagini indizio è configurabile da 3 a 11. Un foglio delle risposte viene generato insieme a ogni scheda, mostrando le connessioni corrette lettera-immagine così insegnanti e genitori possono verificare il lavoro rapidamente senza dover risolvere il puzzle da soli.',
+      answer: 'Lo strumento crea 11 vagoni colorati, ciascuno con una lettera e un\'illustrazione corrispondente. Immagini indizio sparse appaiono accanto al treno. gli utenti identificano con quale lettera inizia ogni immagine indizio e la abbinano al vagone corretto. Il numero di immagini indizio è configurabile da 3 a 11. Un foglio delle risposte viene generato insieme a ogni scheda, mostrando le connessioni corrette lettera-immagine così venditori e genitori possono verificare il lavoro rapidamente senza dover risolvere il puzzle da soli.',
     },
     {
       question: 'Qual è la differenza tra Creazione Automatica e Selezione Manuale?',
@@ -183,7 +183,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Posso usare le schede per scopi commerciali?',
-      answer: 'La prova gratuita con filigrana è solo per uso personale e scolastico. Per vendere schede su Etsy, Teachers Pay Teachers, Amazon KDP o qualsiasi altro marketplace, è necessaria una licenza commerciale. La licenza commerciale rimuove la filigrana e concede pieni diritti di rivendita per le schede che crei.',
+      answer: 'La prova gratuita con filigrana è solo per uso personale e scolastico. Per vendere schede su Etsy, Gumroad, Amazon KDP o qualsiasi altro marketplace, è necessaria una licenza commerciale. La licenza commerciale rimuove la filigrana e concede pieni diritti di rivendita per le schede che crei.',
     },
     {
       question: 'Quali formati di file posso scaricare?',
@@ -218,7 +218,7 @@ const content: ToolContent = {  seo: {
     sampleGallery: [
       {
         src: '/samples/italian/alphabet train/Treno dell\'Alfabeto 1.webp',
-        alt: 'Scheda colorata con treno dell\'alfabeto e attività di abbinamento lettera-immagine per giovani studenti',
+        alt: 'Scheda colorata con treno dell\'alfabeto e attività di abbinamento lettera-immagine per giovani utenti',
         caption: 'Formato vagoni del treno con abbinamento lettera-immagine',
       },
       {
@@ -229,7 +229,7 @@ const content: ToolContent = {  seo: {
       {
         src: '/samples/italian/alphabet train/Treno dell\'Alfabeto 3.webp',
         alt: 'Scheda avanzata treno dell\'alfabeto con 11 indizi per la massima difficoltà nel riconoscimento lettere',
-        caption: '11 indizi per la massima difficoltà per studenti avanzati',
+        caption: '11 indizi per la massima difficoltà per utenti avanzati',
       },
     ],
     youtubeId: '_dDQegRq9JQ',

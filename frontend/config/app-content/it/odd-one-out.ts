@@ -7,7 +7,7 @@ const content: AppContent = {
       'creatore di schede trova il diverso stampabili per venditori Etsy',
       'generatore di schede di discriminazione visiva per editori Amazon KDP',
       'creatore di puzzle trova l\'intruso con licenza commerciale',
-      'vendere schede trova l\'intruso su Teachers Pay Teachers',
+      'vendere schede trova l\'intruso su Gumroad',
     ],
     lsiKeywords: [
       'prodotti digitali di schede trova l\'intruso per imprenditori',
@@ -15,14 +15,14 @@ const content: AppContent = {
       'puzzle trova il diverso stampabili per business online',
     ],
     titleTag: 'Generatore Schede Trova l\'Intruso | Creare e Vendere',
-    metaDescription: 'Crea schede trova l\'intruso da vendere su Etsy, KDP e TPT. Due modalità, foglio risposte con cerchi rossi, 104 temi illustrati. Prova gratuita con filigrana.',
+    metaDescription: 'Crea schede trova l\'intruso da vendere su Etsy, KDP e Gumroad. Due modalità, foglio risposte con cerchi rossi, 104 temi illustrati. Prova gratuita con filigrana.',
   },
 
   hero: {
     title: 'Generatore di Schede Trova l\'Intruso per Puzzle di Discriminazione Visiva',
     tagline: 'Due modalità di generazione — Identica e Simile — con sostituzione per esercizio, da 3 a 8 esercizi configurabili, fogli risposte autogenerati con marcatori a cerchio rosso e puzzle puramente visivi che funzionano in tutte le 11 lingue senza traduzione.',
     description:
-      'Crea schede professionali trova il diverso dove gli alunni identificano e cerchiano l\'elemento intruso in ogni riga di quattro immagini. Scegli tra due modalità di generazione: la modalità Identica posiziona tre cloni della stessa immagine accanto a un\'immagine diversa dello stesso tema per sfide di individuazione della differenza, mentre la modalità Simile utilizza tre immagini dal Tema A e un\'immagine dal Tema B per puzzle di discriminazione tra categorie. Sostituisci la modalità per esercizio per mescolare livelli di difficoltà in un\'unica scheda. Configura da 3 a 8 esercizi per pagina con un valore predefinito di 6, e attiva o disattiva i campi opzionali di nome e data e i numeri di esercizio per un formato pronto per la classe. Ogni scheda genera un foglio risposte complementare in una scheda canvas separata — il foglio risposte traccia un cerchio rosso attorno all\'elemento intruso in ogni riga così non devi mai segnare le risposte manualmente. L\'intestazione autogenerata presenta un bordo esterno corallo, un bordo interno ambra e uno sfondo turchese con il titolo localizzato «Trova l\'Intruso» in Fredoka e le istruzioni in Quicksand nelle 11 lingue. Poiché i puzzle sono interamente visivi — non compare alcuna parola sulla scheda stessa — non dipendono dalla lingua e funzionano in modo identico in qualsiasi localizzazione. L\'Accesso Completo sblocca tutti i 104 temi con oltre 3100 illustrazioni e le 11 lingue di interfaccia. Aggiungi temi di sfondo e temi di bordo con controlli di opacità indipendenti, ed esporta PDF e JPEG pronti per la stampa a 300 DPI nei formati Lettera, A4, Quadrato o personalizzato. Che tu venda pacchetti di puzzle visivi su Etsy, compili quaderni di pensiero critico per Amazon KDP o crei attività per la classe su TPT, questo generatore produce schede trova l\'intruso pronte per la produzione in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Crea schede professionali trova il diverso dove gli utenti identificano e cerchiano l\'elemento intruso in ogni riga di quattro immagini. Scegli tra due modalità di generazione: la modalità Identica posiziona tre cloni della stessa immagine accanto a un\'immagine diversa dello stesso tema per sfide di individuazione della differenza, mentre la modalità Simile utilizza tre immagini dal Tema A e un\'immagine dal Tema B per puzzle di discriminazione tra categorie. Sostituisci la modalità per esercizio per mescolare livelli di difficoltà in un\'unica scheda. Configura da 3 a 8 esercizi per pagina con un valore predefinito di 6, e attiva o disattiva i campi opzionali di nome e data e i numeri di esercizio per un formato pronto per il negozio. Ogni scheda genera un foglio risposte complementare in una scheda canvas separata — il foglio risposte traccia un cerchio rosso attorno all\'elemento intruso in ogni riga così non devi mai segnare le risposte manualmente. L\'intestazione autogenerata presenta un bordo esterno corallo, un bordo interno ambra e uno sfondo turchese con il titolo localizzato «Trova l\'Intruso» in Fredoka e le istruzioni in Quicksand nelle 11 lingue. Poiché i puzzle sono interamente visivi — non compare alcuna parola sulla scheda stessa — non dipendono dalla lingua e funzionano in modo identico in qualsiasi localizzazione. L\'Accesso Completo sblocca tutti i 104 temi con oltre 3100 illustrazioni e le 11 lingue di interfaccia. Aggiungi temi di sfondo e temi di bordo con controlli di opacità indipendenti, ed esporta PDF e JPEG pronti per la stampa a 300 DPI nei formati Lettera, A4, Quadrato o personalizzato. Che tu venda pacchetti di puzzle visivi su Etsy, compili quaderni di pensiero critico per Amazon KDP o crei attività per il negozio su Gumroad, questo generatore produce schede trova l\'intruso pronte per la produzione in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {
@@ -36,7 +36,7 @@ const content: AppContent = {
       {
         title: 'Configura gli Esercizi',
         description:
-          'Apri il pannello Configurazione Esercizi e imposta il numero di esercizi da 3 a 8 (predefinito 6). Seleziona una modalità di generazione globale: la modalità Identica usa tre cloni della stessa immagine più un\'immagine diversa dello stesso tema, mentre la modalità Simile utilizza tre immagini dal Tema A e un\'immagine dal Tema B. Sostituisci la modalità per esercizio usando i selettori a tendina su ogni riga — mescola esercizi Identici e Simili in un\'unica scheda per difficoltà progressiva. Attiva l\'opzione «Includi Campi Nome/Data» per aggiungere righe di nome e data dello studente, e attiva «Includi Numeri di Esercizio» per mostrare i numeri sul lato sinistro di ogni scheda esercizio.',
+          'Apri il pannello Configurazione Esercizi e imposta il numero di esercizi da 3 a 8 (predefinito 6). Seleziona una modalità di generazione globale: la modalità Identica usa tre cloni della stessa immagine più un\'immagine diversa dello stesso tema, mentre la modalità Simile utilizza tre immagini dal Tema A e un\'immagine dal Tema B. Sostituisci la modalità per esercizio usando i selettori a tendina su ogni riga — mescola esercizi Identici e Simili in un\'unica scheda per difficoltà progressiva. Attiva l\'opzione «Includi Campi Nome/Data» per aggiungere righe di nome e data dell'utente, e attiva «Includi Numeri di Esercizio» per mostrare i numeri sul lato sinistro di ogni scheda esercizio.',
       },
       {
         title: 'Seleziona Temi e Immagini',
@@ -51,7 +51,7 @@ const content: AppContent = {
       {
         title: 'Genera il Foglio Risposte e Scarica',
         description:
-          'Passa alla scheda Foglio Risposte per visualizzare il foglio risposte generato automaticamente con un cerchio rosso tracciato attorno all\'elemento intruso in ogni riga di esercizio. Lo spessore del tratto del cerchio si adatta alla dimensione dell\'immagine (il maggiore tra dimensioneImmagine × 0,04 o 3px) per una visibilità uniforme in tutti i formati di pagina. Scarica entrambe le versioni con i quattro pulsanti dedicati: Scheda JPEG, Foglio Risposte JPEG, Scheda PDF e Foglio Risposte PDF a 300 DPI. Attiva la scala di grigi per versioni a risparmio d\'inchiostro. Ogni esportazione è pronta per la produzione: inserzioni Etsy, interni Amazon KDP e file prodotto TPT.',
+          'Passa alla scheda Foglio Risposte per visualizzare il foglio risposte generato automaticamente con un cerchio rosso tracciato attorno all\'elemento intruso in ogni riga di esercizio. Lo spessore del tratto del cerchio si adatta alla dimensione dell\'immagine (il maggiore tra dimensioneImmagine × 0,04 o 3px) per una visibilità uniforme in tutti i formati di pagina. Scarica entrambe le versioni con i quattro pulsanti dedicati: Scheda JPEG, Foglio Risposte JPEG, Scheda PDF e Foglio Risposte PDF a 300 DPI. Attiva la scala di grigi per versioni a risparmio d\'inchiostro. Ogni esportazione è pronta per la produzione: inserzioni Etsy, interni Amazon KDP e file prodotto Gumroad.',
       },
     ],
   },
@@ -62,7 +62,7 @@ const content: AppContent = {
       {
         title: 'Puzzle Trova l\'Intruso con Due Modalità di Generazione',
         description:
-          'Ogni esercizio mostra quattro immagini in una scheda orizzontale — tre elementi comuni e un elemento intruso — e gli alunni cerchiano quello che non appartiene. Il generatore offre due modalità distinte. La modalità Identica posiziona tre cloni della stessa immagine accanto a un\'immagine diversa dello stesso tema, creando una sfida diretta di individuazione della differenza. La modalità Simile utilizza tre immagini dal Tema A (ad esempio, animali) e un\'immagine dal Tema B (ad esempio, cibi), richiedendo che gli alunni identifichino l\'intruso tematico anziché un duplicato visivo. Ogni modalità produce una sfida cognitiva fondamentalmente diversa dalla stessa libreria di immagini.',
+          'Ogni esercizio mostra quattro immagini in una scheda orizzontale — tre elementi comuni e un elemento intruso — e gli utenti cerchiano quello che non appartiene. Il generatore offre due modalità distinte. La modalità Identica posiziona tre cloni della stessa immagine accanto a un\'immagine diversa dello stesso tema, creando una sfida diretta di individuazione della differenza. La modalità Simile utilizza tre immagini dal Tema A (ad esempio, animali) e un\'immagine dal Tema B (ad esempio, cibi), richiedendo che gli utenti identifichino l\'intruso tematico anziché un duplicato visivo. Ogni modalità produce una sfida cognitiva fondamentalmente diversa dalla stessa libreria di immagini.',
       },
       {
         title: 'Sostituzione per Esercizio per Schede a Difficoltà Mista',
@@ -72,7 +72,7 @@ const content: AppContent = {
       {
         title: 'Numero di Esercizi Configurabile da 3 a 8 per Scheda',
         description:
-          'Imposta il numero di esercizi da 3 a 8 usando il pannello Configurazione Esercizi, con il valore predefinito a 6. Meno esercizi creano schede con schede immagine più grandi e più spazio — ideale per alunni più piccoli o schede destinate alla pratica della motricità fine dove cerchiare richiede spazio. Più esercizi aumentano la densità dei contenuti e la sfida per gli alunni più grandi. Il layout si adatta automaticamente — le pagine verticali con 7 o più esercizi passano a un layout a 2 colonne, e le pagine orizzontali usano sempre 2 colonne per una spaziatura ottimale.',
+          'Imposta il numero di esercizi da 3 a 8 usando il pannello Configurazione Esercizi, con il valore predefinito a 6. Meno esercizi creano schede con schede immagine più grandi e più spazio — ideale per utenti più piccoli o schede destinate alla pratica della motricità fine dove cerchiare richiede spazio. Più esercizi aumentano la densità dei contenuti e la sfida per gli utenti più grandi. Il layout si adatta automaticamente — le pagine verticali con 7 o più esercizi passano a un layout a 2 colonne, e le pagine orizzontali usano sempre 2 colonne per una spaziatura ottimale.',
       },
       {
         title: 'Sistema a Due Temi con Tema A (Comune) e Tema B (Intruso)',
@@ -92,12 +92,12 @@ const content: AppContent = {
       {
         title: 'Esportazione PDF e JPEG Pronta per la Stampa a 300 DPI con Scala di Grigi',
         description:
-          'Scarica schede trova l\'intruso e fogli risposte come immagini JPEG ad alta risoluzione o documenti PDF pronti per la stampa renderizzati a 300 DPI (moltiplicatore 6×). Quattro pulsanti di download dedicati esportano Scheda JPEG, Foglio Risposte JPEG, Scheda PDF e Foglio Risposte PDF separatamente. I formati di pagina includono Lettera Verticale, Lettera Orizzontale, A4 Verticale, A4 Orizzontale, Quadrato (1200×1200) e dimensioni completamente personalizzate. Attiva la scala di grigi per versioni a risparmio d\'inchiostro. Ogni esportazione è pronta per la produzione: download digitali, quaderni stampati e materiali per la classe.',
+          'Scarica schede trova l\'intruso e fogli risposte come immagini JPEG ad alta risoluzione o documenti PDF pronti per la stampa renderizzati a 300 DPI (moltiplicatore 6×). Quattro pulsanti di download dedicati esportano Scheda JPEG, Foglio Risposte JPEG, Scheda PDF e Foglio Risposte PDF separatamente. I formati di pagina includono Lettera Verticale, Lettera Orizzontale, A4 Verticale, A4 Orizzontale, Quadrato (1200×1200) e dimensioni completamente personalizzate. Attiva la scala di grigi per versioni a risparmio d\'inchiostro. Ogni esportazione è pronta per la produzione: download digitali, quaderni stampati e materiali per il negozio.',
       },
       {
         title: 'Modifica Completa del Canvas con Strumenti di Testo, Campi Nome/Data e Numeri di Esercizio',
         description:
-          'Il canvas Fabric.js offre controllo totale su ogni elemento della tua scheda. Trascina, ridimensiona, ruota e riposiziona immagini, testo e contenuto generato liberamente. I controlli livelli gestiscono l\'ordine di sovrapposizione, e blocca gli elementi completati mentre ne modifichi altri. Aggiungi testo personalizzato con sette opzioni di font (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana), dimensione e colore regolabili, e larghezza contorno testo da 0 a 10 con granularità di 0,5. Attiva i campi di nome e data per un formato pronto per la classe, e i numeri di esercizio (25px di larghezza, 15px di spaziatura) per un facile riferimento durante la revisione. Zoom dal 25% al 300% per lavoro di dettaglio. Annulla e ripristina fino a 20 stati della cronologia con Ctrl+Z e Ctrl+Y.',
+          'Il canvas Fabric.js offre controllo totale su ogni elemento della tua scheda. Trascina, ridimensiona, ruota e riposiziona immagini, testo e contenuto generato liberamente. I controlli livelli gestiscono l\'ordine di sovrapposizione, e blocca gli elementi completati mentre ne modifichi altri. Aggiungi testo personalizzato con sette opzioni di font (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana), dimensione e colore regolabili, e larghezza contorno testo da 0 a 10 con granularità di 0,5. Attiva i campi di nome e data per un formato pronto per il negozio, e i numeri di esercizio (25px di larghezza, 15px di spaziatura) per un facile riferimento durante la revisione. Zoom dal 25% al 300% per lavoro di dettaglio. Annulla e ripristina fino a 20 stati della cronologia con Ctrl+Z e Ctrl+Y.',
       },
     ],
   },
@@ -114,20 +114,20 @@ const content: AppContent = {
       {
         title: 'Quaderni di Discriminazione Visiva su Amazon KDP',
         description:
-          'Compila da 40 a 80 schede trova l\'intruso in un quaderno stampato formattato per Amazon KDP. Struttura il tuo libro con difficoltà progressiva: i primi capitoli usano la modalità Identica (individuare il non-clone), i capitoli intermedi usano la modalità Simile con contrasti di tema evidenti, e i capitoli avanzati usano la modalità Simile con distinzioni più sottili. Usa la sostituzione per esercizio per creare pagine a difficoltà mista che sfidano gli alunni ad alternare tra strategie visive. Includi i fogli risposte alla fine usando il foglio risposte autogenerato con cerchi rossi. La scala di grigi produce pagine a risparmio d\'inchiostro per interni di libri in bianco e nero.',
+          'Compila da 40 a 80 schede trova l\'intruso in un quaderno stampato formattato per Amazon KDP. Struttura il tuo libro con difficoltà progressiva: i primi capitoli usano la modalità Identica (individuare il non-clone), i capitoli intermedi usano la modalità Simile con contrasti di tema evidenti, e i capitoli avanzati usano la modalità Simile con distinzioni più sottili. Usa la sostituzione per esercizio per creare pagine a difficoltà mista che sfidano gli utenti ad alternare tra strategie visive. Includi i fogli risposte alla fine usando il foglio risposte autogenerato con cerchi rossi. La scala di grigi produce pagine a risparmio d\'inchiostro per interni di libri in bianco e nero.',
         platform: 'Amazon KDP (kdp.amazon.it)',
       },
       {
-        title: 'Attività di Pensiero Critico per la Classe su TPT',
+        title: 'Attività di Pensiero Critico per il negozio su Gumroad',
         description:
-          'Crea schede trova l\'intruso pronte all\'uso con campi di nome e data, numeri di esercizio e fogli risposte stampati. Gli insegnanti che cercano attività di pensiero critico su TPT apprezzano schede che arrivano pronte per la classe — il campo nome garantisce la responsabilità dello studente, i numeri di esercizio rendono la discussione in classe efficiente, e il foglio risposte con cerchi rossi risparmia tempo di correzione. Crea set allineati al curriculum: sfide di classificazione animale, discriminazione di gruppi alimentari, identificazione di mestieri e puzzle di consapevolezza stagionale. Ogni set include schede per gli alunni e fogli risposte nei formati PDF e JPEG.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Crea schede trova l\'intruso pronte all\'uso con campi di nome e data, numeri di esercizio e fogli risposte stampati. i venditori che cercano attività di pensiero critico su Gumroad apprezzano schede che arrivano pronte per il negozio — il campo nome garantisce la responsabilità dell'utente, i numeri di esercizio rendono la discussione online efficiente, e il foglio risposte con cerchi rossi risparmia valore percepito. Crea set allineati al mercato: sfide di negozificazione animale, discriminazione di gruppi alimentari, identificazione di mestieri e puzzle di consapevolezza stagionale. Ogni set include schede per gli utenti e fogli risposte nei formati PDF e JPEG.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Collezioni di Puzzle Stagionali e Festivi',
         description:
           'Le 104 collezioni di immagini tematiche coprono ogni occasione stagionale e festiva — Natale, Halloween, Pasqua, San Valentino, ritorno a scuola, vacanze estive e altro. Crea collezioni trova l\'intruso stagionali a disponibilità limitata che si allineino ai periodi di massima domanda commerciale. Pubblica pacchetti di puzzle di Halloween a settembre, collezioni di Natale a ottobre e pacchetti di San Valentino a gennaio. Mescola le modalità Identica e Simile all\'interno di ogni set stagionale per varietà e valore percepito. I prodotti stagionali raggiungono prezzi più alti durante le finestre di massima domanda e creano ragioni naturali per acquisti ricorrenti.',
-        platform: 'Etsy / Amazon KDP / TPT (stagionale)',
+        platform: 'Etsy / Amazon KDP / Gumroad (stagionale)',
       },
       {
         title: 'Portata Globale con Puzzle Puramente Visivi',
@@ -142,12 +142,12 @@ const content: AppContent = {
     {
       question: 'Come funziona il meccanismo del trova l\'intruso?',
       answer:
-        'Ogni esercizio mostra quattro immagini in una scheda orizzontale — tre elementi comuni e un elemento intruso. Gli alunni osservano la riga, identificano quale immagine non appartiene e la cerchiano. La posizione dell\'elemento intruso viene mescolata casualmente all\'interno della riga, quindi può apparire in qualsiasi delle quattro posizioni. Gli esercizi sono organizzati verticalmente sulla pagina, con il layout che passa a 2 colonne quando si usa l\'orientamento orizzontale o verticale con 7 o più esercizi.',
+        'Ogni esercizio mostra quattro immagini in una scheda orizzontale — tre elementi comuni e un elemento intruso. gli utenti osservano la riga, identificano quale immagine non appartiene e la cerchiano. La posizione dell\'elemento intruso viene mescolata casualmente all\'interno della riga, quindi può apparire in qualsiasi delle quattro posizioni. Gli esercizi sono organizzati verticalmente sulla pagina, con il layout che passa a 2 colonne quando si usa l\'orientamento orizzontale o verticale con 7 o più esercizi.',
     },
     {
       question: 'Qual è la differenza tra la modalità Identica e Simile?',
       answer:
-        'La modalità Identica posiziona tre cloni della stessa immagine accanto a un\'immagine diversa dello stesso tema — gli alunni individuano il non-duplicato. La modalità Simile utilizza tre immagini dal Tema A (ad esempio, animali) e un\'immagine dal Tema B (ad esempio, cibi) — gli alunni identificano l\'intruso tematico. La modalità Identica è più facile perché gli alunni confrontano duplicati visivi. La modalità Simile è più difficile perché tutte e quattro le immagini sono diverse e la distinzione è categoriale anziché visiva.',
+        'La modalità Identica posiziona tre cloni della stessa immagine accanto a un\'immagine diversa dello stesso tema — gli utenti individuano il non-duplicato. La modalità Simile utilizza tre immagini dal Tema A (ad esempio, animali) e un\'immagine dal Tema B (ad esempio, cibi) — gli utenti identificano l\'intruso tematico. La modalità Identica è più facile perché gli utenti confrontano duplicati visivi. La modalità Simile è più difficile perché tutte e quattro le immagini sono diverse e la distinzione è categoriale anziché visiva.',
     },
     {
       question: 'Come funziona la sostituzione di modalità per esercizio?',
@@ -167,17 +167,17 @@ const content: AppContent = {
     {
       question: 'Come funziona il foglio risposte autogenerato con cerchi rossi?',
       answer:
-        'Il generatore utilizza un sistema a doppio canvas con una scheda Scheda di Lavoro e una scheda Foglio Risposte. La scheda di lavoro mostra le schede esercizio senza alcuna marcatura — gli alunni cerchiano l\'elemento intruso da soli. Il foglio risposte riproduce il layout identico e traccia un contorno a cerchio rosso attorno all\'elemento intruso in ogni riga. Lo spessore del tratto del cerchio si adatta dinamicamente alla dimensione dell\'immagine (il maggiore tra dimensioneImmagine × 0,04 o 3 pixel). Entrambe le versioni vengono esportate separatamente usando quattro pulsanti di download dedicati.',
+        'Il generatore utilizza un sistema a doppio canvas con una scheda Scheda di Lavoro e una scheda Foglio Risposte. La scheda di lavoro mostra le schede esercizio senza alcuna marcatura — gli utenti cerchiano l\'elemento intruso da soli. Il foglio risposte riproduce il layout identico e traccia un contorno a cerchio rosso attorno all\'elemento intruso in ogni riga. Lo spessore del tratto del cerchio si adatta dinamicamente alla dimensione dell\'immagine (il maggiore tra dimensioneImmagine × 0,04 o 3 pixel). Entrambe le versioni vengono esportate separatamente usando quattro pulsanti di download dedicati.',
     },
     {
       question: 'Posso aggiungere campi di nome e data alle schede trova l\'intruso?',
       answer:
-        'Sì. Attiva l\'opzione «Includi Campi Nome/Data» nel pannello Configurazione Esercizi per aggiungere righe di nome e data dello studente. Questi campi si posizionano in modo adattivo in base al layout della pagina. I campi di nome e data rendono le schede pronte per la classe — gli insegnanti possono monitorare il lavoro degli studenti e i genitori possono organizzare le attività completate per data.',
+        'Sì. Attiva l\'opzione «Includi Campi Nome/Data» nel pannello Configurazione Esercizi per aggiungere righe di nome e data dell'utente. Questi campi si posizionano in modo adattivo in base al layout della pagina. I campi di nome e data rendono le schede pronte per il negozio — i venditori possono monitorare il lavoro degli utenti e i genitori possono organizzare le attività completate per data.',
     },
     {
       question: 'Come funzionano i numeri di esercizio?',
       answer:
-        'Attiva l\'opzione «Includi Numeri di Esercizio» nel pannello Configurazione Esercizi per mostrare i numeri sul lato sinistro di ogni scheda esercizio. I numeri usano una larghezza di 25px con una spaziatura di 15px dal contenuto della scheda. I numeri di esercizio aiutano durante la revisione in classe e rendono facile per gli insegnanti fare riferimento a esercizi specifici durante la discussione.',
+        'Attiva l\'opzione «Includi Numeri di Esercizio» nel pannello Configurazione Esercizi per mostrare i numeri sul lato sinistro di ogni scheda esercizio. I numeri usano una larghezza di 25px con una spaziatura di 15px dal contenuto della scheda. I numeri di esercizio aiutano durante la revisione online e rendono facile per i venditori fare riferimento a esercizi specifici durante la discussione.',
     },
     {
       question: 'Esiste una prova gratuita?',
@@ -192,7 +192,7 @@ const content: AppContent = {
     {
       question: 'Posso vendere schede trova l\'intruso create con questo strumento su Etsy e Amazon KDP?',
       answer:
-        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede trova l\'intruso come download digitali su Etsy, come quaderni stampati su Amazon KDP, come risorse per la classe su TPT o attraverso qualsiasi altro canale di vendita. Le due modalità di generazione, le sostituzioni per esercizio e le 104 collezioni di immagini tematiche ti forniscono gli strumenti creativi per produrre prodotti di discriminazione visiva originali e vendibili.',
+        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede trova l\'intruso come download digitali su Etsy, come quaderni stampati su Amazon KDP, come risorse per il negozio su Gumroad o attraverso qualsiasi altro canale di vendita. Le due modalità di generazione, le sostituzioni per esercizio e le 104 collezioni di immagini tematiche ti forniscono gli strumenti creativi per produrre prodotti di discriminazione visiva originali e vendibili.',
     },
     {
       question: 'Qual è la politica di rimborso?',

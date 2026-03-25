@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'fichas de letras revueltas imprimibles para vendedores Etsy',
       'generador de puzzles de reordenamiento de letras para Amazon KDP',
-      'vender fichas de letras revueltas en Teachers Pay Teachers',
+      'vender fichas de letras revueltas en Gumroad',
       'fichas de letras revueltas con código de colores vocales licencia comercial',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Generador Fichas Letras Revueltas | Crear y Vender',
     metaDescription:
-      'Crea fichas de letras revueltas para Etsy, KDP y TPT. Pistas de imagen, código de colores vocales-consonantes, 11 idiomas. Prueba gratis con marca de agua.',
+      'Crea fichas de letras revueltas para Etsy, KDP y Gumroad. Pistas de imagen, código de colores vocales-consonantes, 11 idiomas. Prueba gratis con marca de agua.',
   },
 
   hero: {
     title: 'Generador de Fichas de Letras Revueltas para Puzzles de Ortografía por Reordenamiento de Letras',
     tagline: 'Fichas de letras desordenadas se combinan con pistas de imagen — cuatro niveles de dificultad y un código de colores vocales-consonantes convierten cada palabra en un puzzle de ortografía práctico.',
     description:
-      'Diseña fichas profesionales de letras revueltas donde los alumnos ven una pista de imagen y reordenan fichas de letras desordenadas para deletrear la palabra correcta — un puzzle de reordenamiento de letras que desarrolla simultáneamente la precisión ortográfica, el reconocimiento de palabras y la conciencia fonética. Elige entre tres fuentes de contenido: la Biblioteca de Imágenes integrada con más de 3100 ilustraciones en 104 temas, el Modo Edición Manual donde seleccionas imágenes y personalizas sus nombres de visualización, o el modo Lista de Palabras Personalizada para puzzles de solo texto con hasta 8 palabras que tú escribes directamente. Cuatro niveles de dificultad controlan cuántas letras-pista se pre-colocan en la posición correcta — desde Sin Pistas (ninguna letra colocada) hasta el modo Fácil colocando la mitad de las letras — creando un andamiaje natural del principiante al avanzado. La funcionalidad de código de colores vocales-consonantes es única de Letras Revueltas: activa fichas de colores donde las vocales aparecen en un color y las consonantes en otro, añadiendo una dimensión fonética visual que ayuda a los alumnos a identificar los tipos de letras mientras descifran la palabra. Coloca de 1 a 10 puzzles por ficha y elige fichas de letras en mayúsculas o minúsculas. El Acceso Completo desbloquea los 11 idiomas soportados donde la palabra objetivo cambia según el idioma — «dog» en inglés se convierte en «Hund» en alemán, «chien» en francés, «perro» en español — haciendo de cada idioma un producto distinto y vendible. Cada ficha genera una clave de respuesta automática, y puedes exportar PDF listos para imprimir y JPEG a más de 300 DPI en formato Carta, A4, Cuadrado o dimensiones personalizadas. Ya sea que vendas paquetes temáticos de ortografía en Etsy, compiles libros de puzzles de palabras para Amazon KDP o crees centros de lectoescritura diferenciados para TPT, el Generador de Fichas de Letras Revueltas produce resultados profesionales en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Diseña fichas profesionales de letras revueltas donde los usuarios ven una pista de imagen y reordenan fichas de letras desordenadas para deletrear la palabra correcta — un puzzle de reordenamiento de letras que desarrolla simultáneamente la precisión ortográfica, el reconocimiento de palabras y la conciencia fonética. Elige entre tres fuentes de contenido: la Biblioteca de Imágenes integrada con más de 3100 ilustraciones en 104 temas, el Modo Edición Manual donde seleccionas imágenes y personalizas sus nombres de visualización, o el modo Lista de Palabras Personalizada para puzzles de solo texto con hasta 8 palabras que tú escribes directamente. Cuatro niveles de dificultad controlan cuántas letras-pista se pre-colocan en la posición correcta — desde Sin Pistas (ninguna letra colocada) hasta el modo Fácil colocando la mitad de las letras — creando un andamiaje natural del principiante al avanzado. La funcionalidad de código de colores vocales-consonantes es única de Letras Revueltas: activa fichas de colores donde las vocales aparecen en un color y las consonantes en otro, añadiendo una dimensión fonética visual que ayuda a los usuarios a identificar los tipos de letras mientras descifran la palabra. Coloca de 1 a 10 puzzles por ficha y elige fichas de letras en mayúsculas o minúsculas. El Acceso Completo desbloquea los 11 idiomas soportados donde la palabra objetivo cambia según el idioma — «dog» en inglés se convierte en «Hund» en alemán, «chien» en francés, «perro» en español — haciendo de cada idioma un producto distinto y vendible. Cada ficha genera una clave de respuesta automática, y puedes exportar PDF listos para imprimir y JPEG a más de 300 DPI en formato Carta, A4, Cuadrado o dimensiones personalizadas. Ya sea que vendas paquetes temáticos de ortografía en Etsy, compiles libros de puzzles de palabras para Amazon KDP o crees centros de lectoescritura diferenciados para Gumroad, el Generador de Fichas de Letras Revueltas produce resultados profesionales en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
   },
 
   howItWorks: {
@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Elige opciones de letras, código de colores y toques personalizados',
         description:
-          'Elige entre fichas de letras en mayúsculas (por defecto) y minúsculas. Activa el código de colores vocales-consonantes para mostrar las vocales en un color y las consonantes en otro — una ayuda fonética visual única de Letras Revueltas — o selecciona Todo Negro para fichas monocromas tradicionales. Activa o desactiva la numeración de puzzles y añade campos de nombre y fecha del alumno. Usa el panel de Herramientas de Texto para añadir un título de ficha, instrucciones o cualquier texto personalizado. Elige entre siete fuentes, incluyendo Lexend Deca, Baloo 2, Fredoka y Quicksand con tamaño, color y contorno ajustables.',
+          'Elige entre fichas de letras en mayúsculas (por defecto) y minúsculas. Activa el código de colores vocales-consonantes para mostrar las vocales en un color y las consonantes en otro — una ayuda fonética visual única de Letras Revueltas — o selecciona Todo Negro para fichas monocromas tradicionales. Activa o desactiva la numeración de puzzles y añade campos de nombre y fecha. Usa el panel de Herramientas de Texto para añadir un título de ficha, instrucciones o cualquier texto personalizado. Elige entre siete fuentes, incluyendo Lexend Deca, Baloo 2, Fredoka y Quicksand con tamaño, color y contorno ajustables.',
       },
       {
         title: 'Genera la clave de respuesta y descarga',
@@ -63,17 +63,17 @@ const content: AppContent = {
       {
         title: 'Fichas de letras desordenadas con pistas de imagen',
         description:
-          'Cada puzzle presenta una pista de imagen junto a un conjunto de fichas de letras desordenadas. Los alumnos estudian la imagen, identifican lo que representa y reordenan las fichas en el orden correcto para deletrear la palabra. A diferencia de los puzzles de adivinar palabras donde los alumnos rellenan casillas vacías, letras revueltas da a los alumnos TODAS las letras pero en el orden incorrecto — un ejercicio de reordenamiento de letras que desarrolla la precisión ortográfica y el reconocimiento de palabras mediante la manipulación activa en lugar de la deducción.',
+          'Cada puzzle presenta una pista de imagen junto a un conjunto de fichas de letras desordenadas. Los usuarios estudian la imagen, identifican lo que representa y reordenan las fichas en el orden correcto para deletrear la palabra. A diferencia de los puzzles de adivinar palabras donde los usuarios rellenan casillas vacías, letras revueltas da a los usuarios TODAS las letras pero en el orden incorrecto — un ejercicio de reordenamiento de letras que desarrolla la precisión ortográfica y el reconocimiento de palabras mediante la manipulación activa en lugar de la deducción.',
       },
       {
         title: 'Cuatro niveles de dificultad con colocación de pistas ajustable',
         description:
-          'Controla exactamente cuánto andamiaje reciben los alumnos con cuatro niveles de dificultad integrados. Sin Pistas (0 letras colocadas) desordena todas las letras para un desafío máximo. Fácil pre-coloca la mitad de las letras en su posición correcta. Normal coloca un cuarto. Difícil coloca solo un sexto — suficiente para empezar sin dar la respuesta. Mezclar niveles de dificultad en las fichas de un mismo paquete crea una progresión natural de fácil a difícil que justifica precios premium.',
+          'Controla exactamente cuánto andamiaje reciben los usuarios con cuatro niveles de dificultad integrados. Sin Pistas (0 letras colocadas) desordena todas las letras para un desafío máximo. Fácil pre-coloca la mitad de las letras en su posición correcta. Normal coloca un cuarto. Difícil coloca solo un sexto — suficiente para empezar sin dar la respuesta. Mezclar niveles de dificultad en las fichas de un mismo paquete crea una progresión natural de fácil a difícil que justifica precios premium.',
       },
       {
         title: 'Código de colores vocales y consonantes',
         description:
-          'Activa la opción Código de Colores para mostrar las vocales en un color y las consonantes en otro en las fichas de letras desordenadas — una funcionalidad única de Letras Revueltas entre todos los generadores de fichas. Esta ayuda fonética visual permite a los alumnos identificar los patrones vocales-consonantes mientras reordenan la palabra, reforzando la conciencia de los tipos de letras junto con la práctica ortográfica. Cambia a Todo Negro para fichas monocromas tradicionales cuando la diferenciación por colores no sea necesaria. El código de colores añade una dimensión de diferenciación poderosa para los vendedores de TPT que apuntan a compradores enfocados en fonética.',
+          'Activa la opción Código de Colores para mostrar las vocales en un color y las consonantes en otro en las fichas de letras desordenadas — una funcionalidad única de Letras Revueltas entre todos los generadores de fichas. Esta ayuda fonética visual permite a los usuarios identificar los patrones vocales-consonantes mientras reordenan la palabra, reforzando la conciencia de los tipos de letras junto con la práctica ortográfica. Cambia a Todo Negro para fichas monocromas tradicionales cuando la diferenciación por colores no sea necesaria. El código de colores añade una dimensión de diferenciación poderosa para los vendedores de Gumroad que apuntan a compradores enfocados en fonética.',
       },
       {
         title: 'Tres fuentes de contenido: Biblioteca de Imágenes, Edición Manual y Lista de Palabras Personalizada',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de lectoescritura diferenciados para TPT',
+        title: 'Centros de lectoescritura diferenciados para Gumroad',
         description:
-          'Construye conjuntos de práctica de letras revueltas por niveles usando el nivel de dificultad y el código de colores como ejes de diferenciación. Nivel 1: Fácil con fichas de colores vocales-consonantes para aprendices visuales. Nivel 2: Normal con código de colores. Nivel 3: Difícil con fichas Todo Negro para alumnos autónomos en ortografía. Nivel 4: Sin Pistas con fichas Todo Negro para un desafío avanzado. Acompaña cada nivel con claves de respuesta y una hoja de seguimiento del progreso. Los compradores de Teachers Pay Teachers pagan precios premium por recursos de ortografía diferenciados que pueden desplegar inmediatamente en múltiples niveles de lectura.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Construye conjuntos de práctica de letras revueltas por niveles usando el nivel de dificultad y el código de colores como ejes de diferenciación. Nivel 1: Fácil con fichas de colores vocales-consonantes para aprendices visuales. Nivel 2: Normal con código de colores. Nivel 3: Difícil con fichas Todo Negro para usuarios autónomos en ortografía. Nivel 4: Sin Pistas con fichas Todo Negro para un desafío avanzado. Acompaña cada nivel con claves de respuesta y una hoja de seguimiento del progreso. Los compradores de Gumroad pagan precios premium por recursos de ortografía diferenciados que pueden desplegar inmediatamente en múltiples niveles de lectura.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Productos de vocabulario multilingües con Acceso Completo',
         description:
           'El Acceso Completo desbloquea los 11 idiomas, y como Letras Revueltas es sensible al idioma, la palabra objetivo cambia según el idioma. «Dog» en inglés se convierte en «Hund» en alemán, «chien» en francés, «perro» en español — cada uno con letras diferentes, un número de letras diferente y disposiciones desordenadas completamente diferentes. Crea series temáticas idénticas en múltiples idiomas y lista cada una como un producto de Etsy o un libro de KDP separado — once flujos de ingresos desde un solo flujo de trabajo.',
-        platform: 'Etsy / Amazon KDP / TPT (multilingüe)',
+        platform: 'Etsy / Amazon KDP / Gumroad (multilingüe)',
       },
       {
-        title: 'Herramienta de ortografía para el aula y tutoría',
+        title: 'Herramienta de ortografía para venta en línea y tutoría',
         description:
-          'Usa el modo Lista de Palabras Personalizada para crear fichas de letras revueltas con cualquier lista de vocabulario — palabras del dictado semanal, términos de ciencias, vocabulario de estudios sociales o práctica de idiomas extranjeros. Escribe hasta 8 palabras directamente sin necesitar imágenes correspondientes. Ajusta el nivel de dificultad según la capacidad de cada alumno: Fácil con fichas de colores para los que tienen dificultades, Sin Pistas con fichas Todo Negro para los alumnos avanzados. Imprime series personalizadas en minutos para grupos pequeños o clases enteras. La clave de respuesta automática ahorra tiempo de corrección, y el formato de reordenamiento de letras mantiene el interés de los alumnos en comparación con los ejercicios tradicionales de escritura repetitiva.',
-        platform: 'Aula / Tutoría / Educación en casa',
+          'Usa el modo Lista de Palabras Personalizada para crear fichas de letras revueltas con cualquier lista de vocabulario — palabras del dictado semanal, términos de ciencias, vocabulario de estudios sociales o práctica de idiomas extranjeros. Escribe hasta 8 palabras directamente sin necesitar imágenes correspondientes. Ajusta el nivel de dificultad según la capacidad de cada usuario: Fácil con fichas de colores para los que tienen dificultades, Sin Pistas con fichas Todo Negro para los usuarios avanzados. Imprime series personalizadas en minutos para grupos pequeños o clases enteras. La clave de respuesta automática ahorra valor percibido, y el formato de reordenamiento de letras mantiene el interés de los usuarios en comparación con los ejercicios tradicionales de escritura repetitiva.',
+        platform: 'Tienda / Tutoría / Educación en casa',
       },
     ],
   },
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: '¿Cómo funciona el puzzle de letras revueltas?',
       answer:
-        'Cada puzzle muestra una pista de imagen junto a un conjunto de fichas de letras desordenadas. Los alumnos estudian la imagen para identificar lo que representa y luego reordenan las fichas desordenadas para deletrear la palabra correcta. A diferencia de los puzzles de adivinar palabras donde los alumnos rellenan casillas vacías, letras revueltas da a los alumnos todas las letras pero en el orden incorrecto — un ejercicio práctico de reordenamiento de letras que desarrolla la precisión ortográfica y el reconocimiento de palabras.',
+        'Cada puzzle muestra una pista de imagen junto a un conjunto de fichas de letras desordenadas. Los usuarios estudian la imagen para identificar lo que representa y luego reordenan las fichas desordenadas para deletrear la palabra correcta. A diferencia de los puzzles de adivinar palabras donde los usuarios rellenan casillas vacías, letras revueltas da a los usuarios todas las letras pero en el orden incorrecto — un ejercicio práctico de reordenamiento de letras que desarrolla la precisión ortográfica y el reconocimiento de palabras.',
     },
     {
       question: '¿Cuáles son los cuatro niveles de dificultad?',
@@ -158,12 +158,12 @@ const content: AppContent = {
     {
       question: '¿Cómo funciona el código de colores vocales-consonantes?',
       answer:
-        'Activa la opción Código de Colores para mostrar las vocales en un color y las consonantes en otro en las fichas de letras. Esta ayuda fonética visual permite a los alumnos distinguir los patrones vocales-consonantes mientras reordenan la palabra. Selecciona Todo Negro para fichas monocromas tradicionales cuando la diferenciación por colores no sea necesaria. El código de colores es único de Letras Revueltas y añade una dimensión de diferenciación poderosa para los vendedores que apuntan a compradores enfocados en fonética.',
+        'Activa la opción Código de Colores para mostrar las vocales en un color y las consonantes en otro en las fichas de letras. Esta ayuda fonética visual permite a los usuarios distinguir los patrones vocales-consonantes mientras reordenan la palabra. Selecciona Todo Negro para fichas monocromas tradicionales cuando la diferenciación por colores no sea necesaria. El código de colores es único de Letras Revueltas y añade una dimensión de diferenciación poderosa para los vendedores que apuntan a compradores enfocados en fonética.',
     },
     {
       question: '¿Puedo elegir entre mayúsculas y minúsculas?',
       answer:
-        'Sí. El selector de tipo de letra te permite alternar entre mayúsculas (por defecto) y minúsculas para las fichas de letras desordenadas. Las mayúsculas son ideales para alumnos pequeños que aprenden las letras capitales, mientras que las minúsculas son adecuadas para alumnos mayores que practican la escritura estándar. La configuración se aplica tanto a las letras-pista como a las fichas desordenadas.',
+        'Sí. El selector de tipo de letra te permite alternar entre mayúsculas (por defecto) y minúsculas para las fichas de letras desordenadas. Las mayúsculas son ideales para usuarios pequeños que aprenden las letras capitales, mientras que las minúsculas son adecuadas para usuarios mayores que practican la escritura estándar. La configuración se aplica tanto a las letras-pista como a las fichas desordenadas.',
     },
     {
       question: '¿Cuál es la diferencia entre el Modo Edición Manual y la Biblioteca de Imágenes?',
@@ -173,7 +173,7 @@ const content: AppContent = {
     {
       question: '¿Qué puedo hacer con el modo Lista de Palabras Personalizada?',
       answer:
-        'El modo Lista de Palabras Personalizada te permite escribir hasta 8 palabras directamente — sin imágenes necesarias. Es ideal para listas del dictado semanal, vocabulario específico de una asignatura (términos de ciencias, nombres geográficos), práctica de idiomas extranjeros o cualquier contenido personalizado. Los puzzles muestran fichas de letras desordenadas sin pistas de imagen, así que los alumnos se basan en el contexto de los títulos de ficha o las instrucciones para identificar la palabra a reordenar.',
+        'El modo Lista de Palabras Personalizada te permite escribir hasta 8 palabras directamente — sin imágenes necesarias. Es ideal para listas del dictado semanal, vocabulario específico de una asignatura (términos de ciencias, nombres geográficos), práctica de idiomas extranjeros o cualquier contenido personalizado. Los puzzles muestran fichas de letras desordenadas sin pistas de imagen, así que los usuarios se basan en el contexto de los títulos de ficha o las instrucciones para identificar la palabra a reordenar.',
     },
     {
       question: '¿El generador crea claves de respuesta automáticamente?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de letras revueltas como descargas digitales en Etsy, como libros de actividades impresos en Amazon KDP, como recursos educativos en TPT o a través de cualquier otro canal de venta. El formato de fichas de letras desordenadas, el código de colores vocales-consonantes y la capacidad multilingüe te ofrecen una fuerte diferenciación en categorías de mercado competitivas.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de letras revueltas como descargas digitales en Etsy, como libros de actividades impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. El formato de fichas de letras desordenadas, el código de colores vocales-consonantes y la capacidad multilingüe te ofrecen una fuerte diferenciación en categorías de mercado competitivas.',
     },
     {
       question: '¿Cuál es la política de reembolso?',
@@ -236,7 +236,7 @@ const content: AppContent = {
     {
       pageType: 'guide',
       slug: 'vender-material-educativo-etsy',
-      anchorText: 'Guía para Vender Material Educativo en Etsy',
+      anchorText: 'Guía para Vender productos imprimibles en Etsy',
     },
     {
       pageType: 'start',
@@ -251,7 +251,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'educacion-en-casa-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles para educación en casa',
+      anchorText: 'Ideas de imprimibles para trabajo desde casa',
     },
     {
       pageType: 'guide',

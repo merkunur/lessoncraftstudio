@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'generador de fichas de patrones imprimibles para vendedores Etsy',
       'creador de fichas de reconocimiento de secuencias para Amazon KDP',
-      'vender fichas de completar patrones en Teachers Pay Teachers',
+      'vender fichas de completar patrones en Gumroad',
       'generador de fichas de patrones licencia comercial',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Generador Fichas de Patrones | Crear y Vender',
     metaDescription:
-      'Crea fichas de patrones para Etsy, KDP y TPT. Nueve tipos de patrones, dos modos de pregunta, config por ejercicio, 104 temas. Prueba gratis con marca de.',
+      'Crea fichas de patrones para Etsy, KDP y Gumroad. Nueve tipos de patrones, dos modos de pregunta, config por ejercicio, 104 temas. Prueba gratis con marca de.',
   },
 
   hero: {
     title: 'Generador de Fichas de Patrones para Ejercicios de Completar Secuencias en Cuadrícula',
     tagline: 'Nueve tipos de patrones de AB a ABCD — dos modos de pregunta (casilla vacía y opción múltiple) — con configuración independiente por ejercicio para el tipo de patrón, el modo de pregunta y el tema en cada página.',
     description:
-      'Diseña fichas profesionales de completar patrones donde los alumnos identifican secuencias repetitivas y completan el elemento que falta — o eligen la respuesta correcta entre opciones múltiples. Nueve tipos de patrones distintos cubren todos los niveles de complejidad de secuencias: AB alterna dos elementos, AAB y ABB introducen agrupamientos asimétricos, ABC rota tres elementos, AABB empareja dos de cada uno, ABBC y AABC añaden patrones asimétricos de tres imágenes, ABCC extiende con terminaciones dobles, y ABCD rota cuatro elementos diferentes para el máximo desafío. Dos modos de pregunta crean ejercicios fundamentalmente diferentes a partir de cada tipo de patrón: Casilla Vacía reemplaza un elemento con un espacio en blanco que los alumnos deben completar, mientras que Opción Múltiple presenta el espacio vacío acompañado de tres respuestas posibles con una correcta y dos distractores. Configura de 1 a 8 ejercicios por página con cada ejercicio parametrizado independientemente para tipo de patrón, modo de pregunta y tema — una misma página puede combinar un ejercicio AB en casilla vacía con un ejercicio ABCD en opción múltiple. Activa el Inicio Aleatorio para comenzar los patrones a mitad de ciclo y la Posición Aleatoria del Espacio en Blanco para colocar el elemento que falta en cualquier lugar de la secuencia para mayor dificultad. El contenido proviene de la Biblioteca de Imágenes integrada con más de 3100 ilustraciones en 104 temas. Una pestaña de clave de respuesta separada muestra todas las casillas vacías completadas con los elementos correctos del patrón para verificación instantánea. El Acceso Completo desbloquea los 104 temas y los 11 idiomas de interfaz. Exporta PDF y JPEG listos para imprimir en alta resolución en formato Carta, A4, Cuadrado o dimensiones personalizadas. Cada ficha es completamente visual con solo imágenes en filas de cuadrícula y cero texto en la salida, haciendo los productos universalmente vendibles sin traducción. Ya sea que crees packs de reconocimiento de patrones en Etsy, compiles cuadernos de aprendizaje temprano para Amazon KDP o construyas centros visuales diferenciados para TPT, el Generador de Fichas de Patrones ofrece la mayor variedad de ejercicios de patrones disponible — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Diseña fichas profesionales de completar patrones donde los usuarios identifican secuencias repetitivas y completan el elemento que falta — o eligen la respuesta correcta entre opciones múltiples. Nueve tipos de patrones distintos cubren todos los niveles de complejidad de secuencias: AB alterna dos elementos, AAB y ABB introducen agrupamientos asimétricos, ABC rota tres elementos, AABB empareja dos de cada uno, ABBC y AABC añaden patrones asimétricos de tres imágenes, ABCC extiende con terminaciones dobles, y ABCD rota cuatro elementos diferentes para el máximo desafío. Dos modos de pregunta crean ejercicios fundamentalmente diferentes a partir de cada tipo de patrón: Casilla Vacía reemplaza un elemento con un espacio en blanco que los usuarios deben completar, mientras que Opción Múltiple presenta el espacio vacío acompañado de tres respuestas posibles con una correcta y dos distractores. Configura de 1 a 8 ejercicios por página con cada ejercicio parametrizado independientemente para tipo de patrón, modo de pregunta y tema — una misma página puede combinar un ejercicio AB en casilla vacía con un ejercicio ABCD en opción múltiple. Activa el Inicio Aleatorio para comenzar los patrones a mitad de ciclo y la Posición Aleatoria del Espacio en Blanco para colocar el elemento que falta en cualquier lugar de la secuencia para mayor dificultad. El contenido proviene de la Biblioteca de Imágenes integrada con más de 3100 ilustraciones en 104 temas. Una pestaña de clave de respuesta separada muestra todas las casillas vacías completadas con los elementos correctos del patrón para verificación instantánea. El Acceso Completo desbloquea los 104 temas y los 11 idiomas de interfaz. Exporta PDF y JPEG listos para imprimir en alta resolución en formato Carta, A4, Cuadrado o dimensiones personalizadas. Cada ficha es completamente visual con solo imágenes en filas de cuadrícula y cero texto en la salida, haciendo los productos universalmente vendibles sin traducción. Ya sea que crees packs de reconocimiento de patrones en Etsy, compiles cuadernos de aprendizaje temprano para Amazon KDP o construyas centros visuales diferenciados para Gumroad, el Generador de Fichas de Patrones ofrece la mayor variedad de ejercicios de patrones disponible — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
   },
 
   howItWorks: {
@@ -47,12 +47,12 @@ const content: AppContent = {
       {
         title: 'Añadir decoraciones de texto y personalizar el lienzo',
         description:
-          'Usa el panel Herramientas de Texto para añadir un título de ficha, campos de nombre y fecha del alumno, o instrucciones con fuentes como Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial y Verdana. Ajusta el tamaño de fuente, color y contorno para una legibilidad óptima. El lienzo completo Fabric.js te permite arrastrar, redimensionar, rotar y reposicionar cada elemento de la página. Los controles de capas gestionan el orden de apilamiento, el bloqueo/desbloqueo protege los elementos terminados mientras editas otros, y las herramientas de alineación posicionan los elementos con precisión. Haz zoom para una colocación precisa con deshacer y rehacer ilimitados.',
+          'Usa el panel Herramientas de Texto para añadir un título de ficha, campos de nombre y fecha, o instrucciones con fuentes como Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial y Verdana. Ajusta el tamaño de fuente, color y contorno para una legibilidad óptima. El lienzo completo Fabric.js te permite arrastrar, redimensionar, rotar y reposicionar cada elemento de la página. Los controles de capas gestionan el orden de apilamiento, el bloqueo/desbloqueo protege los elementos terminados mientras editas otros, y las herramientas de alineación posicionan los elementos con precisión. Haz zoom para una colocación precisa con deshacer y rehacer ilimitados.',
       },
       {
         title: 'Revisar la clave de respuesta y descargar',
         description:
-          'Cambia a la pestaña Clave de Respuesta para ver una versión completada de la ficha con todas las casillas vacías rellenadas mostrando los elementos correctos del patrón. La ficha y la clave de respuesta son editables de forma independiente en lienzos separados. Activa la exportación en escala de grises para versiones que ahorran tinta. Luego descarga cada uno como JPEG de alta resolución o PDF listo para imprimir. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos TPT — la ficha y la clave de respuesta se descargan como archivos separados para un paquete de producto completo.',
+          'Cambia a la pestaña Clave de Respuesta para ver una versión completada de la ficha con todas las casillas vacías rellenadas mostrando los elementos correctos del patrón. La ficha y la clave de respuesta son editables de forma independiente en lienzos separados. Activa la exportación en escala de grises para versiones que ahorran tinta. Luego descarga cada uno como JPEG de alta resolución o PDF listo para imprimir. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad — la ficha y la clave de respuesta se descargan como archivos separados para un paquete de producto completo.',
       },
     ],
   },
@@ -68,17 +68,17 @@ const content: AppContent = {
       {
         title: 'Dos modos de pregunta: casilla vacía y opción múltiple',
         description:
-          'Cada tipo de patrón admite dos modos de pregunta fundamentalmente diferentes que duplican la variedad de productos. El modo Casilla Vacía reemplaza un elemento del patrón con un espacio en blanco — los alumnos deben identificar el patrón y determinar el elemento que falta sin ninguna pista. El modo Opción Múltiple presenta la casilla vacía acompañada de tres respuestas posibles: un elemento correcto y dos distractores. La Casilla Vacía evalúa el razonamiento abierto sobre patrones; la Opción Múltiple evalúa el reconocimiento con opciones de respuesta estructuradas. El mismo patrón AB se convierte en dos productos completamente diferentes según el modo que elijas. Los vendedores pueden ofrecer ambos modos como niveles de dificultad separados o combinarlos en una sola página para práctica variada.',
+          'Cada tipo de patrón admite dos modos de pregunta fundamentalmente diferentes que duplican la variedad de productos. El modo Casilla Vacía reemplaza un elemento del patrón con un espacio en blanco — los usuarios deben identificar el patrón y determinar el elemento que falta sin ninguna pista. El modo Opción Múltiple presenta la casilla vacía acompañada de tres respuestas posibles: un elemento correcto y dos distractores. La Casilla Vacía evalúa el razonamiento abierto sobre patrones; la Opción Múltiple evalúa el reconocimiento con opciones de respuesta estructuradas. El mismo patrón AB se convierte en dos productos completamente diferentes según el modo que elijas. Los vendedores pueden ofrecer ambos modos como niveles de dificultad separados o combinarlos en una sola página para práctica variada.',
       },
       {
         title: 'Configuración independiente por ejercicio',
         description:
-          'Cada ejercicio de la página tiene su propio tipo de patrón, modo de pregunta y tema — configurado de forma independiente de todos los demás ejercicios. Una sola ficha puede comenzar con un calentamiento AB en casilla vacía, progresar hacia una práctica ABC en opción múltiple en el medio, y terminar con un desafío ABCD en casilla vacía en la parte inferior. Esta independencia por ejercicio elimina la necesidad de generar páginas separadas para cada nivel de dificultad. Los profesores obtienen práctica diferenciada en una sola página, y los vendedores crean productos más sofisticados que demuestran un diseño profesional reflexivo — las páginas de dificultad mixta se venden a precios más altos que las fichas de un solo patrón.',
+          'Cada ejercicio de la página tiene su propio tipo de patrón, modo de pregunta y tema — configurado de forma independiente de todos los demás ejercicios. Una sola ficha puede comenzar con un calentamiento AB en casilla vacía, progresar hacia una práctica ABC en opción múltiple en el medio, y terminar con un desafío ABCD en casilla vacía en la parte inferior. Esta independencia por ejercicio elimina la necesidad de generar páginas separadas para cada nivel de dificultad. Los vendedores obtienen práctica diferenciada en una sola página, y los vendedores crean productos más sofisticados que demuestran un diseño profesional reflexivo — las páginas de dificultad mixta se venden a precios más altos que las fichas de un solo patrón.',
       },
       {
         title: 'Inicio aleatorio y posición aleatoria del espacio en blanco para variar la dificultad',
         description:
-          'Dos ajustes de aleatorización crean variaciones de dificultad adicionales a partir de los mismos tipos de patrones. Inicio Aleatorio comienza el patrón a mitad de ciclo en lugar de siempre en el primer elemento — un patrón ABC podría comenzar en B-C-A-B-C en vez de A-B-C-A-B. Posición Aleatoria del Espacio en Blanco coloca el elemento que falta en cualquier posición de la secuencia en lugar de una ubicación predecible. Juntos, estos ajustes impiden que los alumnos resuelvan por rutina y garantizan que cada ficha generada presente un desafío nuevo. Para los vendedores, la aleatorización multiplica el número de fichas únicas producibles a partir de cada combinación de tipo de patrón y tema.',
+          'Dos ajustes de aleatorización crean variaciones de dificultad adicionales a partir de los mismos tipos de patrones. Inicio Aleatorio comienza el patrón a mitad de ciclo en lugar de siempre en el primer elemento — un patrón ABC podría comenzar en B-C-A-B-C en vez de A-B-C-A-B. Posición Aleatoria del Espacio en Blanco coloca el elemento que falta en cualquier posición de la secuencia en lugar de una ubicación predecible. Juntos, estos ajustes impiden que los usuarios resuelvan por rutina y garantizan que cada ficha generada presente un desafío nuevo. Para los vendedores, la aleatorización multiplica el número de fichas únicas producibles a partir de cada combinación de tipo de patrón y tema.',
       },
       {
         title: 'Biblioteca de imágenes con 104 colecciones temáticas',
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Sistema de doble lienzo con clave de respuesta separada',
         description:
-          'La ficha y la clave de respuesta viven en lienzos separados e independientemente editables, accesibles mediante pestañas. La ficha muestra los ejercicios con casillas vacías u opciones múltiples; la clave de respuesta muestra todas las casillas completadas con los elementos correctos del patrón. Cada lienzo permite edición completa — añade texto, ajusta el diseño, reposiciona elementos — para que puedas personalizar tanto la ficha del alumno como la clave de respuesta del profesor de forma independiente. Ambos se descargan como archivos separados, ofreciendo a los compradores un paquete de producto completo con soluciones verificadas para cada ejercicio.',
+          'La ficha y la clave de respuesta viven en lienzos separados e independientemente editables, accesibles mediante pestañas. La ficha muestra los ejercicios con casillas vacías u opciones múltiples; la clave de respuesta muestra todas las casillas completadas con los elementos correctos del patrón. Cada lienzo permite edición completa — añade texto, ajusta el diseño, reposiciona elementos — para que puedas personalizar tanto la ficha del usuario como la clave de respuesta del vendedor de forma independiente. Ambos se descargan como archivos separados, ofreciendo a los compradores un paquete de producto completo con soluciones verificadas para cada ejercicio.',
       },
       {
         title: 'Exportación PDF y JPEG lista para imprimir en alta resolución',
         description:
-          'Descarga fichas y claves de respuesta como imágenes JPEG de alta resolución (multiplicador 6x para un detalle nítido) o documentos PDF listos para imprimir a 300 DPI. Los formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) y dimensiones personalizadas están todos soportados. Activa la exportación en escala de grises para versiones que ahorran tinta, ideales para impresión en clase o cuadernos en blanco y negro. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos TPT — sin necesidad de postprocesamiento.',
+          'Descarga fichas y claves de respuesta como imágenes JPEG de alta resolución (multiplicador 6x para un detalle nítido) o documentos PDF listos para imprimir a 300 DPI. Los formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) y dimensiones personalizadas están todos soportados. Activa la exportación en escala de grises para versiones que ahorran tinta, ideales para impresión en línea o cuadernos en blanco y negro. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad — sin necesidad de postprocesamiento.',
       },
       {
         title: 'Edición completa del lienzo con herramientas de texto y decoración',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros visuales diferenciados para TPT',
+        title: 'Centros visuales diferenciados para Gumroad',
         description:
           'Construye conjuntos de práctica de reconocimiento de patrones por niveles usando la configuración por ejercicio como diferenciador principal. El Nivel 1 presenta páginas completamente en AB casilla vacía con el mismo tema. El Nivel 2 mezcla ejercicios AB y AAB en casilla vacía. El Nivel 3 introduce ejercicios ABC en opción múltiple junto a calentamientos más simples en casilla vacía. El Nivel 4 combina desafíos ABCD en casilla vacía con inicio aleatorio y posición aleatoria del espacio en blanco activados. Cada nivel se enfoca en una demanda cognitiva diferente, y la independencia por ejercicio significa que una página impresa sirve como actividad diferenciada completa. Acompaña cada nivel con ejercicios temáticos y claves de respuesta separadas.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Fichas visuales multilingües para mercados globales',
         description:
           'Como los ejercicios de Fichas de Patrones contienen solo imágenes en filas de cuadrícula con cero texto en la salida, el mismo producto funciona en todos los idiomas sin modificación. Crea un conjunto de ejercicios de completar patrones y véndelo en todo el mundo — sin traducción necesaria, sin versiones de idiomas separadas que mantener. Cambiar el idioma del contenido solo afecta las etiquetas de la biblioteca de imágenes en el generador, no la ficha impresa. Publica productos idénticos en tiendas Etsy dirigidas a diferentes países, o publica el mismo interior KDP en todos los mercados internacionales de Amazon. Un solo flujo de trabajo produce un producto universalmente vendible.',
-        platform: 'Etsy / Amazon KDP / TPT (global)',
+        platform: 'Etsy / Amazon KDP / Gumroad (global)',
       },
       {
-        title: 'Herramienta de conceptos de patrones para el aula y el refuerzo',
+        title: 'Herramienta de conceptos de patrones para venta en línea y el refuerzo',
         description:
-          'Sube imágenes personalizadas para crear fichas de patrones adaptadas a cualquier materia o unidad — usa etapas de crecimiento de plantas para una lección de ciencias, formas geométricas para una clase de matemáticas, o símbolos de notas musicales para una clase de música. Nueve tipos de patrones te permiten adaptar el ejercicio al objetivo de aprendizaje: AB para la introducción, ABC para la práctica, ABCD para la evaluación. Combina casilla vacía y opción múltiple en la misma página para práctica variada. Activa el inicio aleatorio y la posición aleatoria del espacio en blanco para generar fichas únicas para cada alumno, impidiendo la copia. La pestaña de clave de respuesta separada ahorra tiempo de corrección, y la configuración por ejercicio permite crear páginas diferenciadas para grupos de niveles mixtos.',
-        platform: 'Aula / Refuerzo / Educación en casa',
+          'Sube imágenes personalizadas para crear fichas de patrones adaptadas a cualquier materia o unidad — usa etapas de crecimiento de plantas para una lección de ciencias, formas geométricas para una clase de matemáticas, o símbolos de notas musicales para una clase de música. Nueve tipos de patrones te permiten adaptar el ejercicio al objetivo de aprendizaje: AB para la introducción, ABC para la práctica, ABCD para la evaluación. Combina casilla vacía y opción múltiple en la misma página para práctica variada. Activa el inicio aleatorio y la posición aleatoria del espacio en blanco para generar fichas únicas para cada usuario, impidiendo la copia. La pestaña de clave de respuesta separada ahorra valor percibido, y la configuración por ejercicio permite crear páginas diferenciadas para grupos de niveles mixtos.',
+        platform: 'Tienda / Refuerzo / Educación en casa',
       },
     ],
   },
@@ -148,7 +148,7 @@ const content: AppContent = {
     {
       question: '¿Cuáles son los dos modos de pregunta y cómo funcionan?',
       answer:
-        'El modo Casilla Vacía reemplaza un elemento del patrón con un espacio en blanco — los alumnos deben identificar el patrón y determinar el elemento que falta sin ninguna pista. El modo Opción Múltiple presenta la casilla vacía acompañada de tres respuestas posibles: un elemento correcto y dos distractores de diferentes posiciones del patrón. La Casilla Vacía evalúa el razonamiento abierto; la Opción Múltiple evalúa el reconocimiento con opciones estructuradas. Ambos modos funcionan con los nueve tipos de patrones, dando 18 estilos de ejercicio distintos.',
+        'El modo Casilla Vacía reemplaza un elemento del patrón con un espacio en blanco — los usuarios deben identificar el patrón y determinar el elemento que falta sin ninguna pista. El modo Opción Múltiple presenta la casilla vacía acompañada de tres respuestas posibles: un elemento correcto y dos distractores de diferentes posiciones del patrón. La Casilla Vacía evalúa el razonamiento abierto; la Opción Múltiple evalúa el reconocimiento con opciones estructuradas. Ambos modos funcionan con los nueve tipos de patrones, dando 18 estilos de ejercicio distintos.',
     },
     {
       question: '¿Cómo funciona la configuración por ejercicio?',
@@ -158,12 +158,12 @@ const content: AppContent = {
     {
       question: '¿Qué hacen los ajustes de Inicio Aleatorio y Posición Aleatoria del Espacio en Blanco?',
       answer:
-        'Inicio Aleatorio comienza el patrón en un punto aleatorio del ciclo en lugar de siempre en el primer elemento — un patrón ABC podría comenzar en C-A-B-C en vez de A-B-C. Posición Aleatoria del Espacio en Blanco coloca el elemento que falta en cualquier posición de la secuencia en lugar de una ubicación fija. Juntos, estos ajustes impiden que los alumnos resuelvan los patrones por rutina y garantizan que cada ficha generada presente un desafío nuevo, incluso usando el mismo tipo de patrón y tema.',
+        'Inicio Aleatorio comienza el patrón en un punto aleatorio del ciclo en lugar de siempre en el primer elemento — un patrón ABC podría comenzar en C-A-B-C en vez de A-B-C. Posición Aleatoria del Espacio en Blanco coloca el elemento que falta en cualquier posición de la secuencia en lugar de una ubicación fija. Juntos, estos ajustes impiden que los usuarios resuelvan los patrones por rutina y garantizan que cada ficha generada presente un desafío nuevo, incluso usando el mismo tipo de patrón y tema.',
     },
     {
       question: '¿Cuántos ejercicios puedo poner en una página?',
       answer:
-        'Puedes configurar de 1 a 8 ejercicios por página, con un valor predeterminado de 5. Menos ejercicios por página crean filas de cuadrícula más grandes y claras, ideales para alumnos pequeños o práctica enfocada. Más ejercicios crean fichas más densas adecuadas para evaluación o repaso. Combinado con la configuración por ejercicio, 8 ejercicios en una página pueden presentar 8 tipos de patrones diferentes o mezclar los modos casilla vacía y opción múltiple para práctica completa.',
+        'Puedes configurar de 1 a 8 ejercicios por página, con un valor predeterminado de 5. Menos ejercicios por página crean filas de cuadrícula más grandes y claras, ideales para usuarios pequeños o práctica enfocada. Más ejercicios crean fichas más densas adecuadas para evaluación o repaso. Combinado con la configuración por ejercicio, 8 ejercicios en una página pueden presentar 8 tipos de patrones diferentes o mezclar los modos casilla vacía y opción múltiple para práctica completa.',
     },
     {
       question: '¿Cómo selecciono las imágenes para cada ejercicio?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de patrones como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos educativos en TPT o a través de cualquier otro canal de venta. Nueve tipos de patrones, dos modos de pregunta y la configuración por ejercicio te ofrecen la mayor variedad y diferenciación de productos en las categorías de los marketplaces.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de patrones como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. Nueve tipos de patrones, dos modos de pregunta y la configuración por ejercicio te ofrecen la mayor variedad y diferenciación de productos en las categorías de los marketplaces.',
     },
     {
       question: '¿Cuál es la política de reembolso?',
@@ -268,18 +268,18 @@ const content: AppContent = {
     sampleGallery: [
       {
         src: '/samples/spanish/pattern worksheet/Rompecabezas de Patrones 2.webp',
-        alt: 'Ficha de patrones con ejercicios AB en casilla vacía usando imágenes de animales en un diseño en cuadrícula con espacios vacíos para que los alumnos completen',
-        caption: 'Ejercicios AB en casilla vacía con tema animales — los alumnos identifican el patrón alternante y completan la imagen que falta',
+        alt: 'Ficha de patrones con ejercicios AB en casilla vacía usando imágenes de animales en un diseño en cuadrícula con espacios vacíos para que los usuarios completen',
+        caption: 'Ejercicios AB en casilla vacía con tema animales — los usuarios identifican el patrón alternante y completan la imagen que falta',
       },
       {
         src: '/samples/spanish/pattern worksheet/Rompecabezas de Patrones 3.webp',
         alt: 'Ficha de patrones con ejercicios ABC en opción múltiple usando imágenes de vehículos con tres opciones de respuesta por ejercicio',
-        caption: 'Ejercicios ABC en opción múltiple con tema vehículos — los alumnos eligen el elemento correcto que falta entre tres opciones',
+        caption: 'Ejercicios ABC en opción múltiple con tema vehículos — los usuarios eligen el elemento correcto que falta entre tres opciones',
       },
       {
         src: '/samples/spanish/pattern worksheet/Rompecabezas de Patrones 1 answer_key.webp',
         alt: 'Clave de respuesta de la ficha de patrones mostrando todas las casillas vacías completadas con los elementos correctos del patrón',
-        caption: 'Vista de clave de respuesta — todas las casillas completadas con los elementos correctos del patrón para la verificación del profesor',
+        caption: 'Vista de clave de respuesta — todas las casillas completadas con los elementos correctos del patrón para la verificación del vendedor',
       },
     ],
     youtubeId: 'W94X5_RA3ug',

@@ -6,8 +6,8 @@ const content: AppContent = {
     secondaryKeywords: [
       'creatore di puzzle pezzi mancanti stampabili per venditori Etsy',
       'generatore di schede puzzle visivi per editori Amazon KDP',
-      'creatore di puzzle pezzi mancanti licenza commerciale TPT',
-      'vendere schede di pezzi mancanti stampabili su Teachers Pay Teachers',
+      'creatore di puzzle pezzi mancanti licenza commerciale Gumroad',
+      'vendere schede di pezzi mancanti stampabili su Gumroad',
     ],
     lsiKeywords: [
       'prodotti digitali di puzzle visivi per imprenditori',
@@ -15,14 +15,14 @@ const content: AppContent = {
       'attività di puzzle stampabili per business online',
     ],
     titleTag: 'Generatore Puzzle Pezzi Mancanti | Creare e Vendere',
-    metaDescription: 'Crea puzzle di pezzi mancanti da vendere su Etsy, KDP e TPT. 6 forme di pezzo, difficoltà configurabile, foglio risposte automatico. Prova gratuita filigrana.',
+    metaDescription: 'Crea puzzle di pezzi mancanti da vendere su Etsy, KDP e Gumroad. 6 forme di pezzo, difficoltà configurabile, foglio risposte automatico. Prova gratuita filigrana.',
   },
 
   hero: {
     title: 'Generatore di Puzzle Pezzi Mancanti per Puzzle Visivi Stile Jigsaw',
-    tagline: 'Genera puzzle stile jigsaw dove i pezzi vengono ritagliati dalle immagini e gli alunni identificano l\'opzione numerata corretta — con 6 forme di pezzo, 1–5 pezzi mancanti, 2–6 opzioni di soluzione con pezzi distrattori, fogli risposte autogenerati e design puramente visivo che funziona in qualsiasi lingua.',
+    tagline: 'Genera puzzle stile jigsaw dove i pezzi vengono ritagliati dalle immagini e gli utenti identificano l\'opzione numerata corretta — con 6 forme di pezzo, 1–5 pezzi mancanti, 2–6 opzioni di soluzione con pezzi distrattori, fogli risposte autogenerati e design puramente visivo che funziona in qualsiasi lingua.',
     description:
-      'Crea puzzle professionali di pezzi mancanti dove un\'immagine presenta lacune ritagliate e gli alunni identificano quale opzione numerata riempie ciascuno spazio. L\'algoritmo intelligente di estrazione dei pezzi individua aree visivamente distinte con sufficiente varianza di colore, garantendo che ogni puzzle sia risolvibile e coinvolgente. Scegli tra 6 forme di pezzo — quadrato, cerchio, rettangolo verticale, rettangolo orizzontale, ellisse verticale e ellisse orizzontale — e configura la difficoltà con 1–5 pezzi mancanti e 2–6 opzioni di soluzione che includono pezzi distrattori per stimolare le capacità di discriminazione visiva. Ogni puzzle include un foglio risposte generato automaticamente con etichette numerate evidenziate in giallo posizionate all\'interno di ogni lacuna per indicare l\'opzione corretta. L\'intestazione autogenerata mostra «Pezzi Mancanti» in turchese (#06B6D4) con una descrizione in rosa (#DB2777) all\'interno di un sistema a doppio bordo — bordo esterno verde acqua (#14B8A6, 8px) e bordo interno rosa intenso (#EC4899, 3px) — localizzata in tutte le 11 lingue supportate. Pezzi Mancanti NON è sensibile alla lingua: i puzzle sono puramente visivi senza contenuto dipendente dalla lingua, quindi ogni puzzle funziona in modo identico in tutto il mondo. L\'Accesso Completo sblocca tutti i 104 temi con oltre 3100 illustrazioni e le 11 lingue di interfaccia. Aggiungi temi di sfondo e temi di bordo con controlli di opacità indipendenti, ed esporta PDF e JPEG pronti per la stampa a 300 DPI nei formati Lettera, A4, Quadrato o personalizzato. Che tu venda pacchetti di puzzle visivi su Etsy, compili quaderni di puzzle per Amazon KDP o crei attività di pensiero critico per TPT, questo generatore produce puzzle pronti per la produzione in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Crea puzzle professionali di pezzi mancanti dove un\'immagine presenta lacune ritagliate e gli utenti identificano quale opzione numerata riempie ciascuno spazio. L\'algoritmo intelligente di estrazione dei pezzi individua aree visivamente distinte con sufficiente varianza di colore, garantendo che ogni puzzle sia risolvibile e coinvolgente. Scegli tra 6 forme di pezzo — quadrato, cerchio, rettangolo verticale, rettangolo orizzontale, ellisse verticale e ellisse orizzontale — e configura la difficoltà con 1–5 pezzi mancanti e 2–6 opzioni di soluzione che includono pezzi distrattori per stimolare le capacità di discriminazione visiva. Ogni puzzle include un foglio risposte generato automaticamente con etichette numerate evidenziate in giallo posizionate all\'interno di ogni lacuna per indicare l\'opzione corretta. L\'intestazione autogenerata mostra «Pezzi Mancanti» in turchese (#06B6D4) con una descrizione in rosa (#DB2777) all\'interno di un sistema a doppio bordo — bordo esterno verde acqua (#14B8A6, 8px) e bordo interno rosa intenso (#EC4899, 3px) — localizzata in tutte le 11 lingue supportate. Pezzi Mancanti NON è sensibile alla lingua: i puzzle sono puramente visivi senza contenuto dipendente dalla lingua, quindi ogni puzzle funziona in modo identico in tutto il mondo. L\'Accesso Completo sblocca tutti i 104 temi con oltre 3100 illustrazioni e le 11 lingue di interfaccia. Aggiungi temi di sfondo e temi di bordo con controlli di opacità indipendenti, ed esporta PDF e JPEG pronti per la stampa a 300 DPI nei formati Lettera, A4, Quadrato o personalizzato. Che tu venda pacchetti di puzzle visivi su Etsy, compili quaderni di puzzle per Amazon KDP o crei attività di pensiero critico per Gumroad, questo generatore produce puzzle pronti per la produzione in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {
@@ -51,7 +51,7 @@ const content: AppContent = {
       {
         title: 'Genera il Foglio Risposte e Scarica',
         description:
-          'Passa alla scheda Foglio Risposte per visualizzare il foglio risposte generato automaticamente. La stessa immagine del puzzle appare con le lacune, e le etichette numerate evidenziate in giallo (rgba(255,255,0,0.7)) all\'interno di ogni lacuna mostrano l\'indice dell\'opzione corretta. Scarica entrambe le versioni con quattro pulsanti dedicati: Scheda JPEG, Foglio Risposte JPEG, Scheda PDF e Foglio Risposte PDF — tutti renderizzati a 300 DPI con qualità JPEG 1.0. Attiva la scala di grigi per versioni a risparmio d\'inchiostro. Ogni esportazione è pronta per la produzione: inserzioni Etsy, interni Amazon KDP e file prodotto TPT.',
+          'Passa alla scheda Foglio Risposte per visualizzare il foglio risposte generato automaticamente. La stessa immagine del puzzle appare con le lacune, e le etichette numerate evidenziate in giallo (rgba(255,255,0,0.7)) all\'interno di ogni lacuna mostrano l\'indice dell\'opzione corretta. Scarica entrambe le versioni con quattro pulsanti dedicati: Scheda JPEG, Foglio Risposte JPEG, Scheda PDF e Foglio Risposte PDF — tutti renderizzati a 300 DPI con qualità JPEG 1.0. Attiva la scala di grigi per versioni a risparmio d\'inchiostro. Ogni esportazione è pronta per la produzione: inserzioni Etsy, interni Amazon KDP e file prodotto Gumroad.',
       },
     ],
   },
@@ -62,7 +62,7 @@ const content: AppContent = {
       {
         title: 'Puzzle Stile Jigsaw con Pezzi Mancanti e Difficoltà Configurabile',
         description:
-          'Crea puzzle dove un\'immagine presenta lacune ritagliate e gli alunni identificano quale opzione numerata riempie ciascuno spazio. Configura la difficoltà con due controlli indipendenti: imposta 1–5 pezzi mancanti per controllare la complessità del puzzle, e imposta 2–6 opzioni di soluzione per controllare quante scelte valutano gli alunni. Più pezzi mancanti significa più ragionamento spaziale; più opzioni di soluzione (inclusi distrattori) significa discriminazione visiva più acuta. Questo sistema di difficoltà a due assi ti permette di creare puzzle che spaziano dall\'identificazione semplice di un singolo pezzo a sfide complesse con pezzi multipli.',
+          'Crea puzzle dove un\'immagine presenta lacune ritagliate e gli utenti identificano quale opzione numerata riempie ciascuno spazio. Configura la difficoltà con due controlli indipendenti: imposta 1–5 pezzi mancanti per controllare la complessità del puzzle, e imposta 2–6 opzioni di soluzione per controllare quante scelte valutano gli utenti. Più pezzi mancanti significa più ragionamento spaziale; più opzioni di soluzione (inclusi distrattori) significa discriminazione visiva più acuta. Questo sistema di difficoltà a due assi ti permette di creare puzzle che spaziano dall\'identificazione semplice di un singolo pezzo a sfide complesse con pezzi multipli.',
       },
       {
         title: 'Sei Forme di Pezzo: Quadrato, Cerchio, Rettangolo e Varianti di Ellisse',
@@ -77,12 +77,12 @@ const content: AppContent = {
       {
         title: 'Foglio Risposte Automatico con Etichette Numerate Evidenziate in Giallo',
         description:
-          'Ogni puzzle di pezzi mancanti genera automaticamente un foglio risposte complementare in una scheda canvas separata. Il foglio risposte visualizza la stessa immagine del puzzle con le lacune e posiziona etichette numerate evidenziate in giallo (rgba(255,255,0,0.7)) all\'interno di ogni lacuna mostrando l\'indice dell\'opzione corretta a base 1. La dimensione del font si scala al 60% della dimensione del pezzo per una leggibilità chiara. Non serve creare risposte manualmente — il foglio risposte resta perfettamente sincronizzato con il puzzle. Scarica il foglio risposte come answer_key.jpeg o answer_key.pdf insieme alla scheda dell\'alunno.',
+          'Ogni puzzle di pezzi mancanti genera automaticamente un foglio risposte complementare in una scheda canvas separata. Il foglio risposte visualizza la stessa immagine del puzzle con le lacune e posiziona etichette numerate evidenziate in giallo (rgba(255,255,0,0.7)) all\'interno di ogni lacuna mostrando l\'indice dell\'opzione corretta a base 1. La dimensione del font si scala al 60% della dimensione del pezzo per una leggibilità chiara. Non serve creare risposte manualmente — il foglio risposte resta perfettamente sincronizzato con il puzzle. Scarica il foglio risposte come answer_key.jpeg o answer_key.pdf insieme alla scheda dell\'utente.',
       },
       {
         title: 'Opzioni di Soluzione Numerate con Pezzi Distrattori',
         description:
-          'Le opzioni di soluzione vengono visualizzate in contenitori numerati (1–N) con etichette numerate evidenziate in giallo per un\'identificazione chiara. Quando le opzioni di soluzione superano il numero di pezzi mancanti, le opzioni extra sono pezzi distrattori — estratti da aree diverse della stessa immagine che non corrispondono a nessuna lacuna. I distrattori costringono gli alunni a confrontare attentamente i dettagli visivi invece di risolvere semplicemente per eliminazione. Le schede verticali organizzano le opzioni in una riga orizzontale sotto il puzzle (75% della dimensione massima); le schede orizzontali le posizionano sul lato destro (50% della larghezza) in una riga orizzontale.',
+          'Le opzioni di soluzione vengono visualizzate in contenitori numerati (1–N) con etichette numerate evidenziate in giallo per un\'identificazione chiara. Quando le opzioni di soluzione superano il numero di pezzi mancanti, le opzioni extra sono pezzi distrattori — estratti da aree diverse della stessa immagine che non corrispondono a nessuna lacuna. I distrattori costringono gli utenti a confrontare attentamente i dettagli visivi invece di risolvere semplicemente per eliminazione. Le schede verticali organizzano le opzioni in una riga orizzontale sotto il puzzle (75% della dimensione massima); le schede orizzontali le posizionano sul lato destro (50% della larghezza) in una riga orizzontale.',
       },
       {
         title: 'Libreria Immagini con 104 Collezioni Tematiche e Oltre 3100 Illustrazioni',
@@ -92,7 +92,7 @@ const content: AppContent = {
       {
         title: 'Esportazione PDF e JPEG Pronta per la Stampa a 300 DPI con Modalità Scala di Grigi',
         description:
-          'Scarica puzzle di pezzi mancanti e fogli risposte come immagini JPEG ad alta risoluzione o documenti PDF pronti per la stampa renderizzati a 300 DPI (moltiplicatore 6×) con qualità JPEG 1.0. Quattro pulsanti dedicati esportano separatamente la scheda e il foglio risposte. I formati di pagina includono Lettera Verticale, Lettera Orizzontale, A4 Verticale, A4 Orizzontale, Quadrato (1200×1200) e dimensioni completamente personalizzate. Attiva la scala di grigi per versioni a risparmio d\'inchiostro. Ogni esportazione è pronta per la produzione: download digitali, quaderni stampati e materiali per la classe.',
+          'Scarica puzzle di pezzi mancanti e fogli risposte come immagini JPEG ad alta risoluzione o documenti PDF pronti per la stampa renderizzati a 300 DPI (moltiplicatore 6×) con qualità JPEG 1.0. Quattro pulsanti dedicati esportano separatamente la scheda e il foglio risposte. I formati di pagina includono Lettera Verticale, Lettera Orizzontale, A4 Verticale, A4 Orizzontale, Quadrato (1200×1200) e dimensioni completamente personalizzate. Attiva la scala di grigi per versioni a risparmio d\'inchiostro. Ogni esportazione è pronta per la produzione: download digitali, quaderni stampati e materiali per il negozio.',
       },
       {
         title: 'Modifica Completa del Canvas con Strumenti di Testo, Allineamento e Controlli Livelli',
@@ -118,16 +118,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.it)',
       },
       {
-        title: 'Attività di Puzzle per la Classe su TPT',
+        title: 'Attività di Puzzle per il negozio su Gumroad',
         description:
-          'Crea attività pronte all\'uso di discriminazione visiva e pensiero critico per Teachers Pay Teachers. I puzzle di pezzi mancanti rafforzano il ragionamento spaziale, l\'analisi visiva e l\'attenzione ai dettagli — competenze apprezzate nei programmi scolastici dell\'infanzia e della primaria. Crea set allineati al curriculum: puzzle di habitat animali, puzzle di scene stagionali, puzzle di aiutanti della comunità e puzzle di gruppi alimentari. Ogni set include schede per gli alunni e fogli risposte nei formati PDF e JPEG. La difficoltà configurabile ti permette di creare versioni differenziate dello stesso puzzle per classi con livelli misti.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Crea attività pronte all\'uso di discriminazione visiva e pensiero critico per Gumroad. I puzzle di pezzi mancanti rafforzano il ragionamento spaziale, l\'analisi visiva e l\'attenzione ai dettagli — competenze apprezzate nei cataloghi prodotti dell\'infanzia e della primaria. Crea set allineati al mercato: puzzle di habitat animali, puzzle di scene stagionali, puzzle di aiutanti della comunità e puzzle di gruppi alimentari. Ogni set include schede per gli utenti e fogli risposte nei formati PDF e JPEG. La difficoltà configurabile ti permette di creare versioni differenziate dello stesso puzzle per negozi con livelli misti.',
+        platform: 'Gumroad (teacherspayteachers.com)',
       },
       {
         title: 'Collezioni di Puzzle Stagionali e Festivi',
         description:
           'Le 104 collezioni di immagini tematiche coprono ogni occasione stagionale e festiva — Natale, Halloween, Pasqua, San Valentino, ritorno a scuola, vacanze estive e altro. Crea collezioni di puzzle stagionali a disponibilità limitata che si allineino ai periodi di massima domanda commerciale. Pubblica pacchetti di puzzle di Halloween a settembre, collezioni di Natale a ottobre e pacchetti di San Valentino a gennaio. Varia le forme di pezzo e i livelli di difficoltà all\'interno di ogni set stagionale per massimo valore. I prodotti stagionali raggiungono prezzi più alti durante le finestre di massima domanda e creano ragioni naturali per acquisti ricorrenti dalla tua base di clienti.',
-        platform: 'Etsy / Amazon KDP / TPT (stagionale)',
+        platform: 'Etsy / Amazon KDP / Gumroad (stagionale)',
       },
       {
         title: 'Portata Globale — I Puzzle Visivi Non Richiedono Traduzione',
@@ -142,7 +142,7 @@ const content: AppContent = {
     {
       question: 'Come funziona il meccanismo del puzzle di pezzi mancanti?',
       answer:
-        'Il generatore prende un\'immagine dalla libreria (o la tua immagine caricata) e ritaglia 1–5 pezzi, lasciando lacune bianche con contorni a tratto nero nelle posizioni originali. Poi visualizza 2–6 opzioni di soluzione numerate sotto o accanto al puzzle — i pezzi corretti più pezzi distrattori estratti da altre aree della stessa immagine. Gli alunni esaminano le lacune e le opzioni numerate, poi identificano quale opzione riempie ciascuno spazio in base al colore, al pattern e al dettaglio visivo.',
+        'Il generatore prende un\'immagine dalla libreria (o la tua immagine caricata) e ritaglia 1–5 pezzi, lasciando lacune bianche con contorni a tratto nero nelle posizioni originali. Poi visualizza 2–6 opzioni di soluzione numerate sotto o accanto al puzzle — i pezzi corretti più pezzi distrattori estratti da altre aree della stessa immagine. gli utenti esaminano le lacune e le opzioni numerate, poi identificano quale opzione riempie ciascuno spazio in base al colore, al pattern e al dettaglio visivo.',
     },
     {
       question: 'Quali sono le 6 forme di pezzo disponibili?',
@@ -152,12 +152,12 @@ const content: AppContent = {
     {
       question: 'Come funzionano le impostazioni di difficoltà?',
       answer:
-        'La difficoltà è controllata da due impostazioni indipendenti. Il numero di pezzi mancanti (1–5) determina quante lacune vengono ritagliate dall\'immagine — più pezzi significa più ragionamento spaziale. Il numero di opzioni di soluzione (2–6) determina quante scelte numerate valutano gli alunni — quando le opzioni superano i pezzi mancanti, le extra sono distrattori che richiedono un confronto visivo attento. Un puzzle con 1 pezzo mancante e 2 opzioni è facile; 5 pezzi mancanti con 6 opzioni è impegnativo.',
+        'La difficoltà è controllata da due impostazioni indipendenti. Il numero di pezzi mancanti (1–5) determina quante lacune vengono ritagliate dall\'immagine — più pezzi significa più ragionamento spaziale. Il numero di opzioni di soluzione (2–6) determina quante scelte numerate valutano gli utenti — quando le opzioni superano i pezzi mancanti, le extra sono distrattori che richiedono un confronto visivo attento. Un puzzle con 1 pezzo mancante e 2 opzioni è facile; 5 pezzi mancanti con 6 opzioni è impegnativo.',
     },
     {
       question: 'Cosa sono i pezzi distrattori e come vengono generati?',
       answer:
-        'I pezzi distrattori sono opzioni di soluzione aggiuntive che non corrispondono a nessuna lacuna del puzzle. Vengono estratti da aree diverse della stessa immagine fonte usando fino a 200 tentativi di posizionamento ciascuno, assicurando che non si sovrappongano con i pezzi corretti. I distrattori impediscono agli alunni di risolvere semplicemente per eliminazione — devono confrontare attentamente colori, pattern e dettagli visivi per distinguere le opzioni corrette da alternative dall\'aspetto simile.',
+        'I pezzi distrattori sono opzioni di soluzione aggiuntive che non corrispondono a nessuna lacuna del puzzle. Vengono estratti da aree diverse della stessa immagine fonte usando fino a 200 tentativi di posizionamento ciascuno, assicurando che non si sovrappongano con i pezzi corretti. I distrattori impediscono agli utenti di risolvere semplicemente per eliminazione — devono confrontare attentamente colori, pattern e dettagli visivi per distinguere le opzioni corrette da alternative dall\'aspetto simile.',
     },
     {
       question: 'Come funziona l\'algoritmo intelligente di estrazione dei pezzi?',
@@ -192,7 +192,7 @@ const content: AppContent = {
     {
       question: 'Posso vendere puzzle di pezzi mancanti creati con questo strumento su Etsy e Amazon KDP?',
       answer:
-        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere i tuoi puzzle di pezzi mancanti come download digitali su Etsy, come quaderni stampati su Amazon KDP, come risorse educative su TPT o attraverso qualsiasi altro canale di vendita. Le 6 forme di pezzo, la difficoltà configurabile, i fogli risposte automatici e le 104 collezioni di immagini tematiche ti forniscono gli strumenti creativi per produrre prodotti di puzzle originali e vendibili.',
+        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere i tuoi puzzle di pezzi mancanti come download digitali su Etsy, come quaderni stampati su Amazon KDP, come risorse educative su Gumroad o attraverso qualsiasi altro canale di vendita. Le 6 forme di pezzo, la difficoltà configurabile, i fogli risposte automatici e le 104 collezioni di immagini tematiche ti forniscono gli strumenti creativi per produrre prodotti di puzzle originali e vendibili.',
     },
     {
       question: 'Qual è la politica di rimborso?',
